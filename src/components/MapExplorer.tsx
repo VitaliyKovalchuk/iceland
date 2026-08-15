@@ -43,6 +43,8 @@ export default function MapExplorer() {
   const [cats, setCats] = useState<Set<string>>(new Set());
   const [radius, setRadius] = useState(5);
   const [showTowns, setShowTowns] = useState(false);
+  const [showStops, setShowStops] = useState(true);
+  const [showBeds, setShowBeds] = useState(true);
   const [query, setQuery] = useState("");
   const [focus, setFocus] = useState<Place | null>(null);
   const [sheet, setSheet] = useState(false);
@@ -132,7 +134,15 @@ export default function MapExplorer() {
       )}
 
       <div className="relative min-h-0 flex-1">
-        <MapCanvas places={places} day={day} focus={focus} onSelect={setFocus} filters={filters} />
+        <MapCanvas
+          places={places}
+          day={day}
+          focus={focus}
+          onSelect={setFocus}
+          filters={filters}
+          showStops={showStops}
+          showBeds={showBeds}
+        />
 
         <button
           onClick={() => setSheet((v) => !v)}
@@ -165,6 +175,18 @@ export default function MapExplorer() {
                 ))}
                 <button onClick={() => setShowTowns((v) => !v)} className={`${chip(showTowns)} ml-auto`}>
                   Town centres
+                </button>
+              </div>
+
+              <div className="flex items-center gap-1">
+                <span className="mr-0.5 font-mono text-[9.5px] tracking-[0.08em] uppercase text-[var(--color-ink-3)]">
+                  ours
+                </span>
+                <button onClick={() => setShowStops((v) => !v)} className={chip(showStops)}>
+                  Stops we visit
+                </button>
+                <button onClick={() => setShowBeds((v) => !v)} className={chip(showBeds)}>
+                  Where we sleep
                 </button>
               </div>
             </div>

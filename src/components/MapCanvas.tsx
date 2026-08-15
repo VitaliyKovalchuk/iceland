@@ -116,10 +116,11 @@ function PlaceMarkers({
 }
 
 export default function MapCanvas({
-  places, day, focus, onSelect, filters,
+  places, day, focus, onSelect, filters, showStops = true, showBeds = true,
 }: {
   places: Place[]; day: number; focus: Place | null;
   onSelect: (p: Place) => void; filters: Filters;
+  showStops?: boolean; showBeds?: boolean;
 }) {
   const days = day < 0 ? itinerary.days.map((_, i) => i) : [day];
 
@@ -160,7 +161,7 @@ export default function MapCanvas({
       <PlaceMarkers places={places} focus={focus} onSelect={onSelect} filters={filters} />
 
       {/* our own stops */}
-      {days.flatMap((i) =>
+      {showStops && days.flatMap((i) =>
         itinerary.days[i].stops.filter((s) => s.dwell > 0).map((s, n) => {
           const q = poi(s.loc);
           return (
@@ -184,7 +185,7 @@ export default function MapCanvas({
       )}
 
       {/* where we sleep */}
-      {trip.bookings.map((b) =>
+      {showBeds && trip.bookings.map((b) =>
         b.lat && b.lng ? (
           <CircleMarker key={`bed-${b.night}`} center={[b.lat, b.lng]} radius={8}
             pane="markerPane"
