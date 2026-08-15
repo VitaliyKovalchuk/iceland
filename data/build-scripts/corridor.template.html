@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What's near the road</title>
+<meta name="description" content="Every sight, café and shop within 10 km of the roads we actually drive — filterable by day.">
+<style>__LEAFLET_CSS__</style>
+<style>
+:root{
+  color-scheme: light;
+  --ground:#EDF1F2; --surface:#FAFBFB; --raised:#FFFFFF;
+  --ink:#0E1518; --ink-2:#4A5A61; --ink-3:#7A8B92;
+  --line:#D4DDE0; --line-2:#E3EAEC;
+  --accent:#0B6874; --accent-ink:#08535D; --accent-soft:#DCEAED;
+  --ok:#4E9E5F; --warn:#B5730B; --bad:#9E2F20;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  color-scheme: dark;
+  --ground:#0C1114; --surface:#131A1D; --raised:#182125;
+  --ink:#E9F0F2; --ink-2:#9BAFB7; --ink-3:#68797F;
+  --line:#222E33; --line-2:#1A2428;
+  --accent:#4FC0CB; --accent-ink:#8FDCE4; --accent-soft:#102A2F;
+  --ok:#48A865; --warn:#BE8A1A; --bad:#B8452F;
+}}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --ground:#0C1114; --surface:#131A1D; --raised:#182125;
+  --ink:#E9F0F2; --ink-2:#9BAFB7; --ink-3:#68797F;
+  --line:#222E33; --line-2:#1A2428;
+  --accent:#4FC0CB; --accent-ink:#8FDCE4; --accent-soft:#102A2F;
+  --ok:#48A865; --warn:#BE8A1A; --bad:#B8452F;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0; background:var(--ground); color:var(--ink); font-family:var(--sans);
+  font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased;
+  display:flex; flex-direction:column; overflow:hidden}
+header{padding:12px 18px; border-bottom:1px solid var(--line); background:var(--surface);
+  display:flex; align-items:center; gap:16px; flex-wrap:wrap; flex:none}
+h1{margin:0; font-size:17px; letter-spacing:-.02em; font-weight:700; white-space:nowrap}
+h1 span{font-weight:300; color:var(--ink-2)}
+.eyebrow{font-family:var(--mono); font-size:10px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--ink-3); display:block; font-weight:500}
+.grow{flex:1}
+button,select{font-family:inherit; font-size:12.5px; background:var(--raised); color:var(--ink);
+  border:1px solid var(--line); border-radius:5px; padding:5px 9px; cursor:pointer}
+button:hover,select:hover{border-color:var(--accent)}
+button.on{background:var(--accent); color:var(--surface); border-color:var(--accent)}
+.seg{display:inline-flex; border:1px solid var(--line); border-radius:5px; overflow:hidden}
+.seg button{border:0; border-radius:0; border-right:1px solid var(--line)}
+.seg button:last-child{border-right:0}
+main{flex:1; display:flex; min-height:0}
+#map{flex:1; min-width:0; background:var(--ground)}
+aside{width:326px; flex:none; border-left:1px solid var(--line); background:var(--surface);
+  display:flex; flex-direction:column; min-height:0}
+.filters{padding:11px 14px; border-bottom:1px solid var(--line); display:flex;
+  flex-wrap:wrap; gap:6px; align-items:center}
+.filters label{font-family:var(--mono); font-size:9.5px; letter-spacing:.09em;
+  text-transform:uppercase; color:var(--ink-3); width:100%; margin-top:2px}
+.filters label:first-child{margin-top:0}
+#count{padding:8px 14px; font-family:var(--mono); font-size:10.5px; letter-spacing:.06em;
+  text-transform:uppercase; color:var(--ink-3); border-bottom:1px solid var(--line-2)}
+#list{overflow-y:auto; flex:1; min-height:0}
+.row{padding:9px 14px; border-bottom:1px solid var(--line-2); cursor:pointer; display:flex; gap:9px}
+.row:hover{background:var(--accent-soft)}
+.row .dot{width:9px; height:9px; border-radius:50%; margin-top:5px; flex:none;
+  border:1.5px solid rgba(0,0,0,.25)}
+.row .bd{min-width:0; flex:1}
+.row .nm{font-size:13.5px; font-weight:500; line-height:1.3}
+.row .mt{font-family:var(--mono); font-size:10px; color:var(--ink-3); margin-top:2px}
+.row .oh{font-size:11px; color:var(--ink-2); margin-top:2px; font-variant-numeric:tabular-nums}
+.row.planned .nm::after{content:" ✓"; color:var(--ok); font-weight:700}
+.leaflet-popup-content{margin:11px 13px; font-family:var(--sans); font-size:13px; line-height:1.5}
+.leaflet-popup-content h3{margin:0 0 3px; font-size:14.5px}
+.leaflet-popup-content .mt{font-family:var(--mono); font-size:10px; color:#667; letter-spacing:.05em;
+  text-transform:uppercase}
+.leaflet-popup-content a{display:inline-block; margin-top:7px; font-family:var(--mono); font-size:10px;
+  letter-spacing:.06em; text-transform:uppercase; text-decoration:none; color:#08535D;
+  border:1px solid #0B6874; background:#DCEAED; border-radius:4px; padding:3px 7px}
+.legend{padding:9px 14px; border-top:1px solid var(--line); font-family:var(--mono);
+  font-size:9.5px; letter-spacing:.05em; color:var(--ink-3); display:flex; flex-wrap:wrap; gap:4px 10px}
+.legend i{width:8px; height:8px; border-radius:50%; display:inline-block; margin-right:3px;
+  border:1px solid rgba(0,0,0,.25)}
+#toggleAside{display:none}
+@media (max-width:900px){
+  aside{position:absolute; right:0; top:0; bottom:0; z-index:900; transform:translateX(100%);
+    transition:transform .2s; box-shadow:-6px 0 22px rgba(0,0,0,.19)}
+  aside.open{transform:none}
+  #toggleAside{display:inline-block}
+  main{position:relative}
+}
+</style>
+</head>
+<body>
+<header>
+  <div><span class="eyebrow">Iceland · 3–10 October 2026</span>
+    <h1>What's near the road <span>— within 10 km</span></h1></div>
+  <div class="grow"></div>
+  <div class="seg" id="planSeg"></div>
+  <select id="daySel"></select>
+  <div class="seg" id="baseSeg"></div>
+  <button id="themeBtn" type="button">Theme</button>
+  <button id="toggleAside" type="button">List</button>
+</header>
+<main>
+  <div id="map"></div>
+  <aside id="aside">
+    <div class="filters">
+      <label>Show</label>
+      <button data-k="sight" class="on kind">Sights</button>
+      <button data-k="food" class="on kind">Food &amp; shops</button>
+      <label>Within</label>
+      <div class="seg" id="radSeg"></div>
+      <label>Also</label>
+      <button id="urbanBtn" type="button">Town centres</button>
+      <button id="plannedBtn" type="button" class="on">Stops we already have</button>
+    </div>
+    <div id="count"></div>
+    <div id="list"></div>
+    <div class="legend" id="legend"></div>
+  </aside>
+</main>
+<script>__LEAFLET_JS__</script>
+<script type="application/json" id="d">__DATA__</script>
+<script>
+const D=JSON.parse(document.getElementById('d').textContent);
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const el=(t,a={},k=[])=>{const n=document.createElement(t);
+  for(const[x,v]of Object.entries(a)){if(v==null)continue;
+    if(x==='text')n.textContent=v;else if(x==='html')n.innerHTML=v;else n.setAttribute(x,v);}
+  (Array.isArray(k)?k:[k]).forEach(c=>c&&n.appendChild(c));return n;};
+const gmaps=s=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(s+', Iceland');
+
+/* Okabe-Ito, reordered so adjacent days stay distinct on a light basemap */
+const DAYC=['#0072B2','#D55E00','#009E73','#CC79A7','#E69F00','#56B4E9','#8B4A9C','#B84A3E'];
+/* category → colour, grouped so the legend stays short */
+const CAT={waterfall:'#2E86C1',hot_spring:'#C0392B',geyser:'#C0392B',public_bath:'#C0392B',
+  swimming_pool:'#C0392B',beach:'#7D6608',volcano:'#873600',cave_entrance:'#4A235A',
+  arch:'#7D6608',viewpoint:'#1E8449',attraction:'#1E8449',nature_reserve:'#1E8449',
+  museum:'#6C3483',castle:'#6C3483',ruins:'#6C3483',archaeological_site:'#6C3483',
+  church:'#6C3483',restaurant:'#B9770E',cafe:'#B9770E',fast_food:'#B9770E',bakery:'#B9770E',
+  bar:'#B9770E',pub:'#B9770E',supermarket:'#5D6D7E',convenience:'#5D6D7E',fuel:'#5D6D7E'};
+const ccol=r=>CAT[r.c]||(r.k==='food'?'#B9770E':'#1E8449');
+const CATNAME={waterfall:'Waterfall',hot_spring:'Hot spring',geyser:'Geyser',
+  public_bath:'Baths',swimming_pool:'Pool',beach:'Beach',volcano:'Volcano',
+  cave_entrance:'Cave',arch:'Arch',viewpoint:'Viewpoint',attraction:'Attraction',
+  nature_reserve:'Nature reserve',museum:'Museum',ruins:'Ruins',
+  archaeological_site:'Archaeology',restaurant:'Restaurant',cafe:'Café',
+  fast_food:'Fast food',bakery:'Bakery',bar:'Bar',pub:'Pub',supermarket:'Supermarket',
+  convenience:'Shop',fuel:'Fuel'};
+
+const S={plan:'ring',day:-1,rad:10,kinds:{sight:1,food:1},urban:0,planned:1,base:'streets'};
+
+const map=L.map('map',{zoomControl:true,preferCanvas:true}).setView([64.9,-18.6],7);
+const BASES={
+  streets:['https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png','© OpenStreetMap'],
+  satellite:['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}','© Esri'],
+  terrain:['https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png','© OpenTopoMap']};
+let baseLayer=null;
+function setBase(k){
+  S.base=k; if(baseLayer) map.removeLayer(baseLayer);
+  baseLayer=L.tileLayer(BASES[k][0],{maxZoom:17,attribution:BASES[k][1]}).addTo(map);
+  baseLayer.bringToBack();
+  $$('#baseSeg button').forEach(b=>b.classList.toggle('on',b.dataset.b===k));
+}
+const routeG=L.layerGroup().addTo(map), stopG=L.layerGroup().addTo(map),
+      poiG=L.layerGroup().addTo(map);
+
+function drawRoute(){
+  routeG.clearLayers(); stopG.clearLayers();
+  const P=D.plans[S.plan];
+  P.days.forEach((d,i)=>{
+    if(S.day>=0 && i!==S.day) return;
+    L.polyline(d.pl,{color:DAYC[i%8],weight:S.day>=0?5:3.4,opacity:S.day>=0?.95:.72}).addTo(routeG);
+    d.stops.forEach(s=>{
+      if(!s.d) return;
+      L.circleMarker([s.la,s.ln],{radius:5.5,color:'#fff',weight:2,
+        fillColor:DAYC[i%8],fillOpacity:1}).addTo(stopG)
+        .bindPopup(`<h3>${s.n}</h3><div class="mt">Day ${i+1} · ${d.date} · planned stop</div>`
+          +`<a href="${gmaps(s.n)}" target="_blank" rel="noopener">Google Maps</a>`);
+    });
+  });
+}
+/* r[plan] is [[km,dayIdx],...] nearest first — a place can sit on more than one day's road */
+const hits=r=>{const a=r[S.plan]||[];
+  return a.filter(([km,d])=>km<=S.rad && (S.day<0 || d===S.day));};
+function visible(){
+  return D.poi.filter(r=>{
+    if(!hits(r).length) return false;
+    if(!S.kinds[r.k]) return false;
+    if(!S.urban && r.u) return false;
+    if(!S.planned && r.in) return false;
+    return true;
+  }).sort((x,y)=>hits(x)[0][0]-hits(y)[0][0]);
+}
+const dayList=r=>hits(r).map(([km,d])=>
+  `day ${d+1} (${D.plans[S.plan].days[d].date}) ${km} km`).join(' · ');
+function popup(r){
+  return `<h3>${r.n}</h3><div class="mt">${CATNAME[r.c]||r.c}</div>`
+    +`<div style="margin-top:4px">${dayList(r)}</div>`
+    +(hits(r).length>1?'<div style="margin-top:3px;color:#667;font-size:11.5px">'
+       +'You pass this on more than one day</div>':'')
+    +(r.oh?`<div style="margin-top:5px">${r.oh}</div>`:'')
+    +(r.in?'<div style="margin-top:5px;color:#4E9E5F">Already a stop in this plan</div>':'')
+    +`<a href="${gmaps(r.n)}" target="_blank" rel="noopener">Google Maps</a>`
+    +(r.w?` <a href="${r.w}" target="_blank" rel="noopener">Website</a>`:'');
+}
+const marks=new Map();
+function render(){
+  drawRoute(); poiG.clearLayers(); marks.clear();
+  const v=visible();
+  v.forEach(r=>{
+    const m=L.circleMarker([r.la,r.ln],{radius:r.in?5:4,color:r.in?'#4E9E5F':'#fff',
+      weight:r.in?2:1.1,fillColor:ccol(r),fillOpacity:.92}).addTo(poiG).bindPopup(()=>popup(r));
+    marks.set(r,m);
+  });
+  const L2=$('#list'); L2.replaceChildren();
+  v.slice(0,400).forEach(r=>{
+    const h=hits(r), days=h.map(([,d])=>d+1).join('/');
+    const row=el('div',{class:'row'+(r.in?' planned':'')},[
+      el('span',{class:'dot',style:`background:${ccol(r)}`}),
+      el('div',{class:'bd'},[
+        el('div',{class:'nm',text:r.n}),
+        el('div',{class:'mt',
+          text:`${CATNAME[r.c]||r.c} · ${h[0][0]} km · day ${days}`}),
+        r.oh?el('div',{class:'oh',text:r.oh}):null])]);
+    row.onclick=()=>{const m=marks.get(r); map.setView([r.la,r.ln],13); m&&m.openPopup();
+      if(innerWidth<=900) $('#aside').classList.remove('open');};
+    L2.append(row);
+  });
+  const nS=v.filter(r=>r.k==='sight').length;
+  $('#count').textContent=`${v.length} within ${S.rad} km — ${nS} sights, ${v.length-nS} food & shops`
+    +(v.length>400?' · showing first 400':'');
+}
+/* controls */
+Object.entries(D.plans).forEach(([k,p])=>{
+  const b=el('button',{type:'button',text:p.label}); b.dataset.p=k;
+  b.onclick=()=>{S.plan=k; buildDays(); $$('#planSeg button').forEach(x=>
+    x.classList.toggle('on',x.dataset.p===k)); render(); fit();};
+  $('#planSeg').append(b);
+});
+Object.keys(BASES).forEach(k=>{
+  const b=el('button',{type:'button',text:k[0].toUpperCase()+k.slice(1)}); b.dataset.b=k;
+  b.onclick=()=>setBase(k); $('#baseSeg').append(b);
+});
+[3,5,10].forEach(km=>{
+  const b=el('button',{type:'button',text:km+' km'}); b.dataset.r=km;
+  b.onclick=()=>{S.rad=km; $$('#radSeg button').forEach(x=>
+    x.classList.toggle('on',+x.dataset.r===km)); render();};
+  $('#radSeg').append(b);
+});
+function buildDays(){
+  const sel=$('#daySel'); sel.replaceChildren();
+  sel.append(el('option',{value:'-1',text:'All 8 days'}));
+  D.plans[S.plan].days.forEach((d,i)=>sel.append(
+    el('option',{value:String(i),text:`Day ${i+1} · ${d.date} — ${d.title}`})));
+  sel.value=String(S.day);
+}
+$('#daySel').onchange=e=>{S.day=+e.target.value; render(); fit();};
+$$('.kind').forEach(b=>b.onclick=()=>{S.kinds[b.dataset.k]=!S.kinds[b.dataset.k];
+  b.classList.toggle('on'); render();});
+$('#urbanBtn').onclick=()=>{S.urban=!S.urban; $('#urbanBtn').classList.toggle('on'); render();};
+$('#plannedBtn').onclick=()=>{S.planned=!S.planned; $('#plannedBtn').classList.toggle('on'); render();};
+$('#toggleAside').onclick=()=>$('#aside').classList.toggle('open');
+(function(){const T=['auto','light','dark'];let t=localStorage.getItem('is-theme')||'auto';
+  const ap=()=>{t==='auto'?document.documentElement.removeAttribute('data-theme')
+    :document.documentElement.setAttribute('data-theme',t);
+    $('#themeBtn').textContent='Theme: '+t;localStorage.setItem('is-theme',t);};
+  $('#themeBtn').onclick=()=>{t=T[(T.indexOf(t)+1)%3];ap();};ap();})();
+function fit(){
+  const P=D.plans[S.plan];
+  const pl=P.days.filter((_,i)=>S.day<0||i===S.day).flatMap(d=>d.pl);
+  if(pl.length) map.fitBounds(L.latLngBounds(pl).pad(.08));
+}
+[['#2E86C1','Waterfall'],['#C0392B','Hot spring / baths'],['#1E8449','Viewpoint / nature'],
+ ['#6C3483','Museum / historic'],['#7D6608','Beach'],['#873600','Volcano'],
+ ['#B9770E','Food'],['#5D6D7E','Shop / fuel']].forEach(([c,n])=>
+  $('#legend').append(el('span',{html:`<i style="background:${c}"></i>${n}`})));
+$$('#planSeg button').forEach(b=>b.classList.toggle('on',b.dataset.p===S.plan));
+$$('#radSeg button').forEach(b=>b.classList.toggle('on',+b.dataset.r===S.rad));
+setBase('streets'); buildDays(); render(); fit();
+</script>
+</body>
+</html>

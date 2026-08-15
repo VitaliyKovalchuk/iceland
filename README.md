@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Iceland Ring Road — 2–10 October 2026
 
-## Getting Started
+Trip guide for three people driving the Ring Road anticlockwise. Next.js, deployed on Vercel.
 
-First, run the development server:
+## Data
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+| file | what |
+|---|---|
+| `data/generated/itinerary.json` | the route — 8 days, POIs, OSRM duration/distance matrices, road polylines |
+| `data/generated/corridor.json` | 1,936 sights and food stops within 10 km of the roads we drive |
+| `data/trip.json` | hand-entered: flights, car, beds, tours |
+| `data/raw/` | untouched source pulls (OSM Overpass, Rexby export, original research) |
+| `data/build-scripts/` | the Python generators that produced the above |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Durations in `itinerary.json` are raw OSRM. **Multiply by 1.15** (`PAD` in `src/lib/data.ts`)
+— that is the October padding the whole route was verified against.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Both routing defects found during planning are already fixed in the data: Oct 6 no longer
+crosses the Öxi gravel pass (939), and Oct 3 no longer cuts over the F338/F578 highland
+interior. Every leg was checked by road name for seasonal closures.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`corridor.json` opening hours come from OpenStreetMap volunteer data — treat as
+"this place exists", not "this place is open".
 
-## Learn More
+## Dev
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    npm run dev
+    npm run build

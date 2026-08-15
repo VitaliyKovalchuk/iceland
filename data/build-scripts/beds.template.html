@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where we sleep — three options, one decision</title>
+<meta name="description" content="Why the Iceland bed plan changed: Hof, Höfn and Kirkjubæjarklaustur compared on the same terms.">
+<style>
+:root{
+  color-scheme: light;
+  --ground:#EDF1F2; --surface:#FAFBFB; --raised:#FFFFFF;
+  --ink:#0E1518; --ink-2:#4A5A61; --ink-3:#7A8B92;
+  --line:#D4DDE0; --line-2:#E3EAEC;
+  --accent:#0B6874; --accent-ink:#08535D; --accent-soft:#DCEAED;
+  --ok:#4E9E5F; --warn:#B5730B; --bad:#9E2F20;
+  --sea:#E2EAED; --land:#FFFFFF; --ice:#E7F0F3; --coast:#B9C8CD;
+  --c-hof:#7A8B92; --c-hofn:#B5730B; --c-kla:#0B6874;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  --serif:ui-serif,"Iowan Old Style","Charter","Palatino Linotype",Georgia,serif;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  color-scheme: dark;
+  --ground:#0C1114; --surface:#131A1D; --raised:#182125;
+  --ink:#E9F0F2; --ink-2:#9BAFB7; --ink-3:#68797F;
+  --line:#222E33; --line-2:#1A2428;
+  --accent:#4FC0CB; --accent-ink:#8FDCE4; --accent-soft:#102A2F;
+  --ok:#48A865; --warn:#BE8A1A; --bad:#B8452F;
+  --sea:#080C0F; --land:#1A2327; --ice:#24343A; --coast:#33474E;
+  --c-hof:#68797F; --c-hofn:#BE8A1A; --c-kla:#4FC0CB;
+}}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --ground:#0C1114; --surface:#131A1D; --raised:#182125;
+  --ink:#E9F0F2; --ink-2:#9BAFB7; --ink-3:#68797F;
+  --line:#222E33; --line-2:#1A2428;
+  --accent:#4FC0CB; --accent-ink:#8FDCE4; --accent-soft:#102A2F;
+  --ok:#48A865; --warn:#BE8A1A; --bad:#B8452F;
+  --sea:#080C0F; --land:#1A2327; --ice:#24343A; --coast:#33474E;
+  --c-hof:#68797F; --c-hofn:#BE8A1A; --c-kla:#4FC0CB;
+}
+*{box-sizing:border-box}
+body{margin:0; background:var(--ground); color:var(--ink); font-family:var(--sans);
+  font-size:15.5px; line-height:1.6; -webkit-font-smoothing:antialiased}
+.wrap{max-width:860px; margin:0 auto; padding:44px 22px 80px}
+h1,h2,h3{margin:0; letter-spacing:-.025em; text-wrap:balance}
+h1{font-size:clamp(26px,4vw,38px); line-height:1.06; font-weight:700}
+h1 .thin{font-weight:300; color:var(--ink-2)}
+h2{font-size:20px; margin:38px 0 12px; padding-bottom:7px; border-bottom:1px solid var(--line)}
+p{margin:0 0 13px}
+.lede{font-size:17px; color:var(--ink-2); margin-top:12px; max-width:62ch}
+.eyebrow{font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--ink-3); font-weight:500}
+.num{font-family:var(--mono); font-variant-numeric:tabular-nums}
+strong{font-weight:650}
+figure{margin:0}
+figcaption{font-family:var(--serif); font-size:13.5px; color:var(--ink-3); margin-top:9px}
+
+.card{background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:16px 18px;
+  margin:14px 0}
+.mapwrap{background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:10px}
+svg{display:block; width:100%; height:auto}
+.legend{display:flex; gap:16px; flex-wrap:wrap; padding:11px 4px 2px; margin-top:8px;
+  border-top:1px solid var(--line-2)}
+.legend span{display:inline-flex; align-items:center; gap:7px; font-family:var(--mono);
+  font-size:10.5px; letter-spacing:.05em; color:var(--ink-3)}
+.dot{width:12px; height:12px; border-radius:50%; border:2px solid var(--surface);
+  box-shadow:0 0 0 1px currentColor}
+
+table{width:100%; border-collapse:collapse; font-size:14px; margin:6px 0}
+th,td{padding:9px 10px 9px 0; text-align:left; border-bottom:1px solid var(--line-2)}
+thead th{font-family:var(--mono); font-size:9.5px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-3); font-weight:500; border-bottom:1px solid var(--line)}
+td.n{font-family:var(--mono); text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+tr.gone td{color:var(--ink-3)}
+tr.gone td:first-child{text-decoration:line-through}
+tr.chosen td{background:var(--accent-soft)}
+td .tag{font-family:var(--mono); font-size:9px; letter-spacing:.06em; text-transform:uppercase;
+  padding:1px 5px; border-radius:3px; border:1px solid currentColor; margin-left:7px}
+.tag.gone{color:var(--bad)} .tag.chosen{color:var(--accent-ink)}
+.best{color:var(--ok); font-weight:650}
+
+.verdict{background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--accent);
+  border-radius:6px; padding:15px 18px; margin:16px 0}
+.verdict.warn{border-left-color:var(--warn)}
+.verdict p:last-child{margin-bottom:0}
+ul{margin:0 0 13px; padding-left:19px}
+li{margin-bottom:5px}
+footer{margin-top:44px; padding-top:18px; border-top:1px solid var(--line);
+  font-size:12.5px; color:var(--ink-3)}
+#themeBtn{float:right; font-family:var(--mono); font-size:10.5px; letter-spacing:.07em;
+  text-transform:uppercase; background:var(--raised); border:1px solid var(--line);
+  color:var(--ink-2); border-radius:5px; padding:6px 10px; cursor:pointer}
+@media (max-width:620px){ table{font-size:13px} th,td{padding:8px 6px 8px 0} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <button id="themeBtn" type="button">Theme</button>
+  <p class="eyebrow">Iceland · nights of 4, 5 and 6 October</p>
+  <h1>Where we sleep<br><span class="thin">three options, one forced decision</span></h1>
+  <p class="lede">The middle of the trip runs along a single road on the south-east coast.
+    Everything turns on how far east we sleep — and one of the three options no longer exists.</p>
+
+  <h2>The three, on the same terms</h2>
+  <div id="cmp"></div>
+  <p style="font-size:13.5px;color:var(--ink-3)">Covers 5–7 October only, since the nights of the
+    2nd, 3rd, 4th, 7th, 8th and 9th are identical in all three. Drive times are routed on real
+    roads and padded 15 % for October.</p>
+
+  <h2>Where each one puts us</h2>
+  <div class="mapwrap"><div id="map"></div>
+    <div class="legend" id="legend"></div>
+  </div>
+
+  <h2>Why it comes down to one line</h2>
+  <figure>
+    <div class="mapwrap"><div id="axis"></div></div>
+    <figcaption>Every sight on these three days sits on one road. Jökulsárlón is the
+      furthest point we go — everything past it is distance with nothing at the end of it.</figcaption>
+  </figure>
+  <div id="why"></div>
+
+  <h2>The honest verdict</h2>
+  <div id="verdict"></div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script type="application/json" id="d">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('d').textContent);
+const $ = s => document.querySelector(s);
+const el = (t, a = {}, k = []) => { const n = document.createElementNS(a.ns || 'http://www.w3.org/1999/xhtml', t);
+  for (const [x, v] of Object.entries(a)) { if (x === 'ns' || v == null) continue;
+    if (x === 'text') n.textContent = v; else if (x === 'html') n.innerHTML = v; else n.setAttribute(x, v); }
+  (Array.isArray(k) ? k : [k]).forEach(c => c && n.appendChild(c)); return n; };
+const S = (t, a = {}, k = []) => el(t, { ...a, ns: 'http://www.w3.org/2000/svg' }, k);
+const isk = n => n.toLocaleString('en-US');
+const COL = { hof: 'var(--c-hof)', hofn: 'var(--c-hofn)', klaustur: 'var(--c-kla)' };
+
+(function () { const T = ['auto','light','dark']; let t = localStorage.getItem('is-theme') || 'auto';
+  const ap = () => { t === 'auto' ? document.documentElement.removeAttribute('data-theme')
+    : document.documentElement.setAttribute('data-theme', t);
+    $('#themeBtn').textContent = 'Theme: ' + t; localStorage.setItem('is-theme', t); };
+  $('#themeBtn').onclick = () => { t = T[(T.indexOf(t) + 1) % 3]; ap(); }; ap(); })();
+
+/* comparison table */
+{
+  const t = el('table');
+  t.append(el('thead', {}, el('tr', {}, ['Plan', 'Beds', 'Driving', 'Longest day', 'Rooms', 'Check-ins']
+    .map((h, i) => el('th', { text: h, style: i > 1 ? 'text-align:right' : '' })))));
+  const tb = el('tbody');
+  const bestDrive = Math.min(...D.plans.filter(p => p.status !== 'gone').map(p => p.km));
+  const bestWorst = D.plans.filter(p => p.status !== 'gone')
+    .reduce((a, p) => p.worst < a ? p.worst : a, '99h99');
+  D.plans.forEach(p => {
+    const tr = el('tr', { class: p.status === 'gone' ? 'gone' : (p.status === 'chosen' ? 'chosen' : '') });
+    const name = el('td');
+    name.append(el('strong', { text: p.sub }));
+    if (p.status === 'gone') name.append(el('span', { class: 'tag gone', text: 'no rooms' }));
+    if (p.status === 'chosen') name.append(el('span', { class: 'tag chosen', text: 'chosen' }));
+    name.append(el('div', { style: 'font-size:12.5px;color:var(--ink-3)', text: p.label }));
+    tr.append(name);
+    tr.append(el('td', { style: 'font-size:13px;color:var(--ink-2)',
+      text: p.pins.map(b => b.name).join(' → ') }));
+    tr.append(el('td', { class: 'n' + (p.status !== 'gone' && p.km === bestDrive ? ' best' : ''),
+      html: `${isk(p.km)} km<br><span style="color:var(--ink-3);font-size:12px">${p.drive}</span>` }));
+    tr.append(el('td', { class: 'n' + (p.status !== 'gone' && p.worst === bestWorst ? ' best' : ''),
+      html: p.worst + (p.dark ? `<br><span style="color:var(--bad);font-size:11.5px">${p.dark} nights arrive after dark</span>` : '') }));
+    tr.append(el('td', { class: 'n', text: isk(p.lodge) }));
+    tr.append(el('td', { class: 'n', text: p.chk + (p.chk === 1 ? ' (a base)' : '') }));
+    tb.append(tr);
+  });
+  t.append(tb); $('#cmp').append(t);
+}
+
+/* map of Iceland with the beds each plan uses */
+{
+  const vb = D.viewBox.split(' ').map(Number);
+  const pins = D.plans.flatMap(p => p.pins.map(b => ({ ...b, plan: p.id })));
+  const pad = 60;
+  const x0 = Math.min(...pins.map(p => p.x)) - pad * 3, x1 = Math.max(...pins.map(p => p.x)) + pad;
+  const y0 = Math.min(...pins.map(p => p.y)) - pad, y1 = Math.max(...pins.map(p => p.y)) + pad * 1.6;
+  const w = x1 - x0, h = Math.max(y1 - y0, w / 2.4);
+  const svg = S('svg', { viewBox: `${x0} ${y0} ${w} ${h}`, role: 'img',
+    'aria-label': 'Map of south-east Iceland showing where each plan puts us: Hof and Höfn far east, Klaustur further west.' });
+  svg.append(S('rect', { x: x0, y: y0, width: w, height: h, fill: 'var(--sea)' }));
+  svg.append(S('path', { d: D.coast, fill: 'var(--land)', stroke: 'var(--coast)', 'stroke-width': w / 900 }));
+  D.glaciers.forEach(g => svg.append(S('ellipse', { cx: g.cx, cy: g.cy, rx: g.rx, ry: g.ry,
+    fill: 'var(--ice)', stroke: 'none' })));
+  const seen = {};
+  pins.forEach(p => { (seen[p.name] ||= []).push(p.plan); });
+  const done = new Set();
+  const r = w / 150;
+  pins.forEach(p => {
+    if (done.has(p.name)) return; done.add(p.name);
+    const plans = seen[p.name];
+    plans.forEach((pl, i) => svg.append(S('circle', { cx: p.x, cy: p.y, r: r + (plans.length - 1 - i) * r * 0.85,
+      fill: 'none', stroke: COL[pl], 'stroke-width': r * 0.7 })));
+    svg.append(S('circle', { cx: p.x, cy: p.y, r: r * 0.45, fill: 'var(--ink)' }));
+    svg.append(S('text', { x: p.x, y: p.y - r * 2.1, 'text-anchor': 'middle', fill: 'var(--ink)',
+      'font-size': w / 46, 'font-family': 'var(--sans)', 'font-weight': 600,
+      stroke: 'var(--surface)', 'stroke-width': w / 300, 'paint-order': 'stroke', text: p.name }));
+  });
+  $('#map').append(svg);
+  const lg = $('#legend');
+  D.plans.forEach(p => lg.append(el('span', {}, [
+    el('span', { class: 'dot', style: `color:${COL[p.id]};background:${COL[p.id]}` }),
+    document.createTextNode(p.sub.toUpperCase() + (p.status === 'gone' ? ' — NO ROOMS' : '')) ])));
+}
+
+/* the one-dimensional truth: distance east along a single road */
+{
+  const W = 1000, H = 132, m = 74;
+  const maxKm = Math.max(...D.axis.map(a => a.km));
+  const X = k => m + (k / maxKm) * (W - m * 1.4);
+  const svg = S('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img',
+    'aria-label': 'A single road east. Klaustur sits 86 km from base, Hof 169, Jökulsárlón 207 and Höfn 271 — 64 km past the furthest point we visit.' });
+  const turn = D.axis.find(a => a.loc === 'jokulsarlon').km;
+  svg.append(S('rect', { x: X(turn), y: 46, width: X(maxKm) - X(turn), height: 12,
+    fill: 'var(--bad)', opacity: .16 }));
+  svg.append(S('line', { x1: m, y1: 52, x2: W - m * 0.4, y2: 52, stroke: 'var(--line)', 'stroke-width': 3 }));
+  svg.append(S('text', { x: X(turn) + (X(maxKm) - X(turn)) / 2, y: 36, 'text-anchor': 'middle',
+    fill: 'var(--bad)', 'font-size': 12.5, 'font-family': 'var(--mono)',
+    'letter-spacing': .6, text: 'nothing out here' }));
+  const BED = { skeidflotur: 'kla', vik: 'hofn', klaustur: 'kla', hof: 'hof', hofn: 'hofn' };
+  D.axis.forEach((a, i) => {
+    const isBed = a.loc in BED, up = i % 2 === 0;
+    svg.append(S('circle', { cx: X(a.km), cy: 52, r: isBed ? 8 : 4.5,
+      fill: isBed ? 'var(--surface)' : 'var(--ink-3)',
+      stroke: isBed ? (a.loc === 'hof' ? 'var(--c-hof)' : a.loc === 'hofn' ? 'var(--c-hofn)' : 'var(--c-kla)') : 'none',
+      'stroke-width': 3.5 }));
+    svg.append(S('text', { x: X(a.km), y: up ? 30 : 82, 'text-anchor': 'middle',
+      fill: isBed ? 'var(--ink)' : 'var(--ink-3)', 'font-size': 12.5,
+      'font-weight': isBed ? 650 : 400, 'font-family': 'var(--sans)', text: a.name }));
+    svg.append(S('text', { x: X(a.km), y: up ? 43 : 96, 'text-anchor': 'middle', fill: 'var(--ink-3)',
+      'font-size': 10.5, 'font-family': 'var(--mono)', text: a.km + ' km' }));
+  });
+  svg.append(S('text', { x: m, y: 122, fill: 'var(--ink-3)', 'font-size': 10.5,
+    'font-family': 'var(--mono)', 'letter-spacing': 1, text: '← WEST   ·   distance east of Skeiðflötur   ·   EAST →' }));
+  $('#axis').append(svg);
+}
+
+/* prose */
+$('#why').append(el('div', { class: 'verdict warn' }, [
+  el('p', {}, el('strong', { text: 'Why Höfn was turned down at the time — and why that reason expired.' })),
+  el('p', { text: 'Höfn sits 271 km east of base: 64 km past Jökulsárlón, the furthest point the trip '
+    + 'reaches. Sleeping there means driving 64 km east purely to find a bed and 64 km back the next '
+    + 'morning — 128 km that visits nothing. Measured against Hof, which sits right among the sights, '
+    + 'that cost 132 km and 2 h 12 for no gain. That was the right call.' }),
+  el('p', { text: 'Then Hof turned out to have no rooms at all. The comparison Höfn lost was against '
+    + 'an option that does not exist, and it has to be re-run against the one that replaced it.' })]));
+
+$('#verdict').append(el('div', { class: 'verdict' }, [
+  el('p', {}, el('strong', { text: 'Höfn and Klaustur are two minutes apart. It was close.' })),
+  el('p', { text: '801 km against 807, 13 h 48 against 13 h 50. Höfn even has the shorter longest '
+    + 'day — 4 h 40 against 5 h 40 — because Klaustur sits 86 km west of the sights, so every day '
+    + 'there is an out-and-back.' }),
+  el('p', {}, [document.createTextNode('Klaustur won on three things that are not driving: ')]),
+  el('ul', {}, [
+    el('li', { html: '<strong>Nothing arrives after dark.</strong> The Höfn version reaches its bed '
+      + 'after sunset on both the 5th and the 6th, on unlit road.' }),
+    el('li', { html: '<strong>One check-in instead of two.</strong> Klaustur is a genuine two-night '
+      + 'base — bags stay packed on the 6th. Höfn would be a single night between two others.' }),
+    el('li', { html: '<strong>8,000 ISK cheaper</strong>, and it is a real village with actual room supply, '
+      + 'which is the problem that started all this.' })]),
+  el('p', { html: 'What Höfn would have bought, and we are giving up: <strong>Stokksnes and '
+    + 'Vestrahorn</strong>, fifteen minutes from that bed and arguably the most dramatic single '
+    + 'landscape in the country. It is not on the route any other way.' })]));
+
+$('#foot').append(el('div', { html:
+  'Distances routed on real roads (OSRM, OpenStreetMap data), padded 15 % for October wind, gravel '
+  + 'spurs and single-lane bridges. Sunset computed per location — it varies by about 20 minutes '
+  + 'across this stretch. Room rates for Skeiðflötur, Klaustur, Höfn and Borgarnes are estimates, '
+  + 'not quotes.' }));
+</script>
+</body>
+</html>

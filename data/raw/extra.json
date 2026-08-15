@@ -1,0 +1,855 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-23T00:29:47Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 311552032,
+  "lat": 64.1786265,
+  "lon": -21.7486860,
+  "tags": {
+    "name": "Víðines",
+    "natural": "peninsula",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 311552035,
+  "lat": 64.1770647,
+  "lon": -21.7688589,
+  "tags": {
+    "name": "Gunnunes",
+    "natural": "peninsula",
+    "place": "locality",
+    "wikidata": "Q27016392"
+  }
+},
+{
+  "type": "node",
+  "id": 311552037,
+  "lat": 64.1918382,
+  "lon": -21.7579480,
+  "tags": {
+    "name": "Álfsnes",
+    "natural": "peninsula",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 312467164,
+  "lat": 64.0071356,
+  "lon": -21.1808227,
+  "tags": {
+    "name": "Leirgerður",
+    "natural": "spring",
+    "note": "This is not Reykjadalur Hot Spring!",
+    "spring:type": "hot",
+    "tourism": "attraction",
+    "wikidata": "Q16508608"
+  }
+},
+{
+  "type": "node",
+  "id": 312656386,
+  "lat": 64.0257373,
+  "lon": -22.2595309,
+  "tags": {
+    "name": "Keilisnes",
+    "natural": "peninsula",
+    "place": "locality",
+    "source": "Uppdráttr Íslands",
+    "wikidata": "Q27013281"
+  }
+},
+{
+  "type": "node",
+  "id": 312689624,
+  "lat": 64.0993183,
+  "lon": -21.9547623,
+  "tags": {
+    "name": "Eskines",
+    "natural": "peninsula",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 312690122,
+  "lat": 64.1122937,
+  "lon": -21.9695820,
+  "tags": {
+    "name": "Bessastaðanes",
+    "natural": "peninsula",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 372913921,
+  "lat": 63.8127928,
+  "lon": -22.7154523,
+  "tags": {
+    "alt_name": "Reykjanes",
+    "description": "Viewpoint. Furthest point on the Reykjanes peninsula.",
+    "name": "Reykjanestá",
+    "natural": "cape",
+    "tourism": "attraction",
+    "wikidata": "Q27012387"
+  }
+},
+{
+  "type": "node",
+  "id": 451727232,
+  "lat": 64.6639937,
+  "lon": -21.2912231,
+  "tags": {
+    "FIXME": "Placed with 4 m error. Cemetery is misplaced/too close. This is an historic hot pot.",
+    "name": "Snorralaug",
+    "natural": "spring",
+    "source": "survey",
+    "tourism": "attraction",
+    "wheelchair": "yes",
+    "wikidata": "Q1489087"
+  }
+},
+{
+  "type": "node",
+  "id": 529724664,
+  "lat": 64.1748098,
+  "lon": -20.4419909,
+  "tags": {
+    "intermittent": "yes",
+    "name": "Reykholtshver",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 806833964,
+  "lat": 63.8194447,
+  "lon": -22.6841797,
+  "tags": {
+    "drinking_water": "no",
+    "name": "Gunnuhver",
+    "name:en": "Gunnuhver - fumarole",
+    "natural": "spring",
+    "spring:type": "hot",
+    "temperature": "100°C",
+    "tourism": "attraction",
+    "wheelchair": "yes",
+    "wikidata": "Q1554844",
+    "wikipedia": "de:Gunnuhver"
+  }
+},
+{
+  "type": "node",
+  "id": 817319572,
+  "lat": 63.9563223,
+  "lon": -19.1421386,
+  "tags": {
+    "description": "Name means: Big hot spring.",
+    "name": "Stórihver",
+    "natural": "spring",
+    "spring:type": "hot",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 2681716521,
+  "lat": 64.0265817,
+  "lon": -21.1952902,
+  "tags": {
+    "name": "hot spring",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 3021833350,
+  "lat": 64.3267843,
+  "lon": -20.2868028,
+  "tags": {
+    "name": "Martinslaug",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 3241056478,
+  "lat": 64.2436690,
+  "lon": -14.9674252,
+  "tags": {
+    "name": "Stokksnes",
+    "natural": "cape"
+  }
+},
+{
+  "type": "node",
+  "id": 3699101238,
+  "lat": 65.6158176,
+  "lon": -16.2605153,
+  "tags": {
+    "geological": "volcanic_caldera_rim",
+    "height": "40 m",
+    "name": "Hrossaborg",
+    "natural": "crater",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4040883828,
+  "lat": 64.0320520,
+  "lon": -21.1974094,
+  "tags": {
+    "name": "Hot Spring",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 4313288650,
+  "lat": 64.0547966,
+  "lon": -21.2902392,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417460,
+  "lat": 64.0498719,
+  "lon": -21.1916680,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417461,
+  "lat": 64.0500303,
+  "lon": -21.1993687,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417462,
+  "lat": 64.0509856,
+  "lon": -21.1944453,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417463,
+  "lat": 64.0511535,
+  "lon": -21.1931701,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417465,
+  "lat": 64.0531991,
+  "lon": -21.2790088,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417466,
+  "lat": 64.0547013,
+  "lon": -21.2782578,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417470,
+  "lat": 64.0951837,
+  "lon": -21.2732327,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417471,
+  "lat": 64.0951896,
+  "lon": -21.2748125,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417472,
+  "lat": 64.0967914,
+  "lon": -21.2769690,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417473,
+  "lat": 64.0973304,
+  "lon": -21.2744772,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417475,
+  "lat": 64.0394439,
+  "lon": -21.1946292,
+  "tags": {
+    "name": "Hot Spring",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 4313417476,
+  "lat": 64.0412379,
+  "lon": -21.1937065,
+  "tags": {
+    "name": "Hot Spring",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 4313425630,
+  "lat": 64.0693802,
+  "lon": -21.2147538,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 4314446616,
+  "lat": 64.0479581,
+  "lon": -21.2022396,
+  "tags": {
+    "name": "Hot Spring",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 4395395805,
+  "lat": 64.1610284,
+  "lon": -19.8111986,
+  "tags": {
+    "name": "Reykholtslaug",
+    "name:it": "Reykholtslaug",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 4862624521,
+  "lat": 64.1328065,
+  "lon": -20.2551370,
+  "tags": {
+    "name": "Hrunalaug",
+    "name:en": "Hrunalaug",
+    "name:ru": "Природный термальный источник, купальня",
+    "natural": "spring",
+    "spring": "hot_spring",
+    "temperature": "warm"
+  }
+},
+{
+  "type": "node",
+  "id": 5515034932,
+  "lat": 63.9039411,
+  "lon": -22.0431686,
+  "tags": {
+    "fixme": "german and english name same as icelandic and with á? I doubt that this is sensible. Probably they should just be removed.",
+    "name": "Skátalaug",
+    "name:de": "Skátalaug",
+    "name:en": "Skátalaug",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 5667948006,
+  "lat": 64.6892477,
+  "lon": -14.1992885,
+  "tags": {
+    "name": "Fossnes",
+    "natural": "cape"
+  }
+},
+{
+  "type": "node",
+  "id": 5770489086,
+  "lat": 64.8955836,
+  "lon": -22.3388027,
+  "tags": {
+    "drinking_water": "yes",
+    "name": "Rauðamelsölkelda",
+    "natural": "spring",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5838972696,
+  "lat": 64.2089874,
+  "lon": -21.8223630,
+  "tags": {
+    "name": "Brimnes",
+    "natural": "cape",
+    "place": "locality",
+    "wikidata": "Q27016395"
+  }
+},
+{
+  "type": "node",
+  "id": 6047098239,
+  "lat": 64.3154335,
+  "lon": -22.0877337,
+  "tags": {
+    "name": "Skipaskagi",
+    "natural": "peninsula",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 6649721433,
+  "lat": 64.6447543,
+  "lon": -22.3712711,
+  "tags": {
+    "name": "Símonarhöfði",
+    "natural": "cape"
+  }
+},
+{
+  "type": "node",
+  "id": 6649721448,
+  "lat": 64.6694066,
+  "lon": -22.4330848,
+  "tags": {
+    "name": "Byrðutá",
+    "natural": "cape"
+  }
+},
+{
+  "type": "node",
+  "id": 7809422777,
+  "lat": 64.0697826,
+  "lon": -21.3235517,
+  "tags": {
+    "name": "Hot spring",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 8013933239,
+  "lat": 64.0399933,
+  "lon": -21.1583752,
+  "tags": {
+    "name": "Mud Pot",
+    "natural": "spring",
+    "spring:type": "hot",
+    "water_characteristic": "mud"
+  }
+},
+{
+  "type": "node",
+  "id": 11414435404,
+  "lat": 64.8695255,
+  "lon": -22.2838099,
+  "tags": {
+    "alt_name": "Rauðamelslaug",
+    "alt_name_1": "Geirmundarlaug",
+    "intermittent": "no",
+    "name": "Sturlungalaug",
+    "natural": "spring",
+    "salt": "no",
+    "temperature": "35"
+  }
+},
+{
+  "type": "node",
+  "id": 12108137578,
+  "lat": 65.9993710,
+  "lon": -16.5095064,
+  "tags": {
+    "name": "Lindin",
+    "natural": "spring"
+  }
+},
+{
+  "type": "node",
+  "id": 13610741025,
+  "lat": 64.0403678,
+  "lon": -21.1946782,
+  "tags": {
+    "name": "Hot Spring",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 13610741026,
+  "lat": 64.0417394,
+  "lon": -21.1932723,
+  "tags": {
+    "name": "Hot Spring",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 13610741027,
+  "lat": 64.0478403,
+  "lon": -21.2039381,
+  "tags": {
+    "name": "Hot Spring",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 13610741048,
+  "lat": 64.0531595,
+  "lon": -21.1974314,
+  "tags": {
+    "name": "Hot Spring",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 13610741049,
+  "lat": 64.0534721,
+  "lon": -21.1972375,
+  "tags": {
+    "name": "Hot Spring",
+    "natural": "spring",
+    "spring:type": "hot"
+  }
+},
+{
+  "type": "node",
+  "id": 13736937439,
+  "lat": 63.8691065,
+  "lon": -21.9936810,
+  "tags": {
+    "name": "Æsubúðir",
+    "natural": "crater"
+  }
+},
+{
+  "type": "way",
+  "id": 165454079,
+  "center": {
+    "lat": 64.1315815,
+    "lon": -21.8410159
+  },
+  "tags": {
+    "area": "yes",
+    "name": "Gelgjutangi",
+    "natural": "peninsula",
+    "wikidata": "Q16425048",
+    "wikipedia": "is:Gelgjutangi"
+  }
+},
+{
+  "type": "way",
+  "id": 485284251,
+  "center": {
+    "lat": 64.6636250,
+    "lon": -21.4105868
+  },
+  "tags": {
+    "drinking_water": "no",
+    "drinking_water:legal": "no",
+    "name": "Deildartunguhver",
+    "name:zh": "德尔达图赫菲温泉",
+    "natural": "spring",
+    "spring:type": "hot",
+    "temperature": "100°C",
+    "tourism": "attraction",
+    "wheelchair": "yes",
+    "wikidata": "Q1183213",
+    "wikipedia": "is:Deildartunguhver"
+  }
+},
+{
+  "type": "way",
+  "id": 757092913,
+  "center": {
+    "lat": 64.9668243,
+    "lon": -23.0984197
+  },
+  "tags": {
+    "name": "Berserkseyraroddi",
+    "natural": "peninsula"
+  }
+},
+{
+  "type": "relation",
+  "id": 9679978,
+  "center": {
+    "lat": 63.9414888,
+    "lon": -22.2540822
+  },
+  "tags": {
+    "alt_name": "Reykjanes",
+    "alt_name:en": "Reykjanes Peninsula",
+    "alt_name:fr": "Péninsule de Reykjanes",
+    "name": "Reykjanesskagi",
+    "natural": "peninsula",
+    "type": "multipolygon",
+    "wikidata": "Q374269",
+    "wikipedia": "is:Reykjanesskagi"
+  }
+},
+{
+  "type": "relation",
+  "id": 9692164,
+  "center": {
+    "lat": 64.9034681,
+    "lon": -22.9264248
+  },
+  "tags": {
+    "name": "Snæfellsnes",
+    "natural": "peninsula",
+    "type": "multipolygon",
+    "wikidata": "Q593025",
+    "wikipedia": "is:Snæfellsnes"
+  }
+},
+{
+  "type": "relation",
+  "id": 9692733,
+  "center": {
+    "lat": 64.1672328,
+    "lon": -21.8028594
+  },
+  "tags": {
+    "name": "Geldinganes",
+    "natural": "peninsula",
+    "type": "multipolygon",
+    "wikidata": "Q10962798",
+    "wikipedia": "is:Geldinganes"
+  }
+},
+{
+  "type": "relation",
+  "id": 9692755,
+  "center": {
+    "lat": 65.8149459,
+    "lon": -18.7927606
+  },
+  "tags": {
+    "name": "Tröllaskagi",
+    "natural": "peninsula",
+    "type": "multipolygon",
+    "wikidata": "Q1188762",
+    "wikipedia": "is:Tröllaskagi"
+  }
+},
+{
+  "type": "relation",
+  "id": 9692771,
+  "center": {
+    "lat": 65.3881278,
+    "lon": -21.0239836
+  },
+  "tags": {
+    "alt_name": "Bálkastaðanes",
+    "name": "Heggstaðanes",
+    "natural": "peninsula",
+    "type": "multipolygon",
+    "wikidata": "Q2413839",
+    "wikipedia": "is:Heggstaðanes"
+  }
+},
+{
+  "type": "relation",
+  "id": 9713662,
+  "center": {
+    "lat": 65.8760974,
+    "lon": -20.0370440
+  },
+  "tags": {
+    "name": "Skagi",
+    "natural": "peninsula",
+    "type": "multipolygon",
+    "wikidata": "Q287090",
+    "wikipedia": "is:Skagi (Norðurlandi)"
+  }
+},
+{
+  "type": "relation",
+  "id": 9842634,
+  "center": {
+    "lat": 64.6643102,
+    "lon": -22.4417575
+  },
+  "tags": {
+    "name": "Útnes",
+    "natural": "peninsula",
+    "type": "multipolygon",
+    "wikidata": "Q27009757"
+  }
+},
+{
+  "type": "relation",
+  "id": 12192219,
+  "center": {
+    "lat": 63.8265888,
+    "lon": -22.6838602
+  },
+  "tags": {
+    "alt_name": "Reykjanestá",
+    "name": "Reykjanes",
+    "natural": "peninsula",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 12649412,
+  "center": {
+    "lat": 65.5214809,
+    "lon": -20.8075068
+  },
+  "tags": {
+    "name": "Vatnsnes",
+    "natural": "peninsula",
+    "type": "multipolygon",
+    "wikidata": "Q1515196"
+  }
+},
+{
+  "type": "relation",
+  "id": 12770550,
+  "center": {
+    "lat": 65.0491808,
+    "lon": -22.7690767
+  },
+  "tags": {
+    "name": "Þórsnes",
+    "natural": "peninsula",
+    "type": "multipolygon",
+    "wikidata": "Q8079574",
+    "wikipedia": "is:Þórsnes"
+  }
+},
+{
+  "type": "relation",
+  "id": 13007608,
+  "center": {
+    "lat": 63.8006700,
+    "lon": -16.6464354
+  },
+  "tags": {
+    "name": "Ingólfshöfði",
+    "natural": "cape",
+    "type": "multipolygon",
+    "wikidata": "Q1419802"
+  }
+},
+{
+  "type": "relation",
+  "id": 13054911,
+  "center": {
+    "lat": 65.6993791,
+    "lon": -19.4868624
+  },
+  "tags": {
+    "name": "Hegranes",
+    "natural": "peninsula",
+    "type": "multipolygon",
+    "wikidata": "Q16427170",
+    "wikipedia": "is:Hegranes"
+  }
+},
+{
+  "type": "relation",
+  "id": 17363235,
+  "center": {
+    "lat": 64.2686913,
+    "lon": -15.2107874
+  },
+  "tags": {
+    "name": "Langhólanestangi",
+    "natural": "peninsula",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

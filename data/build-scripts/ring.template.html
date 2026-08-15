@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Ring Road, reversed — 8 days anticlockwise</title>
+<meta name="description" content="A full circuit of Iceland in the eight days we have: route, where we would sleep, and the three things that rule it out.">
+<style>
+:root{
+  color-scheme: light;
+  --ground:#EDF1F2; --surface:#FAFBFB; --raised:#FFFFFF;
+  --ink:#0E1518; --ink-2:#4A5A61; --ink-3:#7A8B92;
+  --line:#D4DDE0; --line-2:#E3EAEC;
+  --accent:#0B6874; --accent-ink:#08535D; --accent-soft:#DCEAED;
+  --ok:#4E9E5F; --warn:#B5730B; --bad:#9E2F20;
+  --sea:#E2EAED; --land:#FFFFFF; --ice:#E7F0F3; --coast:#B9C8CD;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  --serif:ui-serif,"Iowan Old Style","Charter","Palatino Linotype",Georgia,serif;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  color-scheme: dark;
+  --ground:#0C1114; --surface:#131A1D; --raised:#182125;
+  --ink:#E9F0F2; --ink-2:#9BAFB7; --ink-3:#68797F;
+  --line:#222E33; --line-2:#1A2428;
+  --accent:#4FC0CB; --accent-ink:#8FDCE4; --accent-soft:#102A2F;
+  --ok:#48A865; --warn:#BE8A1A; --bad:#B8452F;
+  --sea:#080C0F; --land:#1A2327; --ice:#24343A; --coast:#33474E;
+}}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --ground:#0C1114; --surface:#131A1D; --raised:#182125;
+  --ink:#E9F0F2; --ink-2:#9BAFB7; --ink-3:#68797F;
+  --line:#222E33; --line-2:#1A2428;
+  --accent:#4FC0CB; --accent-ink:#8FDCE4; --accent-soft:#102A2F;
+  --ok:#48A865; --warn:#BE8A1A; --bad:#B8452F;
+  --sea:#080C0F; --land:#1A2327; --ice:#24343A; --coast:#33474E;
+}
+*{box-sizing:border-box}
+body{margin:0; background:var(--ground); color:var(--ink); font-family:var(--sans);
+  font-size:15.5px; line-height:1.6; -webkit-font-smoothing:antialiased}
+.wrap{max-width:900px; margin:0 auto; padding:42px 22px 80px}
+h1,h2,h3{margin:0; letter-spacing:-.025em; text-wrap:balance}
+h1{font-size:clamp(26px,4vw,38px); line-height:1.06; font-weight:700}
+h1 .thin{font-weight:300; color:var(--ink-2)}
+h2{font-size:20px; margin:36px 0 12px; padding-bottom:7px; border-bottom:1px solid var(--line)}
+p{margin:0 0 13px}
+.lede{font-size:17px; color:var(--ink-2); margin-top:12px; max-width:62ch}
+.eyebrow{font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--ink-3); font-weight:500}
+strong{font-weight:650}
+#themeBtn{float:right; font-family:var(--mono); font-size:10.5px; letter-spacing:.07em;
+  text-transform:uppercase; background:var(--raised); border:1px solid var(--line);
+  color:var(--ink-2); border-radius:5px; padding:6px 10px; cursor:pointer}
+.hstats{display:flex; flex-wrap:wrap; border:1px solid var(--line); background:var(--surface);
+  border-radius:6px; margin:18px 0}
+.hstat{flex:1 1 150px; padding:13px 16px; border-right:1px solid var(--line-2)}
+.hstat:last-child{border-right:0}
+.hstat .v{font-family:var(--mono); font-size:20px; font-weight:600; letter-spacing:-.04em;
+  display:block; line-height:1.15; font-variant-numeric:tabular-nums}
+.hstat .k{font-family:var(--mono); font-size:9.5px; letter-spacing:.09em; text-transform:uppercase;
+  color:var(--ink-3)}
+.hstat.bad .v{color:var(--bad)} .hstat.ok .v{color:var(--ok)}
+.mapwrap{background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:10px}
+svg{display:block; width:100%; height:auto}
+.legend{display:flex; gap:16px; flex-wrap:wrap; padding:11px 4px 2px; margin-top:8px;
+  border-top:1px solid var(--line-2)}
+.legend span{display:inline-flex; align-items:center; gap:7px; font-family:var(--mono);
+  font-size:10.5px; letter-spacing:.05em; color:var(--ink-3)}
+table{width:100%; border-collapse:collapse; font-size:14px; margin:6px 0}
+th,td{padding:9px 10px 9px 0; text-align:left; border-bottom:1px solid var(--line-2)}
+thead th{font-family:var(--mono); font-size:9.5px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-3); font-weight:500; border-bottom:1px solid var(--line)}
+td.n{font-family:var(--mono); text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+tr.hard td{background:color-mix(in srgb, var(--bad) 9%, transparent)}
+tfoot td{border-top:1px solid var(--line); border-bottom:0; font-weight:650; padding-top:11px}
+.beds{display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:9px; margin-top:8px}
+.bed{background:var(--surface); border:1px solid var(--line); border-radius:5px; padding:10px 12px}
+.bed .d{font-family:var(--mono); font-size:9.5px; letter-spacing:.08em; color:var(--ink-3);
+  text-transform:uppercase}
+.bed .t{font-size:14px; font-weight:650; margin-top:2px}
+.bed .p{font-family:var(--mono); font-size:10.5px; color:var(--ink-3); margin-top:3px}
+.verdict{background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--bad);
+  border-radius:6px; padding:15px 18px; margin:16px 0}
+.verdict.ok{border-left-color:var(--ok)}
+.verdict p:last-child{margin-bottom:0}
+ul{margin:0 0 13px; padding-left:19px} li{margin-bottom:6px}
+footer{margin-top:42px; padding-top:18px; border-top:1px solid var(--line);
+  font-size:12.5px; color:var(--ink-3)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <button id="themeBtn" type="button">Theme</button>
+  <p class="eyebrow">The alternative we costed · 2–10 October</p>
+  <h1>The Ring Road, reversed<br><span class="thin">anticlockwise, big run on day one</span></h1>
+  <p class="lede">Same flights, same booked tours, all of Snæfellsnes dropped. Run anticlockwise so
+    the northern passes fall on days two to four, while there is still time to recover from a closure
+    — and the flight day is the short Reykjanes hop.</p>
+
+  <div class="hstats" id="stats"></div>
+
+  <h2>The circuit</h2>
+  <div class="mapwrap"><div id="map"></div><div class="legend" id="legend"></div></div>
+
+  <h2>Day by day</h2>
+  <div id="days"></div>
+
+  <h2>Where we would sleep</h2>
+  <p style="font-size:13.5px;color:var(--ink-3);margin-bottom:4px">Eight towns, eight check-ins,
+    no base anywhere. Hof is absent throughout — it has no rooms — so Kirkjubæjarklaustur stands in.</p>
+  <div class="beds" id="beds"></div>
+
+  <h2>What it fixes, and what it still costs</h2>
+  <div id="verdict"></div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script type="application/json" id="d">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('d').textContent);
+const $ = s => document.querySelector(s);
+const el = (t,a={},k=[])=>{const n=document.createElementNS(a.ns||'http://www.w3.org/1999/xhtml',t);
+  for(const[x,v]of Object.entries(a)){if(x==='ns'||v==null)continue;
+    if(x==='text')n.textContent=v;else if(x==='html')n.innerHTML=v;else n.setAttribute(x,v);}
+  (Array.isArray(k)?k:[k]).forEach(c=>c&&n.appendChild(c));return n;};
+const S=(t,a={},k=[])=>el(t,{...a,ns:'http://www.w3.org/2000/svg'},k);
+const isk=n=>n.toLocaleString('en-US');
+const eur=n=>'€'+Math.round(n/145).toLocaleString('en-US');
+const hm=m=>Math.floor(m/60)+'h'+String(m%60).padStart(2,'0');
+(function(){const T=['auto','light','dark'];let t=localStorage.getItem('is-theme')||'auto';
+  const ap=()=>{t==='auto'?document.documentElement.removeAttribute('data-theme')
+    :document.documentElement.setAttribute('data-theme',t);
+    $('#themeBtn').textContent='Theme: '+t;localStorage.setItem('is-theme',t);};
+  $('#themeBtn').onclick=()=>{t=T[(T.indexOf(t)+1)%3];ap();};ap();})();
+
+[[isk(D.km)+' km', 'driving', D.km>1855?'bad':'ok'],
+ [hm(D.min), 'behind the wheel', D.min>2010?'bad':'ok'],
+ ['8', 'towns, no base', 'bad'],
+ ['13 / 20', 'top-20 sights', 'ok'],
+ [eur(D.lodging), 'rooms, '+isk(D.lodging)+' ISK', '']]
+ .forEach(([v,k,c])=>$('#stats').append(el('div',{class:'hstat '+c},
+   [el('span',{class:'v',text:v}),el('span',{class:'k',text:k})])));
+
+/* map */
+{
+  const pts=D.days.flatMap(d=>d.stops);
+  const pad=40;
+  const x0=Math.min(...pts.map(p=>p.x))-pad, x1=Math.max(...pts.map(p=>p.x))+pad;
+  const y0=Math.min(...pts.map(p=>p.y))-pad, y1=Math.max(...pts.map(p=>p.y))+pad;
+  const w=x1-x0, h=y1-y0;
+  const svg=S('svg',{viewBox:`${x0} ${y0} ${w} ${h}`,role:'img',
+    'aria-label':'Iceland with the full Ring Road circuit marked and the eight overnight towns numbered clockwise from Keflavík.'});
+  svg.append(S('rect',{x:x0,y:y0,width:w,height:h,fill:'var(--sea)'}));
+  svg.append(S('path',{d:D.coast,fill:'var(--land)',stroke:'var(--coast)','stroke-width':w/800}));
+  D.glaciers.forEach(g=>svg.append(S('ellipse',{cx:g.cx,cy:g.cy,rx:g.rx,ry:g.ry,fill:'var(--ice)'})));
+  D.days.forEach((d,i)=>{
+    const hard=d.min>=330;
+    svg.append(S('polyline',{points:d.road.map(p=>p.join(',')).join(' '),fill:'none',
+      stroke:hard?'var(--bad)':'var(--accent)','stroke-width':(hard?4.2:3)*(w/700),
+      'stroke-linecap':'round','stroke-linejoin':'round',opacity:hard?.95:.75}));
+  });
+  const r=w/130;
+  D.beds.forEach(b=>{
+    svg.append(S('circle',{cx:b.x,cy:b.y,r:r*1.5,fill:'var(--surface)',
+      stroke:'var(--ink)','stroke-width':r*0.55}));
+    svg.append(S('text',{x:b.x,y:b.y+r*0.55,'text-anchor':'middle',fill:'var(--ink)',
+      'font-size':r*1.7,'font-weight':700,'font-family':'var(--mono)',text:String(b.n)}));
+    svg.append(S('text',{x:b.x,y:b.y-r*2.2,'text-anchor':'middle',fill:'var(--ink)',
+      'font-size':w/52,'font-family':'var(--sans)','font-weight':600,
+      stroke:'var(--surface)','stroke-width':w/330,'paint-order':'stroke',text:b.name}));
+  });
+  $('#map').append(svg);
+  [['var(--accent)','ROUTE'],['var(--bad)','DAY OVER 5H30']].forEach(([c,t])=>
+    $('#legend').append(el('span',{},[el('span',{style:`width:20px;height:4px;border-radius:2px;background:${c}`}),
+      document.createTextNode(t)])));
+  $('#legend').append(el('span',{},[el('span',{style:'width:13px;height:13px;border-radius:50%;border:2px solid var(--ink)'}),
+    document.createTextNode('WHERE WE SLEEP')]));
+}
+
+/* day table */
+{
+  const t=el('table');
+  t.append(el('thead',{},el('tr',{},['Day','Route','km','Driving'].map((h,i)=>
+    el('th',{text:h,style:i>1?'text-align:right':''})))));
+  const tb=el('tbody');
+  D.days.forEach(d=>{
+    const tr=el('tr',{class:d.min>=330?'hard':''});
+    tr.append(el('td',{},[el('strong',{text:d.date}),
+      el('div',{style:'font-size:12.5px;color:var(--ink-3)',text:d.title})]));
+    tr.append(el('td',{style:'font-size:12.5px;color:var(--ink-2)',
+      text:d.stops.map(s=>s.name).join(' → ')}));
+    tr.append(el('td',{class:'n',text:isk(d.km)}));
+    tr.append(el('td',{class:'n'+(d.min>=330?' ':''),text:hm(d.min)}));
+    tb.append(tr);
+  });
+  t.append(tb);
+  t.append(el('tfoot',{},el('tr',{},[el('td',{text:'Total'}),el('td'),
+    el('td',{class:'n',text:isk(D.km)}),el('td',{class:'n',text:hm(D.min)})])));
+  $('#days').append(t);
+}
+
+D.beds.forEach(b=>$('#beds').append(el('div',{class:'bed'},[
+  el('div',{class:'d',text:'NIGHT '+b.n+' · '+b.date}),
+  el('div',{class:'t',text:b.name}),
+  el('div',{class:'p',text:eur(b.isk)+' · '+isk(b.isk)+' ISK'})])));
+
+$('#verdict').append(
+  el('div',{class:'verdict ok'},[
+    el('p',{},el('strong',{text:'It makes a closure survivable, which the clockwise version was not.'})),
+    el('p',{text:'Running anticlockwise puts Möðrudalsöræfi and the northern passes on days two to '
+      +'four. If the north shuts while you are at Blönduós on the night of the 3rd, you drive 243 km '
+      +'back to Reykjavík — four hours — and run the south-coast plan instead, with six days still '
+      +'in hand. Clockwise you meet those passes on day six, fully committed, with no second route.'})]),
+  el('div',{class:'verdict ok'},[
+    el('p',{},el('strong',{text:'And the flight day stops being a gamble.'})),
+    el('p',{text:'The last day becomes Kerið, Reykjanes and the Blue Lagoon — 161 km at low '
+      +'altitude, finishing 20 minutes from the airport. The clockwise version had you 320 km away '
+      +'in Blönduós on the morning of a 23:30 flight, with no detour if Holtavörðuheiði closed.'})]),
+  el('div',{class:'verdict'},[
+    el('p',{},el('strong',{text:'The price is day one: 410 km and 7h24.'})),
+    el('p',{text:'The Golden Circle and then a run to Blönduós, on your first morning with the car, '
+      +'after getting to bed around 01:00. It is the hardest single day in anything we have costed. '
+      +'Drop the Golden Circle and it falls to 6h00 — but that is three top-20 sights gone.'})]),
+  el('div',{class:'verdict'},[
+    el('p',{},el('strong',{text:'And it still costs the whole west.'})),
+    el('p',{text:'No Snæfellsnes — no Kirkjufell, Arnarstapi, Djúpalónssandur, Búðakirkja, '
+      +'Lóndrangar. No Kvernufoss, no Reykjadalur, no Hraunfossar or Krauma. Eighteen places against '
+      +'the five the north adds. Days 5, 6 and 8 all finish before 14:35 in transit towns, because a '
+      +'circuit has to keep moving.'})]),
+  el('div',{class:'verdict ok'},[
+    el('p',{},el('strong',{text:'Verdict: this is how you would do it, if you did it.'})),
+    el('p',{text:'Reversing answers the risk objection properly and it is a better plan than the '
+      +'clockwise version by every measure. What is left is simply whether four northern sights are '
+      +'worth the south coast and a seven-hour first day. At ten days, yes. At eight, no.'})]));
+
+$('#foot').append(el('div',{html:
+  'Routed on real roads (OSRM, OpenStreetMap data) and padded 15 % for October. Room rates are '
+  + 'estimates, not quotes. Compare against the live plan in <strong>planner.html</strong>.'}));
+</script>
+</body>
+</html>

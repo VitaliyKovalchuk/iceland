@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iceland planner — Snæfellsnes, 2–10 October</title>
+<meta name="description" content="Editable eight-day Iceland plan: change how long you stay anywhere, add or drop attractions, and watch the driving, the daylight and the budget follow.">
+<style>/*! Leaflet 1.9.4 — BSD-2-Clause © Vladimir Agafonkin, CloudMade */
+__LEAFLET_CSS__</style>
+<style>
+:root{
+  color-scheme: light;
+  --ground:#EDF1F2; --surface:#FAFBFB; --raised:#FFFFFF;
+  --ink:#0E1518; --ink-2:#4A5A61; --ink-3:#7A8B92;
+  --line:#D4DDE0; --line-2:#E3EAEC;
+  --accent:#0B6874; --accent-ink:#08535D; --accent-soft:#DCEAED;
+  --ok:#4E9E5F; --warn:#B5730B; --bad:#9E2F20;
+  --night:#C7D3D7; --twilight:#DFE7EA;
+  --shadow:0 1px 2px rgba(14,21,24,.05), 0 6px 20px -12px rgba(14,21,24,.20);
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  --serif:ui-serif,"Iowan Old Style","Charter","Palatino Linotype",Georgia,serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  color-scheme: dark;
+  --ground:#0C1114; --surface:#131A1D; --raised:#182125;
+  --ink:#E9F0F2; --ink-2:#9BAFB7; --ink-3:#68797F;
+  --line:#222E33; --line-2:#1A2428;
+  --accent:#4FC0CB; --accent-ink:#8FDCE4; --accent-soft:#102A2F;
+  --ok:#48A865; --warn:#BE8A1A; --bad:#B8452F;
+  --night:#0F171B; --twilight:#162328;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 26px -14px rgba(0,0,0,.8);
+}}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --ground:#0C1114; --surface:#131A1D; --raised:#182125;
+  --ink:#E9F0F2; --ink-2:#9BAFB7; --ink-3:#68797F;
+  --line:#222E33; --line-2:#1A2428;
+  --accent:#4FC0CB; --accent-ink:#8FDCE4; --accent-soft:#102A2F;
+  --ok:#48A865; --warn:#BE8A1A; --bad:#B8452F;
+  --night:#0F171B; --twilight:#162328;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 26px -14px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0; background:var(--ground); color:var(--ink); font-family:var(--sans);
+  font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased}
+.wrap{max-width:1320px; margin:0 auto; padding:0 20px 90px}
+h1,h2,h3,h4{margin:0; text-wrap:balance; letter-spacing:-.022em; font-weight:650}
+a{color:var(--accent-ink)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);
+  outline-offset:2px; border-radius:3px}
+.eyebrow{font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--ink-3); font-weight:500}
+.hint{font-family:var(--serif); font-size:13px; color:var(--ink-3); margin:10px 0 0}
+#staleBar{margin:16px 0 0; padding:12px 15px; border-radius:5px; background:var(--accent-soft);
+  border:1px solid var(--line); border-left:3px solid var(--warn); font-size:13.5px;
+  display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+#staleBar strong{font-weight:650}
+
+header.mast{border-bottom:1px solid var(--line); background:var(--surface); padding:30px 0 0}
+.mast-in{max-width:1320px; margin:0 auto; padding:0 20px; display:flex; gap:20px;
+  align-items:flex-start; flex-wrap:wrap}
+.mast-t{flex:1 1 420px; min-width:0}
+h1{font-size:clamp(24px,3vw,34px); line-height:1.05; letter-spacing:-.03em; font-weight:700}
+h1 .thin{font-weight:300; color:var(--ink-2)}
+.mast-t p{margin:8px 0 0; color:var(--ink-2); font-size:14.5px; max-width:66ch}
+.acts{display:flex; gap:8px; flex-wrap:wrap; align-items:center}
+.acts button,.acts label.fileb{font-family:var(--mono); font-size:11px; letter-spacing:.06em;
+  text-transform:uppercase; background:var(--raised); border:1px solid var(--line);
+  color:var(--ink-2); border-radius:5px; padding:7px 11px; cursor:pointer; font-weight:600}
+.acts button:hover,.acts label.fileb:hover{color:var(--ink); border-color:var(--ink-3)}
+.acts input[type=file]{display:none}
+nav.tabs{position:sticky; top:0; z-index:600; background:var(--surface);
+  border-bottom:1px solid var(--line); margin-top:18px}
+.tabs-in{max-width:1320px; margin:0 auto; padding:0 20px; display:flex; overflow-x:auto}
+.tabs-in button{background:transparent; border:0; border-bottom:2px solid transparent;
+  color:var(--ink-3); cursor:pointer; padding:13px 2px; margin-right:24px; white-space:nowrap;
+  font-family:inherit; font-size:14.5px; font-weight:600; position:relative}
+.tabs-in button:hover{color:var(--ink)}
+.tabs-in button[aria-selected="true"]{color:var(--ink); border-bottom-color:var(--accent)}
+.dot{display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--warn);
+  margin-left:7px; vertical-align:middle}
+[role="tabpanel"][hidden]{display:none}
+section{padding-top:22px}
+.sec-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; padding-bottom:8px;
+  border-bottom:1px solid var(--line); margin-bottom:16px}
+.sec-head h2{font-size:19px}
+.sec-head p{margin:0; color:var(--ink-3); font-size:13px; max-width:62ch}
+
+.controls{display:flex; flex-wrap:wrap; gap:14px; align-items:center; padding:4px 0 14px}
+.daychips{display:flex; gap:5px; flex-wrap:wrap}
+.daychip{font-family:var(--mono); font-size:11.5px; font-weight:500; cursor:pointer;
+  border:1px solid var(--line); background:var(--surface); color:var(--ink-2); border-radius:4px;
+  padding:5px 9px; line-height:1; display:inline-flex; align-items:center; gap:6px}
+.daychip:hover{border-color:var(--ink-3); color:var(--ink)}
+.daychip .sw{width:9px; height:9px; border-radius:2px}
+.daychip .ch{opacity:.6; font-size:10px}
+.daychip[aria-pressed="true"]{border-color:var(--ink); background:var(--ink); color:var(--surface)}
+.seg{display:inline-flex; background:var(--surface); border:1px solid var(--line);
+  border-radius:5px; padding:2px; gap:2px}
+.seg button{font-family:var(--mono); font-size:11px; letter-spacing:.03em; border:0;
+  background:transparent; color:var(--ink-2); cursor:pointer; padding:6px 10px; border-radius:3px}
+.seg button:hover{color:var(--ink); background:var(--line-2)}
+.seg button[aria-pressed="true"]{background:var(--ink); color:var(--surface)}
+label.chk{display:inline-flex; align-items:center; gap:7px; font-size:12.5px; color:var(--ink-2);
+  cursor:pointer; user-select:none}
+label.chk input{accent-color:var(--accent); width:14px; height:14px; cursor:pointer}
+
+.split{display:grid; grid-template-columns:minmax(0,1fr) minmax(380px,460px); gap:16px; align-items:start}
+.mapbox{background:var(--surface); border:1px solid var(--line); border-radius:5px; padding:8px;
+  position:relative; position:sticky; top:66px}
+.lmap{height:640px; border-radius:3px; background:var(--line-2); z-index:1}
+.leaflet-container{font:inherit; background:var(--line-2)}
+.leaflet-control-attribution{background:var(--surface)!important; color:var(--ink-3)!important;
+  font-family:var(--mono); font-size:9.5px!important}
+.leaflet-control-attribution a{color:var(--ink-2)!important}
+.leaflet-bar a{background:var(--surface)!important; color:var(--ink)!important;
+  border-bottom-color:var(--line)!important}
+.mk{display:flex; align-items:center; justify-content:center; width:26px; height:26px;
+  border-radius:50%; font-family:var(--mono); font-size:11px; font-weight:700; background:var(--c);
+  color:#fff; border:2px solid #fff; box-shadow:0 1px 5px rgba(0,0,0,.45)}
+.mk.bed{background:#fff; color:var(--c); border:3px solid var(--c); font-size:13px}
+.pd{display:block; width:14px; height:14px; border-radius:50%; background:var(--surface);
+  border:2px solid var(--ink-3); box-shadow:0 1px 3px rgba(0,0,0,.35)}
+.pd.on{background:var(--accent); border-color:#fff; width:16px; height:16px}
+.pd.off{border-style:dashed; opacity:.75}
+.leaflet-popup-content-wrapper{background:var(--surface); color:var(--ink); border-radius:5px;
+  border:1px solid var(--line); box-shadow:var(--shadow)}
+.leaflet-popup-tip{background:var(--surface); border:1px solid var(--line)}
+.leaflet-popup-content{margin:11px 14px; font-size:13px; line-height:1.5}
+.leaflet-popup-content h4{font-size:14px; margin-bottom:2px}
+.leaflet-popup-content .t{font-family:var(--mono); font-size:10.5px; color:var(--ink-3);
+  text-transform:uppercase; letter-spacing:.05em; display:block; margin-bottom:5px}
+.leaflet-popup-content p{margin:0 0 8px; color:var(--ink-2)}
+.leaflet-tooltip{background:var(--ink); color:var(--ground); border:0; box-shadow:none;
+  font-family:var(--sans); font-size:12px; font-weight:600; padding:3px 7px}
+.leaflet-tooltip-top::before{border-top-color:var(--ink)}
+.zoomhint{position:absolute; inset:8px 8px auto auto; z-index:500; pointer-events:none;
+  background:var(--ink); color:var(--ground); font-family:var(--mono); font-size:10px;
+  padding:5px 9px; border-radius:4px; opacity:.85; transition:opacity .2s}
+.zoomhint.off{opacity:0}
+
+.editor{background:var(--surface); border:1px solid var(--line); border-radius:5px; padding:16px 18px 20px}
+.ed-head{display:flex; justify-content:space-between; align-items:flex-start; gap:12px; flex-wrap:wrap}
+.ed-head h3{font-size:19px; margin-top:2px}
+.startlab{display:flex; flex-direction:column; gap:3px; font-family:var(--mono); font-size:10px;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3)}
+.tin{font-family:var(--mono); font-size:14px; padding:5px 8px; border:1px solid var(--line);
+  border-radius:4px; background:var(--raised); color:var(--ink)}
+.ed-sum{display:flex; margin:14px 0 10px; border:1px solid var(--line); border-radius:5px;
+  background:var(--raised)}
+.ed-stat{flex:1; padding:9px 12px; border-right:1px solid var(--line-2)}
+.ed-stat:last-child{border-right:0}
+.ed-stat .v{font-family:var(--mono); font-size:16px; font-weight:600; display:block;
+  letter-spacing:-.03em; font-variant-numeric:tabular-nums; line-height:1.2}
+.ed-stat .k{font-family:var(--mono); font-size:9px; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--ink-3)}
+.ed-stat.bad .v{color:var(--bad)}
+.ipill{font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+  padding:3px 8px; border-radius:3px; border:1px solid currentColor; font-weight:600;
+  display:inline-block}
+.ipill[data-i="relaxed"]{color:var(--ok)} .ipill[data-i="full"]{color:var(--ink-3)}
+.ipill[data-i="tight"]{color:var(--warn)} .ipill[data-i="hard"]{color:var(--bad)}
+.warnbox{margin-top:11px; padding:9px 12px; border-radius:4px; background:var(--accent-soft);
+  border:1px solid var(--line); border-left:3px solid var(--bad); font-family:var(--serif);
+  font-size:13px; color:var(--ink-2)}
+.warnbox.info{border-left-color:var(--accent)} .warnbox.coffee{border-left-color:var(--warn)}
+.dl{margin-top:13px} .dl svg{width:100%; height:auto; display:block}
+.dl-cap{font-family:var(--mono); font-size:10px; letter-spacing:.05em; color:var(--ink-3);
+  display:flex; justify-content:space-between; gap:8px; margin-top:3px; flex-wrap:wrap}
+
+.edlist{list-style:none; margin:16px 0 0; padding:0; display:flex; flex-direction:column; gap:0}
+.edlist li{display:grid; grid-template-columns:26px 1fr auto; gap:10px; padding:11px 0;
+  border-top:1px solid var(--line-2); align-items:start}
+.edlist li.bed{background:linear-gradient(90deg,var(--accent-soft) 0 3px,transparent 3px)}
+.edlist li.dark .clk{color:var(--bad); font-weight:700}
+.edlist .ix{font-family:var(--mono); font-size:11px; color:var(--ink-3); text-align:center;
+  padding-top:2px; font-weight:700}
+.edlist .nm{font-size:14px; font-weight:600; display:flex; gap:8px; align-items:baseline;
+  flex-wrap:wrap; line-height:1.3}
+.edlist .nm a{color:inherit; text-decoration:none; border-bottom:1px solid var(--line)}
+.edlist .nm a:hover{color:var(--accent-ink); border-bottom-color:var(--accent)}
+.edlist .clk{font-family:var(--mono); font-size:11px; color:var(--ink-3); font-variant-numeric:tabular-nums}
+.edlist .act{font-size:12.5px; color:var(--ink-2); margin-top:1px}
+.edlist .leg{grid-column:2/4; font-family:var(--mono); font-size:10.5px; color:var(--ink-3); margin-top:4px}
+.ctl{display:flex; flex-direction:column; gap:5px; align-items:flex-end}
+.dwrap{display:inline-flex; align-items:center; gap:0; border:1px solid var(--line);
+  border-radius:5px; background:var(--raised); overflow:hidden}
+.dw{width:52px; border:0; background:transparent; color:var(--ink); font-family:var(--mono);
+  font-size:13px; text-align:right; padding:5px 2px; font-variant-numeric:tabular-nums}
+.dw::-webkit-inner-spin-button{display:none}
+.dwrap .unit{font-family:var(--mono); font-size:10px; color:var(--ink-3); padding-right:6px}
+.mv{display:flex; gap:3px}
+.mini{font-family:var(--mono); font-size:12px; border:1px solid var(--line); background:var(--raised);
+  color:var(--ink-2); border-radius:4px; padding:4px 8px; cursor:pointer; line-height:1.2}
+.mini:hover:not(:disabled){color:var(--ink); border-color:var(--ink-3)}
+.mini:disabled{opacity:.35; cursor:not-allowed}
+.mini.del:hover{color:var(--bad); border-color:var(--bad)}
+.mini.primary{background:var(--accent); color:#fff; border-color:var(--accent); font-weight:600;
+  padding:7px 14px}
+.dwrap .mini{border:0; border-radius:0; padding:5px 9px; font-size:14px}
+.addrow{display:flex; gap:8px; margin-top:16px; padding-top:14px; border-top:1px solid var(--line)}
+.addin{flex:1; min-width:0; border:1px solid var(--line); border-radius:5px; background:var(--raised);
+  color:var(--ink); padding:8px 11px; font-family:inherit; font-size:14px}
+
+.badges{display:flex; gap:5px; flex-wrap:wrap; margin-top:5px}
+.b{font-family:var(--mono); font-size:9.5px; letter-spacing:.06em; text-transform:uppercase;
+  padding:2px 6px; border-radius:3px; border:1px solid var(--line); color:var(--ink-3); line-height:1.5}
+.b.tk{border-color:var(--warn); color:var(--warn)}
+.b.hk{border-color:var(--ok); color:var(--ok)}
+.b.in{border-color:var(--accent); color:var(--accent-ink); background:var(--accent-soft)}
+.b.bd2{border-color:var(--accent); color:var(--accent-ink)}
+.b.dk{border-color:var(--bad); color:var(--bad)}
+
+.attrgrid{display:grid; grid-template-columns:repeat(auto-fill,minmax(268px,1fr)); gap:12px; margin-top:16px}
+.ac{background:var(--surface); border:1px solid var(--line); border-radius:5px; padding:13px 15px 14px}
+.ac.on{border-color:var(--accent)}
+.ac.off{opacity:.64}
+.ac-h{display:flex; justify-content:space-between; gap:8px; align-items:baseline}
+.ac-h h4{font-size:14.5px}
+.ac-h h4 a{color:inherit; text-decoration:none}
+.ac-h h4 a:hover{color:var(--accent-ink)}
+.ac .cat{font-family:var(--mono); font-size:9px; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--ink-3); white-space:nowrap}
+.ac-n{margin:5px 0 0; font-size:12.5px; color:var(--ink-2); font-family:var(--serif)}
+.dpick{display:flex; gap:3px; flex-wrap:wrap; align-items:center; margin-top:10px;
+  padding-top:9px; border-top:1px solid var(--line-2)}
+.dpl{font-family:var(--mono); font-size:9px; letter-spacing:.09em; text-transform:uppercase;
+  color:var(--ink-3); margin-right:3px}
+.mini.day{padding:3px 7px; font-size:11px}
+
+.ovd{background:var(--surface); border:1px solid var(--line); border-radius:5px; overflow:hidden;
+  display:grid; grid-template-columns:6px 1fr; margin-bottom:11px}
+.sev{background:var(--ink-3)}
+.ovd[data-i="relaxed"] .sev{background:var(--ok)}
+.ovd[data-i="tight"] .sev{background:var(--warn)}
+.ovd[data-i="hard"] .sev{background:var(--bad)}
+.ovd-in{padding:13px 16px 15px; min-width:0}
+.ovd-h{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap}
+.ovd-h h4{font-size:16px}
+.day-n{font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; color:var(--ink-3)}
+.ovd-m{font-family:var(--mono); font-size:11px; color:var(--ink-3); margin-top:4px;
+  font-variant-numeric:tabular-nums}
+.ovd .mini{margin-top:10px}
+.hstats{display:flex; flex-wrap:wrap; border:1px solid var(--line); background:var(--surface);
+  border-radius:5px; margin-bottom:18px}
+.hstat{flex:1 1 130px; padding:12px 15px; border-right:1px solid var(--line-2)}
+.hstat:last-child{border-right:0}
+.hstat .v{font-family:var(--mono); font-size:20px; font-weight:600; letter-spacing:-.04em;
+  display:block; line-height:1.15; font-variant-numeric:tabular-nums}
+.hstat .k{font-family:var(--mono); font-size:9.5px; letter-spacing:.09em; text-transform:uppercase;
+  color:var(--ink-3)}
+.hstat.bad .v{color:var(--bad)}
+.scroll{overflow-x:auto}
+table.grid{width:100%; border-collapse:collapse; font-size:13.5px; min-width:420px}
+table.grid th{font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-3); text-align:left; font-weight:500; padding:0 12px 8px 0;
+  border-bottom:1px solid var(--line)}
+table.grid td{padding:9px 12px 9px 0; border-bottom:1px solid var(--line-2)}
+table.grid td.n{font-family:var(--mono); text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+table.grid tfoot td{border-top:1px solid var(--line); border-bottom:0; font-weight:650; padding-top:11px}
+.stay{display:grid; grid-template-columns:38px 1fr auto; gap:12px; align-items:center;
+  background:var(--surface); border:1px solid var(--line); border-radius:6px;
+  padding:13px 16px; margin-bottom:9px}
+.stay.two{border-color:var(--accent)}
+.stay.first{box-shadow:0 0 0 1px var(--warn) inset}
+.stay-n{font-family:var(--mono); font-size:15px; font-weight:700; color:var(--ink-3);
+  text-align:center}
+.stay.two .stay-n{color:var(--accent-ink)}
+.stay-h{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap}
+.stay-h h4{font-size:15.5px}
+.stay-d{font-family:var(--mono); font-size:11px; color:var(--ink-3)}
+.stay-links{display:flex; gap:6px; margin-top:8px}
+.stay-links .gbtn{margin-top:0}
+.stay-p{text-align:right; white-space:nowrap}
+.stay-p .v{font-family:var(--mono); font-size:16px; font-weight:600; display:block;
+  letter-spacing:-.03em; font-variant-numeric:tabular-nums}
+.stay-p .k{font-family:var(--mono); font-size:10px; color:var(--ink-3)}
+.mk.bed.two{border-width:4px}
+.beds{display:flex; gap:4px; flex-wrap:wrap}
+.bed{flex:1 1 96px; background:var(--surface); border:1px solid var(--line); border-radius:4px;
+  padding:8px 10px; min-width:92px}
+.bed .d{font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ink-3)}
+.bed .t{font-size:12.5px; font-weight:600; margin-top:1px; line-height:1.25}
+.bed .p{font-family:var(--mono); font-size:10.5px; color:var(--ink-3); margin-top:2px}
+.est{font-family:var(--mono); font-size:8.5px; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--warn); border:1px solid var(--warn); border-radius:3px; padding:0 3px; margin-left:5px}
+
+#toast{position:fixed; left:50%; bottom:26px; transform:translateX(-50%) translateY(14px);
+  background:var(--ink); color:var(--ground); padding:11px 18px; border-radius:6px; z-index:900;
+  font-size:13.5px; box-shadow:var(--shadow); opacity:0; pointer-events:none; transition:all .22s;
+  max-width:90vw; text-align:center}
+#toast.on{opacity:1; transform:translateX(-50%) translateY(0)}
+footer{margin-top:44px; padding-top:18px; border-top:1px solid var(--line); font-size:12.5px;
+  color:var(--ink-3)}
+footer .credits{margin-top:12px; font-family:var(--mono); font-size:10.5px}
+
+@media (max-width:1080px){
+  .split{grid-template-columns:1fr}
+  .mapbox{position:static}
+  .lmap{height:440px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="mast-in">
+    <div class="mast-t">
+      <p class="eyebrow" id="mastEyebrow">Snæfellsnes route · 2–10 October 2026 · 3 people</p>
+      <h1 id="mastTitle">Plan it properly<br><span class="thin">change anything, watch everything follow</span></h1>
+      <p id="mastLede">Stretch a stop, drop one, drag in something new. Driving, arrival times, the daylight
+        bar and the budget all recompute as you go. Edits save in this browser — export the file
+        to send it to the other two.</p>
+    </div>
+    <div class="acts">
+      <button id="themeBtn" type="button">Theme</button>
+      <button id="exportBtn" type="button">Export plan</button>
+      <button id="icsBtn" type="button" title="Every stop as a calendar event — import once and share with the group">Calendar (.ics)</button>
+      <button id="kmlBtn" type="button" title="A layer per day for Google My Maps">Map (.kml)</button>
+      <label class="fileb">Import<input type="file" id="importFile" accept="application/json"></label>
+      <button id="resetBtn" type="button">Reset to original</button>
+    </div>
+  </div>
+  <nav class="tabs"><div class="tabs-in" id="tabs" role="tablist"></div></nav>
+</header>
+
+<div class="wrap">
+  <div id="staleBar" style="display:none"></div>
+  <div role="tabpanel" id="panel-plan" hidden>
+    <div class="controls">
+      <div class="daychips" id="dayChips" role="group" aria-label="Choose a day"></div>
+    </div>
+    <div class="controls" style="padding-top:0">
+      <div class="seg" id="bmap" role="group" aria-label="Base map"></div>
+      <label class="chk"><input type="checkbox" id="showOther"> Show the other days faintly</label>
+    </div>
+    <div class="split">
+      <div class="mapbox">
+        <div id="map" class="lmap"></div>
+        <div class="zoomhint" id="zoomhint">Click map to scroll-zoom</div>
+      </div>
+      <div class="editor" id="planEditor"></div>
+    </div>
+  </div>
+
+  <div role="tabpanel" id="panel-attr" hidden>
+    <section>
+      <div class="sec-head">
+        <h2>Every attraction</h2>
+        <p id="attrCount"></p>
+      </div>
+      <div class="controls" style="padding-top:0">
+        <div class="seg" id="bmap2" role="group" aria-label="Base map"></div>
+        <label class="chk"><input type="checkbox" id="showOff"> Include places this route can't reach</label>
+      </div>
+      <div class="controls" style="padding-top:0">
+        <div class="daychips" id="catChips" role="group" aria-label="Filter by kind"></div>
+      </div>
+      <div class="mapbox" style="position:static; margin-bottom:16px">
+        <div id="amap" class="lmap" style="height:460px"></div>
+      </div>
+      <div class="attrgrid" id="attrGrid"></div>
+    </section>
+  </div>
+
+  <div role="tabpanel" id="panel-stays" hidden>
+    <section>
+      <div class="sec-head">
+        <h2>Where we sleep</h2>
+        <p>Eight nights, seven bookings. This tab is for booking rooms, not for driving —
+          the numbered pins are your beds in order.</p>
+      </div>
+      <div class="hstats" id="stayTotals"></div>
+      <div class="controls" style="padding-top:0">
+        <div class="seg" id="bmap3" role="group" aria-label="Base map"></div>
+      </div>
+      <div class="mapbox" style="position:static; margin-bottom:16px">
+        <div id="smap" class="lmap" style="height:440px"></div>
+      </div>
+      <div id="stayList"></div>
+      <p class="hint">Kirkjubæjarklaustur carries two nights and is the only base — book it first.
+        Hof / Freysnes is deliberately absent: it had no availability, which is why the plan moved.</p>
+    </section>
+  </div>
+
+  <div role="tabpanel" id="panel-over" hidden>
+    <section>
+      <div class="sec-head"><h2>The whole trip</h2>
+        <p>Everything below reflects your edits, including the money.</p></div>
+      <div class="hstats" id="ovTotals"></div>
+      <div id="ovDays"></div>
+      <h2 style="margin:26px 0 12px; font-size:19px">What it costs</h2>
+      <div id="ovBudget"></div>
+    </section>
+  </div>
+
+  <footer>
+    Times are routed on real roads (OSRM, OpenStreetMap) and padded 15 % for October wind, gravel
+    spurs and single-lane bridges. Sunrise and sunset are interpolated from the planning file's
+    1/7/14 October reference points. Room rates marked <span class="est">est</span> are estimates,
+    not quotes. Adding a stop re-routes live when you're online; offline, the time is still exact
+    from the pre-computed matrix and only the drawn line falls back to a straight dashed hop.
+    <div class="credits">
+      Basemaps: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> ·
+      <a href="https://www.esri.com/" target="_blank" rel="noopener">Esri</a> imagery ·
+      <a href="https://opentopomap.org" target="_blank" rel="noopener">OpenTopoMap</a> ·
+      <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> ·
+      routing <a href="https://project-osrm.org/" target="_blank" rel="noopener">OSRM</a> ·
+      <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a> 1.9.4
+    </div>
+  </footer>
+</div>
+
+<datalist id="poilist"></datalist>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>/*! Leaflet 1.9.4 — BSD-2-Clause © Vladimir Agafonkin, CloudMade */
+__LEAFLET_JS__
+</script>
+<script type="application/json" id="trip">__DATA__</script>
+<script>
+(function(){
+  var T=['auto','light','dark'], t=localStorage.getItem('is-theme')||'auto';
+  function ap(){ if(t==='auto') document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.setAttribute('data-theme',t);
+    document.getElementById('themeBtn').textContent='Theme: '+t;
+    localStorage.setItem('is-theme',t); }
+  document.getElementById('themeBtn').onclick=function(){ t=T[(T.indexOf(t)+1)%3]; ap(); };
+  ap();
+})();
+__APP_JS__
+</script>
+</body>
+</html>

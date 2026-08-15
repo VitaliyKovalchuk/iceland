@@ -1,0 +1,531 @@
+{
+  "meta": {
+    "title": "Iceland: 7 days, South Coast & Snæfellsnes",
+    "travel_window": "Early October 2026",
+    "travellers": 3,
+    "party_composition": "One couple + one friend",
+    "rooms_per_night": 2,
+    "room_config": "1 double + 1 single/twin (check for triple/family rooms — often cheaper than two rooms)",
+    "vehicle": "Small/mid 4x4 (Dacia Duster class), self-drive",
+    "arrival_airport": "KEF",
+    "nights": 6,
+    "currency_primary": "ISK",
+    "fx_note": "Approximate mid-2026 rates used for conversions: 1 EUR ≈ 145 ISK, 1 USD ≈ 138 ISK. Re-check before publishing.",
+    "purpose": "Shareable trip plan for review by two travel companions",
+    "schema_notes": "Two plan variants (A and B) are peers, not primary/fallback — the site must present them equally with a toggle. Each day has an ordered `stops` array; `drive_to_next_min` and `drive_to_next_km` describe the leg FROM this stop TO the next. `route_waypoints` are for drawing approximate polylines and are NOT the stop list. Times are local (Iceland is GMT year-round, no DST)."
+  },
+
+  "daylight": {
+    "note": "Iceland observes GMT year-round. Times below are Reykjavík; Vík is within ~10 minutes. Confirm exact minutes on timeanddate.com for actual travel dates.",
+    "reference_points": [
+      { "date": "2026-10-01", "sunrise": "07:35", "sunset": "18:50", "daylight_hours": 11.25 },
+      { "date": "2026-10-07", "sunrise": "07:50", "sunset": "18:30", "daylight_hours": 10.67 },
+      { "date": "2026-10-14", "sunrise": "08:10", "sunset": "18:05", "daylight_hours": 9.92 }
+    ],
+    "usable_light_window": "Approximately 06:50 to 19:30 including twilight, early in the month",
+    "design_hint": "The daylight bar visual should span 06:00–21:00 and shade the pre-sunrise and post-sunset portions differently, with each day's stops plotted inside it. This is the element that answers 'will we be rushed?'"
+  },
+
+  "locations": {
+    "_comment": "Coordinates marked verified came from Google Places lookups. Those marked approximate are good to ~200m and fine for map pins, but should not be used for turn-by-turn navigation.",
+    "kef_airport":        { "name": "Keflavík International Airport", "lat": 63.9815, "lng": -22.6282, "precision": "verified" },
+    "gunnuhver":          { "name": "Gunnuhver hot springs", "lat": 63.8192, "lng": -22.6847, "precision": "verified" },
+    "brimketill":         { "name": "Brimketill lava pool", "lat": 63.8290, "lng": -22.5030, "precision": "approximate" },
+    "sky_lagoon":         { "name": "Sky Lagoon", "lat": 64.1165, "lng": -21.9463, "precision": "verified" },
+    "reykjavik":          { "name": "Reykjavík", "lat": 64.1396, "lng": -21.9376, "precision": "verified" },
+    "thingvellir":        { "name": "Þingvellir National Park", "lat": 64.2822, "lng": -21.0764, "precision": "verified" },
+    "bruarfoss":          { "name": "Brúarfoss", "lat": 64.2646, "lng": -20.5148, "precision": "approximate" },
+    "geysir":             { "name": "Geysir & Strokkur", "lat": 64.3104, "lng": -20.3013, "precision": "verified" },
+    "gullfoss":           { "name": "Gullfoss", "lat": 64.3271, "lng": -20.1199, "precision": "verified" },
+    "secret_lagoon":      { "name": "Secret Lagoon, Flúðir", "lat": 64.1374, "lng": -20.3097, "precision": "verified" },
+    "kerid":              { "name": "Kerið crater", "lat": 64.0413, "lng": -20.8851, "precision": "verified" },
+    "reykjadalur":        { "name": "Reykjadalur hot river", "lat": 64.0270, "lng": -21.2110, "precision": "approximate" },
+    "hvolsvollur":        { "name": "Hvolsvöllur", "lat": 63.7511, "lng": -20.2229, "precision": "verified" },
+    "seljalandsfoss":     { "name": "Seljalandsfoss", "lat": 63.6156, "lng": -19.9886, "precision": "verified" },
+    "skogafoss":          { "name": "Skógafoss", "lat": 63.5321, "lng": -19.5114, "precision": "verified" },
+    "kvernufoss":         { "name": "Kvernufoss", "lat": 63.5307, "lng": -19.4870, "precision": "approximate" },
+    "solheimajokull":     { "name": "Sólheimajökull", "lat": 63.5708, "lng": -19.2924, "precision": "verified" },
+    "dyrholaey":          { "name": "Dyrhólaey", "lat": 63.4047, "lng": -19.1186, "precision": "verified" },
+    "reynisfjara":        { "name": "Reynisfjara", "lat": 63.4030, "lng": -19.0447, "precision": "approximate" },
+    "vikurfjara":         { "name": "Víkurfjara beach", "lat": 63.4143, "lng": -19.0104, "precision": "verified" },
+    "vik":                { "name": "Vík í Mýrdal", "lat": 63.4177, "lng": -18.9974, "precision": "verified" },
+    "fjadrargljufur":     { "name": "Fjaðrárgljúfur", "lat": 63.7713, "lng": -18.1718, "precision": "verified" },
+    "klaustur":           { "name": "Kirkjubæjarklaustur", "lat": 63.7900, "lng": -18.0600, "precision": "approximate" },
+    "skaftafell":         { "name": "Skaftafell / Svartifoss", "lat": 64.0704, "lng": -16.9752, "precision": "verified" },
+    "hof":                { "name": "Hof í Öræfum", "lat": 63.9058, "lng": -16.7151, "precision": "verified" },
+    "mulagljufur":        { "name": "Múlagljúfur canyon", "lat": 63.9860, "lng": -16.4460, "precision": "approximate" },
+    "fjallsarlon":        { "name": "Fjallsárlón", "lat": 64.0158, "lng": -16.3657, "precision": "verified" },
+    "jokulsarlon":        { "name": "Jökulsárlón", "lat": 64.0784, "lng": -16.2306, "precision": "verified" },
+    "diamond_beach":      { "name": "Diamond Beach (Breiðamerkursandur)", "lat": 64.0411, "lng": -16.1967, "precision": "verified" },
+    "stokksnes":          { "name": "Stokksnes / Vestrahorn", "lat": 64.2470, "lng": -14.9930, "precision": "approximate" },
+    "hofn":               { "name": "Höfn", "lat": 64.2539, "lng": -15.2082, "precision": "approximate" },
+    "borgarnes":          { "name": "Borgarnes", "lat": 64.5383, "lng": -21.9200, "precision": "approximate" },
+    "gerduberg":          { "name": "Gerðuberg basalt cliffs", "lat": 64.8578, "lng": -22.3673, "precision": "verified" },
+    "ytri_tunga":         { "name": "Ytri Tunga seal beach", "lat": 64.8033, "lng": -23.0900, "precision": "approximate" },
+    "budakirkja":         { "name": "Búðakirkja black church", "lat": 64.8217, "lng": -23.3840, "precision": "verified" },
+    "raudfeldsgja":       { "name": "Rauðfeldsgjá gorge", "lat": 64.7833, "lng": -23.5167, "precision": "approximate" },
+    "arnarstapi":         { "name": "Arnarstapi cliffs", "lat": 64.7643, "lng": -23.6249, "precision": "verified" },
+    "londrangar":         { "name": "Lóndrangar sea pinnacles", "lat": 64.7370, "lng": -23.7900, "precision": "approximate" },
+    "djupalonssandur":    { "name": "Djúpalónssandur", "lat": 64.7523, "lng": -23.9005, "precision": "verified" },
+    "olafsvik":           { "name": "Ólafsvík", "lat": 64.8940, "lng": -23.7100, "precision": "approximate" },
+    "grundarfjordur":     { "name": "Grundarfjörður", "lat": 64.9252, "lng": -23.2613, "precision": "verified" },
+    "kirkjufell":         { "name": "Kirkjufell & Kirkjufellsfoss", "lat": 64.9417, "lng": -23.3069, "precision": "verified" },
+    "hraunfossar":        { "name": "Hraunfossar & Barnafoss", "lat": 64.7029, "lng": -20.9772, "precision": "verified" },
+    "deildartunguhver":   { "name": "Deildartunguhver / Krauma", "lat": 64.6636, "lng": -21.4107, "precision": "verified" },
+    "selfoss_town":       { "name": "Selfoss", "lat": 63.9330, "lng": -21.0000, "precision": "approximate" },
+    "hveragerdi":         { "name": "Hveragerði", "lat": 64.0000, "lng": -21.1900, "precision": "approximate" }
+  },
+
+  "plans": [
+    {
+      "id": "A",
+      "name": "Snæfellsnes route",
+      "tagline": "Everything in, two hard days",
+      "total_km": 1845,
+      "total_drive_hours": 24.5,
+      "properties": 5,
+      "shape": "Out-and-back along the south coast, then a loop of Snæfellsnes",
+      "best_for": "Seeing the most, accepting two long transfer days",
+      "tradeoff": "Days 6 and 7 carry 40% of all driving. No slack on either.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Arrival & Reykjanes",
+          "from": "KEF",
+          "to": "Reykjavík",
+          "drive_km": 85,
+          "drive_min": 85,
+          "intensity": "relaxed",
+          "stops": [
+            { "loc": "kef_airport", "arrive": "09:00", "depart": "10:00", "duration_min": 60, "activity": "Collect car, buy groceries", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 22, "drive_to_next_min": 20, "note": "Stock up here — supermarkets thin out east of Vík. Enable a 4-digit PIN on your fuel card before you fly." },
+            { "loc": "gunnuhver", "arrive": "10:20", "depart": "11:20", "duration_min": 60, "activity": "Geothermal steam vents and mud pool", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 12, "drive_to_next_min": 15, "note": "Boardwalks. Strong sulphur smell." },
+            { "loc": "brimketill", "arrive": "11:35", "depart": "12:00", "duration_min": 25, "activity": "Lava rock pool on the coast", "hike": false, "ticket": false, "optional": true, "drive_to_next_km": 45, "drive_to_next_min": 45, "note": "Skip if the weather is poor — it's a viewing platform, nothing more." },
+            { "loc": "sky_lagoon", "arrive": "12:45", "depart": "15:15", "duration_min": 150, "activity": "Geothermal lagoon + 7-step ritual", "hike": false, "ticket": true, "optional": false, "drive_to_next_km": 6, "drive_to_next_min": 15, "note": "Book a timed slot. Adults 12+ only." },
+            { "loc": "reykjavik", "arrive": "15:30", "depart": null, "duration_min": null, "activity": "Check in, walk Laugavegur, dinner", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Night 1." }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Golden Circle",
+          "from": "Reykjavík",
+          "to": "Hvolsvöllur",
+          "drive_km": 250,
+          "drive_min": 195,
+          "intensity": "full",
+          "stops": [
+            { "loc": "reykjavik", "arrive": null, "depart": "08:00", "duration_min": null, "activity": "Depart", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 47, "drive_to_next_min": 45 },
+            { "loc": "thingvellir", "arrive": "08:45", "depart": "10:00", "duration_min": 75, "activity": "Walk the Almannagjá rift", "hike": false, "ticket": true, "optional": false, "drive_to_next_km": 42, "drive_to_next_min": 50, "note": "1,000 ISK parking, covers all lots all day." },
+            { "loc": "bruarfoss", "arrive": "10:50", "depart": "11:50", "duration_min": 60, "activity": "Turquoise braided waterfall", "hike": true, "ticket": false, "optional": true, "drive_to_next_km": 13, "drive_to_next_min": 15, "note": "Short walk from the car park. Far quieter than Gullfoss." },
+            { "loc": "geysir", "arrive": "12:05", "depart": "13:15", "duration_min": 70, "activity": "Strokkur eruptions + lunch at the café", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 10, "drive_to_next_min": 10, "note": "One of the few reliable sit-down coffee stops on the route." },
+            { "loc": "gullfoss", "arrive": "13:25", "depart": "14:15", "duration_min": 50, "activity": "Two-tier canyon falls", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 40, "drive_to_next_min": 45, "note": "Upper platform is less exposed in wind." },
+            { "loc": "secret_lagoon", "arrive": "15:00", "depart": "16:45", "duration_min": 105, "activity": "Iceland's oldest pool", "hike": false, "ticket": true, "optional": false, "drive_to_next_km": 32, "drive_to_next_min": 35, "note": "Swap for Reykjadalur hot river if you prefer a walk-in natural option." },
+            { "loc": "kerid", "arrive": "17:20", "depart": "17:45", "duration_min": 25, "activity": "Red crater with a blue lake", "hike": false, "ticket": true, "optional": true, "drive_to_next_km": 38, "drive_to_next_min": 40, "note": "600 ISK per person. First thing to cut if running late." },
+            { "loc": "hvolsvollur", "arrive": "18:25", "depart": null, "duration_min": null, "activity": "Check in", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Nights 2 and 3 — unpack properly." }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Waterfalls & glacier (run east-to-west)",
+          "from": "Hvolsvöllur",
+          "to": "Hvolsvöllur",
+          "drive_km": 195,
+          "drive_min": 170,
+          "intensity": "tight",
+          "design_flag": "This day was deliberately REVERSED from the obvious order. Do not re-sort it west-to-east.",
+          "stops": [
+            { "loc": "hvolsvollur", "arrive": null, "depart": "07:45", "duration_min": null, "activity": "Depart", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 62, "drive_to_next_min": 60 },
+            { "loc": "solheimajokull", "arrive": "08:45", "depart": "12:15", "duration_min": 210, "activity": "Guided glacier hike (~3 hrs on ice)", "hike": true, "ticket": true, "optional": false, "drive_to_next_km": 27, "drive_to_next_min": 30, "note": "Confirm the operator runs a 09:00–09:30 departure in October — some drop to a single midday slot." },
+            { "loc": "dyrholaey", "arrive": "12:45", "depart": "13:30", "duration_min": 45, "activity": "Clifftop arch and coastal views", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 14, "drive_to_next_min": 20, "note": "Check the access gate is open." },
+            { "loc": "reynisfjara", "arrive": "13:50", "depart": "14:35", "duration_min": 45, "activity": "Basalt columns and black sand", "hike": false, "ticket": true, "optional": false, "drive_to_next_km": 8, "drive_to_next_min": 10, "note": "Sneaker waves kill people here. Never turn your back on the sea." },
+            { "loc": "vik", "arrive": "14:45", "depart": "15:30", "duration_min": 45, "activity": "Late lunch", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 33, "drive_to_next_min": 35, "note": "Best café options between Reykjavík and Höfn." },
+            { "loc": "skogafoss", "arrive": "16:05", "depart": "16:50", "duration_min": 45, "activity": "527 steps to the top viewpoint", "hike": true, "ticket": true, "optional": false, "drive_to_next_km": 4, "drive_to_next_min": 10 },
+            { "loc": "kvernufoss", "arrive": "17:00", "depart": "17:40", "duration_min": 40, "activity": "Hidden falls you can walk behind", "hike": true, "ticket": false, "optional": true, "drive_to_next_km": 18, "drive_to_next_min": 20, "note": "15-min walk from the Skógar museum. Almost nobody goes." },
+            { "loc": "seljalandsfoss", "arrive": "18:00", "depart": "18:45", "duration_min": 45, "activity": "Walk behind the falls + Gljúfrabúi", "hike": true, "ticket": true, "optional": false, "drive_to_next_km": 29, "drive_to_next_min": 25, "note": "Faces west — this is the golden-hour slot, and the whole reason the day runs backwards. You will get soaked; bring waterproofs." },
+            { "loc": "hvolsvollur", "arrive": "19:10", "depart": null, "duration_min": null, "activity": "Return", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Last leg is after sunset — easy main road." }
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Ice cave & Skaftafell",
+          "from": "Hvolsvöllur",
+          "to": "Hof",
+          "drive_km": 280,
+          "drive_min": 205,
+          "intensity": "relaxed",
+          "stops": [
+            { "loc": "hvolsvollur", "arrive": null, "depart": "07:30", "duration_min": null, "activity": "Depart", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 85, "drive_to_next_min": 85 },
+            { "loc": "vik", "arrive": "09:00", "depart": "12:00", "duration_min": 180, "activity": "Katla ice cave tour (super-jeep from Vík)", "hike": true, "ticket": true, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 15, "note": "Year-round cave under Mýrdalsjökull. This is the dependable ice cave in early October — the Vatnajökull blue caves usually aren't open yet." },
+            { "loc": "vik", "arrive": "12:15", "depart": "13:00", "duration_min": 45, "activity": "Lunch", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 68, "drive_to_next_min": 60 },
+            { "loc": "fjadrargljufur", "arrive": "14:00", "depart": "15:00", "duration_min": 60, "activity": "Mossy serpentine canyon, rim path", "hike": true, "ticket": false, "optional": false, "drive_to_next_km": 78, "drive_to_next_min": 70 },
+            { "loc": "skaftafell", "arrive": "16:10", "depart": "17:45", "duration_min": 95, "activity": "Svartifoss basalt-column waterfall", "hike": true, "ticket": true, "optional": false, "drive_to_next_km": 25, "drive_to_next_min": 25, "note": "45 min uphill each way. Finishes right at dusk — bring a headtorch." },
+            { "loc": "hof", "arrive": "18:10", "depart": null, "duration_min": null, "activity": "Check in", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Night 4. Book this one FIRST — the Öræfi corridor has the least accommodation in the country." }
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Glacier lagoons",
+          "from": "Hof",
+          "to": "Vík",
+          "drive_km": 250,
+          "drive_min": 190,
+          "intensity": "relaxed",
+          "note": "Two optional add-ons below — realistically pick ONE, they pull in opposite directions.",
+          "stops": [
+            { "loc": "hof", "arrive": null, "depart": "08:15", "duration_min": null, "activity": "Depart", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 32, "drive_to_next_min": 30 },
+            { "loc": "fjallsarlon", "arrive": "08:45", "depart": "09:30", "duration_min": 45, "activity": "Quieter lagoon, glacier tongue up close", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 15, "drive_to_next_min": 15 },
+            { "loc": "jokulsarlon", "arrive": "09:45", "depart": "11:45", "duration_min": 120, "activity": "Boat tour among the icebergs + lagoon walk", "hike": false, "ticket": true, "optional": false, "drive_to_next_km": 5, "drive_to_next_min": 10, "note": "Amphibian boat runs to mid-Nov; Zodiac ends Oct 31. Book ahead." },
+            { "loc": "diamond_beach", "arrive": "11:55", "depart": "13:20", "duration_min": 85, "activity": "Ice boulders on black sand + lunch", "hike": false, "ticket": true, "optional": false, "drive_to_next_km": 150, "drive_to_next_min": 150, "note": "Low October light is ideal here." },
+            { "loc": "stokksnes", "arrive": "14:20", "depart": "15:20", "duration_min": 60, "activity": "OPTION 1 — jagged peak over black dunes", "hike": false, "ticket": true, "optional": true, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Adds ~2h40 round trip. Arguably the most dramatic single landscape you'd otherwise skip. Pushes Vík arrival to ~18:30." },
+            { "loc": "mulagljufur", "arrive": "13:50", "depart": "15:30", "duration_min": 100, "activity": "OPTION 2 — moss-walled canyon, waterfall at the head", "hike": true, "ticket": false, "optional": true, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Steep, rough, lightly marked trail. Only in good weather — it gets slick. Pushes Vík arrival to ~17:30." },
+            { "loc": "vik", "arrive": "15:50", "depart": null, "duration_min": null, "activity": "Check in", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Night 5. Base arrival time with no add-ons." }
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Cross to Snæfellsnes",
+          "from": "Vík",
+          "to": "Grundarfjörður",
+          "drive_km": 455,
+          "drive_min": 370,
+          "intensity": "hard",
+          "warning": "Longest day of the trip. 6h10 driving inside ~11 hours of daylight. There is no coffee stop in this day — it is a transfer with scenery attached.",
+          "stops": [
+            { "loc": "vik", "arrive": null, "depart": "07:30", "duration_min": null, "activity": "Depart early", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 330, "drive_to_next_min": 260, "note": "Fuel up before leaving." },
+            { "loc": "gerduberg", "arrive": "11:50", "depart": "12:20", "duration_min": 30, "activity": "Wall of hexagonal basalt columns", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 25, "drive_to_next_min": 25, "note": "Short gravel access road." },
+            { "loc": "ytri_tunga", "arrive": "12:45", "depart": "13:10", "duration_min": 25, "activity": "Seal colony beach", "hike": false, "ticket": false, "optional": true, "drive_to_next_km": 18, "drive_to_next_min": 20 },
+            { "loc": "budakirkja", "arrive": "13:30", "depart": "14:00", "duration_min": 30, "activity": "Black timber church alone in a lava field", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 17, "drive_to_next_min": 20 },
+            { "loc": "raudfeldsgja", "arrive": "14:20", "depart": "14:55", "duration_min": 35, "activity": "Narrow gorge you walk up into", "hike": true, "ticket": false, "optional": true, "drive_to_next_km": 8, "drive_to_next_min": 10, "note": "Wet feet likely." },
+            { "loc": "arnarstapi", "arrive": "15:05", "depart": "16:05", "duration_min": 60, "activity": "Sea arches, basalt columns, coast path", "hike": true, "ticket": false, "optional": false, "drive_to_next_km": 13, "drive_to_next_min": 15, "note": "Café here — the day's only realistic sit-down." },
+            { "loc": "londrangar", "arrive": "16:20", "depart": "16:45", "duration_min": 25, "activity": "Basalt sea pinnacles", "hike": false, "ticket": false, "optional": true, "drive_to_next_km": 12, "drive_to_next_min": 15 },
+            { "loc": "djupalonssandur", "arrive": "17:00", "depart": "17:45", "duration_min": 45, "activity": "Black pebble beach, 1948 trawler wreck", "hike": true, "ticket": false, "optional": false, "drive_to_next_km": 35, "drive_to_next_min": 40 },
+            { "loc": "grundarfjordur", "arrive": "18:25", "depart": null, "duration_min": null, "activity": "Check in", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Night 6. Strong aurora location if skies clear." }
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Kirkjufell & home",
+          "from": "Grundarfjörður",
+          "to": "KEF",
+          "drive_km": 330,
+          "drive_min": 255,
+          "intensity": "hard",
+          "warning": "Assumes an evening flight. For a morning departure, cut both optional stops — Grundarfjörður direct to KEF is 230 km / 2h50.",
+          "stops": [
+            { "loc": "kirkjufell", "arrive": "08:30", "depart": "09:30", "duration_min": 60, "activity": "Iconic cone mountain + Kirkjufellsfoss", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 130, "drive_to_next_min": 110, "note": "Five minutes from the hotel. Shoot from the falls across the road." },
+            { "loc": "hraunfossar", "arrive": "11:20", "depart": "12:00", "duration_min": 40, "activity": "Waterfalls seeping out of a lava field", "hike": false, "ticket": false, "optional": true, "drive_to_next_km": 35, "drive_to_next_min": 35, "note": "Café on site." },
+            { "loc": "deildartunguhver", "arrive": "12:35", "depart": "14:15", "duration_min": 100, "activity": "Europe's most powerful hot spring + Krauma baths", "hike": false, "ticket": true, "optional": true, "drive_to_next_km": 155, "drive_to_next_min": 110 },
+            { "loc": "kef_airport", "arrive": "16:05", "depart": null, "duration_min": null, "activity": "Fuel, drop off car, fly", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Refuel before returning the car — rental refuelling rates are punitive." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Relaxed route",
+      "tagline": "Fewer places, real slack",
+      "total_km": 1300,
+      "total_drive_hours": 17,
+      "properties": 3,
+      "shape": "South coast only, out-and-back, returning to Reykjavík",
+      "best_for": "Coffee, unhurried stops, and no day over ~4.5 hours driving",
+      "tradeoff": "Drops Snæfellsnes entirely — no Kirkjufell, Arnarstapi or Djúpalónssandur. Costs slightly MORE on lodging (two nights in the expensive Öræfi corridor).",
+      "days": [
+        {
+          "day": 1,
+          "title": "Arrival & Reykjanes",
+          "from": "KEF",
+          "to": "Reykjavík",
+          "drive_km": 80,
+          "drive_min": 80,
+          "intensity": "relaxed",
+          "note": "Same as Plan A but Sky Lagoon moves to Day 7, replaced by time in the city.",
+          "stops": [
+            { "loc": "kef_airport", "arrive": "09:00", "depart": "10:00", "duration_min": 60, "activity": "Collect car, buy groceries", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 22, "drive_to_next_min": 20 },
+            { "loc": "gunnuhver", "arrive": "10:20", "depart": "11:20", "duration_min": 60, "activity": "Geothermal steam vents", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 12, "drive_to_next_min": 15 },
+            { "loc": "brimketill", "arrive": "11:35", "depart": "12:00", "duration_min": 25, "activity": "Lava rock pool", "hike": false, "ticket": false, "optional": true, "drive_to_next_km": 45, "drive_to_next_min": 45 },
+            { "loc": "reykjavik", "arrive": "12:45", "depart": null, "duration_min": null, "activity": "Check in, Hallgrímskirkja, Laugavegur, dinner", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Night 1. Same property as Night 6." }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Golden Circle",
+          "from": "Reykjavík",
+          "to": "Hvolsvöllur",
+          "drive_km": 250,
+          "drive_min": 195,
+          "intensity": "full",
+          "same_as": "A/2",
+          "stops": []
+        },
+        {
+          "day": 3,
+          "title": "Waterfalls & glacier (run east-to-west)",
+          "from": "Hvolsvöllur",
+          "to": "Hvolsvöllur",
+          "drive_km": 195,
+          "drive_min": 170,
+          "intensity": "tight",
+          "same_as": "A/3",
+          "stops": []
+        },
+        {
+          "day": 4,
+          "title": "Ice cave & Skaftafell",
+          "from": "Hvolsvöllur",
+          "to": "Hof",
+          "drive_km": 280,
+          "drive_min": 205,
+          "intensity": "relaxed",
+          "same_as": "A/4",
+          "stops": []
+        },
+        {
+          "day": 5,
+          "title": "Glacier lagoons, unhurried",
+          "from": "Hof",
+          "to": "Hof",
+          "drive_km": 210,
+          "drive_min": 160,
+          "intensity": "relaxed",
+          "note": "Because you sleep at Hof both nights, BOTH optional add-ons fit comfortably. This is the day Plan B buys you.",
+          "stops": [
+            { "loc": "hof", "arrive": null, "depart": "08:15", "duration_min": null, "activity": "Depart", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 32, "drive_to_next_min": 30 },
+            { "loc": "fjallsarlon", "arrive": "08:45", "depart": "09:30", "duration_min": 45, "activity": "Quieter lagoon", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 15, "drive_to_next_min": 15 },
+            { "loc": "jokulsarlon", "arrive": "09:45", "depart": "11:45", "duration_min": 120, "activity": "Boat tour + lagoon walk", "hike": false, "ticket": true, "optional": false, "drive_to_next_km": 5, "drive_to_next_min": 10 },
+            { "loc": "diamond_beach", "arrive": "11:55", "depart": "12:55", "duration_min": 60, "activity": "Ice on black sand + lunch", "hike": false, "ticket": true, "optional": false, "drive_to_next_km": 60, "drive_to_next_min": 55 },
+            { "loc": "stokksnes", "arrive": "13:50", "depart": "14:50", "duration_min": 60, "activity": "Vestrahorn over black dunes", "hike": false, "ticket": true, "optional": false, "drive_to_next_km": 85, "drive_to_next_min": 75 },
+            { "loc": "mulagljufur", "arrive": "16:05", "depart": "17:35", "duration_min": 90, "activity": "Moss-walled canyon", "hike": true, "ticket": false, "optional": true, "drive_to_next_km": 25, "drive_to_next_min": 25, "note": "Cut this if the light is going or the trail is wet." },
+            { "loc": "hof", "arrive": "18:00", "depart": null, "duration_min": null, "activity": "Return to same bed", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Night 5." }
+          ]
+        },
+        {
+          "day": 6,
+          "title": "The long road west",
+          "from": "Hof",
+          "to": "Reykjavík",
+          "drive_km": 380,
+          "drive_min": 270,
+          "intensity": "full",
+          "stops": [
+            { "loc": "hof", "arrive": null, "depart": "09:00", "duration_min": null, "activity": "Late, unhurried start", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 78, "drive_to_next_min": 70 },
+            { "loc": "fjadrargljufur", "arrive": "10:10", "depart": "11:10", "duration_min": 60, "activity": "Canyon rim walk", "hike": true, "ticket": false, "optional": true, "drive_to_next_km": 68, "drive_to_next_min": 60, "note": "Do it here if you skipped it on Day 4." },
+            { "loc": "vik", "arrive": "12:10", "depart": "13:10", "duration_min": 60, "activity": "Lunch", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 8, "drive_to_next_min": 10 },
+            { "loc": "reynisfjara", "arrive": "13:20", "depart": "14:05", "duration_min": 45, "activity": "Second look, or first if Day 3 was rained out", "hike": false, "ticket": true, "optional": true, "drive_to_next_km": 62, "drive_to_next_min": 55 },
+            { "loc": "seljalandsfoss", "arrive": "15:00", "depart": "15:45", "duration_min": 45, "activity": "Walk behind the falls", "hike": true, "ticket": true, "optional": true, "drive_to_next_km": 128, "drive_to_next_min": 105 },
+            { "loc": "reykjavik", "arrive": "17:30", "depart": null, "duration_min": null, "activity": "Check in — same hotel as Night 1", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Night 6." }
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Soak and fly",
+          "from": "Reykjavík",
+          "to": "KEF",
+          "drive_km": 55,
+          "drive_min": 60,
+          "intensity": "relaxed",
+          "stops": [
+            { "loc": "reykjavik", "arrive": null, "depart": "09:00", "duration_min": null, "activity": "Slow morning, coffee, Perlan or the harbour", "hike": false, "ticket": false, "optional": true, "drive_to_next_km": 6, "drive_to_next_min": 15 },
+            { "loc": "sky_lagoon", "arrive": "10:30", "depart": "13:00", "duration_min": 150, "activity": "Geothermal lagoon + 7-step ritual", "hike": false, "ticket": true, "optional": false, "drive_to_next_km": 45, "drive_to_next_min": 45, "note": "Ideal last act — showers and changing rooms mean you fly clean." },
+            { "loc": "kef_airport", "arrive": "13:45", "depart": null, "duration_min": null, "activity": "Fuel, drop off, fly", "hike": false, "ticket": false, "optional": false, "drive_to_next_km": 0, "drive_to_next_min": 0, "note": "Works for afternoon or evening flights." }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "route_waypoints": {
+    "_comment": "Ordered coordinate arrays for drawing approximate route polylines. These trace Route 1 and side roads loosely — they are for visual map lines only, not navigation. Keyed by plan/day.",
+    "A/1": [[63.9815,-22.6282],[63.8500,-22.6900],[63.8192,-22.6847],[63.8290,-22.5030],[63.8800,-22.4300],[64.0200,-22.1000],[64.1165,-21.9463],[64.1396,-21.9376]],
+    "A/2": [[64.1396,-21.9376],[64.1900,-21.5000],[64.2822,-21.0764],[64.2400,-20.7000],[64.3104,-20.3013],[64.3271,-20.1199],[64.2200,-20.2500],[64.1374,-20.3097],[64.0413,-20.8851],[63.9330,-21.0000],[63.8330,-20.4000],[63.7511,-20.2229]],
+    "A/3": [[63.7511,-20.2229],[63.6156,-19.9886],[63.5321,-19.5114],[63.5708,-19.2924],[63.4700,-19.1500],[63.4047,-19.1186],[63.4030,-19.0447],[63.4177,-18.9974],[63.5321,-19.5114],[63.5307,-19.4870],[63.6156,-19.9886],[63.7511,-20.2229]],
+    "A/4": [[63.7511,-20.2229],[63.6156,-19.9886],[63.5321,-19.5114],[63.4177,-18.9974],[63.6000,-18.4000],[63.7713,-18.1718],[63.7900,-18.0600],[63.9500,-17.3000],[64.0704,-16.9752],[63.9058,-16.7151]],
+    "A/5": [[63.9058,-16.7151],[64.0158,-16.3657],[64.0784,-16.2306],[64.0411,-16.1967],[63.9500,-16.6000],[63.7900,-18.0600],[63.6000,-18.4000],[63.4177,-18.9974]],
+    "A/6": [[63.4177,-18.9974],[63.5321,-19.5114],[63.7511,-20.2229],[63.9330,-21.0000],[64.0800,-21.8500],[64.1396,-21.9376],[64.5383,-21.9200],[64.7000,-22.2000],[64.8578,-22.3673],[64.8033,-23.0900],[64.8217,-23.3840],[64.7833,-23.5167],[64.7643,-23.6249],[64.7370,-23.7900],[64.7523,-23.9005],[64.8940,-23.7100],[64.9252,-23.2613]],
+    "A/7": [[64.9252,-23.2613],[64.9417,-23.3069],[64.9252,-23.2613],[64.7000,-22.4000],[64.5383,-21.9200],[64.6636,-21.4107],[64.7029,-20.9772],[64.6636,-21.4107],[64.5383,-21.9200],[64.1396,-21.9376],[63.9815,-22.6282]],
+    "B/1": [[63.9815,-22.6282],[63.8500,-22.6900],[63.8192,-22.6847],[63.8290,-22.5030],[63.8800,-22.4300],[64.0200,-22.1000],[64.1396,-21.9376]],
+    "B/2": [[64.1396,-21.9376],[64.1900,-21.5000],[64.2822,-21.0764],[64.2400,-20.7000],[64.3104,-20.3013],[64.3271,-20.1199],[64.2200,-20.2500],[64.1374,-20.3097],[64.0413,-20.8851],[63.9330,-21.0000],[63.8330,-20.4000],[63.7511,-20.2229]],
+    "B/3": [[63.7511,-20.2229],[63.6156,-19.9886],[63.5321,-19.5114],[63.5708,-19.2924],[63.4700,-19.1500],[63.4047,-19.1186],[63.4030,-19.0447],[63.4177,-18.9974],[63.5321,-19.5114],[63.5307,-19.4870],[63.6156,-19.9886],[63.7511,-20.2229]],
+    "B/4": [[63.7511,-20.2229],[63.6156,-19.9886],[63.5321,-19.5114],[63.4177,-18.9974],[63.6000,-18.4000],[63.7713,-18.1718],[63.7900,-18.0600],[63.9500,-17.3000],[64.0704,-16.9752],[63.9058,-16.7151]],
+    "B/5": [[63.9058,-16.7151],[64.0158,-16.3657],[64.0784,-16.2306],[64.0411,-16.1967],[64.1500,-15.8000],[64.2539,-15.2082],[64.2470,-14.9930],[64.2539,-15.2082],[64.1000,-16.0000],[63.9860,-16.4460],[63.9058,-16.7151]],
+    "B/6": [[63.9058,-16.7151],[63.9500,-17.3000],[63.7900,-18.0600],[63.7713,-18.1718],[63.6000,-18.4000],[63.4177,-18.9974],[63.4030,-19.0447],[63.5321,-19.5114],[63.6156,-19.9886],[63.7511,-20.2229],[63.9330,-21.0000],[64.0000,-21.1900],[64.1396,-21.9376]],
+    "B/7": [[64.1396,-21.9376],[64.1165,-21.9463],[64.0200,-22.1000],[63.9815,-22.6282]]
+  },
+
+  "top_attractions": {
+    "_comment": "Consensus-weighted ranking of Iceland's top sights, with coverage status for this trip. Ranking is inherently subjective — present it as one view, not fact. Status values: hit | optional | closed_season | off_route",
+    "summary": { "total": 20, "hit": 12, "hit_in_top_10": 7, "closed_season": 2, "off_route": 6 },
+    "items": [
+      { "rank": 1,  "name": "Jökulsárlón glacier lagoon", "region": "Southeast",        "status": "hit",           "where": "Day 5" },
+      { "rank": 2,  "name": "Þingvellir rift valley",      "region": "Southwest",        "status": "hit",           "where": "Day 2" },
+      { "rank": 3,  "name": "Seljalandsfoss",              "region": "South",            "status": "hit",           "where": "Day 3" },
+      { "rank": 4,  "name": "Skógafoss",                   "region": "South",            "status": "hit",           "where": "Day 3" },
+      { "rank": 5,  "name": "Landmannalaugar",             "region": "Highlands",        "status": "closed_season", "where": "F-roads shut by October" },
+      { "rank": 6,  "name": "Reynisfjara & Dyrhólaey",     "region": "South",            "status": "hit",           "where": "Day 3" },
+      { "rank": 7,  "name": "Mývatn geothermal area",      "region": "North",            "status": "off_route",     "where": "Ring Road only" },
+      { "rank": 8,  "name": "Gullfoss",                    "region": "Southwest",        "status": "hit",           "where": "Day 2" },
+      { "rank": 9,  "name": "Skaftafell & Svartifoss",     "region": "Southeast",        "status": "hit",           "where": "Day 4" },
+      { "rank": 10, "name": "Þórsmörk valley",             "region": "South highlands",  "status": "closed_season", "where": "F-roads shut by October" },
+      { "rank": 11, "name": "Kirkjufell",                  "region": "Snæfellsnes",      "status": "hit",           "where": "Plan A, Day 7" },
+      { "rank": 12, "name": "Dettifoss",                   "region": "North",            "status": "off_route",     "where": "Ring Road only" },
+      { "rank": 13, "name": "Geysir & Strokkur",           "region": "Southwest",        "status": "hit",           "where": "Day 2" },
+      { "rank": 14, "name": "Stokksnes / Vestrahorn",      "region": "Southeast",        "status": "optional",      "where": "Day 5 add-on" },
+      { "rank": 15, "name": "Dynjandi",                    "region": "Westfjords",       "status": "off_route",     "where": "Not on any Ring Road itinerary either" },
+      { "rank": 16, "name": "Diamond Beach",               "region": "Southeast",        "status": "hit",           "where": "Day 5" },
+      { "rank": 17, "name": "Goðafoss",                    "region": "North",            "status": "off_route",     "where": "Ring Road only" },
+      { "rank": 18, "name": "Arnarstapi–Hellnar coast",    "region": "Snæfellsnes",      "status": "hit",           "where": "Plan A, Day 6" },
+      { "rank": 19, "name": "Ásbyrgi canyon",              "region": "North",            "status": "off_route",     "where": "Ring Road only" },
+      { "rank": 20, "name": "Látrabjarg cliffs",           "region": "Westfjords",       "status": "off_route",     "where": "Not on any Ring Road itinerary either" }
+    ],
+    "editorial_note": "Several stops on this route that miss a national top 20 are still excellent in person — Fjaðrárgljúfur, Kvernufoss, Djúpalónssandur, Reykjadalur. Rankings favour the famous and the photogenic; the south coast has a deep bench."
+  },
+
+  "hotel_scenarios": [
+    {
+      "id": "S1",
+      "name": "Five properties, one double night",
+      "matches_plan": "A",
+      "properties": 5,
+      "check_ins": 5,
+      "nights": [
+        { "night": 1, "town": "Reykjavík",       "est_isk": 47000 },
+        { "night": 2, "town": "Hvolsvöllur",     "est_isk": 40000 },
+        { "night": 3, "town": "Hvolsvöllur",     "est_isk": 40000 },
+        { "night": 4, "town": "Hof / Freysnes",  "est_isk": 66000 },
+        { "night": 5, "town": "Vík",             "est_isk": 49000 },
+        { "night": 6, "town": "Grundarfjörður",  "est_isk": 35000 }
+      ],
+      "total_isk": 277000,
+      "pros": ["Cheapest of the three", "Covers Snæfellsnes", "One two-night base at Hvolsvöllur"],
+      "cons": ["Four separate check-ins after the first", "Single nights at Hof, Vík and Grundarfjörður"]
+    },
+    {
+      "id": "S2",
+      "name": "Three properties, two double nights",
+      "matches_plan": "B",
+      "properties": 3,
+      "check_ins": 4,
+      "nights": [
+        { "night": 1, "town": "Reykjavík",       "est_isk": 47000 },
+        { "night": 2, "town": "Hvolsvöllur",     "est_isk": 40000 },
+        { "night": 3, "town": "Hvolsvöllur",     "est_isk": 40000 },
+        { "night": 4, "town": "Hof / Freysnes",  "est_isk": 66000 },
+        { "night": 5, "town": "Hof / Freysnes",  "est_isk": 66000 },
+        { "night": 6, "town": "Reykjavík",       "est_isk": 47000 }
+      ],
+      "total_isk": 306000,
+      "pros": ["Least unpacking", "Same Reykjavík property bookends the trip", "Unhurried Day 5 at the lagoons"],
+      "cons": ["MOST expensive — two nights in the pricey Öræfi corridor outweigh the fuel savings", "No Snæfellsnes"],
+      "counterintuitive_finding": "This is the relaxed plan but NOT the cheap one. Worth surfacing prominently on the site."
+    },
+    {
+      "id": "S3",
+      "name": "Two bases, maximum unpacking",
+      "matches_plan": "A or B, modified",
+      "properties": 3,
+      "check_ins": 3,
+      "nights": [
+        { "night": 1, "town": "Reykjavík",       "est_isk": 47000 },
+        { "night": 2, "town": "Hvolsvöllur",     "est_isk": 40000 },
+        { "night": 3, "town": "Hvolsvöllur",     "est_isk": 40000 },
+        { "night": 4, "town": "Hvolsvöllur",     "est_isk": 40000 },
+        { "night": 5, "town": "Hof / Freysnes",  "est_isk": 66000 },
+        { "night": 6, "town": "Hof / Freysnes",  "est_isk": 66000 }
+      ],
+      "total_isk": 299000,
+      "pros": ["Only three check-ins all week", "Suitcases stay unpacked"],
+      "cons": ["Adds backtracking — Hvolsvöllur to Vík and back is ~2 hrs round trip on two separate days", "Ends far from KEF, so the flight day is long", "No Snæfellsnes"]
+    }
+  ],
+
+  "budget": {
+    "_comment": "For 3 people, 2 rooms, 6 nights. ISK primary. These are mid-estimates from Aug 2026 research — treat as planning figures, not quotes.",
+    "assumptions": { "people": 3, "rooms": 2, "nights": 6, "days": 7, "isk_per_eur": 145, "isk_per_usd": 138 },
+    "line_items": [
+      { "item": "Rental car, small 4x4, 7 days",        "plan_a_isk": 60000,  "plan_b_isk": 60000,  "basis": "group", "note": "Local firms (Blue, Lava, Go, Reykjavik Cars) beat international chains" },
+      { "item": "Insurance bundle (SCDW + GP + SAAP)",  "plan_a_isk": 39200,  "plan_b_isk": 39200,  "basis": "group", "note": "Blue Car Platinum ~5,600 ISK/day. Sand & ash cover is NOT optional on the south coast" },
+      { "item": "Fuel",                                  "plan_a_isk": 25000,  "plan_b_isk": 17500,  "basis": "group", "note": "~210 ISK/L after the Jan 2026 tax reform; ~6–7 L/100km" },
+      { "item": "Kilometre road tax (new for 2026)",     "plan_a_isk": 12800,  "plan_b_isk": 9000,   "basis": "group", "note": "6.95 ISK/km, effective 1 Jan 2026. Some firms bill it as a flat daily rate instead" },
+      { "item": "Accommodation, 2 rooms x 6 nights",     "plan_a_isk": 277000, "plan_b_isk": 306000, "basis": "group", "note": "See hotel_scenarios. Check triple/family rooms — often cheaper than two rooms" },
+      { "item": "Food",                                  "plan_a_isk": 110000, "plan_b_isk": 110000, "basis": "group", "note": "3 people, mixed self-catering and restaurants, ~6,000 ISK pp/day" },
+      { "item": "Tours and lagoons",                     "plan_a_isk": 189030, "plan_b_isk": 189030, "basis": "group", "note": "See tours array" },
+      { "item": "Parking and entry fees",                "plan_a_isk": 18000,  "plan_b_isk": 18000,  "basis": "group", "note": "Mostly 1,000 ISK/car via Parka app" }
+    ],
+    "totals": {
+      "plan_a_isk": 731030, "plan_a_eur": 5041, "plan_a_usd": 5297, "plan_a_per_person_isk": 243677,
+      "plan_b_isk": 748730, "plan_b_eur": 5164, "plan_b_usd": 5426, "plan_b_per_person_isk": 249577
+    },
+    "headline_finding": "The two plans cost within ~2% of each other. Plan B saves on fuel but spends more on lodging. Choose on pace, not price.",
+    "trim_levers": [
+      { "action": "Amphibian boat instead of Zodiac at Jökulsárlón", "saves_isk": 28500 },
+      { "action": "Skip Secret Lagoon, do Reykjadalur hot river instead (free)", "saves_isk": 13500 },
+      { "action": "Guesthouses with shared bathrooms throughout", "saves_isk": 60000 },
+      { "action": "Self-cater all breakfasts and lunches", "saves_isk": 45000 },
+      { "action": "Skip Krauma baths on the final day", "saves_isk": 20000 }
+    ]
+  },
+
+  "tours": [
+    { "name": "Katla ice cave (from Vík)", "price_isk_pp": 23920, "duration_hrs": 3, "book_ahead": "essential", "season": "year-round", "priority": 1, "note": "The dependable ice cave in early October" },
+    { "name": "Sólheimajökull glacier hike", "price_isk_pp": 13500, "duration_hrs": 3, "book_ahead": "essential", "season": "year-round", "priority": 2, "note": "Confirm a morning departure exists in October" },
+    { "name": "Jökulsárlón amphibian boat", "price_isk_pp": 7100, "duration_hrs": 1, "book_ahead": "recommended", "season": "May–mid Nov", "priority": 3 },
+    { "name": "Jökulsárlón Zodiac / RIB", "price_isk_pp": 16600, "duration_hrs": 1, "book_ahead": "recommended", "season": "May 1–Oct 31", "priority": 3, "note": "Alternative to the amphibian — closer to the glacier" },
+    { "name": "Fjallsárlón iceberg boat", "price_isk_pp": 11300, "duration_hrs": 1, "book_ahead": "recommended", "season": "confirm October end date", "priority": 5 },
+    { "name": "Sky Lagoon (Saman pass)", "price_isk_pp": 13990, "duration_hrs": 2.5, "book_ahead": "essential", "season": "year-round", "priority": 4, "note": "Timed entry. Adults 12+" },
+    { "name": "Secret Lagoon, Flúðir", "price_isk_pp": 4500, "duration_hrs": 1.5, "book_ahead": "walk-in ok", "season": "year-round", "priority": 6 },
+    { "name": "Krauma baths", "price_isk_pp": 6800, "duration_hrs": 1.5, "book_ahead": "walk-in ok", "season": "year-round", "priority": 7, "note": "Plan A Day 7 only. Sources disagree on price: 4,900–7,900 ISK" },
+    { "name": "Blue Lagoon (Comfort)", "price_isk_pp": 11990, "duration_hrs": 2.5, "book_ahead": "essential", "season": "year-round", "priority": 8, "note": "Not in either plan — listed for comparison. Open as of mid-2026 despite Reykjanes activity" }
+  ],
+
+  "booking_order": [
+    { "step": 1, "what": "Accommodation at Hof / Freysnes / Skaftafell", "why": "Scarcest supply in the country — roughly three clusters serve the whole Skaftafell–Jökulsárlón stretch" },
+    { "step": 2, "what": "Rental 4x4 with insurance, bought online", "why": "Counter upsell is materially more expensive" },
+    { "step": 3, "what": "Katla ice cave and Sólheimajökull glacier hike", "why": "Small groups, limited October departures" },
+    { "step": 4, "what": "Jökulsárlón boat and Sky Lagoon", "why": "Timed slots; pick free-cancellation options" },
+    { "step": 5, "what": "Remaining accommodation", "why": "More availability, less urgency" }
+  ],
+
+  "practical": {
+    "apps_to_install": [
+      { "name": "Parka", "for": "Parking at most major sites (1,000 ISK/car)" },
+      { "name": "Checkit.is", "for": "Þingvellir, Seljalandsfoss parking (web/QR)" },
+      { "name": "EasyPark", "for": "Reykjavík city zones" },
+      { "name": "vedur.is", "for": "Weather, wind warnings and the aurora forecast" },
+      { "name": "road.is", "for": "Live road conditions and closures" },
+      { "name": "safetravel.is", "for": "Travel alerts and volcanic status" }
+    ],
+    "daily_checks": "Wind is the real disruptor, not cold. Anything over 15 m/s makes waterfall stops miserable and can tear a car door off its hinges — always hold doors when opening.",
+    "fuel_cards": "Icelandic self-service pumps need a 4-digit PIN on a foreign chip card. Set this up before you fly. Choose a fixed amount rather than 'fill up' to avoid a large pre-authorisation hold.",
+    "closed_in_october": [
+      { "what": "F208 to Landmannalaugar", "note": "Highland F-road, shut by late September" },
+      { "what": "F249 to Þórsmörk", "note": "Highland F-road, shut by late September" },
+      { "what": "Vatnajökull blue / crystal ice caves", "note": "Usually not open until mid-November. Katla is the alternative" },
+      { "what": "Puffins", "note": "Gone since August" }
+    ],
+    "volcanic_status": "The Reykjanes peninsula has erupted repeatedly since 2023–24 near Sundhnúkur/Grindavík. Grindavík town remains largely restricted; the Blue Lagoon is open as of mid-2026. Conditions change fast — check almannavarnir.is and vedur.is on the day.",
+    "northern_lights": "Genuinely possible from Day 2 onward. Check the aurora forecast on vedur.is each evening (combined cloud cover + Kp). Get clear of town lights. Best bases: Hvolsvöllur, Hof, Grundarfjörður.",
+    "coffee_reality": "Outside Reykjavík and the Golden Circle, cafés are sparse and many rural ones cut hours in October. Reliable sit-down stops: Geysir, Skógafoss, Vík, Arnarstapi, Hraunfossar. Everywhere else it's an N1 petrol station — which is fine, but not a lingering experience.",
+    "fuel_stops": "Fill up at Vík and at Kirkjubæjarklaustur or Höfn. Do not assume you'll find a station further east."
+  },
+
+  "site_build_notes": {
+    "required_sections": [
+      "Overview with the A/B plan toggle — both plans are peers, never label one 'recommended' by default",
+      "Interactive map with per-day route polylines and stop pins, filterable by day",
+      "Day-by-day cards with the daylight bar, stop timeline, and hike/ticket/optional badges",
+      "Top-20 attractions table with coverage status",
+      "Hotel scenarios comparison (3 options)",
+      "Budget breakdown with the A-vs-B comparison and trim levers"
+    ],
+    "map_library": "Leaflet 1.9.4 from cdnjs. Dark tiles suit the palette (CartoDB dark_all). Attribution is required for both Leaflet and the tile provider.",
+    "intensity_colour_coding": { "relaxed": "calm/positive", "full": "neutral", "tight": "caution", "hard": "warning" },
+    "signature_element": "The daylight bar — each day's stops plotted against actual October sunrise/sunset. This answers the trip's central question ('will we be rushed?') better than any number.",
+    "tone": "This is a document three friends will argue over. Be factual, surface trade-offs rather than hiding them, and never oversell a plan.",
+    "accessibility_floor": "Responsive to mobile, visible keyboard focus, respects prefers-reduced-motion.",
+    "known_gaps": [
+      "No specific hotel names — the travellers chose to pick their own properties",
+      "Drive times are moving-time estimates; pad 10–20% for October wind, single-lane bridges and unplanned photo stops",
+      "Exact sunrise/sunset should be re-derived once travel dates are fixed",
+      "Prices are August 2026 research and will drift"
+    ]
+  }
+}
