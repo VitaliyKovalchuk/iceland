@@ -30,7 +30,111 @@
       "notes": "Different airline from the outbound — Wizz baggage allowance is stricter than LOT's, check before packing. Route reaches the airport 18:55, so ~5h spare."
     }
   ],
-  "bookings": [],
+  "bookings": [
+    {
+      "night": 1,
+      "date": "2026-10-02",
+      "town": "Keflavík (Innri-Njarðvík)",
+      "property": "Tjarnabraut 24",
+      "address": "Tjarnabraut 24, 260 Njarðvík, Reykjanesbær",
+      "lat": 63.9745718,
+      "lng": -22.5071418,
+      "source": "Booking.com",
+      "bookedBy": "Vitalii",
+      "bookedSeparately": true,
+      "checkIn": "17:00–00:30",
+      "checkOut": "06:00–10:00",
+      "notes": "Check-in window closes 00:30. Car is booked for 01:00 and the drive from the terminal is ~8 min, so arrival is roughly 01:10 — after the window shuts. Contact the host for a key box or late arrival."
+    },
+    {
+      "night": 2,
+      "date": "2026-10-03",
+      "town": "Skagaströnd",
+      "property": "Salthús Guesthouse",
+      "address": "Einbúastígur 3, 545 Skagaströnd",
+      "lat": 65.8261547,
+      "lng": -20.3217908,
+      "source": "Agoda",
+      "bookingRef": "690014187",
+      "bookedBy": "Vitalii",
+      "rooms": "2",
+      "notes": "Skagaströnd, not Blönduós — 24 km further north. Adds ~27 min to the end of Oct 3 and ~20 min to the start of Oct 4; both days absorb it."
+    },
+    {
+      "night": 3,
+      "date": "2026-10-04",
+      "town": "Mývatn (near)",
+      "property": "TODO — booked by someone else",
+      "source": "Airbnb/other",
+      "bookedBy": "other traveller",
+      "pending": true,
+      "notes": "Confirmed as near Mývatn, so the route is unaffected. Need the property, address, check-in window and confirmation number."
+    },
+    {
+      "night": 4,
+      "date": "2026-10-05",
+      "town": "Egilsstaðir, Múlaþing",
+      "property": "Airbnb — Egilsstaðir",
+      "address": "Egilsstaðir, Múlaþing",
+      "lat": 65.177817,
+      "lng": -14.542279,
+      "source": "Airbnb",
+      "bookedBy": "Vitalii",
+      "checkIn": "16:00",
+      "checkOut": "11:00",
+      "notes": "Pin sits ~11 km south-west of Egilsstaðir centre — check the exact approach before dark."
+    },
+    {
+      "night": 5,
+      "date": "2026-10-06",
+      "town": "Höfn",
+      "property": "TODO — booked by someone else",
+      "source": "Airbnb/other",
+      "bookedBy": "other traveller",
+      "pending": true,
+      "notes": "Confirmed as in Höfn, so the route is unaffected. Need the property, address, check-in window and confirmation number."
+    },
+    {
+      "night": 6,
+      "date": "2026-10-07",
+      "town": "Kirkjubæjarklaustur",
+      "property": "Arctic Exclusive Ranch",
+      "address": "Kirkjubæjarklaustur, Skaftárhreppur 881",
+      "lat": 63.55377295557529,
+      "lng": -18.18668938095092,
+      "source": "Airbnb",
+      "bookedBy": "Vitalii",
+      "checkIn": "16:00",
+      "checkOut": "11:00"
+    },
+    {
+      "night": 7,
+      "date": "2026-10-08",
+      "town": "Vík",
+      "property": "Brekkur 1",
+      "address": "Brekkur 1, Vík, Mýrdalshreppur 871",
+      "lat": 63.450494,
+      "lng": -19.144497,
+      "source": "Airbnb",
+      "bookedBy": "Vitalii",
+      "checkIn": "17:00",
+      "checkOut": "11:00"
+    },
+    {
+      "night": 8,
+      "date": "2026-10-09",
+      "town": "Reykjavík",
+      "property": "Kirkjustræti 2",
+      "address": "Kirkjustræti 2, 101 Reykjavík",
+      "lat": 64.147099,
+      "lng": -21.9425976,
+      "source": "Airbnb",
+      "bookedBy": "Vitalii",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "notes": "Reykjavík city centre, not Selfoss as the route assumed. Changes the end of Oct 9 and the start of Oct 10 — needs re-verifying. Also: central Reykjavík parking is paid/zoned, confirm what the listing provides."
+    }
+  ],
   "tours": [],
   "emergency": {
     "Emergency (all services)": "112",
@@ -56,5 +160,52 @@
     },
     "insurance": "CONFIRM: gravel protection (GP) and sand & ash (SAAP) are the two that matter in Iceland and are usually extra.",
     "notes": "Pickup 01:00 is 65 min after the 23:55 landing — immigration, bags and the rental shuttle all have to fit in that. Plug-in hybrid: it runs on petrol regardless, so range is never a problem; charging is only a cost saving if a hotel has a plug. 'Or similar' means the PHEV is not guaranteed."
-  }
+  },
+  "todo": [
+    {
+      "what": "Night 3 (Oct 4) Mývatn — get property, address, check-in, confirmation",
+      "owner": "other traveller",
+      "blocking": false
+    },
+    {
+      "what": "Night 5 (Oct 6) Höfn — get property, address, check-in, confirmation",
+      "owner": "other traveller",
+      "blocking": false
+    },
+    {
+      "what": "Night 1 — arrange late check-in; window closes 00:30 and we arrive ~01:10",
+      "owner": "Vitalii",
+      "blocking": true
+    },
+    {
+      "what": "Book Katla ice cave (Oct 9) — limited October departures, biggest block of the week",
+      "owner": "Vitalii",
+      "blocking": true
+    },
+    {
+      "what": "Book Sólheimajökull glacier hike (Oct 8)",
+      "owner": "Vitalii",
+      "blocking": true
+    },
+    {
+      "what": "Book Blue Lagoon (Oct 10, ~16:15–18:15 slot)",
+      "owner": "Vitalii",
+      "blocking": true
+    },
+    {
+      "what": "Confirm car insurance covers gravel (GP) and sand & ash (SAAP)",
+      "owner": "Vitalii",
+      "blocking": false
+    },
+    {
+      "what": "Re-verify Oct 9 end and Oct 10 start — night 8 is Reykjavík, not Selfoss",
+      "owner": "Claude",
+      "blocking": false
+    },
+    {
+      "what": "Traveller names and phone numbers for the guide",
+      "owner": "Vitalii",
+      "blocking": false
+    }
+  ]
 }
