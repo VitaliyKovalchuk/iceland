@@ -17,7 +17,7 @@ const MapCanvas = dynamic(() => import("./MapCanvas"), {
   ),
 });
 
-const KINDS: PlaceKind[] = ["attraction", "food", "fuel", "grocery", "stay"];
+const KINDS: PlaceKind[] = ["attraction", "food", "fuel", "grocery"];
 const RADII = [3, 5, 10];
 
 export default function MapExplorer() {
