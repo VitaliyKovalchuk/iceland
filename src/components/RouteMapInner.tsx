@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { MapContainer, TileLayer, Polyline, CircleMarker, Popup, useMap } from "react-leaflet";
 import type { LatLngBoundsExpression } from "leaflet";
 import { gmaps, itinerary, poi } from "@/lib/data";
@@ -19,15 +19,27 @@ function dayLine(i: number): LatLng[] {
   return out;
 }
 
-function Resizer() {
+/** Fit once per container size. Re-fitting an already-fitted map drops a zoom level:
+ *  zoomSnap floors, and an exact integer zoom comes back as 5.9999… */
+function Resizer({ bounds }: { bounds: LatLngBoundsExpression }) {
   const map = useMap();
+  const fittedAt = useRef<string>("");
   useEffect(() => {
-    const fix = () => map.invalidateSize();
-    const t = setTimeout(fix, 60);
-    const ro = new ResizeObserver(fix);
+    const fit = () => {
+      const el = map.getContainer();
+      const w = el.clientWidth, h = el.clientHeight;
+      if (!w || !h) return;
+      const stamp = `${w}x${h}`;
+      if (stamp === fittedAt.current) return;
+      fittedAt.current = stamp;
+      map.invalidateSize({ animate: false });
+      map.fitBounds(bounds, { padding: [20, 20], animate: false });
+    };
+    fit();
+    const ro = new ResizeObserver(fit);
     ro.observe(map.getContainer());
-    return () => { clearTimeout(t); ro.disconnect(); };
-  }, [map]);
+    return () => ro.disconnect();
+  }, [map, bounds]);
   return null;
 }
 
@@ -46,8 +58,8 @@ export default function RouteMapInner({ dayIndex }: { dayIndex?: number }) {
       ];
 
   return (
-    <MapContainer bounds={bounds} boundsOptions={{ padding: [22, 22] }} scrollWheelZoom>
-      <Resizer />
+    <MapContainer bounds={bounds} boundsOptions={{ padding: [22, 22] }} scrollWheelZoom zoomSnap={0}>
+      <Resizer bounds={bounds} />
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="&copy; OpenStreetMap"

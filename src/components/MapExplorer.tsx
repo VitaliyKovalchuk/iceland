@@ -65,22 +65,17 @@ export default function MapExplorer() {
         ))}
       </div>
 
-      {/* kind + radius */}
-      <div className="flex gap-1 overflow-x-auto border-b border-[var(--color-line)] bg-[var(--color-surface)] px-2 py-2">
+      {/* what to show — radius and towns live in the sheet so this row never overflows */}
+      <div className="flex gap-1 border-b border-[var(--color-line)] bg-[var(--color-surface)] px-2 py-2">
         {KINDS.map((k) => (
-          <button key={k} onClick={() => toggle(k)} className={chip(kinds.has(k))}>
+          <button
+            key={k}
+            onClick={() => toggle(k)}
+            className={`${chip(kinds.has(k))} min-w-0 flex-1 truncate px-1`}
+          >
             {KIND_LABEL[k]}
           </button>
         ))}
-        <span className="mx-1 w-px shrink-0 bg-[var(--color-line)]" />
-        {RADII.map((r) => (
-          <button key={r} onClick={() => setRadius(r)} className={chip(radius === r)}>
-            {r} km
-          </button>
-        ))}
-        <button onClick={() => setShowTowns((v) => !v)} className={chip(showTowns)}>
-          Towns
-        </button>
       </div>
 
       <div className="relative min-h-0 flex-1">
@@ -92,22 +87,22 @@ export default function MapExplorer() {
           filters={filters}
         />
 
-        {/* count + list handle */}
+        {/* top-right is the layers control, bottom-left the zoom — this sits top-left */}
         <button
           onClick={() => setSheet((v) => !v)}
           className="absolute top-2.5 left-2.5 z-400 rounded-md border border-[var(--color-line)]
                      bg-[var(--color-surface)]/95 px-2.5 py-1.5 font-mono text-[10.5px]
                      tracking-[0.05em] uppercase shadow-sm backdrop-blur"
         >
-          {places.length} places · {sheet ? "hide list" : "list"}
+          {places.length} · {radius} km · {sheet ? "close" : "list"}
         </button>
 
         {sheet && (
           <div
-            className="absolute inset-x-0 bottom-0 z-400 flex max-h-[62%] flex-col border-t
+            className="absolute inset-x-0 bottom-0 z-400 flex max-h-[70%] flex-col border-t
                        border-[var(--color-line)] bg-[var(--color-surface)] shadow-[0_-8px_24px_rgba(0,0,0,.18)]"
           >
-            <div className="border-b border-[var(--color-line)] p-2">
+            <div className="space-y-2 border-b border-[var(--color-line)] p-2">
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
@@ -115,6 +110,22 @@ export default function MapExplorer() {
                 className="w-full rounded-md border border-[var(--color-line)] bg-[var(--color-raised)]
                            px-2.5 py-1.5 text-[13px] outline-none focus:border-[var(--color-accent)]"
               />
+              <div className="flex items-center gap-1">
+                <span className="mr-0.5 font-mono text-[9.5px] tracking-[0.08em] uppercase text-[var(--color-ink-3)]">
+                  within
+                </span>
+                {RADII.map((r) => (
+                  <button key={r} onClick={() => setRadius(r)} className={chip(radius === r)}>
+                    {r} km
+                  </button>
+                ))}
+                <button
+                  onClick={() => setShowTowns((v) => !v)}
+                  className={`${chip(showTowns)} ml-auto`}
+                >
+                  Town centres
+                </button>
+              </div>
             </div>
             <PlaceList
               places={places}

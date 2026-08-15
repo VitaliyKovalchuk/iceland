@@ -1,4 +1,4 @@
-import { gmaps, itinerary, poi } from "@/lib/data";
+import { gmaps, gmapsRoute, itinerary, poi } from "@/lib/data";
 import { sched } from "@/lib/schedule";
 import { dur, hhmm } from "@/lib/sun";
 import RouteMap from "./RouteMap";
@@ -48,6 +48,17 @@ export default function DayView({ index }: { index: number }) {
         <p className="mt-2.5 font-mono text-[10.5px] text-[var(--color-ink-3)]">
           Sunrise {hhmm(s.rise)} · sunset {hhmm(s.set)} at tonight&apos;s stop
         </p>
+
+        <a
+          href={gmapsRoute(day.stops.map((st) => poi(st.loc).search))}
+          target="_blank"
+          rel="noopener"
+          className="mt-3 inline-flex items-center gap-1.5 rounded-md border border-[var(--color-accent)]
+                     bg-[var(--color-accent)] px-3 py-2 font-mono text-[10.5px] tracking-[0.06em]
+                     uppercase text-[var(--color-surface)]"
+        >
+          Open the whole day in Google Maps
+        </a>
       </header>
 
       <div className="h-64 border-b border-[var(--color-line)] sm:h-80">
@@ -111,6 +122,31 @@ export default function DayView({ index }: { index: number }) {
                     {p.note || p.activity}
                   </p>
                 )}
+
+                <span className="mt-2 flex flex-wrap gap-1.5">
+                  <a
+                    href={gmaps(p.search)}
+                    target="_blank"
+                    rel="noopener"
+                    className="rounded border border-[var(--color-line)] bg-[var(--color-raised)]
+                               px-2 py-1 font-mono text-[9.5px] tracking-[0.06em] uppercase
+                               text-[var(--color-accent-ink)]"
+                  >
+                    Map
+                  </a>
+                  {r.i > 0 && (
+                    <a
+                      href={gmapsRoute([poi(day.stops[r.i - 1].loc).search, p.search])}
+                      target="_blank"
+                      rel="noopener"
+                      className="rounded border border-[var(--color-line)] bg-[var(--color-raised)]
+                                 px-2 py-1 font-mono text-[9.5px] tracking-[0.06em] uppercase
+                                 text-[var(--color-ink-2)]"
+                    >
+                      Drive here
+                    </a>
+                  )}
+                </span>
 
                 {r.legMin > 0 && (
                   <p className="mt-2.5 font-mono text-[10.5px] text-[var(--color-ink-3)]">

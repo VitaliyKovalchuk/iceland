@@ -1,4 +1,4 @@
-import { gmaps, poi, trip } from "@/lib/data";
+import { gmaps, gmapsRoute, poi, trip } from "@/lib/data";
 import { allSched, bedKeys } from "@/lib/schedule";
 import { hhmm } from "@/lib/sun";
 import type { Booking } from "@/lib/types";
@@ -38,6 +38,17 @@ export default function Stays() {
           {trip.bookings.filter((b) => !b.pending).length} booked ·{" "}
           {trip.bookings.filter((b) => b.pending).length} awaiting details
         </p>
+
+        <a
+          href={gmapsRoute(trip.bookings.map((b) => b.address ?? b.town))}
+          target="_blank"
+          rel="noopener"
+          className="mt-3 inline-block rounded-md border border-[var(--color-accent)]
+                     bg-[var(--color-accent)] px-3 py-2 font-mono text-[10.5px]
+                     tracking-[0.06em] uppercase text-[var(--color-surface)]"
+        >
+          All eight beds as one Google route
+        </a>
       </header>
 
       <ol>
@@ -125,6 +136,44 @@ export default function Stays() {
                   </Row>
                 )}
               </dl>
+
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                <a
+                  href={gmaps(b?.address ?? b?.town ?? planned.search)}
+                  target="_blank"
+                  rel="noopener"
+                  className="rounded border border-[var(--color-line)] bg-[var(--color-raised)]
+                             px-2 py-1 font-mono text-[9.5px] tracking-[0.06em] uppercase
+                             text-[var(--color-accent-ink)]"
+                >
+                  Map
+                </a>
+                {i > 0 && (
+                  <a
+                    href={gmapsRoute([
+                      byNight.get(i)?.address ?? byNight.get(i)?.town ?? poi(beds[i - 1]).search,
+                      b?.address ?? b?.town ?? planned.search,
+                    ])}
+                    target="_blank"
+                    rel="noopener"
+                    className="rounded border border-[var(--color-line)] bg-[var(--color-raised)]
+                               px-2 py-1 font-mono text-[9.5px] tracking-[0.06em] uppercase
+                               text-[var(--color-ink-2)]"
+                  >
+                    Drive from last night
+                  </a>
+                )}
+                {b?.phone && (
+                  <a
+                    href={`tel:${b.phone}`}
+                    className="rounded border border-[var(--color-line)] bg-[var(--color-raised)]
+                               px-2 py-1 font-mono text-[9.5px] tracking-[0.06em] uppercase
+                               text-[var(--color-ink-2)]"
+                  >
+                    Call
+                  </a>
+                )}
+              </div>
 
               {b?.notes && (
                 <p className="mt-2 rounded-md border-l-2 border-[var(--color-accent)] bg-[var(--color-accent-soft)]/50 px-3 py-2 text-[12.5px] leading-relaxed">

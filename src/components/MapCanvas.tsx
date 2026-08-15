@@ -1,6 +1,6 @@
 "use client";
-import { useEffect } from "react";
-import { MapContainer, TileLayer, Polyline, CircleMarker, Popup, useMap, LayersControl } from "react-leaflet";
+import { useEffect, useRef } from "react";
+import { MapContainer, TileLayer, Polyline, CircleMarker, Popup, useMap, LayersControl, ZoomControl } from "react-leaflet";
 import { itinerary, poi, gmaps } from "@/lib/data";
 import { trip } from "@/lib/data";
 import { colourOf, labelOf, nearest, daysOf, type Filters } from "@/lib/places";
@@ -17,26 +17,45 @@ function dayLine(i: number): LatLng[] {
   return out;
 }
 
-/** Re-fit when the chosen day changes, and fly to a place picked from the list. */
+/** View management.
+ *
+ *  Two traps here, both learned the hard way:
+ *  1. The map mounts inside a flex column that settles a frame later, so a fit done
+ *     at mount can be based on a stale container size.
+ *  2. fitBounds is NOT idempotent. zoomSnap floors the computed zoom, so re-fitting
+ *     an already-fitted map turns an exact 6 into 5.9999… and drops a whole level.
+ *
+ *  So: fit once per (day, size) and never refit at the same size.
+ */
 function Controller({ day, focus }: { day: number; focus: Place | null }) {
   const map = useMap();
+  const fittedAt = useRef<string>("");
+
   useEffect(() => {
-    const idx = day < 0 ? itinerary.days.map((_, i) => i) : [day];
-    const pts = idx.flatMap(dayLine);
-    if (pts.length) map.fitBounds(pts as [number, number][], { padding: [26, 26] });
+    const fit = () => {
+      const el = map.getContainer();
+      const w = el.clientWidth, h = el.clientHeight;
+      if (!w || !h) return;
+      const stamp = `${day}|${w}x${h}`;
+      if (stamp === fittedAt.current) return;
+      fittedAt.current = stamp;
+      map.invalidateSize({ animate: false });
+      const idx = day < 0 ? itinerary.days.map((_, i) => i) : [day];
+      const pts = idx.flatMap(dayLine);
+      if (pts.length) {
+        map.fitBounds(pts as [number, number][], { padding: [20, 20], animate: false });
+      }
+    };
+    fit();
+    const ro = new ResizeObserver(fit);
+    ro.observe(map.getContainer());
+    return () => ro.disconnect();
   }, [day, map]);
+
   useEffect(() => {
     if (focus) map.flyTo([focus.lat, focus.lng], 13, { duration: 0.6 });
   }, [focus, map]);
-  // The map mounts inside a flex column that settles a frame later; without this
-  // Leaflet keeps the size it measured on mount and tiles come out misaligned.
-  useEffect(() => {
-    const fix = () => map.invalidateSize();
-    const t = setTimeout(fix, 60);
-    const ro = new ResizeObserver(fix);
-    ro.observe(map.getContainer());
-    return () => { clearTimeout(t); ro.disconnect(); };
-  }, [map]);
+
   return null;
 }
 
@@ -49,7 +68,19 @@ export default function MapCanvas({
   const days = day < 0 ? itinerary.days.map((_, i) => i) : [day];
 
   return (
-    <MapContainer center={[64.9, -18.6]} zoom={6} scrollWheelZoom className="h-full w-full">
+    <MapContainer
+      center={[64.9, -18.6]}
+      zoom={6}
+      scrollWheelZoom
+      zoomControl={false}
+      /* zoomSnap 0 = fractional zoom. With the default snap of 1 Leaflet floors the
+         fitted zoom, and getBoundsZoom is reference-dependent: from 6 the whole ring
+         computes 5.99 -> 5, from 5 it computes 6.02 -> 6. It oscillates on the exact
+         boundary and settles a level too far out. Fractional zoom has no boundary. */
+      zoomSnap={0}
+      className="h-full w-full"
+    >
+      <ZoomControl position="bottomleft" />
       <LayersControl position="topright">
         <LayersControl.BaseLayer checked name="Streets">
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
