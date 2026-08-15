@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-ground: #edf1f2;
+  --color-surface: #fafbfb;
+  --color-raised: #ffffff;
+  --color-ink: #0e1518;
+  --color-ink-2: #4a5a61;
+  --color-ink-3: #7a8b92;
+  --color-line: #d4dde0;
+  --color-line-2: #e3eaec;
+  --color-accent: #0b6874;
+  --color-accent-ink: #08535d;
+  --color-accent-soft: #dceaed;
+  --color-ok: #4e9e5f;
+  --color-warn: #b5730b;
+  --color-bad: #9e2f20;
+  --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --color-ground: #0c1114;
+      --color-surface: #131a1d;
+      --color-raised: #182125;
+      --color-ink: #e9f0f2;
+      --color-ink-2: #9bafb7;
+      --color-ink-3: #68797f;
+      --color-line: #222e33;
+      --color-line-2: #1a2428;
+      --color-accent: #4fc0cb;
+      --color-accent-ink: #8fdce4;
+      --color-accent-soft: #102a2f;
+      --color-ok: #48a865;
+      --color-warn: #be8a1a;
+      --color-bad: #b8452f;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --color-ground: #0c1114;
+    --color-surface: #131a1d;
+    --color-raised: #182125;
+    --color-ink: #e9f0f2;
+    --color-ink-2: #9bafb7;
+    --color-ink-3: #68797f;
+    --color-line: #222e33;
+    --color-line-2: #1a2428;
+    --color-accent: #4fc0cb;
+    --color-accent-ink: #8fdce4;
+    --color-accent-soft: #102a2f;
+    --color-ok: #48a865;
+    --color-warn: #be8a1a;
+    --color-bad: #b8452f;
+  }
+  body {
+    background: var(--color-ground);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    /* room for the fixed bottom nav on phones */
+    padding-bottom: env(safe-area-inset-bottom);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Leaflet needs a concrete height and must sit under our chrome */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  background: var(--color-ground);
+  font: inherit;
+  z-index: 0;
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: var(--color-raised);
+  color: var(--color-ink);
+}
+.leaflet-popup-content {
+  margin: 11px 13px;
+  line-height: 1.5;
+}
+.leaflet-bar a {
+  background: var(--color-raised);
+  color: var(--color-ink);
+  border-color: var(--color-line);
 }

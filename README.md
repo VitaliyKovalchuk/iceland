@@ -26,3 +26,17 @@ interior. Every leg was checked by road name for seasonal closures.
 
     npm run dev
     npm run build
+
+## Structure
+
+    src/lib/sun.ts        NOAA solar — per-location sunrise/sunset (Iceland is UTC year-round)
+    src/lib/schedule.ts   day scheduling, ported from the verified planner
+    src/lib/today.ts      which day is it — falls back to a countdown before the trip
+    src/app/              Today · Days · Near us · Booked
+    public/sw.js          offline for the guide; map tiles cache only once viewed
+
+`src/lib/schedule.test.ts` pins the numbers the route was verified with — 1,948 km, one
+deliberate after-dark arrival (the Oct 10 airport run), no pre-dawn departures, and both
+routing defects staying fixed. If a refactor moves those, the tests fail.
+
+    npx vitest run

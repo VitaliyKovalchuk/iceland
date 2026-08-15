@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Trip data and the Python/JS generators it came from — not app source.
+    "data/**",
+    "public/sw.js",
   ]),
 ]);
 
