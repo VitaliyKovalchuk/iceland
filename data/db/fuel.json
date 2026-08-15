@@ -1,0 +1,3589 @@
+{
+ "note": "Petrol stations within 10 km of the route. Many rural Icelandic pumps are unmanned and card-only — carry a card with a PIN.",
+ "count": 189,
+ "items": [
+  {
+   "id": "n319967425",
+   "name": "Atlantsolía",
+   "lat": 65.69907,
+   "lng": -18.13536,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     1
+    ]
+   ],
+   "town": true,
+   "brand": "Atlantsolía",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w517428442",
+   "name": "Atlantsolía",
+   "lat": 64.12087,
+   "lng": -21.84778,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Reykjanesbraut",
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "w1292397126",
+   "name": "Atlantsolía",
+   "lat": 65.26015,
+   "lng": -14.39696,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     3
+    ],
+    [
+     0.1,
+     2
+    ]
+   ],
+   "town": false,
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "n694333764",
+   "name": "Fuel",
+   "lat": 64.21697,
+   "lng": -20.73418,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     7
+    ]
+   ],
+   "town": false
+  },
+  {
+   "id": "n3004751824",
+   "name": "Geysir Center",
+   "lat": 64.30988,
+   "lng": -20.30174,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     7
+    ]
+   ],
+   "town": false,
+   "hours": "24/7",
+   "wheelchair": "yes",
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n122275354",
+   "name": "N1",
+   "lat": 64.54403,
+   "lng": -21.91039,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     0
+    ]
+   ],
+   "town": false,
+   "phone": "+3544401333",
+   "address": "Brúartorg 1, Borgarnes",
+   "hours": "Mo-Su 07:30-23:30",
+   "wheelchair": "yes",
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n440121272",
+   "name": "N1",
+   "lat": 65.66005,
+   "lng": -20.27576,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     1
+    ],
+    [
+     0.6,
+     0
+    ]
+   ],
+   "town": false,
+   "address": "Norðurlandsvegur, Blönduós",
+   "hours": "24/7",
+   "wheelchair": "yes",
+   "brand": "N1",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n59861237",
+   "name": "N1",
+   "lat": 64.6561,
+   "lng": -14.28629,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     3
+    ]
+   ],
+   "town": false,
+   "hours": "24/7",
+   "wheelchair": "yes",
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n283716430",
+   "name": "N1",
+   "lat": 63.41777,
+   "lng": -19.00127,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     5
+    ],
+    [
+     0.0,
+     6
+    ]
+   ],
+   "town": false,
+   "address": "Austurvegur 18",
+   "hours": "24/7",
+   "brand": "N1"
+  },
+  {
+   "id": "n510134971",
+   "name": "N1",
+   "lat": 63.84367,
+   "lng": -22.43629,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     7
+    ]
+   ],
+   "town": false,
+   "phone": "+3544267222",
+   "website": "https://www.n1.is/",
+   "brand": "N1"
+  },
+  {
+   "id": "n7057126968",
+   "name": "N1",
+   "lat": 64.10206,
+   "lng": -21.87422,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "N1",
+   "self_service": true,
+   "fuels": [
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w243922377",
+   "name": "N1",
+   "lat": 63.93681,
+   "lng": -20.98759,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     6
+    ],
+    [
+     0.5,
+     7
+    ]
+   ],
+   "town": true,
+   "address": "Austurvegur",
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w510868218",
+   "name": "N1",
+   "lat": 63.74979,
+   "lng": -20.23367,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     6
+    ]
+   ],
+   "town": false,
+   "address": "Austurvegur",
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n242702953",
+   "name": "N1",
+   "lat": 65.66985,
+   "lng": -18.08072,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     1
+    ]
+   ],
+   "town": true,
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n524104542",
+   "name": "N1",
+   "lat": 64.17725,
+   "lng": -20.45375,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     7
+    ]
+   ],
+   "town": false,
+   "hours": "24/7",
+   "brand": "N1"
+  },
+  {
+   "id": "n826725434",
+   "name": "N1",
+   "lat": 65.7208,
+   "lng": -17.37221,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     1
+    ]
+   ],
+   "town": false,
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n6680666262",
+   "name": "N1",
+   "lat": 65.37859,
+   "lng": -20.64321,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "N1",
+   "fuels": [
+    "diesel"
+   ]
+  },
+  {
+   "id": "w517783243",
+   "name": "N1",
+   "lat": 64.12434,
+   "lng": -21.8288,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n13391878",
+   "name": "N1",
+   "lat": 63.79382,
+   "lng": -18.03953,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     4
+    ],
+    [
+     0.0,
+     5
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "n1259103371",
+   "name": "N1",
+   "lat": 64.66288,
+   "lng": -21.28316,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "n6781214241",
+   "name": "N1",
+   "lat": 63.8814,
+   "lng": -16.64567,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     4
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "n13791315502",
+   "name": "N1",
+   "lat": 64.83342,
+   "lng": -13.87549,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     3
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "n4237682894",
+   "name": "Olis",
+   "lat": 65.28238,
+   "lng": -14.42553,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     2
+    ],
+    [
+     2.2,
+     3
+    ]
+   ],
+   "town": false,
+   "hours": "Mo-Su 00:00-24:00",
+   "brand": "Olís"
+  },
+  {
+   "id": "w193117952",
+   "name": "Olís",
+   "lat": 64.25553,
+   "lng": -15.20896,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     3
+    ],
+    [
+     0.0,
+     4
+    ]
+   ],
+   "town": false,
+   "phone": "+3544781260",
+   "address": "Hafnarbraut 45, Höfn",
+   "hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
+   "email": "hofn@olis.is",
+   "brand": "Olís",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n288061023",
+   "name": "Olís",
+   "lat": 63.94376,
+   "lng": -21.00819,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     7
+    ],
+    [
+     0.8,
+     6
+    ]
+   ],
+   "town": true,
+   "hours": "24/7",
+   "brand": "Olís",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n256517469",
+   "name": "Olís Þjónustustöð",
+   "lat": 65.68916,
+   "lng": -18.10102,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     1
+    ]
+   ],
+   "town": true,
+   "address": "Tryggvabraut 1, Akureyri",
+   "brand": "Olís",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w34004727",
+   "name": "Orkan",
+   "lat": 65.69579,
+   "lng": -18.12229,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     1
+    ]
+   ],
+   "town": true,
+   "website": "https://www.orkan.is/",
+   "address": "Hlíðarbraut",
+   "hours": "24/7",
+   "email": "orkan@orkan.is",
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n293384488",
+   "name": "Orkan",
+   "lat": 63.41745,
+   "lng": -18.99375,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     5
+    ],
+    [
+     0.1,
+     6
+    ]
+   ],
+   "town": false,
+   "phone": "+3544443001",
+   "website": "https://www.orkan.is/",
+   "hours": "24/7",
+   "brand": "Orkan"
+  },
+  {
+   "id": "w492589868",
+   "name": "Orkan",
+   "lat": 65.26076,
+   "lng": -14.3981,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     3
+    ],
+    [
+     0.1,
+     2
+    ]
+   ],
+   "town": false,
+   "hours": "Mo-Su 00:00-24:00",
+   "brand": "Orkan",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n293389080",
+   "name": "Orkan",
+   "lat": 63.75171,
+   "lng": -20.23564,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     6
+    ]
+   ],
+   "town": false,
+   "address": "Suðurlandsvegur",
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n826578064",
+   "name": "Orkan",
+   "lat": 65.56744,
+   "lng": -17.03626,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     1
+    ],
+    [
+     10.0,
+     2
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n122275360",
+   "name": "Orkan",
+   "lat": 64.54352,
+   "lng": -21.90872,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n280108140",
+   "name": "Orkan",
+   "lat": 63.97249,
+   "lng": -22.54288,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     0
+    ],
+    [
+     0.1,
+     7
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n319323599",
+   "name": "Orkan",
+   "lat": 63.9905,
+   "lng": -16.89567,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     4
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan",
+   "fuels": [
+    "diesel"
+   ]
+  },
+  {
+   "id": "n331269144",
+   "name": "Orkan",
+   "lat": 65.26313,
+   "lng": -14.40611,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     2
+    ],
+    [
+     0.4,
+     3
+    ]
+   ],
+   "town": false,
+   "hours": "24/7",
+   "brand": "Orkan"
+  },
+  {
+   "id": "n1285442162",
+   "name": "Orkan",
+   "lat": 65.31598,
+   "lng": -15.12099,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     2
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan",
+   "fuels": [
+    "diesel"
+   ]
+  },
+  {
+   "id": "n59864651",
+   "name": "Orkan",
+   "lat": 63.99544,
+   "lng": -21.19172,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     7
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n694333757",
+   "name": "ÓB",
+   "lat": 64.07471,
+   "lng": -20.76426,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     7
+    ]
+   ],
+   "town": false,
+   "hours": "24/7",
+   "wheelchair": "yes",
+   "brand": "ÓB"
+  },
+  {
+   "id": "n693747734",
+   "name": "ÓB",
+   "lat": 65.65632,
+   "lng": -20.28491,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     0
+    ],
+    [
+     0.0,
+     1
+    ]
+   ],
+   "town": false,
+   "brand": "ÓB",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n111472895",
+   "name": "ÓB",
+   "lat": 64.09914,
+   "lng": -21.88079,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n320384079",
+   "name": "ÓB",
+   "lat": 65.6835,
+   "lng": -18.0896,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     1
+    ]
+   ],
+   "town": true,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n9900839725",
+   "name": "ÓB",
+   "lat": 63.41799,
+   "lng": -19.00249,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     5
+    ],
+    [
+     0.0,
+     6
+    ]
+   ],
+   "town": false,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n348724172",
+   "name": "AO",
+   "lat": 64.24198,
+   "lng": -21.83001,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Atlantsolía",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n8975288818",
+   "name": "AO",
+   "lat": 63.97029,
+   "lng": -22.51178,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     7
+    ],
+    [
+     0.2,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Atlantsolía ehf."
+  },
+  {
+   "id": "n288061025",
+   "name": "Atlantsolía",
+   "lat": 63.94656,
+   "lng": -21.01311,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     7
+    ],
+    [
+     1.2,
+     6
+    ]
+   ],
+   "town": true,
+   "hours": "24/7",
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "n4244438864",
+   "name": "Atlantsolía",
+   "lat": 65.6878,
+   "lng": -18.0999,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     1
+    ]
+   ],
+   "town": true,
+   "address": "Gleráreyrar 1, Akureyri",
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "w308796505",
+   "name": "Atlantsolía",
+   "lat": 63.99418,
+   "lng": -21.18572,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     7
+    ]
+   ],
+   "town": false,
+   "address": "Sunnumörk 6, Hveragerði",
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "n289552811",
+   "name": "Atlantsolía",
+   "lat": 64.12539,
+   "lng": -21.81292,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "n4873082443",
+   "name": "Costco eldsneyti",
+   "lat": 64.07545,
+   "lng": -21.91518,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Costco",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n3805062141",
+   "name": "Fuel",
+   "lat": 64.1239,
+   "lng": -21.80249,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n324731381",
+   "name": "N1",
+   "lat": 65.64173,
+   "lng": -16.91111,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     1
+    ],
+    [
+     0.1,
+     2
+    ]
+   ],
+   "town": false,
+   "hours": "24/7",
+   "wheelchair": "yes",
+   "brand": "N1",
+   "self_service": true,
+   "fuels": [
+    "diesel"
+   ]
+  },
+  {
+   "id": "n59666454",
+   "name": "N1",
+   "lat": 65.26053,
+   "lng": -14.40778,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     2
+    ],
+    [
+     0.4,
+     3
+    ]
+   ],
+   "town": false,
+   "address": "Austurlandsvegur",
+   "hours": "24/7",
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n826724989",
+   "name": "N1",
+   "lat": 65.68607,
+   "lng": -17.53881,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     1
+    ]
+   ],
+   "town": false,
+   "hours": "24/7",
+   "wheelchair": "yes",
+   "brand": "N1",
+   "fuels": [
+    "diesel"
+   ]
+  },
+  {
+   "id": "w512341639",
+   "name": "N1",
+   "lat": 64.06678,
+   "lng": -21.93877,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Lækjargata 46",
+   "hours": "24/7",
+   "brand": "N1"
+  },
+  {
+   "id": "w735028153",
+   "name": "N1",
+   "lat": 65.14482,
+   "lng": -21.08367,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": false,
+   "hours": "24/7",
+   "wheelchair": "yes",
+   "brand": "N1"
+  },
+  {
+   "id": "n67046220",
+   "name": "N1",
+   "lat": 64.12356,
+   "lng": -21.82655,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n279923870",
+   "name": "N1",
+   "lat": 63.99608,
+   "lng": -21.19223,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     7
+    ]
+   ],
+   "town": false,
+   "hours": "Mo-Th 07:30-19:30; Fr 07:30-21:00; Sa 09:00-21:00; Su 09:00-20:00",
+   "brand": "N1"
+  },
+  {
+   "id": "n828977666",
+   "name": "N1",
+   "lat": 64.16567,
+   "lng": -21.70833,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n12358899818",
+   "name": "N1",
+   "lat": 63.99746,
+   "lng": -22.5827,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ],
+    [
+     3.4,
+     7
+    ]
+   ],
+   "town": true,
+   "brand": "N1",
+   "self_service": true
+  },
+  {
+   "id": "w655272513",
+   "name": "N1",
+   "lat": 66.03069,
+   "lng": -16.48376,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     2
+    ]
+   ],
+   "town": false,
+   "hours": "24/7",
+   "brand": "N1"
+  },
+  {
+   "id": "n59999766",
+   "name": "N1",
+   "lat": 64.16585,
+   "lng": -21.6954,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "N1"
+  },
+  {
+   "id": "n242703163",
+   "name": "N1",
+   "lat": 65.69087,
+   "lng": -18.10849,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     1
+    ]
+   ],
+   "town": true,
+   "brand": "N1"
+  },
+  {
+   "id": "w95103139",
+   "name": "N1",
+   "lat": 64.11258,
+   "lng": -21.84205,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "N1"
+  },
+  {
+   "id": "w193117948",
+   "name": "N1",
+   "lat": 64.259,
+   "lng": -15.20628,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     3
+    ],
+    [
+     0.1,
+     4
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "w1292832048",
+   "name": "Olís",
+   "lat": 64.11041,
+   "lng": -21.84265,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545574530",
+   "website": "https://www.olis.is",
+   "address": "Álfabakki 7, Reykjavík",
+   "hours": "Mo-Fr 07:30-21:00; Sa-Su 09:00-21:00",
+   "email": "mjodd@olis.is",
+   "brand": "Olís",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n122275348",
+   "name": "Olís",
+   "lat": 64.54465,
+   "lng": -21.90787,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": false,
+   "address": "Brúartorg",
+   "wheelchair": "yes",
+   "brand": "ÓB"
+  },
+  {
+   "id": "n256630412",
+   "name": "Olís",
+   "lat": 65.55368,
+   "lng": -19.44674,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     1
+    ]
+   ],
+   "town": false,
+   "wheelchair": "yes",
+   "brand": "Olís",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n4231009690",
+   "name": "Olís",
+   "lat": 64.16584,
+   "lng": -21.70728,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Langitangi",
+   "hours": "24/7",
+   "brand": "Olís"
+  },
+  {
+   "id": "n9693609448",
+   "name": "Olís",
+   "lat": 63.8351,
+   "lng": -20.40139,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     6
+    ]
+   ],
+   "town": false,
+   "hours": "Mo-Su 8:00-23:00",
+   "brand": "Olís",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w1284730961",
+   "name": "Orkan",
+   "lat": 63.83064,
+   "lng": -20.3914,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     6
+    ]
+   ],
+   "town": false,
+   "website": "https://www.orkan.is",
+   "address": "Faxaflatir 4, Hella",
+   "brand": "Orkan",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n12495715861",
+   "name": "Orkan",
+   "lat": 64.1415,
+   "lng": -21.7584,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Lambhagavegur 12, Reykjavík",
+   "brand": "Orkan",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n693487239",
+   "name": "Orkan",
+   "lat": 64.12384,
+   "lng": -21.80413,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n288061024",
+   "name": "Orkan",
+   "lat": 63.945,
+   "lng": -21.01075,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     7
+    ],
+    [
+     1.0,
+     6
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n828977691",
+   "name": "Orkan",
+   "lat": 64.10525,
+   "lng": -21.86694,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w182944031",
+   "name": "Orkan",
+   "lat": 64.09883,
+   "lng": -21.8842,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Hæðasmári 2, Kópavogur",
+   "brand": "Orkan"
+  },
+  {
+   "id": "n297180434",
+   "name": "Orkan Stekkjarbakki",
+   "lat": 64.11258,
+   "lng": -21.84205,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://daelan.is/",
+   "address": "Stekkjarbakki 2, Reykjavík",
+   "hours": "24/7",
+   "brand": "Orkan",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n2876957003",
+   "name": "ÓB",
+   "lat": 64.12476,
+   "lng": -21.83226,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Bíldshöfði 5",
+   "brand": "ÓB"
+  },
+  {
+   "id": "n5174792755",
+   "name": "ÓB",
+   "lat": 63.99809,
+   "lng": -22.58816,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ],
+    [
+     3.4,
+     7
+    ]
+   ],
+   "town": true,
+   "brand": "ÓB",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n7691848086",
+   "name": "ÓB",
+   "lat": 65.69996,
+   "lng": -18.14409,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     1
+    ]
+   ],
+   "town": true,
+   "hours": "24/7",
+   "brand": "ÓB"
+  },
+  {
+   "id": "n34814044",
+   "name": "ÓB",
+   "lat": 63.87947,
+   "lng": -20.50073,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     6
+    ]
+   ],
+   "town": false,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n5080315022",
+   "name": "ÓB",
+   "lat": 63.79457,
+   "lng": -18.03874,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     4
+    ],
+    [
+     0.1,
+     5
+    ]
+   ],
+   "town": false,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n3645997930",
+   "name": "Atlantstolía",
+   "lat": 64.1639,
+   "lng": -21.69042,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Sunnukriki 2, Mosfellsbær",
+   "brand": "Atlantstolía"
+  },
+  {
+   "id": "w1201047085",
+   "name": "Fuel",
+   "lat": 65.43784,
+   "lng": -15.91253,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.2,
+     2
+    ]
+   ],
+   "town": false,
+   "self_service": true
+  },
+  {
+   "id": "w445251755",
+   "name": "N1",
+   "lat": 64.05336,
+   "lng": -21.96917,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.2,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "24/7",
+   "wheelchair": "yes",
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n321005643",
+   "name": "N1",
+   "lat": 65.68967,
+   "lng": -18.09712,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.2,
+     1
+    ]
+   ],
+   "town": true,
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w414495312",
+   "name": "N1",
+   "lat": 63.84139,
+   "lng": -22.42939,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.2,
+     7
+    ]
+   ],
+   "town": false,
+   "address": "Hafnargata 15, Grindavík",
+   "brand": "N1"
+  },
+  {
+   "id": "n3676883147",
+   "name": "Orkan",
+   "lat": 63.99555,
+   "lng": -21.18513,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.2,
+     7
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n5871875085",
+   "name": "Orkan",
+   "lat": 63.84139,
+   "lng": -22.42499,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.2,
+     7
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n1536991947",
+   "name": "Atlantsolía",
+   "lat": 64.07653,
+   "lng": -21.93798,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.3,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Atlantsolía",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w280407697",
+   "name": "Fuel",
+   "lat": 65.27599,
+   "lng": -14.40656,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.3,
+     2
+    ],
+    [
+     1.1,
+     3
+    ]
+   ],
+   "town": false,
+   "address": "Vatnsdæluhús við flugvöll"
+  },
+  {
+   "id": "n826724956",
+   "name": "Fuel",
+   "lat": 63.8406,
+   "lng": -22.43229,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.3,
+     7
+    ]
+   ],
+   "town": false
+  },
+  {
+   "id": "w223566513",
+   "name": "Orkan",
+   "lat": 64.11065,
+   "lng": -21.85198,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.3,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Smiðjuvegur, Kópavogur",
+   "brand": "Orkan"
+  },
+  {
+   "id": "n2990669212",
+   "name": "Skeljungur",
+   "lat": 64.10212,
+   "lng": -21.8838,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.3,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Hagasmári 9, Kópavogur",
+   "brand": "Skeljungur"
+  },
+  {
+   "id": "n1429345747",
+   "name": "Atlantsolía",
+   "lat": 64.11018,
+   "lng": -21.85317,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.4,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "n826725301",
+   "name": "Fuel",
+   "lat": 63.84,
+   "lng": -22.43084,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.4,
+     7
+    ]
+   ],
+   "town": false
+  },
+  {
+   "id": "w514576626",
+   "name": "N1",
+   "lat": 64.11,
+   "lng": -21.85617,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Stórihjalli 2, Kópavogur",
+   "brand": "N1"
+  },
+  {
+   "id": "w168519833",
+   "name": "ÓB",
+   "lat": 64.05906,
+   "lng": -21.9715,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Melabraut",
+   "brand": "ÓB"
+  },
+  {
+   "id": "n983183947",
+   "name": "ÓB",
+   "lat": 63.83965,
+   "lng": -22.43385,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.4,
+     7
+    ]
+   ],
+   "town": false,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n1344359833",
+   "name": "AO",
+   "lat": 64.12798,
+   "lng": -21.84849,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.5,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.atlantsolia.is/stodvar/knarrarvogur/",
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "n1352407658",
+   "name": "Orkan",
+   "lat": 65.69038,
+   "lng": -18.08862,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.5,
+     1
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n2876954531",
+   "name": "ÓB",
+   "lat": 64.09825,
+   "lng": -21.89623,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.5,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "ÓB"
+  },
+  {
+   "id": "w510868560",
+   "name": "N1",
+   "lat": 64.07668,
+   "lng": -21.95016,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Reykjavíkurvegur 54",
+   "brand": "N1",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n256214897",
+   "name": "N1",
+   "lat": 64.13846,
+   "lng": -21.77231,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.6,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "N1"
+  },
+  {
+   "id": "n1480473149",
+   "name": "N1",
+   "lat": 64.79368,
+   "lng": -14.00791,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.6,
+     3
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "w510868558",
+   "name": "Orkan Reykjavíkurvegi",
+   "lat": 64.07719,
+   "lng": -21.94984,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Reykjavíkurvegur 58",
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n5764557976",
+   "name": "ÓB",
+   "lat": 65.32597,
+   "lng": -20.89237,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.6,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n412698197",
+   "name": "ÓB Reykjanesbær",
+   "lat": 63.97999,
+   "lng": -22.54699,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.6,
+     0
+    ],
+    [
+     0.9,
+     7
+    ]
+   ],
+   "town": true,
+   "phone": "+3544213755",
+   "website": "https://www.olis.is/",
+   "brand": "ÓB"
+  },
+  {
+   "id": "n4352143792",
+   "name": "N1",
+   "lat": 64.25009,
+   "lng": -15.19572,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.7,
+     3
+    ],
+    [
+     0.7,
+     4
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "w1202358123",
+   "name": "N1 Norðurhella",
+   "lat": 64.04604,
+   "lng": -21.98462,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.7,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "N1",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n1299573388",
+   "name": "Orkan",
+   "lat": 64.11773,
+   "lng": -21.79759,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.7,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n2876942551",
+   "name": "ÓB",
+   "lat": 64.15623,
+   "lng": -21.75175,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.7,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Barðastaðir, Reykjavík",
+   "wheelchair": "yes",
+   "brand": "ÓB"
+  },
+  {
+   "id": "n129990758",
+   "name": "ÓB",
+   "lat": 64.00027,
+   "lng": -22.54824,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.7,
+     0
+    ],
+    [
+     3.1,
+     7
+    ]
+   ],
+   "town": true,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n297180410",
+   "name": "ÓB",
+   "lat": 64.12652,
+   "lng": -21.75704,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.7,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n1565489322",
+   "name": "Fuel",
+   "lat": 63.85878,
+   "lng": -21.37832,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.8,
+     7
+    ]
+   ],
+   "town": false
+  },
+  {
+   "id": "w168519451",
+   "name": "Orkan",
+   "lat": 64.06357,
+   "lng": -21.96551,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.8,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n1744149053",
+   "name": "ÓB",
+   "lat": 64.04457,
+   "lng": -21.98633,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.8,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "24/7",
+   "brand": "ÓB",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n129992659",
+   "name": "N1",
+   "lat": 63.99672,
+   "lng": -22.54944,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.9,
+     0
+    ],
+    [
+     2.8,
+     7
+    ]
+   ],
+   "town": true,
+   "address": "Hafnargata 86, Keflavík",
+   "brand": "N1"
+  },
+  {
+   "id": "n12358899817",
+   "name": "N1",
+   "lat": 63.96782,
+   "lng": -22.57575,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.9,
+     7
+    ],
+    [
+     1.3,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "N1",
+   "self_service": true
+  },
+  {
+   "id": "n828001008",
+   "name": "ÓB",
+   "lat": 64.08175,
+   "lng": -21.93927,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.9,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "ÓB",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w110356080",
+   "name": "Orkan",
+   "lat": 64.10173,
+   "lng": -21.83092,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545574060",
+   "address": "Suðurfell 4, Reykjavík",
+   "brand": "Orkan"
+  },
+  {
+   "id": "n1352412669",
+   "name": "Orkan",
+   "lat": 65.67959,
+   "lng": -18.1083,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.0,
+     1
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n256427349",
+   "name": "ÓB",
+   "lat": 65.68703,
+   "lng": -18.12872,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.0,
+     1
+    ]
+   ],
+   "town": true,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n1398459414",
+   "name": "Atlantsolía",
+   "lat": 64.06491,
+   "lng": -21.97616,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.1,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Atlantsolía",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n4780745782",
+   "name": "Orkan",
+   "lat": 64.93262,
+   "lng": -14.02839,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.1,
+     3
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n1565489294",
+   "name": "ÓB",
+   "lat": 63.8563,
+   "lng": -21.37423,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.1,
+     7
+    ]
+   ],
+   "town": false,
+   "brand": "ÓB"
+  },
+  {
+   "id": "w222079838",
+   "name": "Dælan",
+   "lat": 64.09372,
+   "lng": -21.85973,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Salavegur 2, Kópavogur",
+   "hours": "24/7",
+   "brand": "Dælan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n1401730039",
+   "name": "N1",
+   "lat": 63.98051,
+   "lng": -22.3795,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.2,
+     0
+    ],
+    [
+     2.7,
+     7
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "w1381334574",
+   "name": "Orkan Einhella",
+   "lat": 64.04012,
+   "lng": -21.99054,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Einhella 1, Hafnarfjörður",
+   "brand": "Orkan",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n256214755",
+   "name": "ÓB",
+   "lat": 64.15105,
+   "lng": -21.77374,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.2,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n12532935977",
+   "name": "ÓB",
+   "lat": 64.35888,
+   "lng": -21.7806,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.2,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "ÓB"
+  },
+  {
+   "id": "n331112064",
+   "name": "Knútsstöð",
+   "lat": 63.97156,
+   "lng": -22.59079,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.3,
+     7
+    ],
+    [
+     1.7,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "N1"
+  },
+  {
+   "id": "n1352411170",
+   "name": "Orkan",
+   "lat": 65.669,
+   "lng": -18.11003,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.3,
+     1
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n7769507253",
+   "name": "N1",
+   "lat": 65.03159,
+   "lng": -14.22217,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.4,
+     3
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "w291216598",
+   "name": "Olís",
+   "lat": 64.1326,
+   "lng": -21.86703,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Álfheimar 49",
+   "hours": "24/7",
+   "brand": "Olís"
+  },
+  {
+   "id": "n616397906",
+   "name": "Olís",
+   "lat": 65.03414,
+   "lng": -14.23129,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.4,
+     3
+    ]
+   ],
+   "town": false,
+   "brand": "Olís",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n59985139",
+   "name": "Olís",
+   "lat": 64.13704,
+   "lng": -21.80794,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.4,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Olís"
+  },
+  {
+   "id": "w27228054",
+   "name": "Atlantsolía",
+   "lat": 64.13212,
+   "lng": -21.87089,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.5,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Atlantsolía",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "r7433237",
+   "name": "Orkan",
+   "lat": 64.08996,
+   "lng": -21.92608,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.5,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Litlatún 1, Garðabær",
+   "brand": "Orkan"
+  },
+  {
+   "id": "n656083366",
+   "name": "Orkan",
+   "lat": 65.03456,
+   "lng": -14.22792,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.6,
+     3
+    ]
+   ],
+   "town": false,
+   "address": "Búðareyri",
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n2876959433",
+   "name": "ÓB",
+   "lat": 64.36189,
+   "lng": -21.77456,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.6,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "ÓB"
+  },
+  {
+   "id": "w625169339",
+   "name": "Fuel",
+   "lat": 63.92808,
+   "lng": -21.03326,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.7,
+     6
+    ],
+    [
+     1.7,
+     7
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "w168771598",
+   "name": "Olís",
+   "lat": 64.0915,
+   "lng": -21.92822,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545658010",
+   "website": "https://www.olis.is/",
+   "address": "Hafnarfjarðarvegur, Garðabær",
+   "hours": "24/7",
+   "brand": "Olís",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n294023624",
+   "name": "Orkan",
+   "lat": 64.13103,
+   "lng": -21.87718,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.7,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan",
+   "self_service": true
+  },
+  {
+   "id": "n1932942868",
+   "name": "Orkan",
+   "lat": 64.14981,
+   "lng": -21.78731,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.7,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n251964756",
+   "name": "N1",
+   "lat": 64.14121,
+   "lng": -21.84955,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.9,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "N1"
+  },
+  {
+   "id": "w1460499307",
+   "name": "Olís metanstöð",
+   "lat": 65.67576,
+   "lng": -18.13017,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.0,
+     1
+    ]
+   ],
+   "town": true,
+   "address": "Súluvegur 4, Akureyri",
+   "hours": "24/7",
+   "brand": "Olís",
+   "self_service": true
+  },
+  {
+   "id": "n1243095783",
+   "name": "Orkan",
+   "lat": 63.99924,
+   "lng": -22.63252,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.0,
+     0
+    ],
+    [
+     2.7,
+     7
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan"
+  },
+  {
+   "id": "w510877938",
+   "name": "N1",
+   "lat": 64.11793,
+   "lng": -21.89913,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.1,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Kringlumýrarbraut",
+   "brand": "N1"
+  },
+  {
+   "id": "n3622187782",
+   "name": "Fuel",
+   "lat": 64.08728,
+   "lng": -21.83255,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.3,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "w107390843",
+   "name": "Orkan",
+   "lat": 64.14464,
+   "lng": -21.80431,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.3,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Gylfaflöt 1",
+   "brand": "Orkan"
+  },
+  {
+   "id": "w180739586",
+   "name": "Orkan",
+   "lat": 64.1327,
+   "lng": -21.89292,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.4,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w517753164",
+   "name": "Orkan X",
+   "lat": 64.13208,
+   "lng": -21.8931,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.4,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w28846090",
+   "name": "Orkan",
+   "lat": 64.14582,
+   "lng": -21.85852,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.5,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Kleppsvegur 101",
+   "brand": "Orkan"
+  },
+  {
+   "id": "w384568622",
+   "name": "Atlantsolía",
+   "lat": 64.13752,
+   "lng": -21.89089,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Háaleitisbraut, Reykjavík",
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "w125392106",
+   "name": "Olís",
+   "lat": 64.10284,
+   "lng": -21.76627,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Norðlingabraut 7",
+   "wheelchair": "yes",
+   "brand": "Olís"
+  },
+  {
+   "id": "n279526567",
+   "name": "Atlantsolía",
+   "lat": 64.56782,
+   "lng": -21.89319,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.7,
+     0
+    ]
+   ],
+   "town": false,
+   "address": "Vallarás 17, Borgarnes",
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "n5751786811",
+   "name": "N1",
+   "lat": 64.10021,
+   "lng": -21.7795,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.7,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Reykjavík",
+   "brand": "N1",
+   "self_service": true
+  },
+  {
+   "id": "n8717969295",
+   "name": "Atlantsolía",
+   "lat": 64.11125,
+   "lng": -21.9358,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.9,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Kópavogsbraut 115, Kópavogur",
+   "hours": "24/7",
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "w222003151",
+   "name": "Fuel",
+   "lat": 64.17843,
+   "lng": -21.61623,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.9,
+     0
+    ]
+   ],
+   "town": false,
+   "address": "Dalsgarður"
+  },
+  {
+   "id": "w117276394",
+   "name": "Orkan",
+   "lat": 64.14024,
+   "lng": -21.89521,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     3.0,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Laugavegur",
+   "hours": "24/7",
+   "wheelchair": "limited",
+   "brand": "Orkan"
+  },
+  {
+   "id": "w517406357",
+   "name": "Olís",
+   "lat": 64.15041,
+   "lng": -21.87043,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     3.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Sundagarðar",
+   "brand": "Olís"
+  },
+  {
+   "id": "n1871929135",
+   "name": "N1",
+   "lat": 64.31363,
+   "lng": -15.22956,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     3.4,
+     4
+    ],
+    [
+     4.1,
+     3
+    ]
+   ],
+   "town": false,
+   "address": "Nesjar, Höfn",
+   "brand": "Valgerður Egilsdóttir"
+  },
+  {
+   "id": "w220041726",
+   "name": "Orkan",
+   "lat": 64.15325,
+   "lng": -21.86734,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     3.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Klettagarðar",
+   "hours": "24/7",
+   "wheelchair": "yes",
+   "brand": "Orkan"
+  },
+  {
+   "id": "n1280200430",
+   "name": "Orkan",
+   "lat": 64.13191,
+   "lng": -21.91669,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     3.4,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n59644347",
+   "name": "N1",
+   "lat": 64.14648,
+   "lng": -21.89483,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     3.5,
+     0
+    ]
+   ],
+   "town": true,
+   "wheelchair": "yes",
+   "brand": "N1",
+   "fuels": [
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w900355165",
+   "name": "Orkan",
+   "lat": 64.13117,
+   "lng": -21.91828,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     3.5,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Bústaðavegur 20",
+   "wheelchair": "yes",
+   "brand": "Skeljungur"
+  },
+  {
+   "id": "n326415332",
+   "name": "Atlantsolía",
+   "lat": 64.1319,
+   "lng": -21.9236,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Atlantsolía",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n293536733",
+   "name": "AO",
+   "lat": 64.14573,
+   "lng": -21.91884,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     4.2,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Atlantsolía"
+  },
+  {
+   "id": "w469400043",
+   "name": "N1",
+   "lat": 64.13857,
+   "lng": -21.93796,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "24/7",
+   "brand": "N1",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w307956399",
+   "name": "ÓB",
+   "lat": 64.14764,
+   "lng": -21.92484,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Sæbraut, Reykjavík",
+   "brand": "ÓB"
+  },
+  {
+   "id": "n693747726",
+   "name": "Orkan",
+   "lat": 65.39214,
+   "lng": -20.93719,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": false,
+   "website": "https://www.orkan.is/Orkustodvar/stod?stod=hvammstangi",
+   "address": "Hvammstangabraut 40, Hvammstangi",
+   "brand": "Orkan"
+  },
+  {
+   "id": "n285925037",
+   "name": "Orkan",
+   "lat": 64.69928,
+   "lng": -20.8681,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w98046275",
+   "name": "Orkan",
+   "lat": 64.14213,
+   "lng": -21.95282,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     5.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Birkimelur 1, Reykjavík",
+   "hours": "Mo-Fr 07:30-23:30; Sa 09:00-23:30; Su 10:00-23:30",
+   "brand": "Orkan"
+  },
+  {
+   "id": "n12823417000",
+   "name": "N1",
+   "lat": 64.15502,
+   "lng": -21.95147,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     6.1,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Fiskislóð 15-21, Reykjavík",
+   "hours": "24/7",
+   "brand": "N1",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w25794975",
+   "name": "Olís",
+   "lat": 64.15259,
+   "lng": -21.95521,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     6.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545524190",
+   "address": "Ánanaust 12, Reykjavík",
+   "brand": "Olís",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "n1250209231",
+   "name": "Orkan",
+   "lat": 64.76818,
+   "lng": -21.54134,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     6.3,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n206196150",
+   "name": "Orkan",
+   "lat": 64.03604,
+   "lng": -22.70482,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     6.9,
+     0
+    ],
+    [
+     7.4,
+     7
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n26586193",
+   "name": "Orkan",
+   "lat": 64.14945,
+   "lng": -21.98407,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     7.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su,PH 00:00+",
+   "brand": "Orkan"
+  },
+  {
+   "id": "n5277931386",
+   "name": "Orkan",
+   "lat": 64.32685,
+   "lng": -22.05602,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     7.1,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n26452735",
+   "name": "Orkan",
+   "lat": 64.1513,
+   "lng": -21.98507,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     7.2,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "24/7",
+   "brand": "Orkan"
+  },
+  {
+   "id": "n318959634",
+   "name": "N1 Skútan",
+   "lat": 64.32204,
+   "lng": -22.06498,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     7.4,
+     0
+    ]
+   ],
+   "town": false,
+   "phone": "+3544312061",
+   "address": "Þjóðbraut 9, Akranes",
+   "hours": "Mo-Fr 08:00-22:00; Sa,Su 10:00-22:00",
+   "brand": "N1",
+   "self_service": true
+  },
+  {
+   "id": "n2019134561",
+   "name": "Olís Verslun og stöð",
+   "lat": 64.32481,
+   "lng": -22.06709,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     7.5,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "Olís Verslun og stöð"
+  },
+  {
+   "id": "n2078460482",
+   "name": "N1",
+   "lat": 64.04037,
+   "lng": -22.71367,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     7.6,
+     0
+    ],
+    [
+     8.0,
+     7
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "n319128498",
+   "name": "Orkan",
+   "lat": 64.32007,
+   "lng": -22.06959,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     7.6,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "Orkan"
+  },
+  {
+   "id": "n318804111",
+   "name": "ÓB",
+   "lat": 64.32442,
+   "lng": -22.0679,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     7.6,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "ÓB"
+  },
+  {
+   "id": "w1218664882",
+   "name": "N1",
+   "lat": 64.13151,
+   "lng": -20.32177,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     7.8,
+     7
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "w445085905",
+   "name": "N1",
+   "lat": 64.06753,
+   "lng": -22.64867,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     8.1,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "N1"
+  },
+  {
+   "id": "n318985889",
+   "name": "Olís",
+   "lat": 64.31396,
+   "lng": -22.08828,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     8.3,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "Olís"
+  },
+  {
+   "id": "n361122562",
+   "name": "Orkan",
+   "lat": 64.67528,
+   "lng": -21.6647,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     9.2,
+     0
+    ]
+   ],
+   "town": false,
+   "brand": "ÓB"
+  }
+ ]
+}

@@ -1,7 +1,35 @@
 {
   "title": "Iceland Ring Road, 2–10 October 2026",
   "travellers": [],
-  "flights": [],
+  "flights": [
+    {
+      "direction": "out",
+      "airline": "LOT Polish Airlines",
+      "flightNo": "LO1499",
+      "from": "WAW",
+      "to": "KEF",
+      "fromName": "Warsaw Frédéric Chopin",
+      "toName": "Reykjavík Keflavík Intl",
+      "date": "2026-10-02",
+      "depart": "21:35",
+      "arrive": "23:55",
+      "notes": "Lands 23:55. Car desk after immigration puts you on the road ~00:40, hotel ~01:00. Day 1 departs 08:00 — that is a short night by design."
+    },
+    {
+      "direction": "home",
+      "airline": "Wizz Air",
+      "flightNo": "W6 1540",
+      "from": "KEF",
+      "to": "WAW",
+      "fromName": "Reykjavík Keflavík Intl",
+      "toName": "Warsaw Chopin",
+      "date": "2026-10-10",
+      "depart": "23:50",
+      "arriveDate": "2026-10-11",
+      "arrive": "05:50",
+      "notes": "Different airline from the outbound — Wizz baggage allowance is stricter than LOT's, check before packing. Route reaches the airport 18:55, so ~5h spare."
+    }
+  ],
   "bookings": [],
   "tours": [],
   "emergency": {
@@ -9,5 +37,24 @@
     "Road conditions": "https://www.road.is",
     "Weather": "https://en.vedur.is",
     "Travel alerts": "https://safetravel.is"
+  },
+  "car": {
+    "company": "",
+    "customerNo": "Z111MK",
+    "model": "Kia Sorento Plug-in Hybrid or similar",
+    "classCode": "SFDI (O6)",
+    "spec": "5-door 4x4, automatic, plug-in hybrid",
+    "pickup": {
+      "place": "Keflavík Intl Airport — Flugstöð, 235 Keflavíkurflugvöllur",
+      "date": "2026-10-03",
+      "time": "01:00"
+    },
+    "dropoff": {
+      "place": "Keflavík Intl Airport — Flugstöð, 235 Keflavíkurflugvöllur",
+      "date": "2026-10-10",
+      "time": "20:00"
+    },
+    "insurance": "CONFIRM: gravel protection (GP) and sand & ash (SAAP) are the two that matter in Iceland and are usually extra.",
+    "notes": "Pickup 01:00 is 65 min after the 23:55 landing — immigration, bags and the rental shuttle all have to fit in that. Plug-in hybrid: it runs on petrol regardless, so range is never a problem; charging is only a cost saving if a hotel has a plug. 'Or similar' means the PHEV is not guaranteed."
   }
 }
