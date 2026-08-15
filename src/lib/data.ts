@@ -1,10 +1,8 @@
-import type { Itinerary, CorridorPoi, Trip } from "./types";
+import type { Itinerary, Trip } from "./types";
 import itineraryJson from "../../data/generated/itinerary.json";
-import corridorJson from "../../data/generated/corridor.json";
 import tripJson from "../../data/trip.json";
 
 export const itinerary = itineraryJson as unknown as Itinerary;
-export const corridor = (corridorJson as unknown as { poi: CorridorPoi[] }).poi;
 export const trip = tripJson as unknown as Trip;
 
 /** October padding on every OSRM duration — the convention the route was verified with. */

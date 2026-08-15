@@ -5,14 +5,14 @@
    "day": 1,
    "date": "Oct 3",
    "title": "North up Route 1: Borgarfjördur",
-   "routeKm": 343,
+   "routeKm": 366,
    "counts": {
-    "attractions": 343,
+    "attractions": 345,
     "food": 739,
     "fuel": 116,
     "groceries": 79,
     "stays": 261,
-    "attractionsRural": 175,
+    "attractionsRural": 177,
     "foodRural": 63,
     "bigSupermarkets": 64
    },
@@ -26,15 +26,15 @@
   {
    "day": 2,
    "date": "Oct 4",
-   "title": "Akureyri, Godafoss, the Myvatn ring",
-   "routeKm": 241,
+   "title": "Akureyri, Goðafoss, the Mývatn ring",
+   "routeKm": 344,
    "counts": {
-    "attractions": 67,
+    "attractions": 69,
     "food": 75,
     "fuel": 21,
     "groceries": 8,
     "stays": 108,
-    "attractionsRural": 53,
+    "attractionsRural": 55,
     "foodRural": 22,
     "bigSupermarkets": 7
    },
@@ -48,19 +48,19 @@
   {
    "day": 3,
    "date": "Oct 5",
-   "title": "Hverir, Dettifoss, Asbyrgi",
-   "routeKm": 292,
+   "title": "Hverir, Dettifoss, Ásbyrgi",
+   "routeKm": 375,
    "counts": {
-    "attractions": 53,
-    "food": 21,
-    "fuel": 11,
-    "groceries": 2,
-    "stays": 49,
-    "attractionsRural": 53,
-    "foodRural": 21,
-    "bigSupermarkets": 2
+    "attractions": 81,
+    "food": 80,
+    "fuel": 27,
+    "groceries": 10,
+    "stays": 119,
+    "attractionsRural": 67,
+    "foodRural": 27,
+    "bigSupermarkets": 9
    },
-   "fuelOnRoute": 10,
+   "fuelOnRoute": 27,
    "longestFuelGapKm": 98,
    "longestFuelGapBetween": [
     "N1",
@@ -137,18 +137,18 @@
    "day": 7,
    "date": "Oct 9",
    "title": "Ice cave and the south coast",
-   "routeKm": 136,
+   "routeKm": 191,
    "counts": {
-    "attractions": 82,
-    "food": 72,
-    "fuel": 13,
-    "groceries": 6,
-    "stays": 99,
-    "attractionsRural": 80,
-    "foodRural": 42,
-    "bigSupermarkets": 6
+    "attractions": 284,
+    "food": 723,
+    "fuel": 93,
+    "groceries": 69,
+    "stays": 257,
+    "attractionsRural": 124,
+    "foodRural": 61,
+    "bigSupermarkets": 61
    },
-   "fuelOnRoute": 13,
+   "fuelOnRoute": 79,
    "longestFuelGapKm": 88,
    "longestFuelGapBetween": [
     "ÓB",
@@ -159,21 +159,21 @@
    "day": 8,
    "date": "Oct 10",
    "title": "Golden Circle, then the lagoon and fly",
-   "routeKm": 292,
+   "routeKm": 296,
    "counts": {
-    "attractions": 198,
-    "food": 144,
-    "fuel": 35,
-    "groceries": 14,
-    "stays": 139,
-    "attractionsRural": 188,
+    "attractions": 365,
+    "food": 776,
+    "fuel": 111,
+    "groceries": 76,
+    "stays": 286,
+    "attractionsRural": 197,
     "foodRural": 70,
-    "bigSupermarkets": 12
+    "bigSupermarkets": 66
    },
-   "fuelOnRoute": 32,
-   "longestFuelGapKm": 69,
+   "fuelOnRoute": 98,
+   "longestFuelGapKm": 56,
    "longestFuelGapBetween": [
-    "Atlantsolía",
+    "Fuel",
     "Fuel"
    ]
   }

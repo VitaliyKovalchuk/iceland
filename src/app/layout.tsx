@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="min-h-dvh antialiased">
         <div className="mx-auto flex min-h-dvh max-w-3xl flex-col">
-          <main className="flex-1 pb-20">{children}</main>
+          <main className="flex-1 pb-13">{children}</main>
           <Nav />
           <ServiceWorker />
         </div>

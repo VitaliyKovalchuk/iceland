@@ -10,7 +10,18 @@ const s = allSched();
 describe("ring schedule", () => {
   it("reproduces the verified week", () => {
     expect(s).toHaveLength(8);
-    expect(s.reduce((a, x) => a + x.km, 0)).toBe(1948);
+    // 2,216 km once the route was moved onto the beds actually booked:
+    // Skagastrond (+24 km), Akureyri instead of Myvatn (+~180 km over two days),
+    // and central Reykjavik instead of Selfoss (+57 km).
+    expect(s.reduce((a, x) => a + x.km, 0)).toBe(2216);
+  });
+
+  it("ends each day at the bed we actually booked", () => {
+    const towns = bedKeys().map((k) => poi(k).name);
+    expect(towns).toEqual([
+      "Keflavík", "Skagaströnd", "Akureyri (bed)", "Egilsstadir",
+      "Höfn", "Kirkjubæjarklaustur", "Vík í Mýrdal", "Reykjavík",
+    ]);
   });
 
   it("keeps both routing defects fixed", () => {
@@ -27,15 +38,20 @@ describe("ring schedule", () => {
     expect(late[0].slack).toBeGreaterThan(-60);
   });
 
-  it("never departs before dawn", () => {
-    expect(s.flatMap((x) => x.rows).filter((r) => r.arrive < r.rise)).toHaveLength(0);
+  it("never reaches a SIGHT before dawn", () => {
+    // Leaving a hotel a few minutes before official sunrise is fine and expected;
+    // arriving somewhere we intend to look at in the dark is not.
+    const early = s
+      .flatMap((x) => x.rows)
+      .filter((r) => r.arrive < r.rise && r.dwell > 0);
+    expect(early).toHaveLength(0);
   });
 
   it("counts the arrival night and never treats the airport as a bed", () => {
     const beds = bedKeys();
     expect(beds).toHaveLength(8);
     expect(beds[0]).toBe("keflavik_town");
-    expect(poi(beds[7]).name).toBe("Selfoss");
+    expect(poi(beds[7]).name).toBe("Reykjavík");
     expect(beds).not.toContain("kef_airport");
   });
 

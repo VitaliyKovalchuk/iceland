@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation";
 const TABS = [
   { href: "/", label: "Today" },
   { href: "/days", label: "Days" },
-  { href: "/near", label: "Near us" },
-  { href: "/booked", label: "Booked" },
+  { href: "/near", label: "Map" },
+  { href: "/booked", label: "Stays" },
 ];
 
 export default function Nav() {

@@ -43,23 +43,46 @@ export interface Itinerary {
   isk_eur: number;
 }
 
-/* ---------- generated: everything within 10 km of the roads we drive ---------- */
+/* ---------- database: everything within 10 km of the roads we drive ---------- */
 
-export interface CorridorPoi {
-  n: string;               // name
-  la: number;
-  ln: number;
-  k: "sight" | "food";
-  c: string;               // OSM category
-  /** [[km, dayIndex], ...] for every day passing within 10 km, nearest first */
-  ring?: [number, number][];
-  south?: [number, number][];
-  oh?: string;             // OSM opening_hours — volunteer data, verify anything you rely on
-  w?: string;              // website
-  cu?: string;             // cuisine
-  u?: 0 | 1;               // inside a town centre
-  in?: 1;                  // already a planned stop
-  wd?: 1;                  // has a wikidata link
+export type PlaceKind = "attraction" | "food" | "fuel" | "grocery" | "stay";
+
+export interface Place {
+  id: string;
+  name: string;
+  lat: number;
+  lng: number;
+  kind: PlaceKind;
+  cat: string;
+  /** [[km, dayIndex], ...] for EVERY day whose road passes within 10 km, nearest first.
+   *  A list, not a single day — 1,400+ places sit on more than one day's route. */
+  days: [number, number][];
+  town: boolean;
+  phone?: string;
+  website?: string;
+  address?: string;
+  hours?: string;          // OSM volunteer data — often missing or stale
+  email?: string;
+  wheelchair?: string;
+  wikidata?: string;
+  planned?: boolean;       // attractions only: already a stop in the itinerary
+  brand?: string;          // fuel and groceries
+  cuisine?: string;
+  vegetarian?: boolean;
+  vegan?: boolean;
+  self_service?: boolean;
+  stars?: string;
+}
+
+export interface DaySummary {
+  day: number;
+  date: string;
+  title: string;
+  routeKm: number;
+  counts: Record<string, number>;
+  fuelOnRoute: number;
+  longestFuelGapKm: number;
+  longestFuelGapBetween: [string, string];
 }
 
 /* ---------- hand-entered: what we actually booked ---------- */
@@ -73,6 +96,9 @@ export interface Flight {
   date: string;            // ISO "2026-10-02"
   depart: string;          // local "21:00"
   arrive: string;
+  arriveDate?: string;     // set when the flight lands the next day
+  fromName?: string;
+  toName?: string;
   bookingRef?: string;
   terminal?: string;
   seats?: string;
@@ -81,6 +107,9 @@ export interface Flight {
 
 export interface CarHire {
   company: string;
+  customerNo?: string;
+  classCode?: string;
+  spec?: string;
   bookingRef?: string;
   model?: string;
   pickup: { place: string; date: string; time: string };
@@ -106,6 +135,12 @@ export interface Booking {
   lat?: number;
   lng?: number;
   notes?: string;
+  /** Airbnb / Booking.com / Agoda — shown as a badge so we know which app to open */
+  source?: string;
+  bookedBy?: string;
+  bookedSeparately?: boolean;
+  /** true when someone else holds the booking and we still need the details */
+  pending?: boolean;
 }
 
 export interface TourBooking {
@@ -127,8 +162,15 @@ export interface Traveller {
   notes?: string;          // licence for driving, dietary, etc.
 }
 
+export interface TodoItem {
+  what: string;
+  owner: string;
+  blocking: boolean;
+}
+
 export interface Trip {
   title: string;
+  todo?: TodoItem[];
   travellers: Traveller[];
   flights: Flight[];
   car?: CarHire;

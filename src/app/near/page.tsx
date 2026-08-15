@@ -1,5 +1,7 @@
-import NearView from "@/components/NearView";
+import MapExplorer from "@/components/MapExplorer";
 
-export default function Near() {
-  return <NearView />;
+export const metadata = { title: "Map — Iceland" };
+
+export default function MapPage() {
+  return <MapExplorer />;
 }

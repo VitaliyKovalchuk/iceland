@@ -13,6 +13,10 @@
     [
      0.0,
      1
+    ],
+    [
+     2.2,
+     2
     ]
    ],
    "town": true,
@@ -55,7 +59,7 @@
      6
     ],
     [
-     0.3,
+     2.2,
      7
     ]
    ],
@@ -174,6 +178,26 @@
    "town": false
   },
   {
+   "id": "n8890263494",
+   "name": "Hoepfner Historical House",
+   "lat": 65.67291,
+   "lng": -18.08641,
+   "kind": "stay",
+   "cat": "apartment",
+   "days": [
+    [
+     0.0,
+     1
+    ],
+    [
+     0.0,
+     2
+    ]
+   ],
+   "town": true,
+   "address": "Hafnarstræti 20, Akureyri"
+  },
+  {
    "id": "w192785772",
    "name": "Hostel Laugarvatn",
    "lat": 64.21806,
@@ -254,6 +278,26 @@
    "wikidata": "Q111409535"
   },
   {
+   "id": "w250160848",
+   "name": "Hotel Reykjahlíð",
+   "lat": 65.64241,
+   "lng": -16.91349,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.0,
+     1
+    ],
+    [
+     0.0,
+     2
+    ]
+   ],
+   "town": false,
+   "address": "Reykjahlíð 2"
+  },
+  {
    "id": "n1991561454",
    "name": "Hunkubakkar",
    "lat": 63.76811,
@@ -271,24 +315,6 @@
     ]
    ],
    "town": false
-  },
-  {
-   "id": "n4242999840",
-   "name": "Hótel Grímsborgir",
-   "lat": 64.05209,
-   "lng": -20.96637,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.0,
-     7
-    ]
-   ],
-   "town": false,
-   "phone": "+3545557878",
-   "website": "https://www.grimsborgir.is/",
-   "address": "Ásborgir 30, Selfoss"
   },
   {
    "id": "w485056196",
@@ -326,7 +352,7 @@
      6
     ],
     [
-     0.2,
+     2.1,
      7
     ]
    ],
@@ -345,6 +371,10 @@
     [
      0.0,
      1
+    ],
+    [
+     1.2,
+     2
     ]
    ],
    "town": true
@@ -395,6 +425,29 @@
    "town": false,
    "phone": "+3544822660",
    "website": "https://www.thingvellir.is/en/service/camping/"
+  },
+  {
+   "id": "n8946386020",
+   "name": "Númer 29",
+   "lat": 64.13954,
+   "lng": -21.93669,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.0,
+     6
+    ],
+    [
+     0.0,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true
   },
   {
    "id": "n8482494481",
@@ -450,6 +503,10 @@
     [
      0.0,
      1
+    ],
+    [
+     5.0,
+     2
     ]
    ],
    "town": false,
@@ -624,6 +681,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.3,
+     2
     ]
    ],
    "town": true,
@@ -641,6 +702,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.1,
+     2
     ]
    ],
    "town": true
@@ -656,6 +721,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.0,
+     2
     ]
    ],
    "town": true
@@ -671,6 +740,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.0,
+     2
     ]
    ],
    "town": true,
@@ -687,6 +760,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.1,
+     2
     ]
    ],
    "town": true
@@ -725,6 +802,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.0,
+     2
     ]
    ],
    "town": true
@@ -750,6 +831,30 @@
    "phone": "+3544711500",
    "website": "https://www.icelandhotelcollectionbyberjaya.com/en/hotels/east/herad-hotel",
    "address": "Miðvangur 1-7, Egilsstaðir",
+   "wheelchair": "yes"
+  },
+  {
+   "id": "w250167091",
+   "name": "Berjaya Mývatn Hótel",
+   "lat": 65.64529,
+   "lng": -16.91516,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.1,
+     1
+    ],
+    [
+     0.1,
+     2
+    ]
+   ],
+   "town": false,
+   "phone": "+3544444000",
+   "website": "https://www.icelandhotelcollectionbyberjaya.com/is/hotel/nordurland/berjaya-myvatn-hotel",
+   "address": "Reykjahlíð",
+   "email": "myvatn@icehotels.is",
    "wheelchair": "yes"
   },
   {
@@ -800,11 +905,11 @@
    "days": [
     [
      0.1,
-     1
+     0
     ],
     [
-     0.5,
-     0
+     0.8,
+     1
     ]
    ],
    "town": false,
@@ -854,6 +959,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.1,
+     2
     ]
    ],
    "town": true
@@ -869,6 +978,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.1,
+     2
     ]
    ],
    "town": true
@@ -884,6 +997,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.0,
+     2
     ]
    ],
    "town": true,
@@ -1092,6 +1209,51 @@
    "town": false
   },
   {
+   "id": "n1915620189",
+   "name": "Fosshóll",
+   "lat": 65.6853,
+   "lng": -17.53907,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.1,
+     1
+    ],
+    [
+     0.1,
+     2
+    ]
+   ],
+   "town": false,
+   "phone": "+3544643108",
+   "website": "http://www.godafoss.is"
+  },
+  {
+   "id": "w720562764",
+   "name": "Fosshótel Mývatn",
+   "lat": 65.6588,
+   "lng": -16.95679,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.1,
+     1
+    ],
+    [
+     0.1,
+     2
+    ]
+   ],
+   "town": false,
+   "phone": "+3544530000",
+   "website": "https://www.islandshotel.is/hotels-in-iceland/fosshotel-myvatn",
+   "address": "Skútustaðahreppur",
+   "email": "myvatn@fosshotel.is",
+   "stars": "3"
+  },
+  {
    "id": "n7201295973",
    "name": "Fosstúnskógar",
    "lat": 63.52471,
@@ -1187,6 +1349,32 @@
    "address": "Helluhraun 15, Mývatn"
   },
   {
+   "id": "w108362287",
+   "name": "Gistiheimili SummerDay",
+   "lat": 64.12903,
+   "lng": -21.8765,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     1.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545554411",
+   "website": "http://www.summerdays.is",
+   "address": "24"
+  },
+  {
    "id": "n4346656678",
    "name": "Guesthouse Akureyri",
    "lat": 65.68213,
@@ -1197,6 +1385,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.0,
+     2
     ]
    ],
    "town": true
@@ -1253,6 +1445,10 @@
     [
      0.1,
      1
+    ],
+    [
+     0.8,
+     2
     ]
    ],
    "town": true
@@ -1268,6 +1464,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.0,
+     2
     ]
    ],
    "town": true,
@@ -1326,22 +1526,6 @@
    "address": "Helluhraun 13"
   },
   {
-   "id": "n8890263494",
-   "name": "Hoepfner Historical House",
-   "lat": 65.67291,
-   "lng": -18.08641,
-   "kind": "stay",
-   "cat": "apartment",
-   "days": [
-    [
-     0.1,
-     1
-    ]
-   ],
-   "town": true,
-   "address": "Hafnarstræti 20, Akureyri"
-  },
-  {
    "id": "n821571827",
    "name": "Hotel Selfoss",
    "lat": 63.9374,
@@ -1351,11 +1535,11 @@
    "days": [
     [
      0.1,
-     7
+     6
     ],
     [
-     0.3,
-     6
+     1.8,
+     7
     ]
    ],
    "town": true,
@@ -1473,6 +1657,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.2,
+     2
     ]
    ],
    "town": true,
@@ -1575,6 +1763,10 @@
     [
      0.1,
      1
+    ],
+    [
+     0.6,
+     2
     ]
    ],
    "town": true,
@@ -1606,6 +1798,10 @@
     [
      0.1,
      1
+    ],
+    [
+     0.9,
+     2
     ]
    ],
    "town": true,
@@ -1625,6 +1821,10 @@
     [
      0.1,
      7
+    ],
+    [
+     6.5,
+     6
     ]
    ],
    "town": false,
@@ -1644,6 +1844,14 @@
     [
      0.1,
      0
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     6.4,
+     6
     ]
    ],
    "town": true,
@@ -1661,6 +1869,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.2,
+     2
     ]
    ],
    "town": true,
@@ -1696,12 +1908,47 @@
     [
      0.1,
      0
+    ],
+    [
+     9.3,
+     6
+    ],
+    [
+     9.3,
+     7
     ]
    ],
    "town": true,
    "phone": "+3544200080",
    "website": "https://www.hotelvellir.com",
    "address": "Tjarnarvellir 3, Hafnarfjörður"
+  },
+  {
+   "id": "w113578857",
+   "name": "IGDLO Guesthouse",
+   "lat": 64.1369,
+   "lng": -21.92179,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545114646",
+   "website": "http://www.igdlo.com",
+   "address": "Gunnarsbraut 46, Reykjavík",
+   "wikidata": "Q111121747"
   },
   {
    "id": "n3708218145",
@@ -1714,6 +1961,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.0,
+     2
     ]
    ],
    "town": true
@@ -1804,6 +2055,29 @@
    "wikidata": "Q112013070"
   },
   {
+   "id": "n8946387590",
+   "name": "Legacy Apartments",
+   "lat": 64.13899,
+   "lng": -21.93531,
+   "kind": "stay",
+   "cat": "apartment",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     4.5,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
    "id": "w194193849",
    "name": "Litli Geysir Hotel",
    "lat": 64.31119,
@@ -1860,6 +2134,27 @@
    "wikidata": "Q111873692"
   },
   {
+   "id": "w222003125",
+   "name": "Mosskógar",
+   "lat": 64.17976,
+   "lng": -21.61663,
+   "kind": "stay",
+   "cat": "campsite",
+   "days": [
+    [
+     0.1,
+     7
+    ],
+    [
+     2.9,
+     0
+    ]
+   ],
+   "town": false,
+   "phone": "+3546636173",
+   "email": "mosskogar@simnet.is"
+  },
+  {
    "id": "w146899681",
    "name": "Móttaka Eldár Gistiheimilis",
    "lat": 65.64105,
@@ -1892,6 +2187,10 @@
     [
      0.1,
      1
+    ],
+    [
+     0.7,
+     2
     ]
    ],
    "town": true
@@ -1966,6 +2265,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.1,
+     2
     ]
    ],
    "town": true
@@ -2041,6 +2344,10 @@
     [
      0.1,
      1
+    ],
+    [
+     4.9,
+     2
     ]
    ],
    "town": false,
@@ -2057,6 +2364,14 @@
     [
      0.1,
      0
+    ],
+    [
+     3.6,
+     6
+    ],
+    [
+     3.6,
+     7
     ]
    ],
    "town": true
@@ -2162,6 +2477,30 @@
    "email": "camping@simnet.is"
   },
   {
+   "id": "n8946382369",
+   "name": "Travel Inn",
+   "lat": 64.13938,
+   "lng": -21.93636,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "wikidata": "Q111873659"
+  },
+  {
    "id": "w1421049645",
    "name": "Vestrahorn",
    "lat": 64.25513,
@@ -2207,6 +2546,33 @@
    "email": "info@vogahraun.is"
   },
   {
+   "id": "w108221960",
+   "name": "mosi Guesthouse",
+   "lat": 64.12737,
+   "lng": -21.86976,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     1.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3548992907",
+   "website": "http://www.mosiguesthouse.com/",
+   "address": "9",
+   "email": "mosi@mosiguesthouse.com"
+  },
+  {
    "id": "n4778641920",
    "name": "Þingborg",
    "lat": 63.9419,
@@ -2219,7 +2585,7 @@
      6
     ],
     [
-     8.4,
+     8.5,
      7
     ]
    ],
@@ -2239,6 +2605,10 @@
     [
      0.2,
      1
+    ],
+    [
+     1.1,
+     2
     ]
    ],
    "town": true
@@ -2274,6 +2644,10 @@
     [
      0.2,
      1
+    ],
+    [
+     1.4,
+     2
     ]
    ],
    "town": true
@@ -2387,6 +2761,34 @@
    "town": false
   },
   {
+   "id": "w110014352",
+   "name": "Bus Hostel Reykjavik - Reykjavik Terminal",
+   "lat": 64.13411,
+   "lng": -21.92028,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.2,
+     6
+    ],
+    [
+     0.2,
+     7
+    ],
+    [
+     3.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545350350",
+   "website": "http://wwwbushostelreykjavik.com",
+   "address": "Skógarhlíð 10, Reykjavík",
+   "email": "info@bushostelreykjavik.com",
+   "wikidata": "Q111121741"
+  },
+  {
    "id": "n13663618191",
    "name": "Egils Guesthouse",
    "lat": 64.53598,
@@ -2401,6 +2803,21 @@
    ],
    "town": false,
    "address": "Brákarbraut 11, Borgarnes"
+  },
+  {
+   "id": "w169545287",
+   "name": "Fagrabrekka",
+   "lat": 64.27684,
+   "lng": -21.09583,
+   "kind": "stay",
+   "cat": "campsite",
+   "days": [
+    [
+     0.2,
+     7
+    ]
+   ],
+   "town": false
   },
   {
    "id": "n3994091160",
@@ -2436,6 +2853,14 @@
     [
      0.2,
      0
+    ],
+    [
+     3.5,
+     7
+    ],
+    [
+     3.6,
+     6
     ]
    ],
    "town": true,
@@ -2498,21 +2923,27 @@
    "wikidata": "Q111409583"
   },
   {
-   "id": "n1915620189",
-   "name": "Fosshóll",
-   "lat": 65.6853,
-   "lng": -17.53907,
+   "id": "n3994091161",
+   "name": "Galtafell",
+   "lat": 64.14133,
+   "lng": -21.93702,
    "kind": "stay",
    "cat": "guesthouse",
    "days": [
     [
      0.2,
-     1
+     6
+    ],
+    [
+     0.2,
+     7
+    ],
+    [
+     4.7,
+     0
     ]
    ],
-   "town": false,
-   "phone": "+3544643108",
-   "website": "http://www.godafoss.is"
+   "town": true
   },
   {
    "id": "w194193824",
@@ -2617,6 +3048,10 @@
     [
      0.2,
      1
+    ],
+    [
+     1.2,
+     2
     ]
    ],
    "town": true,
@@ -2630,6 +3065,10 @@
    "kind": "stay",
    "cat": "hotel",
    "days": [
+    [
+     0.2,
+     6
+    ],
     [
      0.2,
      7
@@ -2690,6 +3129,10 @@
     [
      0.2,
      1
+    ],
+    [
+     1.2,
+     2
     ]
    ],
    "town": true,
@@ -2706,6 +3149,10 @@
     [
      0.2,
      1
+    ],
+    [
+     1.2,
+     2
     ]
    ],
    "town": true,
@@ -2760,6 +3207,10 @@
     [
      0.2,
      1
+    ],
+    [
+     0.2,
+     2
     ]
    ],
    "town": false
@@ -2804,26 +3255,6 @@
    "wikidata": "Q111873725"
   },
   {
-   "id": "w250160848",
-   "name": "Hotel Reykjahlíð",
-   "lat": 65.64241,
-   "lng": -16.91349,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.2,
-     1
-    ],
-    [
-     0.2,
-     2
-    ]
-   ],
-   "town": false,
-   "address": "Reykjahlíð 2"
-  },
-  {
    "id": "w499382759",
    "name": "Hotel Skógar",
    "lat": 63.52493,
@@ -2854,11 +3285,11 @@
    "days": [
     [
      0.2,
-     7
+     6
     ],
     [
-     0.4,
-     6
+     1.9,
+     7
     ]
    ],
    "town": true,
@@ -2875,6 +3306,10 @@
    "kind": "stay",
    "cat": "hotel",
    "days": [
+    [
+     0.2,
+     6
+    ],
     [
      0.2,
      7
@@ -2914,6 +3349,10 @@
     [
      0.2,
      1
+    ],
+    [
+     2.4,
+     2
     ]
    ],
    "town": false,
@@ -2976,41 +3415,6 @@
    "town": false
   },
   {
-   "id": "n910847796",
-   "name": "Ljón norðursins",
-   "lat": 65.65948,
-   "lng": -20.29615,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.2,
-     0
-    ],
-    [
-     0.2,
-     1
-    ]
-   ],
-   "town": false,
-   "address": "Blöndubyggð 9, Blönduós"
-  },
-  {
-   "id": "n2964287968",
-   "name": "Ljósafossskoli Hostel",
-   "lat": 64.09862,
-   "lng": -21.00611,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     0.2,
-     7
-    ]
-   ],
-   "town": false
-  },
-  {
    "id": "n13457926920",
    "name": "Lónsá Guesthouse",
    "lat": 65.70106,
@@ -3021,6 +3425,10 @@
     [
      0.2,
      1
+    ],
+    [
+     4.4,
+     2
     ]
    ],
    "town": true,
@@ -3095,9 +3503,41 @@
     [
      0.2,
      7
+    ],
+    [
+     2.5,
+     6
     ]
    ],
    "town": false
+  },
+  {
+   "id": "n6602300251",
+   "name": "Oddsson Hotel",
+   "lat": 64.13116,
+   "lng": -21.87584,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.2,
+     6
+    ],
+    [
+     0.2,
+     7
+    ],
+    [
+     1.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544190200",
+   "website": "https://www.oddsson.is/",
+   "address": "Grensásvegur 16a, Reykjavík",
+   "email": "info@oddsson.is",
+   "wikidata": "Q111873635"
   },
   {
    "id": "n4346238307",
@@ -3110,6 +3550,10 @@
     [
      0.2,
      1
+    ],
+    [
+     1.1,
+     2
     ]
    ],
    "town": true,
@@ -3200,6 +3644,10 @@
     [
      0.2,
      1
+    ],
+    [
+     1.3,
+     2
     ]
    ],
    "town": true
@@ -3293,11 +3741,11 @@
    "days": [
     [
      0.2,
-     7
+     6
     ],
     [
-     0.4,
-     6
+     1.8,
+     7
     ]
    ],
    "town": true,
@@ -3436,6 +3884,10 @@
     [
      0.3,
      1
+    ],
+    [
+     0.7,
+     2
     ]
    ],
    "town": true,
@@ -3464,27 +3916,28 @@
    "address": "Hafnarvegur 781, Höfn"
   },
   {
-   "id": "n5829906541",
-   "name": "Blönduós HI Hostel",
-   "lat": 65.65943,
-   "lng": -20.29792,
+   "id": "n1241939542",
+   "name": "Baldursbrá",
+   "lat": 64.14186,
+   "lng": -21.93691,
    "kind": "stay",
-   "cat": "hostel",
+   "cat": "guesthouse",
    "days": [
     [
      0.3,
-     0
+     6
     ],
     [
      0.3,
-     1
+     7
+    ],
+    [
+     4.7,
+     0
     ]
    ],
-   "town": false,
-   "phone": "+3548981832",
-   "website": "https://www.hostel.is/hostels/blonduos-hi-hostel",
-   "address": "Blöndubyggð 10",
-   "email": "blonduos@hostel.is"
+   "town": true,
+   "address": "Laufasvegur 41"
   },
   {
    "id": "w305483199",
@@ -3696,6 +4149,32 @@
    "email": "gauksmyri@gauksmyri.is"
   },
   {
+   "id": "n4578362113",
+   "name": "Gest-inn Guesthouse",
+   "lat": 64.14152,
+   "lng": -21.93234,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     4.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3546982339",
+   "website": "http://gestinn.is/",
+   "address": "Njarðargata 29"
+  },
+  {
    "id": "n458189744",
    "name": "Gistihúsið",
    "lat": 65.26203,
@@ -3747,7 +4226,7 @@
      6
     ],
     [
-     0.4,
+     2.5,
      7
     ]
    ],
@@ -3796,6 +4275,25 @@
    "website": "http://www.drangshlid.is"
   },
   {
+   "id": "w273526618",
+   "name": "Hlid Bed and Breakfast",
+   "lat": 65.64923,
+   "lng": -16.91806,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.3,
+     1
+    ],
+    [
+     0.3,
+     2
+    ]
+   ],
+   "town": false
+  },
+  {
    "id": "w227004878",
    "name": "Hotel Edda",
    "lat": 65.7126,
@@ -3806,6 +4304,10 @@
     [
      0.3,
      1
+    ],
+    [
+     0.3,
+     2
     ]
    ],
    "town": false,
@@ -3894,11 +4396,11 @@
    "days": [
     [
      0.3,
-     7
+     6
     ],
     [
-     9.6,
-     6
+     0.3,
+     7
     ]
    ],
    "town": false,
@@ -3999,6 +4501,10 @@
     [
      0.3,
      1
+    ],
+    [
+     0.8,
+     2
     ]
    ],
    "town": true,
@@ -4089,6 +4595,31 @@
    ],
    "town": true,
    "address": "Melás 9, Keflavík"
+  },
+  {
+   "id": "n4223244991",
+   "name": "Norðurey Guesthouse",
+   "lat": 64.13854,
+   "lng": -21.92097,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Snorrabraut 71",
+   "wikidata": "Q112013006"
   },
   {
    "id": "n2946131670",
@@ -4324,6 +4855,10 @@
     [
      0.4,
      1
+    ],
+    [
+     0.4,
+     2
     ]
    ],
    "town": false,
@@ -4358,6 +4893,14 @@
     [
      0.4,
      0
+    ],
+    [
+     6.5,
+     6
+    ],
+    [
+     6.5,
+     7
     ]
    ],
    "town": true,
@@ -4374,6 +4917,10 @@
     [
      0.4,
      1
+    ],
+    [
+     0.9,
+     2
     ]
    ],
    "town": true,
@@ -4396,10 +4943,10 @@
    "website": "https://gerdi.is"
   },
   {
-   "id": "n3191373666",
-   "name": "Gesthús",
-   "lat": 63.933,
-   "lng": -20.99031,
+   "id": "n1388417665",
+   "name": "Guesthouse Andrea",
+   "lat": 64.14182,
+   "lng": -21.93124,
    "kind": "stay",
    "cat": "guesthouse",
    "days": [
@@ -4410,9 +4957,42 @@
     [
      0.4,
      7
+    ],
+    [
+     4.5,
+     0
     ]
    ],
-   "town": true
+   "town": true,
+   "website": "https://www.aurorahouse.is",
+   "email": "book@aurorahouse.is",
+   "wikidata": "Q111873656"
+  },
+  {
+   "id": "n475371459",
+   "name": "Guesthouse Aurora",
+   "lat": 64.14211,
+   "lng": -21.93077,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     4.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3548991773",
+   "website": "https://www.aurorahouse.is",
+   "email": "book@aurorahouse.is"
   },
   {
    "id": "w193118881",
@@ -4436,26 +5016,6 @@
    "website": "https://dyngja.com",
    "address": "Hafnarbraut 1",
    "email": "fanney@dyngja.com"
-  },
-  {
-   "id": "n8985830993",
-   "name": "Guesthouse Kiljan",
-   "lat": 65.66023,
-   "lng": -20.30089,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.4,
-     0
-    ],
-    [
-     0.4,
-     1
-    ]
-   ],
-   "town": false,
-   "address": "Aðalgata 2"
   },
   {
    "id": "w193117951",
@@ -4491,6 +5051,10 @@
     [
      0.4,
      1
+    ],
+    [
+     0.4,
+     2
     ]
    ],
    "town": false,
@@ -4532,16 +5096,39 @@
    "days": [
     [
      0.4,
-     7
+     6
     ],
     [
-     5.7,
-     6
+     0.4,
+     7
     ]
    ],
    "town": false,
    "wheelchair": "limited",
    "wikidata": "Q111873730"
+  },
+  {
+   "id": "w295074392",
+   "name": "Hlíð",
+   "lat": 65.64909,
+   "lng": -16.91628,
+   "kind": "stay",
+   "cat": "campsite",
+   "days": [
+    [
+     0.4,
+     1
+    ],
+    [
+     0.4,
+     2
+    ]
+   ],
+   "town": false,
+   "phone": "+3544644103",
+   "website": "https://www.myvatnaccommodation.is/",
+   "email": "info@myvatnaccommodation.is",
+   "wheelchair": "yes"
   },
   {
    "id": "n4355143490",
@@ -4583,6 +5170,58 @@
    "address": "Duusgata 10, Keflavik",
    "wheelchair": "yes",
    "stars": "3.5"
+  },
+  {
+   "id": "n3654050832",
+   "name": "Hotel Garður",
+   "lat": 64.14126,
+   "lng": -21.94651,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.4,
+     7
+    ],
+    [
+     0.5,
+     6
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "http://www.hotelgardur.is",
+   "address": "Reykjavík",
+   "wheelchair": "yes"
+  },
+  {
+   "id": "n3726531026",
+   "name": "Hotel Holt",
+   "lat": 64.14278,
+   "lng": -21.93504,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545525700",
+   "website": "https://holt.is/",
+   "email": "holt@holt.is"
   },
   {
    "id": "n13512963768",
@@ -4640,29 +5279,6 @@
    "town": false
   },
   {
-   "id": "n910847790",
-   "name": "Hótel Blanda",
-   "lat": 65.65978,
-   "lng": -20.30148,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.4,
-     0
-    ],
-    [
-     0.4,
-     1
-    ]
-   ],
-   "town": false,
-   "phone": "+3548981832",
-   "website": "https://hotelblanda.is/",
-   "address": "Aðalgata 6",
-   "email": "info@hotelblanda.is"
-  },
-  {
    "id": "n321003316",
    "name": "Hótel Edda",
    "lat": 65.6766,
@@ -4673,6 +5289,10 @@
     [
      0.4,
      1
+    ],
+    [
+     0.6,
+     2
     ]
    ],
    "town": true,
@@ -4750,6 +5370,10 @@
     [
      0.4,
      1
+    ],
+    [
+     0.4,
+     2
     ]
    ],
    "town": false,
@@ -4773,6 +5397,32 @@
    ],
    "town": false,
    "website": "https://nonhamar.is"
+  },
+  {
+   "id": "w116483448",
+   "name": "Reykjavík Hostel Village",
+   "lat": 64.1398,
+   "lng": -21.91947,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545521155",
+   "website": "https://hostelvillage.is/",
+   "address": "Flókagata 1, Reykjavík"
   },
   {
    "id": "n794687285",
@@ -4829,6 +5479,32 @@
    "wikidata": "Q55932902"
   },
   {
+   "id": "n1214715070",
+   "name": "Snorris Guesthouse",
+   "lat": 64.13942,
+   "lng": -21.92001,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545520598",
+   "website": "https://guesthousereykjavik.com/",
+   "address": "Flókagata, Reykjavík"
+  },
+  {
    "id": "n4305110807",
    "name": "Spói Guesthouse",
    "lat": 63.75108,
@@ -4846,6 +5522,26 @@
    "website": "https://spoiguesthouse.is/",
    "address": "Hlíðarvegur 15, Hvolsvöllur",
    "email": "spoiguesthouse@gmail.com"
+  },
+  {
+   "id": "n2923917205",
+   "name": "Sæluhús Akureyri",
+   "lat": 65.67073,
+   "lng": -18.09453,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.4,
+     1
+    ],
+    [
+     0.4,
+     2
+    ]
+   ],
+   "town": true,
+   "address": "Sunnutröð 2"
   },
   {
    "id": "w208260949",
@@ -4985,50 +5681,77 @@
    "email": "hof@adventures.is"
   },
   {
-   "id": "w250167091",
-   "name": "Berjaya Mývatn Hótel",
-   "lat": 65.64529,
-   "lng": -16.91516,
+   "id": "n1543331646",
+   "name": "Arctic Comfort Hotel",
+   "lat": 64.13467,
+   "lng": -21.87773,
    "kind": "stay",
    "cat": "hotel",
    "days": [
     [
      0.5,
-     1
+     6
     ],
     [
      0.5,
-     2
+     7
+    ],
+    [
+     1.9,
+     0
     ]
    ],
-   "town": false,
-   "phone": "+3544444000",
-   "website": "https://www.icelandhotelcollectionbyberjaya.com/is/hotel/nordurland/berjaya-myvatn-hotel",
-   "address": "Reykjahlíð",
-   "email": "myvatn@icehotels.is",
-   "wheelchair": "yes"
+   "town": true,
+   "wikidata": "Q111409537"
   },
   {
-   "id": "n6331413436",
-   "name": "Brimslóð Atelier Guesthouse",
-   "lat": 65.65984,
-   "lng": -20.30309,
+   "id": "n13279026518",
+   "name": "Baron's Hostel",
+   "lat": 64.14089,
+   "lng": -21.92234,
    "kind": "stay",
-   "cat": "apartment",
+   "cat": "hostel",
    "days": [
     [
      0.5,
-     0
+     6
     ],
     [
      0.5,
-     1
+     7
+    ],
+    [
+     4.1,
+     0
     ]
    ],
-   "town": false,
-   "website": "https://brimslodguesthouse.is/",
-   "address": "Brimslóð 10A",
-   "email": "ibergthorsdottir@gmail.com"
+   "town": true,
+   "phone": "3545188500"
+  },
+  {
+   "id": "n4332460947",
+   "name": "Castle House Luxury Apartments",
+   "lat": 64.14433,
+   "lng": -21.93854,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     4.9,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://4.is/",
+   "email": "4@4.is"
   },
   {
    "id": "w1370374647",
@@ -5050,19 +5773,76 @@
    "email": "reception@glhotel.is"
   },
   {
-   "id": "w169545287",
-   "name": "Fagrabrekka",
-   "lat": 64.27684,
-   "lng": -21.09583,
+   "id": "w114037227",
+   "name": "Eric the Red Guesthouse",
+   "lat": 64.14049,
+   "lng": -21.92697,
    "kind": "stay",
-   "cat": "campsite",
+   "cat": "hostel",
    "days": [
     [
      0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     4.3,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Eiríksgata 6, Reykjavík",
+   "wikidata": "Q111409556"
+  },
+  {
+   "id": "n5061019140",
+   "name": "Fosshotel Rauðará",
+   "lat": 64.14034,
+   "lng": -21.91485,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     3.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545147000",
+   "website": "https://fosshotel.is",
+   "address": "Rauðarárstígur 37",
+   "email": "raudara@fosshotel.is",
+   "stars": "3"
+  },
+  {
+   "id": "n3191373666",
+   "name": "Gesthús",
+   "lat": 63.933,
+   "lng": -20.99031,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     2.6,
      7
     ]
    ],
-   "town": false
+   "town": true
   },
   {
    "id": "w243497921",
@@ -5077,7 +5857,7 @@
      6
     ],
     [
-     0.5,
+     2.6,
      7
     ]
    ],
@@ -5104,24 +5884,27 @@
    "website": "http://www.grimstunga.is/"
   },
   {
-   "id": "n3088219414",
-   "name": "Guesthouse Tilraun",
-   "lat": 65.65913,
-   "lng": -20.30206,
+   "id": "n1234831709",
+   "name": "Guesthouse Odinn",
+   "lat": 64.14393,
+   "lng": -21.93248,
    "kind": "stay",
    "cat": "guesthouse",
    "days": [
     [
      0.5,
-     0
+     6
     ],
     [
      0.5,
-     1
+     7
+    ],
+    [
+     4.7,
+     0
     ]
    ],
-   "town": false,
-   "address": "Aðalgata 10, Blönduós"
+   "town": true
   },
   {
    "id": "n886807699",
@@ -5134,6 +5917,10 @@
     [
      0.5,
      1
+    ],
+    [
+     0.9,
+     2
     ]
    ],
    "town": true
@@ -5155,6 +5942,52 @@
    "phone": "+3547760030"
   },
   {
+   "id": "n5793069707",
+   "name": "Hostel B47",
+   "lat": 64.14072,
+   "lng": -21.92223,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     4.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3547891100",
+   "website": "http://www.hostelb47.is",
+   "address": "Barónsstígur 47",
+   "wikidata": "Q111121748"
+  },
+  {
+   "id": "n1406541803",
+   "name": "Hot Springs Hotel",
+   "lat": 63.99635,
+   "lng": -21.17591,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.6,
+     7
+    ]
+   ],
+   "town": false
+  },
+  {
    "id": "w376580990",
    "name": "Hrafnabjörg",
    "lat": 65.6827,
@@ -5165,6 +5998,10 @@
     [
      0.5,
      1
+    ],
+    [
+     0.5,
+     2
     ]
    ],
    "town": true,
@@ -5195,6 +6032,54 @@
    "wikidata": "Q55809511"
   },
   {
+   "id": "w221839902",
+   "name": "Hveramýri",
+   "lat": 64.17616,
+   "lng": -21.61663,
+   "kind": "stay",
+   "cat": "apartment",
+   "days": [
+    [
+     0.5,
+     7
+    ],
+    [
+     2.8,
+     0
+    ],
+    [
+     9.8,
+     6
+    ]
+   ],
+   "town": false,
+   "address": "Hveramýri 1"
+  },
+  {
+   "id": "n3847575543",
+   "name": "Hótel Lotus",
+   "lat": 64.13721,
+   "lng": -21.89184,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     2.6,
+     0
+    ]
+   ],
+   "town": true,
+   "wikidata": "Q111873636"
+  },
+  {
    "id": "n4394802590",
    "name": "Höfn Berjaya Iceland Hotels",
    "lat": 64.2493,
@@ -5213,6 +6098,31 @@
    ],
    "town": false,
    "address": "Ránarslóð"
+  },
+  {
+   "id": "n5073339396",
+   "name": "I Sleep Reykjavik Guesthouse",
+   "lat": 64.14014,
+   "lng": -21.91614,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3547888776",
+   "address": "Mánagata 25, Reykjavík"
   },
   {
    "id": "n13516887800",
@@ -5235,6 +6145,57 @@
    "address": "Mánagata 7"
   },
   {
+   "id": "n12565131801",
+   "name": "Nordic Hostel",
+   "lat": 64.14072,
+   "lng": -21.91963,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     4.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544975656",
+   "website": "https://nordichostel.is/",
+   "email": "nordic@nordichostel.is"
+  },
+  {
+   "id": "w243088565",
+   "name": "Reykjadalur Gistiheimilið",
+   "lat": 64.00036,
+   "lng": -21.19168,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.6,
+     7
+    ]
+   ],
+   "town": false,
+   "phone": "+3547826500",
+   "website": "https://www.reykjadalurguesthouse.is/",
+   "address": "Heiðmörk 27",
+   "email": "hafsogumadur@gmail.com",
+   "wheelchair": "yes",
+   "wikidata": "Q112013068"
+  },
+  {
    "id": "n6326570248",
    "name": "Reykjanes Guesthouse",
    "lat": 63.83853,
@@ -5252,6 +6213,29 @@
    "wikidata": "Q112013038"
   },
   {
+   "id": "n9482466317",
+   "name": "SM Hostel",
+   "lat": 64.13126,
+   "lng": -21.91543,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     3.4,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
    "id": "w414211437",
    "name": "Sulur Gistiheimili",
    "lat": 65.6768,
@@ -5262,26 +6246,41 @@
     [
      0.5,
      1
+    ],
+    [
+     0.7,
+     2
     ]
    ],
    "town": true,
    "address": "Þórunnarstræti 93, Akureyri"
   },
   {
-   "id": "n2923917205",
-   "name": "Sæluhús Akureyri",
-   "lat": 65.67073,
-   "lng": -18.09453,
+   "id": "n863811239",
+   "name": "Sunna",
+   "lat": 64.14226,
+   "lng": -21.92966,
    "kind": "stay",
    "cat": "guesthouse",
    "days": [
     [
      0.5,
-     1
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     4.5,
+     0
     ]
    ],
    "town": true,
-   "address": "Sunnutröð 2"
+   "phone": "+3545115570",
+   "website": "https://sunna.is/",
+   "address": "Þórsgata 26, Reykjavík",
+   "email": "sunna@sunna.is"
   },
   {
    "id": "w485494007",
@@ -5313,6 +6312,14 @@
     [
      0.5,
      0
+    ],
+    [
+     6.3,
+     6
+    ],
+    [
+     6.3,
+     7
     ]
    ],
    "town": true,
@@ -5369,6 +6376,10 @@
     [
      0.6,
      1
+    ],
+    [
+     0.9,
+     2
     ]
    ],
    "town": true,
@@ -5378,6 +6389,32 @@
    "wheelchair": "yes"
   },
   {
+   "id": "w205301691",
+   "name": "Berjaya Reykjavík Natura Hotel",
+   "lat": 64.13068,
+   "lng": -21.93236,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     4.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544444500",
+   "website": "https://www.icelandhotelcollectionbyberjaya.com/en/hotels/reykjavik/reykjavik-natura",
+   "address": "Nauthólsvegur 52"
+  },
+  {
    "id": "n5422907039",
    "name": "Bláskógar Guesthouse",
    "lat": 64.00107,
@@ -5385,6 +6422,10 @@
    "kind": "stay",
    "cat": "hotel",
    "days": [
+    [
+     0.6,
+     6
+    ],
     [
      0.6,
      7
@@ -5435,11 +6476,64 @@
     [
      0.6,
      1
+    ],
+    [
+     0.8,
+     2
     ]
    ],
    "town": true,
    "website": "http://www.brekkusel.is/",
    "address": "Byggðavegur 97, Akureyri"
+  },
+  {
+   "id": "n1282030471",
+   "name": "Day Dream L23 Guesthouse",
+   "lat": 64.14284,
+   "lng": -21.92863,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Lokastígur 23, Reykjavík"
+  },
+  {
+   "id": "n3811527860",
+   "name": "Downtown Reykjavík Apartments",
+   "lat": 64.14107,
+   "lng": -21.91449,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true,
+   "wheelchair": "limited",
+   "wikidata": "Q111409546"
   },
   {
    "id": "n4265820560",
@@ -5478,21 +6572,6 @@
    "town": false
   },
   {
-   "id": "n1406541803",
-   "name": "Hot Springs Hotel",
-   "lat": 63.99635,
-   "lng": -21.17591,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.6,
-     7
-    ]
-   ],
-   "town": false
-  },
-  {
    "id": "w267311124",
    "name": "Hotel Grásteinn",
    "lat": 63.98482,
@@ -5515,6 +6594,30 @@
    "address": "Bolafótur 11"
   },
   {
+   "id": "w124546017",
+   "name": "Hotel Luna Apartments",
+   "lat": 64.14487,
+   "lng": -21.93479,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     4.8,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Spítalastígur 1, Reykjavík"
+  },
+  {
    "id": "n1137986712",
    "name": "Hotel Rangá",
    "lat": 63.78031,
@@ -5531,6 +6634,29 @@
    "wikidata": "Q111409587"
   },
   {
+   "id": "n1234101646",
+   "name": "Hotel Óðinsvé",
+   "lat": 64.14401,
+   "lng": -21.93156,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
    "id": "n826724946",
    "name": "Hótel Laugar",
    "lat": 65.72263,
@@ -5541,12 +6667,66 @@
     [
      0.6,
      1
+    ],
+    [
+     0.6,
+     2
     ]
    ],
    "town": false,
    "website": "https://hotellaugar.is/",
    "address": "Laugar",
    "email": "hotellaugar@hotellaugar.is"
+  },
+  {
+   "id": "r9532566",
+   "name": "Hótel Leifur Eiríksson",
+   "lat": 64.1427,
+   "lng": -21.92788,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545620800",
+   "email": "info@hotelleifur.is",
+   "wikidata": "Q111409553",
+   "stars": "3"
+  },
+  {
+   "id": "n292844962",
+   "name": "Hótel Vík",
+   "lat": 64.13617,
+   "lng": -21.87977,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     2.1,
+     0
+    ]
+   ],
+   "town": true
   },
   {
    "id": "n529724683",
@@ -5562,6 +6742,28 @@
     ]
    ],
    "town": false
+  },
+  {
+   "id": "n303937912",
+   "name": "Inni Boutique Apartments",
+   "lat": 64.00171,
+   "lng": -21.19368,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.7,
+     7
+    ]
+   ],
+   "town": false,
+   "phone": "+3546602050",
+   "website": "https://www.inniapartments.is/",
+   "wikidata": "Q112013067"
   },
   {
    "id": "n1925877041",
@@ -5634,25 +6836,27 @@
    "town": true
   },
   {
-   "id": "w243088565",
-   "name": "Reykjadalur Gistiheimilið",
-   "lat": 64.00036,
-   "lng": -21.19168,
+   "id": "n2421677844",
+   "name": "Reykjavik4You Apartments",
+   "lat": 64.14485,
+   "lng": -21.93331,
    "kind": "stay",
-   "cat": "guesthouse",
+   "cat": "hotel",
    "days": [
     [
      0.6,
+     6
+    ],
+    [
+     0.6,
      7
+    ],
+    [
+     4.7,
+     0
     ]
    ],
-   "town": false,
-   "phone": "+3547826500",
-   "website": "https://www.reykjadalurguesthouse.is/",
-   "address": "Heiðmörk 27",
-   "email": "hafsogumadur@gmail.com",
-   "wheelchair": "yes",
-   "wikidata": "Q112013068"
+   "town": true
   },
   {
    "id": "n2782543216",
@@ -5668,6 +6872,31 @@
     ]
    ],
    "town": false
+  },
+  {
+   "id": "n4349576900",
+   "name": "Sport Hostel Reykjavík",
+   "lat": 64.13398,
+   "lng": -21.86833,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     1.6,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "http://sporthostel.is/",
+   "address": "Álfheimar 74-104, Reykjavík"
   },
   {
    "id": "w442013614",
@@ -5712,6 +6941,10 @@
    "days": [
     [
      0.6,
+     6
+    ],
+    [
+     0.6,
      7
     ]
    ],
@@ -5734,12 +6967,63 @@
      7
     ],
     [
-     7.9,
+     6.8,
      6
     ]
    ],
    "town": false,
    "phone": "+3544822010"
+  },
+  {
+   "id": "w121423821",
+   "name": "Villa",
+   "lat": 64.14343,
+   "lng": -21.92938,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     4.5,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Skólavörðustígur 30, Reykjavík"
+  },
+  {
+   "id": "n12117462702",
+   "name": "Aska",
+   "lat": 64.14062,
+   "lng": -21.9027,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     3.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3546179000",
+   "website": "https://www.hotelaska.is/",
+   "hours": "24/7",
+   "email": "hello@hotelaska.is"
   },
   {
    "id": "n451838667",
@@ -5755,6 +7039,29 @@
     ]
    ],
    "town": false
+  },
+  {
+   "id": "n5829906541",
+   "name": "Blönduós HI Hostel",
+   "lat": 65.65943,
+   "lng": -20.29792,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.7,
+     0
+    ],
+    [
+     1.5,
+     1
+    ]
+   ],
+   "town": false,
+   "phone": "+3548981832",
+   "website": "https://www.hostel.is/hostels/blonduos-hi-hostel",
+   "address": "Blöndubyggð 10",
+   "email": "blonduos@hostel.is"
   },
   {
    "id": "w727899485",
@@ -5775,6 +7082,56 @@
    "email": "ferdamal@breiddalur.is"
   },
   {
+   "id": "w117276348",
+   "name": "Brim Hotel",
+   "lat": 64.14075,
+   "lng": -21.90291,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     3.3,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Skipholt 29, Reykjavík",
+   "wikidata": "Q111873641"
+  },
+  {
+   "id": "w109160030",
+   "name": "CenterHotel Miðgarður",
+   "lat": 64.14254,
+   "lng": -21.91339,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Laugavegur 120, Reykjavík",
+   "wheelchair": "yes"
+  },
+  {
    "id": "n1727131256",
    "name": "Egilsá",
    "lat": 65.42106,
@@ -5790,6 +7147,34 @@
    "town": false
   },
   {
+   "id": "n1282022080",
+   "name": "Fosshotel Lind",
+   "lat": 64.14186,
+   "lng": -21.91492,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545623350",
+   "website": "https://www.islandshotel.is/hotels-in-iceland/fosshotel-lind",
+   "address": "Rauðarárstígur 18, Reykjavík",
+   "email": "lind@fosshotel.is",
+   "stars": "3"
+  },
+  {
    "id": "n700289427",
    "name": "Hafnarfjörður",
    "lat": 64.07316,
@@ -5800,6 +7185,14 @@
     [
      0.7,
      0
+    ],
+    [
+     7.1,
+     6
+    ],
+    [
+     7.1,
+     7
     ]
    ],
    "town": true
@@ -5828,22 +7221,85 @@
    "wikidata": "Q112013023"
   },
   {
-   "id": "n303937912",
-   "name": "Inni Boutique Apartments",
-   "lat": 64.00171,
-   "lng": -21.19368,
+   "id": "n11329594862",
+   "name": "Hotel Reykjavík Saga",
+   "lat": 64.14592,
+   "lng": -21.9389,
    "kind": "stay",
-   "cat": "guesthouse",
+   "cat": "hotel",
    "days": [
     [
      0.7,
+     6
+    ],
+    [
+     0.7,
      7
+    ],
+    [
+     5.0,
+     0
     ]
    ],
-   "town": false,
-   "phone": "+3546602050",
-   "website": "https://www.inniapartments.is/",
-   "wikidata": "Q112013067"
+   "town": true,
+   "phone": "+3545145000",
+   "website": "https://www.islandshotel.is/hotels-in-iceland/hotel-reykjavik-saga/",
+   "email": "saga@hotelreykjavik.is"
+  },
+  {
+   "id": "n5750157169",
+   "name": "Hótel Klettur",
+   "lat": 64.14203,
+   "lng": -21.91061,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     3.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544401600",
+   "website": "https://hotelklettur.is/",
+   "address": "Mjölnisholt 12-14, Reykjavík",
+   "email": "booking@hotelklettur.is"
+  },
+  {
+   "id": "w117276317",
+   "name": "Hótel Ørkin",
+   "lat": 64.1406,
+   "lng": -21.90116,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     3.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545680777",
+   "website": "https://hotelorkin.is/",
+   "address": "Brautarholt 29, Reykjavík",
+   "email": "info@hotelorkin.is",
+   "wikidata": "Q111873639"
   },
   {
    "id": "n13512962570",
@@ -5883,6 +7339,26 @@
    "town": false,
    "website": "https://lambafell.is/",
    "address": "Ljónshöfði"
+  },
+  {
+   "id": "n910847796",
+   "name": "Ljón norðursins",
+   "lat": 65.65948,
+   "lng": -20.29615,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.7,
+     0
+    ],
+    [
+     1.4,
+     1
+    ]
+   ],
+   "town": false,
+   "address": "Blöndubyggð 9, Blönduós"
   },
   {
    "id": "n412698123",
@@ -5926,6 +7402,57 @@
    "address": "Skipalækur, Egilsstadir"
   },
   {
+   "id": "n1423843276",
+   "name": "Pavi Apartments & Guesthouse",
+   "lat": 64.14177,
+   "lng": -21.91056,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     3.7,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n6810102748",
+   "name": "Rey",
+   "lat": 64.14504,
+   "lng": -21.92957,
+   "kind": "stay",
+   "cat": "apartment",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3547714600",
+   "website": "https://rey.is/",
+   "address": "Grettisgata 2a",
+   "email": "info@rey.is",
+   "wheelchair": "limited"
+  },
+  {
    "id": "n1847659752",
    "name": "T10 guesthouse",
    "lat": 64.07959,
@@ -5936,6 +7463,14 @@
     [
      0.7,
      0
+    ],
+    [
+     6.3,
+     6
+    ],
+    [
+     6.3,
+     7
     ]
    ],
    "town": true,
@@ -5959,6 +7494,133 @@
    "website": "https://www.thepotatostorage.com/"
   },
   {
+   "id": "n4329394696",
+   "name": "Thor Guesthouse",
+   "lat": 64.14491,
+   "lng": -21.93133,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3548475150",
+   "website": "http://www.tgh.is",
+   "address": "Skólavörðustígur 16",
+   "email": "localapartments@localapartments.is"
+  },
+  {
+   "id": "n5005801316",
+   "name": "100 Iceland Hotel",
+   "lat": 64.14317,
+   "lng": -21.91676,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.0,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Snorrabraut, Reykjavík",
+   "wikidata": "Q111873644"
+  },
+  {
+   "id": "n122323571",
+   "name": "22 Hill Hotel",
+   "lat": 64.14138,
+   "lng": -21.90428,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     3.4,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545113777",
+   "website": "https://www.22hillhotel.is/",
+   "address": "Brautarholt 22-24, Reykjavík",
+   "wikidata": "Q111409539"
+  },
+  {
+   "id": "n3642084293",
+   "name": "4th floor hotel",
+   "lat": 64.14341,
+   "lng": -21.91574,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.0,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.4thfloorhotel.is/",
+   "wikidata": "Q111409545"
+  },
+  {
+   "id": "n4185290490",
+   "name": "Apartment K",
+   "lat": 64.14663,
+   "lng": -21.93497,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.9,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
    "id": "n1840611301",
    "name": "Arahús",
    "lat": 64.06895,
@@ -5969,6 +7631,14 @@
     [
      0.8,
      0
+    ],
+    [
+     7.5,
+     7
+    ],
+    [
+     7.6,
+     6
     ]
    ],
    "town": true,
@@ -6010,25 +7680,6 @@
    "wikidata": "Q112013005"
   },
   {
-   "id": "n4972608303",
-   "name": "Borealis Hotel",
-   "lat": 64.10128,
-   "lng": -20.99644,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.8,
-     7
-    ]
-   ],
-   "town": false,
-   "phone": "+3545613661",
-   "website": "http://www.hotelborealis.is/",
-   "email": "booking@hotelborealis.is",
-   "wikidata": "Q112013058"
-  },
-  {
    "id": "w516389501",
    "name": "Breiðanes Smiðja",
    "lat": 65.7133,
@@ -6039,6 +7690,10 @@
     [
      0.8,
      1
+    ],
+    [
+     0.8,
+     2
     ]
    ],
    "town": false,
@@ -6058,6 +7713,184 @@
     ]
    ],
    "town": false
+  },
+  {
+   "id": "w460007564",
+   "name": "Canopy by Hilton Reykjavik City Centre",
+   "lat": 64.14635,
+   "lng": -21.93037,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.hilton.com/en/hotels/rekcapy-canopy-reykjavik-city-centre/",
+   "address": "Smiðjustígur 4, Reykjavík",
+   "email": "rekca_res@hilton.com",
+   "wheelchair": "yes",
+   "wikidata": "Q56598554",
+   "stars": "4"
+  },
+  {
+   "id": "n817319543",
+   "name": "Center Hotel Skjaldbreið",
+   "lat": 64.14595,
+   "lng": -21.93071,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "stars": "4"
+  },
+  {
+   "id": "n1246003204",
+   "name": "Center Hotel Þingholt",
+   "lat": 64.14644,
+   "lng": -21.93443,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.9,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n5052065322",
+   "name": "Center Hotels Laugevegur",
+   "lat": 64.14331,
+   "lng": -21.9166,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.0,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Laugavegur",
+   "wikidata": "Q111873645"
+  },
+  {
+   "id": "n845205854",
+   "name": "CenterHotel Klöpp",
+   "lat": 64.14631,
+   "lng": -21.92905,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545958520",
+   "address": "Klapparstígur 26, Reykjavík",
+   "email": "klopp@centerhotels.is",
+   "wikidata": "Q111409549"
+  },
+  {
+   "id": "n3005750474",
+   "name": "Centric Guesthouse",
+   "lat": 64.14659,
+   "lng": -21.93795,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "w117422025",
+   "name": "Eyja Guldsmeden",
+   "lat": 64.14185,
+   "lng": -21.9075,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     3.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545197300",
+   "website": "https://hoteleyja.is/",
+   "address": "10;12;14;10-14",
+   "wikidata": "Q111409541"
   },
   {
    "id": "w485083920",
@@ -6081,6 +7914,136 @@
    "wheelchair": "limited"
   },
   {
+   "id": "n4740803885",
+   "name": "Gistiheimilið Forsæla",
+   "lat": 64.14423,
+   "lng": -21.9239,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545516046"
+  },
+  {
+   "id": "n2878372440",
+   "name": "Gistihús #101",
+   "lat": 64.14337,
+   "lng": -21.9159,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545626101",
+   "website": "http://www.guesthouse101.is",
+   "address": "Laugavegur 101, Reykjavík",
+   "wheelchair": "yes"
+  },
+  {
+   "id": "n4421989517",
+   "name": "Grettir",
+   "lat": 64.14518,
+   "lng": -21.92812,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n6470743885",
+   "name": "Grímur Hótel",
+   "lat": 64.12209,
+   "lng": -21.87535,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     1.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545350352",
+   "website": "https://grimur.com/",
+   "email": "info@grimur.com"
+  },
+  {
+   "id": "n9466286735",
+   "name": "Hilton Reykjavik Nordica",
+   "lat": 64.13962,
+   "lng": -21.88886,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     2.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544445000",
+   "website": "https://www.hilton.com/en/hotels/kefhfhi-hilton-reykjavik-nordica/",
+   "address": "Suðurlandsbraut 2, Reykjavík",
+   "email": "hilton.reception@icehotels.is",
+   "wheelchair": "yes",
+   "wikidata": "Q64822290",
+   "stars": "4"
+  },
+  {
    "id": "n2399580876",
    "name": "Hjólhýsa- og gistiheimilið Njarðvík",
    "lat": 63.976,
@@ -6101,6 +8064,31 @@
    "phone": "+3544216053"
   },
   {
+   "id": "w105920029",
+   "name": "Hlemmur Square",
+   "lat": 64.1432,
+   "lng": -21.91504,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Laugavegur 105, Reykjavík",
+   "wheelchair": "yes"
+  },
+  {
    "id": "n815740292",
    "name": "Hotel Viking",
    "lat": 64.06492,
@@ -6111,9 +8099,177 @@
     [
      0.8,
      0
+    ],
+    [
+     8.0,
+     6
+    ],
+    [
+     8.0,
+     7
     ]
    ],
    "town": true
+  },
+  {
+   "id": "w103060551",
+   "name": "Hótel Borg",
+   "lat": 64.14698,
+   "lng": -21.93839,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545511440",
+   "website": "https://www.keahotels.is/en/hotels/hotel-borg/",
+   "address": "Pósthússtræti 11, Reykjavík",
+   "wikidata": "Q3480837",
+   "stars": "4"
+  },
+  {
+   "id": "n3030668960",
+   "name": "Hótel Frón",
+   "lat": 64.14554,
+   "lng": -21.92869,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545114666",
+   "website": "https://www.hotelfron.is/",
+   "address": "Laugavegur 22a, Reykjavík",
+   "wikidata": "Q111409550",
+   "stars": "3"
+  },
+  {
+   "id": "n452058344",
+   "name": "Hótel Ísland",
+   "lat": 64.13887,
+   "lng": -21.88317,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     2.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545957000",
+   "website": "https://www.hotelisland.is/",
+   "address": "Ármúli 9"
+  },
+  {
+   "id": "n13714154182",
+   "name": "Kvosin Downtown Hotel",
+   "lat": 64.14637,
+   "lng": -21.93944,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://kvosinhotel.is/",
+   "address": "Kirkjutorg 4, Reykjavík",
+   "wikidata": "Q111409563",
+   "stars": "4"
+  },
+  {
+   "id": "n2406270601",
+   "name": "Loft Hostel",
+   "lat": 64.1468,
+   "lng": -21.93386,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.9,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.hostel.is/",
+   "address": "Bankastræti 7, Reykjavík",
+   "wheelchair": "yes"
+  },
+  {
+   "id": "n5739905478",
+   "name": "Mulí Hotel",
+   "lat": 64.13919,
+   "lng": -21.88584,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     2.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Hallarmúli 1, Reykjavík",
+   "stars": "3"
   },
   {
    "id": "w246803921",
@@ -6144,6 +8300,14 @@
     [
      0.8,
      0
+    ],
+    [
+     6.2,
+     7
+    ],
+    [
+     6.3,
+     6
     ]
    ],
    "town": true,
@@ -6173,6 +8337,56 @@
    "address": "Brimdalur 1, Reykjanesbær"
   },
   {
+   "id": "n1261443641",
+   "name": "Room with a View",
+   "lat": 64.14577,
+   "lng": -21.93001,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Laugavegur 18",
+   "wikidata": "Q111409551"
+  },
+  {
+   "id": "n12135138987",
+   "name": "Room13 - A Townhouse Hotel - R13",
+   "lat": 64.13815,
+   "lng": -21.88125,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     2.3,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.r13.is/",
+   "hours": "24/7"
+  },
+  {
    "id": "n5007913218",
    "name": "Route 1 Guest House",
    "lat": 64.08068,
@@ -6183,6 +8397,14 @@
     [
      0.8,
      0
+    ],
+    [
+     6.1,
+     7
+    ],
+    [
+     6.2,
+     6
     ]
    ],
    "town": true,
@@ -6211,6 +8433,10 @@
    "kind": "stay",
    "cat": "guesthouse",
    "days": [
+    [
+     0.8,
+     6
+    ],
     [
      0.8,
      7
@@ -6279,6 +8505,165 @@
    "email": "camping.stodvarfjordur@gmail.com"
   },
   {
+   "id": "n3019308699",
+   "name": "Alda Hotel Reykjavik",
+   "lat": 64.14397,
+   "lng": -21.92113,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.2,
+     0
+    ]
+   ],
+   "town": true,
+   "wheelchair": "yes",
+   "wikidata": "Q111409547"
+  },
+  {
+   "id": "n3675304694",
+   "name": "Alfred's Apartments",
+   "lat": 64.14394,
+   "lng": -21.92187,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3546948118",
+   "website": "https://www.alfreds-apartments.com",
+   "address": "Vitastígur",
+   "hours": "24/7",
+   "email": "rent@alfreds-apartments.com",
+   "stars": "4"
+  },
+  {
+   "id": "n3674184206",
+   "name": "Alfred's Studios",
+   "lat": 64.14592,
+   "lng": -21.92417,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3547719985",
+   "website": "https://www.alfreds-apartments.com",
+   "address": "Frakkastígur 6A",
+   "email": "studio@alfreds-apartments.com",
+   "wikidata": "Q111873647",
+   "stars": "4"
+  },
+  {
+   "id": "n3029306354",
+   "name": "Apótek Hótel",
+   "lat": 64.14728,
+   "lng": -21.93853,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544602050",
+   "website": "https://www.keahotels.is/apotek-hotel",
+   "address": "Austurstræti 16, Reykjavík",
+   "stars": "4"
+  },
+  {
+   "id": "n1376096677",
+   "name": "CityCenter Hotel",
+   "lat": 64.14784,
+   "lng": -21.94048,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Reykjavík",
+   "wikidata": "Q111409560"
+  },
+  {
+   "id": "n4214149092",
+   "name": "Gistiheimili Norðurstjarnan",
+   "lat": 64.14506,
+   "lng": -21.95311,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.9,
+     7
+    ],
+    [
+     1.0,
+     6
+    ],
+    [
+     5.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Hringbraut 53, Reykjavík"
+  },
+  {
    "id": "n2924916381",
    "name": "Gistiheimili Stórulaugar",
    "lat": 65.7312,
@@ -6289,6 +8674,10 @@
     [
      0.9,
      1
+    ],
+    [
+     0.9,
+     2
     ]
    ],
    "town": false,
@@ -6313,27 +8702,176 @@
    "phone": "+3548474550"
   },
   {
-   "id": "w295074392",
-   "name": "Hlíð",
-   "lat": 65.64909,
-   "lng": -16.91628,
+   "id": "n8985830993",
+   "name": "Guesthouse Kiljan",
+   "lat": 65.66023,
+   "lng": -20.30089,
    "kind": "stay",
-   "cat": "campsite",
+   "cat": "guesthouse",
    "days": [
     [
      0.9,
-     1
+     0
     ],
     [
-     0.9,
-     2
+     1.6,
+     1
     ]
    ],
    "town": false,
-   "phone": "+3544644103",
-   "website": "https://www.myvatnaccommodation.is/",
-   "email": "info@myvatnaccommodation.is",
-   "wheelchair": "yes"
+   "address": "Aðalgata 2"
+  },
+  {
+   "id": "n3088219414",
+   "name": "Guesthouse Tilraun",
+   "lat": 65.65913,
+   "lng": -20.30206,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.9,
+     0
+    ],
+    [
+     1.7,
+     1
+    ]
+   ],
+   "town": false,
+   "address": "Aðalgata 10, Blönduós"
+  },
+  {
+   "id": "w102619665",
+   "name": "Hotel Reykjavík Centrum",
+   "lat": 64.14749,
+   "lng": -21.94285,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545146000",
+   "website": "https://www.islandshotel.is/hotels-in-iceland/hotel-reykjavik-centrum",
+   "address": "Aðalstræti 16",
+   "email": "info@hotelcentrum.is",
+   "wikidata": "Q111409564",
+   "stars": "4"
+  },
+  {
+   "id": "n910847790",
+   "name": "Hótel Blanda",
+   "lat": 65.65978,
+   "lng": -20.30148,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     0
+    ],
+    [
+     1.6,
+     1
+    ]
+   ],
+   "town": false,
+   "phone": "+3548981832",
+   "website": "https://hotelblanda.is/",
+   "address": "Aðalgata 6",
+   "email": "info@hotelblanda.is"
+  },
+  {
+   "id": "n11222691511",
+   "name": "Hótel Vera",
+   "lat": 64.14383,
+   "lng": -21.92013,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545393904",
+   "website": "https://verahotel.is",
+   "address": "Laugardalur 74",
+   "email": "verahotel@gmail.com"
+  },
+  {
+   "id": "n10992306326",
+   "name": "Hótel Von",
+   "lat": 64.14462,
+   "lng": -21.92311,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3547908881",
+   "website": "https://www.hotelvon.is/",
+   "email": "booking@hotelvon.is",
+   "wikidata": "Q112013002"
+  },
+  {
+   "id": "n10755855089",
+   "name": "Iceland Parliament Hotel, Curio Collection by Hilton",
+   "lat": 64.14726,
+   "lng": -21.94089,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545133000",
+   "website": "https://www.hilton.com/en/hotels/rekpsqq-iceland-parliament-hotel/",
+   "address": "Thorvaldsensstræti 2-6, Reykjavík"
   },
   {
    "id": "n3088219436",
@@ -6346,10 +8884,118 @@
     [
      0.9,
      1
+    ],
+    [
+     0.9,
+     2
     ]
    ],
    "town": false,
    "website": "https://www.laugarguesthouse.com/"
+  },
+  {
+   "id": "n2618921380",
+   "name": "OK Hotel",
+   "lat": 64.14385,
+   "lng": -21.92012,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.2,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n6513576929",
+   "name": "Opal Apartments",
+   "lat": 64.14317,
+   "lng": -21.9095,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     3.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3548601300",
+   "address": "Laugavegur 151, Reykjavík"
+  },
+  {
+   "id": "n3025039610",
+   "name": "REYKJAVIK LIGHTS",
+   "lat": 64.13935,
+   "lng": -21.88167,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     2.4,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545139000",
+   "website": "https://www.keahotels.is/Reykjavik-Lights",
+   "address": "Suðurlandsbraut 12, Reykjavík"
+  },
+  {
+   "id": "w519690064",
+   "name": "Reykjavík Konsúlat Hótel, Curio Collection By Hilton",
+   "lat": 64.14807,
+   "lng": -21.93691,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545146800",
+   "website": "https://www.hilton.com/en/hotels/rekcuqq-reykjavik-konsulat-hotel/",
+   "address": "Hafnarstræti 17-19, Reykjavík",
+   "email": "rekcu_res@hilton.com",
+   "wheelchair": "yes",
+   "wikidata": "Q111873652",
+   "stars": "4"
   },
   {
    "id": "n4214145694",
@@ -6388,6 +9034,32 @@
    "hours": "24/7"
   },
   {
+   "id": "w370457551",
+   "name": "Skuggi Hótel",
+   "lat": 64.14431,
+   "lng": -21.91692,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545907000",
+   "website": "https://www.keahotels.is/en/hotels/skuggi-hotel",
+   "address": "Hverfisgata 103, Reykjavík"
+  },
+  {
    "id": "n4227634289",
    "name": "Solheimahjaleiga",
    "lat": 63.49002,
@@ -6424,6 +9096,29 @@
    "phone": "+3548945504",
    "website": "https://www.hostel.is/Hostels/Saeberg/",
    "hours": "Mar 1-Oct 31"
+  },
+  {
+   "id": "n4340176590",
+   "name": "The swan House",
+   "lat": 64.14649,
+   "lng": -21.92588,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true
   },
   {
    "id": "w213907457",
@@ -6477,6 +9172,102 @@
     ]
    ],
    "town": false
+  },
+  {
+   "id": "n3007770875",
+   "name": "AR Central Apartments",
+   "lat": 64.14807,
+   "lng": -21.94071,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n4307024700",
+   "name": "Brattagata Guesthouse",
+   "lat": 64.14792,
+   "lng": -21.94291,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n6331413436",
+   "name": "Brimslóð Atelier Guesthouse",
+   "lat": 65.65984,
+   "lng": -20.30309,
+   "kind": "stay",
+   "cat": "apartment",
+   "days": [
+    [
+     1.0,
+     0
+    ],
+    [
+     1.7,
+     1
+    ]
+   ],
+   "town": false,
+   "website": "https://brimslodguesthouse.is/",
+   "address": "Brimslóð 10A",
+   "email": "ibergthorsdottir@gmail.com"
+  },
+  {
+   "id": "n1470755460",
+   "name": "CenterHotel Plaza",
+   "lat": 64.14829,
+   "lng": -21.94175,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545958550",
+   "address": "Aðalstræti 4, Reykjavík",
+   "email": "plaza@centerhotels.com",
+   "wheelchair": "yes",
+   "wikidata": "Q111409562"
   },
   {
    "id": "n9991698505",
@@ -6547,10 +9338,77 @@
     [
      1.0,
      0
+    ],
+    [
+     1.7,
+     7
+    ],
+    [
+     7.6,
+     6
     ]
    ],
    "town": true,
    "website": "http://fitjarguesthouse.com/"
+  },
+  {
+   "id": "n293536724",
+   "name": "Fosshótel Barón",
+   "lat": 64.14501,
+   "lng": -21.91813,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     4.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545623204",
+   "website": "https://fosshotel.is",
+   "address": "Barónsstígur 2-4",
+   "email": "baron@fosshotel.is",
+   "wikidata": "Q111409543",
+   "stars": "3"
+  },
+  {
+   "id": "n3599206493",
+   "name": "Fosshótel Reykjavík",
+   "lat": 64.14434,
+   "lng": -21.91001,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545319000",
+   "website": "https://www.islandshotel.is/hotels-in-iceland/fosshotel-reykjavik",
+   "address": "Þórunnartún 1, Reykjavík",
+   "email": "reykjavik@fosshotel.is",
+   "wheelchair": "yes",
+   "wikidata": "Q112013001",
+   "stars": "4"
   },
   {
    "id": "n7188728552",
@@ -6586,25 +9444,6 @@
    ],
    "town": false,
    "address": "Oddabraut 24, Þorlákshöfn"
-  },
-  {
-   "id": "w273526618",
-   "name": "Hlid Bed and Breakfast",
-   "lat": 65.64923,
-   "lng": -16.91806,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     1.0,
-     1
-    ],
-    [
-     1.0,
-     2
-    ]
-   ],
-   "town": false
   },
   {
    "id": "n13510125327",
@@ -6673,12 +9512,40 @@
    "days": [
     [
      1.0,
+     6
+    ],
+    [
+     1.0,
      7
     ]
    ],
    "town": false,
    "website": "https://www.icelandsguesthouse.com/",
    "address": "Axelshús"
+  },
+  {
+   "id": "n1438165889",
+   "name": "KEX Hostel",
+   "lat": 64.14541,
+   "lng": -21.91952,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.1,
+     7
+    ],
+    [
+     4.2,
+     0
+    ]
+   ],
+   "town": true,
+   "wikidata": "Q111458371"
   },
   {
    "id": "n4916927222",
@@ -6699,6 +9566,87 @@
    ],
    "town": true,
    "address": "Keilisbraut 762"
+  },
+  {
+   "id": "n754499261",
+   "name": "Radisson Blu 1919 Hotel, Reykjavík",
+   "lat": 64.14821,
+   "lng": -21.93859,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545991000",
+   "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-reykjavik-1919",
+   "address": "Pósthússtræti 2, Reykjavík",
+   "wikidata": "Q111409555",
+   "stars": "4"
+  },
+  {
+   "id": "w102665364",
+   "name": "Reykjavík Treasure B&B",
+   "lat": 64.14857,
+   "lng": -21.94285,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.fischersund.com/",
+   "address": "Fischersund 3, Reykjavík",
+   "hours": "Mo-Sa 12:00-18:00"
+  },
+  {
+   "id": "n4645004460",
+   "name": "Storm Hótel",
+   "lat": 64.14461,
+   "lng": -21.91057,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545183000",
+   "website": "https://www.keahotels.is/en/hotels/storm-hotel",
+   "address": "Þórunnartún 4",
+   "email": "storm@keahotels.is"
   },
   {
    "id": "w1418661987",
@@ -6749,6 +9697,55 @@
    "town": false
   },
   {
+   "id": "n3676719625",
+   "name": "Black Pearl",
+   "lat": 64.14941,
+   "lng": -21.94222,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.1,
+     6
+    ],
+    [
+     1.1,
+     7
+    ],
+    [
+     5.4,
+     0
+    ]
+   ],
+   "town": true,
+   "wheelchair": "yes",
+   "stars": "5"
+  },
+  {
+   "id": "n365712610",
+   "name": "Centerhotel Arnarhvoll",
+   "lat": 64.14919,
+   "lng": -21.93073,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.1,
+     6
+    ],
+    [
+     1.1,
+     7
+    ],
+    [
+     4.9,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Ingólfsstræti 1, Reykjavík"
+  },
+  {
    "id": "n1601166681",
    "name": "Country Hótel Anna",
    "lat": 63.56836,
@@ -6765,6 +9762,62 @@
    "address": "Hvolsvöllur"
   },
   {
+   "id": "w109666096",
+   "name": "Grand Hotel Reykjavik",
+   "lat": 64.14232,
+   "lng": -21.89129,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.1,
+     6
+    ],
+    [
+     1.1,
+     7
+    ],
+    [
+     3.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545148000",
+   "website": "https://www.islandshotel.is/hotels-in-iceland/grand-hotel-reykjavik",
+   "address": "Sigtún 38",
+   "email": "info@grand.is",
+   "wheelchair": "limited",
+   "wikidata": "Q10954461",
+   "stars": "4"
+  },
+  {
+   "id": "n4112394905",
+   "name": "Hotel Hilda",
+   "lat": 64.14894,
+   "lng": -21.94604,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.1,
+     6
+    ],
+    [
+     1.1,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545523020",
+   "website": "https://hotelhilda.is/",
+   "address": "Bárugata 11, Reykjavík"
+  },
+  {
    "id": "w1051918503",
    "name": "Höfði",
    "lat": 64.51804,
@@ -6779,6 +9832,31 @@
    ],
    "town": false,
    "address": "Starmýri 2a"
+  },
+  {
+   "id": "n9997028748",
+   "name": "LOCAL 101",
+   "lat": 64.14938,
+   "lng": -21.94449,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.1,
+     6
+    ],
+    [
+     1.1,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.local101.is",
+   "email": "local101@local101.is"
   },
   {
    "id": "n7772276505",
@@ -6826,6 +9904,10 @@
     [
      1.1,
      1
+    ],
+    [
+     6.8,
+     2
     ]
    ],
    "town": false,
@@ -6846,6 +9928,58 @@
    ],
    "town": false,
    "address": "Starmýri 2a"
+  },
+  {
+   "id": "w110893365",
+   "name": "The Capital Inn",
+   "lat": 64.12236,
+   "lng": -21.90019,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.1,
+     7
+    ],
+    [
+     1.2,
+     6
+    ],
+    [
+     2.5,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Suðurhlíð 35"
+  },
+  {
+   "id": "n9789265005",
+   "name": "The Reykjavik EDITION",
+   "lat": 64.14979,
+   "lng": -21.93533,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.1,
+     6
+    ],
+    [
+     1.1,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545820000",
+   "website": "https://www.editionhotels.com/reykjavik/",
+   "address": "Austurbakki 2, Reykjavík",
+   "email": "info.rek@editionhotels.com",
+   "wheelchair": "yes"
   },
   {
    "id": "w183039802",
@@ -6890,6 +10024,108 @@
    "email": "camping.reydarfjordur@gmail.com"
   },
   {
+   "id": "n9184200706",
+   "name": "Tower Suites Reykjavík",
+   "lat": 64.14501,
+   "lng": -21.90744,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.1,
+     6
+    ],
+    [
+     1.1,
+     7
+    ],
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://towersuites.is/",
+   "address": "Katrínartún 2, Reykjavík",
+   "wikidata": "Q111873638",
+   "stars": "4"
+  },
+  {
+   "id": "n9997028749",
+   "name": "Alfholl Guesthouse",
+   "lat": 64.14948,
+   "lng": -21.94503,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     1.2,
+     6
+    ],
+    [
+     1.2,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n9997028747",
+   "name": "Butterfly Guesthouse",
+   "lat": 64.1495,
+   "lng": -21.94518,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     1.2,
+     6
+    ],
+    [
+     1.2,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3548941864",
+   "website": "https://butterfly.is/",
+   "email": "butterfly@butterfly.is"
+  },
+  {
+   "id": "w102902651",
+   "name": "Exeter Hotel",
+   "lat": 64.15012,
+   "lng": -21.9435,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.2,
+     6
+    ],
+    [
+     1.2,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.keahotels.is/en/hotels/exeter-hotel/location_exeter",
+   "address": "Tryggvagata 12, Reykjavík",
+   "wikidata": "Q111873655"
+  },
+  {
    "id": "n6687478185",
    "name": "Lava Hostel",
    "lat": 64.07574,
@@ -6900,11 +10136,68 @@
     [
      1.2,
      0
+    ],
+    [
+     6.9,
+     6
+    ],
+    [
+     6.9,
+     7
     ]
    ],
    "town": true,
    "website": "https://lavahostel.is/",
    "hours": "Mo-Su 09:00-14:00, 18:00-22:00"
+  },
+  {
+   "id": "n2431097856",
+   "name": "Lighthouse Apartments",
+   "lat": 64.14944,
+   "lng": -21.9457,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.2,
+     6
+    ],
+    [
+     1.2,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Ránargata 9, Reykjavík"
+  },
+  {
+   "id": "n410522760",
+   "name": "Reykjavík Downtown",
+   "lat": 64.14975,
+   "lng": -21.94425,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     1.2,
+     6
+    ],
+    [
+     1.2,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Vesturgata 17",
+   "wheelchair": "yes"
   },
   {
    "id": "w481204125",
@@ -6937,6 +10230,14 @@
     [
      1.2,
      0
+    ],
+    [
+     7.0,
+     6
+    ],
+    [
+     7.0,
+     7
     ]
    ],
    "town": true,
@@ -6946,23 +10247,27 @@
    "wheelchair": "yes"
   },
   {
-   "id": "w108221960",
-   "name": "mosi Guesthouse",
-   "lat": 64.12737,
-   "lng": -21.86976,
+   "id": "n3705817246",
+   "name": "Þrjár systur",
+   "lat": 64.14973,
+   "lng": -21.94624,
    "kind": "stay",
    "cat": "guesthouse",
    "days": [
     [
      1.2,
+     6
+    ],
+    [
+     1.2,
+     7
+    ],
+    [
+     5.6,
      0
     ]
    ],
-   "town": true,
-   "phone": "+3548992907",
-   "website": "http://www.mosiguesthouse.com/",
-   "address": "9",
-   "email": "mosi@mosiguesthouse.com"
+   "town": true
   },
   {
    "id": "w744318432",
@@ -7025,30 +10330,16 @@
    "days": [
     [
      1.3,
+     6
+    ],
+    [
+     1.3,
      7
     ]
    ],
    "town": false,
    "website": "https://www.frostogfuni.is/",
    "wikidata": "Q111409591"
-  },
-  {
-   "id": "n6470743885",
-   "name": "Grímur Hótel",
-   "lat": 64.12209,
-   "lng": -21.87535,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     1.3,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545350352",
-   "website": "https://grimur.com/",
-   "email": "info@grimur.com"
   },
   {
    "id": "w411487816",
@@ -7119,6 +10410,14 @@
     [
      1.4,
      0
+    ],
+    [
+     1.8,
+     7
+    ],
+    [
+     1.9,
+     6
     ]
    ],
    "town": true,
@@ -7160,6 +10459,31 @@
    ],
    "town": false,
    "address": "Vellir, Vík"
+  },
+  {
+   "id": "w108228656",
+   "name": "Hotel Cabin",
+   "lat": 64.14599,
+   "lng": -21.89418,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.4,
+     6
+    ],
+    [
+     1.4,
+     7
+    ],
+    [
+     3.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Borgartún 32",
+   "wikidata": "Q111409536"
   },
   {
    "id": "n462660207",
@@ -7249,6 +10573,10 @@
     [
      1.4,
      1
+    ],
+    [
+     1.4,
+     2
     ]
    ],
    "town": false
@@ -7272,6 +10600,30 @@
    ],
    "town": true,
    "website": "https://eldeyhotel.is/"
+  },
+  {
+   "id": "n8866751348",
+   "name": "Grandi by Center Hotels",
+   "lat": 64.15185,
+   "lng": -21.95183,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.5,
+     6
+    ],
+    [
+     1.5,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "wheelchair": "yes"
   },
   {
    "id": "n3621817082",
@@ -7328,40 +10680,6 @@
    "town": true,
    "address": "Lindarbraut 637",
    "wikidata": "Q111873687"
-  },
-  {
-   "id": "r7138704",
-   "name": "Útilífsmiðstöð skáta Úlfljótsvatni",
-   "lat": 64.09616,
-   "lng": -21.04508,
-   "kind": "stay",
-   "cat": "campsite",
-   "days": [
-    [
-     1.5,
-     7
-    ]
-   ],
-   "town": false,
-   "phone": "+3544822674",
-   "website": "https://ulfljotsvatn.is/",
-   "email": "ulfljotsvatn@skatar.is"
-  },
-  {
-   "id": "n1906829759",
-   "name": "Útilífsmiðstöð skáta Úlfljótsvatni",
-   "lat": 64.09532,
-   "lng": -21.04362,
-   "kind": "stay",
-   "cat": "campsite",
-   "days": [
-    [
-     1.5,
-     7
-    ]
-   ],
-   "town": false,
-   "website": "https://ulfljotsvatn.is/"
   },
   {
    "id": "n4362332479",
@@ -7434,74 +10752,55 @@
    "stars": "3"
   },
   {
-   "id": "w108362287",
-   "name": "Gistiheimili SummerDay",
-   "lat": 64.12903,
-   "lng": -21.8765,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     1.6,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545554411",
-   "website": "http://www.summerdays.is",
-   "address": "24"
-  },
-  {
-   "id": "w180244078",
-   "name": "JB",
-   "lat": 64.09602,
-   "lng": -21.04783,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     1.6,
-     7
-    ]
-   ],
-   "town": false
-  },
-  {
-   "id": "n6602300251",
-   "name": "Oddsson Hotel",
-   "lat": 64.13116,
-   "lng": -21.87584,
+   "id": "n11128262908",
+   "name": "Norðurey Hotel City Garden",
+   "lat": 64.14647,
+   "lng": -21.88718,
    "kind": "stay",
    "cat": "hotel",
    "days": [
     [
      1.6,
+     6
+    ],
+    [
+     1.6,
+     7
+    ],
+    [
+     3.2,
      0
     ]
    ],
    "town": true,
-   "phone": "+3544190200",
-   "website": "https://www.oddsson.is/",
-   "address": "Grensásvegur 16a, Reykjavík",
-   "email": "info@oddsson.is",
-   "wikidata": "Q111873635"
+   "website": "https://city-garden.nordurey.is/"
   },
   {
-   "id": "n4349576900",
-   "name": "Sport Hostel Reykjavík",
-   "lat": 64.13398,
-   "lng": -21.86833,
+   "id": "r4663716",
+   "name": "Tjaldsvæði í Laugardal",
+   "lat": 64.14506,
+   "lng": -21.87499,
    "kind": "stay",
-   "cat": "hostel",
+   "cat": "campsite",
    "days": [
     [
      1.6,
+     6
+    ],
+    [
+     1.6,
+     7
+    ],
+    [
+     2.8,
      0
     ]
    ],
    "town": true,
-   "website": "http://sporthostel.is/",
-   "address": "Álfheimar 74-104, Reykjavík"
+   "website": "https://www.reykjavikcampsite.is/",
+   "address": "Sundlaugavegur 35, Reykjavík",
+   "email": "info@reykjavikcampsite.is",
+   "wheelchair": "yes"
   },
   {
    "id": "w481195992",
@@ -7555,21 +10854,6 @@
    "website": "https://www.islandprotravel.de/"
   },
   {
-   "id": "w180244079",
-   "name": "DSÚ",
-   "lat": 64.09608,
-   "lng": -21.04813,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     1.7,
-     7
-    ]
-   ],
-   "town": false
-  },
-  {
    "id": "n283929062",
    "name": "Hostel Hvoll",
    "lat": 63.90939,
@@ -7616,6 +10900,30 @@
    "town": false
   },
   {
+   "id": "n2964150023",
+   "name": "Laugabjarg Guesthouse",
+   "lat": 64.14714,
+   "lng": -21.88325,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     1.7,
+     6
+    ],
+    [
+     1.7,
+     7
+    ],
+    [
+     3.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Sundlaugavegur 37"
+  },
+  {
    "id": "n11110428905",
    "name": "Airport Hotel Aurora Star",
    "lat": 63.99806,
@@ -7639,6 +10947,109 @@
    "email": "airport@hotelairport.is",
    "wheelchair": "yes",
    "wikidata": "Q111409576"
+  },
+  {
+   "id": "n293448451",
+   "name": "Farfuglaheimilið í Laugardal",
+   "lat": 64.14657,
+   "lng": -21.87473,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     1.8,
+     6
+    ],
+    [
+     1.8,
+     7
+    ],
+    [
+     2.9,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Sundlaugavegur 34, Reykjavík"
+  },
+  {
+   "id": "w229176074",
+   "name": "Hótel Heiðmörk",
+   "lat": 64.09519,
+   "lng": -21.8045,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.8,
+     6
+    ],
+    [
+     2.5,
+     0
+    ],
+    [
+     3.3,
+     7
+    ]
+   ],
+   "town": true,
+   "phone": "+3545646600",
+   "website": "http://hotelheidmork.is",
+   "address": "Ögurhvarf 4, Kópavogur",
+   "email": "info@hotelheidmork.is",
+   "wikidata": "Q112012997"
+  },
+  {
+   "id": "n4720416612",
+   "name": "Lækur Guesthouse",
+   "lat": 64.14868,
+   "lng": -21.88521,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     1.8,
+     6
+    ],
+    [
+     1.9,
+     7
+    ],
+    [
+     3.4,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3547719995",
+   "website": "https://www.laekur.is/hostel/"
+  },
+  {
+   "id": "n4973840388",
+   "name": "Lækur Hostel",
+   "lat": 64.1487,
+   "lng": -21.88527,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     1.8,
+     6
+    ],
+    [
+     1.9,
+     7
+    ],
+    [
+     3.4,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3547719995",
+   "website": "https://www.laekur.is/hostel/",
+   "wikidata": "Q111121745"
   },
   {
    "id": "w771319047",
@@ -7670,22 +11081,6 @@
    ],
    "town": false,
    "address": "Vidigerdi"
-  },
-  {
-   "id": "n1543331646",
-   "name": "Arctic Comfort Hotel",
-   "lat": 64.13467,
-   "lng": -21.87773,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     1.9,
-     0
-    ]
-   ],
-   "town": true,
-   "wikidata": "Q111409537"
   },
   {
    "id": "w220731292",
@@ -7723,20 +11118,28 @@
    "town": false
   },
   {
-   "id": "w229204273",
-   "name": "KSÚ",
-   "lat": 64.09281,
-   "lng": -21.05298,
+   "id": "n2377569671",
+   "name": "Gistiheimilið Kríunesi",
+   "lat": 64.0885,
+   "lng": -21.79388,
    "kind": "stay",
-   "cat": "hostel",
+   "cat": "guesthouse",
    "days": [
     [
      2.0,
+     6
+    ],
+    [
+     3.3,
+     0
+    ],
+    [
+     4.0,
      7
     ]
    ],
-   "town": false,
-   "address": "Úlfljótsvatn"
+   "town": true,
+   "address": "Kópavogur"
   },
   {
    "id": "w269994866",
@@ -7765,6 +11168,10 @@
     [
      2.1,
      1
+    ],
+    [
+     2.1,
+     2
     ]
    ],
    "town": false,
@@ -7772,19 +11179,25 @@
    "address": "Fljótsbakki"
   },
   {
-   "id": "n292844962",
-   "name": "Hótel Vík",
-   "lat": 64.13617,
-   "lng": -21.87977,
+   "id": "w468789898",
+   "name": "Sturluhóll Gistiheimili",
+   "lat": 65.71267,
+   "lng": -20.18467,
    "kind": "stay",
-   "cat": "hotel",
+   "cat": "guesthouse",
    "days": [
     [
      2.1,
      0
+    ],
+    [
+     2.1,
+     1
     ]
    ],
-   "town": true
+   "town": false,
+   "phone": "+3546990456",
+   "address": "Sturluhóll, Blönduós (dreifbýli)"
   },
   {
    "id": "n808114524",
@@ -7859,23 +11272,6 @@
    "town": false
   },
   {
-   "id": "n12135138987",
-   "name": "Room13 - A Townhouse Hotel - R13",
-   "lat": 64.13815,
-   "lng": -21.88125,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     2.3,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.r13.is/",
-   "hours": "24/7"
-  },
-  {
    "id": "w485491137",
    "name": "Systragil",
    "lat": 65.7071,
@@ -7886,30 +11282,16 @@
     [
      2.3,
      1
+    ],
+    [
+     2.3,
+     2
     ]
    ],
    "town": false,
    "phone": "+3548602213",
    "website": "https://www.systragil.is/",
    "email": "systragil@simnet.is"
-  },
-  {
-   "id": "n3025039610",
-   "name": "REYKJAVIK LIGHTS",
-   "lat": 64.13935,
-   "lng": -21.88167,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     2.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545139000",
-   "website": "https://www.keahotels.is/Reykjavik-Lights",
-   "address": "Suðurlandsbraut 12, Reykjavík"
   },
   {
    "id": "r2818785",
@@ -7937,6 +11319,14 @@
     [
      2.5,
      0
+    ],
+    [
+     2.5,
+     6
+    ],
+    [
+     2.5,
+     7
     ]
    ],
    "town": true,
@@ -7970,6 +11360,10 @@
     [
      2.5,
      1
+    ],
+    [
+     2.5,
+     2
     ]
    ],
    "town": true,
@@ -7977,44 +11371,6 @@
    "website": "https://www.kjarnalundur.is",
    "hours": "Mo-Su 08:00-00:00",
    "email": "info@kjarnalundur.is"
-  },
-  {
-   "id": "w229176074",
-   "name": "Hótel Heiðmörk",
-   "lat": 64.09519,
-   "lng": -21.8045,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     2.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545646600",
-   "website": "http://hotelheidmork.is",
-   "address": "Ögurhvarf 4, Kópavogur",
-   "email": "info@hotelheidmork.is",
-   "wikidata": "Q112012997"
-  },
-  {
-   "id": "n452058344",
-   "name": "Hótel Ísland",
-   "lat": 64.13887,
-   "lng": -21.88317,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     2.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545957000",
-   "website": "https://www.hotelisland.is/",
-   "address": "Ármúli 9"
   },
   {
    "id": "n831559124",
@@ -8027,6 +11383,10 @@
     [
      2.5,
      1
+    ],
+    [
+     2.5,
+     2
     ]
    ],
    "town": true
@@ -8047,22 +11407,6 @@
    "town": false
   },
   {
-   "id": "w110893365",
-   "name": "The Capital Inn",
-   "lat": 64.12236,
-   "lng": -21.90019,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     2.5,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Suðurhlíð 35"
-  },
-  {
    "id": "n13107647201",
    "name": "Hotel North",
    "lat": 65.65131,
@@ -8073,6 +11417,10 @@
     [
      2.6,
      1
+    ],
+    [
+     2.6,
+     2
     ]
    ],
    "town": true,
@@ -8102,22 +11450,6 @@
    "wheelchair": "yes"
   },
   {
-   "id": "n3847575543",
-   "name": "Hótel Lotus",
-   "lat": 64.13721,
-   "lng": -21.89184,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     2.6,
-     0
-    ]
-   ],
-   "town": true,
-   "wikidata": "Q111873636"
-  },
-  {
    "id": "n10811412226",
    "name": "Hótel Skálholt",
    "lat": 64.12605,
@@ -8135,23 +11467,6 @@
    "website": "https://www.hotelskalholt.is/",
    "address": "Skálholt, Selfoss",
    "email": "hotelskalholt@skalholt.is"
-  },
-  {
-   "id": "n5739905478",
-   "name": "Mulí Hotel",
-   "lat": 64.13919,
-   "lng": -21.88584,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     2.6,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Hallarmúli 1, Reykjavík",
-   "stars": "3"
   },
   {
    "id": "w712281091",
@@ -8197,11 +11512,11 @@
    "days": [
     [
      2.7,
-     7
+     6
     ],
     [
-     8.4,
-     6
+     2.7,
+     7
     ]
    ],
    "town": false,
@@ -8218,6 +11533,10 @@
     [
      2.7,
      1
+    ],
+    [
+     2.7,
+     2
     ]
    ],
    "town": true,
@@ -8226,42 +11545,27 @@
    "email": "hamrar@hamrar.is"
   },
   {
-   "id": "n9466286735",
-   "name": "Hilton Reykjavik Nordica",
-   "lat": 64.13962,
-   "lng": -21.88886,
+   "id": "n2376523808",
+   "name": "Hvammur",
+   "lat": 64.08431,
+   "lng": -21.80841,
    "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     2.7,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3544445000",
-   "website": "https://www.hilton.com/en/hotels/kefhfhi-hilton-reykjavik-nordica/",
-   "address": "Suðurlandsbraut 2, Reykjavík",
-   "email": "hilton.reception@icehotels.is",
-   "wheelchair": "yes",
-   "wikidata": "Q64822290",
-   "stars": "4"
-  },
-  {
-   "id": "w221839902",
-   "name": "Hveramýri",
-   "lat": 64.17616,
-   "lng": -21.61663,
-   "kind": "stay",
-   "cat": "apartment",
+   "cat": "guesthouse",
    "days": [
     [
      2.8,
+     6
+    ],
+    [
+     3.2,
      0
+    ],
+    [
+     4.5,
+     7
     ]
    ],
-   "town": false,
-   "address": "Hveramýri 1"
+   "town": true
   },
   {
    "id": "n10254043099",
@@ -8278,101 +11582,6 @@
    ],
    "town": false,
    "address": "Græntóftagata 4, Selfossi"
-  },
-  {
-   "id": "r4663716",
-   "name": "Tjaldsvæði í Laugardal",
-   "lat": 64.14506,
-   "lng": -21.87499,
-   "kind": "stay",
-   "cat": "campsite",
-   "days": [
-    [
-     2.8,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.reykjavikcampsite.is/",
-   "address": "Sundlaugavegur 35, Reykjavík",
-   "email": "info@reykjavikcampsite.is",
-   "wheelchair": "yes"
-  },
-  {
-   "id": "n293448451",
-   "name": "Farfuglaheimilið í Laugardal",
-   "lat": 64.14657,
-   "lng": -21.87473,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     2.9,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Sundlaugavegur 34, Reykjavík"
-  },
-  {
-   "id": "w720562764",
-   "name": "Fosshótel Mývatn",
-   "lat": 65.6588,
-   "lng": -16.95679,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     2.9,
-     1
-    ],
-    [
-     2.9,
-     2
-    ]
-   ],
-   "town": false,
-   "phone": "+3544530000",
-   "website": "https://www.islandshotel.is/hotels-in-iceland/fosshotel-myvatn",
-   "address": "Skútustaðahreppur",
-   "email": "myvatn@fosshotel.is",
-   "stars": "3"
-  },
-  {
-   "id": "n3267578994",
-   "name": "Geirakot",
-   "lat": 63.91222,
-   "lng": -21.03473,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     2.9,
-     6
-    ],
-    [
-     2.9,
-     7
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "w222003125",
-   "name": "Mosskógar",
-   "lat": 64.17976,
-   "lng": -21.61663,
-   "kind": "stay",
-   "cat": "campsite",
-   "days": [
-    [
-     2.9,
-     0
-    ]
-   ],
-   "town": false,
-   "phone": "+3546636173",
-   "email": "mosskogar@simnet.is"
   },
   {
    "id": "n4188025695",
@@ -8397,93 +11606,51 @@
    "wikidata": "Q111409566"
   },
   {
-   "id": "w109666096",
-   "name": "Grand Hotel Reykjavik",
-   "lat": 64.14232,
-   "lng": -21.89129,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.0,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545148000",
-   "website": "https://www.islandshotel.is/hotels-in-iceland/grand-hotel-reykjavik",
-   "address": "Sigtún 38",
-   "email": "info@grand.is",
-   "wheelchair": "limited",
-   "wikidata": "Q10954461",
-   "stars": "4"
-  },
-  {
-   "id": "n2376523808",
-   "name": "Hvammur",
-   "lat": 64.08431,
-   "lng": -21.80841,
+   "id": "n13595508964",
+   "name": "Blue House B&B",
+   "lat": 64.15402,
+   "lng": -21.9986,
    "kind": "stay",
    "cat": "guesthouse",
    "days": [
     [
      3.2,
+     7
+    ],
+    [
+     3.3,
+     6
+    ],
+    [
+     7.9,
      0
+    ]
+   ],
+   "town": true,
+   "phone": "+3547756480",
+   "website": "https://www.bluehouse.is/",
+   "address": "Valhúsabraut 19, Seltjarnarnes",
+   "wheelchair": "limited",
+   "wikidata": "Q111121746"
+  },
+  {
+   "id": "n3267578994",
+   "name": "Geirakot",
+   "lat": 63.91222,
+   "lng": -21.03473,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     3.2,
+     6
+    ],
+    [
+     4.5,
+     7
     ]
    ],
    "town": true
-  },
-  {
-   "id": "w117276317",
-   "name": "Hótel Ørkin",
-   "lat": 64.1406,
-   "lng": -21.90116,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.2,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545680777",
-   "website": "https://hotelorkin.is/",
-   "address": "Brautarholt 29, Reykjavík",
-   "email": "info@hotelorkin.is",
-   "wikidata": "Q111873639"
-  },
-  {
-   "id": "n2964150023",
-   "name": "Laugabjarg Guesthouse",
-   "lat": 64.14714,
-   "lng": -21.88325,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     3.2,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Sundlaugavegur 37"
-  },
-  {
-   "id": "n11128262908",
-   "name": "Norðurey Hotel City Garden",
-   "lat": 64.14647,
-   "lng": -21.88718,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.2,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://city-garden.nordurey.is/"
   },
   {
    "id": "w485493050",
@@ -8496,6 +11663,10 @@
     [
      3.2,
      1
+    ],
+    [
+     3.2,
+     2
     ]
    ],
    "town": false,
@@ -8503,58 +11674,6 @@
    "website": "https://www.skogur.is/",
    "email": "vaglir@skogur.is",
    "wheelchair": "limited"
-  },
-  {
-   "id": "n12117462702",
-   "name": "Aska",
-   "lat": 64.14062,
-   "lng": -21.9027,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.3,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3546179000",
-   "website": "https://www.hotelaska.is/",
-   "hours": "24/7",
-   "email": "hello@hotelaska.is"
-  },
-  {
-   "id": "w117276348",
-   "name": "Brim Hotel",
-   "lat": 64.14075,
-   "lng": -21.90291,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.3,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Skipholt 29, Reykjavík",
-   "wikidata": "Q111873641"
-  },
-  {
-   "id": "n2377569671",
-   "name": "Gistiheimilið Kríunesi",
-   "lat": 64.0885,
-   "lng": -21.79388,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     3.3,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Kópavogur"
   },
   {
    "id": "w471052278",
@@ -8610,111 +11729,6 @@
    "phone": "+3544527123",
    "website": "https://svinavatn.com",
    "address": "Svínvetningabraut, Blönduós"
-  },
-  {
-   "id": "n122323571",
-   "name": "22 Hill Hotel",
-   "lat": 64.14138,
-   "lng": -21.90428,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545113777",
-   "website": "https://www.22hillhotel.is/",
-   "address": "Brautarholt 22-24, Reykjavík",
-   "wikidata": "Q111409539"
-  },
-  {
-   "id": "w108228656",
-   "name": "Hotel Cabin",
-   "lat": 64.14599,
-   "lng": -21.89418,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.4,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Borgartún 32",
-   "wikidata": "Q111409536"
-  },
-  {
-   "id": "n4720416612",
-   "name": "Lækur Guesthouse",
-   "lat": 64.14868,
-   "lng": -21.88521,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     3.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547719995",
-   "website": "https://www.laekur.is/hostel/"
-  },
-  {
-   "id": "n4973840388",
-   "name": "Lækur Hostel",
-   "lat": 64.1487,
-   "lng": -21.88527,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     3.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547719995",
-   "website": "https://www.laekur.is/hostel/",
-   "wikidata": "Q111121745"
-  },
-  {
-   "id": "n9482466317",
-   "name": "SM Hostel",
-   "lat": 64.13126,
-   "lng": -21.91543,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     3.4,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "w117422025",
-   "name": "Eyja Guldsmeden",
-   "lat": 64.14185,
-   "lng": -21.9075,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545197300",
-   "website": "https://hoteleyja.is/",
-   "address": "10;12;14;10-14",
-   "wikidata": "Q111409541"
   },
   {
    "id": "n6615177485",
@@ -8801,46 +11815,6 @@
    "address": "Hrífunesvegur, Kirkjubæjarklaustur"
   },
   {
-   "id": "w110014352",
-   "name": "Bus Hostel Reykjavik - Reykjavik Terminal",
-   "lat": 64.13411,
-   "lng": -21.92028,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     3.7,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545350350",
-   "website": "http://wwwbushostelreykjavik.com",
-   "address": "Skógarhlíð 10, Reykjavík",
-   "email": "info@bushostelreykjavik.com",
-   "wikidata": "Q111121741"
-  },
-  {
-   "id": "n5061019140",
-   "name": "Fosshotel Rauðará",
-   "lat": 64.14034,
-   "lng": -21.91485,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.7,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545147000",
-   "website": "https://fosshotel.is",
-   "address": "Rauðarárstígur 37",
-   "email": "raudara@fosshotel.is",
-   "stars": "3"
-  },
-  {
    "id": "w316657879",
    "name": "Haukaberg House",
    "lat": 64.31515,
@@ -8864,23 +11838,22 @@
    "email": "info@haukaberg.com"
   },
   {
-   "id": "n5750157169",
-   "name": "Hótel Klettur",
-   "lat": 64.14203,
-   "lng": -21.91061,
+   "id": "n4242999840",
+   "name": "Hótel Grímsborgir",
+   "lat": 64.05209,
+   "lng": -20.96637,
    "kind": "stay",
    "cat": "hotel",
    "days": [
     [
      3.7,
-     0
+     7
     ]
    ],
-   "town": true,
-   "phone": "+3544401600",
-   "website": "https://hotelklettur.is/",
-   "address": "Mjölnisholt 12-14, Reykjavík",
-   "email": "booking@hotelklettur.is"
+   "town": false,
+   "phone": "+3545557878",
+   "website": "https://www.grimsborgir.is/",
+   "address": "Ásborgir 30, Selfoss"
   },
   {
    "id": "w1347942980",
@@ -8899,38 +11872,6 @@
    "address": "Steinstaðaskóli"
   },
   {
-   "id": "n6513576929",
-   "name": "Opal Apartments",
-   "lat": 64.14317,
-   "lng": -21.9095,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     3.7,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3548601300",
-   "address": "Laugavegur 151, Reykjavík"
-  },
-  {
-   "id": "n1423843276",
-   "name": "Pavi Apartments & Guesthouse",
-   "lat": 64.14177,
-   "lng": -21.91056,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     3.7,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
    "id": "w181891493",
    "name": "Tjaldsvæðið Steinsstöðum",
    "lat": 65.46796,
@@ -8939,7 +11880,7 @@
    "cat": "campsite",
    "days": [
     [
-     3.7,
+     3.8,
      1
     ]
    ],
@@ -8948,154 +11889,6 @@
    "website": "http://www.steinsstadir.is",
    "address": "Varmahlíð",
    "email": "steinstadir@simnet.is",
-   "wheelchair": "yes"
-  },
-  {
-   "id": "w109160030",
-   "name": "CenterHotel Miðgarður",
-   "lat": 64.14254,
-   "lng": -21.91339,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.8,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Laugavegur 120, Reykjavík",
-   "wheelchair": "yes"
-  },
-  {
-   "id": "n3811527860",
-   "name": "Downtown Reykjavík Apartments",
-   "lat": 64.14107,
-   "lng": -21.91449,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     3.8,
-     0
-    ]
-   ],
-   "town": true,
-   "wheelchair": "limited",
-   "wikidata": "Q111409546"
-  },
-  {
-   "id": "n1282022080",
-   "name": "Fosshotel Lind",
-   "lat": 64.14186,
-   "lng": -21.91492,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.8,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545623350",
-   "website": "https://www.islandshotel.is/hotels-in-iceland/fosshotel-lind",
-   "address": "Rauðarárstígur 18, Reykjavík",
-   "email": "lind@fosshotel.is",
-   "stars": "3"
-  },
-  {
-   "id": "n3599206493",
-   "name": "Fosshótel Reykjavík",
-   "lat": 64.14434,
-   "lng": -21.91001,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.8,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545319000",
-   "website": "https://www.islandshotel.is/hotels-in-iceland/fosshotel-reykjavik",
-   "address": "Þórunnartún 1, Reykjavík",
-   "email": "reykjavik@fosshotel.is",
-   "wheelchair": "yes",
-   "wikidata": "Q112013001",
-   "stars": "4"
-  },
-  {
-   "id": "n5073339396",
-   "name": "I Sleep Reykjavik Guesthouse",
-   "lat": 64.14014,
-   "lng": -21.91614,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     3.8,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547888776",
-   "address": "Mánagata 25, Reykjavík"
-  },
-  {
-   "id": "n4645004460",
-   "name": "Storm Hótel",
-   "lat": 64.14461,
-   "lng": -21.91057,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.8,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545183000",
-   "website": "https://www.keahotels.is/en/hotels/storm-hotel",
-   "address": "Þórunnartún 4",
-   "email": "storm@keahotels.is"
-  },
-  {
-   "id": "n9184200706",
-   "name": "Tower Suites Reykjavík",
-   "lat": 64.14501,
-   "lng": -21.90744,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.8,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://towersuites.is/",
-   "address": "Katrínartún 2, Reykjavík",
-   "wikidata": "Q111873638",
-   "stars": "4"
-  },
-  {
-   "id": "w105920029",
-   "name": "Hlemmur Square",
-   "lat": 64.1432,
-   "lng": -21.91504,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     3.9,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Laugavegur 105, Reykjavík",
    "wheelchair": "yes"
   },
   {
@@ -9123,200 +11916,6 @@
    "wikidata": "Q111409584"
   },
   {
-   "id": "w113578857",
-   "name": "IGDLO Guesthouse",
-   "lat": 64.1369,
-   "lng": -21.92179,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     3.9,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545114646",
-   "website": "http://www.igdlo.com",
-   "address": "Gunnarsbraut 46, Reykjavík",
-   "wikidata": "Q111121747"
-  },
-  {
-   "id": "n4223244991",
-   "name": "Norðurey Guesthouse",
-   "lat": 64.13854,
-   "lng": -21.92097,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     3.9,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Snorrabraut 71",
-   "wikidata": "Q112013006"
-  },
-  {
-   "id": "w116483448",
-   "name": "Reykjavík Hostel Village",
-   "lat": 64.1398,
-   "lng": -21.91947,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     3.9,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545521155",
-   "website": "https://hostelvillage.is/",
-   "address": "Flókagata 1, Reykjavík"
-  },
-  {
-   "id": "n1214715070",
-   "name": "Snorris Guesthouse",
-   "lat": 64.13942,
-   "lng": -21.92001,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     3.9,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545520598",
-   "website": "https://guesthousereykjavik.com/",
-   "address": "Flókagata, Reykjavík"
-  },
-  {
-   "id": "n5005801316",
-   "name": "100 Iceland Hotel",
-   "lat": 64.14317,
-   "lng": -21.91676,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.0,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Snorrabraut, Reykjavík",
-   "wikidata": "Q111873644"
-  },
-  {
-   "id": "n3642084293",
-   "name": "4th floor hotel",
-   "lat": 64.14341,
-   "lng": -21.91574,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.0,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.4thfloorhotel.is/",
-   "wikidata": "Q111409545"
-  },
-  {
-   "id": "n5052065322",
-   "name": "Center Hotels Laugevegur",
-   "lat": 64.14331,
-   "lng": -21.9166,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.0,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Laugavegur",
-   "wikidata": "Q111873645"
-  },
-  {
-   "id": "n2878372440",
-   "name": "Gistihús #101",
-   "lat": 64.14337,
-   "lng": -21.9159,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.0,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545626101",
-   "website": "http://www.guesthouse101.is",
-   "address": "Laugavegur 101, Reykjavík",
-   "wheelchair": "yes"
-  },
-  {
-   "id": "n12565131801",
-   "name": "Nordic Hostel",
-   "lat": 64.14072,
-   "lng": -21.91963,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     4.0,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3544975656",
-   "website": "https://nordichostel.is/",
-   "email": "nordic@nordichostel.is"
-  },
-  {
-   "id": "n13279026518",
-   "name": "Baron's Hostel",
-   "lat": 64.14089,
-   "lng": -21.92234,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     4.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "3545188500"
-  },
-  {
-   "id": "w205301691",
-   "name": "Berjaya Reykjavík Natura Hotel",
-   "lat": 64.13068,
-   "lng": -21.93236,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3544444500",
-   "website": "https://www.icelandhotelcollectionbyberjaya.com/en/hotels/reykjavik/reykjavik-natura",
-   "address": "Nauthólsvegur 52"
-  },
-  {
    "id": "w424803325",
    "name": "Guesthouse Hvítá",
    "lat": 64.62753,
@@ -9336,43 +11935,6 @@
    "email": "info@guesthousehvita.is"
   },
   {
-   "id": "n5793069707",
-   "name": "Hostel B47",
-   "lat": 64.14072,
-   "lng": -21.92223,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     4.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547891100",
-   "website": "http://www.hostelb47.is",
-   "address": "Barónsstígur 47",
-   "wikidata": "Q111121748"
-  },
-  {
-   "id": "w370457551",
-   "name": "Skuggi Hótel",
-   "lat": 64.14431,
-   "lng": -21.91692,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545907000",
-   "website": "https://www.keahotels.is/en/hotels/skuggi-hotel",
-   "address": "Hverfisgata 103, Reykjavík"
-  },
-  {
    "id": "w181868067",
    "name": "Tjaldsvæði Lundi",
    "lat": 66.07304,
@@ -9388,115 +11950,6 @@
    "town": false,
    "phone": "+3548697672",
    "email": "gisting@kopasker.is"
-  },
-  {
-   "id": "n3019308699",
-   "name": "Alda Hotel Reykjavik",
-   "lat": 64.14397,
-   "lng": -21.92113,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.2,
-     0
-    ]
-   ],
-   "town": true,
-   "wheelchair": "yes",
-   "wikidata": "Q111409547"
-  },
-  {
-   "id": "n3675304694",
-   "name": "Alfred's Apartments",
-   "lat": 64.14394,
-   "lng": -21.92187,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.2,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3546948118",
-   "website": "https://www.alfreds-apartments.com",
-   "address": "Vitastígur",
-   "hours": "24/7",
-   "email": "rent@alfreds-apartments.com",
-   "stars": "4"
-  },
-  {
-   "id": "n293536724",
-   "name": "Fosshótel Barón",
-   "lat": 64.14501,
-   "lng": -21.91813,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.2,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545623204",
-   "website": "https://fosshotel.is",
-   "address": "Barónsstígur 2-4",
-   "email": "baron@fosshotel.is",
-   "wikidata": "Q111409543",
-   "stars": "3"
-  },
-  {
-   "id": "n11222691511",
-   "name": "Hótel Vera",
-   "lat": 64.14383,
-   "lng": -21.92013,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.2,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545393904",
-   "website": "https://verahotel.is",
-   "address": "Laugardalur 74",
-   "email": "verahotel@gmail.com"
-  },
-  {
-   "id": "n1438165889",
-   "name": "KEX Hostel",
-   "lat": 64.14541,
-   "lng": -21.91952,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     4.2,
-     0
-    ]
-   ],
-   "town": true,
-   "wikidata": "Q111458371"
-  },
-  {
-   "id": "n2618921380",
-   "name": "OK Hotel",
-   "lat": 64.14385,
-   "lng": -21.92012,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.2,
-     0
-    ]
-   ],
-   "town": true
   },
   {
    "id": "n4220095302",
@@ -9531,39 +11984,6 @@
    "address": "Lundur, Skinnastaðir"
   },
   {
-   "id": "w114037227",
-   "name": "Eric the Red Guesthouse",
-   "lat": 64.14049,
-   "lng": -21.92697,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     4.3,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Eiríksgata 6, Reykjavík",
-   "wikidata": "Q111409556"
-  },
-  {
-   "id": "n4740803885",
-   "name": "Gistiheimilið Forsæla",
-   "lat": 64.14423,
-   "lng": -21.9239,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.3,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545516046"
-  },
-  {
    "id": "n7660215976",
    "name": "Heima Holiday Homes",
    "lat": 63.97944,
@@ -9580,25 +12000,6 @@
    "phone": "+3547793333",
    "website": "https://hhh.is",
    "address": "Hraunvellir, Selfoss"
-  },
-  {
-   "id": "n10992306326",
-   "name": "Hótel Von",
-   "lat": 64.14462,
-   "lng": -21.92311,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.3,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547908881",
-   "website": "https://www.hotelvon.is/",
-   "email": "booking@hotelvon.is",
-   "wikidata": "Q112013002"
   },
   {
    "id": "w365511976",
@@ -9622,27 +12023,6 @@
    "wheelchair": "limited"
   },
   {
-   "id": "n3674184206",
-   "name": "Alfred's Studios",
-   "lat": 64.14592,
-   "lng": -21.92417,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547719985",
-   "website": "https://www.alfreds-apartments.com",
-   "address": "Frakkastígur 6A",
-   "email": "studio@alfreds-apartments.com",
-   "wikidata": "Q111873647",
-   "stars": "4"
-  },
-  {
    "id": "w536376512",
    "name": "Auðsholt 2",
    "lat": 64.1218,
@@ -9659,22 +12039,6 @@
    "address": "Auðsholt 2"
   },
   {
-   "id": "n1282030471",
-   "name": "Day Dream L23 Guesthouse",
-   "lat": 64.14284,
-   "lng": -21.92863,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Lokastígur 23, Reykjavík"
-  },
-  {
    "id": "n4938782684",
    "name": "Guesthouse Stöng",
    "lat": 65.56204,
@@ -9685,6 +12049,10 @@
     [
      4.4,
      1
+    ],
+    [
+     4.4,
+     2
     ]
    ],
    "town": false,
@@ -9692,25 +12060,6 @@
    "website": "https://www.stong.is/",
    "address": "Mývatn",
    "hours": "Apr-Oct"
-  },
-  {
-   "id": "r9532566",
-   "name": "Hótel Leifur Eiríksson",
-   "lat": 64.1427,
-   "lng": -21.92788,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545620800",
-   "email": "info@hotelleifur.is",
-   "wikidata": "Q111409553",
-   "stars": "3"
   },
   {
    "id": "n2947376925",
@@ -9745,24 +12094,6 @@
    "town": false
   },
   {
-   "id": "n4578362113",
-   "name": "Gest-inn Guesthouse",
-   "lat": 64.14152,
-   "lng": -21.93234,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3546982339",
-   "website": "http://gestinn.is/",
-   "address": "Njarðargata 29"
-  },
-  {
    "id": "n4492759805",
    "name": "Gistiheimilið á Höfðabraut",
    "lat": 65.38654,
@@ -9778,42 +12109,6 @@
    "town": false
   },
   {
-   "id": "n1388417665",
-   "name": "Guesthouse Andrea",
-   "lat": 64.14182,
-   "lng": -21.93124,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.5,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.aurorahouse.is",
-   "email": "book@aurorahouse.is",
-   "wikidata": "Q111873656"
-  },
-  {
-   "id": "n475371459",
-   "name": "Guesthouse Aurora",
-   "lat": 64.14211,
-   "lng": -21.93077,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     4.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3548991773",
-   "website": "https://www.aurorahouse.is",
-   "email": "book@aurorahouse.is"
-  },
-  {
    "id": "r8086331",
    "name": "Guesthouse Stöng",
    "lat": 65.56108,
@@ -9824,6 +12119,10 @@
     [
      4.5,
      1
+    ],
+    [
+     4.5,
+     2
     ]
    ],
    "town": false
@@ -9851,343 +12150,6 @@
    "address": "Álfaás Vellir, Egilsstaðir"
   },
   {
-   "id": "n8946387590",
-   "name": "Legacy Apartments",
-   "lat": 64.13899,
-   "lng": -21.93531,
-   "kind": "stay",
-   "cat": "apartment",
-   "days": [
-    [
-     4.5,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n863811239",
-   "name": "Sunna",
-   "lat": 64.14226,
-   "lng": -21.92966,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545115570",
-   "website": "https://sunna.is/",
-   "address": "Þórsgata 26, Reykjavík",
-   "email": "sunna@sunna.is"
-  },
-  {
-   "id": "w121423821",
-   "name": "Villa",
-   "lat": 64.14343,
-   "lng": -21.92938,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.5,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Skólavörðustígur 30, Reykjavík"
-  },
-  {
-   "id": "n4421989517",
-   "name": "Grettir",
-   "lat": 64.14518,
-   "lng": -21.92812,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n1234101646",
-   "name": "Hotel Óðinsvé",
-   "lat": 64.14401,
-   "lng": -21.93156,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n3030668960",
-   "name": "Hótel Frón",
-   "lat": 64.14554,
-   "lng": -21.92869,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545114666",
-   "website": "https://www.hotelfron.is/",
-   "address": "Laugavegur 22a, Reykjavík",
-   "wikidata": "Q111409550",
-   "stars": "3"
-  },
-  {
-   "id": "n8946386020",
-   "name": "Númer 29",
-   "lat": 64.13954,
-   "lng": -21.93669,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n6810102748",
-   "name": "Rey",
-   "lat": 64.14504,
-   "lng": -21.92957,
-   "kind": "stay",
-   "cat": "apartment",
-   "days": [
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547714600",
-   "website": "https://rey.is/",
-   "address": "Grettisgata 2a",
-   "email": "info@rey.is",
-   "wheelchair": "limited"
-  },
-  {
-   "id": "n4340176590",
-   "name": "The swan House",
-   "lat": 64.14649,
-   "lng": -21.92588,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n8946382369",
-   "name": "Travel Inn",
-   "lat": 64.13938,
-   "lng": -21.93636,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true,
-   "wikidata": "Q111873659"
-  },
-  {
-   "id": "n1241939542",
-   "name": "Baldursbrá",
-   "lat": 64.14186,
-   "lng": -21.93691,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Laufasvegur 41"
-  },
-  {
-   "id": "w460007564",
-   "name": "Canopy by Hilton Reykjavik City Centre",
-   "lat": 64.14635,
-   "lng": -21.93037,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.hilton.com/en/hotels/rekcapy-canopy-reykjavik-city-centre/",
-   "address": "Smiðjustígur 4, Reykjavík",
-   "email": "rekca_res@hilton.com",
-   "wheelchair": "yes",
-   "wikidata": "Q56598554",
-   "stars": "4"
-  },
-  {
-   "id": "n817319543",
-   "name": "Center Hotel Skjaldbreið",
-   "lat": 64.14595,
-   "lng": -21.93071,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true,
-   "stars": "4"
-  },
-  {
-   "id": "n845205854",
-   "name": "CenterHotel Klöpp",
-   "lat": 64.14631,
-   "lng": -21.92905,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545958520",
-   "address": "Klapparstígur 26, Reykjavík",
-   "email": "klopp@centerhotels.is",
-   "wikidata": "Q111409549"
-  },
-  {
-   "id": "n3994091161",
-   "name": "Galtafell",
-   "lat": 64.14133,
-   "lng": -21.93702,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n1234831709",
-   "name": "Guesthouse Odinn",
-   "lat": 64.14393,
-   "lng": -21.93248,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n3726531026",
-   "name": "Hotel Holt",
-   "lat": 64.14278,
-   "lng": -21.93504,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545525700",
-   "website": "https://holt.is/",
-   "email": "holt@holt.is"
-  },
-  {
-   "id": "n2421677844",
-   "name": "Reykjavik4You Apartments",
-   "lat": 64.14485,
-   "lng": -21.93331,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n1261443641",
-   "name": "Room with a View",
-   "lat": 64.14577,
-   "lng": -21.93001,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Laugavegur 18",
-   "wikidata": "Q111409551"
-  },
-  {
-   "id": "n4329394696",
-   "name": "Thor Guesthouse",
-   "lat": 64.14491,
-   "lng": -21.93133,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3548475150",
-   "website": "http://www.tgh.is",
-   "address": "Skólavörðustígur 16",
-   "email": "localapartments@localapartments.is"
-  },
-  {
    "id": "n7772281922",
    "name": "Brekkurgerdi Guesthouse",
    "lat": 64.11194,
@@ -10203,83 +12165,45 @@
    "town": false
   },
   {
-   "id": "w124546017",
-   "name": "Hotel Luna Apartments",
-   "lat": 64.14487,
-   "lng": -21.93479,
+   "id": "w476669476",
+   "name": "Lýtingsstaðir",
+   "lat": 65.403,
+   "lng": -19.247,
    "kind": "stay",
-   "cat": "hotel",
+   "cat": "hostel",
    "days": [
     [
      4.8,
+     1
+    ]
+   ],
+   "town": false,
+   "website": "https://www.lythorse.com/",
+   "address": "Lýtingsstaðir"
+  },
+  {
+   "id": "n13575224328",
+   "name": "Norðurbær",
+   "lat": 64.11151,
+   "lng": -22.01993,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     4.8,
+     7
+    ],
+    [
+     4.9,
+     6
+    ],
+    [
+     5.7,
      0
     ]
    ],
    "town": true,
-   "address": "Spítalastígur 1, Reykjavík"
-  },
-  {
-   "id": "n4185290490",
-   "name": "Apartment K",
-   "lat": 64.14663,
-   "lng": -21.93497,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.9,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n4332460947",
-   "name": "Castle House Luxury Apartments",
-   "lat": 64.14433,
-   "lng": -21.93854,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.9,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://4.is/",
-   "email": "4@4.is"
-  },
-  {
-   "id": "n1246003204",
-   "name": "Center Hotel Þingholt",
-   "lat": 64.14644,
-   "lng": -21.93443,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.9,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n365712610",
-   "name": "Centerhotel Arnarhvoll",
-   "lat": 64.14919,
-   "lng": -21.93073,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     4.9,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Ingólfsstræti 1, Reykjavík"
+   "address": "Sjávargata 28"
   },
   {
    "id": "r10697895",
@@ -10297,56 +12221,6 @@
    "town": false
   },
   {
-   "id": "n2406270601",
-   "name": "Loft Hostel",
-   "lat": 64.1468,
-   "lng": -21.93386,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     4.9,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.hostel.is/",
-   "address": "Bankastræti 7, Reykjavík",
-   "wheelchair": "yes"
-  },
-  {
-   "id": "w476669476",
-   "name": "Lýtingsstaðir",
-   "lat": 65.403,
-   "lng": -19.247,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     4.9,
-     1
-    ]
-   ],
-   "town": false,
-   "website": "https://www.lythorse.com/",
-   "address": "Lýtingsstaðir"
-  },
-  {
-   "id": "n3005750474",
-   "name": "Centric Guesthouse",
-   "lat": 64.14659,
-   "lng": -21.93795,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
    "id": "w210660776",
    "name": "Dalshöfdi",
    "lat": 63.91137,
@@ -10360,24 +12234,6 @@
     ]
    ],
    "town": false
-  },
-  {
-   "id": "n11329594862",
-   "name": "Hotel Reykjavík Saga",
-   "lat": 64.14592,
-   "lng": -21.9389,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545145000",
-   "website": "https://www.islandshotel.is/hotels-in-iceland/hotel-reykjavik-saga/",
-   "email": "saga@hotelreykjavik.is"
   },
   {
    "id": "w793128090",
@@ -10412,25 +12268,6 @@
    "address": "Sólheimar"
   },
   {
-   "id": "n3029306354",
-   "name": "Apótek Hótel",
-   "lat": 64.14728,
-   "lng": -21.93853,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3544602050",
-   "website": "https://www.keahotels.is/apotek-hotel",
-   "address": "Austurstræti 16, Reykjavík",
-   "stars": "4"
-  },
-  {
    "id": "w289552834",
    "name": "Brekkukot",
    "lat": 64.06628,
@@ -10445,44 +12282,6 @@
    ],
    "town": false,
    "address": "Sólheimar"
-  },
-  {
-   "id": "n3654050832",
-   "name": "Hotel Garður",
-   "lat": 64.14126,
-   "lng": -21.94651,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "http://www.hotelgardur.is",
-   "address": "Reykjavík",
-   "wheelchair": "yes"
-  },
-  {
-   "id": "w103060551",
-   "name": "Hótel Borg",
-   "lat": 64.14698,
-   "lng": -21.93839,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545511440",
-   "website": "https://www.keahotels.is/en/hotels/hotel-borg/",
-   "address": "Pósthússtræti 11, Reykjavík",
-   "wikidata": "Q3480837",
-   "stars": "4"
   },
   {
    "id": "w444705779",
@@ -10503,137 +12302,6 @@
    "wikidata": "Q111409580"
   },
   {
-   "id": "n13714154182",
-   "name": "Kvosin Downtown Hotel",
-   "lat": 64.14637,
-   "lng": -21.93944,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://kvosinhotel.is/",
-   "address": "Kirkjutorg 4, Reykjavík",
-   "wikidata": "Q111409563",
-   "stars": "4"
-  },
-  {
-   "id": "w519690064",
-   "name": "Reykjavík Konsúlat Hótel, Curio Collection By Hilton",
-   "lat": 64.14807,
-   "lng": -21.93691,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545146800",
-   "website": "https://www.hilton.com/en/hotels/rekcuqq-reykjavik-konsulat-hotel/",
-   "address": "Hafnarstræti 17-19, Reykjavík",
-   "email": "rekcu_res@hilton.com",
-   "wheelchair": "yes",
-   "wikidata": "Q111873652",
-   "stars": "4"
-  },
-  {
-   "id": "n9789265005",
-   "name": "The Reykjavik EDITION",
-   "lat": 64.14979,
-   "lng": -21.93533,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545820000",
-   "website": "https://www.editionhotels.com/reykjavik/",
-   "address": "Austurbakki 2, Reykjavík",
-   "email": "info.rek@editionhotels.com",
-   "wheelchair": "yes"
-  },
-  {
-   "id": "n3007770875",
-   "name": "AR Central Apartments",
-   "lat": 64.14807,
-   "lng": -21.94071,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n1376096677",
-   "name": "CityCenter Hotel",
-   "lat": 64.14784,
-   "lng": -21.94048,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Reykjavík",
-   "wikidata": "Q111409560"
-  },
-  {
-   "id": "n10755855089",
-   "name": "Iceland Parliament Hotel, Curio Collection by Hilton",
-   "lat": 64.14726,
-   "lng": -21.94089,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545133000",
-   "website": "https://www.hilton.com/en/hotels/rekpsqq-iceland-parliament-hotel/",
-   "address": "Thorvaldsensstræti 2-6, Reykjavík"
-  },
-  {
-   "id": "n754499261",
-   "name": "Radisson Blu 1919 Hotel, Reykjavík",
-   "lat": 64.14821,
-   "lng": -21.93859,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545991000",
-   "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-reykjavik-1919",
-   "address": "Pósthússtræti 2, Reykjavík",
-   "wikidata": "Q111409555",
-   "stars": "4"
-  },
-  {
    "id": "n5536196601",
    "name": "Beindalsholt",
    "lat": 63.91075,
@@ -10647,41 +12315,6 @@
     ]
    ],
    "town": false
-  },
-  {
-   "id": "n4307024700",
-   "name": "Brattagata Guesthouse",
-   "lat": 64.14792,
-   "lng": -21.94291,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n1470755460",
-   "name": "CenterHotel Plaza",
-   "lat": 64.14829,
-   "lng": -21.94175,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545958550",
-   "address": "Aðalstræti 4, Reykjavík",
-   "email": "plaza@centerhotels.com",
-   "wheelchair": "yes",
-   "wikidata": "Q111409562"
   },
   {
    "id": "w198670116",
@@ -10702,62 +12335,6 @@
    "address": "Garðavegur 26, Hvammstangi"
   },
   {
-   "id": "w102619665",
-   "name": "Hotel Reykjavík Centrum",
-   "lat": 64.14749,
-   "lng": -21.94285,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545146000",
-   "website": "https://www.islandshotel.is/hotels-in-iceland/hotel-reykjavik-centrum",
-   "address": "Aðalstræti 16",
-   "email": "info@hotelcentrum.is",
-   "wikidata": "Q111409564",
-   "stars": "4"
-  },
-  {
-   "id": "w102665364",
-   "name": "Reykjavík Treasure B&B",
-   "lat": 64.14857,
-   "lng": -21.94285,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.fischersund.com/",
-   "address": "Fischersund 3, Reykjavík",
-   "hours": "Mo-Sa 12:00-18:00"
-  },
-  {
-   "id": "n3676719625",
-   "name": "Black Pearl",
-   "lat": 64.14941,
-   "lng": -21.94222,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.4,
-     0
-    ]
-   ],
-   "town": true,
-   "wheelchair": "yes",
-   "stars": "5"
-  },
-  {
    "id": "n8826137149",
    "name": "Hlið Fisherman's Village",
    "lat": 64.09582,
@@ -10768,145 +12345,18 @@
     [
      5.4,
      0
+    ],
+    [
+     6.8,
+     6
+    ],
+    [
+     6.8,
+     7
     ]
    ],
    "town": true,
    "wikidata": "Q111873668"
-  },
-  {
-   "id": "n9997028749",
-   "name": "Alfholl Guesthouse",
-   "lat": 64.14948,
-   "lng": -21.94503,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n9997028747",
-   "name": "Butterfly Guesthouse",
-   "lat": 64.1495,
-   "lng": -21.94518,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3548941864",
-   "website": "https://butterfly.is/",
-   "email": "butterfly@butterfly.is"
-  },
-  {
-   "id": "w102902651",
-   "name": "Exeter Hotel",
-   "lat": 64.15012,
-   "lng": -21.9435,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.keahotels.is/en/hotels/exeter-hotel/location_exeter",
-   "address": "Tryggvagata 12, Reykjavík",
-   "wikidata": "Q111873655"
-  },
-  {
-   "id": "n4112394905",
-   "name": "Hotel Hilda",
-   "lat": 64.14894,
-   "lng": -21.94604,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545523020",
-   "website": "https://hotelhilda.is/",
-   "address": "Bárugata 11, Reykjavík"
-  },
-  {
-   "id": "n9997028748",
-   "name": "LOCAL 101",
-   "lat": 64.14938,
-   "lng": -21.94449,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.local101.is",
-   "email": "local101@local101.is"
-  },
-  {
-   "id": "n2431097856",
-   "name": "Lighthouse Apartments",
-   "lat": 64.14944,
-   "lng": -21.9457,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Ránargata 9, Reykjavík"
-  },
-  {
-   "id": "n410522760",
-   "name": "Reykjavík Downtown",
-   "lat": 64.14975,
-   "lng": -21.94425,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Vesturgata 17",
-   "wheelchair": "yes"
-  },
-  {
-   "id": "n4214149092",
-   "name": "Gistiheimili Norðurstjarnan",
-   "lat": 64.14506,
-   "lng": -21.95311,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     5.6,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Hringbraut 53, Reykjavík"
   },
   {
    "id": "n1250190803",
@@ -10922,58 +12372,6 @@
     ]
    ],
    "town": false
-  },
-  {
-   "id": "n3705817246",
-   "name": "Þrjár systur",
-   "lat": 64.14973,
-   "lng": -21.94624,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     5.6,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n13575224328",
-   "name": "Norðurbær",
-   "lat": 64.11151,
-   "lng": -22.01993,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     5.7,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Sjávargata 28"
-  },
-  {
-   "id": "w468789898",
-   "name": "Sturluhóll Gistiheimili",
-   "lat": 65.71267,
-   "lng": -20.18467,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     5.7,
-     1
-    ],
-    [
-     7.8,
-     0
-    ]
-   ],
-   "town": false,
-   "phone": "+3546990456",
-   "address": "Sturluhóll, Blönduós (dreifbýli)"
   },
   {
    "id": "w484904679",
@@ -11028,22 +12426,6 @@
    ],
    "town": false,
    "address": "Norðurbraut 1",
-   "wheelchair": "yes"
-  },
-  {
-   "id": "n8866751348",
-   "name": "Grandi by Center Hotels",
-   "lat": 64.15185,
-   "lng": -21.95183,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true,
    "wheelchair": "yes"
   },
   {
@@ -11150,6 +12532,10 @@
     [
      6.4,
      1
+    ],
+    [
+     6.4,
+     2
     ]
    ],
    "town": false,
@@ -11240,6 +12626,10 @@
     [
      6.8,
      1
+    ],
+    [
+     7.9,
+     2
     ]
    ],
    "town": false,
@@ -11368,6 +12758,10 @@
     [
      7.1,
      1
+    ],
+    [
+     7.1,
+     2
     ]
    ],
    "town": false,
@@ -11496,6 +12890,10 @@
     [
      7.3,
      1
+    ],
+    [
+     7.3,
+     2
     ]
    ],
    "town": false
@@ -11679,6 +13077,10 @@
     [
      7.7,
      1
+    ],
+    [
+     8.1,
+     2
     ]
    ],
    "town": false,
@@ -11719,26 +13121,6 @@
    "address": "Vesturbrún 1",
    "wheelchair": "yes",
    "wikidata": "Q111873707"
-  },
-  {
-   "id": "n13595508964",
-   "name": "Blue House B&B",
-   "lat": 64.15402,
-   "lng": -21.9986,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     7.9,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547756480",
-   "website": "https://www.bluehouse.is/",
-   "address": "Valhúsabraut 19, Seltjarnarnes",
-   "wheelchair": "limited",
-   "wikidata": "Q111121746"
   },
   {
    "id": "n2931428970",
@@ -11854,6 +13236,40 @@
    "town": false,
    "address": "Suðurgata 32, Akranes",
    "wikidata": "Q111112912"
+  },
+  {
+   "id": "n4972608303",
+   "name": "Borealis Hotel",
+   "lat": 64.10128,
+   "lng": -20.99644,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     8.3,
+     7
+    ]
+   ],
+   "town": false,
+   "phone": "+3545613661",
+   "website": "http://www.hotelborealis.is/",
+   "email": "booking@hotelborealis.is",
+   "wikidata": "Q112013058"
+  },
+  {
+   "id": "n2964287968",
+   "name": "Ljósafossskoli Hostel",
+   "lat": 64.09862,
+   "lng": -21.00611,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     8.4,
+     7
+    ]
+   ],
+   "town": false
   },
   {
    "id": "n9693481338",
@@ -12127,6 +13543,55 @@
    "website": "https://www.svartiskogur.is/"
   },
   {
+   "id": "n1906829759",
+   "name": "Útilífsmiðstöð skáta Úlfljótsvatni",
+   "lat": 64.09532,
+   "lng": -21.04362,
+   "kind": "stay",
+   "cat": "campsite",
+   "days": [
+    [
+     9.4,
+     7
+    ]
+   ],
+   "town": false,
+   "website": "https://ulfljotsvatn.is/"
+  },
+  {
+   "id": "r7138704",
+   "name": "Útilífsmiðstöð skáta Úlfljótsvatni",
+   "lat": 64.09616,
+   "lng": -21.04508,
+   "kind": "stay",
+   "cat": "campsite",
+   "days": [
+    [
+     9.5,
+     7
+    ]
+   ],
+   "town": false,
+   "phone": "+3544822674",
+   "website": "https://ulfljotsvatn.is/",
+   "email": "ulfljotsvatn@skatar.is"
+  },
+  {
+   "id": "w180244079",
+   "name": "DSÚ",
+   "lat": 64.09608,
+   "lng": -21.04813,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     9.6,
+     7
+    ]
+   ],
+   "town": false
+  },
+  {
    "id": "n2946790652",
    "name": "Hótel Lækur",
    "lat": 63.85536,
@@ -12143,6 +13608,37 @@
    "address": "Hróarslæk, Hella"
   },
   {
+   "id": "w180244078",
+   "name": "JB",
+   "lat": 64.09602,
+   "lng": -21.04783,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     9.6,
+     7
+    ]
+   ],
+   "town": false
+  },
+  {
+   "id": "w229204273",
+   "name": "KSÚ",
+   "lat": 64.09281,
+   "lng": -21.05298,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     9.6,
+     7
+    ]
+   ],
+   "town": false,
+   "address": "Úlfljótsvatn"
+  },
+  {
    "id": "n418774350",
    "name": "Staðarhóll",
    "lat": 65.82008,
@@ -12153,6 +13649,10 @@
     [
      9.6,
      1
+    ],
+    [
+     9.6,
+     2
     ]
    ],
    "town": false

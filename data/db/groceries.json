@@ -13,6 +13,10 @@
     [
      0.0,
      1
+    ],
+    [
+     2.4,
+     2
     ]
    ],
    "town": true,
@@ -41,28 +45,6 @@
    "town": true,
    "phone": "+3545279000",
    "address": "Fitjar, Reykjanesbær",
-   "hours": "Mo-Su 10:00-21:00",
-   "brand": "Bónus"
-  },
-  {
-   "id": "n1801741683",
-   "name": "Bónus",
-   "lat": 63.93813,
-   "lng": -20.97374,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     0.0,
-     6
-    ],
-    [
-     1.2,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Larsenstræti 5, Selfoss",
    "hours": "Mo-Su 10:00-21:00",
    "brand": "Bónus"
   },
@@ -116,11 +98,11 @@
    "days": [
     [
      0.0,
-     7
+     6
     ],
     [
-     0.1,
-     6
+     1.9,
+     7
     ]
    ],
    "town": true,
@@ -265,6 +247,14 @@
     [
      0.1,
      0
+    ],
+    [
+     9.6,
+     6
+    ],
+    [
+     9.6,
+     7
     ]
    ],
    "town": true,
@@ -331,6 +321,14 @@
     [
      0.1,
      0
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     6.1,
+     6
     ]
    ],
    "town": true,
@@ -350,6 +348,10 @@
     [
      0.1,
      1
+    ],
+    [
+     3.8,
+     2
     ]
    ],
    "town": true,
@@ -369,6 +371,14 @@
     [
      0.1,
      0
+    ],
+    [
+     6.4,
+     6
+    ],
+    [
+     6.4,
+     7
     ]
    ],
    "town": true,
@@ -387,6 +397,10 @@
    "days": [
     [
      0.1,
+     6
+    ],
+    [
+     0.1,
      7
     ]
    ],
@@ -394,6 +408,58 @@
    "address": "Sunnumörk 2, Hveragerði",
    "hours": "Mo-Su 10:00-20:00",
    "brand": "Bónus"
+  },
+  {
+   "id": "n1801741683",
+   "name": "Bónus",
+   "lat": 63.93813,
+   "lng": -20.97374,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     2.7,
+     7
+    ]
+   ],
+   "town": true,
+   "address": "Larsenstræti 5, Selfoss",
+   "hours": "Mo-Su 10:00-21:00",
+   "brand": "Bónus"
+  },
+  {
+   "id": "n301005703",
+   "name": "Hagkaup",
+   "lat": 64.12961,
+   "lng": -21.8692,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     1.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545635100",
+   "website": "https://www.hagkaup.is/",
+   "address": "Skeifan 15, Reykjavík",
+   "hours": "24/7",
+   "email": "skeifan@hagkaup.is",
+   "wheelchair": "yes",
+   "brand": "Hagkaup"
   },
   {
    "id": "n1285282368",
@@ -406,6 +472,14 @@
     [
      0.1,
      0
+    ],
+    [
+     3.1,
+     6
+    ],
+    [
+     3.1,
+     7
     ]
    ],
    "town": true,
@@ -414,6 +488,36 @@
    "address": "Hagasmári 1, Kópavogur",
    "hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00; Su 12:00-17:00",
    "email": "smaralind@hagkaup.is",
+   "wheelchair": "yes",
+   "brand": "Hagkaup"
+  },
+  {
+   "id": "n1457633635",
+   "name": "Hagkaup",
+   "lat": 64.13112,
+   "lng": -21.89367,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     2.4,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545635200",
+   "website": "https://www.hagkaup.is/",
+   "address": "Kringlan, Reykjavík",
+   "hours": "Mo-Fr 10:00-18:30; Sa 10:00-18:00; Su 12:00-17:00",
+   "email": "kringlan@hagkaup.is",
    "wheelchair": "yes",
    "brand": "Hagkaup"
   },
@@ -428,6 +532,14 @@
     [
      0.1,
      0
+    ],
+    [
+     2.8,
+     6
+    ],
+    [
+     2.8,
+     7
     ]
    ],
    "town": true,
@@ -450,6 +562,14 @@
     [
      0.1,
      0
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     6.2,
+     6
     ]
    ],
    "town": true,
@@ -471,6 +591,14 @@
     [
      0.1,
      0
+    ],
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
     ]
    ],
    "town": true,
@@ -479,6 +607,35 @@
    "address": "Bíldshöfði 20, Reykjavík",
    "hours": "Mo-Su 09:00-21:00",
    "email": "bildshofdi@kronan.is",
+   "brand": "Krónan"
+  },
+  {
+   "id": "n6981239902",
+   "name": "Krónan",
+   "lat": 64.1302,
+   "lng": -21.87249,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     1.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545857000",
+   "website": "https://kronan.is/",
+   "address": "Skeifan 19, Reykjavík",
+   "hours": "Mo-Su 09:00-21:00",
+   "email": "skeifan@kronan.is",
    "brand": "Krónan"
   },
   {
@@ -492,6 +649,10 @@
     [
      0.1,
      1
+    ],
+    [
+     1.9,
+     2
     ]
    ],
    "town": true,
@@ -553,7 +714,7 @@
      6
     ],
     [
-     0.4,
+     2.3,
      7
     ]
    ],
@@ -597,6 +758,14 @@
     [
      0.2,
      0
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     6.2,
+     6
     ]
    ],
    "town": true,
@@ -615,6 +784,14 @@
     [
      0.2,
      0
+    ],
+    [
+     1.7,
+     7
+    ],
+    [
+     1.8,
+     6
     ]
    ],
    "town": true,
@@ -633,6 +810,14 @@
     [
      0.2,
      0
+    ],
+    [
+     9.9,
+     6
+    ],
+    [
+     9.9,
+     7
     ]
    ],
    "town": true,
@@ -651,6 +836,14 @@
     [
      0.2,
      0
+    ],
+    [
+     2.9,
+     6
+    ],
+    [
+     2.9,
+     7
     ]
    ],
    "town": true,
@@ -658,6 +851,35 @@
    "address": "Smáratorg 3, Kópavogur",
    "hours": "Mo-Su 10:00-19:00",
    "brand": "Heimkaup ehf."
+  },
+  {
+   "id": "n1457633610",
+   "name": "Bónus",
+   "lat": 64.12969,
+   "lng": -21.89596,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     2.4,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.bonus.is/",
+   "address": "Kringlan 4, Reykjavík",
+   "hours": "Mo-Su 10:00-19:00",
+   "email": "kringlan@bonus.is",
+   "wheelchair": "yes",
+   "brand": "Bónus"
   },
   {
    "id": "n1283535743",
@@ -670,6 +892,14 @@
     [
      0.3,
      0
+    ],
+    [
+     2.8,
+     6
+    ],
+    [
+     2.8,
+     7
     ]
    ],
    "town": true,
@@ -678,6 +908,63 @@
    "hours": "Mo-Su 09:00-21:00",
    "wheelchair": "yes",
    "brand": "Bónus"
+  },
+  {
+   "id": "n9286812371",
+   "name": "Bónus",
+   "lat": 64.13129,
+   "lng": -21.8693,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     1.4,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://bonus.is/",
+   "address": "Skeifan 11a, Reykjavík",
+   "hours": "Mo-Su 10:00-21:00",
+   "brand": "Bónus"
+  },
+  {
+   "id": "n306597504",
+   "name": "Krónan",
+   "lat": 64.12851,
+   "lng": -21.88734,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     2.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545857000",
+   "website": "https://kronan.is/",
+   "address": "Háaleitisbraut 68, Reykjavík",
+   "hours": "Mo-Su 09:00-21:00",
+   "email": "austurver@kronan.is",
+   "wheelchair": "yes",
+   "brand": "Krónan"
   },
   {
    "id": "n6981239819",
@@ -690,6 +977,14 @@
     [
      0.3,
      0
+    ],
+    [
+     6.6,
+     6
+    ],
+    [
+     6.6,
+     7
     ]
    ],
    "town": true,
@@ -712,6 +1007,14 @@
     [
      0.3,
      0
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     1.3,
+     6
     ]
    ],
    "town": true,
@@ -733,6 +1036,14 @@
     [
      0.3,
      0
+    ],
+    [
+     3.0,
+     6
+    ],
+    [
+     3.0,
+     7
     ]
    ],
    "town": true,
@@ -750,6 +1061,14 @@
     [
      0.3,
      0
+    ],
+    [
+     1.6,
+     6
+    ],
+    [
+     1.6,
+     7
     ]
    ],
    "town": true,
@@ -794,6 +1113,10 @@
     [
      0.3,
      1
+    ],
+    [
+     1.7,
+     2
     ]
    ],
    "town": true,
@@ -813,6 +1136,14 @@
     [
      0.4,
      0
+    ],
+    [
+     6.5,
+     6
+    ],
+    [
+     6.5,
+     7
     ]
    ],
    "town": true,
@@ -833,6 +1164,14 @@
     [
      0.4,
      0
+    ],
+    [
+     6.5,
+     6
+    ],
+    [
+     6.5,
+     7
     ]
    ],
    "town": true,
@@ -840,6 +1179,32 @@
    "address": "Helluhraun 18, Hafnarfjörður",
    "hours": "Mo-Su 10:00-21:00",
    "email": "haf@bonus.is",
+   "brand": "Bónus"
+  },
+  {
+   "id": "n10978037447",
+   "name": "Bónus",
+   "lat": 64.10125,
+   "lng": -21.77696,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     2.6,
+     7
+    ],
+    [
+     2.7,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Norðlingabraut 2, Reykjavík",
+   "hours": "Mo-Su 10:00-20:00",
    "brand": "Bónus"
   },
   {
@@ -853,6 +1218,10 @@
     [
      0.5,
      1
+    ],
+    [
+     1.7,
+     2
     ]
    ],
    "town": true,
@@ -862,6 +1231,64 @@
    "email": "akureyri@hagkaup.is",
    "wheelchair": "yes",
    "brand": "Hagkaup"
+  },
+  {
+   "id": "n1299573397",
+   "name": "Krónan",
+   "lat": 64.11551,
+   "lng": -21.79008,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     1.0,
+     0
+    ],
+    [
+     1.0,
+     7
+    ]
+   ],
+   "town": true,
+   "phone": "+3545857000",
+   "website": "https://kronan.is/",
+   "address": "Rofabær 39, Reykjavík",
+   "hours": "Mo-Su 09:00-21:00",
+   "email": "arbaer@kronan.is",
+   "brand": "Krónan"
+  },
+  {
+   "id": "n301013791",
+   "name": "Nettó",
+   "lat": 64.13346,
+   "lng": -21.86786,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     1.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545682966",
+   "website": "https://netto.is",
+   "address": "Álfheimar 74, Reykjavík",
+   "hours": "Mo-Su 08:00-24:00",
+   "wheelchair": "yes",
+   "brand": "Nettó"
   },
   {
    "id": "n2356459308",
@@ -874,6 +1301,14 @@
     [
      0.5,
      0
+    ],
+    [
+     1.7,
+     7
+    ],
+    [
+     1.8,
+     6
     ]
    ],
    "town": true,
@@ -892,6 +1327,14 @@
     [
      0.6,
      0
+    ],
+    [
+     8.4,
+     6
+    ],
+    [
+     8.4,
+     7
     ]
    ],
    "town": true,
@@ -925,6 +1368,35 @@
    "brand": "Olís"
   },
   {
+   "id": "n3698950691",
+   "name": "Bónus",
+   "lat": 64.14149,
+   "lng": -21.90739,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     3.5,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.bonus.is/",
+   "address": "Skipholt 11-13, Reykjavík",
+   "hours": "Mo-Su 10:00-21:00",
+   "email": "skipholt@bonus.is",
+   "wheelchair": "yes",
+   "brand": "Bónus"
+  },
+  {
    "id": "n4233511788",
    "name": "Bónus",
    "lat": 64.11798,
@@ -935,6 +1407,14 @@
     [
      0.7,
      0
+    ],
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
     ]
    ],
    "town": true,
@@ -961,6 +1441,35 @@
    "brand": "Kaupfjelagið"
   },
   {
+   "id": "n7993167472",
+   "name": "Krónan",
+   "lat": 64.14563,
+   "lng": -21.93409,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     4.8,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545857000",
+   "address": "Hallveigarstígur 1, Reykjavík",
+   "hours": "Mo-Su 09:00-21:00",
+   "email": "hallveigarstigur@kronan.is",
+   "wheelchair": "yes",
+   "brand": "Krónan"
+  },
+  {
    "id": "n8011272290",
    "name": "Krónan",
    "lat": 64.04632,
@@ -979,6 +1488,32 @@
    "hours": "Mo-Su 09:00-21:00",
    "email": "Nordurhella@kronan.is",
    "brand": "Krónan"
+  },
+  {
+   "id": "n6527943321",
+   "name": "Nettó",
+   "lat": 64.13858,
+   "lng": -21.89103,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     2.7,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Lágmúli 7, Reykjavík",
+   "hours": "Mo-Su 10:00-21:00",
+   "brand": "Nettó"
   },
   {
    "id": "n2487357960",
@@ -1026,6 +1561,34 @@
    "brand": "Krónan"
   },
   {
+   "id": "n2247125380",
+   "name": "Mai Thai",
+   "lat": 64.14292,
+   "lng": -21.91467,
+   "kind": "grocery",
+   "cat": "minimarket",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.maithai.is",
+   "address": "Laugavegur",
+   "hours": "Mo-Fr 11:00-21:00; Sa 14:00-21:00",
+   "wheelchair": "yes",
+   "brand": "Mai Thai"
+  },
+  {
    "id": "n8879657941",
    "name": "Mini Market",
    "lat": 63.99814,
@@ -1062,7 +1625,7 @@
      6
     ],
     [
-     0.8,
+     2.2,
      7
     ]
    ],
@@ -1070,6 +1633,59 @@
    "address": "Eyravegur 42, Selfoss",
    "hours": "Mo-Su 08:00-19:00",
    "brand": "Nettó"
+  },
+  {
+   "id": "n9906743517",
+   "name": "Vietnam Market",
+   "lat": 64.14661,
+   "lng": -21.93316,
+   "kind": "grocery",
+   "cat": "minimarket",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.8,
+     0
+    ]
+   ],
+   "town": true,
+   "brand": "Vietnam Market"
+  },
+  {
+   "id": "n4506905893",
+   "name": "Bónus",
+   "lat": 64.14457,
+   "lng": -21.92282,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.3,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.bonus.is/",
+   "address": "Laugavegur 59, Reykjavík",
+   "hours": "Mo-Su 10:00-22:00",
+   "email": "kjo@bonus.is",
+   "wheelchair": "limited",
+   "brand": "Bónus"
   },
   {
    "id": "w172051601",
@@ -1082,6 +1698,14 @@
     [
      0.9,
      0
+    ],
+    [
+     6.0,
+     6
+    ],
+    [
+     6.0,
+     7
     ]
    ],
    "town": true,
@@ -1093,25 +1717,34 @@
    "brand": "Fjarðarkaup hf"
   },
   {
-   "id": "n1299573397",
-   "name": "Krónan",
-   "lat": 64.11551,
-   "lng": -21.79008,
+   "id": "n312947180",
+   "name": "Nettó",
+   "lat": 64.14249,
+   "lng": -21.90311,
    "kind": "grocery",
    "cat": "supermarket",
    "days": [
     [
-     1.0,
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     3.4,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545857000",
-   "website": "https://kronan.is/",
-   "address": "Rofabær 39, Reykjavík",
+   "phone": "+3545225406",
+   "website": "https://netto.is/",
+   "address": "Nóatún 17, Reykjavík",
    "hours": "Mo-Su 09:00-21:00",
-   "email": "arbaer@kronan.is",
-   "brand": "Krónan"
+   "email": "noatun@netto.is",
+   "wheelchair": "yes",
+   "brand": "Nettó"
   },
   {
    "id": "n5749897388",
@@ -1124,6 +1757,14 @@
     [
      1.0,
      0
+    ],
+    [
+     3.8,
+     6
+    ],
+    [
+     3.8,
+     7
     ]
    ],
    "town": true,
@@ -1145,12 +1786,48 @@
     [
      1.0,
      0
+    ],
+    [
+     6.5,
+     6
+    ],
+    [
+     6.5,
+     7
     ]
    ],
    "town": true,
    "address": "Miðvangur 41, Hafnarfjörður",
    "hours": "Mo-Su 09:00-21:00",
    "brand": "Nettó"
+  },
+  {
+   "id": "n9286935533",
+   "name": "Bónus",
+   "lat": 64.13511,
+   "lng": -21.84623,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     1.1,
+     6
+    ],
+    [
+     1.1,
+     7
+    ],
+    [
+     1.2,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.bonus.is/",
+   "address": "Skútuvogur 13, Reykjavík",
+   "hours": "Mo-Su 10:00-19:00",
+   "email": "skut@bonus.is",
+   "brand": "Bónus"
   },
   {
    "id": "n10913826007",
@@ -1163,6 +1840,14 @@
     [
      1.1,
      0
+    ],
+    [
+     2.1,
+     6
+    ],
+    [
+     2.1,
+     7
     ]
    ],
    "town": true,
@@ -1171,24 +1856,74 @@
    "brand": "Samkaup"
   },
   {
-   "id": "n9286935533",
+   "id": "n445050535",
    "name": "Bónus",
-   "lat": 64.13511,
-   "lng": -21.84623,
+   "lat": 65.66933,
+   "lng": -18.11052,
    "kind": "grocery",
    "cat": "supermarket",
    "days": [
     [
      1.2,
+     1
+    ],
+    [
+     1.2,
+     2
+    ]
+   ],
+   "town": true,
+   "address": "Kjarnagata 2, Akureyri",
+   "hours": "Mo-Su 10:00-20:00",
+   "brand": "Bónus"
+  },
+  {
+   "id": "n4035421238",
+   "name": "Fisk Kompaní",
+   "lat": 65.66941,
+   "lng": -18.11043,
+   "kind": "grocery",
+   "cat": "minimarket",
+   "days": [
+    [
+     1.2,
+     1
+    ],
+    [
+     1.2,
+     2
+    ]
+   ],
+   "town": true,
+   "phone": "+3545718080",
+   "address": "Kjarnagata 2, Akureyri",
+   "brand": "Fisk Kompaní"
+  },
+  {
+   "id": "n1241852013",
+   "name": "Melabúðin",
+   "lat": 64.14471,
+   "lng": -21.96036,
+   "kind": "grocery",
+   "cat": "minimarket",
+   "days": [
+    [
+     1.2,
+     6
+    ],
+    [
+     1.2,
+     7
+    ],
+    [
+     5.9,
      0
     ]
    ],
    "town": true,
-   "website": "https://www.bonus.is/",
-   "address": "Skútuvogur 13, Reykjavík",
-   "hours": "Mo-Su 10:00-19:00",
-   "email": "skut@bonus.is",
-   "brand": "Bónus"
+   "address": "Hagamelur 39",
+   "hours": "Mo-Fr 09:00-20:00; Sa 10:00-20:00; Su 12:00-20:00",
+   "brand": "Melabúðin"
   },
   {
    "id": "n4178526374",
@@ -1223,6 +1958,14 @@
     [
      1.2,
      0
+    ],
+    [
+     2.6,
+     6
+    ],
+    [
+     2.8,
+     7
     ]
    ],
    "town": true,
@@ -1241,6 +1984,14 @@
     [
      1.2,
      0
+    ],
+    [
+     3.5,
+     6
+    ],
+    [
+     3.5,
+     7
     ]
    ],
    "town": true,
@@ -1259,6 +2010,14 @@
     [
      1.3,
      0
+    ],
+    [
+     1.7,
+     6
+    ],
+    [
+     1.7,
+     7
     ]
    ],
    "town": true,
@@ -1279,6 +2038,14 @@
     [
      1.3,
      0
+    ],
+    [
+     4.9,
+     7
+    ],
+    [
+     5.0,
+     6
     ]
    ],
    "town": true,
@@ -1288,62 +2055,31 @@
    "brand": "Bónus"
   },
   {
-   "id": "n445050535",
-   "name": "Bónus",
-   "lat": 65.66933,
-   "lng": -18.11052,
+   "id": "n9755777555",
+   "name": "Krónan",
+   "lat": 64.14569,
+   "lng": -21.89816,
    "kind": "grocery",
    "cat": "supermarket",
    "days": [
     [
      1.3,
-     1
-    ]
-   ],
-   "town": true,
-   "address": "Kjarnagata 2, Akureyri",
-   "hours": "Mo-Su 10:00-20:00",
-   "brand": "Bónus"
-  },
-  {
-   "id": "n4035421238",
-   "name": "Fisk Kompaní",
-   "lat": 65.66941,
-   "lng": -18.11043,
-   "kind": "grocery",
-   "cat": "minimarket",
-   "days": [
+     6
+    ],
     [
      1.3,
-     1
-    ]
-   ],
-   "town": true,
-   "phone": "+3545718080",
-   "address": "Kjarnagata 2, Akureyri",
-   "brand": "Fisk Kompaní"
-  },
-  {
-   "id": "n301005703",
-   "name": "Hagkaup",
-   "lat": 64.12961,
-   "lng": -21.8692,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
+     7
+    ],
     [
-     1.3,
+     3.5,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545635100",
-   "website": "https://www.hagkaup.is/",
-   "address": "Skeifan 15, Reykjavík",
-   "hours": "24/7",
-   "email": "skeifan@hagkaup.is",
-   "wheelchair": "yes",
-   "brand": "Hagkaup"
+   "website": "https://kronan.is/",
+   "address": "Borgartún, Reykjavík",
+   "hours": "Mo-Su 08:00-21:00",
+   "brand": "Krónan"
   },
   {
    "id": "n1344370145",
@@ -1356,6 +2092,14 @@
     [
      1.3,
      0
+    ],
+    [
+     2.3,
+     6
+    ],
+    [
+     2.6,
+     7
     ]
    ],
    "town": true,
@@ -1365,25 +2109,6 @@
    "hours": "Sa 09:00-20:00; Su 10:00-20:00; Mo-Fr 10:00-21:00",
    "wheelchair": "yes",
    "brand": "Mini Market"
-  },
-  {
-   "id": "n9286812371",
-   "name": "Bónus",
-   "lat": 64.13129,
-   "lng": -21.8693,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     1.4,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://bonus.is/",
-   "address": "Skeifan 11a, Reykjavík",
-   "hours": "Mo-Su 10:00-21:00",
-   "brand": "Bónus"
   },
   {
    "id": "n626580415",
@@ -1417,6 +2142,14 @@
     [
      1.5,
      0
+    ],
+    [
+     2.5,
+     6
+    ],
+    [
+     3.0,
+     7
     ]
    ],
    "town": true,
@@ -1426,48 +2159,6 @@
    "hours": "Mo-Su 09:00-21:00",
    "email": "jafnasel@kronan.is",
    "brand": "Krónan"
-  },
-  {
-   "id": "n6981239902",
-   "name": "Krónan",
-   "lat": 64.1302,
-   "lng": -21.87249,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     1.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545857000",
-   "website": "https://kronan.is/",
-   "address": "Skeifan 19, Reykjavík",
-   "hours": "Mo-Su 09:00-21:00",
-   "email": "skeifan@kronan.is",
-   "brand": "Krónan"
-  },
-  {
-   "id": "n301013791",
-   "name": "Nettó",
-   "lat": 64.13346,
-   "lng": -21.86786,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     1.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545682966",
-   "website": "https://netto.is",
-   "address": "Álfheimar 74, Reykjavík",
-   "hours": "Mo-Su 08:00-24:00",
-   "wheelchair": "yes",
-   "brand": "Nettó"
   },
   {
    "id": "n320959961",
@@ -1480,12 +2171,45 @@
     [
      1.5,
      1
+    ],
+    [
+     1.6,
+     2
     ]
    ],
    "town": true,
    "address": "Hrísalundur 5, Akureyri",
    "hours": "Mo-Su 10:00-21:00",
    "brand": "Nettó"
+  },
+  {
+   "id": "n2378038495",
+   "name": "Bónus",
+   "lat": 64.09643,
+   "lng": -21.8029,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     1.6,
+     6
+    ],
+    [
+     2.4,
+     0
+    ],
+    [
+     3.1,
+     7
+    ]
+   ],
+   "town": true,
+   "website": "https://bonus.is/",
+   "address": "Ögurhvarf 3, Kópavogur",
+   "hours": "Mo-Su 10:00-21:00",
+   "email": "ogur@bonus.is",
+   "wheelchair": "yes",
+   "brand": "Bónus"
   },
   {
    "id": "n1253751283",
@@ -1498,6 +2222,14 @@
     [
      1.6,
      0
+    ],
+    [
+     4.9,
+     6
+    ],
+    [
+     4.9,
+     7
     ]
    ],
    "town": true,
@@ -1518,6 +2250,14 @@
     [
      1.7,
      0
+    ],
+    [
+     2.0,
+     6
+    ],
+    [
+     2.0,
+     7
     ]
    ],
    "town": true,
@@ -1528,41 +2268,29 @@
    "brand": "Bónus"
   },
   {
-   "id": "n1730242027",
-   "name": "Krónan",
-   "lat": 64.11224,
-   "lng": -21.90389,
+   "id": "n9286812370",
+   "name": "Bónus",
+   "lat": 64.15363,
+   "lng": -21.95147,
    "kind": "grocery",
    "cat": "supermarket",
    "days": [
     [
      1.7,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545857000",
-   "website": "https://kronan.is/",
-   "address": "Hamraborg 18, Kópavogur",
-   "hours": "Mo-Su 09:00-21:00",
-   "email": "hamraborg@kronan.is",
-   "brand": "Krónan"
-  },
-  {
-   "id": "n9286812379",
-   "name": "Bónus",
-   "lat": 64.15047,
-   "lng": -21.78941,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
+     6
+    ],
     [
-     1.8,
+     1.7,
+     7
+    ],
+    [
+     6.0,
      0
     ]
    ],
    "town": true,
-   "address": "Spöngin 9, Reykjavík",
+   "website": "https://www.bonus.is/",
+   "address": "Fiskislóð 2-8, Reykjavík",
    "hours": "Mo-Su 10:00-21:00",
    "wheelchair": "yes",
    "brand": "Bónus"
@@ -1576,8 +2304,16 @@
    "cat": "supermarket",
    "days": [
     [
+     1.7,
+     7
+    ],
+    [
      1.8,
      0
+    ],
+    [
+     2.8,
+     6
     ]
    ],
    "town": true,
@@ -1587,6 +2323,35 @@
    "brand": "Hagkaup"
   },
   {
+   "id": "n1730242027",
+   "name": "Krónan",
+   "lat": 64.11224,
+   "lng": -21.90389,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     1.7,
+     0
+    ],
+    [
+     2.3,
+     6
+    ],
+    [
+     2.3,
+     7
+    ]
+   ],
+   "town": true,
+   "phone": "+3545857000",
+   "website": "https://kronan.is/",
+   "address": "Hamraborg 18, Kópavogur",
+   "hours": "Mo-Su 09:00-21:00",
+   "email": "hamraborg@kronan.is",
+   "brand": "Krónan"
+  },
+  {
    "id": "n251964864",
    "name": "Bónus",
    "lat": 64.1425,
@@ -1594,6 +2359,14 @@
    "kind": "grocery",
    "cat": "supermarket",
    "days": [
+    [
+     1.8,
+     6
+    ],
+    [
+     1.8,
+     7
+    ],
     [
      2.0,
      0
@@ -1608,343 +2381,28 @@
    "brand": "Bónus"
   },
   {
-   "id": "n306597504",
-   "name": "Krónan",
-   "lat": 64.12851,
-   "lng": -21.88734,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     2.0,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545857000",
-   "website": "https://kronan.is/",
-   "address": "Háaleitisbraut 68, Reykjavík",
-   "hours": "Mo-Su 09:00-21:00",
-   "email": "austurver@kronan.is",
-   "wheelchair": "yes",
-   "brand": "Krónan"
-  },
-  {
-   "id": "n1457633610",
+   "id": "n9286812379",
    "name": "Bónus",
-   "lat": 64.12969,
-   "lng": -21.89596,
+   "lat": 64.15047,
+   "lng": -21.78941,
    "kind": "grocery",
    "cat": "supermarket",
    "days": [
     [
-     2.4,
+     1.8,
      0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.bonus.is/",
-   "address": "Kringlan 4, Reykjavík",
-   "hours": "Mo-Su 10:00-19:00",
-   "email": "kringlan@bonus.is",
-   "wheelchair": "yes",
-   "brand": "Bónus"
-  },
-  {
-   "id": "n2378038495",
-   "name": "Bónus",
-   "lat": 64.09643,
-   "lng": -21.8029,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
+    ],
     [
-     2.4,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://bonus.is/",
-   "address": "Ögurhvarf 3, Kópavogur",
-   "hours": "Mo-Su 10:00-21:00",
-   "email": "ogur@bonus.is",
-   "wheelchair": "yes",
-   "brand": "Bónus"
-  },
-  {
-   "id": "n1457633635",
-   "name": "Hagkaup",
-   "lat": 64.13112,
-   "lng": -21.89367,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     2.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545635200",
-   "website": "https://www.hagkaup.is/",
-   "address": "Kringlan, Reykjavík",
-   "hours": "Mo-Fr 10:00-18:30; Sa 10:00-18:00; Su 12:00-17:00",
-   "email": "kringlan@hagkaup.is",
-   "wheelchair": "yes",
-   "brand": "Hagkaup"
-  },
-  {
-   "id": "n10978037447",
-   "name": "Bónus",
-   "lat": 64.10125,
-   "lng": -21.77696,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
+     1.8,
+     7
+    ],
     [
      2.7,
-     0
+     6
     ]
    ],
    "town": true,
-   "address": "Norðlingabraut 2, Reykjavík",
-   "hours": "Mo-Su 10:00-20:00",
-   "brand": "Bónus"
-  },
-  {
-   "id": "n6527943321",
-   "name": "Nettó",
-   "lat": 64.13858,
-   "lng": -21.89103,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     2.7,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Lágmúli 7, Reykjavík",
-   "hours": "Mo-Su 10:00-21:00",
-   "brand": "Nettó"
-  },
-  {
-   "id": "n2970556506",
-   "name": "Krónan",
-   "lat": 64.08448,
-   "lng": -21.82153,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     2.8,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545857000",
-   "website": "https://kronan.is/",
-   "address": "Vallakór 4, Kópavogur",
-   "hours": "Mo-Su 08:00-21:00",
-   "email": "vallakor@kronan.is",
-   "brand": "Krónan"
-  },
-  {
-   "id": "n312947180",
-   "name": "Nettó",
-   "lat": 64.14249,
-   "lng": -21.90311,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     3.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545225406",
-   "website": "https://netto.is/",
-   "address": "Nóatún 17, Reykjavík",
-   "hours": "Mo-Su 09:00-21:00",
-   "email": "noatun@netto.is",
-   "wheelchair": "yes",
-   "brand": "Nettó"
-  },
-  {
-   "id": "n3698950691",
-   "name": "Bónus",
-   "lat": 64.14149,
-   "lng": -21.90739,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     3.5,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.bonus.is/",
-   "address": "Skipholt 11-13, Reykjavík",
-   "hours": "Mo-Su 10:00-21:00",
-   "email": "skipholt@bonus.is",
-   "wheelchair": "yes",
-   "brand": "Bónus"
-  },
-  {
-   "id": "n9755777555",
-   "name": "Krónan",
-   "lat": 64.14569,
-   "lng": -21.89816,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     3.5,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://kronan.is/",
-   "address": "Borgartún, Reykjavík",
-   "hours": "Mo-Su 08:00-21:00",
-   "brand": "Krónan"
-  },
-  {
-   "id": "n2247125380",
-   "name": "Mai Thai",
-   "lat": 64.14292,
-   "lng": -21.91467,
-   "kind": "grocery",
-   "cat": "minimarket",
-   "days": [
-    [
-     3.9,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.maithai.is",
-   "address": "Laugavegur",
-   "hours": "Mo-Fr 11:00-21:00; Sa 14:00-21:00",
-   "wheelchair": "yes",
-   "brand": "Mai Thai"
-  },
-  {
-   "id": "n4506905893",
-   "name": "Bónus",
-   "lat": 64.14457,
-   "lng": -21.92282,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     4.3,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.bonus.is/",
-   "address": "Laugavegur 59, Reykjavík",
-   "hours": "Mo-Su 10:00-22:00",
-   "email": "kjo@bonus.is",
-   "wheelchair": "limited",
-   "brand": "Bónus"
-  },
-  {
-   "id": "n7993167472",
-   "name": "Krónan",
-   "lat": 64.14563,
-   "lng": -21.93409,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     4.8,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545857000",
-   "address": "Hallveigarstígur 1, Reykjavík",
-   "hours": "Mo-Su 09:00-21:00",
-   "email": "hallveigarstigur@kronan.is",
-   "wheelchair": "yes",
-   "brand": "Krónan"
-  },
-  {
-   "id": "n9906743517",
-   "name": "Vietnam Market",
-   "lat": 64.14661,
-   "lng": -21.93316,
-   "kind": "grocery",
-   "cat": "minimarket",
-   "days": [
-    [
-     4.8,
-     0
-    ]
-   ],
-   "town": true,
-   "brand": "Vietnam Market"
-  },
-  {
-   "id": "n2412862340",
-   "name": "Kaupfélag Vestur-Húnvetninga",
-   "lat": 65.39587,
-   "lng": -20.94675,
-   "kind": "grocery",
-   "cat": "minimarket",
-   "days": [
-    [
-     5.7,
-     0
-    ]
-   ],
-   "town": false,
-   "phone": "+3544552300",
-   "website": "https://www.kvh.is/",
-   "hours": "Mo-Th 09:00-18:00; Fr 09:00-19:00; Sa 11:00-16:00; PH off",
-   "email": "kvh@kvh.is",
-   "wheelchair": "yes",
-   "brand": "Kaupfélag Vestur-Húnvetninga"
-  },
-  {
-   "id": "n1241852013",
-   "name": "Melabúðin",
-   "lat": 64.14471,
-   "lng": -21.96036,
-   "kind": "grocery",
-   "cat": "minimarket",
-   "days": [
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Hagamelur 39",
-   "hours": "Mo-Fr 09:00-20:00; Sa 10:00-20:00; Su 12:00-20:00",
-   "brand": "Melabúðin"
-  },
-  {
-   "id": "n9286812370",
-   "name": "Bónus",
-   "lat": 64.15363,
-   "lng": -21.95147,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     6.0,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.bonus.is/",
-   "address": "Fiskislóð 2-8, Reykjavík",
+   "address": "Spöngin 9, Reykjavík",
    "hours": "Mo-Su 10:00-21:00",
    "wheelchair": "yes",
    "brand": "Bónus"
@@ -1957,6 +2415,14 @@
    "kind": "grocery",
    "cat": "supermarket",
    "days": [
+    [
+     1.8,
+     6
+    ],
+    [
+     1.8,
+     7
+    ],
     [
      6.0,
      0
@@ -1980,6 +2446,14 @@
    "cat": "supermarket",
    "days": [
     [
+     1.8,
+     6
+    ],
+    [
+     1.8,
+     7
+    ],
+    [
      6.1,
      0
     ]
@@ -1988,6 +2462,83 @@
    "address": "Fiskislóð 3, Reykjavík",
    "hours": "Mo-Su 07:30-24:00",
    "brand": "Nettó"
+  },
+  {
+   "id": "n1269864497",
+   "name": "Hagkaup",
+   "lat": 64.15029,
+   "lng": -21.98433,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     2.5,
+     6
+    ],
+    [
+     2.5,
+     7
+    ],
+    [
+     7.2,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.hagkaup.is/",
+   "address": "Seltjarnarnes",
+   "hours": "Mo-Su 08:00-24:00",
+   "brand": "Hagkaup"
+  },
+  {
+   "id": "n2970556506",
+   "name": "Krónan",
+   "lat": 64.08448,
+   "lng": -21.82153,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     2.8,
+     0
+    ],
+    [
+     3.2,
+     6
+    ],
+    [
+     4.4,
+     7
+    ]
+   ],
+   "town": true,
+   "phone": "+3545857000",
+   "website": "https://kronan.is/",
+   "address": "Vallakór 4, Kópavogur",
+   "hours": "Mo-Su 08:00-21:00",
+   "email": "vallakor@kronan.is",
+   "brand": "Krónan"
+  },
+  {
+   "id": "n2412862340",
+   "name": "Kaupfélag Vestur-Húnvetninga",
+   "lat": 65.39587,
+   "lng": -20.94675,
+   "kind": "grocery",
+   "cat": "minimarket",
+   "days": [
+    [
+     5.7,
+     0
+    ]
+   ],
+   "town": false,
+   "phone": "+3544552300",
+   "website": "https://www.kvh.is/",
+   "hours": "Mo-Th 09:00-18:00; Fr 09:00-19:00; Sa 11:00-16:00; PH off",
+   "email": "kvh@kvh.is",
+   "wheelchair": "yes",
+   "brand": "Kaupfélag Vestur-Húnvetninga"
   },
   {
    "id": "n122274060",
@@ -2006,25 +2557,6 @@
    "address": "Smiðjuvellir 32, Akranes",
    "hours": "Mo-Su 10:00-19:00",
    "brand": "Bónus"
-  },
-  {
-   "id": "n1269864497",
-   "name": "Hagkaup",
-   "lat": 64.15029,
-   "lng": -21.98433,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     7.2,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.hagkaup.is/",
-   "address": "Seltjarnarnes",
-   "hours": "Mo-Su 08:00-24:00",
-   "brand": "Hagkaup"
   },
   {
    "id": "n318966726",
