@@ -39,16 +39,29 @@ export const labelOf = (p: Place) => CAT_LABEL[p.cat] ?? p.cat;
 export interface Filters {
   day: number;            // -1 = whole trip
   kinds: Set<PlaceKind>;
+  /** Category sub-filter. Empty means "every category of the active kinds". */
+  cats: Set<string>;
   radius: number;         // km from the driven road
   showTowns: boolean;
   query: string;
 }
+
+/** Categories belonging to each kind, in the order they should appear as chips. */
+export const CATS_BY_KIND: Record<PlaceKind, string[]> = {
+  attraction: ["waterfall", "hot_spring", "baths", "viewpoint", "nature", "beach",
+               "coast", "volcano", "cave", "museum", "historic", "attraction"],
+  food: ["restaurant", "cafe", "bakery", "fast_food", "bar"],
+  fuel: ["fuel"],
+  grocery: ["supermarket", "minimarket"],
+  stay: ["hotel", "guesthouse", "hostel", "cabin", "apartment", "campsite"],
+};
 
 export function filterPlaces(all: Place[], f: Filters): Place[] {
   const q = f.query.trim().toLowerCase();
   const out: Place[] = [];
   for (const p of all) {
     if (!f.kinds.has(p.kind)) continue;
+    if (f.cats.size && !f.cats.has(p.cat)) continue;
     if (!f.showTowns && p.town) continue;
     const hit = p.days.find(([km, d]) => km <= f.radius && (f.day < 0 || d === f.day));
     if (!hit) continue;

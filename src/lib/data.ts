@@ -40,3 +40,12 @@ export function gmapsRoute(names: string[]): string {
     (mid ? `&waypoints=${mid}` : "") + "&travelmode=driving"
   );
 }
+
+/** Maps link for an arbitrary POI. Names are ambiguous out here — there are 57
+ *  petrol stations called "N1" — so pin by coordinate and carry the name as a label. */
+export const gmapsAt = (lat: number, lng: number) =>
+  `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+
+/** Driving directions to a coordinate from wherever the phone currently is. */
+export const gmapsDriveTo = (lat: number, lng: number) =>
+  `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=driving`;

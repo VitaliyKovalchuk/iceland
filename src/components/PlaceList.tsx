@@ -1,5 +1,6 @@
 "use client";
 import { colourOf, labelOf, nearest, daysOf, type Filters } from "@/lib/places";
+import { glyphFor } from "@/lib/icons";
 import type { Place } from "@/lib/types";
 
 export default function PlaceList({
@@ -15,9 +16,15 @@ export default function PlaceList({
                        text-left hover:bg-[var(--color-accent-soft)]"
           >
             <span
-              className="mt-1.5 size-2.5 shrink-0 rounded-full ring-1 ring-black/20"
+              className="mt-0.5 grid size-5 shrink-0 place-items-center rounded-full text-white"
               style={{ background: colourOf(p) }}
-            />
+            >
+              <svg
+                viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor"
+                strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round" aria-hidden
+                dangerouslySetInnerHTML={{ __html: glyphFor(p.cat) }}
+              />
+            </span>
             <span className="min-w-0 flex-1">
               <span className="block truncate text-[13.5px] font-medium">
                 {p.name}

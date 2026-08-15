@@ -1,9 +1,12 @@
 "use client";
-import { useEffect, useRef } from "react";
-import { MapContainer, TileLayer, Polyline, CircleMarker, Popup, useMap, LayersControl, ZoomControl } from "react-leaflet";
-import { itinerary, poi, gmaps } from "@/lib/data";
-import { trip } from "@/lib/data";
+import { useEffect, useMemo, useRef } from "react";
+import {
+  MapContainer, TileLayer, Polyline, Marker, CircleMarker, Popup, useMap, LayersControl, ZoomControl,
+} from "react-leaflet";
+import L from "leaflet";
+import { itinerary, poi, gmaps, gmapsAt, gmapsDriveTo, trip } from "@/lib/data";
 import { colourOf, labelOf, nearest, daysOf, type Filters } from "@/lib/places";
+import { markerHtml } from "@/lib/icons";
 import { DAY_COLOURS } from "./dayColours";
 import type { LatLng, Place } from "@/lib/types";
 
@@ -19,17 +22,16 @@ function dayLine(i: number): LatLng[] {
 
 /** View management.
  *
- *  Two traps here, both learned the hard way:
- *  1. The map mounts inside a flex column that settles a frame later, so a fit done
- *     at mount can be based on a stale container size.
- *  2. fitBounds is NOT idempotent. zoomSnap floors the computed zoom, so re-fitting
- *     an already-fitted map turns an exact 6 into 5.9999… and drops a whole level.
- *
- *  So: fit once per (day, size) and never refit at the same size.
+ *  Two traps, both learned the hard way:
+ *  1. The map mounts inside a flex column that settles a frame later, so a fit at
+ *     mount can use a stale container size.
+ *  2. fitBounds is not idempotent under the default zoomSnap — getBoundsZoom is
+ *     reference-dependent, so re-fitting can drop a whole level. Hence zoomSnap=0
+ *     on the container, and fit once per (day, size).
  */
 function Controller({ day, focus }: { day: number; focus: Place | null }) {
   const map = useMap();
-  const fittedAt = useRef<string>("");
+  const fittedAt = useRef("");
 
   useEffect(() => {
     const fit = () => {
@@ -42,9 +44,7 @@ function Controller({ day, focus }: { day: number; focus: Place | null }) {
       map.invalidateSize({ animate: false });
       const idx = day < 0 ? itinerary.days.map((_, i) => i) : [day];
       const pts = idx.flatMap(dayLine);
-      if (pts.length) {
-        map.fitBounds(pts as [number, number][], { padding: [20, 20], animate: false });
-      }
+      if (pts.length) map.fitBounds(pts as [number, number][], { padding: [20, 20], animate: false });
     };
     fit();
     const ro = new ResizeObserver(fit);
@@ -57,6 +57,61 @@ function Controller({ day, focus }: { day: number; focus: Place | null }) {
   }, [focus, map]);
 
   return null;
+}
+
+function PlaceMarkers({
+  places, focus, onSelect, filters,
+}: { places: Place[]; focus: Place | null; onSelect: (p: Place) => void; filters: Filters }) {
+  const icons = useMemo(() => new Map<string, L.DivIcon>(), []);
+  const iconFor = (p: Place, isFocus: boolean) => {
+    const key = `${p.cat}|${isFocus}`;
+    let ic = icons.get(key);
+    if (!ic) {
+      const size = isFocus ? 32 : 24;
+      ic = L.divIcon({
+        html: markerHtml(p.cat, colourOf(p), size),
+        className: `mk-wrap${isFocus ? " is-focus" : ""}`,
+        iconSize: [size, size],
+        iconAnchor: [size / 2, size / 2],
+        popupAnchor: [0, -size / 2],
+      });
+      icons.set(key, ic);
+    }
+    return ic;
+  };
+
+  return (
+    <>
+      {places.slice(0, 700).map((p) => (
+        <Marker
+          key={p.id}
+          position={[p.lat, p.lng]}
+          icon={iconFor(p, focus?.id === p.id)}
+          zIndexOffset={focus?.id === p.id ? 1000 : 0}
+          eventHandlers={{ click: () => onSelect(p) }}
+        >
+          <Popup>
+            <strong>{p.name}</strong>
+            <br />
+            <span style={{ fontSize: 11, opacity: 0.7 }}>
+              {labelOf(p)} · {nearest(p, filters)} km off route · day{" "}
+              {daysOf(p, filters.day).map(([, d]) => d + 1).join("/")}
+            </span>
+            {p.cuisine && <><br /><span style={{ fontSize: 11 }}>{p.cuisine}</span></>}
+            {p.hours && <><br /><span style={{ fontSize: 11 }}>{p.hours}</span></>}
+            {p.address && <><br /><span style={{ fontSize: 11, opacity: 0.75 }}>{p.address}</span></>}
+            <br />
+            {/* by coordinate: names out here are ambiguous and land on the wrong pin */}
+            <a href={gmapsAt(p.lat, p.lng)} target="_blank" rel="noopener">Open</a>
+            {" · "}
+            <a href={gmapsDriveTo(p.lat, p.lng)} target="_blank" rel="noopener">Drive</a>
+            {p.phone && <> · <a href={`tel:${p.phone}`}>Call</a></>}
+            {p.website && <> · <a href={p.website} target="_blank" rel="noopener">Web</a></>}
+          </Popup>
+        </Marker>
+      ))}
+    </>
+  );
 }
 
 export default function MapCanvas({
@@ -73,10 +128,8 @@ export default function MapCanvas({
       zoom={6}
       scrollWheelZoom
       zoomControl={false}
-      /* zoomSnap 0 = fractional zoom. With the default snap of 1 Leaflet floors the
-         fitted zoom, and getBoundsZoom is reference-dependent: from 6 the whole ring
-         computes 5.99 -> 5, from 5 it computes 6.02 -> 6. It oscillates on the exact
-         boundary and settles a level too far out. Fractional zoom has no boundary. */
+      /* fractional zoom — with the default snap of 1, fitBounds floors an exact
+         boundary value and the whole-ring view settles a level too far out */
       zoomSnap={0}
       className="h-full w-full"
     >
@@ -103,68 +156,48 @@ export default function MapCanvas({
           pathOptions={{ color: DAY_COLOURS[i % 8], weight: day < 0 ? 3 : 4.5, opacity: 0.8 }} />
       ))}
 
-      {/* filtered places */}
-      {places.slice(0, 900).map((p) => (
-        <CircleMarker key={p.id} center={[p.lat, p.lng]}
-          radius={focus?.id === p.id ? 8 : 4.5}
-          eventHandlers={{ click: () => onSelect(p) }}
-          pathOptions={{
-            color: focus?.id === p.id ? "#fff" : "rgba(0,0,0,.35)",
-            weight: focus?.id === p.id ? 3 : 1,
-            fillColor: colourOf(p), fillOpacity: 0.9,
-          }}>
-          <Popup>
-            <strong>{p.name}</strong>
-            <br />
-            <span style={{ fontSize: 11, opacity: 0.7 }}>
-              {labelOf(p)} · {nearest(p, filters)} km off route · day{" "}
-              {daysOf(p, filters.day).map(([, d]) => d + 1).join("/")}
-            </span>
-            {p.hours && <><br /><span style={{ fontSize: 11 }}>{p.hours}</span></>}
-            {p.address && <><br /><span style={{ fontSize: 11 }}>{p.address}</span></>}
-            <br />
-            <a href={gmaps(p.name)} target="_blank" rel="noopener">Maps</a>
-            {p.phone && <> · <a href={`tel:${p.phone}`}>{p.phone}</a></>}
-            {p.website && <> · <a href={p.website} target="_blank" rel="noopener">Web</a></>}
-          </Popup>
-        </CircleMarker>
-      ))}
+      <PlaceMarkers places={places} focus={focus} onSelect={onSelect} filters={filters} />
 
-      {/* our stops, always on top */}
+      {/* our own stops */}
       {days.flatMap((i) =>
-        itinerary.days[i].stops
-          .filter((s) => s.dwell > 0)
-          .map((s, n) => {
-            const q = poi(s.loc);
-            return (
-              <CircleMarker key={`${i}-${s.loc}-${n}`} center={[q.lat, q.lng]} radius={6}
-                pathOptions={{ color: "#fff", weight: 2.5, fillColor: DAY_COLOURS[i % 8], fillOpacity: 1 }}>
-                <Popup>
-                  <strong>{q.name}</strong>
-                  <br />
-                  <span style={{ fontSize: 11, opacity: 0.7 }}>
-                    Our stop · day {i + 1} · {itinerary.days[i].date}
-                  </span>
-                  <br />
-                  <a href={gmaps(q.search)} target="_blank" rel="noopener">Maps</a>
-                </Popup>
-              </CircleMarker>
-            );
-          })
+        itinerary.days[i].stops.filter((s) => s.dwell > 0).map((s, n) => {
+          const q = poi(s.loc);
+          return (
+            <CircleMarker key={`${i}-${s.loc}-${n}`} center={[q.lat, q.lng]} radius={7}
+              pane="markerPane"
+              pathOptions={{ color: "#fff", weight: 3, fillColor: DAY_COLOURS[i % 8], fillOpacity: 1 }}>
+              <Popup>
+                <strong>{q.name}</strong>
+                <br />
+                <span style={{ fontSize: 11, opacity: 0.7 }}>
+                  Our stop · day {i + 1} · {itinerary.days[i].date}
+                </span>
+                <br />
+                <a href={gmaps(q.search)} target="_blank" rel="noopener">Open</a>
+                {" · "}
+                <a href={gmapsDriveTo(q.lat, q.lng)} target="_blank" rel="noopener">Drive</a>
+              </Popup>
+            </CircleMarker>
+          );
+        })
       )}
 
       {/* where we sleep */}
       {trip.bookings.map((b) =>
         b.lat && b.lng ? (
-          <CircleMarker key={`bed-${b.night}`} center={[b.lat, b.lng]} radius={7}
-            pathOptions={{ color: "#fff", weight: 2.5, fillColor: "#0E1518", fillOpacity: 1 }}>
+          <CircleMarker key={`bed-${b.night}`} center={[b.lat, b.lng]} radius={8}
+            pane="markerPane"
+            pathOptions={{ color: "#fff", weight: 3, fillColor: "#0E1518", fillOpacity: 1 }}>
             <Popup>
               <strong>Night {b.night} — {b.property}</strong>
               <br />
               <span style={{ fontSize: 11, opacity: 0.7 }}>{b.date} · {b.town}</span>
               {b.address && <><br /><span style={{ fontSize: 11 }}>{b.address}</span></>}
               <br />
-              <a href={gmaps(b.address ?? b.town)} target="_blank" rel="noopener">Maps</a>
+              <a href={gmapsAt(b.lat, b.lng)} target="_blank" rel="noopener">Open</a>
+              {" · "}
+              <a href={gmapsDriveTo(b.lat, b.lng)} target="_blank" rel="noopener">Drive</a>
+              {b.phone && <> · <a href={`tel:${b.phone}`}>Call</a></>}
             </Popup>
           </CircleMarker>
         ) : null

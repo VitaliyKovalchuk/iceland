@@ -92,3 +92,26 @@
   color: var(--color-ink);
   border-color: var(--color-line);
 }
+
+/* map markers: coloured disc + white glyph, built by src/lib/icons.ts */
+.mk-wrap {
+  background: none;
+  border: 0;
+}
+.mk {
+  display: grid;
+  place-items: center;
+  border-radius: 9999px;
+  background: var(--mk);
+  color: #fff;
+  box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.9), 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.leaflet-marker-icon.is-focus .mk {
+  box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--mk), 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+/* our own itinerary stops sit above the corridor noise */
+.mk-stop {
+  border: 2.5px solid #fff;
+  border-radius: 9999px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+}
