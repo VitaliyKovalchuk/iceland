@@ -1,5 +1,6 @@
 "use client";
-import { MapContainer, TileLayer, Polyline, CircleMarker, Popup } from "react-leaflet";
+import { useEffect } from "react";
+import { MapContainer, TileLayer, Polyline, CircleMarker, Popup, useMap } from "react-leaflet";
 import type { LatLngBoundsExpression } from "leaflet";
 import { gmaps, itinerary, poi } from "@/lib/data";
 import { sched } from "@/lib/schedule";
@@ -18,6 +19,18 @@ function dayLine(i: number): LatLng[] {
   return out;
 }
 
+function Resizer() {
+  const map = useMap();
+  useEffect(() => {
+    const fix = () => map.invalidateSize();
+    const t = setTimeout(fix, 60);
+    const ro = new ResizeObserver(fix);
+    ro.observe(map.getContainer());
+    return () => { clearTimeout(t); ro.disconnect(); };
+  }, [map]);
+  return null;
+}
+
 export default function RouteMapInner({ dayIndex }: { dayIndex?: number }) {
   const days = dayIndex == null ? itinerary.days.map((_, i) => i) : [dayIndex];
   const lines = days.map(dayLine);
@@ -34,6 +47,7 @@ export default function RouteMapInner({ dayIndex }: { dayIndex?: number }) {
 
   return (
     <MapContainer bounds={bounds} boundsOptions={{ padding: [22, 22] }} scrollWheelZoom>
+      <Resizer />
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="&copy; OpenStreetMap"

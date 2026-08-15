@@ -1,4 +1,4 @@
-import { gmaps, poi, trip, itinerary } from "@/lib/data";
+import { gmaps, poi, trip } from "@/lib/data";
 import { allSched, bedKeys } from "@/lib/schedule";
 import { hhmm } from "@/lib/sun";
 import type { Booking } from "@/lib/types";

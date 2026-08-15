@@ -28,6 +28,15 @@ function Controller({ day, focus }: { day: number; focus: Place | null }) {
   useEffect(() => {
     if (focus) map.flyTo([focus.lat, focus.lng], 13, { duration: 0.6 });
   }, [focus, map]);
+  // The map mounts inside a flex column that settles a frame later; without this
+  // Leaflet keeps the size it measured on mount and tiles come out misaligned.
+  useEffect(() => {
+    const fix = () => map.invalidateSize();
+    const t = setTimeout(fix, 60);
+    const ro = new ResizeObserver(fix);
+    ro.observe(map.getContainer());
+    return () => { clearTimeout(t); ro.disconnect(); };
+  }, [map]);
   return null;
 }
 

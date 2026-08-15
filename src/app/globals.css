@@ -1,4 +1,7 @@
 @import "tailwindcss";
+/* Must come before our overrides below. Without it Leaflet's panes and tiles have no
+   positioning at all and the tiles render as loose squares over the page. */
+@import "leaflet/dist/leaflet.css";
 
 @theme {
   --color-ground: #edf1f2;
