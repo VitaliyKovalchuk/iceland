@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useRef } from "react";
 import {
   MapContainer, TileLayer, Polyline, Marker, CircleMarker, Popup, useMap, LayersControl, ZoomControl,
 } from "react-leaflet";
@@ -59,27 +59,28 @@ function Controller({ day, focus }: { day: number; focus: Place | null }) {
   return null;
 }
 
+/** Icons are pure functions of (category, focus) so they cache once for the whole
+ *  session rather than per render — there are 20 categories and up to 700 markers. */
+const ICONS = new Map<string, L.DivIcon>();
+function iconFor(p: Place, isFocus: boolean) {
+  const key = `${p.cat}|${isFocus}`;
+  const hit = ICONS.get(key);
+  if (hit) return hit;
+  const size = isFocus ? 32 : 24;
+  const ic = L.divIcon({
+    html: markerHtml(p.cat, colourOf(p), size),
+    className: `mk-wrap${isFocus ? " is-focus" : ""}`,
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    popupAnchor: [0, -size / 2],
+  });
+  ICONS.set(key, ic);
+  return ic;
+}
+
 function PlaceMarkers({
   places, focus, onSelect, filters,
 }: { places: Place[]; focus: Place | null; onSelect: (p: Place) => void; filters: Filters }) {
-  const icons = useMemo(() => new Map<string, L.DivIcon>(), []);
-  const iconFor = (p: Place, isFocus: boolean) => {
-    const key = `${p.cat}|${isFocus}`;
-    let ic = icons.get(key);
-    if (!ic) {
-      const size = isFocus ? 32 : 24;
-      ic = L.divIcon({
-        html: markerHtml(p.cat, colourOf(p), size),
-        className: `mk-wrap${isFocus ? " is-focus" : ""}`,
-        iconSize: [size, size],
-        iconAnchor: [size / 2, size / 2],
-        popupAnchor: [0, -size / 2],
-      });
-      icons.set(key, ic);
-    }
-    return ic;
-  };
-
   return (
     <>
       {places.slice(0, 700).map((p) => (
