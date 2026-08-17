@@ -190,25 +190,39 @@
     "Travel alerts": "https://safetravel.is"
   },
   "car": {
-    "company": "",
+    "company": "Hertz Iceland",
     "customerNo": "Z111MK",
     "model": "Kia Sorento Plug-in Hybrid or similar",
     "classCode": "SFDI (O6)",
-    "spec": "5-door 4x4, automatic, plug-in hybrid",
+    "spec": "Kia Sorento PHEV or similar · automatic · 4x4 · 5 doors · 5 seats · 4 large bags · 23+ only · unlimited mileage",
     "pickup": {
-      "place": "Keflavík Intl Airport — Flugstöð, 235 Keflavíkurflugvöllur",
+      "place": "Keflavík Intl Airport — Hertz counter in the ARRIVALS HALL, just after customs",
       "date": "2026-10-03",
       "time": "01:00"
     },
     "dropoff": {
-      "place": "Keflavík Intl Airport — Flugstöð, 235 Keflavíkurflugvöllur",
+      "place": "Keflavík Intl Airport",
       "date": "2026-10-10",
       "time": "20:00"
     },
-    "insurance": "CONFIRM: gravel protection (GP) and sand & ash (SAAP) are the two that matter in Iceland and are usually extra.",
-    "notes": "Pickup 01:00 is 65 min after the 23:55 landing — immigration, bags and the rental shuttle all have to fit in that. Plug-in hybrid: it runs on petrol regardless, so range is never a problem; charging is only a cost saving if a hotel has a plug. 'Or similar' means the PHEV is not guaranteed."
+    "insurance": "MAX coverage — upgraded after the original booking. Supersedes the Zero Insurance Pack SWST on confirmation 902184. Exact inclusions NOT YET VERIFIED against a written confirmation; in particular whether gravel damage is now covered, and what the remaining non-waivable excess is.",
+    "notes": "Bring the DRIVING LICENCE and a CREDIT CARD IN VITALII'S NAME — the counter asks for both.\nReturn with a FULL TANK or Hertz charges the difference at their own rate.\nF-ROADS VOID THE COVER whatever the package. Our route has none and none should be improvised.\nPickup 01:00 is 65 min after the 23:55 landing. Counter is in the Arrivals Hall, after customs.\nOriginal booking 153,444 ISK paid in full; the MAX upgrade is on top of that.",
+    "bookingRef": "902184",
+    "phone": "+3545224400",
+    "email": "hertz@hertz.is",
+    "renter": "Vitalii Kovalchuk",
+    "renterPhone": "+380978462406",
+    "price": 153444,
+    "currency": "ISK",
+    "paid": true,
+    "priceNote": "153,444 ISK is the ORIGINAL total. The MAX upgrade cost is not yet recorded."
   },
   "todo": [
+    {
+      "what": "Get the updated Hertz confirmation for MAX coverage — what it includes, whether gravel is now covered, remaining excess, and the new total",
+      "owner": "Vitalii",
+      "blocking": false
+    },
     {
       "what": "Get the Jökulsárlón operator name + confirmation number from Kirill",
       "owner": "Vitalii",
@@ -223,11 +237,6 @@
       "what": "Night 1 — arrange late check-in; window closes 00:30 and we arrive ~01:10",
       "owner": "Vitalii",
       "blocking": true
-    },
-    {
-      "what": "Confirm car insurance covers gravel (GP) and sand & ash (SAAP)",
-      "owner": "Vitalii",
-      "blocking": false
     }
   ],
   "decisions": [

@@ -22,8 +22,13 @@ export function legKm(from: string, to: string): number {
   return itinerary.dist[a][b];
 }
 export const poi = (k: string) => itinerary.poi[k];
+/** Some POI search strings already name the country; appending it again gives
+ *  "Geysir, Iceland, Iceland". Normalise before building any Maps URL. */
+const withCountry = (q: string) =>
+  /,\s*iceland\s*$/i.test(q.trim()) ? q.trim() : `${q.trim()}, Iceland`;
+
 export const gmaps = (q: string) =>
-  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q + ", Iceland")}`;
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(withCountry(q))}`;
 
 /** Google Maps directions for a whole day: origin, destination and the stops between.
  *  Uses place names rather than coordinates so the pin lands on the real entry, and
@@ -31,7 +36,7 @@ export const gmaps = (q: string) =>
 export function gmapsRoute(names: string[]): string {
   const clean = names.filter(Boolean);
   if (clean.length < 2) return gmaps(clean[0] ?? "Iceland");
-  const q = (s: string) => encodeURIComponent(s + ", Iceland");
+  const q = (s: string) => encodeURIComponent(withCountry(s));
   const origin = q(clean[0]);
   const destination = q(clean[clean.length - 1]);
   const mid = clean.slice(1, -1).slice(0, 9).map(q).join("%7C");
