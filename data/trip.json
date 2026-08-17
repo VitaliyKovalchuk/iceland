@@ -151,6 +151,16 @@
       "bookedBy": "Kirill",
       "duration": "~60 min on the water",
       "notes": "Fixed departure. Route now leaves Höfn 07:15 and reaches the lagoon 09:12, giving 38 min for check-in and the flotation suit. Block runs to 11:07 to cover de-suiting. Still need the operator name, confirmation number and their stated check-in time."
+    },
+    {
+      "name": "Katla ice cave (Mýrdalsjökull)",
+      "operator": "",
+      "date": "2026-10-09",
+      "time": "09:00",
+      "meetingPoint": "Vík village — 11 km from Brekkur 1",
+      "bookedBy": "Kirill",
+      "duration": "3 hours",
+      "notes": "Fixed departure. Day now leaves Brekkur 1 at 08:30 and reaches the meeting point 08:43. Víkurfjara moved to AFTER the tour since it returns you to Vík. Still need operator name and confirmation number."
     }
   ],
   "emergency": {
@@ -185,12 +195,12 @@
       "blocking": false
     },
     {
-      "what": "Night 1 — arrange late check-in; window closes 00:30 and we arrive ~01:10",
+      "what": "Get operator + confirmation for the Katla ice cave from Kirill",
       "owner": "Vitalii",
-      "blocking": true
+      "blocking": false
     },
     {
-      "what": "Book Katla ice cave (Oct 9) — limited October departures, biggest block of the week",
+      "what": "Night 1 — arrange late check-in; window closes 00:30 and we arrive ~01:10",
       "owner": "Vitalii",
       "blocking": true
     },
