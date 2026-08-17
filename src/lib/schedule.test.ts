@@ -32,10 +32,17 @@ describe("ring schedule", () => {
   });
 
   it("only ends after sunset on the deliberate airport run", () => {
+    // Oct 10 is allowed to finish in the dark: the last leg is Blue Lagoon -> KEF,
+    // a 40 min run on a main road to catch a 23:50 flight. Everything after sunset
+    // is driving to the airport, never sightseeing. The bound is generous but not
+    // unlimited — if this ever exceeds ~2 h the day has grown something it shouldn't.
     const late = s.filter((x) => x.slack < 0);
     expect(late).toHaveLength(1);
     expect(itinerary.days[s.indexOf(late[0])].date).toBe("Oct 10");
-    expect(late[0].slack).toBeGreaterThan(-60);
+    expect(late[0].slack).toBeGreaterThan(-120);
+    // and the only thing scheduled after dark must be the airport itself
+    const afterDark = s[7].rows.filter((r) => r.arrive > r.set && r.dwell > 0);
+    expect(afterDark).toHaveLength(0);
   });
 
   it("never reaches a SIGHT before dawn", () => {

@@ -171,6 +171,16 @@
       "bookedBy": "Kirill",
       "duration": "~3 hours",
       "notes": "An hour later than the route assumed. Day now starts 08:32 and reaches the car park 14:00, 30 min before departure. Off the ice ~17:30, away ~17:45, at Brekkur 1 ~18:08 against an 18:25 sunset — only 17 min of margin, and the final 23 km is Route 1 in dusk. If the tour overruns you will finish that leg in the dark. Ask Arctic Adventures for an earlier slot if one opens."
+    },
+    {
+      "name": "Blue Lagoon",
+      "operator": "Blue Lagoon (bluelagoon.com)",
+      "date": "2026-10-10",
+      "time": "16:00",
+      "meetingPoint": "Blue Lagoon, Grindavík",
+      "bookedBy": "Kirill",
+      "duration": "entry slot — stay until closing",
+      "notes": "Entry is a timed slot, not a time limit. Day now starts 07:30 to arrive 15:51. Planned to leave 19:00 so the car is back by 20:00; sunset 18:31 falls inside the soak. If the car return can be pushed to 21:00 you could stay until 20:00 instead."
     }
   ],
   "emergency": {
@@ -211,11 +221,6 @@
     },
     {
       "what": "Night 1 — arrange late check-in; window closes 00:30 and we arrive ~01:10",
-      "owner": "Vitalii",
-      "blocking": true
-    },
-    {
-      "what": "Book Blue Lagoon (Oct 10, ~16:15–18:15 slot)",
       "owner": "Vitalii",
       "blocking": true
     },
