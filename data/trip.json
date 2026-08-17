@@ -206,7 +206,7 @@
       "time": "20:00"
     },
     "insurance": "MAX coverage — upgraded after the original booking. Supersedes the Zero Insurance Pack SWST on confirmation 902184. Exact inclusions NOT YET VERIFIED against a written confirmation; in particular whether gravel damage is now covered, and what the remaining non-waivable excess is.",
-    "notes": "Bring the DRIVING LICENCE and a CREDIT CARD IN VITALII'S NAME — the counter asks for both.\nReturn with a FULL TANK or Hertz charges the difference at their own rate.\nF-ROADS VOID THE COVER whatever the package. Our route has none and none should be improvised.\nPickup 01:00 is 65 min after the 23:55 landing. Counter is in the Arrivals Hall, after customs.\nOriginal booking 153,444 ISK paid in full; the MAX upgrade is on top of that.",
+    "notes": "Bring the DRIVING LICENCE and a CREDIT CARD IN VITALII'S NAME — the counter asks for both.\nReturn with a FULL TANK or Hertz charges the difference at their own rate.\nNO F-ROADS, and no 35 Kjolur / 550 Kaldidalur / 208 Landmannalaugar. Plug-in hybrids are banned from them by name even though this is a 4x4. Penalty 150,000 ISK plus uninsured damage. Our route contains none of these and none should be improvised.\nPickup 01:00 is 65 min after the 23:55 landing. Counter is in the Arrivals Hall, after customs.\nOriginal booking 153,444 ISK paid in full; the MAX upgrade is on top of that.",
     "bookingRef": "902184",
     "phone": "+3545224400",
     "email": "hertz@hertz.is",
@@ -215,7 +215,19 @@
     "price": 153444,
     "currency": "ISK",
     "paid": true,
-    "priceNote": "153,444 ISK is the ORIGINAL total. The MAX upgrade cost is not yet recorded."
+    "priceNote": "153,444 ISK is the ORIGINAL total. The MAX upgrade cost is not yet recorded.",
+    "restrictions": {
+      "summary": "The signed declaration bans PLUG-IN HYBRID, electric, luxury and 2WD vehicles from F-roads and three named roads — even though ours is a 4x4. Breach = 150,000 ISK fee under Article 10, plus the damage is uninsured.",
+      "bannedRoads": [
+        "Any road marked F on official maps",
+        "35 Kjolur (highland section)",
+        "550 Kaldidalur",
+        "208 Landmannalaugar"
+      ],
+      "penaltyISK": 150000,
+      "note": "This is a USE restriction, not an insurance option — MAX coverage does not lift it. It is also largely moot in October: the highland roads are shut for the season and our route was audited leg by leg and contains none of them.",
+      "routeVerified": "All 40 legs re-checked against the contract ban list. No F-road, no 550 Kaldidalur, no 208 Landmannalaugar. Road 35 is used on Oct 10 for the Golden Circle — that is the PAVED Biskupstungnabraut south of Gullfoss, which is not the banned Kjolur. The route's northernmost point on 35 is 64.3289, about 200 m past the falls (the car park exit, which OSM labels Kjalvegur); the highland Kjolur track begins around 64.36 and we never reach it."
+    }
   },
   "todo": [
     {
