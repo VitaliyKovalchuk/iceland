@@ -22,52 +22,6 @@
    "brand": "Bónus"
   },
   {
-   "id": "n372929954",
-   "name": "Bónus",
-   "lat": 63.97277,
-   "lng": -22.54361,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     0.0,
-     0
-    ],
-    [
-     0.1,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545279000",
-   "address": "Fitjar, Reykjanesbær",
-   "hours": "Mo-Su 10:00-21:00",
-   "brand": "Bónus"
-  },
-  {
-   "id": "n830944310",
-   "name": "Gvendarkjör",
-   "lat": 63.79023,
-   "lng": -18.04784,
-   "kind": "grocery",
-   "cat": "minimarket",
-   "days": [
-    [
-     0.0,
-     4
-    ],
-    [
-     0.0,
-     5
-    ]
-   ],
-   "town": false,
-   "website": "https://www.facebook.com/gvendarkjor/",
-   "address": "Klausturvegur 13",
-   "hours": "Mo-Fr 11:30-18:00; Sa 10:00-14:00",
-   "brand": "Gvendarkjör"
-  },
-  {
    "id": "n694333710",
    "name": "Hyrnan",
    "lat": 64.54387,
@@ -120,11 +74,11 @@
    "days": [
     [
      0.0,
-     6
+     5
     ],
     [
-     0.1,
-     5
+     0.5,
+     6
     ]
    ],
    "town": false,
@@ -193,28 +147,6 @@
    "address": "Borgarbraut 58-60, Borgarnes",
    "hours": "Mo-Su 09:00-20:00",
    "wheelchair": "yes",
-   "brand": "Nettó"
-  },
-  {
-   "id": "n2383088038",
-   "name": "Nettó",
-   "lat": 63.99994,
-   "lng": -22.57666,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     0.0,
-     0
-    ],
-    [
-     3.5,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Iðavellir 14b, Reykjanesbær",
-   "hours": "Mo-Su 10:00-21:00",
    "brand": "Nettó"
   },
   {
@@ -332,6 +264,29 @@
    "address": "Miðvangur 13, Egilsstaðir",
    "hours": "Mo-Su 10:00-19:00",
    "wheelchair": "yes",
+   "brand": "Bónus"
+  },
+  {
+   "id": "n372929954",
+   "name": "Bónus",
+   "lat": 63.97277,
+   "lng": -22.54361,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     0.1,
+     7
+    ],
+    [
+     1.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545279000",
+   "address": "Fitjar, Reykjanesbær",
+   "hours": "Mo-Su 10:00-21:00",
    "brand": "Bónus"
   },
   {
@@ -706,7 +661,7 @@
      2
     ],
     [
-     0.3,
+     0.1,
      3
     ]
    ],
@@ -739,29 +694,6 @@
    "hours": "Mo-Su 10:00-21:00",
    "wheelchair": "yes",
    "brand": "Nettó"
-  },
-  {
-   "id": "n4039853984",
-   "name": "Bónus",
-   "lat": 64.00324,
-   "lng": -22.55656,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     0.2,
-     0
-    ],
-    [
-     3.5,
-     7
-    ]
-   ],
-   "town": true,
-   "website": "https://bonus.is/",
-   "address": "Túngata 1, Reykjanesbær",
-   "hours": "Mo-Su 10:00-19:00",
-   "brand": "Bónus"
   },
   {
    "id": "n8479250983",
@@ -1177,30 +1109,6 @@
    "brand": "Mini Market"
   },
   {
-   "id": "n10884336153",
-   "name": "Nettó",
-   "lat": 64.25245,
-   "lng": -15.21262,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     0.3,
-     3
-    ],
-    [
-     0.3,
-     4
-    ]
-   ],
-   "town": false,
-   "website": "https://netto.is/",
-   "address": "Litlabrú 1, Höfn",
-   "hours": "Mo-Fr 08:00-19:00; Sa-Su 09:00-19:00",
-   "wheelchair": "yes",
-   "brand": "Nettó"
-  },
-  {
    "id": "n1374259192",
    "name": "Nettó",
    "lat": 65.68677,
@@ -1300,6 +1208,29 @@
    "address": "Norðlingabraut 2, Reykjavík",
    "hours": "Mo-Su 10:00-20:00",
    "brand": "Bónus"
+  },
+  {
+   "id": "n830944310",
+   "name": "Gvendarkjör",
+   "lat": 63.79023,
+   "lng": -18.04784,
+   "kind": "grocery",
+   "cat": "minimarket",
+   "days": [
+    [
+     0.5,
+     4
+    ],
+    [
+     4.4,
+     5
+    ]
+   ],
+   "town": false,
+   "website": "https://www.facebook.com/gvendarkjor/",
+   "address": "Klausturvegur 13",
+   "hours": "Mo-Fr 11:30-18:00; Sa 10:00-14:00",
+   "brand": "Gvendarkjör"
   },
   {
    "id": "n319970958",
@@ -1435,27 +1366,6 @@
    "email": "hvaleyrarbraut@kronan.is",
    "wheelchair": "yes",
    "brand": "Krónan"
-  },
-  {
-   "id": "n412698223",
-   "name": "Olís",
-   "lat": 63.97966,
-   "lng": -22.54671,
-   "kind": "grocery",
-   "cat": "minimarket",
-   "days": [
-    [
-     0.6,
-     0
-    ],
-    [
-     0.9,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Fitjabakki 2-4, Reykjanesbær",
-   "brand": "Olís"
   },
   {
    "id": "n3698950691",
@@ -1627,30 +1537,6 @@
    "brand": "Krónan"
   },
   {
-   "id": "n4426159272",
-   "name": "Krónan",
-   "lat": 63.98133,
-   "lng": -22.54434,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     0.8,
-     0
-    ],
-    [
-     1.0,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545857000",
-   "address": "Fitjabraut 5, Reykjanesbær",
-   "hours": "Mo-Su 08:00-21:00",
-   "email": "fitjar@kronan.is",
-   "brand": "Krónan"
-  },
-  {
    "id": "n2247125380",
    "name": "Mai Thai",
    "lat": 64.14292,
@@ -1679,28 +1565,28 @@
    "brand": "Mai Thai"
   },
   {
-   "id": "n8879657941",
-   "name": "Mini Market",
-   "lat": 63.99814,
-   "lng": -22.54951,
+   "id": "n10884336153",
+   "name": "Nettó",
+   "lat": 64.25245,
+   "lng": -15.21262,
    "kind": "grocery",
-   "cat": "minimarket",
+   "cat": "supermarket",
    "days": [
     [
      0.8,
-     0
+     3
     ],
     [
-     2.9,
-     7
+     0.8,
+     4
     ]
    ],
-   "town": true,
-   "phone": "+3544350107",
-   "website": "https://minimarket.is/",
-   "address": "Hafnargata 80, Keflavík",
-   "hours": "Mo-Sa 10:00-20:00; Su 12:00-17:00",
-   "brand": "Mini Market"
+   "town": false,
+   "website": "https://netto.is/",
+   "address": "Litlabrú 1, Höfn",
+   "hours": "Mo-Fr 08:00-19:00; Sa-Su 09:00-19:00",
+   "wheelchair": "yes",
+   "brand": "Nettó"
   },
   {
    "id": "n12422337603",
@@ -1837,6 +1723,27 @@
    "brand": "Nettó"
   },
   {
+   "id": "n412698223",
+   "name": "Olís",
+   "lat": 63.97966,
+   "lng": -22.54671,
+   "kind": "grocery",
+   "cat": "minimarket",
+   "days": [
+    [
+     0.9,
+     7
+    ],
+    [
+     1.9,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Fitjabakki 2-4, Reykjanesbær",
+   "brand": "Olís"
+  },
+  {
    "id": "n9286935533",
    "name": "Bónus",
    "lat": 64.13511,
@@ -1891,6 +1798,30 @@
    "address": "Akrabraut 1, Garðabær",
    "hours": "Mo-Su 08:00-21:00",
    "email": "akrabraut@kronan.is",
+   "brand": "Krónan"
+  },
+  {
+   "id": "n4426159272",
+   "name": "Krónan",
+   "lat": 63.98133,
+   "lng": -22.54434,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     1.0,
+     7
+    ],
+    [
+     1.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545857000",
+   "address": "Fitjabraut 5, Reykjanesbær",
+   "hours": "Mo-Su 08:00-21:00",
+   "email": "fitjar@kronan.is",
    "brand": "Krónan"
   },
   {
@@ -1971,28 +1902,6 @@
    "address": "Seltjarnarnes",
    "hours": "Mo-Su 08:00-24:00",
    "brand": "Hagkaup"
-  },
-  {
-   "id": "n4178526374",
-   "name": "Nettó",
-   "lat": 63.99334,
-   "lng": -22.55058,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     1.2,
-     0
-    ],
-    [
-     2.4,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Krossmói 4, Reykjanesbær",
-   "hours": "Mo-Su 10:00-19:00",
-   "brand": "Nettó"
   },
   {
    "id": "n8011272291",
@@ -2459,6 +2368,28 @@
    "brand": "Bónus"
   },
   {
+   "id": "n4178526374",
+   "name": "Nettó",
+   "lat": 63.99334,
+   "lng": -22.55058,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     2.4,
+     7
+    ],
+    [
+     2.9,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Krossmói 4, Reykjanesbær",
+   "hours": "Mo-Su 10:00-19:00",
+   "brand": "Nettó"
+  },
+  {
    "id": "n2970556506",
    "name": "Krónan",
    "lat": 64.08448,
@@ -2486,6 +2417,75 @@
    "hours": "Mo-Su 08:00-21:00",
    "email": "vallakor@kronan.is",
    "brand": "Krónan"
+  },
+  {
+   "id": "n8879657941",
+   "name": "Mini Market",
+   "lat": 63.99814,
+   "lng": -22.54951,
+   "kind": "grocery",
+   "cat": "minimarket",
+   "days": [
+    [
+     2.9,
+     7
+    ],
+    [
+     3.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544350107",
+   "website": "https://minimarket.is/",
+   "address": "Hafnargata 80, Keflavík",
+   "hours": "Mo-Sa 10:00-20:00; Su 12:00-17:00",
+   "brand": "Mini Market"
+  },
+  {
+   "id": "n4039853984",
+   "name": "Bónus",
+   "lat": 64.00324,
+   "lng": -22.55656,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     3.5,
+     7
+    ],
+    [
+     4.0,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://bonus.is/",
+   "address": "Túngata 1, Reykjanesbær",
+   "hours": "Mo-Su 10:00-19:00",
+   "brand": "Bónus"
+  },
+  {
+   "id": "n2383088038",
+   "name": "Nettó",
+   "lat": 63.99994,
+   "lng": -22.57666,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     3.5,
+     7
+    ],
+    [
+     4.3,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Iðavellir 14b, Reykjanesbær",
+   "hours": "Mo-Su 10:00-21:00",
+   "brand": "Nettó"
   },
   {
    "id": "n2412862340",

@@ -141,7 +141,18 @@
       "notes": "Replaces Kirkjustræti 2 — 800 m further west, by the old harbour. Rated 9.8 from 21 reviews. Confirm check-in time and whether parking is included; 101 Reykjavík is paid/zoned and the car is with us until 20:00 on the 10th."
     }
   ],
-  "tours": [],
+  "tours": [
+    {
+      "name": "Jökulsárlón zodiac boat tour",
+      "operator": "",
+      "date": "2026-10-07",
+      "time": "09:50",
+      "meetingPoint": "Jökulsárlón glacier lagoon car park, Route 1",
+      "bookedBy": "Kirill",
+      "duration": "~60 min on the water",
+      "notes": "Fixed departure. Route now leaves Höfn 07:15 and reaches the lagoon 09:12, giving 38 min for check-in and the flotation suit. Block runs to 11:07 to cover de-suiting. Still need the operator name, confirmation number and their stated check-in time."
+    }
+  ],
   "emergency": {
     "Emergency (all services)": "112",
     "Road conditions": "https://www.road.is",
@@ -169,6 +180,11 @@
   },
   "todo": [
     {
+      "what": "Get the Jökulsárlón operator name + confirmation number from Kirill",
+      "owner": "Vitalii",
+      "blocking": false
+    },
+    {
       "what": "Night 1 — arrange late check-in; window closes 00:30 and we arrive ~01:10",
       "owner": "Vitalii",
       "blocking": true
@@ -191,11 +207,6 @@
     {
       "what": "Confirm car insurance covers gravel (GP) and sand & ash (SAAP)",
       "owner": "Vitalii",
-      "blocking": false
-    },
-    {
-      "what": "Re-verify Oct 9 end and Oct 10 start — night 8 is Reykjavík, not Selfoss",
-      "owner": "Claude",
       "blocking": false
     },
     {

@@ -1,6 +1,6 @@
 {
  "note": "Accommodation within 10 km of the route — reference only; our own bookings live in data/trip.json.",
- "count": 678,
+ "count": 676,
  "items": [
   {
    "id": "w432399580",
@@ -129,11 +129,11 @@
    "days": [
     [
      0.0,
-     2
+     3
     ],
     [
-     0.0,
-     3
+     0.4,
+     2
     ]
    ],
    "town": false,
@@ -151,11 +151,11 @@
    "days": [
     [
      0.0,
-     2
+     3
     ],
     [
-     0.0,
-     3
+     0.4,
+     2
     ]
    ],
    "town": false,
@@ -300,30 +300,6 @@
    "wheelchair": "yes"
   },
   {
-   "id": "n1407357268",
-   "name": "Hotel Klaustur",
-   "lat": 63.78853,
-   "lng": -18.05265,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.0,
-     4
-    ],
-    [
-     0.0,
-     5
-    ]
-   ],
-   "town": false,
-   "phone": "+3544874900",
-   "website": "https://hotelklaustur.is/",
-   "address": "Klausturvegur 6",
-   "email": "info@hotelklaustur.is",
-   "wikidata": "Q111873714"
-  },
-  {
    "id": "w762209242",
    "name": "Hotel Kría",
    "lat": 63.41809,
@@ -336,7 +312,7 @@
      5
     ],
     [
-     0.2,
+     0.7,
      6
     ]
    ],
@@ -379,7 +355,7 @@
      5
     ],
     [
-     4.3,
+     5.2,
      4
     ]
    ],
@@ -396,10 +372,6 @@
     [
      0.0,
      4
-    ],
-    [
-     6.8,
-     5
     ]
    ],
    "town": false,
@@ -490,28 +462,6 @@
    "town": false,
    "phone": "+3544822660",
    "website": "https://www.thingvellir.is/en/service/camping/"
-  },
-  {
-   "id": "n8482494481",
-   "name": "Núpan Deluxe",
-   "lat": 64.00419,
-   "lng": -22.55923,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.0,
-     0
-    ],
-    [
-     3.7,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545653333",
-   "website": "https://www.hotelnupan.com/",
-   "address": "Aðalgata 10, Reykjanesbær"
   },
   {
    "id": "w301399077",
@@ -689,26 +639,6 @@
    "town": false
   },
   {
-   "id": "n2749630142",
-   "name": "A. Bernhard Bed & Breakfast",
-   "lat": 64.00347,
-   "lng": -22.55742,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.1,
-     0
-    ],
-    [
-     3.6,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Vallargata 6, Keflavík"
-  },
-  {
    "id": "n5431371834",
    "name": "AK Apartments",
    "lat": 65.68407,
@@ -787,29 +717,6 @@
    "town": true
   },
   {
-   "id": "n475371456",
-   "name": "Alex",
-   "lat": 63.99908,
-   "lng": -22.58553,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     0.1,
-     0
-    ],
-    [
-     3.5,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544212800",
-   "website": "http://www.alex.is",
-   "address": "Aðalgata 60, Keflavík",
-   "email": "alex@alex.is"
-  },
-  {
    "id": "n4346656651",
    "name": "Apotek Guesthouse",
    "lat": 65.68188,
@@ -837,7 +744,7 @@
      2
     ],
     [
-     0.3,
+     0.1,
      3
     ]
    ],
@@ -1009,27 +916,6 @@
    "address": "Hafnarstræti 102"
   },
   {
-   "id": "n10759463966",
-   "name": "Courtyard Reykjavik Keflavik Airport",
-   "lat": 63.99895,
-   "lng": -22.5868,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.1,
-     0
-    ],
-    [
-     3.5,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545996100",
-   "hours": "24/7"
-  },
-  {
    "id": "r10045210",
    "name": "Dimmuborgir",
    "lat": 65.60278,
@@ -1091,25 +977,6 @@
    "town": false
   },
   {
-   "id": "n13119275657",
-   "name": "Edda",
-   "lat": 63.52796,
-   "lng": -19.49688,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.1,
-     6
-    ],
-    [
-     5.6,
-     5
-    ]
-   ],
-   "town": false
-  },
-  {
    "id": "n837950425",
    "name": "Edda Vík",
    "lat": 63.41927,
@@ -1122,7 +989,7 @@
      5
     ],
     [
-     0.1,
+     0.3,
      6
     ]
    ],
@@ -1161,6 +1028,27 @@
    ],
    "town": false,
    "address": "Engimýri III"
+  },
+  {
+   "id": "n1757673118",
+   "name": "Eyjólfsstaðir",
+   "lat": 65.18868,
+   "lng": -14.50138,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.1,
+     2
+    ],
+    [
+     0.1,
+     3
+    ]
+   ],
+   "town": false,
+   "phone": "+3544712171",
+   "website": "https://eyjolfsstadir.is/"
   },
   {
    "id": "n3994091159",
@@ -1209,26 +1097,6 @@
     ]
    ],
    "town": false
-  },
-  {
-   "id": "n7201295973",
-   "name": "Fosstúnskógar",
-   "lat": 63.52471,
-   "lng": -19.50569,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.1,
-     6
-    ],
-    [
-     5.8,
-     5
-    ]
-   ],
-   "town": false,
-   "phone": "+3544878885"
   },
   {
    "id": "n4951732840",
@@ -1330,6 +1198,63 @@
    "phone": "+3545554411",
    "website": "http://www.summerdays.is",
    "address": "24"
+  },
+  {
+   "id": "n7830781474",
+   "name": "Grund Cottage",
+   "lat": 63.56547,
+   "lng": -18.25573,
+   "kind": "stay",
+   "cat": "apartment",
+   "days": [
+    [
+     0.1,
+     5
+    ],
+    [
+     3.0,
+     4
+    ]
+   ],
+   "town": false
+  },
+  {
+   "id": "w838816818",
+   "name": "Grund Cottage 1",
+   "lat": 63.56538,
+   "lng": -18.25564,
+   "kind": "stay",
+   "cat": "apartment",
+   "days": [
+    [
+     0.1,
+     5
+    ],
+    [
+     3.0,
+     4
+    ]
+   ],
+   "town": false
+  },
+  {
+   "id": "w838816817",
+   "name": "Grund Cottage 2",
+   "lat": 63.56557,
+   "lng": -18.25577,
+   "kind": "stay",
+   "cat": "apartment",
+   "days": [
+    [
+     0.1,
+     5
+    ],
+    [
+     3.0,
+     4
+    ]
+   ],
+   "town": false
   },
   {
    "id": "n4346656678",
@@ -1449,6 +1374,25 @@
    ],
    "town": false,
    "address": "Þverhamar 2A"
+  },
+  {
+   "id": "w1072059928",
+   "name": "Happy Campsite Keflavík",
+   "lat": 63.97058,
+   "lng": -22.5086,
+   "kind": "stay",
+   "cat": "campsite",
+   "days": [
+    [
+     0.1,
+     0
+    ],
+    [
+     0.2,
+     7
+    ]
+   ],
+   "town": true
   },
   {
    "id": "w233357268",
@@ -1601,7 +1545,7 @@
      5
     ],
     [
-     0.1,
+     0.3,
      6
     ]
    ],
@@ -1609,26 +1553,6 @@
    "website": "https://www.stayinvik.is/",
    "address": "Klettsvegur 1-5, Vík í Mýrdal",
    "wikidata": "Q111873629"
-  },
-  {
-   "id": "w193118184",
-   "name": "House on the hill",
-   "lat": 64.25533,
-   "lng": -15.20625,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.1,
-     3
-    ],
-    [
-     0.1,
-     4
-    ]
-   ],
-   "town": false,
-   "address": "Fiskhóll 11, Höfn"
   },
   {
    "id": "n13411491661",
@@ -1747,6 +1671,25 @@
    ],
    "town": true,
    "address": "Hafnarstræti 67, Akureyri"
+  },
+  {
+   "id": "n1823040653",
+   "name": "Hótel Dyrhólaey",
+   "lat": 63.44828,
+   "lng": -19.14257,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.2,
+     5
+    ]
+   ],
+   "town": false
   },
   {
    "id": "w194193817",
@@ -1892,6 +1835,30 @@
    "address": "Tjarnarvellir 3, Hafnarfjörður"
   },
   {
+   "id": "w193117932",
+   "name": "Höfn Inn Guesthouse",
+   "lat": 64.25931,
+   "lng": -15.20783,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.1,
+     3
+    ],
+    [
+     0.1,
+     4
+    ]
+   ],
+   "town": false,
+   "phone": "+3544781544",
+   "website": "http://www.hofninn.is/hofninn/",
+   "address": "Vesturbraut 3",
+   "email": "info@hofninn.is",
+   "wikidata": "Q111873664"
+  },
+  {
    "id": "w113578857",
    "name": "IGDLO Guesthouse",
    "lat": 64.1369,
@@ -1976,7 +1943,7 @@
      2
     ],
     [
-     2.3,
+     2.4,
      3
     ]
    ],
@@ -2046,11 +2013,11 @@
    "days": [
     [
      0.1,
-     2
+     3
     ],
     [
-     0.1,
-     3
+     0.4,
+     2
     ]
    ],
    "town": false,
@@ -2250,46 +2217,6 @@
    "wheelchair": "yes"
   },
   {
-   "id": "w178845366",
-   "name": "Skogar Guesthouse",
-   "lat": 63.52851,
-   "lng": -19.49932,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     0.1,
-     6
-    ],
-    [
-     5.8,
-     5
-    ]
-   ],
-   "town": false,
-   "address": "Vistarvegur 1"
-  },
-  {
-   "id": "w178845374",
-   "name": "Skogar Guesthouse",
-   "lat": 63.52793,
-   "lng": -19.49664,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.1,
-     6
-    ],
-    [
-     5.6,
-     5
-    ]
-   ],
-   "town": false,
-   "address": "Skólavegur 1"
-  },
-  {
    "id": "n837914981",
    "name": "Skútustadir Guesthouse",
    "lat": 65.56707,
@@ -2327,26 +2254,6 @@
     ]
    ],
    "town": true
-  },
-  {
-   "id": "w214228684",
-   "name": "Sólbrekka 16 Guesthouse",
-   "lat": 65.26651,
-   "lng": -14.39385,
-   "kind": "stay",
-   "cat": "cabin",
-   "days": [
-    [
-     0.1,
-     2
-    ],
-    [
-     0.1,
-     3
-    ]
-   ],
-   "town": false,
-   "address": "Sólbrekka 16, Egilsstaðir"
   },
   {
    "id": "n5083050142",
@@ -2562,26 +2469,6 @@
    "town": true
   },
   {
-   "id": "n4990526606",
-   "name": "Ace Guesthouse",
-   "lat": 63.97785,
-   "lng": -22.55407,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.2,
-     0
-    ],
-    [
-     0.9,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Vallarás 21, Keflavík"
-  },
-  {
    "id": "n693747752",
    "name": "Akurinn Guesthouse",
    "lat": 65.68444,
@@ -2592,46 +2479,6 @@
     [
      0.2,
      1
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "w193118222",
-   "name": "Apotek Guesthouse",
-   "lat": 64.25363,
-   "lng": -15.21161,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.2,
-     3
-    ],
-    [
-     0.2,
-     4
-    ]
-   ],
-   "town": false,
-   "address": "Hafnarbraut 29",
-   "wikidata": "Q111873665"
-  },
-  {
-   "id": "n474788332",
-   "name": "B&B Guesthouse",
-   "lat": 64.00147,
-   "lng": -22.5611,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.2,
-     0
-    ],
-    [
-     3.4,
-     7
     ]
    ],
    "town": true
@@ -2731,6 +2578,30 @@
    "address": "Skógarhlíð 10, Reykjavík",
    "email": "info@bushostelreykjavik.com",
    "wikidata": "Q111121741"
+  },
+  {
+   "id": "w249836961",
+   "name": "Camp Egilsstaðir",
+   "lat": 65.25823,
+   "lng": -14.40873,
+   "kind": "stay",
+   "cat": "campsite",
+   "days": [
+    [
+     0.2,
+     2
+    ],
+    [
+     0.2,
+     3
+    ]
+   ],
+   "town": false,
+   "phone": "+3544700750",
+   "website": "https://campegilsstadir.is/",
+   "address": "Kaupvangur 17, Egilsstaðir",
+   "hours": "Jun-Aug 07:00-23:00; Sep 08:00-14:00, 16:00-23:00; Oct-May Mo-Su 08:30-12:30",
+   "email": "tjaldstaedid@egilsstadir.is"
   },
   {
    "id": "n13663618191",
@@ -3104,23 +2975,24 @@
    "town": false
   },
   {
-   "id": "w1072059928",
-   "name": "Happy Campsite Keflavík",
-   "lat": 63.97058,
-   "lng": -22.5086,
+   "id": "n2399580876",
+   "name": "Hjólhýsa- og gistiheimilið Njarðvík",
+   "lat": 63.976,
+   "lng": -22.50797,
    "kind": "stay",
-   "cat": "campsite",
+   "cat": "guesthouse",
    "days": [
     [
      0.2,
      0
     ],
     [
-     0.2,
+     0.8,
      7
     ]
    ],
-   "town": true
+   "town": true,
+   "phone": "+3544216053"
   },
   {
    "id": "n1224362473",
@@ -3175,27 +3047,6 @@
    "town": false,
    "address": "Hafnarfjall 2",
    "wikidata": "Q111873725"
-  },
-  {
-   "id": "w499382759",
-   "name": "Hotel Skógar",
-   "lat": 63.52493,
-   "lng": -19.50636,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.2,
-     6
-    ],
-    [
-     5.9,
-     5
-    ]
-   ],
-   "town": false,
-   "website": "https://www.hotelskogar.is/",
-   "address": "Skógarfossvegur 4"
   },
   {
    "id": "n8890006369",
@@ -3279,30 +3130,6 @@
    "stars": "3"
   },
   {
-   "id": "w193117932",
-   "name": "Höfn Inn Guesthouse",
-   "lat": 64.25931,
-   "lng": -15.20783,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.2,
-     3
-    ],
-    [
-     0.2,
-     4
-    ]
-   ],
-   "town": false,
-   "phone": "+3544781544",
-   "website": "http://www.hofninn.is/hofninn/",
-   "address": "Vesturbraut 3",
-   "email": "info@hofninn.is",
-   "wikidata": "Q111873664"
-  },
-  {
    "id": "n5901575185",
    "name": "Húnaver",
    "lat": 65.52294,
@@ -3373,6 +3200,25 @@
    "website": "https://lonsa.is",
    "address": "Lónsá 1, Akureyri, dreifbýli",
    "email": "info@lonsa.is"
+  },
+  {
+   "id": "n7772276505",
+   "name": "Magma Hotel",
+   "lat": 63.78446,
+   "lng": -18.0152,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.2,
+     4
+    ],
+    [
+     5.4,
+     5
+    ]
+   ],
+   "town": false
   },
   {
    "id": "w173312436",
@@ -3449,6 +3295,26 @@
    "town": false
   },
   {
+   "id": "n13484792695",
+   "name": "Ocean View Guesthouse",
+   "lat": 63.97522,
+   "lng": -22.49888,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.2,
+     0
+    ],
+    [
+     0.8,
+     7
+    ]
+   ],
+   "town": true,
+   "address": "Brimdalur 1, Reykjanesbær"
+  },
+  {
    "id": "n6602300251",
    "name": "Oddsson Hotel",
    "lat": 64.13116,
@@ -3512,25 +3378,6 @@
    ],
    "town": false,
    "address": "Norðurljósavegur 7"
-  },
-  {
-   "id": "n6778181233",
-   "name": "Skógafoss Guesthouse",
-   "lat": 63.52524,
-   "lng": -19.50776,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.2,
-     6
-    ],
-    [
-     5.9,
-     5
-    ]
-   ],
-   "town": false
   },
   {
    "id": "n12992182311",
@@ -3600,26 +3447,44 @@
    "address": "Rangárflatir 4"
   },
   {
-   "id": "n4039853983",
-   "name": "Svitan Guesthouse",
-   "lat": 64.00471,
-   "lng": -22.55722,
+   "id": "w214228684",
+   "name": "Sólbrekka 16 Guesthouse",
+   "lat": 65.26651,
+   "lng": -14.39385,
    "kind": "stay",
-   "cat": "guesthouse",
+   "cat": "cabin",
    "days": [
     [
      0.2,
-     0
+     3
     ],
     [
-     3.7,
-     7
+     0.5,
+     2
     ]
    ],
-   "town": true,
-   "phone": "+3546631269",
-   "website": "https://svitan.is/",
-   "address": "Túngata 10, Keflavik"
+   "town": false,
+   "address": "Sólbrekka 16, Egilsstaðir"
+  },
+  {
+   "id": "n9167677966",
+   "name": "Tehúsið Hostel",
+   "lat": 65.25857,
+   "lng": -14.40663,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.2,
+     2
+    ],
+    [
+     0.2,
+     3
+    ]
+   ],
+   "town": false,
+   "address": "Kaupvangur 17, Egilsstaðir"
   },
   {
    "id": "n6364564376",
@@ -3730,7 +3595,7 @@
      5
     ],
     [
-     0.2,
+     0.5,
      6
     ]
    ],
@@ -3751,11 +3616,11 @@
    "days": [
     [
      0.2,
-     2
+     3
     ],
     [
-     0.2,
-     3
+     0.6,
+     2
     ]
    ],
    "town": false,
@@ -3898,30 +3763,6 @@
    "town": false,
    "website": "https://borgarnesbb.is/",
    "address": "Skúlagata 21, Borgarnes"
-  },
-  {
-   "id": "w249836961",
-   "name": "Camp Egilsstaðir",
-   "lat": 65.25823,
-   "lng": -14.40873,
-   "kind": "stay",
-   "cat": "campsite",
-   "days": [
-    [
-     0.3,
-     2
-    ],
-    [
-     0.5,
-     3
-    ]
-   ],
-   "town": false,
-   "phone": "+3544700750",
-   "website": "https://campegilsstadir.is/",
-   "address": "Kaupvangur 17, Egilsstaðir",
-   "hours": "Jun-Aug 07:00-23:00; Sep 08:00-14:00, 16:00-23:00; Oct-May Mo-Su 08:30-12:30",
-   "email": "tjaldstaedid@egilsstadir.is"
   },
   {
    "id": "w1279750714",
@@ -4109,7 +3950,7 @@
      2
     ],
     [
-     0.7,
+     0.3,
      3
     ]
    ],
@@ -4153,28 +3994,6 @@
     ]
    ],
    "town": true
-  },
-  {
-   "id": "n7801455180",
-   "name": "Guesthouse 1×6",
-   "lat": 64.00707,
-   "lng": -22.55882,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.3,
-     0
-    ],
-    [
-     4.0,
-     7
-    ]
-   ],
-   "town": true,
-   "website": "https://www.1x6.is/",
-   "address": "Vesturbraut 3, Keflavík",
-   "wikidata": "Q111409573"
   },
   {
    "id": "w426011473",
@@ -4225,31 +4044,12 @@
      5
     ],
     [
-     4.4,
+     4.9,
      6
     ]
    ],
    "town": false,
    "wikidata": "Q111409534"
-  },
-  {
-   "id": "n6778156236",
-   "name": "Hotel Skógafoss Apartments",
-   "lat": 63.52533,
-   "lng": -19.50851,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.3,
-     6
-    ],
-    [
-     6.0,
-     5
-    ]
-   ],
-   "town": false
   },
   {
    "id": "w28310678",
@@ -4262,25 +4062,6 @@
     [
      0.3,
      7
-    ]
-   ],
-   "town": false
-  },
-  {
-   "id": "n1823040653",
-   "name": "Hótel Dyrhólaey",
-   "lat": 63.44828,
-   "lng": -19.14257,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.3,
-     5
-    ],
-    [
-     0.3,
-     6
     ]
    ],
    "town": false
@@ -4346,50 +4127,6 @@
    "stars": "3"
   },
   {
-   "id": "w193117922",
-   "name": "Hótel Höfn",
-   "lat": 64.25747,
-   "lng": -15.21257,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.3,
-     3
-    ],
-    [
-     0.3,
-     4
-    ]
-   ],
-   "town": false,
-   "phone": "+3544781240",
-   "website": "https://www.hotelhofn.is/",
-   "address": "Víkurbraut 20",
-   "email": "hotelhofn@hotelhofn.is",
-   "wikidata": "Q55809529"
-  },
-  {
-   "id": "w476925015",
-   "name": "Höfn Guesthouse",
-   "lat": 64.25156,
-   "lng": -15.21142,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.3,
-     3
-    ],
-    [
-     0.3,
-     4
-    ]
-   ],
-   "town": false,
-   "wikidata": "Q112013012"
-  },
-  {
    "id": "n9152713064",
    "name": "K16 Apartments",
    "lat": 65.68008,
@@ -4405,91 +4142,6 @@
    "town": true,
    "website": "https://kapartments.inn.fan",
    "address": "Kaupvangsstræti 16"
-  },
-  {
-   "id": "n4010267220",
-   "name": "Kef Guesthouse",
-   "lat": 63.9819,
-   "lng": -22.55823,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.3,
-     0
-    ],
-    [
-     1.4,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545889999",
-   "website": "https://kefguesthouse.is/",
-   "email": "info@kefguesthouse.is"
-  },
-  {
-   "id": "n3756135456",
-   "name": "Keflavìk Hostel",
-   "lat": 63.9821,
-   "lng": -22.55821,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     0.3,
-     0
-    ],
-    [
-     1.4,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545889999",
-   "email": "keflavik@hostel.is"
-  },
-  {
-   "id": "w168916937",
-   "name": "Kirkjubær II",
-   "lat": 63.79244,
-   "lng": -18.05086,
-   "kind": "stay",
-   "cat": "campsite",
-   "days": [
-    [
-     0.3,
-     4
-    ],
-    [
-     0.3,
-     5
-    ]
-   ],
-   "town": false,
-   "phone": "+3544874612",
-   "website": "https://kirkjubaer.com/",
-   "email": "kirkjubaer@simnet.is"
-  },
-  {
-   "id": "n4159754508",
-   "name": "Melás 9 Guesthouse",
-   "lat": 63.97789,
-   "lng": -22.55096,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.3,
-     0
-    ],
-    [
-     0.8,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Melás 9, Keflavík"
   },
   {
    "id": "n4223244991",
@@ -4529,7 +4181,7 @@
      2
     ],
     [
-     2.3,
+     2.4,
      3
     ]
    ],
@@ -4554,65 +4206,6 @@
    "hours": "open \"All year\"",
    "email": "skaftafell@vjp.is",
    "wheelchair": "yes"
-  },
-  {
-   "id": "n4902436790",
-   "name": "Skýjaborg Apartments",
-   "lat": 64.25238,
-   "lng": -15.20272,
-   "kind": "stay",
-   "cat": "apartment",
-   "days": [
-    [
-     0.3,
-     3
-    ],
-    [
-     0.3,
-     4
-    ]
-   ],
-   "town": false
-  },
-  {
-   "id": "w193118836",
-   "name": "Sólgerði",
-   "lat": 64.25114,
-   "lng": -15.20849,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.3,
-     3
-    ],
-    [
-     0.3,
-     4
-    ]
-   ],
-   "town": false,
-   "address": "Hafnarbraut 20"
-  },
-  {
-   "id": "n9167677966",
-   "name": "Tehúsið Hostel",
-   "lat": 65.25857,
-   "lng": -14.40663,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     0.3,
-     2
-    ],
-    [
-     0.4,
-     3
-    ]
-   ],
-   "town": false,
-   "address": "Kaupvangur 17, Egilsstaðir"
   },
   {
    "id": "w244172704",
@@ -4683,7 +4276,7 @@
      2
     ],
     [
-     3.2,
+     3.3,
      3
     ]
    ],
@@ -4928,52 +4521,6 @@
    "website": "https://gerdi.is"
   },
   {
-   "id": "w193118881",
-   "name": "Guesthouse Dyngja",
-   "lat": 64.25045,
-   "lng": -15.20527,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.4,
-     3
-    ],
-    [
-     0.4,
-     4
-    ]
-   ],
-   "town": false,
-   "phone": "+3548660702",
-   "website": "https://dyngja.com",
-   "address": "Hafnarbraut 1",
-   "email": "fanney@dyngja.com"
-  },
-  {
-   "id": "w193117951",
-   "name": "Guesthouse Mikael",
-   "lat": 64.25102,
-   "lng": -15.206,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.4,
-     3
-    ],
-    [
-     0.4,
-     4
-    ]
-   ],
-   "town": false,
-   "phone": "+3546610072",
-   "website": "https://guesthousemikael.is/",
-   "address": "Hafnarbraut 8, Höfn",
-   "email": "guesthousemikael@gmail.com"
-  },
-  {
    "id": "n1873670976",
    "name": "Guesthouse Narfastaðir",
    "lat": 65.67799,
@@ -5054,30 +4601,6 @@
    "address": "Hverfisvegur"
   },
   {
-   "id": "n13506622678",
-   "name": "Hotel Duus",
-   "lat": 64.00825,
-   "lng": -22.55758,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.4,
-     0
-    ],
-    [
-     4.1,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544217080",
-   "website": "https://www.hotelduus.is/",
-   "address": "Duusgata 10, Keflavik",
-   "wheelchair": "yes",
-   "stars": "3.5"
-  },
-  {
    "id": "n4112394905",
    "name": "Hotel Hilda",
    "lat": 64.14894,
@@ -5104,44 +4627,24 @@
    "address": "Bárugata 11, Reykjavík"
   },
   {
-   "id": "n13512963768",
-   "name": "Hotel Jazz",
-   "lat": 64.00239,
-   "lng": -22.55131,
+   "id": "w193118184",
+   "name": "House on the hill",
+   "lat": 64.25533,
+   "lng": -15.20625,
    "kind": "stay",
-   "cat": "hotel",
+   "cat": "guesthouse",
    "days": [
     [
      0.4,
-     0
+     3
     ],
-    [
-     3.4,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Austurgata 13"
-  },
-  {
-   "id": "n1915296512",
-   "name": "Hotel Keilir by Reykjavik Keflavik Airport",
-   "lat": 64.00239,
-   "lng": -22.55306,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
     [
      0.4,
-     0
-    ],
-    [
-     3.4,
-     7
+     4
     ]
    ],
-   "town": true,
-   "address": "Hafnargata 37"
+   "town": false,
+   "address": "Fiskhóll 11, Höfn"
   },
   {
    "id": "n765397203",
@@ -5175,47 +4678,48 @@
    "address": "Eyrarlandsvegur 28, Akureyri"
   },
   {
-   "id": "w300179746",
-   "name": "Hótel Skógarfoss",
-   "lat": 63.52711,
-   "lng": -19.51072,
+   "id": "w193117922",
+   "name": "Hótel Höfn",
+   "lat": 64.25747,
+   "lng": -15.21257,
    "kind": "stay",
    "cat": "hotel",
    "days": [
     [
      0.4,
-     6
+     3
     ],
-    [
-     6.2,
-     5
-    ]
-   ],
-   "town": false,
-   "phone": "+3544878780",
-   "website": "https://hotelskogafoss.is/",
-   "address": "Fossbúð, Skógar",
-   "email": "info@hotelskogafoss.is"
-  },
-  {
-   "id": "n1407316870",
-   "name": "Klausturhof",
-   "lat": 63.78607,
-   "lng": -18.0603,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
     [
      0.4,
      4
-    ],
-    [
-     0.4,
-     5
     ]
    ],
    "town": false,
-   "address": "Klausturvegur 1 - 3, Kirkjubæjarklaustur"
+   "phone": "+3544781240",
+   "website": "https://www.hotelhofn.is/",
+   "address": "Víkurbraut 20",
+   "email": "hotelhofn@hotelhofn.is",
+   "wikidata": "Q55809529"
+  },
+  {
+   "id": "n13484600748",
+   "name": "Hótel Stapakot",
+   "lat": 63.97752,
+   "lng": -22.50471,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.4,
+     0
+    ],
+    [
+     1.0,
+     7
+    ]
+   ],
+   "town": true,
+   "address": "Stapagata 20, Reykjanesbær"
   },
   {
    "id": "n4730757622",
@@ -5386,28 +4890,6 @@
    "town": false
   },
   {
-   "id": "n1806270435",
-   "name": "Skógar",
-   "lat": 63.5269,
-   "lng": -19.51088,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     0.4,
-     6
-    ],
-    [
-     6.2,
-     5
-    ]
-   ],
-   "town": false,
-   "phone": "+3544878801",
-   "website": "https://www.hostel.is/Hostels/Skogar/",
-   "email": "skogar@hostel.is"
-  },
-  {
    "id": "n451874500",
    "name": "Smyrlabjörg",
    "lat": 64.21731,
@@ -5482,7 +4964,7 @@
      2
     ],
     [
-     2.4,
+     2.5,
      3
     ]
    ],
@@ -5800,6 +5282,26 @@
    "stars": "3"
   },
   {
+   "id": "n7201295973",
+   "name": "Fosstúnskógar",
+   "lat": 63.52471,
+   "lng": -19.50569,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     5.8,
+     5
+    ]
+   ],
+   "town": false,
+   "phone": "+3544878885"
+  },
+  {
    "id": "n4578362113",
    "name": "Gest-inn Guesthouse",
    "lat": 64.14152,
@@ -6013,6 +5515,28 @@
    "town": false
   },
   {
+   "id": "n8890082516",
+   "name": "Hotel 1001 Nott",
+   "lat": 65.2315,
+   "lng": -14.47114,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.5,
+     2
+    ],
+    [
+     0.5,
+     3
+    ]
+   ],
+   "town": false,
+   "phone": "+3548537700",
+   "website": "https://1001nott.is/",
+   "address": "Álfaás Vellir, Egilsstaðir"
+  },
+  {
    "id": "n3726531026",
    "name": "Hotel Holt",
    "lat": 64.14278,
@@ -6084,30 +5608,6 @@
    "address": "Hrafnabjörg"
   },
   {
-   "id": "w193118207",
-   "name": "Hvammur",
-   "lat": 64.24999,
-   "lng": -15.20648,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.5,
-     3
-    ],
-    [
-     0.5,
-     4
-    ]
-   ],
-   "town": false,
-   "phone": "+3544781503",
-   "website": "http://www.hofninn.is/hvammur/",
-   "address": "Ránarslóð 2",
-   "email": "info@hvammurinn.is",
-   "wikidata": "Q55809511"
-  },
-  {
    "id": "w221839902",
    "name": "Hveramýri",
    "lat": 64.17616,
@@ -6130,6 +5630,30 @@
    ],
    "town": false,
    "address": "Hveramýri 1"
+  },
+  {
+   "id": "w723133347",
+   "name": "Hótel Laki",
+   "lat": 63.77446,
+   "lng": -17.96156,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.5,
+     4
+    ],
+    [
+     7.5,
+     5
+    ]
+   ],
+   "town": false,
+   "phone": "+3544124600",
+   "website": "https://www.hotellaki.is/",
+   "address": "Efri-Vík, Kirkjubæjarklaustur",
+   "email": "hotellaki@hotellaki.is",
+   "wikidata": "Q111409584"
   },
   {
    "id": "n3847575543",
@@ -6156,24 +5680,27 @@
    "wikidata": "Q111873636"
   },
   {
-   "id": "n4394802590",
-   "name": "Höfn Berjaya Iceland Hotels",
-   "lat": 64.2493,
-   "lng": -15.20779,
+   "id": "w300179746",
+   "name": "Hótel Skógarfoss",
+   "lat": 63.52711,
+   "lng": -19.51072,
    "kind": "stay",
    "cat": "hotel",
    "days": [
     [
      0.5,
-     3
+     6
     ],
     [
-     0.5,
-     4
+     6.2,
+     5
     ]
    ],
    "town": false,
-   "address": "Ránarslóð"
+   "phone": "+3544878780",
+   "website": "https://hotelskogafoss.is/",
+   "address": "Fossbúð, Skógar",
+   "email": "info@hotelskogafoss.is"
   },
   {
    "id": "n5073339396",
@@ -6199,26 +5726,6 @@
    "town": true,
    "phone": "+3547888776",
    "address": "Mánagata 25, Reykjavík"
-  },
-  {
-   "id": "n13516887800",
-   "name": "KEF Centrum Guesthouse",
-   "lat": 64.00023,
-   "lng": -22.55379,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.5,
-     0
-    ],
-    [
-     3.2,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Mánagata 7"
   },
   {
    "id": "n12565131801",
@@ -6338,6 +5845,28 @@
    "town": true
   },
   {
+   "id": "n1806270435",
+   "name": "Skógar",
+   "lat": 63.5269,
+   "lng": -19.51088,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     6.2,
+     5
+    ]
+   ],
+   "town": false,
+   "phone": "+3544878801",
+   "website": "https://www.hostel.is/Hostels/Skogar/",
+   "email": "skogar@hostel.is"
+  },
+  {
    "id": "w414211437",
    "name": "Sulur Gistiheimili",
    "lat": 65.6768,
@@ -6413,26 +5942,6 @@
    "website": "https://vibrant.is"
   },
   {
-   "id": "n452668940",
-   "name": "Ásgarður",
-   "lat": 64.24931,
-   "lng": -15.2078,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.5,
-     3
-    ],
-    [
-     0.5,
-     4
-    ]
-   ],
-   "town": false,
-   "email": "asgardur@eldhorn.is"
-  },
-  {
    "id": "n3007770875",
    "name": "AR Central Apartments",
    "lat": 64.14807,
@@ -6454,26 +5963,6 @@
     ]
    ],
    "town": true
-  },
-  {
-   "id": "n2428180711",
-   "name": "Berg",
-   "lat": 64.00965,
-   "lng": -22.55692,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.6,
-     0
-    ],
-    [
-     4.2,
-     7
-    ]
-   ],
-   "town": true,
-   "wikidata": "Q111409572"
   },
   {
    "id": "n13410849064",
@@ -6749,28 +6238,6 @@
    "town": true
   },
   {
-   "id": "w267311124",
-   "name": "Hotel Grásteinn",
-   "lat": 63.98482,
-   "lng": -22.55399,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.6,
-     0
-    ],
-    [
-     1.5,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544215200",
-   "website": "https://hotelgrasteinn.is",
-   "address": "Bolafótur 11"
-  },
-  {
    "id": "w124546017",
    "name": "Hotel Luna Apartments",
    "lat": 64.14487,
@@ -6835,6 +6302,46 @@
    "phone": "+3545145000",
    "website": "https://www.islandshotel.is/hotels-in-iceland/hotel-reykjavik-saga/",
    "email": "saga@hotelreykjavik.is"
+  },
+  {
+   "id": "n6778156236",
+   "name": "Hotel Skógafoss Apartments",
+   "lat": 63.52533,
+   "lng": -19.50851,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     6.0,
+     5
+    ]
+   ],
+   "town": false
+  },
+  {
+   "id": "w499382759",
+   "name": "Hotel Skógar",
+   "lat": 63.52493,
+   "lng": -19.50636,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     5.9,
+     5
+    ]
+   ],
+   "town": false,
+   "website": "https://www.hotelskogar.is/",
+   "address": "Skógarfossvegur 4"
   },
   {
    "id": "w103060551",
@@ -6969,6 +6476,28 @@
    "wikidata": "Q112013067"
   },
   {
+   "id": "w168916937",
+   "name": "Kirkjubær II",
+   "lat": 63.79244,
+   "lng": -18.05086,
+   "kind": "stay",
+   "cat": "campsite",
+   "days": [
+    [
+     0.6,
+     4
+    ],
+    [
+     4.4,
+     5
+    ]
+   ],
+   "town": false,
+   "phone": "+3544874612",
+   "website": "https://kirkjubaer.com/",
+   "email": "kirkjubaer@simnet.is"
+  },
+  {
    "id": "n13714154182",
    "name": "Kvosin Downtown Hotel",
    "lat": 64.14637,
@@ -7047,25 +6576,6 @@
    "email": "info@nordicnatura.is"
   },
   {
-   "id": "n129990757",
-   "name": "Park Inn by Radisson",
-   "lat": 64.00038,
-   "lng": -22.54943,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.6,
-     0
-    ],
-    [
-     3.2,
-     7
-    ]
-   ],
-   "town": true
-  },
-  {
    "id": "n2782543216",
    "name": "Skálafell",
    "lat": 64.24798,
@@ -7076,6 +6586,25 @@
     [
      0.6,
      4
+    ]
+   ],
+   "town": false
+  },
+  {
+   "id": "n6778181233",
+   "name": "Skógafoss Guesthouse",
+   "lat": 63.52524,
+   "lng": -19.50776,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     5.9,
+     5
     ]
    ],
    "town": false
@@ -7230,6 +6759,27 @@
     ]
    ],
    "town": true
+  },
+  {
+   "id": "w193118222",
+   "name": "Apotek Guesthouse",
+   "lat": 64.25363,
+   "lng": -15.21161,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.7,
+     3
+    ],
+    [
+     0.7,
+     4
+    ]
+   ],
+   "town": false,
+   "address": "Hafnarbraut 29",
+   "wikidata": "Q111873665"
   },
   {
    "id": "n3029306354",
@@ -7482,29 +7032,6 @@
    "town": true
   },
   {
-   "id": "n454514020",
-   "name": "Hotel Keflavik",
-   "lat": 64.00043,
-   "lng": -22.54691,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.7,
-     0
-    ],
-    [
-     3.2,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544207000",
-   "website": "https://www.kef.is/",
-   "address": "Vatnsnesvegur 12-14, Keflavík",
-   "wikidata": "Q112013023"
-  },
-  {
    "id": "n1234101646",
    "name": "Hotel Óðinsvé",
    "lat": 64.14401,
@@ -7610,28 +7137,6 @@
    "wikidata": "Q111873639"
   },
   {
-   "id": "n13512962570",
-   "name": "Keflavík micro suites",
-   "lat": 63.99943,
-   "lng": -22.54949,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     0.7,
-     0
-    ],
-    [
-     3.1,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545393773",
-   "website": "https://keflavikmicrosuites.is/",
-   "address": "Hafnargata 65"
-  },
-  {
    "id": "w242648054",
    "name": "Lambafell",
    "lat": 63.54542,
@@ -7667,25 +7172,6 @@
    ],
    "town": false,
    "address": "Blöndubyggð 9, Blönduós"
-  },
-  {
-   "id": "n412698123",
-   "name": "Njarðvík Hostel",
-   "lat": 63.98334,
-   "lng": -22.54894,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     0.7,
-     0
-    ],
-    [
-     1.3,
-     7
-    ]
-   ],
-   "town": true
   },
   {
    "id": "n10299991437",
@@ -8195,26 +7681,6 @@
    "stars": "4"
   },
   {
-   "id": "n2399580876",
-   "name": "Hjólhýsa- og gistiheimilið Njarðvík",
-   "lat": 63.976,
-   "lng": -22.50797,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.8,
-     0
-    ],
-    [
-     0.8,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544216053"
-  },
-  {
    "id": "w105920029",
    "name": "Hlemmur Square",
    "lat": 64.1432,
@@ -8238,6 +7704,30 @@
    "town": true,
    "address": "Laugavegur 105, Reykjavík",
    "wheelchair": "yes"
+  },
+  {
+   "id": "n1407357268",
+   "name": "Hotel Klaustur",
+   "lat": 63.78853,
+   "lng": -18.05265,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     0.8,
+     4
+    ],
+    [
+     4.1,
+     5
+    ]
+   ],
+   "town": false,
+   "phone": "+3544874900",
+   "website": "https://hotelklaustur.is/",
+   "address": "Klausturvegur 6",
+   "email": "info@hotelklaustur.is",
+   "wikidata": "Q111873714"
   },
   {
    "id": "n815740292",
@@ -8315,6 +7805,26 @@
    "wheelchair": "yes"
   },
   {
+   "id": "n4159754508",
+   "name": "Melás 9 Guesthouse",
+   "lat": 63.97789,
+   "lng": -22.55096,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.8,
+     7
+    ],
+    [
+     2.0,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Melás 9, Keflavík"
+  },
+  {
    "id": "n5739905478",
    "name": "Mulí Hotel",
    "lat": 64.13919,
@@ -8383,26 +7893,6 @@
    "address": "Reykjavíkurvegur 72, Hafnarfjörður",
    "email": "reykjavikroad@nordurey.is",
    "stars": "3"
-  },
-  {
-   "id": "n13484792695",
-   "name": "Ocean View Guesthouse",
-   "lat": 63.97522,
-   "lng": -22.49888,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.8,
-     0
-    ],
-    [
-     0.8,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Brimdalur 1, Reykjanesbær"
   },
   {
    "id": "n6810102748",
@@ -8549,23 +8039,23 @@
    "email": "info@skyrgerdin.is"
   },
   {
-   "id": "n12345173203",
-   "name": "Smart Luxury - Private Gym, Hot Tub & Sauna",
-   "lat": 64.00979,
-   "lng": -22.57482,
+   "id": "n4902436790",
+   "name": "Skýjaborg Apartments",
+   "lat": 64.25238,
+   "lng": -15.20272,
    "kind": "stay",
-   "cat": "guesthouse",
+   "cat": "apartment",
    "days": [
     [
      0.8,
-     0
+     3
     ],
     [
-     4.5,
-     7
+     0.8,
+     4
     ]
    ],
-   "town": true
+   "town": false
   },
   {
    "id": "w484882324",
@@ -8659,6 +8149,26 @@
    "website": "https://www.visitfjardabyggd.is/",
    "address": "Óseyri, Fáskrúðsfjörður",
    "email": "camping.stodvarfjordur@gmail.com"
+  },
+  {
+   "id": "n4990526606",
+   "name": "Ace Guesthouse",
+   "lat": 63.97785,
+   "lng": -22.55407,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.9,
+     7
+    ],
+    [
+     2.1,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Vallarás 21, Keflavík"
   },
   {
    "id": "n3019308699",
@@ -8896,6 +8406,29 @@
    "address": "Aðalgata 2"
   },
   {
+   "id": "w193117951",
+   "name": "Guesthouse Mikael",
+   "lat": 64.25102,
+   "lng": -15.206,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.9,
+     3
+    ],
+    [
+     0.9,
+     4
+    ]
+   ],
+   "town": false,
+   "phone": "+3546610072",
+   "website": "https://guesthousemikael.is/",
+   "address": "Hafnarbraut 8, Höfn",
+   "email": "guesthousemikael@gmail.com"
+  },
+  {
    "id": "n3088219414",
    "name": "Guesthouse Tilraun",
    "lat": 65.65913,
@@ -9021,6 +8554,26 @@
    "wikidata": "Q112013002"
   },
   {
+   "id": "w476925015",
+   "name": "Höfn Guesthouse",
+   "lat": 64.25156,
+   "lng": -15.21142,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.9,
+     3
+    ],
+    [
+     0.9,
+     4
+    ]
+   ],
+   "town": false,
+   "wikidata": "Q112013012"
+  },
+  {
    "id": "n3088219436",
    "name": "Laugar Guesthouse",
    "lat": 65.72154,
@@ -9136,26 +8689,6 @@
    "wikidata": "Q111409551"
   },
   {
-   "id": "n4214145694",
-   "name": "Rose Guesthouse",
-   "lat": 63.99179,
-   "lng": -22.55778,
-   "kind": "stay",
-   "cat": "hostel",
-   "days": [
-    [
-     0.9,
-     0
-    ],
-    [
-     2.3,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Lyngmói 14"
-  },
-  {
    "id": "n4328444297",
    "name": "Saeberg Camping",
    "lat": 65.2597,
@@ -9170,6 +8703,26 @@
    ],
    "town": false,
    "hours": "24/7"
+  },
+  {
+   "id": "w178845366",
+   "name": "Skogar Guesthouse",
+   "lat": 63.52851,
+   "lng": -19.49932,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     5.8,
+     5
+    ]
+   ],
+   "town": false,
+   "address": "Vistarvegur 1"
   },
   {
    "id": "w370457551",
@@ -9236,6 +8789,26 @@
    "hours": "Mar 1-Oct 31"
   },
   {
+   "id": "w193118836",
+   "name": "Sólgerði",
+   "lat": 64.25114,
+   "lng": -15.20849,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     0.9,
+     3
+    ],
+    [
+     0.9,
+     4
+    ]
+   ],
+   "town": false,
+   "address": "Hafnarbraut 20"
+  },
+  {
    "id": "w213907457",
    "name": "Tjaldsvæðið Borgarnesi",
    "lat": 64.55228,
@@ -9252,26 +8825,6 @@
    "phone": "+3547751012",
    "address": "Borgarbraut, Borgarnes",
    "email": "borgarnes.camping@gmail.com"
-  },
-  {
-   "id": "n13510097288",
-   "name": "White House B&B",
-   "lat": 64.00721,
-   "lng": -22.58422,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     0.9,
-     0
-    ],
-    [
-     4.4,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Bragavellir 17, Reykjanesbær"
   },
   {
    "id": "r12546769",
@@ -9354,6 +8907,25 @@
    "town": false,
    "website": "https://www.booking.com/Share-gX2N1i",
    "wheelchair": "limited"
+  },
+  {
+   "id": "n13119275657",
+   "name": "Edda",
+   "lat": 63.52796,
+   "lng": -19.49688,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     5.6,
+     5
+    ]
+   ],
+   "town": false
   },
   {
    "id": "w300366520",
@@ -9476,23 +9048,27 @@
    "stars": "4"
   },
   {
-   "id": "n7188728552",
-   "name": "Gistihús Keflavíkur",
-   "lat": 63.97427,
-   "lng": -22.57751,
+   "id": "w193118881",
+   "name": "Guesthouse Dyngja",
+   "lat": 64.25045,
+   "lng": -15.20527,
    "kind": "stay",
    "cat": "hotel",
    "days": [
     [
      1.0,
-     0
+     3
     ],
     [
-     1.2,
-     7
+     1.0,
+     4
     ]
    ],
-   "town": true
+   "town": false,
+   "phone": "+3548660702",
+   "website": "https://dyngja.com",
+   "address": "Hafnarbraut 1",
+   "email": "fanney@dyngja.com"
   },
   {
    "id": "n13533978589",
@@ -9511,44 +9087,28 @@
    "address": "Oddabraut 24, Þorlákshöfn"
   },
   {
-   "id": "n13510125327",
-   "name": "Home Guesthouse",
-   "lat": 64.00864,
-   "lng": -22.58503,
+   "id": "w193118207",
+   "name": "Hvammur",
+   "lat": 64.24999,
+   "lng": -15.20648,
    "kind": "stay",
    "cat": "guesthouse",
    "days": [
     [
      1.0,
-     0
-    ],
-    [
-     4.5,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Þórsvellir 2, Reykjanesbær"
-  },
-  {
-   "id": "n13484600748",
-   "name": "Hótel Stapakot",
-   "lat": 63.97752,
-   "lng": -22.50471,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     1.0,
-     0
+     3
     ],
     [
      1.0,
-     7
+     4
     ]
    ],
-   "town": true,
-   "address": "Stapagata 20, Reykjanesbær"
+   "town": false,
+   "phone": "+3544781503",
+   "website": "http://www.hofninn.is/hvammur/",
+   "address": "Ránarslóð 2",
+   "email": "info@hvammurinn.is",
+   "wikidata": "Q55809511"
   },
   {
    "id": "n4766615122",
@@ -9613,24 +9173,24 @@
    "wikidata": "Q111458371"
   },
   {
-   "id": "n4916927222",
-   "name": "Konvin Hotel",
-   "lat": 63.97288,
-   "lng": -22.57653,
+   "id": "w178845374",
+   "name": "Skogar Guesthouse",
+   "lat": 63.52793,
+   "lng": -19.49664,
    "kind": "stay",
-   "cat": "hotel",
+   "cat": "guesthouse",
    "days": [
     [
      1.0,
-     0
+     6
     ],
     [
-     1.1,
-     7
+     5.6,
+     5
     ]
    ],
-   "town": true,
-   "address": "Keilisbraut 762"
+   "town": false,
+   "address": "Skólavegur 1"
   },
   {
    "id": "n4645004460",
@@ -9783,6 +9343,26 @@
    "stars": "4"
   },
   {
+   "id": "n4394802590",
+   "name": "Höfn Berjaya Iceland Hotels",
+   "lat": 64.2493,
+   "lng": -15.20779,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.1,
+     3
+    ],
+    [
+     1.1,
+     4
+    ]
+   ],
+   "town": false,
+   "address": "Ránarslóð"
+  },
+  {
    "id": "w1051918503",
    "name": "Höfði",
    "lat": 64.51804,
@@ -9799,23 +9379,24 @@
    "address": "Starmýri 2a"
   },
   {
-   "id": "n7772276505",
-   "name": "Magma Hotel",
-   "lat": 63.78446,
-   "lng": -18.0152,
+   "id": "n4916927222",
+   "name": "Konvin Hotel",
+   "lat": 63.97288,
+   "lng": -22.57653,
    "kind": "stay",
    "cat": "hotel",
    "days": [
     [
      1.1,
-     5
+     7
     ],
     [
-     1.5,
-     4
+     3.0,
+     0
     ]
    ],
-   "town": false
+   "town": true,
+   "address": "Keilisbraut 762"
   },
   {
    "id": "w1051918501",
@@ -9925,7 +9506,7 @@
      4
     ],
     [
-     1.1,
+     4.9,
      5
     ]
    ],
@@ -9980,6 +9561,65 @@
    "address": "Katrínartún 2, Reykjavík",
    "wikidata": "Q111873638",
    "stars": "4"
+  },
+  {
+   "id": "n452668940",
+   "name": "Ásgarður",
+   "lat": 64.24931,
+   "lng": -15.2078,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     1.1,
+     3
+    ],
+    [
+     1.1,
+     4
+    ]
+   ],
+   "town": false,
+   "email": "asgardur@eldhorn.is"
+  },
+  {
+   "id": "n7188728552",
+   "name": "Gistihús Keflavíkur",
+   "lat": 63.97427,
+   "lng": -22.57751,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.2,
+     7
+    ],
+    [
+     3.1,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n1407316870",
+   "name": "Klausturhof",
+   "lat": 63.78607,
+   "lng": -18.0603,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     1.2,
+     4
+    ],
+    [
+     3.7,
+     5
+    ]
+   ],
+   "town": false,
+   "address": "Klausturvegur 1 - 3, Kirkjubæjarklaustur"
   },
   {
    "id": "n6687478185",
@@ -10085,26 +9725,6 @@
    "phone": "+3548497891"
   },
   {
-   "id": "w214228800",
-   "name": "Eyvindará II",
-   "lat": 65.27595,
-   "lng": -14.3788,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     1.3,
-     2
-    ],
-    [
-     1.3,
-     3
-    ]
-   ],
-   "town": false,
-   "address": "Eyvindará 2"
-  },
-  {
    "id": "n510153341",
    "name": "Frost and Fire",
    "lat": 64.00612,
@@ -10168,6 +9788,25 @@
    "address": "Skeggjagata 1"
   },
   {
+   "id": "n412698123",
+   "name": "Njarðvík Hostel",
+   "lat": 63.98334,
+   "lng": -22.54894,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     1.3,
+     7
+    ],
+    [
+     2.2,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
    "id": "n9907338830",
    "name": "Tangahús",
    "lat": 65.20936,
@@ -10182,6 +9821,27 @@
    ],
    "town": false,
    "website": "https://www.tangahus.is"
+  },
+  {
+   "id": "w365511976",
+   "name": "Útnyrðingsstaðir",
+   "lat": 65.22002,
+   "lng": -14.44238,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     1.3,
+     2
+    ],
+    [
+     1.3,
+     3
+    ]
+   ],
+   "town": false,
+   "website": "https://www.farmholidays.is/accommodation/detail/845/utnyrdingsstadir",
+   "wheelchair": "limited"
   },
   {
    "id": "n2342436133",
@@ -10308,6 +9968,49 @@
    "email": "info@julias-guesthouse.com"
   },
   {
+   "id": "n4010267220",
+   "name": "Kef Guesthouse",
+   "lat": 63.9819,
+   "lng": -22.55823,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     1.4,
+     7
+    ],
+    [
+     2.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545889999",
+   "website": "https://kefguesthouse.is/",
+   "email": "info@kefguesthouse.is"
+  },
+  {
+   "id": "n3756135456",
+   "name": "Keflavìk Hostel",
+   "lat": 63.9821,
+   "lng": -22.55821,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     1.4,
+     7
+    ],
+    [
+     2.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545889999",
+   "email": "keflavik@hostel.is"
+  },
+  {
    "id": "n6381120324",
    "name": "Lilja Guesthouse",
    "lat": 64.29918,
@@ -10325,26 +10028,6 @@
    "website": "https://lilja.is/",
    "address": "Hólabrekka II",
    "email": "lilja@lilja.is"
-  },
-  {
-   "id": "n13016171401",
-   "name": "Ocean View Suites",
-   "lat": 63.99254,
-   "lng": -22.54556,
-   "kind": "stay",
-   "cat": "apartment",
-   "days": [
-    [
-     1.4,
-     0
-    ],
-    [
-     2.3,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Bakkastígur 20"
   },
   {
    "id": "r14901669",
@@ -10374,12 +10057,32 @@
      7
     ],
     [
-     1.8,
+     3.5,
      0
     ]
    ],
    "town": true,
    "website": "https://eldeyhotel.is/"
+  },
+  {
+   "id": "w214228800",
+   "name": "Eyvindará II",
+   "lat": 65.27595,
+   "lng": -14.3788,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.5,
+     2
+    ],
+    [
+     1.5,
+     3
+    ]
+   ],
+   "town": false,
+   "address": "Eyvindará 2"
   },
   {
    "id": "n3621817082",
@@ -10397,6 +10100,28 @@
    "town": false
   },
   {
+   "id": "w267311124",
+   "name": "Hotel Grásteinn",
+   "lat": 63.98482,
+   "lng": -22.55399,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     1.5,
+     7
+    ],
+    [
+     2.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544215200",
+   "website": "https://hotelgrasteinn.is",
+   "address": "Bolafótur 11"
+  },
+  {
    "id": "n4253161491",
    "name": "Icelandic Health Hotel",
    "lat": 63.96788,
@@ -10409,7 +10134,7 @@
      7
     ],
     [
-     1.8,
+     3.5,
      0
     ]
    ],
@@ -10429,7 +10154,7 @@
      7
     ],
     [
-     1.7,
+     3.5,
      0
     ]
    ],
@@ -10680,31 +10405,6 @@
    "address": "Sundlaugavegur 37"
   },
   {
-   "id": "n11110428905",
-   "name": "Airport Hotel Aurora Star",
-   "lat": 63.99806,
-   "lng": -22.62852,
-   "kind": "stay",
-   "cat": "hotel",
-   "days": [
-    [
-     1.8,
-     0
-    ],
-    [
-     2.6,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545951900",
-   "website": "https://hotelairport.is/",
-   "address": "Blikavöllur 2, Keflavíkurflugvöllur",
-   "email": "airport@hotelairport.is",
-   "wheelchair": "yes",
-   "wikidata": "Q111409576"
-  },
-  {
    "id": "n293448451",
    "name": "Farfuglaheimilið í Laugardal",
    "lat": 64.14657,
@@ -10919,7 +10619,7 @@
      4
     ],
     [
-     2.5,
+     6.0,
      5
     ]
    ],
@@ -11076,6 +10776,46 @@
    "town": false
   },
   {
+   "id": "n13016171401",
+   "name": "Ocean View Suites",
+   "lat": 63.99254,
+   "lng": -22.54556,
+   "kind": "stay",
+   "cat": "apartment",
+   "days": [
+    [
+     2.3,
+     7
+    ],
+    [
+     2.7,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Bakkastígur 20"
+  },
+  {
+   "id": "n4214145694",
+   "name": "Rose Guesthouse",
+   "lat": 63.99179,
+   "lng": -22.55778,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     2.3,
+     7
+    ],
+    [
+     3.1,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Lyngmói 14"
+  },
+  {
    "id": "w485491137",
    "name": "Systragil",
    "lat": 65.7071,
@@ -11197,6 +10937,31 @@
     ]
    ],
    "town": false
+  },
+  {
+   "id": "n11110428905",
+   "name": "Airport Hotel Aurora Star",
+   "lat": 63.99806,
+   "lng": -22.62852,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     2.6,
+     7
+    ],
+    [
+     6.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545951900",
+   "website": "https://hotelairport.is/",
+   "address": "Blikavöllur 2, Keflavíkurflugvöllur",
+   "email": "airport@hotelairport.is",
+   "wheelchair": "yes",
+   "wikidata": "Q111409576"
   },
   {
    "id": "n13107647201",
@@ -11352,6 +11117,28 @@
    "town": true
   },
   {
+   "id": "n4188025695",
+   "name": "Seljavellir Guesthouse",
+   "lat": 64.30561,
+   "lng": -15.20857,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     2.8,
+     3
+    ],
+    [
+     3.1,
+     4
+    ]
+   ],
+   "town": false,
+   "phone": "+3544781866",
+   "website": "http://www.seljavellir.com/",
+   "wikidata": "Q111409566"
+  },
+  {
    "id": "n10254043099",
    "name": "The Black Icelandic House",
    "lat": 64.19964,
@@ -11368,26 +11155,26 @@
    "address": "Græntóftagata 4, Selfossi"
   },
   {
-   "id": "n4188025695",
-   "name": "Seljavellir Guesthouse",
-   "lat": 64.30561,
-   "lng": -15.20857,
+   "id": "n13512962570",
+   "name": "Keflavík micro suites",
+   "lat": 63.99943,
+   "lng": -22.54949,
    "kind": "stay",
-   "cat": "guesthouse",
+   "cat": "hotel",
    "days": [
     [
-     2.9,
-     3
+     3.1,
+     7
     ],
     [
-     3.1,
-     4
+     3.4,
+     0
     ]
    ],
-   "town": false,
-   "phone": "+3544781866",
-   "website": "http://www.seljavellir.com/",
-   "wikidata": "Q111409566"
+   "town": true,
+   "phone": "+3545393773",
+   "website": "https://keflavikmicrosuites.is/",
+   "address": "Hafnargata 65"
   },
   {
    "id": "n3267578994",
@@ -11404,6 +11191,68 @@
     [
      4.5,
      7
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n454514020",
+   "name": "Hotel Keflavik",
+   "lat": 64.00043,
+   "lng": -22.54691,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     3.2,
+     7
+    ],
+    [
+     3.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544207000",
+   "website": "https://www.kef.is/",
+   "address": "Vatnsnesvegur 12-14, Keflavík",
+   "wikidata": "Q112013023"
+  },
+  {
+   "id": "n13516887800",
+   "name": "KEF Centrum Guesthouse",
+   "lat": 64.00023,
+   "lng": -22.55379,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     3.2,
+     7
+    ],
+    [
+     3.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Mánagata 7"
+  },
+  {
+   "id": "n129990757",
+   "name": "Park Inn by Radisson",
+   "lat": 64.00038,
+   "lng": -22.54943,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     3.2,
+     7
+    ],
+    [
+     3.5,
+     0
     ]
    ],
    "town": true
@@ -11481,6 +11330,129 @@
    "phone": "+3544527123",
    "website": "https://svinavatn.com",
    "address": "Svínvetningabraut, Blönduós"
+  },
+  {
+   "id": "n474788332",
+   "name": "B&B Guesthouse",
+   "lat": 64.00147,
+   "lng": -22.5611,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     3.4,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n13512963768",
+   "name": "Hotel Jazz",
+   "lat": 64.00239,
+   "lng": -22.55131,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     3.4,
+     7
+    ],
+    [
+     3.7,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Austurgata 13"
+  },
+  {
+   "id": "n1915296512",
+   "name": "Hotel Keilir by Reykjavik Keflavik Airport",
+   "lat": 64.00239,
+   "lng": -22.55306,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     3.4,
+     7
+    ],
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Hafnargata 37"
+  },
+  {
+   "id": "n475371456",
+   "name": "Alex",
+   "lat": 63.99908,
+   "lng": -22.58553,
+   "kind": "stay",
+   "cat": "hostel",
+   "days": [
+    [
+     3.5,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544212800",
+   "website": "http://www.alex.is",
+   "address": "Aðalgata 60, Keflavík",
+   "email": "alex@alex.is"
+  },
+  {
+   "id": "n10759463966",
+   "name": "Courtyard Reykjavik Keflavik Airport",
+   "lat": 63.99895,
+   "lng": -22.5868,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     3.5,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545996100",
+   "hours": "24/7"
+  },
+  {
+   "id": "n2749630142",
+   "name": "A. Bernhard Bed & Breakfast",
+   "lat": 64.00347,
+   "lng": -22.55742,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     3.6,
+     7
+    ],
+    [
+     4.0,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Vallargata 6, Keflavík"
   },
   {
    "id": "n6615177485",
@@ -11579,7 +11551,7 @@
      4
     ],
     [
-     4.2,
+     4.1,
      3
     ]
    ],
@@ -11624,6 +11596,50 @@
    "address": "Steinstaðaskóli"
   },
   {
+   "id": "n8482494481",
+   "name": "Núpan Deluxe",
+   "lat": 64.00419,
+   "lng": -22.55923,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     3.7,
+     7
+    ],
+    [
+     4.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545653333",
+   "website": "https://www.hotelnupan.com/",
+   "address": "Aðalgata 10, Reykjanesbær"
+  },
+  {
+   "id": "n4039853983",
+   "name": "Svitan Guesthouse",
+   "lat": 64.00471,
+   "lng": -22.55722,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     3.7,
+     7
+    ],
+    [
+     4.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3546631269",
+   "website": "https://svitan.is/",
+   "address": "Túngata 10, Keflavik"
+  },
+  {
    "id": "w181891493",
    "name": "Tjaldsvæðið Steinsstöðum",
    "lat": 65.46796,
@@ -11644,28 +11660,26 @@
    "wheelchair": "yes"
   },
   {
-   "id": "w723133347",
-   "name": "Hótel Laki",
-   "lat": 63.77446,
-   "lng": -17.96156,
+   "id": "n7801455180",
+   "name": "Guesthouse 1×6",
+   "lat": 64.00707,
+   "lng": -22.55882,
    "kind": "stay",
-   "cat": "hotel",
+   "cat": "guesthouse",
    "days": [
     [
-     3.9,
-     5
+     4.0,
+     7
     ],
     [
-     4.3,
-     4
+     4.4,
+     0
     ]
    ],
-   "town": false,
-   "phone": "+3544124600",
-   "website": "https://www.hotellaki.is/",
-   "address": "Efri-Vík, Kirkjubæjarklaustur",
-   "email": "hotellaki@hotellaki.is",
-   "wikidata": "Q111409584"
+   "town": true,
+   "website": "https://www.1x6.is/",
+   "address": "Vesturbraut 3, Keflavík",
+   "wikidata": "Q111409573"
   },
   {
    "id": "w424803325",
@@ -11687,6 +11701,30 @@
    "email": "info@guesthousehvita.is"
   },
   {
+   "id": "n13506622678",
+   "name": "Hotel Duus",
+   "lat": 64.00825,
+   "lng": -22.55758,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     4.1,
+     7
+    ],
+    [
+     4.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544217080",
+   "website": "https://www.hotelduus.is/",
+   "address": "Duusgata 10, Keflavik",
+   "wheelchair": "yes",
+   "stars": "3.5"
+  },
+  {
    "id": "w181868067",
    "name": "Tjaldsvæði Lundi",
    "lat": 66.07304,
@@ -11702,6 +11740,26 @@
    "town": false,
    "phone": "+3548697672",
    "email": "gisting@kopasker.is"
+  },
+  {
+   "id": "n2428180711",
+   "name": "Berg",
+   "lat": 64.00965,
+   "lng": -22.55692,
+   "kind": "stay",
+   "cat": "hotel",
+   "days": [
+    [
+     4.2,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "wikidata": "Q111409572"
   },
   {
    "id": "n4220095302",
@@ -11752,27 +11810,6 @@
    "phone": "+3547793333",
    "website": "https://hhh.is",
    "address": "Hraunvellir, Selfoss"
-  },
-  {
-   "id": "w365511976",
-   "name": "Útnyrðingsstaðir",
-   "lat": 65.22002,
-   "lng": -14.44238,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     4.3,
-     3
-    ],
-    [
-     4.9,
-     2
-    ]
-   ],
-   "town": false,
-   "website": "https://www.farmholidays.is/accommodation/detail/845/utnyrdingsstadir",
-   "wheelchair": "limited"
   },
   {
    "id": "w536376512",
@@ -11827,6 +11864,26 @@
    "address": "Staðarborg, Breiðdalsvík"
   },
   {
+   "id": "n13510097288",
+   "name": "White House B&B",
+   "lat": 64.00721,
+   "lng": -22.58422,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     4.4,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Bragavellir 17, Reykjanesbær"
+  },
+  {
    "id": "n5821932557",
    "name": "Flaga 2",
    "lat": 63.67013,
@@ -11872,26 +11929,43 @@
    "town": false
   },
   {
-   "id": "n8890082516",
-   "name": "Hotel 1001 Nott",
-   "lat": 65.2315,
-   "lng": -14.47114,
+   "id": "n13510125327",
+   "name": "Home Guesthouse",
+   "lat": 64.00864,
+   "lng": -22.58503,
    "kind": "stay",
-   "cat": "hotel",
+   "cat": "guesthouse",
    "days": [
     [
      4.5,
-     2
+     7
     ],
     [
-     4.7,
-     3
+     5.3,
+     0
     ]
    ],
-   "town": false,
-   "phone": "+3548537700",
-   "website": "https://1001nott.is/",
-   "address": "Álfaás Vellir, Egilsstaðir"
+   "town": true,
+   "address": "Þórsvellir 2, Reykjanesbær"
+  },
+  {
+   "id": "n12345173203",
+   "name": "Smart Luxury - Private Gym, Hot Tub & Sauna",
+   "lat": 64.00979,
+   "lng": -22.57482,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     4.5,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true
   },
   {
    "id": "n7772281922",
@@ -11950,6 +12024,21 @@
    "address": "Sjávargata 28"
   },
   {
+   "id": "w210660776",
+   "name": "Dalshöfdi",
+   "lat": 63.91137,
+   "lng": -17.83803,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     4.9,
+     4
+    ]
+   ],
+   "town": false
+  },
+  {
    "id": "r10697895",
    "name": "Húsafell",
    "lat": 64.70064,
@@ -11960,21 +12049,6 @@
     [
      4.9,
      0
-    ]
-   ],
-   "town": false
-  },
-  {
-   "id": "w210660776",
-   "name": "Dalshöfdi",
-   "lat": 63.91137,
-   "lng": -17.83803,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     5.0,
-     4
     ]
    ],
    "town": false
@@ -12101,6 +12175,27 @@
    ],
    "town": true,
    "wikidata": "Q111873668"
+  },
+  {
+   "id": "w375124674",
+   "name": "Stora Sandfell Rooms and Cottages",
+   "lat": 65.12529,
+   "lng": -14.54039,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     5.4,
+     2
+    ],
+    [
+     5.4,
+     3
+    ]
+   ],
+   "town": false,
+   "phone": "+3544712420",
+   "address": "Stóra-Sandfell 3"
   },
   {
    "id": "n1250190803",
@@ -12296,7 +12391,7 @@
      2
     ],
     [
-     7.4,
+     7.6,
      3
     ]
    ],
@@ -12389,25 +12484,6 @@
    "address": "Hamragardar, Borgarnes - Bifröst"
   },
   {
-   "id": "n10748079219",
-   "name": "Geirland Guest House",
-   "lat": 64.03745,
-   "lng": -22.70172,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     6.9,
-     0
-    ],
-    [
-     7.5,
-     7
-    ]
-   ],
-   "town": false
-  },
-  {
    "id": "w241958700",
    "name": "Tjaldmiðstöðin Flúðum",
    "lat": 64.1383,
@@ -12425,29 +12501,6 @@
    "website": "https://www.tjaldmidstod.is/",
    "address": "Skeiða- og Hrunamannavegur, Flúðir",
    "email": "tjaldmidstod@fludir.is"
-  },
-  {
-   "id": "w197595763",
-   "name": "Tjaldsvæði Sandgerðis",
-   "lat": 64.03981,
-   "lng": -22.6969,
-   "kind": "stay",
-   "cat": "campsite",
-   "days": [
-    [
-     6.9,
-     0
-    ],
-    [
-     7.6,
-     7
-    ]
-   ],
-   "town": false,
-   "phone": "+3548548424",
-   "website": "https://istay.is/",
-   "address": "Byggðarvegi, Sandgerði",
-   "email": "istay@istay.is"
   },
   {
    "id": "n4402251093",
@@ -12667,27 +12720,6 @@
    "email": "hellisholar@hellisholar.is"
   },
   {
-   "id": "n1757673118",
-   "name": "Eyjólfsstaðir",
-   "lat": 65.18868,
-   "lng": -14.50138,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     7.5,
-     3
-    ],
-    [
-     9.2,
-     2
-    ]
-   ],
-   "town": false,
-   "phone": "+3544712171",
-   "website": "https://eyjolfsstadir.is/"
-  },
-  {
    "id": "w537515291",
    "name": "Garður Stay Inn",
    "lat": 64.13757,
@@ -12705,6 +12737,21 @@
    "website": "https://stayinn.is/",
    "address": "Garður",
    "email": "gardur845@gmail.com"
+  },
+  {
+   "id": "n10748079219",
+   "name": "Geirland Guest House",
+   "lat": 64.03745,
+   "lng": -22.70172,
+   "kind": "stay",
+   "cat": "guesthouse",
+   "days": [
+    [
+     7.5,
+     7
+    ]
+   ],
+   "town": false
   },
   {
    "id": "w484569756",
@@ -12755,6 +12802,25 @@
     ]
    ],
    "town": false
+  },
+  {
+   "id": "w197595763",
+   "name": "Tjaldsvæði Sandgerðis",
+   "lat": 64.03981,
+   "lng": -22.6969,
+   "kind": "stay",
+   "cat": "campsite",
+   "days": [
+    [
+     7.6,
+     7
+    ]
+   ],
+   "town": false,
+   "phone": "+3548548424",
+   "website": "https://istay.is/",
+   "address": "Byggðarvegi, Sandgerði",
+   "email": "istay@istay.is"
   },
   {
    "id": "w253768962",
@@ -13095,23 +13161,6 @@
    "address": "Hrunavegur, Flúðir"
   },
   {
-   "id": "w445082473",
-   "name": "Tjaldsvæðið við Íþróttamiðstöðina Garði",
-   "lat": 64.07248,
-   "lng": -22.65693,
-   "kind": "stay",
-   "cat": "campsite",
-   "days": [
-    [
-     8.7,
-     0
-    ]
-   ],
-   "town": false,
-   "phone": "+3544227300",
-   "address": "Garðbraut 94, Garður"
-  },
-  {
    "id": "n454516906",
    "name": "Fosshótel Hekla",
    "lat": 64.00421,
@@ -13130,51 +13179,6 @@
    "address": "Brjánsstaðir, Selfoss",
    "email": "hekla@fosshotel.is",
    "stars": "3"
-  },
-  {
-   "id": "n7830781474",
-   "name": "Grund Cottage",
-   "lat": 63.56547,
-   "lng": -18.25573,
-   "kind": "stay",
-   "cat": "apartment",
-   "days": [
-    [
-     8.9,
-     5
-    ]
-   ],
-   "town": false
-  },
-  {
-   "id": "w838816818",
-   "name": "Grund Cottage 1",
-   "lat": 63.56538,
-   "lng": -18.25564,
-   "kind": "stay",
-   "cat": "apartment",
-   "days": [
-    [
-     8.9,
-     5
-    ]
-   ],
-   "town": false
-  },
-  {
-   "id": "w838816817",
-   "name": "Grund Cottage 2",
-   "lat": 63.56557,
-   "lng": -18.25577,
-   "kind": "stay",
-   "cat": "apartment",
-   "days": [
-    [
-     8.9,
-     5
-    ]
-   ],
-   "town": false
   },
   {
    "id": "w507854326",
@@ -13378,23 +13382,6 @@
    "town": false
   },
   {
-   "id": "w375124674",
-   "name": "Stora Sandfell Rooms and Cottages",
-   "lat": 65.12529,
-   "lng": -14.54039,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     9.7,
-     3
-    ]
-   ],
-   "town": false,
-   "phone": "+3544712420",
-   "address": "Stóra-Sandfell 3"
-  },
-  {
    "id": "w243497925",
    "name": "Tjaldsvæðið á Eyrarbakka",
    "lat": 63.86732,
@@ -13427,22 +13414,6 @@
     ]
    ],
    "town": false
-  },
-  {
-   "id": "n4309793690",
-   "name": "GuestHouse Garður",
-   "lat": 64.07965,
-   "lng": -22.67906,
-   "kind": "stay",
-   "cat": "guesthouse",
-   "days": [
-    [
-     10.0,
-     0
-    ]
-   ],
-   "town": false,
-   "phone": "+3546607890"
   },
   {
    "id": "n4417946332",

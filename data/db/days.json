@@ -5,18 +5,18 @@
    "day": 1,
    "date": "Oct 3",
    "title": "North up Route 1: Borgarfjördur",
-   "routeKm": 366,
+   "routeKm": 360,
    "counts": {
-    "attractions": 345,
-    "food": 739,
-    "fuel": 116,
+    "attractions": 346,
+    "food": 738,
+    "fuel": 113,
     "groceries": 79,
-    "stays": 261,
-    "attractionsRural": 177,
-    "foodRural": 63,
+    "stays": 257,
+    "attractionsRural": 178,
+    "foodRural": 62,
     "bigSupermarkets": 64
    },
-   "fuelOnRoute": 98,
+   "fuelOnRoute": 97,
    "longestFuelGapKm": 73,
    "longestFuelGapBetween": [
     "Orkan",
@@ -49,13 +49,13 @@
    "day": 3,
    "date": "Oct 5",
    "title": "Hverir, Dettifoss, Ásbyrgi",
-   "routeKm": 294,
+   "routeKm": 306,
    "counts": {
     "attractions": 53,
     "food": 21,
     "fuel": 11,
     "groceries": 2,
-    "stays": 49,
+    "stays": 50,
     "attractionsRural": 53,
     "foodRural": 21,
     "bigSupermarkets": 2
@@ -71,7 +71,7 @@
    "day": 4,
    "date": "Oct 6",
    "title": "East fjords the long way, Vestrahorn",
-   "routeKm": 263,
+   "routeKm": 277,
    "counts": {
     "attractions": 43,
     "food": 38,
@@ -83,7 +83,7 @@
     "bigSupermarkets": 4
    },
    "fuelOnRoute": 17,
-   "longestFuelGapKm": 109,
+   "longestFuelGapKm": 108,
    "longestFuelGapBetween": [
     "N1",
     "N1"
@@ -93,13 +93,13 @@
    "day": 5,
    "date": "Oct 7",
    "title": "Lagoons, Skaftafell, westbound",
-   "routeKm": 192,
+   "routeKm": 227,
    "counts": {
     "attractions": 46,
     "food": 24,
     "fuel": 8,
     "groceries": 2,
-    "stays": 66,
+    "stays": 69,
     "attractionsRural": 46,
     "foodRural": 24,
     "bigSupermarkets": 1
@@ -115,19 +115,19 @@
    "day": 6,
    "date": "Oct 8",
    "title": "Canyon, south coast, glacier hike",
-   "routeKm": 158,
+   "routeKm": 179,
    "counts": {
     "attractions": 69,
     "food": 25,
     "fuel": 5,
     "groceries": 2,
-    "stays": 57,
+    "stays": 56,
     "attractionsRural": 69,
     "foodRural": 25,
     "bigSupermarkets": 1
    },
-   "fuelOnRoute": 5,
-   "longestFuelGapKm": 81,
+   "fuelOnRoute": 4,
+   "longestFuelGapKm": 72,
    "longestFuelGapBetween": [
     "ÓB",
     "end of day"
@@ -137,7 +137,7 @@
    "day": 7,
    "date": "Oct 9",
    "title": "Ice cave and the south coast",
-   "routeKm": 193,
+   "routeKm": 198,
    "counts": {
     "attractions": 284,
     "food": 723,
@@ -149,7 +149,7 @@
     "bigSupermarkets": 61
    },
    "fuelOnRoute": 79,
-   "longestFuelGapKm": 88,
+   "longestFuelGapKm": 83,
    "longestFuelGapBetween": [
     "ÓB",
     "N1"

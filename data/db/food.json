@@ -1,6 +1,6 @@
 {
  "note": "Restaurants, cafes, bakeries and bars within 10 km of the route. Hours are OpenStreetMap volunteer data — verify anything you depend on.",
- "count": 994,
+ "count": 993,
  "items": [
   {
    "id": "n4337202896",
@@ -53,7 +53,7 @@
      3
     ],
     [
-     0.4,
+     0.8,
      2
     ]
    ],
@@ -63,26 +63,6 @@
    "address": "Fagradalsbraut 25, Egilsstaðir",
    "hours": "Mo-Su 11:30-21:00",
    "cuisine": "pizza"
-  },
-  {
-   "id": "n11519254183",
-   "name": "Bitinn",
-   "lat": 63.99999,
-   "lng": -22.57672,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.0,
-     0
-    ],
-    [
-     3.5,
-     7
-    ]
-   ],
-   "town": true,
-   "cuisine": "bistro"
   },
   {
    "id": "n1620366920",
@@ -130,29 +110,6 @@
    "address": "Austurvegur"
   },
   {
-   "id": "n12394192792",
-   "name": "Bæjarins Beztu Pylsur",
-   "lat": 63.97258,
-   "lng": -22.54275,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.0,
-     0
-    ],
-    [
-     0.1,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545111566",
-   "website": "https://bbp.is",
-   "hours": "24/7",
-   "cuisine": "hot dog"
-  },
-  {
    "id": "n13725166329",
    "name": "Bókakaffi Hlöðum",
    "lat": 65.28151,
@@ -165,7 +122,7 @@
      2
     ],
     [
-     2.1,
+     2.3,
      3
     ]
    ],
@@ -262,30 +219,6 @@
    "cuisine": "pizza"
   },
   {
-   "id": "n4965983124",
-   "name": "Domino's",
-   "lat": 63.9728,
-   "lng": -22.54522,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.0,
-     0
-    ],
-    [
-     0.2,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545812345",
-   "website": "https://www.dominos.is",
-   "address": "Fitjar 2, Reykjanesbær",
-   "hours": "Tu-Su 16:00-22:00",
-   "cuisine": "pizza"
-  },
-  {
    "id": "n319946297",
    "name": "Domino's",
    "lat": 65.69151,
@@ -316,7 +249,7 @@
      5
     ],
     [
-     0.1,
+     0.6,
      6
     ]
    ],
@@ -823,26 +756,6 @@
    "cuisine": "coffee shop"
   },
   {
-   "id": "n7237224267",
-   "name": "Just Winging It",
-   "lat": 63.97283,
-   "lng": -22.54557,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.0,
-     0
-    ],
-    [
-     0.2,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Fitjar, Reykjanesbær"
-  },
-  {
    "id": "n10933849719",
    "name": "KFC",
    "lat": 64.09938,
@@ -870,30 +783,6 @@
    "hours": "Mo-Su 11:00-22:00",
    "email": "kfc@kfc.is",
    "cuisine": "chicken"
-  },
-  {
-   "id": "n9355495109",
-   "name": "Kaffi Hornið",
-   "lat": 64.25466,
-   "lng": -15.2089,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.0,
-     3
-    ],
-    [
-     0.0,
-     4
-    ]
-   ],
-   "town": false,
-   "phone": "+3544782600",
-   "website": "https://kaffihornid.is",
-   "address": "Hafnarbraut 42, Höfn",
-   "hours": "Mo-Su 11:30-21:00",
-   "wheelchair": "yes"
   },
   {
    "id": "n192959093",
@@ -1105,7 +994,7 @@
      2
     ],
     [
-     0.4,
+     0.0,
      3
     ]
    ],
@@ -1137,11 +1026,11 @@
    "days": [
     [
      0.0,
-     2
+     3
     ],
     [
-     0.0,
-     3
+     0.4,
+     2
     ]
    ],
    "town": false,
@@ -1178,7 +1067,7 @@
      3
     ],
     [
-     0.1,
+     0.5,
      2
     ]
    ],
@@ -1304,29 +1193,6 @@
    "website": "https://support.bluelagoon.com/hc/en-us/articles/360005998757-Dining-options-at-the-Retreat-Hotel"
   },
   {
-   "id": "n12394166540",
-   "name": "Sbarro",
-   "lat": 63.97258,
-   "lng": -22.54283,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.0,
-     0
-    ],
-    [
-     0.1,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545141414",
-   "website": "https://sbarro.is",
-   "hours": "Mo-Fr 08:00-28:00; Sa-Su 10:00-28:00",
-   "cuisine": "pizza"
-  },
-  {
    "id": "n826578061",
    "name": "Sel",
    "lat": 65.56726,
@@ -1437,7 +1303,7 @@
      4
     ],
     [
-     0.0,
+     5.0,
      5
     ]
    ],
@@ -1481,30 +1347,6 @@
     ]
    ],
    "town": false
-  },
-  {
-   "id": "n4426161099",
-   "name": "Subway",
-   "lat": 63.9728,
-   "lng": -22.54501,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.0,
-     0
-    ],
-    [
-     0.2,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545307070",
-   "website": "https://subway.is/en/stadirnir/#1484649593913-8ebfd396-73faf570-fdfd",
-   "address": "Fitjar 2, Reykjanesbær",
-   "hours": "Mo-Fr 10:00-22:00; Sa-Su 11:00-22:00",
-   "cuisine": "sandwich"
   },
   {
    "id": "n1212690354",
@@ -1569,30 +1411,6 @@
    "address": "Kaupvangsstræti 1, Akureyri",
    "hours": "Mo-Fr 10:00-22:00; Sa-Su 11:00-22:00",
    "cuisine": "sandwich"
-  },
-  {
-   "id": "n1407351557",
-   "name": "Systrakaffi",
-   "lat": 63.79038,
-   "lng": -18.0475,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.0,
-     4
-    ],
-    [
-     0.0,
-     5
-    ]
-   ],
-   "town": false,
-   "website": "https://www.systrakaffi.is",
-   "hours": "12:00-22:00",
-   "wheelchair": "limited",
-   "cuisine": "pizza;burger",
-   "vegetarian": true
   },
   {
    "id": "n5756979308",
@@ -1675,48 +1493,6 @@
    "cuisine": "pizza;regional"
   },
   {
-   "id": "n1823190460",
-   "name": "Víkurskáli",
-   "lat": 63.41768,
-   "lng": -19.00144,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.0,
-     6
-    ],
-    [
-     0.1,
-     5
-    ]
-   ],
-   "town": false,
-   "address": "Austurvegur, Vík",
-   "hours": "Mo-Su 08:00-22:00",
-   "cuisine": "burger;regional"
-  },
-  {
-   "id": "n9900840017",
-   "name": "Wok On",
-   "lat": 63.41767,
-   "lng": -19.00168,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.0,
-     6
-    ],
-    [
-     0.1,
-     5
-    ]
-   ],
-   "town": false,
-   "hours": "Mo-Su 11:30-21:30"
-  },
-  {
    "id": "n8303107906",
    "name": "Zorbian",
    "lat": 64.15004,
@@ -1789,11 +1565,11 @@
    "days": [
     [
      0.0,
-     2
+     3
     ],
     [
-     0.3,
-     3
+     0.1,
+     2
     ]
    ],
    "town": false,
@@ -2168,7 +1944,7 @@
      5
     ],
     [
-     0.1,
+     0.2,
      6
     ]
    ],
@@ -2228,7 +2004,7 @@
      5
     ],
     [
-     0.1,
+     0.3,
      6
     ]
    ],
@@ -2415,6 +2191,29 @@
     [
      2.4,
      7
+    ]
+   ],
+   "town": true,
+   "phone": "+3545111566",
+   "website": "https://bbp.is",
+   "hours": "24/7",
+   "cuisine": "hot dog"
+  },
+  {
+   "id": "n12394192792",
+   "name": "Bæjarins Beztu Pylsur",
+   "lat": 63.97258,
+   "lng": -22.54275,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.1,
+     7
+    ],
+    [
+     1.4,
+     0
     ]
    ],
    "town": true,
@@ -3294,7 +3093,7 @@
      5
     ],
     [
-     0.1,
+     0.4,
      6
     ]
    ],
@@ -3353,11 +3152,11 @@
    "days": [
     [
      0.1,
-     0
+     7
     ],
     [
-     0.1,
-     7
+     1.4,
+     0
     ]
    ],
    "town": true,
@@ -3495,6 +3294,27 @@
    "wheelchair": "yes"
   },
   {
+   "id": "n12745583001",
+   "name": "Kjot&fiskur Fresh Fish",
+   "lat": 65.25669,
+   "lng": -14.41237,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.1,
+     2
+    ],
+    [
+     0.1,
+     3
+    ]
+   ],
+   "town": false,
+   "address": "Kaupvangur 23B",
+   "hours": "Mo-Fr 11:00-18:00; Sa 11:00-16:00"
+  },
+  {
    "id": "n11120071963",
    "name": "Konungs Kaffi",
    "lat": 63.93683,
@@ -3555,7 +3375,7 @@
      5
     ],
     [
-     0.1,
+     0.5,
      6
     ]
    ],
@@ -3577,7 +3397,7 @@
      7
     ],
     [
-     9.0,
+     9.1,
      0
     ]
    ],
@@ -3826,26 +3646,6 @@
    ],
    "town": true,
    "cuisine": "thai"
-  },
-  {
-   "id": "n4357366490",
-   "name": "Mia's Country Van",
-   "lat": 63.52432,
-   "lng": -19.50487,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.1,
-     6
-    ],
-    [
-     5.8,
-     5
-    ]
-   ],
-   "town": false,
-   "cuisine": "fish and chips"
   },
   {
    "id": "w398259913",
@@ -4617,6 +4417,29 @@
    "cuisine": "pizza"
   },
   {
+   "id": "n12394166540",
+   "name": "Sbarro",
+   "lat": 63.97258,
+   "lng": -22.54283,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.1,
+     7
+    ],
+    [
+     1.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545141414",
+   "website": "https://sbarro.is",
+   "hours": "Mo-Fr 08:00-28:00; Sa-Su 10:00-28:00",
+   "cuisine": "pizza"
+  },
+  {
    "id": "n12923783852",
    "name": "Serrano",
    "lat": 64.16607,
@@ -4723,25 +4546,6 @@
    "hours": "Mo-Su 11:00-21:00"
   },
   {
-   "id": "n1827460016",
-   "name": "Skógakaffi",
-   "lat": 63.52616,
-   "lng": -19.49167,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.1,
-     6
-    ],
-    [
-     5.3,
-     5
-    ]
-   ],
-   "town": false
-  },
-  {
    "id": "n6076825507",
    "name": "Smiðjan Brugghús",
    "lat": 63.41722,
@@ -4754,7 +4558,7 @@
      6
     ],
     [
-     0.3,
+     0.4,
      5
     ]
    ],
@@ -4916,7 +4720,7 @@
      5
     ],
     [
-     0.1,
+     0.4,
      6
     ]
    ],
@@ -5411,6 +5215,48 @@
    "town": false
   },
   {
+   "id": "n1823190460",
+   "name": "Víkurskáli",
+   "lat": 63.41768,
+   "lng": -19.00144,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.1,
+     5
+    ],
+    [
+     0.4,
+     6
+    ]
+   ],
+   "town": false,
+   "address": "Austurvegur, Vík",
+   "hours": "Mo-Su 08:00-22:00",
+   "cuisine": "burger;regional"
+  },
+  {
+   "id": "n9900840017",
+   "name": "Wok On",
+   "lat": 63.41767,
+   "lng": -19.00168,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.1,
+     5
+    ],
+    [
+     0.3,
+     6
+    ]
+   ],
+   "town": false,
+   "hours": "Mo-Su 11:30-21:30"
+  },
+  {
    "id": "n13537450270",
    "name": "Wok to Walk",
    "lat": 65.68801,
@@ -5608,27 +5454,6 @@
    "website": "https://braudogco.is/",
    "address": "Fákafen 11, Reykjavík",
    "hours": "Mo-Fr 07:00-17:00; Sa 08:00-16:00; Su 08:00-15:00"
-  },
-  {
-   "id": "n14073614163",
-   "name": "Brons",
-   "lat": 64.00223,
-   "lng": -22.55834,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.2,
-     0
-    ],
-    [
-     3.4,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3548690180",
-   "website": "https://www.bronskeflavik.is/en/"
   },
   {
    "id": "n828977676",
@@ -5839,6 +5664,30 @@
    "website": "https://www.icelandairhotels.com/hotels/reykjavikmarina",
    "address": "Mýrargata 12, Reykjavík",
    "wheelchair": "yes"
+  },
+  {
+   "id": "n4965983124",
+   "name": "Domino's",
+   "lat": 63.9728,
+   "lng": -22.54522,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.2,
+     7
+    ],
+    [
+     1.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545812345",
+   "website": "https://www.dominos.is",
+   "address": "Fitjar 2, Reykjanesbær",
+   "hours": "Tu-Su 16:00-22:00",
+   "cuisine": "pizza"
   },
   {
    "id": "n5868989386",
@@ -6200,6 +6049,26 @@
    "cuisine": "coffee shop"
   },
   {
+   "id": "n7237224267",
+   "name": "Just Winging It",
+   "lat": 63.97283,
+   "lng": -22.54557,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.2,
+     7
+    ],
+    [
+     1.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Fitjar, Reykjanesbær"
+  },
+  {
    "id": "n6981239846",
    "name": "KFC",
    "lat": 64.13086,
@@ -6248,6 +6117,25 @@
    "hours": "10:00-17:00",
    "email": "freddi@kaffiborgir.is",
    "wheelchair": "yes"
+  },
+  {
+   "id": "n2946132411",
+   "name": "Kaffi Egilsstadir",
+   "lat": 65.25853,
+   "lng": -14.40667,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.2,
+     2
+    ],
+    [
+     0.2,
+     3
+    ]
+   ],
+   "town": false
   },
   {
    "id": "n4346656687",
@@ -6551,28 +6439,6 @@
    "cuisine": "regional"
   },
   {
-   "id": "n13988559201",
-   "name": "Ljósdís Kaffihús & Bakarí",
-   "lat": 64.25279,
-   "lng": -15.21038,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.2,
-     3
-    ],
-    [
-     0.2,
-     4
-    ]
-   ],
-   "town": false,
-   "address": "Hafnarbraut 34",
-   "hours": "Mo-Fr 10:00-15:00; Sa-Su 10:00-16:30",
-   "cuisine": "cake;coffee shop;tea"
-  },
-  {
    "id": "n12219059729",
    "name": "Lángos Factory",
    "lat": 63.5307,
@@ -6760,27 +6626,6 @@
    "town": true
   },
   {
-   "id": "n14073614164",
-   "name": "Pólskur matur",
-   "lat": 64.00147,
-   "lng": -22.56106,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.2,
-     0
-    ],
-    [
-     3.4,
-     7
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-We 11:30-15:00; Th-Fr 09:00-15:00; Sa 09:00-17:00",
-   "cuisine": "polish"
-  },
-  {
    "id": "n4082274231",
    "name": "Reynir bakari",
    "lat": 64.10461,
@@ -6966,7 +6811,7 @@
      5
     ],
     [
-     0.8,
+     1.2,
      6
     ]
    ],
@@ -6994,6 +6839,30 @@
     ]
    ],
    "town": false
+  },
+  {
+   "id": "n4426161099",
+   "name": "Subway",
+   "lat": 63.9728,
+   "lng": -22.54501,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.2,
+     7
+    ],
+    [
+     1.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545307070",
+   "website": "https://subway.is/en/stadirnir/#1484649593913-8ebfd396-73faf570-fdfd",
+   "address": "Fitjar 2, Reykjanesbær",
+   "hours": "Mo-Fr 10:00-22:00; Sa-Su 11:00-22:00",
+   "cuisine": "sandwich"
   },
   {
    "id": "w307932451",
@@ -7174,49 +7043,6 @@
    "hours": "Mo-Su 11:00-21:00",
    "email": "selhella@tommis.is",
    "cuisine": "burger"
-  },
-  {
-   "id": "n6629928962",
-   "name": "Ungó",
-   "lat": 64.00557,
-   "lng": -22.55716,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.2,
-     0
-    ],
-    [
-     3.8,
-     7
-    ]
-   ],
-   "town": true,
-   "cuisine": "burger;pizza;ice cream"
-  },
-  {
-   "id": "n5035312921",
-   "name": "Veitingastaðurinn Ráin",
-   "lat": 64.00428,
-   "lng": -22.55554,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.2,
-     0
-    ],
-    [
-     3.6,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544214601",
-   "website": "https://www.rain.is/",
-   "address": "Hafnargata 19, Keflavik",
-   "cuisine": "regional"
   },
   {
    "id": "n6462407896",
@@ -7598,25 +7424,6 @@
    "address": "Grensásvegur"
   },
   {
-   "id": "n9126956730",
-   "name": "Biryani",
-   "lat": 64.00316,
-   "lng": -22.55415,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.3,
-     0
-    ],
-    [
-     3.5,
-     7
-    ]
-   ],
-   "town": true
-  },
-  {
    "id": "n13679230320",
    "name": "Boom Boom",
    "lat": 64.12999,
@@ -7722,28 +7529,6 @@
    "website": "https://bbp.is",
    "hours": "Mo-Fr 09:00-19:00; Sa 10:00-18:30; Su 11:00-17:30",
    "cuisine": "hot dog"
-  },
-  {
-   "id": "n3647182698",
-   "name": "Café Giddy",
-   "lat": 64.25303,
-   "lng": -15.21294,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.3,
-     3
-    ],
-    [
-     0.3,
-     4
-    ]
-   ],
-   "town": false,
-   "address": "Litlabrú 2, Höfn",
-   "hours": "Mo-Su 8:00-17:00",
-   "cuisine": "breakfast"
   },
   {
    "id": "n5007802558",
@@ -8160,32 +7945,6 @@
    "cuisine": "regional"
   },
   {
-   "id": "w193117922",
-   "name": "Hótel Höfn",
-   "lat": 64.25747,
-   "lng": -15.21257,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.3,
-     3
-    ],
-    [
-     0.3,
-     4
-    ]
-   ],
-   "town": false,
-   "phone": "+3544781240",
-   "website": "https://www.hotelhofn.is/",
-   "address": "Víkurbraut 20",
-   "email": "hotelhofn@hotelhofn.is",
-   "wikidata": "Q55809529",
-   "vegetarian": true,
-   "vegan": true
-  },
-  {
    "id": "n10933849720",
    "name": "KFC",
    "lat": 64.13149,
@@ -8210,44 +7969,6 @@
    "address": "Faxafen 2",
    "hours": "Mo-Su 11:00-22:00",
    "cuisine": "chicken"
-  },
-  {
-   "id": "n11055443647",
-   "name": "KJARR Restaurant",
-   "lat": 63.78658,
-   "lng": -18.05847,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.3,
-     4
-    ],
-    [
-     0.3,
-     5
-    ]
-   ],
-   "town": false
-  },
-  {
-   "id": "n2946132411",
-   "name": "Kaffi Egilsstadir",
-   "lat": 65.25853,
-   "lng": -14.40667,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.3,
-     2
-    ],
-    [
-     0.4,
-     3
-    ]
-   ],
-   "town": false
   },
   {
    "id": "n303937564",
@@ -8360,31 +8081,6 @@
    "hours": "Mo-Th 10:00-21:00; Fr 10:00-23:00; Sa 10:00-23:00; Su 10:00-19:00"
   },
   {
-   "id": "n3741243243",
-   "name": "Lemon",
-   "lat": 64.00327,
-   "lng": -22.55418,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.3,
-     0
-    ],
-    [
-     3.5,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544218999",
-   "website": "https://lemon.is/",
-   "address": "Hafnargata 29, Keflavík",
-   "hours": "Mo-Fr 08:00-22:00; Sa-Su 10:00-22:00",
-   "wheelchair": "limited",
-   "cuisine": "sandwich"
-  },
-  {
    "id": "n11497725388",
    "name": "Litla Tokyo",
    "lat": 64.15504,
@@ -8465,26 +8161,6 @@
    "hours": "Mo-Sa 11:00-21:45; Su 12:00-21:45",
    "email": "mrkebab2021@gmail.com",
    "cuisine": "arab"
-  },
-  {
-   "id": "n6629921951",
-   "name": "Malai-Thai",
-   "lat": 64.00315,
-   "lng": -22.55479,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.3,
-     0
-    ],
-    [
-     3.5,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545886686"
   },
   {
    "id": "w27236948",
@@ -8613,44 +8289,6 @@
    "town": true,
    "website": "http://www.casagrande.is/",
    "wheelchair": "limited"
-  },
-  {
-   "id": "n9126956729",
-   "name": "Oriento",
-   "lat": 64.00263,
-   "lng": -22.55383,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.3,
-     0
-    ],
-    [
-     3.4,
-     7
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n1915296513",
-   "name": "Paddys Irish Pub",
-   "lat": 64.00247,
-   "lng": -22.55357,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.3,
-     0
-    ],
-    [
-     3.4,
-     7
-    ]
-   ],
-   "town": true
   },
   {
    "id": "n8856480075",
@@ -9133,25 +8771,6 @@
    "cuisine": "burger"
   },
   {
-   "id": "n4902436794",
-   "name": "Z Bistro",
-   "lat": 64.25228,
-   "lng": -15.20259,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.3,
-     3
-    ],
-    [
-     0.3,
-     4
-    ]
-   ],
-   "town": false
-  },
-  {
    "id": "n5039687565",
    "name": "Ölverk",
    "lat": 63.99767,
@@ -9236,25 +8855,6 @@
    ],
    "town": true,
    "address": "Freyjunes 8, Akureyri"
-  },
-  {
-   "id": "n13971765360",
-   "name": "Birki",
-   "lat": 64.25074,
-   "lng": -15.20518,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.4,
-     3
-    ],
-    [
-     0.4,
-     4
-    ]
-   ],
-   "town": false
   },
   {
    "id": "n3676676455",
@@ -9655,6 +9255,32 @@
    "cuisine": "regional"
   },
   {
+   "id": "w193117922",
+   "name": "Hótel Höfn",
+   "lat": 64.25747,
+   "lng": -15.21257,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.4,
+     3
+    ],
+    [
+     0.4,
+     4
+    ]
+   ],
+   "town": false,
+   "phone": "+3544781240",
+   "website": "https://www.hotelhofn.is/",
+   "address": "Víkurbraut 20",
+   "email": "hotelhofn@hotelhofn.is",
+   "wikidata": "Q55809529",
+   "vegetarian": true,
+   "vegan": true
+  },
+  {
    "id": "n3009373777",
    "name": "Höfnin",
    "lat": 64.15079,
@@ -9730,29 +9356,6 @@
    "town": true,
    "address": "Helluhraun 1, Hafnarfjörður",
    "hours": "Mo-Fr 8:00-23:30; Sa 9:00-23:30; Su 11:00-23:30"
-  },
-  {
-   "id": "n129958158",
-   "name": "Kaffi Duus",
-   "lat": 64.00817,
-   "lng": -22.55743,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.4,
-     0
-    ],
-    [
-     4.1,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544217080",
-   "website": "http://www.duus.is/",
-   "address": "Duusgata 10, Keflavík",
-   "wheelchair": "yes"
   },
   {
    "id": "n2982746806",
@@ -9998,28 +9601,6 @@
    "hours": "PH,Mo-Su 08:00-18:00"
   },
   {
-   "id": "n5113556722",
-   "name": "Sigurjónsbakarí",
-   "lat": 64.0046,
-   "lng": -22.57348,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.4,
-     0
-    ],
-    [
-     3.9,
-     7
-    ]
-   ],
-   "town": true,
-   "website": "http://www.sigurjonsbakari.net/",
-   "address": "Hólmgarður 2, Reykjanesbær",
-   "cuisine": "breakfast"
-  },
-  {
    "id": "n13651718838",
    "name": "Silli Kokkur",
    "lat": 64.12834,
@@ -10101,26 +9682,6 @@
    "address": "Geirsgata 8, Reykjavík",
    "hours": "Mo-Su 11:30-23:00",
    "cuisine": "seafood"
-  },
-  {
-   "id": "n2639079548",
-   "name": "Thai Keflavík",
-   "lat": 64.00232,
-   "lng": -22.55277,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.4,
-     0
-    ],
-    [
-     3.4,
-     7
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Sa 11:00-22:00; Su 16:00-22:00"
   },
   {
    "id": "n3781008370",
@@ -10438,77 +9999,6 @@
    "cuisine": "burger"
   },
   {
-   "id": "n11099958405",
-   "name": "HEPPA",
-   "lat": 64.25056,
-   "lng": -15.20158,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.5,
-     3
-    ],
-    [
-     0.5,
-     4
-    ]
-   ],
-   "town": false,
-   "website": "https://www.heppa.is",
-   "hours": "Su-Sa 17:00-22:00",
-   "cuisine": "american;local"
-  },
-  {
-   "id": "w193118796",
-   "name": "Hafid",
-   "lat": 64.25093,
-   "lng": -15.20199,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.5,
-     3
-    ],
-    [
-     0.5,
-     4
-    ]
-   ],
-   "town": false,
-   "phone": "+3545715484",
-   "address": "Heppuvegur 5",
-   "hours": "Th-Su 20:00-01:00",
-   "email": "kartofluhusid@gmail.com"
-  },
-  {
-   "id": "w193117919",
-   "name": "Hafnarbúðin",
-   "lat": 64.24988,
-   "lng": -15.20707,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.5,
-     3
-    ],
-    [
-     0.5,
-     4
-    ]
-   ],
-   "town": false,
-   "phone": "+3544781095",
-   "website": "https://www.facebook.com/109642855770933/",
-   "address": "Ránarslóð 2A",
-   "hours": "Mo-Su 11:30-21:00",
-   "email": "hafnarbudin@hafnarbudin.com",
-   "wheelchair": "limited",
-   "cuisine": "american;seafood"
-  },
-  {
    "id": "n3811527450",
    "name": "Harry's",
    "lat": 64.1407,
@@ -10635,6 +10125,30 @@
    "cuisine": "chicken"
   },
   {
+   "id": "n9355495109",
+   "name": "Kaffi Hornið",
+   "lat": 64.25466,
+   "lng": -15.2089,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.5,
+     3
+    ],
+    [
+     0.5,
+     4
+    ]
+   ],
+   "town": false,
+   "phone": "+3544782600",
+   "website": "https://kaffihornid.is",
+   "address": "Hafnarbraut 42, Höfn",
+   "hours": "Mo-Su 11:30-21:00",
+   "wheelchair": "yes"
+  },
+  {
    "id": "n7151310569",
    "name": "Kaffi- og veitingaaðstaða þjóðgarðsins á Þingvöllum",
    "lat": 64.25575,
@@ -10652,27 +10166,6 @@
    "cuisine": "coffee shop",
    "vegetarian": true,
    "vegan": true
-  },
-  {
-   "id": "n12745583001",
-   "name": "Kjot&fiskur Fresh Fish",
-   "lat": 65.25669,
-   "lng": -14.41237,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.5,
-     2
-    ],
-    [
-     0.8,
-     3
-    ]
-   ],
-   "town": false,
-   "address": "Kaupvangur 23B",
-   "hours": "Mo-Fr 11:00-18:00; Sa 11:00-16:00"
   },
   {
    "id": "n1248840097",
@@ -10723,6 +10216,26 @@
    "hours": "We-Su 17:30-21:30"
   },
   {
+   "id": "n4357366490",
+   "name": "Mia's Country Van",
+   "lat": 63.52432,
+   "lng": -19.50487,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     5.8,
+     5
+    ]
+   ],
+   "town": false,
+   "cuisine": "fish and chips"
+  },
+  {
    "id": "n306002513",
    "name": "Ning's Restaurant",
    "lat": 64.12894,
@@ -10744,31 +10257,6 @@
     ]
    ],
    "town": true
-  },
-  {
-   "id": "w193117971",
-   "name": "Pakkhús",
-   "lat": 64.25016,
-   "lng": -15.20402,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.5,
-     3
-    ],
-    [
-     0.5,
-     4
-    ]
-   ],
-   "town": false,
-   "phone": "+3544782280",
-   "website": "https://pakkhus.is/",
-   "address": "Krosseyjarvegur 3",
-   "hours": "Mo-Su 12:00-21:00",
-   "wheelchair": "limited",
-   "cuisine": "fish;grill;local;regional;seafood"
   },
   {
    "id": "n8984071445",
@@ -10843,6 +10331,30 @@
     ]
    ],
    "town": true
+  },
+  {
+   "id": "n1407351557",
+   "name": "Systrakaffi",
+   "lat": 63.79038,
+   "lng": -18.0475,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.5,
+     4
+    ],
+    [
+     4.5,
+     5
+    ]
+   ],
+   "town": false,
+   "website": "https://www.systrakaffi.is",
+   "hours": "12:00-22:00",
+   "wheelchair": "limited",
+   "cuisine": "pizza;burger",
+   "vegetarian": true
   },
   {
    "id": "n9907446928",
@@ -10981,7 +10493,7 @@
      2
     ],
     [
-     4.7,
+     4.9,
      3
     ]
    ],
@@ -11012,33 +10524,6 @@
    "town": true,
    "address": "Tryggvagata 11, Reykjavík",
    "hours": "Tu-Sa 17:30-00:00"
-  },
-  {
-   "id": "w520855070",
-   "name": "Íshúsið Pizzeria",
-   "lat": 64.25023,
-   "lng": -15.20319,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.5,
-     3
-    ],
-    [
-     0.5,
-     4
-    ]
-   ],
-   "town": false,
-   "phone": "+3544781230",
-   "website": "https://ishusidpizzeria.is/",
-   "address": "Heppuvegur 2A",
-   "hours": "Mo-Su 17:00-21:00",
-   "email": "info@ishusidpizzeria.is",
-   "cuisine": "fish and chips;italian;pizza",
-   "vegetarian": true,
-   "vegan": true
   },
   {
    "id": "n1233056824",
@@ -11457,30 +10942,6 @@
    "town": true
   },
   {
-   "id": "n13904511305",
-   "name": "Grill 66",
-   "lat": 63.97965,
-   "lng": -22.54682,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.6,
-     0
-    ],
-    [
-     0.9,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544213755",
-   "website": "https://www.olis.is",
-   "address": "Fitjabakki 2-4, Reykjanesbær",
-   "hours": "Mo-Fr 07:30-20:30; Sa-Su 09:00-20:30",
-   "cuisine": "burger"
-  },
-  {
    "id": "n3408671677",
    "name": "Hannesarholt",
    "lat": 64.14428,
@@ -11701,30 +11162,6 @@
    "vegetarian": true
   },
   {
-   "id": "n11162001005",
-   "name": "LiBRARY bistro/bar",
-   "lat": 64.00068,
-   "lng": -22.55036,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.6,
-     0
-    ],
-    [
-     3.2,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544215220",
-   "website": "https://librarybistro.is/",
-   "address": "Hafnargata 57, Keflavík",
-   "hours": "11:30-23:00",
-   "email": "librarybistro@librarybistro.is"
-  },
-  {
    "id": "n3009197137",
    "name": "Loving Hut",
    "lat": 64.14863,
@@ -11861,30 +11298,6 @@
    ],
    "town": true,
    "cuisine": "seafood"
-  },
-  {
-   "id": "n3420321449",
-   "name": "Olsen Olsen Diner",
-   "lat": 63.99985,
-   "lng": -22.5503,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.6,
-     0
-    ],
-    [
-     3.1,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544214457",
-   "website": "https://olsenolsen.is/",
-   "address": "Hafnargata 62",
-   "hours": "Mo-Su 11:00-23:00",
-   "cuisine": "american"
   },
   {
    "id": "n4853843126",
@@ -12649,29 +12062,6 @@
    "vegan": true
   },
   {
-   "id": "n3648718065",
-   "name": "Cafe Petite",
-   "lat": 64.00091,
-   "lng": -22.54778,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.7,
-     0
-    ],
-    [
-     3.2,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545835889",
-   "website": "https://www.facebook.com/cafepetitee",
-   "address": "Framnesvegur 23, Keflavík",
-   "hours": "Mo-Su 16:00-00:00; Fr-Sa 16:00-01:00"
-  },
-  {
    "id": "n1282030466",
    "name": "Café Babalú",
    "lat": 64.14408,
@@ -13370,29 +12760,6 @@
    "town": false
   },
   {
-   "id": "n6981246285",
-   "name": "Kef",
-   "lat": 64.0005,
-   "lng": -22.54705,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.7,
-     0
-    ],
-    [
-     3.2,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3544207011",
-   "website": "https://www.kef.is",
-   "address": "Vatnsnesvegur 12",
-   "hours": "Mo-We, Su 11:30-22:00; Th-Sa 11:30-23:00"
-  },
-  {
    "id": "n5009883057",
    "name": "Kol Kitchen & Bar",
    "lat": 64.143,
@@ -13467,6 +12834,28 @@
     ]
    ],
    "town": true
+  },
+  {
+   "id": "n13988559201",
+   "name": "Ljósdís Kaffihús & Bakarí",
+   "lat": 64.25279,
+   "lng": -15.21038,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.7,
+     3
+    ],
+    [
+     0.7,
+     4
+    ]
+   ],
+   "town": false,
+   "address": "Hafnarbraut 34",
+   "hours": "Mo-Fr 10:00-15:00; Sa-Su 10:00-16:30",
+   "cuisine": "cake;coffee shop;tea"
   },
   {
    "id": "n13914295876",
@@ -14790,6 +14179,28 @@
    "website": "https://bbp.is",
    "hours": "Mo-Su 11:00-22:00",
    "cuisine": "hot dog"
+  },
+  {
+   "id": "n3647182698",
+   "name": "Café Giddy",
+   "lat": 64.25303,
+   "lng": -15.21294,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.8,
+     3
+    ],
+    [
+     0.8,
+     4
+    ]
+   ],
+   "town": false,
+   "address": "Litlabrú 2, Höfn",
+   "hours": "Mo-Su 8:00-17:00",
+   "cuisine": "breakfast"
   },
   {
    "id": "n6703804790",
@@ -16919,6 +16330,25 @@
    "cuisine": "thai"
   },
   {
+   "id": "n4902436794",
+   "name": "Z Bistro",
+   "lat": 64.25228,
+   "lng": -15.20259,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.8,
+     3
+    ],
+    [
+     0.8,
+     4
+    ]
+   ],
+   "town": false
+  },
+  {
    "id": "n346739208",
    "name": "ramen | momo",
    "lat": 64.14662,
@@ -17145,6 +16575,25 @@
    "wheelchair": "yes"
   },
   {
+   "id": "n13971765360",
+   "name": "Birki",
+   "lat": 64.25074,
+   "lng": -15.20518,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.9,
+     3
+    ],
+    [
+     0.9,
+     4
+    ]
+   ],
+   "town": false
+  },
+  {
    "id": "n9661113901",
    "name": "Blik Bistro",
    "lat": 64.16617,
@@ -17322,28 +16771,6 @@
    ],
    "town": true,
    "address": "Laugavegur 30"
-  },
-  {
-   "id": "n1915299273",
-   "name": "Domino's",
-   "lat": 63.99712,
-   "lng": -22.54946,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.9,
-     0
-    ],
-    [
-     2.8,
-     7
-    ]
-   ],
-   "town": true,
-   "address": "Hafnargata 86, Reykjanesbær",
-   "hours": "Mo-Su 11:00-24:00",
-   "cuisine": "pizza"
   },
   {
    "id": "n6297862592",
@@ -17580,6 +17007,30 @@
    "cuisine": "italian"
   },
   {
+   "id": "n13904511305",
+   "name": "Grill 66",
+   "lat": 63.97965,
+   "lng": -22.54682,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.9,
+     7
+    ],
+    [
+     1.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544213755",
+   "website": "https://www.olis.is",
+   "address": "Fitjabakki 2-4, Reykjanesbær",
+   "hours": "Mo-Fr 07:30-20:30; Sa-Su 09:00-20:30",
+   "cuisine": "burger"
+  },
+  {
    "id": "n2073811105",
    "name": "Grái kötturinn",
    "lat": 64.14695,
@@ -17602,6 +17053,29 @@
    ],
    "town": true,
    "phone": "+3545511544"
+  },
+  {
+   "id": "w193118796",
+   "name": "Hafid",
+   "lat": 64.25093,
+   "lng": -15.20199,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.9,
+     3
+    ],
+    [
+     0.9,
+     4
+    ]
+   ],
+   "town": false,
+   "phone": "+3545715484",
+   "address": "Heppuvegur 5",
+   "hours": "Th-Su 20:00-01:00",
+   "email": "kartofluhusid@gmail.com"
   },
   {
    "id": "n5275432925",
@@ -18421,6 +17895,25 @@
    "cuisine": "pizza"
   },
   {
+   "id": "n1827460016",
+   "name": "Skógakaffi",
+   "lat": 63.52616,
+   "lng": -19.49167,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     5.3,
+     5
+    ]
+   ],
+   "town": false
+  },
+  {
    "id": "n3901938826",
    "name": "Smurstöðin",
    "lat": 64.1504,
@@ -19118,6 +18611,54 @@
    "address": "Hverafold 5"
   },
   {
+   "id": "n11099958405",
+   "name": "HEPPA",
+   "lat": 64.25056,
+   "lng": -15.20158,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     1.0,
+     3
+    ],
+    [
+     1.0,
+     4
+    ]
+   ],
+   "town": false,
+   "website": "https://www.heppa.is",
+   "hours": "Su-Sa 17:00-22:00",
+   "cuisine": "american;local"
+  },
+  {
+   "id": "w193117919",
+   "name": "Hafnarbúðin",
+   "lat": 64.24988,
+   "lng": -15.20707,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     1.0,
+     3
+    ],
+    [
+     1.0,
+     4
+    ]
+   ],
+   "town": false,
+   "phone": "+3544781095",
+   "website": "https://www.facebook.com/109642855770933/",
+   "address": "Ránarslóð 2A",
+   "hours": "Mo-Su 11:30-21:00",
+   "email": "hafnarbudin@hafnarbudin.com",
+   "wheelchair": "limited",
+   "cuisine": "american;seafood"
+  },
+  {
    "id": "n4187066209",
    "name": "Haust Restaurant",
    "lat": 64.14437,
@@ -19267,27 +18808,6 @@
    "vegan": true
   },
   {
-   "id": "n7778375185",
-   "name": "Kökulist",
-   "lat": 63.98764,
-   "lng": -22.54973,
-   "kind": "food",
-   "cat": "bakery",
-   "days": [
-    [
-     1.0,
-     0
-    ],
-    [
-     1.8,
-     7
-    ]
-   ],
-   "town": true,
-   "website": "https://kokulist.is/",
-   "hours": "Mo-Su 07:00-18:00"
-  },
-  {
    "id": "n6602337522",
    "name": "Litli Dubliner",
    "lat": 64.14511,
@@ -19413,47 +18933,29 @@
    "cuisine": "noodle"
   },
   {
-   "id": "n13917023207",
-   "name": "Panda",
-   "lat": 63.9958,
-   "lng": -22.54942,
+   "id": "w193117971",
+   "name": "Pakkhús",
+   "lat": 64.25016,
+   "lng": -15.20402,
    "kind": "food",
    "cat": "restaurant",
    "days": [
     [
      1.0,
-     0
+     3
     ],
-    [
-     2.7,
-     7
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n7778356986",
-   "name": "Pizzan",
-   "lat": 63.9873,
-   "lng": -22.54926,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
     [
      1.0,
-     0
-    ],
-    [
-     1.7,
-     7
+     4
     ]
    ],
-   "town": true,
-   "phone": "+3545788888",
-   "website": "https://www.pizzan.is",
-   "address": "Hólagata 20, Reykjanesbær",
-   "hours": "Mo-Su 11:00-23:00",
-   "cuisine": "pizza"
+   "town": false,
+   "phone": "+3544782280",
+   "website": "https://pakkhus.is/",
+   "address": "Krosseyjarvegur 3",
+   "hours": "Mo-Su 12:00-21:00",
+   "wheelchair": "limited",
+   "cuisine": "fish;grill;local;regional;seafood"
   },
   {
    "id": "n4386307691",
@@ -19548,26 +19050,6 @@
     ]
    ],
    "town": true
-  },
-  {
-   "id": "n13917023208",
-   "name": "Rétturinn",
-   "lat": 63.9956,
-   "lng": -22.54939,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.0,
-     0
-    ],
-    [
-     2.6,
-     7
-    ]
-   ],
-   "town": true,
-   "website": "https://www.retturinn.is"
   },
   {
    "id": "n6175095586",
@@ -19669,11 +19151,11 @@
    "days": [
     [
      1.0,
-     0
+     7
     ],
     [
-     1.0,
-     7
+     2.9,
+     0
     ]
    ],
    "town": true,
@@ -19695,6 +19177,33 @@
    "town": true,
    "address": "Mýrarvegur 1, Akureyri",
    "cuisine": "ice cream"
+  },
+  {
+   "id": "w520855070",
+   "name": "Íshúsið Pizzeria",
+   "lat": 64.25023,
+   "lng": -15.20319,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     1.0,
+     3
+    ],
+    [
+     1.0,
+     4
+    ]
+   ],
+   "town": false,
+   "phone": "+3544781230",
+   "website": "https://ishusidpizzeria.is/",
+   "address": "Heppuvegur 2A",
+   "hours": "Mo-Su 17:00-21:00",
+   "email": "info@ishusidpizzeria.is",
+   "cuisine": "fish and chips;italian;pizza",
+   "vegetarian": true,
+   "vegan": true
   },
   {
    "id": "w106511084",
@@ -19858,26 +19367,23 @@
    "cuisine": "healthfood"
   },
   {
-   "id": "n3740821591",
-   "name": "KFC",
-   "lat": 63.99466,
-   "lng": -22.54973,
+   "id": "n11055443647",
+   "name": "KJARR Restaurant",
+   "lat": 63.78658,
+   "lng": -18.05847,
    "kind": "food",
-   "cat": "fast_food",
+   "cat": "restaurant",
    "days": [
     [
      1.1,
-     0
+     4
     ],
     [
-     2.5,
-     7
+     3.8,
+     5
     ]
    ],
-   "town": true,
-   "address": "Krossmói 2",
-   "hours": "Mo-Su 11:00-22:00",
-   "cuisine": "chicken"
+   "town": false
   },
   {
    "id": "n2410496950",
@@ -20230,51 +19736,6 @@
    ],
    "town": true,
    "cuisine": "burger;pizza"
-  },
-  {
-   "id": "n7415668437",
-   "name": "Serrano",
-   "lat": 63.99385,
-   "lng": -22.55037,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.2,
-     0
-    ],
-    [
-     2.5,
-     7
-    ]
-   ],
-   "town": true,
-   "cuisine": "asian"
-  },
-  {
-   "id": "n9083028717",
-   "name": "Tommi's Burger Joint",
-   "lat": 63.9944,
-   "lng": -22.54834,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.2,
-     0
-    ],
-    [
-     2.5,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545195210",
-   "website": "https://tommis.is/is/",
-   "address": "Iðjustígur 1, Reykjanesbær",
-   "hours": "Mo-Su 11:00-21:00",
-   "email": "reykjanesbaer@tommis.is",
-   "cuisine": "burger"
   },
   {
    "id": "n2749591827",
@@ -21009,29 +20470,6 @@
    "hours": "Mo-Fr 07:30-16:00; Sa 09:00-16:00; Su 09:00-15:00"
   },
   {
-   "id": "n12394095973",
-   "name": "Bæjarins Beztu Pylsur",
-   "lat": 63.99644,
-   "lng": -22.62281,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.6,
-     0
-    ],
-    [
-     2.5,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545111566",
-   "website": "https://bbp.is",
-   "hours": "24/7",
-   "cuisine": "hot dog"
-  },
-  {
    "id": "n656083365",
    "name": "Grill Skálinn",
    "lat": 65.03465,
@@ -21046,66 +20484,6 @@
    ],
    "town": false,
    "cuisine": "burger"
-  },
-  {
-   "id": "n6217180590",
-   "name": "Hjá Höllu",
-   "lat": 63.99393,
-   "lng": -22.6236,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.6,
-     0
-    ],
-    [
-     2.2,
-     7
-    ]
-   ],
-   "town": true,
-   "cuisine": "pizza"
-  },
-  {
-   "id": "n4620337803",
-   "name": "Joe & The Juice",
-   "lat": 63.99596,
-   "lng": -22.62365,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.6,
-     0
-    ],
-    [
-     2.4,
-     7
-    ]
-   ],
-   "town": true,
-   "cuisine": "coffee shop"
-  },
-  {
-   "id": "n8933371958",
-   "name": "Joe & The Juice",
-   "lat": 63.99682,
-   "lng": -22.62336,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.6,
-     0
-    ],
-    [
-     2.5,
-     7
-    ]
-   ],
-   "town": true,
-   "cuisine": "coffee shop"
   },
   {
    "id": "n5022572296",
@@ -21164,44 +20542,6 @@
    "town": true
   },
   {
-   "id": "n4620337802",
-   "name": "Loksins",
-   "lat": 63.99594,
-   "lng": -22.62298,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     1.6,
-     0
-    ],
-    [
-     2.4,
-     7
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n4620376494",
-   "name": "Mathús",
-   "lat": 63.99586,
-   "lng": -22.62343,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.6,
-     0
-    ],
-    [
-     2.4,
-     7
-    ]
-   ],
-   "town": true
-  },
-  {
    "id": "n1280775074",
    "name": "Moe's Bar",
    "lat": 64.09741,
@@ -21225,25 +20565,6 @@
    "town": true,
    "website": "http://www.moesbar.is",
    "address": "Jafnasel 6"
-  },
-  {
-   "id": "n4620429291",
-   "name": "Nord Restaurant",
-   "lat": 63.99606,
-   "lng": -22.62384,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.6,
-     0
-    ],
-    [
-     2.4,
-     7
-    ]
-   ],
-   "town": true
   },
   {
    "id": "n13790172661",
@@ -21272,68 +20593,6 @@
    "address": "Litlatún 3, Garðabær",
    "hours": "Mo-Su 16:00-22:00",
    "cuisine": "pizza"
-  },
-  {
-   "id": "n4620337805",
-   "name": "Pure Food Hall",
-   "lat": 63.99629,
-   "lng": -22.62451,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.6,
-     0
-    ],
-    [
-     2.4,
-     7
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n12394095972",
-   "name": "Sbarro",
-   "lat": 63.99648,
-   "lng": -22.62281,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.6,
-     0
-    ],
-    [
-     2.5,
-     7
-    ]
-   ],
-   "town": true,
-   "phone": "+3545141414",
-   "website": "https://sbarro.is",
-   "hours": "Mo-Su 06:00-28:00",
-   "cuisine": "pizza"
-  },
-  {
-   "id": "n4620337801",
-   "name": "Segafredo",
-   "lat": 63.99595,
-   "lng": -22.62327,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.6,
-     0
-    ],
-    [
-     2.4,
-     7
-    ]
-   ],
-   "town": true,
-   "cuisine": "coffee shop"
   },
   {
    "id": "n6646847092",
@@ -21535,6 +20794,30 @@
    "cuisine": "indian"
   },
   {
+   "id": "n7778356986",
+   "name": "Pizzan",
+   "lat": 63.9873,
+   "lng": -22.54926,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     1.7,
+     7
+    ],
+    [
+     2.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545788888",
+   "website": "https://www.pizzan.is",
+   "address": "Hólagata 20, Reykjanesbær",
+   "hours": "Mo-Su 11:00-23:00",
+   "cuisine": "pizza"
+  },
+  {
    "id": "n13915493923",
    "name": "Pizzan",
    "lat": 64.11429,
@@ -21586,26 +20869,6 @@
    "town": true,
    "wheelchair": "limited",
    "cuisine": "hot dog"
-  },
-  {
-   "id": "n5050455557",
-   "name": "Saga Lounge",
-   "lat": 63.99416,
-   "lng": -22.62402,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     1.7,
-     0
-    ],
-    [
-     2.2,
-     7
-    ]
-   ],
-   "town": true,
-   "website": "http://www.icelandair.us/information/at-the-airport/saga-lounge/"
   },
   {
    "id": "n4354587266",
@@ -22037,6 +21300,27 @@
    ],
    "town": true,
    "address": "Auðbrekka 2, Kópavogur"
+  },
+  {
+   "id": "n7778375185",
+   "name": "Kökulist",
+   "lat": 63.98764,
+   "lng": -22.54973,
+   "kind": "food",
+   "cat": "bakery",
+   "days": [
+    [
+     1.8,
+     7
+    ],
+    [
+     2.5,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://kokulist.is/",
+   "hours": "Mo-Su 07:00-18:00"
   },
   {
    "id": "n4227426301",
@@ -22477,6 +21761,26 @@
    "town": true
   },
   {
+   "id": "n6217180590",
+   "name": "Hjá Höllu",
+   "lat": 63.99393,
+   "lng": -22.6236,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     2.2,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "pizza"
+  },
+  {
    "id": "n11958070896",
    "name": "Ingólfsskáli Viking Restaurant",
    "lat": 63.98182,
@@ -22526,6 +21830,26 @@
    "website": "https://mossley.is/",
    "hours": "Su-Th 11:30-22:00; Fr-Sa 11:30-23:00",
    "cuisine": "burger"
+  },
+  {
+   "id": "n5050455557",
+   "name": "Saga Lounge",
+   "lat": 63.99416,
+   "lng": -22.62402,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     2.2,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "http://www.icelandair.us/information/at-the-airport/saga-lounge/"
   },
   {
    "id": "n14073607611",
@@ -22607,6 +21931,255 @@
    "address": "Sundagarðar 2b, Reykjavík",
    "hours": "Mo-Su 11:00-22:00",
    "cuisine": "chicken"
+  },
+  {
+   "id": "n4620337803",
+   "name": "Joe & The Juice",
+   "lat": 63.99596,
+   "lng": -22.62365,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     2.4,
+     7
+    ],
+    [
+     6.0,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "coffee shop"
+  },
+  {
+   "id": "n4620337802",
+   "name": "Loksins",
+   "lat": 63.99594,
+   "lng": -22.62298,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     2.4,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n4620376494",
+   "name": "Mathús",
+   "lat": 63.99586,
+   "lng": -22.62343,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     2.4,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n4620429291",
+   "name": "Nord Restaurant",
+   "lat": 63.99606,
+   "lng": -22.62384,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     2.4,
+     7
+    ],
+    [
+     6.0,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n4620337805",
+   "name": "Pure Food Hall",
+   "lat": 63.99629,
+   "lng": -22.62451,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     2.4,
+     7
+    ],
+    [
+     6.0,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n4620337801",
+   "name": "Segafredo",
+   "lat": 63.99595,
+   "lng": -22.62327,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     2.4,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "coffee shop"
+  },
+  {
+   "id": "n12394095973",
+   "name": "Bæjarins Beztu Pylsur",
+   "lat": 63.99644,
+   "lng": -22.62281,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     2.5,
+     7
+    ],
+    [
+     6.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545111566",
+   "website": "https://bbp.is",
+   "hours": "24/7",
+   "cuisine": "hot dog"
+  },
+  {
+   "id": "n8933371958",
+   "name": "Joe & The Juice",
+   "lat": 63.99682,
+   "lng": -22.62336,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     2.5,
+     7
+    ],
+    [
+     6.0,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "coffee shop"
+  },
+  {
+   "id": "n3740821591",
+   "name": "KFC",
+   "lat": 63.99466,
+   "lng": -22.54973,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     2.5,
+     7
+    ],
+    [
+     3.0,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Krossmói 2",
+   "hours": "Mo-Su 11:00-22:00",
+   "cuisine": "chicken"
+  },
+  {
+   "id": "n12394095972",
+   "name": "Sbarro",
+   "lat": 63.99648,
+   "lng": -22.62281,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     2.5,
+     7
+    ],
+    [
+     6.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545141414",
+   "website": "https://sbarro.is",
+   "hours": "Mo-Su 06:00-28:00",
+   "cuisine": "pizza"
+  },
+  {
+   "id": "n7415668437",
+   "name": "Serrano",
+   "lat": 63.99385,
+   "lng": -22.55037,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     2.5,
+     7
+    ],
+    [
+     3.0,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "asian"
+  },
+  {
+   "id": "n9083028717",
+   "name": "Tommi's Burger Joint",
+   "lat": 63.9944,
+   "lng": -22.54834,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     2.5,
+     7
+    ],
+    [
+     3.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545195210",
+   "website": "https://tommis.is/is/",
+   "address": "Iðjustígur 1, Reykjanesbær",
+   "hours": "Mo-Su 11:00-21:00",
+   "email": "reykjanesbaer@tommis.is",
+   "cuisine": "burger"
   },
   {
    "id": "n2159345042",
@@ -22711,6 +22284,26 @@
    "email": "radagerdi@radagerdi170.is"
   },
   {
+   "id": "n13917023208",
+   "name": "Rétturinn",
+   "lat": 63.9956,
+   "lng": -22.54939,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     2.6,
+     7
+    ],
+    [
+     3.1,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.retturinn.is"
+  },
+  {
    "id": "n4336040371",
    "name": "Veitingastaðurinn Hvönn",
    "lat": 64.12599,
@@ -22727,6 +22320,413 @@
    "phone": "+3544868870",
    "website": "https://www.hotelskalholt.is/",
    "address": "Skálholt, Selfoss"
+  },
+  {
+   "id": "n13917023207",
+   "name": "Panda",
+   "lat": 63.9958,
+   "lng": -22.54942,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     2.7,
+     7
+    ],
+    [
+     3.1,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n1915299273",
+   "name": "Domino's",
+   "lat": 63.99712,
+   "lng": -22.54946,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     2.8,
+     7
+    ],
+    [
+     3.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Hafnargata 86, Reykjanesbær",
+   "hours": "Mo-Su 11:00-24:00",
+   "cuisine": "pizza"
+  },
+  {
+   "id": "n3420321449",
+   "name": "Olsen Olsen Diner",
+   "lat": 63.99985,
+   "lng": -22.5503,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     3.1,
+     7
+    ],
+    [
+     3.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544214457",
+   "website": "https://olsenolsen.is/",
+   "address": "Hafnargata 62",
+   "hours": "Mo-Su 11:00-23:00",
+   "cuisine": "american"
+  },
+  {
+   "id": "n3648718065",
+   "name": "Cafe Petite",
+   "lat": 64.00091,
+   "lng": -22.54778,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     3.2,
+     7
+    ],
+    [
+     3.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545835889",
+   "website": "https://www.facebook.com/cafepetitee",
+   "address": "Framnesvegur 23, Keflavík",
+   "hours": "Mo-Su 16:00-00:00; Fr-Sa 16:00-01:00"
+  },
+  {
+   "id": "n6981246285",
+   "name": "Kef",
+   "lat": 64.0005,
+   "lng": -22.54705,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     3.2,
+     7
+    ],
+    [
+     3.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544207011",
+   "website": "https://www.kef.is",
+   "address": "Vatnsnesvegur 12",
+   "hours": "Mo-We, Su 11:30-22:00; Th-Sa 11:30-23:00"
+  },
+  {
+   "id": "n11162001005",
+   "name": "LiBRARY bistro/bar",
+   "lat": 64.00068,
+   "lng": -22.55036,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     3.2,
+     7
+    ],
+    [
+     3.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544215220",
+   "website": "https://librarybistro.is/",
+   "address": "Hafnargata 57, Keflavík",
+   "hours": "11:30-23:00",
+   "email": "librarybistro@librarybistro.is"
+  },
+  {
+   "id": "n14073614163",
+   "name": "Brons",
+   "lat": 64.00223,
+   "lng": -22.55834,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     3.4,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3548690180",
+   "website": "https://www.bronskeflavik.is/en/"
+  },
+  {
+   "id": "n9126956729",
+   "name": "Oriento",
+   "lat": 64.00263,
+   "lng": -22.55383,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     3.4,
+     7
+    ],
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n1915296513",
+   "name": "Paddys Irish Pub",
+   "lat": 64.00247,
+   "lng": -22.55357,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     3.4,
+     7
+    ],
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n14073614164",
+   "name": "Pólskur matur",
+   "lat": 64.00147,
+   "lng": -22.56106,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     3.4,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-We 11:30-15:00; Th-Fr 09:00-15:00; Sa 09:00-17:00",
+   "cuisine": "polish"
+  },
+  {
+   "id": "n2639079548",
+   "name": "Thai Keflavík",
+   "lat": 64.00232,
+   "lng": -22.55277,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     3.4,
+     7
+    ],
+    [
+     3.8,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Sa 11:00-22:00; Su 16:00-22:00"
+  },
+  {
+   "id": "n9126956730",
+   "name": "Biryani",
+   "lat": 64.00316,
+   "lng": -22.55415,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     3.5,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n11519254183",
+   "name": "Bitinn",
+   "lat": 63.99999,
+   "lng": -22.57672,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     3.5,
+     7
+    ],
+    [
+     4.3,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "bistro"
+  },
+  {
+   "id": "n3741243243",
+   "name": "Lemon",
+   "lat": 64.00327,
+   "lng": -22.55418,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     3.5,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544218999",
+   "website": "https://lemon.is/",
+   "address": "Hafnargata 29, Keflavík",
+   "hours": "Mo-Fr 08:00-22:00; Sa-Su 10:00-22:00",
+   "wheelchair": "limited",
+   "cuisine": "sandwich"
+  },
+  {
+   "id": "n6629921951",
+   "name": "Malai-Thai",
+   "lat": 64.00315,
+   "lng": -22.55479,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     3.5,
+     7
+    ],
+    [
+     3.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545886686"
+  },
+  {
+   "id": "n5035312921",
+   "name": "Veitingastaðurinn Ráin",
+   "lat": 64.00428,
+   "lng": -22.55554,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     3.6,
+     7
+    ],
+    [
+     4.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544214601",
+   "website": "https://www.rain.is/",
+   "address": "Hafnargata 19, Keflavik",
+   "cuisine": "regional"
+  },
+  {
+   "id": "n6629928962",
+   "name": "Ungó",
+   "lat": 64.00557,
+   "lng": -22.55716,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     3.8,
+     7
+    ],
+    [
+     4.2,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "burger;pizza;ice cream"
+  },
+  {
+   "id": "n5113556722",
+   "name": "Sigurjónsbakarí",
+   "lat": 64.0046,
+   "lng": -22.57348,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     3.9,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "http://www.sigurjonsbakari.net/",
+   "address": "Hólmgarður 2, Reykjanesbær",
+   "cuisine": "breakfast"
+  },
+  {
+   "id": "n129958158",
+   "name": "Kaffi Duus",
+   "lat": 64.00817,
+   "lng": -22.55743,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     4.1,
+     7
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544217080",
+   "website": "http://www.duus.is/",
+   "address": "Duusgata 10, Keflavík",
+   "wheelchair": "yes"
   },
   {
    "id": "n13679023742",
@@ -23240,22 +23240,6 @@
    "address": "Kirkjubraut 11",
    "hours": "Mo-Th 11:30-21:00; Fr-Sa 12:00-22:00; Su 17:00-21:00",
    "email": "veislur@vogv.is"
-  },
-  {
-   "id": "n4425402490",
-   "name": "Grillið í Garði",
-   "lat": 64.06756,
-   "lng": -22.64865,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     8.1,
-     0
-    ]
-   ],
-   "town": false,
-   "hours": "Mo-Su 11:00-22:00"
   },
   {
    "id": "n2074577608",
