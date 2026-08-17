@@ -63,14 +63,17 @@
     {
       "night": 3,
       "date": "2026-10-04",
-      "town": "Akureyri",
-      "property": "Hoepfner and Tulinius Historical Houses",
-      "address": "Hafnarstræti 20, 600 Akureyri",
-      "lat": 65.6729239,
-      "lng": -18.0864129,
-      "source": "Airbnb/other",
-      "bookedBy": "other traveller",
-      "notes": "AKUREYRI, not Mývatn — about 100 km west of it. Oct 4 was built to end at Mývatn after the lake circuit, so this needs the route re-checked."
+      "town": "Mývatn (Reykjahlíð)",
+      "property": "Hlíð Bed and Breakfast",
+      "address": "Hraunbrún, 660 Mývatn",
+      "lat": 65.64923,
+      "lng": -16.91806,
+      "source": "Booking.com",
+      "bookedBy": "Kirill",
+      "rooms": "2",
+      "phone": "+3544644103",
+      "website": "https://www.myvatnaccommodation.is/",
+      "notes": "Rebooked from Akureyri — back on the lake, which removes ~180 km of out-and-back over Oct 4 and Oct 5. Phone/website are the adjoining Hlíð campsite under the same operator; confirm reception hours for a late arrival."
     },
     {
       "night": 4,
@@ -166,11 +169,6 @@
     "notes": "Pickup 01:00 is 65 min after the 23:55 landing — immigration, bags and the rental shuttle all have to fit in that. Plug-in hybrid: it runs on petrol regardless, so range is never a problem; charging is only a cost saving if a hotel has a plug. 'Or similar' means the PHEV is not guaranteed."
   },
   "todo": [
-    {
-      "what": "Re-plan Oct 4/Oct 5 — bed 3 is Akureyri, not Mývatn (~100 km apart)",
-      "owner": "Claude",
-      "blocking": true
-    },
     {
       "what": "Night 1 — arrange late check-in; window closes 00:30 and we arrive ~01:10",
       "owner": "Vitalii",

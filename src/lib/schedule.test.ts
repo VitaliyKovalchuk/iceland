@@ -10,16 +10,16 @@ const s = allSched();
 describe("ring schedule", () => {
   it("reproduces the verified week", () => {
     expect(s).toHaveLength(8);
-    // 2,216 km once the route was moved onto the beds actually booked:
-    // Skagastrond (+24 km), Akureyri instead of Myvatn (+~180 km over two days),
-    // and central Reykjavik instead of Selfoss (+57 km).
-    expect(s.reduce((a, x) => a + x.km, 0)).toBe(2216);
+    // 2,054 km on the beds as actually booked: Skagastrond (+24 km) and central
+    // Reykjavik instead of Selfoss (+57 km). Myvatn was briefly rebooked to
+    // Akureyri, which cost ~180 km over two days; that booking was reversed.
+    expect(s.reduce((a, x) => a + x.km, 0)).toBe(2054);
   });
 
   it("ends each day at the bed we actually booked", () => {
     const towns = bedKeys().map((k) => poi(k).name);
     expect(towns).toEqual([
-      "Keflavík", "Skagaströnd", "Akureyri (bed)", "Egilsstadir",
+      "Keflavík", "Skagaströnd", "Mývatn", "Egilsstadir",
       "Höfn", "Kirkjubæjarklaustur", "Vík í Mýrdal", "Reykjavík",
     ]);
   });

@@ -27,7 +27,7 @@
    "day": 2,
    "date": "Oct 4",
    "title": "Akureyri, Goðafoss, the Mývatn ring",
-   "routeKm": 344,
+   "routeKm": 263,
    "counts": {
     "attractions": 69,
     "food": 75,
@@ -49,18 +49,18 @@
    "day": 3,
    "date": "Oct 5",
    "title": "Hverir, Dettifoss, Ásbyrgi",
-   "routeKm": 375,
+   "routeKm": 294,
    "counts": {
-    "attractions": 81,
-    "food": 80,
-    "fuel": 27,
-    "groceries": 10,
-    "stays": 119,
-    "attractionsRural": 67,
-    "foodRural": 27,
-    "bigSupermarkets": 9
+    "attractions": 53,
+    "food": 21,
+    "fuel": 11,
+    "groceries": 2,
+    "stays": 49,
+    "attractionsRural": 53,
+    "foodRural": 21,
+    "bigSupermarkets": 2
    },
-   "fuelOnRoute": 27,
+   "fuelOnRoute": 10,
    "longestFuelGapKm": 98,
    "longestFuelGapBetween": [
     "N1",

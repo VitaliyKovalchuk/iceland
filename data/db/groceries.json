@@ -13,10 +13,6 @@
     [
      0.0,
      1
-    ],
-    [
-     2.4,
-     2
     ]
    ],
    "town": true,
@@ -348,10 +344,6 @@
     [
      0.1,
      1
-    ],
-    [
-     3.8,
-     2
     ]
    ],
    "town": true,
@@ -649,10 +641,6 @@
     [
      0.1,
      1
-    ],
-    [
-     1.9,
-     2
     ]
    ],
    "town": true,
@@ -1113,10 +1101,6 @@
     [
      0.3,
      1
-    ],
-    [
-     1.7,
-     2
     ]
    ],
    "town": true,
@@ -1218,10 +1202,6 @@
     [
      0.5,
      1
-    ],
-    [
-     1.7,
-     2
     ]
    ],
    "town": true,
@@ -1856,50 +1836,6 @@
    "brand": "Samkaup"
   },
   {
-   "id": "n445050535",
-   "name": "Bónus",
-   "lat": 65.66933,
-   "lng": -18.11052,
-   "kind": "grocery",
-   "cat": "supermarket",
-   "days": [
-    [
-     1.2,
-     1
-    ],
-    [
-     1.2,
-     2
-    ]
-   ],
-   "town": true,
-   "address": "Kjarnagata 2, Akureyri",
-   "hours": "Mo-Su 10:00-20:00",
-   "brand": "Bónus"
-  },
-  {
-   "id": "n4035421238",
-   "name": "Fisk Kompaní",
-   "lat": 65.66941,
-   "lng": -18.11043,
-   "kind": "grocery",
-   "cat": "minimarket",
-   "days": [
-    [
-     1.2,
-     1
-    ],
-    [
-     1.2,
-     2
-    ]
-   ],
-   "town": true,
-   "phone": "+3545718080",
-   "address": "Kjarnagata 2, Akureyri",
-   "brand": "Fisk Kompaní"
-  },
-  {
    "id": "n1241852013",
    "name": "Melabúðin",
    "lat": 64.14471,
@@ -2055,6 +1991,42 @@
    "brand": "Bónus"
   },
   {
+   "id": "n445050535",
+   "name": "Bónus",
+   "lat": 65.66933,
+   "lng": -18.11052,
+   "kind": "grocery",
+   "cat": "supermarket",
+   "days": [
+    [
+     1.3,
+     1
+    ]
+   ],
+   "town": true,
+   "address": "Kjarnagata 2, Akureyri",
+   "hours": "Mo-Su 10:00-20:00",
+   "brand": "Bónus"
+  },
+  {
+   "id": "n4035421238",
+   "name": "Fisk Kompaní",
+   "lat": 65.66941,
+   "lng": -18.11043,
+   "kind": "grocery",
+   "cat": "minimarket",
+   "days": [
+    [
+     1.3,
+     1
+    ]
+   ],
+   "town": true,
+   "phone": "+3545718080",
+   "address": "Kjarnagata 2, Akureyri",
+   "brand": "Fisk Kompaní"
+  },
+  {
    "id": "n9755777555",
    "name": "Krónan",
    "lat": 64.14569,
@@ -2171,10 +2143,6 @@
     [
      1.5,
      1
-    ],
-    [
-     1.6,
-     2
     ]
    ],
    "town": true,
