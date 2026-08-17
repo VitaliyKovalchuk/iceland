@@ -170,7 +170,7 @@
       "meetingPoint": "Sólheimajökull car park, end of Road 221",
       "bookedBy": "Kirill",
       "duration": "~3 hours",
-      "notes": "An hour later than the route assumed. Day now starts 08:32 and reaches the car park 14:00, 30 min before departure. Off the ice ~17:30, away ~17:45, at Brekkur 1 ~18:08 against an 18:25 sunset — only 17 min of margin, and the final 23 km is Route 1 in dusk. If the tour overruns you will finish that leg in the dark. Ask Arctic Adventures for an earlier slot if one opens."
+      "notes": "Fixed 14:30 departure — kept deliberately. Day starts 08:32, at the car park 14:00, off the ice ~17:30, at Brekkur 1 ~18:08 against an 18:25 sunset. 17 minutes of margin is accepted: the final 23 km is Route 1 in dusk. If the tour overruns, that leg is done in the dark — which is fine on that road."
     },
     {
       "name": "Blue Lagoon",
@@ -228,11 +228,10 @@
       "what": "Confirm car insurance covers gravel (GP) and sand & ash (SAAP)",
       "owner": "Vitalii",
       "blocking": false
-    },
-    {
-      "what": "Traveller names and phone numbers for the guide",
-      "owner": "Vitalii",
-      "blocking": false
     }
+  ],
+  "decisions": [
+    "Glacier slot stays at 14:30 rather than moving earlier. Oct 8 runs with 17 min of daylight margin by choice.",
+    "Traveller names and phone numbers deliberately not recorded."
   ]
 }
