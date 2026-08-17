@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# the real booking details stay local; the app reads data/trip.public.json
+data/trip.json
+data/telegram*.txt

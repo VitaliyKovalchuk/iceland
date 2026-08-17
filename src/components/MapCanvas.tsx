@@ -191,15 +191,13 @@ export default function MapCanvas({
             pane="markerPane"
             pathOptions={{ color: "#fff", weight: 3, fillColor: "#0E1518", fillOpacity: 1 }}>
             <Popup>
-              <strong>Night {b.night} — {b.property}</strong>
+              <strong>Night {b.night} — {b.town}</strong>
               <br />
-              <span style={{ fontSize: 11, opacity: 0.7 }}>{b.date} · {b.town}</span>
-              {b.address && <><br /><span style={{ fontSize: 11 }}>{b.address}</span></>}
+              <span style={{ fontSize: 11, opacity: 0.7 }}>{b.date}</span>
               <br />
               <a href={gmapsAt(b.lat, b.lng)} target="_blank" rel="noopener">Open</a>
               {" · "}
               <a href={gmapsDriveTo(b.lat, b.lng)} target="_blank" rel="noopener">Drive</a>
-              {b.phone && <> · <a href={`tel:${b.phone}`}>Call</a></>}
             </Popup>
           </CircleMarker>
         ) : null

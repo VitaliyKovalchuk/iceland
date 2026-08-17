@@ -1,0 +1,142 @@
+{
+ "title": "Iceland Ring Road, 2–10 October 2026",
+ "bookings": [
+  {
+   "night": 1,
+   "date": "2026-10-02",
+   "town": "Keflavík (Innri-Njarðvík)",
+   "lat": 63.9745718,
+   "lng": -22.5071418
+  },
+  {
+   "night": 2,
+   "date": "2026-10-03",
+   "town": "Skagaströnd",
+   "lat": 65.8261547,
+   "lng": -20.3217908
+  },
+  {
+   "night": 3,
+   "date": "2026-10-04",
+   "town": "Mývatn (Reykjahlíð)",
+   "lat": 65.64923,
+   "lng": -16.91806
+  },
+  {
+   "night": 4,
+   "date": "2026-10-05",
+   "town": "Egilsstaðir, Múlaþing",
+   "lat": 65.177817,
+   "lng": -14.542279
+  },
+  {
+   "night": 5,
+   "date": "2026-10-06",
+   "town": "Höfn",
+   "lat": 64.2597915,
+   "lng": -15.2047524
+  },
+  {
+   "night": 6,
+   "date": "2026-10-07",
+   "town": "Kirkjubæjarklaustur",
+   "lat": 63.55377295557529,
+   "lng": -18.18668938095092
+  },
+  {
+   "night": 7,
+   "date": "2026-10-08",
+   "town": "Vík",
+   "lat": 63.450494,
+   "lng": -19.144497
+  },
+  {
+   "night": 8,
+   "date": "2026-10-09",
+   "town": "Reykjavík (Vesturbær)",
+   "lat": 64.15185,
+   "lng": -21.95099
+  }
+ ],
+ "tours": [
+  {
+   "name": "Jökulsárlón zodiac boat tour",
+   "date": "2026-10-07",
+   "time": "09:50",
+   "duration": "~60 min on the water"
+  },
+  {
+   "name": "Katla ice cave (Mýrdalsjökull)",
+   "date": "2026-10-09",
+   "time": "09:00",
+   "duration": "3 hours"
+  },
+  {
+   "name": "Sólheimajökull glacier hike",
+   "date": "2026-10-08",
+   "time": "14:30",
+   "duration": "~3 hours"
+  },
+  {
+   "name": "Blue Lagoon",
+   "date": "2026-10-10",
+   "time": "16:00",
+   "duration": "entry slot — stay until closing"
+  }
+ ],
+ "flights": [
+  {
+   "direction": "out",
+   "airline": "LOT Polish Airlines",
+   "flightNo": "LO1499",
+   "from": "WAW",
+   "to": "KEF",
+   "date": "2026-10-02",
+   "depart": "21:35",
+   "arrive": "23:55"
+  },
+  {
+   "direction": "home",
+   "airline": "Wizz Air",
+   "flightNo": "W6 1540",
+   "from": "KEF",
+   "to": "WAW",
+   "date": "2026-10-10",
+   "depart": "23:50",
+   "arriveDate": "2026-10-11",
+   "arrive": "05:50"
+  }
+ ],
+ "car": {
+  "model": "Kia Sorento Plug-in Hybrid or similar",
+  "spec": "Kia Sorento PHEV or similar · automatic · 4x4 · 5 doors · 5 seats · 4 large bags · 23+ only · unlimited mileage",
+  "pickup": {
+   "place": "Keflavík Intl Airport — Hertz counter in the ARRIVALS HALL, just after customs",
+   "date": "2026-10-03",
+   "time": "01:00"
+  },
+  "dropoff": {
+   "place": "Keflavík Intl Airport",
+   "date": "2026-10-10",
+   "time": "20:00"
+  },
+  "restrictions": {
+   "summary": "The signed declaration bans PLUG-IN HYBRID, electric, luxury and 2WD vehicles from F-roads and three named roads — even though ours is a 4x4. Breach = 150,000 ISK fee under Article 10, plus the damage is uninsured.",
+   "bannedRoads": [
+    "Any road marked F on official maps",
+    "35 Kjolur (highland section)",
+    "550 Kaldidalur",
+    "208 Landmannalaugar"
+   ],
+   "penaltyISK": 150000,
+   "note": "This is a USE restriction, not an insurance option — MAX coverage does not lift it. It is also largely moot in October: the highland roads are shut for the season and our route was audited leg by leg and contains none of them.",
+   "routeVerified": "All 40 legs re-checked against the contract ban list. No F-road, no 550 Kaldidalur, no 208 Landmannalaugar. Road 35 is used on Oct 10 for the Golden Circle — that is the PAVED Biskupstungnabraut south of Gullfoss, which is not the banned Kjolur. The route's northernmost point on 35 is 64.3289, about 200 m past the falls (the car park exit, which OSM labels Kjalvegur); the highland Kjolur track begins around 64.36 and we never reach it."
+  }
+ },
+ "emergency": {
+  "Emergency (all services)": "112",
+  "Road conditions": "https://www.road.is",
+  "Weather": "https://en.vedur.is",
+  "Travel alerts": "https://safetravel.is"
+ }
+}

@@ -19,8 +19,14 @@ describe("ring schedule", () => {
   it("ends each day at the bed we actually booked", () => {
     const towns = bedKeys().map((k) => poi(k).name);
     expect(towns).toEqual([
-      "Keflavík", "Skagaströnd", "Mývatn", "Egilsstadir",
-      "Höfn", "Kirkjubæjarklaustur", "Vík í Mýrdal", "Reykjavík",
+      "Keflavík",
+      "Skagaströnd",
+      "Mývatn",
+      "Egilsstaðir",
+      "Höfn",
+      "Kirkjubæjarklaustur",
+      "Vík í Mýrdal",
+      "Reykjavík",
     ]);
   });
 

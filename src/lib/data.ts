@@ -1,6 +1,8 @@
 import type { Itinerary, Trip } from "./types";
 import itineraryJson from "../../data/generated/itinerary.json";
-import tripJson from "../../data/trip.json";
+// deliberately the PUBLIC copy — the full trip.json holds confirmation numbers,
+// addresses and phone numbers, and anything imported here ships in the client bundle
+import tripJson from "../../data/trip.public.json";
 
 export const itinerary = itineraryJson as unknown as Itinerary;
 export const trip = tripJson as unknown as Trip;
