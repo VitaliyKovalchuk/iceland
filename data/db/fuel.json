@@ -204,7 +204,7 @@
      6
     ],
     [
-     0.1,
+     0.0,
      7
     ],
     [
@@ -550,6 +550,36 @@
    "address": "Hafnarbraut 45, Höfn",
    "hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
    "email": "hofn@olis.is",
+   "brand": "Olís",
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
+   "id": "w25794975",
+   "name": "Olís",
+   "lat": 64.15259,
+   "lng": -21.95521,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.0,
+     7
+    ],
+    [
+     0.1,
+     6
+    ],
+    [
+     6.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545524190",
+   "address": "Ánanaust 12, Reykjavík",
    "brand": "Olís",
    "fuels": [
     "diesel",
@@ -969,31 +999,6 @@
    ]
   },
   {
-   "id": "n2876957003",
-   "name": "ÓB",
-   "lat": 64.12476,
-   "lng": -21.83226,
-   "kind": "fuel",
-   "cat": "fuel",
-   "days": [
-    [
-     0.0,
-     6
-    ],
-    [
-     0.0,
-     7
-    ],
-    [
-     0.1,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Bíldshöfði 5",
-   "brand": "ÓB"
-  },
-  {
    "id": "n111472895",
    "name": "ÓB",
    "lat": 64.09914,
@@ -1006,12 +1011,12 @@
      0
     ],
     [
-     3.2,
-     7
+     3.3,
+     6
     ],
     [
      3.3,
-     6
+     7
     ]
    ],
    "town": true,
@@ -1559,11 +1564,11 @@
     ],
     [
      1.5,
-     7
+     6
     ],
     [
-     1.6,
-     6
+     1.5,
+     7
     ]
    ],
    "town": true,
@@ -1881,6 +1886,31 @@
    ]
   },
   {
+   "id": "n2876957003",
+   "name": "ÓB",
+   "lat": 64.12476,
+   "lng": -21.83226,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.1,
+     0
+    ],
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ]
+   ],
+   "town": true,
+   "address": "Bíldshöfði 5",
+   "brand": "ÓB"
+  },
+  {
    "id": "n5174792755",
    "name": "ÓB",
    "lat": 63.99809,
@@ -2019,6 +2049,37 @@
    "self_service": true
   },
   {
+   "id": "n12823417000",
+   "name": "N1",
+   "lat": 64.15502,
+   "lng": -21.95147,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.2,
+     7
+    ],
+    [
+     0.3,
+     6
+    ],
+    [
+     6.1,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Fiskislóð 15-21, Reykjavík",
+   "hours": "24/7",
+   "brand": "N1",
+   "self_service": true,
+   "fuels": [
+    "diesel",
+    "octane_95"
+   ]
+  },
+  {
    "id": "w445251755",
    "name": "N1",
    "lat": 64.05336,
@@ -2084,6 +2145,32 @@
    "town": false,
    "address": "Hafnargata 15, Grindavík",
    "brand": "N1"
+  },
+  {
+   "id": "w98046275",
+   "name": "Orkan",
+   "lat": 64.14213,
+   "lng": -21.95282,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.2,
+     6
+    ],
+    [
+     0.2,
+     7
+    ],
+    [
+     5.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Birkimelur 1, Reykjavík",
+   "hours": "Mo-Fr 07:30-23:30; Sa 09:00-23:30; Su 10:00-23:30",
+   "brand": "Orkan"
   },
   {
    "id": "n3676883147",
@@ -2301,12 +2388,12 @@
      0
     ],
     [
-     1.6,
-     7
+     1.7,
+     6
     ],
     [
      1.7,
-     6
+     7
     ]
    ],
    "town": true,
@@ -2351,6 +2438,32 @@
    "town": true,
    "address": "Stórihjalli 2, Kópavogur",
    "brand": "N1"
+  },
+  {
+   "id": "w291216598",
+   "name": "Olís",
+   "lat": 64.1326,
+   "lng": -21.86703,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     1.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Álfheimar 49",
+   "hours": "24/7",
+   "brand": "Olís"
   },
   {
    "id": "n1280200430",
@@ -2444,32 +2557,6 @@
     "diesel",
     "octane_95"
    ]
-  },
-  {
-   "id": "w291216598",
-   "name": "Olís",
-   "lat": 64.1326,
-   "lng": -21.86703,
-   "kind": "fuel",
-   "cat": "fuel",
-   "days": [
-    [
-     0.5,
-     6
-    ],
-    [
-     0.5,
-     7
-    ],
-    [
-     1.4,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Álfheimar 49",
-   "hours": "24/7",
-   "brand": "Olís"
   },
   {
    "id": "w900355165",
@@ -2583,7 +2670,7 @@
      0
     ],
     [
-     2.7,
+     2.8,
      7
     ]
    ],
@@ -2770,32 +2857,6 @@
    ]
   },
   {
-   "id": "w98046275",
-   "name": "Orkan",
-   "lat": 64.14213,
-   "lng": -21.95282,
-   "kind": "fuel",
-   "cat": "fuel",
-   "days": [
-    [
-     0.7,
-     7
-    ],
-    [
-     0.8,
-     6
-    ],
-    [
-     5.4,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Birkimelur 1, Reykjavík",
-   "hours": "Mo-Fr 07:30-23:30; Sa 09:00-23:30; Su 10:00-23:30",
-   "brand": "Orkan"
-  },
-  {
    "id": "n1299573388",
    "name": "Orkan",
    "lat": 64.11773,
@@ -2808,7 +2869,7 @@
      0
     ],
     [
-     0.8,
+     0.7,
      6
     ],
     [
@@ -3161,6 +3222,31 @@
    ]
   },
   {
+   "id": "n26586193",
+   "name": "Orkan",
+   "lat": 64.14945,
+   "lng": -21.98407,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.1,
+     7
+    ],
+    [
+     1.2,
+     6
+    ],
+    [
+     7.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su,PH 00:00+",
+   "brand": "Orkan"
+  },
+  {
    "id": "n4780745782",
    "name": "Orkan",
    "lat": 64.93262,
@@ -3175,31 +3261,6 @@
    ],
    "town": false,
    "brand": "Orkan"
-  },
-  {
-   "id": "w307956399",
-   "name": "ÓB",
-   "lat": 64.14764,
-   "lng": -21.92484,
-   "kind": "fuel",
-   "cat": "fuel",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Sæbraut, Reykjavík",
-   "brand": "ÓB"
   },
   {
    "id": "n1565489294",
@@ -3268,6 +3329,31 @@
    "brand": "N1"
   },
   {
+   "id": "n26452735",
+   "name": "Orkan",
+   "lat": 64.1513,
+   "lng": -21.98507,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.2,
+     6
+    ],
+    [
+     1.2,
+     7
+    ],
+    [
+     7.2,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "24/7",
+   "brand": "Orkan"
+  },
+  {
    "id": "w1381334574",
    "name": "Orkan Einhella",
    "lat": 64.04012,
@@ -3288,6 +3374,31 @@
     "diesel",
     "octane_95"
    ]
+  },
+  {
+   "id": "w307956399",
+   "name": "ÓB",
+   "lat": 64.14764,
+   "lng": -21.92484,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     1.2,
+     6
+    ],
+    [
+     1.2,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Sæbraut, Reykjavík",
+   "brand": "ÓB"
   },
   {
    "id": "n256214755",
@@ -3516,7 +3627,7 @@
      6
     ],
     [
-     1.7,
+     1.6,
      7
     ],
     [
@@ -3597,36 +3708,6 @@
    ]
   },
   {
-   "id": "w25794975",
-   "name": "Olís",
-   "lat": 64.15259,
-   "lng": -21.95521,
-   "kind": "fuel",
-   "cat": "fuel",
-   "days": [
-    [
-     1.7,
-     6
-    ],
-    [
-     1.7,
-     7
-    ],
-    [
-     6.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545524190",
-   "address": "Ánanaust 12, Reykjavík",
-   "brand": "Olís",
-   "fuels": [
-    "diesel",
-    "octane_95"
-   ]
-  },
-  {
    "id": "n1932942868",
    "name": "Orkan",
    "lat": 64.14981,
@@ -3668,37 +3749,6 @@
     ]
    ],
    "town": true
-  },
-  {
-   "id": "n12823417000",
-   "name": "N1",
-   "lat": 64.15502,
-   "lng": -21.95147,
-   "kind": "fuel",
-   "cat": "fuel",
-   "days": [
-    [
-     1.8,
-     6
-    ],
-    [
-     1.8,
-     7
-    ],
-    [
-     6.1,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Fiskislóð 15-21, Reykjavík",
-   "hours": "24/7",
-   "brand": "N1",
-   "self_service": true,
-   "fuels": [
-    "diesel",
-    "octane_95"
-   ]
   },
   {
    "id": "w1460499307",
@@ -3765,6 +3815,31 @@
    "brand": "Orkan"
   },
   {
+   "id": "w517406357",
+   "name": "Olís",
+   "lat": 64.15041,
+   "lng": -21.87043,
+   "kind": "fuel",
+   "cat": "fuel",
+   "days": [
+    [
+     2.2,
+     6
+    ],
+    [
+     2.3,
+     7
+    ],
+    [
+     3.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Sundagarðar",
+   "brand": "Olís"
+  },
+  {
    "id": "w107390843",
    "name": "Orkan",
    "lat": 64.14464,
@@ -3811,81 +3886,6 @@
     ]
    ],
    "town": true
-  },
-  {
-   "id": "w517406357",
-   "name": "Olís",
-   "lat": 64.15041,
-   "lng": -21.87043,
-   "kind": "fuel",
-   "cat": "fuel",
-   "days": [
-    [
-     2.3,
-     6
-    ],
-    [
-     2.3,
-     7
-    ],
-    [
-     3.2,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Sundagarðar",
-   "brand": "Olís"
-  },
-  {
-   "id": "n26586193",
-   "name": "Orkan",
-   "lat": 64.14945,
-   "lng": -21.98407,
-   "kind": "fuel",
-   "cat": "fuel",
-   "days": [
-    [
-     2.4,
-     6
-    ],
-    [
-     2.4,
-     7
-    ],
-    [
-     7.1,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su,PH 00:00+",
-   "brand": "Orkan"
-  },
-  {
-   "id": "n26452735",
-   "name": "Orkan",
-   "lat": 64.1513,
-   "lng": -21.98507,
-   "kind": "fuel",
-   "cat": "fuel",
-   "days": [
-    [
-     2.5,
-     7
-    ],
-    [
-     2.6,
-     6
-    ],
-    [
-     7.2,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "24/7",
-   "brand": "Orkan"
   },
   {
    "id": "w220041726",

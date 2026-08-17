@@ -130,16 +130,15 @@
     {
       "night": 8,
       "date": "2026-10-09",
-      "town": "Reykjavík",
-      "property": "Kirkjustræti 2",
-      "address": "Kirkjustræti 2, 101 Reykjavík",
-      "lat": 64.147099,
-      "lng": -21.9425976,
-      "source": "Airbnb",
-      "bookedBy": "Vitalii",
-      "checkIn": "15:00",
+      "town": "Reykjavík (Vesturbær)",
+      "property": "Seljavegur 1",
+      "address": "Seljavegur 1, Vesturbær, 101 Reykjavík",
+      "lat": 64.15185,
+      "lng": -21.95099,
+      "source": "Booking.com",
+      "bookedBy": "Kirill",
       "checkOut": "11:00",
-      "notes": "Reykjavík city centre, not Selfoss as the route assumed. Changes the end of Oct 9 and the start of Oct 10 — needs re-verifying. Also: central Reykjavík parking is paid/zoned, confirm what the listing provides."
+      "notes": "Replaces Kirkjustræti 2 — 800 m further west, by the old harbour. Rated 9.8 from 21 reviews. Confirm check-in time and whether parking is included; 101 Reykjavík is paid/zoned and the car is with us until 20:00 on the 10th."
     }
   ],
   "tours": [],

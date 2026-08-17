@@ -13,7 +13,7 @@ describe("ring schedule", () => {
     // 2,054 km on the beds as actually booked: Skagastrond (+24 km) and central
     // Reykjavik instead of Selfoss (+57 km). Myvatn was briefly rebooked to
     // Akureyri, which cost ~180 km over two days; that booking was reversed.
-    expect(s.reduce((a, x) => a + x.km, 0)).toBe(2054);
+    expect(s.reduce((a, x) => a + x.km, 0)).toBe(2058);
   });
 
   it("ends each day at the bed we actually booked", () => {

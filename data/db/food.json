@@ -85,6 +85,29 @@
    "cuisine": "bistro"
   },
   {
+   "id": "n1620366920",
+   "name": "Björnsbakarí",
+   "lat": 64.14395,
+   "lng": -21.95089,
+   "kind": "food",
+   "cat": "bakery",
+   "days": [
+    [
+     0.0,
+     6
+    ],
+    [
+     0.0,
+     7
+    ],
+    [
+     5.4,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
    "id": "n2389006152",
    "name": "Byria",
    "lat": 63.93769,
@@ -209,6 +232,34 @@
    "address": "Brúartorg 6",
    "hours": "11:00-22:00",
    "wheelchair": "yes"
+  },
+  {
+   "id": "n2541162152",
+   "name": "Domino's",
+   "lat": 64.15117,
+   "lng": -21.95779,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.0,
+     6
+    ],
+    [
+     0.0,
+     7
+    ],
+    [
+     6.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545812345",
+   "website": "https://www.dominos.is/",
+   "address": "Ánanaust 15, Reykjavík",
+   "hours": "Tu-Su 16:00-22:00",
+   "cuisine": "pizza"
   },
   {
    "id": "n4965983124",
@@ -701,6 +752,29 @@
    "email": "info@hotellaugarvatn.is"
   },
   {
+   "id": "n8866751347",
+   "name": "Héðinn Kitchen & Bar",
+   "lat": 64.15199,
+   "lng": -21.95157,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.0,
+     6
+    ],
+    [
+     0.0,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
    "id": "n3054465860",
    "name": "Hótel Vík Café",
    "lat": 63.41771,
@@ -782,11 +856,11 @@
     ],
     [
      3.2,
-     6
+     7
     ],
     [
-     3.2,
-     7
+     3.3,
+     6
     ]
    ],
    "town": true,
@@ -971,6 +1045,33 @@
    "cuisine": "salad"
   },
   {
+   "id": "n6942846386",
+   "name": "Matur og Drykkur",
+   "lat": 64.15267,
+   "lng": -21.95132,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.0,
+     7
+    ],
+    [
+     0.1,
+     6
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545718877",
+   "website": "https://www.maturogdrykkur.is/",
+   "hours": "Th,Fr,Sa,Su 18:00-23:00",
+   "wheelchair": "yes"
+  },
+  {
    "id": "n13829530993",
    "name": "N1 Grill",
    "lat": 64.54388,
@@ -1108,6 +1209,34 @@
     ]
    ],
    "town": true
+  },
+  {
+   "id": "n8303107903",
+   "name": "Pizzan",
+   "lat": 64.15034,
+   "lng": -21.96025,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.0,
+     6
+    ],
+    [
+     0.0,
+     7
+    ],
+    [
+     6.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545788888",
+   "website": "https://www.pizzan.is",
+   "address": "Hringbraut 119, Reykjavík",
+   "hours": "Mo-Su 11:00-22:00",
+   "cuisine": "pizza"
   },
   {
    "id": "n277038960",
@@ -1588,6 +1717,30 @@
    "hours": "Mo-Su 11:30-21:30"
   },
   {
+   "id": "n8303107906",
+   "name": "Zorbian",
+   "lat": 64.15004,
+   "lng": -21.96001,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.0,
+     6
+    ],
+    [
+     0.0,
+     7
+    ],
+    [
+     6.1,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.zorbianreykjavik.com/"
+  },
+  {
    "id": "n3628862353",
    "name": "dj grill",
    "lat": 65.68363,
@@ -1881,11 +2034,11 @@
      0
     ],
     [
-     1.8,
+     1.7,
      6
     ],
     [
-     1.8,
+     1.7,
      7
     ]
    ],
@@ -2140,6 +2293,29 @@
    "hours": "Mo-Fr 07:30-17:00; Sa 07:30-16:00; Su 07:30-14:00"
   },
   {
+   "id": "n9893250036",
+   "name": "Bríó Nr. 1",
+   "lat": 64.15324,
+   "lng": -21.95045,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
    "id": "n11537204834",
    "name": "Bæjarins Beztu Pylsur",
    "lat": 64.12389,
@@ -2344,12 +2520,12 @@
      0
     ],
     [
-     3.0,
-     7
+     3.1,
+     6
     ],
     [
      3.1,
-     6
+     7
     ]
    ],
    "town": true
@@ -2606,11 +2782,11 @@
     ],
     [
      1.6,
-     7
+     6
     ],
     [
-     1.7,
-     6
+     1.6,
+     7
     ]
    ],
    "town": true,
@@ -2647,6 +2823,34 @@
     ]
    ],
    "town": false
+  },
+  {
+   "id": "n1295178562",
+   "name": "Flatey",
+   "lat": 64.15328,
+   "lng": -21.9501,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545882666",
+   "website": "https://www.flateypizza.is/",
+   "address": "Grandagarður 11, Reykjavík",
+   "hours": "Mo-Su 11:30-22:00",
+   "cuisine": "pizza"
   },
   {
    "id": "n9214498527",
@@ -2849,11 +3053,11 @@
     ],
     [
      1.5,
-     7
+     6
     ],
     [
-     1.6,
-     6
+     1.5,
+     7
     ]
    ],
    "town": true,
@@ -3050,6 +3254,32 @@
    "town": false,
    "hours": "Mo-Su 10:00-19:00",
    "cuisine": "sandwich"
+  },
+  {
+   "id": "n9973506421",
+   "name": "Hygge Coffee & Micro Bakery",
+   "lat": 64.15168,
+   "lng": -21.95257,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "08:00-17:00",
+   "vegetarian": true,
+   "vegan": true
   },
   {
    "id": "n9053764720",
@@ -3566,12 +3796,12 @@
      0
     ],
     [
-     3.2,
-     7
+     3.3,
+     6
     ],
     [
      3.3,
-     6
+     7
     ]
    ],
    "town": true,
@@ -3787,6 +4017,30 @@
    "address": "Hafnarstræti 87-89, Akureyri",
    "hours": "Mo,Tu,We,Th,Fr,Sa,Su 12:00-22:00",
    "email": "mulaberg@mulaberg.is"
+  },
+  {
+   "id": "n12955041519",
+   "name": "Mýrin Brassiere",
+   "lat": 64.15173,
+   "lng": -21.95248,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su,PH 08:00-17:00"
   },
   {
    "id": "n6566828935",
@@ -4735,12 +4989,12 @@
      0
     ],
     [
-     3.0,
-     7
+     3.1,
+     6
     ],
     [
      3.1,
-     6
+     7
     ]
    ],
    "town": true,
@@ -4941,6 +5195,33 @@
    "cuisine": "burger"
   },
   {
+   "id": "n12214212267",
+   "name": "Traditional Polish Food",
+   "lat": 64.15335,
+   "lng": -21.94979,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.1,
+     7
+    ],
+    [
+     0.2,
+     6
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.instagram.com/polishfoodgrandi/",
+   "address": "Grandagarður 13, Reykjavík",
+   "hours": "Mo-Sa 11:00-17:00; Su 12:00-17:00",
+   "cuisine": "polish"
+  },
+  {
    "id": "n826724971",
    "name": "Turninn",
    "lat": 65.68166,
@@ -5062,6 +5343,33 @@
    "town": false,
    "hours": "Mo-Su 10:00-19:00",
    "vegan": true
+  },
+  {
+   "id": "n1295178566",
+   "name": "Viet Noodles",
+   "lat": 64.15326,
+   "lng": -21.95032,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     0.1,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://vietnoodles.is/",
+   "address": "Grandagarður, Reykjavík",
+   "hours": "Mo-Fr 11:30-22:00; Sa,Su 12:00-22:00",
+   "cuisine": "fish"
   },
   {
    "id": "w317801679",
@@ -5479,6 +5787,60 @@
    "vegetarian": true
   },
   {
+   "id": "n3654229025",
+   "name": "Coocoo's Nest",
+   "lat": 64.15357,
+   "lng": -21.94874,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.2,
+     6
+    ],
+    [
+     0.2,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545525454",
+   "website": "https://www.coocoosnest.is/",
+   "address": "Grandagarður 23, Reykjavík",
+   "hours": "Mo off; Tu-Sa 11:00-22:00; Su 11:00-16:00",
+   "email": "thecoocooscafe@gmail.com"
+  },
+  {
+   "id": "n3741515708",
+   "name": "Deli",
+   "lat": 64.15125,
+   "lng": -21.94718,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.2,
+     6
+    ],
+    [
+     0.2,
+     7
+    ],
+    [
+     5.7,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.icelandairhotels.com/hotels/reykjavikmarina",
+   "address": "Mýrargata 12, Reykjavík",
+   "wheelchair": "yes"
+  },
+  {
    "id": "n5868989386",
    "name": "Domino's",
    "lat": 64.1665,
@@ -5527,6 +5889,34 @@
    "town": true,
    "address": "Mógilsárvegur 1",
    "cuisine": "international"
+  },
+  {
+   "id": "n3705814512",
+   "name": "Fish and Chips Vagninn",
+   "lat": 64.15247,
+   "lng": -21.94686,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.2,
+     6
+    ],
+    [
+     0.2,
+     7
+    ],
+    [
+     5.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3548404100",
+   "address": "Hlésgata, Reykjavík",
+   "hours": "Mo-Su 12:00-20:00",
+   "email": "info@fishandchipsvagninn.is",
+   "cuisine": "fish and chips"
   },
   {
    "id": "n8412951056",
@@ -5760,6 +6150,31 @@
    "address": "Breiðamörk"
   },
   {
+   "id": "n4595518444",
+   "name": "Joe & The Juice",
+   "lat": 64.14212,
+   "lng": -21.95285,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.2,
+     6
+    ],
+    [
+     0.2,
+     7
+    ],
+    [
+     5.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Birkimelur",
+   "cuisine": "coffee shop"
+  },
+  {
    "id": "n12117585905",
    "name": "Joe & The Juice",
    "lat": 64.12956,
@@ -5908,6 +6323,32 @@
     ]
    ],
    "town": true
+  },
+  {
+   "id": "w106469203",
+   "name": "Kaffivagninn",
+   "lat": 64.15358,
+   "lng": -21.94754,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.2,
+     7
+    ],
+    [
+     0.3,
+     6
+    ],
+    [
+     5.8,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Grandagarður 10, Reykjavík",
+   "hours": "Mo-Su 08:00-20:00",
+   "cuisine": "seafood"
   },
   {
    "id": "n13799501357",
@@ -6653,6 +7094,30 @@
    "cuisine": "ethiopian;pizza;burger"
   },
   {
+   "id": "n300752271",
+   "name": "Thai matstofan",
+   "lat": 64.1305,
+   "lng": -21.86584,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.2,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     1.2,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "thai"
+  },
+  {
    "id": "n6704228874",
    "name": "Tommi's Burger Joint",
    "lat": 64.105,
@@ -7121,7 +7586,7 @@
      6
     ],
     [
-     0.4,
+     0.3,
      7
     ],
     [
@@ -7217,11 +7682,11 @@
     ],
     [
      6.5,
-     6
+     7
     ],
     [
-     6.5,
-     7
+     6.6,
+     6
     ]
    ],
    "town": true,
@@ -7411,11 +7876,11 @@
     ],
     [
      3.1,
-     6
+     7
     ],
     [
-     3.1,
-     7
+     3.2,
+     6
     ]
    ],
    "town": true,
@@ -7454,6 +7919,34 @@
    "address": "Kringlan, Reykjavík",
    "hours": "Mo-Su 11:30-21:00",
    "cuisine": "pizza"
+  },
+  {
+   "id": "n1722852395",
+   "name": "Forréttabarinn",
+   "lat": 64.15079,
+   "lng": -21.94626,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     5.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545171800",
+   "website": "https://www.forrettabarinn.is/",
+   "address": "Nýlendugata 14, Reykjavík",
+   "hours": "Mo-Su 16:00-23:00",
+   "cuisine": "regional"
   },
   {
    "id": "n4100737911",
@@ -7582,12 +8075,12 @@
      0
     ],
     [
-     3.0,
-     7
+     3.1,
+     6
     ],
     [
      3.1,
-     6
+     7
     ]
    ],
    "town": true
@@ -7619,6 +8112,32 @@
    "address": "Grensásvegur 3, Reykjavík",
    "hours": "Mo-Fr 11:30-21:00; Sa-Su 17:00-21:00",
    "cuisine": "indian"
+  },
+  {
+   "id": "n1404529504",
+   "name": "Háma",
+   "lat": 64.14001,
+   "lng": -21.95021,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.fs.is/is/hama/",
+   "hours": "Mo-Fr 08:00-16:00",
+   "wheelchair": "yes"
   },
   {
    "id": "n2051929079",
@@ -7866,6 +8385,33 @@
    "cuisine": "sandwich"
   },
   {
+   "id": "n11497725388",
+   "name": "Litla Tokyo",
+   "lat": 64.15504,
+   "lng": -21.94934,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     6.0,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://tokyo.is",
+   "address": "Fiskislóð 15-21, Reykjavík",
+   "hours": "Mo-Su 10:30-19:00",
+   "cuisine": "sushi"
+  },
+  {
    "id": "n7998100747",
    "name": "Local",
    "lat": 64.13009,
@@ -7982,11 +8528,11 @@
     ],
     [
      2.8,
-     6
+     7
     ],
     [
-     2.8,
-     7
+     2.9,
+     6
     ]
    ],
    "town": true,
@@ -8044,6 +8590,31 @@
    "address": "Kringlan 4-12, Reykjavík"
   },
   {
+   "id": "n3705813858",
+   "name": "Old Harbour House",
+   "lat": 64.15115,
+   "lng": -21.94438,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     5.6,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "http://www.casagrande.is/",
+   "wheelchair": "limited"
+  },
+  {
    "id": "n9126956729",
    "name": "Oriento",
    "lat": 64.00263,
@@ -8082,6 +8653,34 @@
    "town": true
   },
   {
+   "id": "n8856480075",
+   "name": "Pizza 107",
+   "lat": 64.14588,
+   "lng": -21.96261,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     6.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3547611107",
+   "website": "https://www.pizza107.is",
+   "address": "Hagamelur 67, Reykjavík",
+   "hours": "Mo-Th 11:30-20:30; Fr-Sa 11:30-21:00; Su 11:30-20:30",
+   "cuisine": "pizza"
+  },
+  {
    "id": "n9907446839",
    "name": "Pizzan",
    "lat": 64.10064,
@@ -8095,11 +8694,11 @@
     ],
     [
      2.9,
-     6
+     7
     ],
     [
-     2.9,
-     7
+     3.0,
+     6
     ]
    ],
    "town": true,
@@ -8119,11 +8718,11 @@
    "days": [
     [
      0.3,
-     7
+     6
     ],
     [
-     0.4,
-     6
+     0.3,
+     7
     ],
     [
      5.0,
@@ -8235,6 +8834,33 @@
    "cuisine": "mexican"
   },
   {
+   "id": "n1722768723",
+   "name": "Slippbarinn",
+   "lat": 64.15102,
+   "lng": -21.94612,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     5.6,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.icelandairhotels.com/hotels/reykjavikmarina",
+   "address": "Mýrargata 2, Reykjavík",
+   "hours": "Mo-Su 15:00-24:00,07:00-10:00",
+   "wheelchair": "yes"
+  },
+  {
    "id": "n9732600417",
    "name": "Snæland",
    "lat": 64.10077,
@@ -8257,6 +8883,32 @@
    ],
    "town": true,
    "cuisine": "grill;ice cream"
+  },
+  {
+   "id": "n2126302149",
+   "name": "Stúdentakjallarinn",
+   "lat": 64.14008,
+   "lng": -21.95005,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545700890",
+   "website": "https://www.studentakjallarinn.is/",
+   "hours": "Mo-Su 11:00-23:00, Th-Sa 23:00-01:00 open \"kitchen closed\""
   },
   {
    "id": "n298839869",
@@ -8311,30 +8963,6 @@
    "address": "Kringlan, Reykjavík",
    "hours": "Mo-Sa 11:00-20:00; Su 12:00-20:00",
    "cuisine": "sandwich"
-  },
-  {
-   "id": "n300752271",
-   "name": "Thai matstofan",
-   "lat": 64.1305,
-   "lng": -21.86584,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.3,
-     6
-    ],
-    [
-     0.3,
-     7
-    ],
-    [
-     1.2,
-     0
-    ]
-   ],
-   "town": true,
-   "cuisine": "thai"
   },
   {
    "id": "n10591646705",
@@ -8410,6 +9038,35 @@
    "phone": "+3545190777",
    "website": "https://tokyo.is",
    "cuisine": "sushi"
+  },
+  {
+   "id": "n346740894",
+   "name": "Tommi's Burger Joint",
+   "lat": 64.1509,
+   "lng": -21.94501,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.3,
+     6
+    ],
+    [
+     0.3,
+     7
+    ],
+    [
+     5.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545110800",
+   "website": "https://tommis.is/is/",
+   "address": "Geirsgata 1, Reykjavík",
+   "hours": "Mo-Su 11:00-21:00",
+   "email": "info@tommis.is",
+   "cuisine": "burger"
   },
   {
    "id": "n13679023743",
@@ -8539,6 +9196,32 @@
    "cuisine": "local"
   },
   {
+   "id": "n4023697012",
+   "name": "Bergsson RE",
+   "lat": 64.15424,
+   "lng": -21.94512,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.8,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://bergsson.is/",
+   "hours": "Mo-Fr 10:00-16:00",
+   "cuisine": "seafood"
+  },
+  {
    "id": "n8568353010",
    "name": "Betra brauð Veislubakstur",
    "lat": 65.69813,
@@ -8572,6 +9255,33 @@
     ]
    ],
    "town": false
+  },
+  {
+   "id": "n3676676455",
+   "name": "Brauð & Co",
+   "lat": 64.14415,
+   "lng": -21.96089,
+   "kind": "food",
+   "cat": "bakery",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544567777",
+   "website": "https://braudogco.is/",
+   "address": "Melhagi 22, Reykjavík",
+   "hours": "Mo-Fr 07:00-17:00; Sa-Su 08:00-16:00"
   },
   {
    "id": "n12643525955",
@@ -8648,6 +9358,57 @@
    "cuisine": "burger;pizza"
   },
   {
+   "id": "n3009373773",
+   "name": "Café Haiti",
+   "lat": 64.15074,
+   "lng": -21.94338,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "wheelchair": "limited"
+  },
+  {
+   "id": "n8614930617",
+   "name": "Deig",
+   "lat": 64.15003,
+   "lng": -21.9433,
+   "kind": "food",
+   "cat": "bakery",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545711555",
+   "website": "https://www.lekock.is",
+   "address": "Tryggvagata 14, Reykjavík",
+   "hours": "Mo-Su 07:00-16:00"
+  },
+  {
    "id": "n11917429419",
    "name": "Domino's",
    "lat": 64.10103,
@@ -8674,30 +9435,27 @@
    "cuisine": "pizza"
   },
   {
-   "id": "n10307478023",
-   "name": "EIRIKSDOTTIR Gróska",
-   "lat": 64.13626,
-   "lng": -21.9474,
+   "id": "n3009373780",
+   "name": "Dragon Dim Sum",
+   "lat": 64.15043,
+   "lng": -21.94304,
    "kind": "food",
    "cat": "restaurant",
    "days": [
     [
      0.4,
-     7
-    ],
-    [
-     0.5,
      6
     ],
     [
-     5.0,
+     0.4,
+     7
+    ],
+    [
+     5.5,
      0
     ]
    ],
-   "town": true,
-   "phone": "+3544978888",
-   "website": "https://eiriksdottir.is/",
-   "hours": "Mo-Fr 11:30-14:00 \"Lunch\"; Mo-Fr 14:00-17:00 \"Drinks & Snacks\""
+   "town": true
   },
   {
    "id": "n13791666258",
@@ -8750,6 +9508,30 @@
    "hours": "Mo-Fr 0:00-1:00,12:00-24:00;Sa 0:00-5:00,12:00-24:00"
   },
   {
+   "id": "n10939608030",
+   "name": "FlyOver Iceland",
+   "lat": 64.15658,
+   "lng": -21.94879,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.4,
+     7
+    ],
+    [
+     0.5,
+     6
+    ],
+    [
+     6.1,
+     0
+    ]
+   ],
+   "town": true,
+   "wheelchair": "yes"
+  },
+  {
    "id": "n288057144",
    "name": "Gallerý Pizza",
    "lat": 63.75152,
@@ -8796,6 +9578,58 @@
    "cuisine": "pizza"
   },
   {
+   "id": "n11186232044",
+   "name": "Hagavagninn",
+   "lat": 64.14435,
+   "lng": -21.96167,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 11:30-21:00",
+   "cuisine": "burger"
+  },
+  {
+   "id": "n5583089022",
+   "name": "Himalayan Spice Restaurant and Bar",
+   "lat": 64.15094,
+   "lng": -21.94411,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545197444",
+   "website": "https://www.himalayanspice.is/",
+   "hours": "Mo-Su 16:00-22:00",
+   "cuisine": "curry;fish;international"
+  },
+  {
    "id": "w168519439",
    "name": "Holtanesti",
    "lat": 64.05913,
@@ -8819,6 +9653,58 @@
    "town": true,
    "address": "Melabraut 11",
    "cuisine": "regional"
+  },
+  {
+   "id": "n3009373777",
+   "name": "Höfnin",
+   "lat": 64.15079,
+   "lng": -21.94323,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n5111051125",
+   "name": "Indian Curry House",
+   "lat": 64.14968,
+   "lng": -21.94335,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.4,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545834242",
+   "website": "https://www.indiancurryhouse.is/",
+   "address": "Vesturgata 12, Reykjavík",
+   "hours": "Tu-Th, Su 17:00-21:00; Fr-Sa 17:00 - 22:00",
+   "cuisine": "indian",
+   "vegetarian": true
   },
   {
    "id": "w131488280",
@@ -8867,6 +9753,84 @@
    "website": "http://www.duus.is/",
    "address": "Duusgata 10, Keflavík",
    "wheelchair": "yes"
+  },
+  {
+   "id": "n2982746806",
+   "name": "Kaffihús Vesturbæjar",
+   "lat": 64.14406,
+   "lng": -21.96109,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.9,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "http://www.kaffihusvesturbaejar.is/",
+   "address": "Melhagi 20-22, Reykjavík",
+   "hours": "Mo-Fr 08:00-21:00,21:00-23:00 open \"Kitchen closed\"; Sa-Su 09:00-21:00,21:00-23:00 open \"Kitchen closed\""
+  },
+  {
+   "id": "n3009373779",
+   "name": "Kopar",
+   "lat": 64.1511,
+   "lng": -21.94384,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "seafood"
+  },
+  {
+   "id": "n6444255565",
+   "name": "Le Kock",
+   "lat": 64.15012,
+   "lng": -21.94341,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545711555",
+   "website": "https://www.lekock.is",
+   "address": "Tryggvagata 14, Reykjavík",
+   "hours": "Mo-Su 11:30-22:00",
+   "cuisine": "burger"
   },
   {
    "id": "n5039687568",
@@ -8957,10 +9921,10 @@
    "cuisine": "burger"
   },
   {
-   "id": "n13450993501",
-   "name": "Reykjavík Pizzeria",
-   "lat": 64.14233,
-   "lng": -21.93105,
+   "id": "n3009373797",
+   "name": "Ramen Momo",
+   "lat": 64.14991,
+   "lng": -21.94308,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -8973,16 +9937,65 @@
      7
     ],
     [
-     4.5,
+     5.4,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545471714",
-   "website": "https://reykjavikpizzeria.is/",
-   "address": "Bragagata 38a",
+   "phone": "+3547656540",
+   "website": "https://ramenmomo.is/",
+   "address": "Tryggvagata 16, Reykjavík",
+   "hours": "Mo-Fr 11:30-21:00; Sa-Su 12:00-21:30",
+   "cuisine": "noodle"
+  },
+  {
+   "id": "n3320141405",
+   "name": "Reykjavik Fish",
+   "lat": 64.1504,
+   "lng": -21.94385,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
    "hours": "Mo-Su 11:30-22:00",
-   "cuisine": "pizza"
+   "cuisine": "seafood"
+  },
+  {
+   "id": "n6489455817",
+   "name": "Reykjavik Röst",
+   "lat": 64.15097,
+   "lng": -21.94356,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "PH,Mo-Su 08:00-18:00"
   },
   {
    "id": "n5113556722",
@@ -9034,6 +10047,62 @@
    "cuisine": "burger"
   },
   {
+   "id": "n3009373784",
+   "name": "Steikhúsið",
+   "lat": 64.15062,
+   "lng": -21.94415,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545611111",
+   "website": "http://www.steak.is",
+   "address": "Tryggvagata 4-6, Reykjavík",
+   "hours": "Mo-Su 17:30-24:00",
+   "cuisine": "steak house"
+  },
+  {
+   "id": "n1295178578",
+   "name": "Sægreifinn",
+   "lat": 64.15081,
+   "lng": -21.94402,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545531500",
+   "website": "http://www.saegreifinn.is",
+   "address": "Geirsgata 8, Reykjavík",
+   "hours": "Mo-Su 11:30-23:00",
+   "cuisine": "seafood"
+  },
+  {
    "id": "n2639079548",
    "name": "Thai Keflavík",
    "lat": 64.00232,
@@ -9054,6 +10123,31 @@
    "hours": "Mo-Sa 11:00-22:00; Su 16:00-22:00"
   },
   {
+   "id": "n3781008370",
+   "name": "Tjarnarbarinn",
+   "lat": 64.14615,
+   "lng": -21.94358,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     0.4,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Reykjavík",
+   "hours": "17:00-23:00"
+  },
+  {
    "id": "n12224137802",
    "name": "Valhalla",
    "lat": 63.75025,
@@ -9071,30 +10165,105 @@
    "hours": "Mo-Su 17:00-22:00"
   },
   {
-   "id": "n1233056824",
-   "name": "Þrír Frakkar",
-   "lat": 64.14231,
-   "lng": -21.93368,
+   "id": "n7242684497",
+   "name": "Aleppo Cafe",
+   "lat": 64.14963,
+   "lng": -21.94191,
    "kind": "food",
-   "cat": "restaurant",
+   "cat": "cafe",
    "days": [
     [
-     0.4,
+     0.5,
      6
     ],
     [
-     0.4,
+     0.5,
      7
     ],
     [
-     4.6,
+     5.4,
      0
     ]
    ],
    "town": true,
-   "address": "Baldursgata 14",
-   "hours": "Mo-Fr 11:30-14:00, Mo-Th 18:00-22:00, Fr-Su 18:00-22:30",
-   "cuisine": "seafood"
+   "address": "Tryggvagata 13, Reykjavík",
+   "hours": "Mo-Su 08:00-20:00",
+   "cuisine": "syrian;ice cream;coffee"
+  },
+  {
+   "id": "w102902640",
+   "name": "B bar Iþta",
+   "lat": 64.14913,
+   "lng": -21.94178,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "1"
+  },
+  {
+   "id": "n1268980115",
+   "name": "Bakarameistarinn",
+   "lat": 64.13374,
+   "lng": -21.86827,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     1.6,
+     0
+    ]
+   ],
+   "town": true,
+   "wheelchair": "yes"
+  },
+  {
+   "id": "n5784044590",
+   "name": "Biang Reykjavík",
+   "lat": 64.14966,
+   "lng": -21.94201,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     5.4,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.instagram.com/biang.reykjavik?igsh=MXN2NHJpcTZqeW1hOQ==",
+   "address": "Tryggvagata 13, Reykjavík",
+   "hours": "Mo-Su 11:30-21:30",
+   "cuisine": "chinese"
   },
   {
    "id": "n1248840090",
@@ -9118,35 +10287,6 @@
     ]
    ],
    "town": true
-  },
-  {
-   "id": "n1234088893",
-   "name": "Café Loki",
-   "lat": 64.14243,
-   "lng": -21.92885,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.5,
-     6
-    ],
-    [
-     0.5,
-     7
-    ],
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3544662828",
-   "website": "https://loki.is/",
-   "address": "Lokastígur 28",
-   "hours": "Mo-Sa 09:00-21:00; Su 11:00-21:00",
-   "wheelchair": "limited",
-   "cuisine": "local"
   },
   {
    "id": "n1110043690",
@@ -9175,6 +10315,32 @@
    "cuisine": "pizza"
   },
   {
+   "id": "n10307478023",
+   "name": "EIRIKSDOTTIR Gróska",
+   "lat": 64.13626,
+   "lng": -21.9474,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544978888",
+   "website": "https://eiriksdottir.is/",
+   "hours": "Mo-Fr 11:30-14:00 \"Lunch\"; Mo-Fr 14:00-17:00 \"Drinks & Snacks\""
+  },
+  {
    "id": "w493268719",
    "name": "Fish House",
    "lat": 63.8385,
@@ -9193,6 +10359,30 @@
    "address": "Hafnargata 6, grindavík",
    "email": "kari@fishhouse.is",
    "cuisine": "fish;fish and chips;seafood"
+  },
+  {
+   "id": "n1264717775",
+   "name": "Fjalakötturinn",
+   "lat": 64.14749,
+   "lng": -21.94243,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Reykjavík"
   },
   {
    "id": "n3355510009",
@@ -9319,30 +10509,6 @@
    "cuisine": "american;seafood"
   },
   {
-   "id": "n3408671677",
-   "name": "Hannesarholt",
-   "lat": 64.14428,
-   "lng": -21.93564,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.5,
-     6
-    ],
-    [
-     0.5,
-     7
-    ],
-    [
-     4.8,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su,PH 11:30-16:00"
-  },
-  {
    "id": "n3811527450",
    "name": "Harry's",
    "lat": 64.1407,
@@ -9369,32 +10535,6 @@
    "cuisine": "chinese;seafood"
   },
   {
-   "id": "n1404529504",
-   "name": "Háma",
-   "lat": 64.14001,
-   "lng": -21.95021,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.5,
-     6
-    ],
-    [
-     0.5,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.fs.is/is/hama/",
-   "hours": "Mo-Fr 08:00-16:00",
-   "wheelchair": "yes"
-  },
-  {
    "id": "n4961712924",
    "name": "Hótel Skógafoss Bistro Bar",
    "lat": 63.52715,
@@ -9413,6 +10553,30 @@
    ],
    "town": false,
    "website": "https://www.hotelskogafoss.is/restaurant"
+  },
+  {
+   "id": "n688998252",
+   "name": "Iðnó",
+   "lat": 64.14587,
+   "lng": -21.94019,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "wheelchair": "limited"
   },
   {
    "id": "n13246565701",
@@ -9533,6 +10697,30 @@
    ],
    "town": true,
    "address": "Stórhöfði 17"
+  },
+  {
+   "id": "n6795799685",
+   "name": "La Barceloneta",
+   "lat": 64.14631,
+   "lng": -21.93989,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "We-Su 17:30-21:30"
   },
   {
    "id": "n306002513",
@@ -9657,12 +10845,12 @@
    "town": true
   },
   {
-   "id": "n2126302149",
-   "name": "Stúdentakjallarinn",
-   "lat": 64.14008,
-   "lng": -21.95005,
+   "id": "n9907446928",
+   "name": "The Hungry Chef Cafe",
+   "lat": 64.14973,
+   "lng": -21.94165,
    "kind": "food",
-   "cat": "bar",
+   "cat": "cafe",
    "days": [
     [
      0.5,
@@ -9673,14 +10861,34 @@
      7
     ],
     [
-     5.2,
+     5.4,
      0
     ]
    ],
-   "town": true,
-   "phone": "+3545700890",
-   "website": "https://www.studentakjallarinn.is/",
-   "hours": "Mo-Su 11:00-23:00, Th-Sa 23:00-01:00 open \"kitchen closed\""
+   "town": true
+  },
+  {
+   "id": "n9907446929",
+   "name": "The Sushi Train",
+   "lat": 64.14987,
+   "lng": -21.94209,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     5.4,
+     0
+    ]
+   ],
+   "town": true
   },
   {
    "id": "n3165573563",
@@ -9735,6 +10943,32 @@
    "cuisine": "burger"
   },
   {
+   "id": "n3676900606",
+   "name": "Uppsalir",
+   "lat": 64.14745,
+   "lng": -21.94256,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "http://en.hotelcentrum.is/about-us/uppsalir",
+   "address": "Reykjavík",
+   "hours": "Mo-Su 12:00-23:00"
+  },
+  {
    "id": "n11014805712",
    "name": "Vök Bistro",
    "lat": 65.30322,
@@ -9753,6 +10987,31 @@
    ],
    "town": false,
    "hours": "Jun 05-Sep 30 Mo-Su 12:00-21:00; Oct 01-Jun 04 Fr-Su 12:00-21:00"
+  },
+  {
+   "id": "n3018136401",
+   "name": "lóla",
+   "lat": 64.14995,
+   "lng": -21.94265,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     5.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Tryggvagata 11, Reykjavík",
+   "hours": "Tu-Sa 17:30-00:00"
   },
   {
    "id": "w520855070",
@@ -9782,12 +11041,91 @@
    "vegan": true
   },
   {
-   "id": "n1268980115",
-   "name": "Bakarameistarinn",
-   "lat": 64.13374,
-   "lng": -21.86827,
+   "id": "n1233056824",
+   "name": "Þrír Frakkar",
+   "lat": 64.14231,
+   "lng": -21.93368,
    "kind": "food",
-   "cat": "cafe",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Baldursgata 14",
+   "hours": "Mo-Fr 11:30-14:00, Mo-Th 18:00-22:00, Fr-Su 18:00-22:30",
+   "cuisine": "seafood"
+  },
+  {
+   "id": "n2076135241",
+   "name": "101 Bistro",
+   "lat": 64.14801,
+   "lng": -21.94052,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545880015",
+   "website": "https://101bistro.is",
+   "address": "Austurstræti 3, Reykjavík",
+   "hours": "Mo-Su 11:00-23:00",
+   "cuisine": "mediterranean;turkish"
+  },
+  {
+   "id": "n74080779",
+   "name": "American Bar",
+   "lat": 64.14775,
+   "lng": -21.9401,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Austurstræti 8-10, Reykjavík",
+   "wheelchair": "limited"
+  },
+  {
+   "id": "n75973298",
+   "name": "Bird",
+   "lat": 64.14864,
+   "lng": -21.93986,
+   "kind": "food",
+   "cat": "bar",
    "days": [
     [
      0.6,
@@ -9798,12 +11136,34 @@
      7
     ],
     [
-     1.6,
+     5.2,
      0
     ]
    ],
-   "town": true,
-   "wheelchair": "yes"
+   "town": true
+  },
+  {
+   "id": "n3005750473",
+   "name": "Borg Restaurant",
+   "lat": 64.14694,
+   "lng": -21.93879,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true
   },
   {
    "id": "n13958799115",
@@ -9824,10 +11184,35 @@
    "cuisine": "burger;coffee shop;regional"
   },
   {
-   "id": "n1282030466",
-   "name": "Café Babalú",
-   "lat": 64.14408,
-   "lng": -21.93016,
+   "id": "w91593492",
+   "name": "Bryggjuhúsið",
+   "lat": 64.14869,
+   "lng": -21.94103,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://bryggjuhusid.is/",
+   "address": "Vesturgata 2"
+  },
+  {
+   "id": "n1234088893",
+   "name": "Café Loki",
+   "lat": 64.14243,
+   "lng": -21.92885,
    "kind": "food",
    "cat": "cafe",
    "days": [
@@ -9840,12 +11225,94 @@
      7
     ],
     [
-     4.6,
+     4.4,
      0
     ]
    ],
    "town": true,
-   "address": "Skólavörðustígur 22a"
+   "phone": "+3544662828",
+   "website": "https://loki.is/",
+   "address": "Lokastígur 28",
+   "hours": "Mo-Sa 09:00-21:00; Su 11:00-21:00",
+   "wheelchair": "limited",
+   "cuisine": "local"
+  },
+  {
+   "id": "n75973561",
+   "name": "Crystal Champagne Bar",
+   "lat": 64.1488,
+   "lng": -21.9404,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n3007770885",
+   "name": "Dirty Burger & Ribs",
+   "lat": 64.14771,
+   "lng": -21.9398,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://dbr.is/",
+   "address": "Austurstræti 10, Reykjavík",
+   "hours": "Mo,Tu,We,Th,Fr,Sa,Su 11:00-22:00",
+   "cuisine": "burger;chicken"
+  },
+  {
+   "id": "n1760884368",
+   "name": "Domino's",
+   "lat": 64.14145,
+   "lng": -21.96213,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.8,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://dominos.is",
+   "address": "Hjarðarhagi 45, Reykjavík",
+   "hours": "Mo-Th 11:00-24:00; Fr-Sa 11:00-01:00; Su 11:00-24:00",
+   "cuisine": "pizza"
   },
   {
    "id": "n288058258",
@@ -9867,6 +11334,88 @@
    "town": true
   },
   {
+   "id": "n1906835209",
+   "name": "Fiskfélagið",
+   "lat": 64.14892,
+   "lng": -21.94154,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545525300",
+   "website": "https://www.fiskfelagid.is/",
+   "address": "Vesturgata 2a",
+   "cuisine": "regional"
+  },
+  {
+   "id": "n1213739967",
+   "name": "Fiskmarkaðurinn",
+   "lat": 64.14773,
+   "lng": -21.94226,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545788877",
+   "website": "https://fiskmarkadurinn.is/",
+   "address": "Aðalstræti 12, Reykjavík",
+   "hours": "Su-Th 18:00-22:30; Fr-Sa 18:00-23:35"
+  },
+  {
+   "id": "n8856354025",
+   "name": "Fjallkonan",
+   "lat": 64.14842,
+   "lng": -21.94085,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545550950",
+   "website": "https://fjallkona.is",
+   "address": "Hafnarstræti 1-3, Reykjavík",
+   "hours": "Mo-Su 11:30-23:00",
+   "email": "fjallkona@fjallkona.is"
+  },
+  {
    "id": "n13316068623",
    "name": "Fjallsárlón Frost",
    "lat": 64.01628,
@@ -9885,12 +11434,12 @@
    "email": "frost@fjallsarlon.is"
   },
   {
-   "id": "n1064179053",
-   "name": "Gandhi",
-   "lat": 64.14463,
-   "lng": -21.93302,
+   "id": "n1064179023",
+   "name": "Gamli Gaukurinn",
+   "lat": 64.14871,
+   "lng": -21.94013,
    "kind": "food",
-   "cat": "restaurant",
+   "cat": "bar",
    "days": [
     [
      0.6,
@@ -9901,16 +11450,11 @@
      7
     ],
     [
-     4.7,
+     5.2,
      0
     ]
    ],
-   "town": true,
-   "phone": "+3545111691",
-   "website": "https://gandhi.is/",
-   "hours": "Su-Th 16:00-22:00, Fr-Sa 16:00-23:00",
-   "email": "gandhi@gandhi.is",
-   "cuisine": "indian"
+   "town": true
   },
   {
    "id": "n13904511305",
@@ -9937,10 +11481,85 @@
    "cuisine": "burger"
   },
   {
-   "id": "n5953107543",
-   "name": "Kattakaffihúsið",
-   "lat": 64.14506,
-   "lng": -21.93291,
+   "id": "n3408671677",
+   "name": "Hannesarholt",
+   "lat": 64.14428,
+   "lng": -21.93564,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     4.8,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su,PH 11:30-16:00"
+  },
+  {
+   "id": "n1110042506",
+   "name": "Hlöllabátar",
+   "lat": 64.1483,
+   "lng": -21.9412,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Reykjavík",
+   "wheelchair": "yes",
+   "cuisine": "sandwich"
+  },
+  {
+   "id": "n6485838852",
+   "name": "Icelandic Street Food",
+   "lat": 64.14645,
+   "lng": -21.93804,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.icelandicfoods.com/",
+   "cuisine": "local"
+  },
+  {
+   "id": "n1906835181",
+   "name": "Iða",
+   "lat": 64.14894,
+   "lng": -21.94147,
    "kind": "food",
    "cat": "cafe",
    "days": [
@@ -9953,16 +11572,109 @@
      7
     ],
     [
-     4.7,
+     5.3,
      0
     ]
    ],
    "town": true,
-   "website": "https://www.kattakaffihusid.is/",
-   "hours": "Mo-Su 10:00-18:00",
-   "wheelchair": "limited",
-   "vegetarian": true,
-   "vegan": true
+   "website": "http://ida.is/",
+   "address": "Vesturgata 2a",
+   "hours": "Mo-Fr 08:00-22:00; Sa-Su 10:00-22:00",
+   "cuisine": "coffee shop"
+  },
+  {
+   "id": "n5518828356",
+   "name": "Just JK Kebab",
+   "lat": 64.1465,
+   "lng": -21.93793,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n11848715947",
+   "name": "Kantrybarinn",
+   "lat": 64.14663,
+   "lng": -21.93767,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://kantrybar.is/"
+  },
+  {
+   "id": "n3005947175",
+   "name": "Kebab Grill",
+   "lat": 64.14632,
+   "lng": -21.93825,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n3009197139",
+   "name": "Kjallarinn",
+   "lat": 64.14863,
+   "lng": -21.94193,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Vesturgata 1"
   },
   {
    "id": "w219769768",
@@ -9989,59 +11701,6 @@
    "vegetarian": true
   },
   {
-   "id": "n5009883057",
-   "name": "Kol Kitchen & Bar",
-   "lat": 64.143,
-   "lng": -21.92863,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.6,
-     6
-    ],
-    [
-     0.6,
-     7
-    ],
-    [
-     4.5,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Skólavörðustígur, Reykjavík",
-   "hours": "We-Su 12:00-23:00"
-  },
-  {
-   "id": "n4421143474",
-   "name": "Krua Thai",
-   "lat": 64.14438,
-   "lng": -21.93011,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.6,
-     6
-    ],
-    [
-     0.6,
-     7
-    ],
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545510833",
-   "website": "https://kruathai.is",
-   "address": "Skólavörðustígur 21a, Reykjavík",
-   "hours": "Mo-Fr 11:30-21:30; Sa 12:00-21:30; Su 17:00-21:30",
-   "cuisine": "thai"
-  },
-  {
    "id": "n11162001005",
    "name": "LiBRARY bistro/bar",
    "lat": 64.00068,
@@ -10064,6 +11723,144 @@
    "address": "Hafnargata 57, Keflavík",
    "hours": "11:30-23:00",
    "email": "librarybistro@librarybistro.is"
+  },
+  {
+   "id": "n3009197137",
+   "name": "Loving Hut",
+   "lat": 64.14863,
+   "lng": -21.94206,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545562200",
+   "website": "https://lovinghut.com/is/",
+   "address": "Aðalstræti 2, Reykjavík",
+   "hours": "Tu-Sa 11:00-21:00; Su 16:00-22:00",
+   "cuisine": "international",
+   "vegetarian": true,
+   "vegan": true
+  },
+  {
+   "id": "n1295178583",
+   "name": "Makake.",
+   "lat": 64.1557,
+   "lng": -21.94177,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.8,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3547820210",
+   "website": "https://makake.is/",
+   "address": "Grandagarður 101, Reykjavík",
+   "hours": "Mo-Sa 11:30-14:30, Mo,We 18:00-20:00",
+   "cuisine": "japanese"
+  },
+  {
+   "id": "n1376097185",
+   "name": "Mandi",
+   "lat": 64.14776,
+   "lng": -21.94095,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545711444",
+   "website": "https://www.mandi.is",
+   "address": "Veltusund 3B, Reykjavík",
+   "hours": "Mo-Fr 00:00-02:00,10:00-24:00; Sa 00:00-06:00,11:00-24:00; Su 00:00-06:00,11:00-24:00",
+   "email": "mandi@mandi.is",
+   "cuisine": "syrian;shawarma"
+  },
+  {
+   "id": "n8766301149",
+   "name": "Matarkjallarinn",
+   "lat": 64.14853,
+   "lng": -21.94176,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545580000",
+   "website": "https://matarkjallarinn.is/",
+   "address": "Aðalstræti 2, Reykjavík",
+   "hours": "Mo-Th 11:30-14:30,17:00-22:00; Fr 11:30-14:30,17:00-22:30; Sa 17:00-22:30; Su 17:00-22:00"
+  },
+  {
+   "id": "n4502580490",
+   "name": "Messinn",
+   "lat": 64.14656,
+   "lng": -21.93783,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "seafood"
   },
   {
    "id": "n3420321449",
@@ -10117,6 +11914,55 @@
    "cuisine": "coffee shop;tea"
   },
   {
+   "id": "n3008778031",
+   "name": "Pho Vietnamese",
+   "lat": 64.1489,
+   "lng": -21.94081,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 10:00-22:00",
+   "cuisine": "vietnamese"
+  },
+  {
+   "id": "n3007770883",
+   "name": "Pítubarinn",
+   "lat": 64.14825,
+   "lng": -21.94091,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Ingólfstorg"
+  },
+  {
    "id": "n1234628049",
    "name": "Restó",
    "lat": 64.14138,
@@ -10143,10 +11989,10 @@
    "address": "Rauðarárstígur, Reykjavík"
   },
   {
-   "id": "n4963930723",
-   "name": "Rok",
-   "lat": 64.14295,
-   "lng": -21.92719,
+   "id": "n13450993501",
+   "name": "Reykjavík Pizzeria",
+   "lat": 64.14233,
+   "lng": -21.93105,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -10159,14 +12005,16 @@
      7
     ],
     [
-     4.4,
+     4.5,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545444443",
-   "website": "https://www.rokrestaurant.is/",
-   "hours": "Mo-Fr 11:30-23:00; Sa-Su 12:00-23:00"
+   "phone": "+3545471714",
+   "website": "https://reykjavikpizzeria.is/",
+   "address": "Bragagata 38a",
+   "hours": "Mo-Su 11:30-22:00",
+   "cuisine": "pizza"
   },
   {
    "id": "n415505722",
@@ -10208,10 +12056,10 @@
    "town": true
   },
   {
-   "id": "n4740802122",
-   "name": "Salka Valka",
-   "lat": 64.14419,
-   "lng": -21.92973,
+   "id": "n286588682",
+   "name": "Shalimar",
+   "lat": 64.14788,
+   "lng": -21.9406,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -10220,25 +12068,25 @@
      6
     ],
     [
-     0.6,
+     0.7,
      7
     ],
     [
-     4.6,
+     5.2,
      0
     ]
    ],
    "town": true,
-   "phone": "+3548887793",
-   "website": "https://salkakitchen.com/",
-   "address": "Skólavörðustígur 23",
-   "cuisine": "fish"
+   "address": "Reykjavík",
+   "hours": "Mo-Fr 11:30-22:30; Sa-Su 16:00-23:00",
+   "wheelchair": "yes",
+   "cuisine": "pakistani"
   },
   {
-   "id": "n3939912195",
-   "name": "Snaps",
-   "lat": 64.14405,
-   "lng": -21.93168,
+   "id": "n9907447018",
+   "name": "Shanghai",
+   "lat": 64.14678,
+   "lng": -21.93868,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -10251,16 +12099,61 @@
      7
     ],
     [
-     4.6,
+     5.1,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n3005750480",
+   "name": "Skólabrú",
+   "lat": 64.14656,
+   "lng": -21.93859,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.1,
      0
     ]
    ],
    "town": true,
-   "website": "https://www.snaps.is/",
-   "hours": "Mo-Su 11:30-16:00,16:00-22:00",
-   "wheelchair": "limited",
-   "cuisine": "fine dining",
-   "vegetarian": true
+   "cuisine": "regional"
+  },
+  {
+   "id": "n3457524580",
+   "name": "Skúli Craft",
+   "lat": 64.14753,
+   "lng": -21.94163,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.skulicraftbar.is",
+   "address": "Aðalstræti 9, Reykjavík",
+   "hours": "Su-We 12:00-23:00, Th 12:00-24:00, Sa,Su 12:00-01:00"
   },
   {
    "id": "n2112538840",
@@ -10286,6 +12179,159 @@
    "town": true,
    "phone": "+3545336220",
    "website": "https://sportbarinn.is"
+  },
+  {
+   "id": "n4332603026",
+   "name": "Sæta Svínið",
+   "lat": 64.14847,
+   "lng": -21.9412,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://saetasvinid.is",
+   "hours": "Mo-Su 11:30-23:30",
+   "cuisine": "regional"
+  },
+  {
+   "id": "n1433784491",
+   "name": "Tapas barinn",
+   "lat": 64.14865,
+   "lng": -21.94219,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545512344",
+   "website": "http://www.tapas.is",
+   "address": "Vesturgata 3b, Reykjavík",
+   "hours": "Su-Th 17:00-23:30; Fr,Sa 17:00-01:00",
+   "cuisine": "tapas"
+  },
+  {
+   "id": "n4734297618",
+   "name": "Te & Kaffi",
+   "lat": 64.1476,
+   "lng": -21.94201,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.teogkaffi.is",
+   "address": "Aðalstræti 9, Reykjavík",
+   "wikidata": "Q29052028",
+   "cuisine": "coffee shop"
+  },
+  {
+   "id": "n4652162217",
+   "name": "The Drunk Rabbit",
+   "lat": 64.14798,
+   "lng": -21.94035,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Reykjavík"
+  },
+  {
+   "id": "n71622238",
+   "name": "The Dubliner",
+   "lat": 64.14855,
+   "lng": -21.94027,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n9291525123",
+   "name": "Tipsy",
+   "lat": 64.14837,
+   "lng": -21.94048,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Laugavegur 1, Reykjavík",
+   "wheelchair": "limited"
   },
   {
    "id": "n2418844688",
@@ -10318,12 +12364,12 @@
    "cuisine": "burger"
   },
   {
-   "id": "n13072993001",
-   "name": "Turf House",
-   "lat": 64.14299,
-   "lng": -21.92665,
+   "id": "n11166725434",
+   "name": "Uppi",
+   "lat": 64.1477,
+   "lng": -21.94227,
    "kind": "food",
-   "cat": "fast_food",
+   "cat": "bar",
    "days": [
     [
      0.6,
@@ -10334,12 +12380,11 @@
      7
     ],
     [
-     4.4,
+     5.3,
      0
     ]
    ],
-   "town": true,
-   "cuisine": "burger;local"
+   "town": true
   },
   {
    "id": "n4511555789",
@@ -10367,30 +12412,6 @@
    "website": "https://vonmathus.is/",
    "hours": "Mo-Sa 11:30-14:30,17:00-21:00; Su 17:00-21:00",
    "email": "info@vonmathus.is"
-  },
-  {
-   "id": "n9907446823",
-   "name": "Víkinga Pylsur",
-   "lat": 64.14297,
-   "lng": -21.92674,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.6,
-     6
-    ],
-    [
-     0.6,
-     7
-    ],
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "cuisine": "hotdog"
   },
   {
    "id": "n9041981382",
@@ -10450,12 +12471,12 @@
    "cuisine": "burger"
   },
   {
-   "id": "n9907446831",
-   "name": "Baboo Tea",
-   "lat": 64.14602,
-   "lng": -21.93313,
+   "id": "n3767441543",
+   "name": "Apotek",
+   "lat": 64.14743,
+   "lng": -21.9385,
    "kind": "food",
-   "cat": "cafe",
+   "cat": "restaurant",
    "days": [
     [
      0.7,
@@ -10466,12 +12487,66 @@
      7
     ],
     [
-     4.8,
+     5.1,
      0
     ]
    ],
    "town": true,
-   "hours": "Mo-Sa 12:30-19:30"
+   "phone": "+3545510011",
+   "website": "https://www.apotek.is",
+   "address": "Austurstræti 16, Reykjavík"
+  },
+  {
+   "id": "n9907447019",
+   "name": "Bad Mickey",
+   "lat": 64.14719,
+   "lng": -21.93866,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.instagram.com/badmickeybar"
+  },
+  {
+   "id": "n1229343215",
+   "name": "BakaBaka",
+   "lat": 64.14691,
+   "lng": -21.93577,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545514430",
+   "website": "https://www.bakabaka.is/",
+   "address": "Bankastræti 2, Reykjavík",
+   "hours": "Mo-Su 07:30-17:00,17:30-21:00",
+   "cuisine": "pizza"
   },
   {
    "id": "n5646545224",
@@ -10489,10 +12564,10 @@
    "town": false
   },
   {
-   "id": "n4076112790",
+   "id": "n12702210700",
    "name": "Brauð & Co",
-   "lat": 64.14399,
-   "lng": -21.92607,
+   "lat": 64.14754,
+   "lng": -21.93765,
    "kind": "food",
    "cat": "bakery",
    "days": [
@@ -10505,15 +12580,15 @@
      7
     ],
     [
-     4.4,
+     5.1,
      0
     ]
    ],
    "town": true,
    "phone": "+3544567777",
    "website": "https://braudogco.is/",
-   "address": "Frakkastígur 16",
-   "hours": "Mo-Su 06:30-17:00"
+   "address": "Austurstræti 17, Reykjavík",
+   "hours": "Mo-Su 07:00-17:00"
   },
   {
    "id": "n4715038060",
@@ -10595,6 +12670,30 @@
    "website": "https://www.facebook.com/cafepetitee",
    "address": "Framnesvegur 23, Keflavík",
    "hours": "Mo-Su 16:00-00:00; Fr-Sa 16:00-01:00"
+  },
+  {
+   "id": "n1282030466",
+   "name": "Café Babalú",
+   "lat": 64.14408,
+   "lng": -21.93016,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Skólavörðustígur 22a"
   },
   {
    "id": "n12828405488",
@@ -10679,33 +12778,6 @@
    "vegan": true
   },
   {
-   "id": "n11166725430",
-   "name": "Dass Reykjavík",
-   "lat": 64.14555,
-   "lng": -21.93055,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.7,
-     6
-    ],
-    [
-     0.7,
-     7
-    ],
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.dassreykjavik.is",
-   "address": "Vegamótastígur 7, Reykjavík",
-   "hours": "Su-Th 17:00-22:00; Fr,Sa 17:00-02:00",
-   "cuisine": "international;local;dessert;steak house;chocolate;regional"
-  },
-  {
    "id": "n377317255",
    "name": "Dillon sportbar",
    "lat": 64.07967,
@@ -10729,6 +12801,54 @@
    "town": true
   },
   {
+   "id": "n7242648950",
+   "name": "Djúpið",
+   "lat": 64.14815,
+   "lng": -21.93806,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n11266685731",
+   "name": "Djúsi Sushi",
+   "lat": 64.14765,
+   "lng": -21.93814,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 11:00-22:00",
+   "cuisine": "sushi"
+  },
+  {
    "id": "n5037441972",
    "name": "Domino's",
    "lat": 64.11798,
@@ -10745,7 +12865,7 @@
      6
     ],
     [
-     0.7,
+     0.8,
      7
     ]
    ],
@@ -10757,12 +12877,35 @@
    "cuisine": "pizza"
   },
   {
-   "id": "n1229343228",
-   "name": "Drekinn",
-   "lat": 64.1439,
-   "lng": -21.92617,
+   "id": "n1229343259",
+   "name": "Domo",
+   "lat": 64.14634,
+   "lng": -21.93458,
    "kind": "food",
-   "cat": "fast_food",
+   "cat": "bar",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.9,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n11266685729",
+   "name": "Drykk",
+   "lat": 64.14775,
+   "lng": -21.93815,
+   "kind": "food",
+   "cat": "bar",
    "days": [
     [
      0.7,
@@ -10773,12 +12916,112 @@
      7
     ],
     [
-     4.4,
+     5.1,
      0
     ]
    ],
    "town": true,
-   "hours": "Mo-Fr 09:30-23:30; Sa,Su 11:00-23:30"
+   "hours": "Mo-Su 11:00-22:00"
+  },
+  {
+   "id": "n11266685725",
+   "name": "Enoteca",
+   "lat": 64.14766,
+   "lng": -21.938,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 11:00-22:00",
+   "cuisine": "italian"
+  },
+  {
+   "id": "n11266685733",
+   "name": "Finsen",
+   "lat": 64.14762,
+   "lng": -21.93816,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 11:00-22:00",
+   "cuisine": "french"
+  },
+  {
+   "id": "n11266685726",
+   "name": "Fuku Mama",
+   "lat": 64.14764,
+   "lng": -21.93801,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 11:00-22:00",
+   "cuisine": "korean"
+  },
+  {
+   "id": "n11266685730",
+   "name": "Funky Bhangra",
+   "lat": 64.14775,
+   "lng": -21.93832,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 11:00-22:00",
+   "cuisine": "indian"
   },
   {
    "id": "n12828405489",
@@ -10809,10 +13052,10 @@
    "cuisine": "chinese"
   },
   {
-   "id": "n3741271921",
-   "name": "Garðurinn",
-   "lat": 64.1448,
-   "lng": -21.92974,
+   "id": "n3925337294",
+   "name": "Gamla Reykjavik",
+   "lat": 64.1475,
+   "lng": -21.93895,
    "kind": "food",
    "cat": "cafe",
    "days": [
@@ -10825,23 +13068,145 @@
      7
     ],
     [
-     4.6,
+     5.1,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545612345",
-   "website": "https://kaffigardurinn.is/",
-   "hours": "Mo-Tu,Th-Fr 11:00-20:30; We 11:00-17:00; Sa 12:00-17:00",
-   "email": "gardurinn@islandia.is",
-   "vegetarian": true,
-   "vegan": true
+   "website": "https://www.gamlareykjavik.is/",
+   "address": "Austurstræti 14, Reykjavík"
   },
   {
-   "id": "n688998252",
-   "name": "Iðnó",
-   "lat": 64.14587,
-   "lng": -21.94019,
+   "id": "n1064179053",
+   "name": "Gandhi",
+   "lat": 64.14463,
+   "lng": -21.93302,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545111691",
+   "website": "https://gandhi.is/",
+   "hours": "Su-Th 16:00-22:00, Fr-Sa 16:00-23:00",
+   "email": "gandhi@gandhi.is",
+   "cuisine": "indian"
+  },
+  {
+   "id": "n9907447417",
+   "name": "Gilligogg",
+   "lat": 64.1475,
+   "lng": -21.93917,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n1470766368",
+   "name": "Grillmarkaðurinn",
+   "lat": 64.14715,
+   "lng": -21.9373,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n4993614622",
+   "name": "Hard Rock Cafe",
+   "lat": 64.14697,
+   "lng": -21.93717,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545600800",
+   "website": "https://hardrock.com/",
+   "hours": "Mo-Su 11:00-23:00",
+   "cuisine": "burger;american"
+  },
+  {
+   "id": "n1016031075",
+   "name": "Hornið",
+   "lat": 64.14804,
+   "lng": -21.93815,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Reykjavík",
+   "hours": "Mo-Su 11:00-22:00"
+  },
+  {
+   "id": "n9291525122",
+   "name": "Hressó",
+   "lat": 64.14737,
+   "lng": -21.9378,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -10859,32 +13224,10 @@
     ]
    ],
    "town": true,
-   "wheelchair": "limited"
-  },
-  {
-   "id": "n4595518444",
-   "name": "Joe & The Juice",
-   "lat": 64.14212,
-   "lng": -21.95285,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.7,
-     7
-    ],
-    [
-     0.8,
-     6
-    ],
-    [
-     5.4,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Birkimelur",
-   "cuisine": "coffee shop"
+   "website": "https://hresso.com/",
+   "address": "Austurstræti 20",
+   "hours": "Mo-Su 16:00-22:00",
+   "cuisine": "regional"
   },
   {
    "id": "n4588650163",
@@ -10911,10 +13254,35 @@
    "cuisine": "sandwich"
   },
   {
-   "id": "n1252953175",
-   "name": "Kaffifélagið",
-   "lat": 64.14577,
-   "lng": -21.93238,
+   "id": "n3005750475",
+   "name": "Jómfrúin",
+   "lat": 64.14686,
+   "lng": -21.93736,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 11:00-22:00",
+   "wheelchair": "yes"
+  },
+  {
+   "id": "n11698984202",
+   "name": "Kaffi Ó-le",
+   "lat": 64.14819,
+   "lng": -21.93919,
    "kind": "food",
    "cat": "cafe",
    "days": [
@@ -10927,14 +13295,12 @@
      7
     ],
     [
-     4.8,
+     5.2,
      0
     ]
    ],
    "town": true,
-   "address": "Skólavörðustígur, Reykjavík",
-   "hours": "Mo-Fr 07:30-18:00; Sa 10:00-16:00",
-   "cuisine": "coffee shop"
+   "hours": "Mo-Su 08:00-15:00"
   },
   {
    "id": "n13791603356",
@@ -10961,6 +13327,34 @@
    "hours": "Mo-Su 11:30-18:00"
   },
   {
+   "id": "n5953107543",
+   "name": "Kattakaffihúsið",
+   "lat": 64.14506,
+   "lng": -21.93291,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.kattakaffihusid.is/",
+   "hours": "Mo-Su 10:00-18:00",
+   "wheelchair": "limited",
+   "vegetarian": true,
+   "vegan": true
+  },
+  {
    "id": "n2948445247",
    "name": "Kaupfjelagið",
    "lat": 64.79207,
@@ -10974,29 +13368,6 @@
     ]
    ],
    "town": false
-  },
-  {
-   "id": "n3005947175",
-   "name": "Kebab Grill",
-   "lat": 64.14632,
-   "lng": -21.93825,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.7,
-     6
-    ],
-    [
-     0.7,
-     7
-    ],
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true
   },
   {
    "id": "n6981246285",
@@ -11022,10 +13393,63 @@
    "hours": "Mo-We, Su 11:30-22:00; Th-Sa 11:30-23:00"
   },
   {
-   "id": "n11166725432",
-   "name": "Kramber",
-   "lat": 64.14534,
-   "lng": -21.93228,
+   "id": "n5009883057",
+   "name": "Kol Kitchen & Bar",
+   "lat": 64.143,
+   "lng": -21.92863,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     4.5,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Skólavörðustígur, Reykjavík",
+   "hours": "We-Su 12:00-23:00"
+  },
+  {
+   "id": "n4421143474",
+   "name": "Krua Thai",
+   "lat": 64.14438,
+   "lng": -21.93011,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     7
+    ],
+    [
+     0.8,
+     6
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545510833",
+   "website": "https://kruathai.is",
+   "address": "Skólavörðustígur 21a, Reykjavík",
+   "hours": "Mo-Fr 11:30-21:30; Sa 12:00-21:30; Su 17:00-21:30",
+   "cuisine": "thai"
+  },
+  {
+   "id": "n9498523817",
+   "name": "Lemmy",
+   "lat": 64.14739,
+   "lng": -21.93785,
    "kind": "food",
    "cat": "bar",
    "days": [
@@ -11038,7 +13462,7 @@
      7
     ],
     [
-     4.7,
+     5.1,
      0
     ]
    ],
@@ -11069,6 +13493,189 @@
    "cuisine": "salad"
   },
   {
+   "id": "n9907446919",
+   "name": "Maika'i",
+   "lat": 64.14876,
+   "lng": -21.93743,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n12193438038",
+   "name": "Mama Reykjavik",
+   "lat": 64.14697,
+   "lng": -21.93567,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3547666262",
+   "website": "https://mama.is/restaurant",
+   "address": "Bankastræti 2, Reykjavík",
+   "hours": "Mo-Su 11:30-21:00",
+   "cuisine": "asian;thai;indian;sandwich;chocolate;dessert",
+   "vegetarian": true,
+   "vegan": true
+  },
+  {
+   "id": "n3163126184",
+   "name": "Mama Reykjavík",
+   "lat": 64.14672,
+   "lng": -21.93573,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "http://mama.is",
+   "address": "Bankastræti 3",
+   "hours": "Mo-Su 11:30-21:00",
+   "vegan": true
+  },
+  {
+   "id": "n11266685727",
+   "name": "Mossley",
+   "lat": 64.1477,
+   "lng": -21.93816,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 11:00-22:00",
+   "cuisine": "burger"
+  },
+  {
+   "id": "n9907446840",
+   "name": "Napoli",
+   "lat": 64.14861,
+   "lng": -21.93966,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545455545",
+   "hours": "Su-Th 11:30-22:00; Fr,Sa 11:30-23:00",
+   "cuisine": "pizza"
+  },
+  {
+   "id": "n9307253375",
+   "name": "Pablo Discobar",
+   "lat": 64.14815,
+   "lng": -21.94053,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545527333",
+   "website": "http://www.burro.is",
+   "hours": "Fr-Sa 16:00-03:00; Su-Th 16:00-01:00",
+   "cuisine": "mexican"
+  },
+  {
+   "id": "n11266685728",
+   "name": "Pizza Popolare",
+   "lat": 64.14771,
+   "lng": -21.93824,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 11:00-22:00",
+   "cuisine": "pizza"
+  },
+  {
    "id": "n1849130193",
    "name": "Plan B",
    "lat": 64.07968,
@@ -11081,12 +13688,12 @@
      0
     ],
     [
-     6.2,
-     7
+     6.3,
+     6
     ],
     [
      6.3,
-     6
+     7
     ]
    ],
    "town": true,
@@ -11198,61 +13805,6 @@
    "hours": "Tu-Th 13:00-22:00; Fr-Sa 13:00-23:00"
   },
   {
-   "id": "n9907446926",
-   "name": "Reykjavík Fish",
-   "lat": 64.14587,
-   "lng": -21.93257,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.7,
-     6
-    ],
-    [
-     0.7,
-     7
-    ],
-    [
-     4.8,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Skólavörðustígur 8",
-   "hours": "11:30-21:30",
-   "wheelchair": "limited"
-  },
-  {
-   "id": "n1248860582",
-   "name": "Reykjavík Roasters",
-   "lat": 64.14356,
-   "lng": -21.92662,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.7,
-     6
-    ],
-    [
-     0.7,
-     7
-    ],
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545175535",
-   "website": "https://reykjavikroasters.is/",
-   "address": "Kárastígur 1, Reykjavík",
-   "hours": "Mo-Fr 08:30-17:00; Sa 09:00-17:00; Su 10:00-17:00",
-   "wheelchair": "yes",
-   "cuisine": "coffee shop"
-  },
-  {
    "id": "n4007214254",
    "name": "Reykjavík Roasters",
    "lat": 64.14166,
@@ -11282,10 +13834,92 @@
    "cuisine": "coffee shop"
   },
   {
-   "id": "n8868568017",
-   "name": "Reykjavík Street Food",
-   "lat": 64.14588,
-   "lng": -21.93265,
+   "id": "w114790873",
+   "name": "Ristorante Caruso",
+   "lat": 64.14727,
+   "lng": -21.93716,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "http://www.caruso.is",
+   "address": "Austurstræti 22, Reykjavík",
+   "hours": "Mo - Th 11:30-22:30, Fr 11:30-23:30, Sa 12:00-22:30, Su 17:00-22:30",
+   "email": "happ@happ.is",
+   "wheelchair": "yes",
+   "cuisine": "italian"
+  },
+  {
+   "id": "n4963930723",
+   "name": "Rok",
+   "lat": 64.14295,
+   "lng": -21.92719,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545444443",
+   "website": "https://www.rokrestaurant.is/",
+   "hours": "Mo-Fr 11:30-23:00; Sa-Su 12:00-23:00"
+  },
+  {
+   "id": "n4740802122",
+   "name": "Salka Valka",
+   "lat": 64.14419,
+   "lng": -21.92973,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     7
+    ],
+    [
+     0.8,
+     6
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3548887793",
+   "website": "https://salkakitchen.com/",
+   "address": "Skólavörðustígur 23",
+   "cuisine": "fish"
+  },
+  {
+   "id": "n12394095971",
+   "name": "Sbarro",
+   "lat": 64.14759,
+   "lng": -21.93786,
    "kind": "food",
    "cat": "fast_food",
    "days": [
@@ -11298,16 +13932,15 @@
      7
     ],
     [
-     4.8,
+     5.1,
      0
     ]
    ],
    "town": true,
-   "phone": "+3548692952",
-   "website": "https://101reykjavikstreetfood.is/",
-   "hours": "Mo-Su 11:00-22:00",
-   "email": "info@101reykjavikstreetfood.is",
-   "cuisine": "fish and chips"
+   "phone": "+3545141414",
+   "website": "https://sbarro.is",
+   "hours": "Su-Th 10:00-22:00; Fr-Sa 10:00-28:00",
+   "cuisine": "pizza"
   },
   {
    "id": "n382718670",
@@ -11359,12 +13992,12 @@
    "cuisine": "international"
   },
   {
-   "id": "n4315698493",
-   "name": "Sjávargrillið",
-   "lat": 64.14522,
-   "lng": -21.93159,
+   "id": "n8274384554",
+   "name": "Skor",
+   "lat": 64.14879,
+   "lng": -21.93715,
    "kind": "food",
-   "cat": "restaurant",
+   "cat": "cafe",
    "days": [
     [
      0.7,
@@ -11375,17 +14008,16 @@
      7
     ],
     [
-     4.7,
+     5.1,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545711100",
-   "website": "https://sjavargrillid.is/",
-   "address": "Skólavörðustígur 14, Reykjavík",
-   "hours": "Mo-Fr 11:30-14:30, 17:00-22:00; Sa-Su 17:00-22:00",
-   "email": "info@sjavargrillid.is",
-   "cuisine": "seafood"
+   "phone": "+3545395099",
+   "website": "https://www.glacierfire.is/ice&fries/",
+   "address": "Geirsgata 2, Reykjavík",
+   "hours": "Mo-Su 11:00-01:00",
+   "cuisine": "fries"
   },
   {
    "id": "n6770549338",
@@ -11413,10 +14045,10 @@
    "cuisine": "local;coffee shop"
   },
   {
-   "id": "n12294679501",
-   "name": "Skál!",
-   "lat": 64.14469,
-   "lng": -21.92982,
+   "id": "n3939912195",
+   "name": "Snaps",
+   "lat": 64.14405,
+   "lng": -21.93168,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -11434,17 +14066,19 @@
     ]
    ],
    "town": true,
-   "phone": "+3545196515",
-   "website": "https://www.skalrvk.com/",
-   "hours": "Su 12:00-15:00, 17:00-23:00; Mo-We 17:00-23:00; Th-Sa 12:00-15:00, 17:00-00:00"
+   "website": "https://www.snaps.is/",
+   "hours": "Mo-Su 11:30-16:00,16:00-22:00",
+   "wheelchair": "limited",
+   "cuisine": "fine dining",
+   "vegetarian": true
   },
   {
-   "id": "n9907446829",
-   "name": "Studio",
-   "lat": 64.14582,
-   "lng": -21.93247,
+   "id": "n13930969067",
+   "name": "Starbucks",
+   "lat": 64.1491,
+   "lng": -21.93695,
    "kind": "food",
-   "cat": "bar",
+   "cat": "cafe",
    "days": [
     [
      0.7,
@@ -11455,13 +14089,15 @@
      7
     ],
     [
-     4.8,
+     5.1,
      0
     ]
    ],
    "town": true,
-   "address": "Skólavörðustígur 8",
-   "wheelchair": "limited"
+   "website": "https://www.starbucks.is/is",
+   "address": "Geirsgata 17, Reykjavík",
+   "hours": "Mo-Sa 08:30-20:00; Su 09:30-20:00",
+   "cuisine": "coffee shop"
   },
   {
    "id": "n2492978065",
@@ -11506,10 +14142,90 @@
    "hours": "Mo-Fr 07:30-17:00; Sa 08:00-14:00; Su 09:00-16:00"
   },
   {
-   "id": "n1239755100",
-   "name": "Te & Kaffi",
-   "lat": 64.14526,
-   "lng": -21.93096,
+   "id": "n3008778028",
+   "name": "Taj Mahal",
+   "lat": 64.14848,
+   "lng": -21.93913,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3544540400",
+   "website": "https://tryggvagata.tajmahal.is/",
+   "address": "Tryggvagata 26, Reykjavík",
+   "hours": "Mo-Fr 11:00-22:00",
+   "cuisine": "indian"
+  },
+  {
+   "id": "n279225242",
+   "name": "The English Pub",
+   "lat": 64.14756,
+   "lng": -21.93929,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545780400",
+   "website": "https://www.enskibarinn.is",
+   "address": "Austurstræti 12, Reykjavík",
+   "hours": "Mo-Th,Su 12:00-01:00; Fr-Sa 12:00-04:00"
+  },
+  {
+   "id": "n2466760479",
+   "name": "The Jungle Cocktail Bar",
+   "lat": 64.14785,
+   "lng": -21.93963,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.facebook.com/jungle.rvk/",
+   "address": "Reykjavík"
+  },
+  {
+   "id": "n9129990626",
+   "name": "The Laundromat Cafe",
+   "lat": 64.14785,
+   "lng": -21.93955,
    "kind": "food",
    "cat": "cafe",
    "days": [
@@ -11522,14 +14238,41 @@
      7
     ],
     [
-     4.7,
+     5.2,
      0
     ]
    ],
    "town": true,
-   "address": "Skólavörðustígur 11, Reykjavík",
-   "wheelchair": "yes",
-   "cuisine": "coffee shop"
+   "phone": "+3547719660",
+   "website": "https://www.thelaundromatcafe.is/",
+   "address": "Austurstræti 9",
+   "hours": "Mo-We 09:00-21:00; Th-Fr 09:00-22:00; Sa 10:00-22:00; Su 10:00-18:00",
+   "email": "laundromatcafe@gmail.com"
+  },
+  {
+   "id": "n1324164494",
+   "name": "Tivoli",
+   "lat": 64.14815,
+   "lng": -21.93838,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://tivolibistro.is/",
+   "hours": "Su-Th 11:45-22:00, Fr,Sa 11:45-23:00"
   },
   {
    "id": "n13914295895",
@@ -11558,6 +14301,57 @@
    "address": "Reykjavíkurvegur 64, Hafnarfjörður",
    "hours": "Mo-Su 11:00-21:00",
    "cuisine": "burger"
+  },
+  {
+   "id": "n3888419371",
+   "name": "Torfan veitingahús",
+   "lat": 64.14646,
+   "lng": -21.93629,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.0,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545466900",
+   "website": "https://www.torfan.is/",
+   "address": "Amtmannsstígur 1, Reykjavík",
+   "hours": "Mo off; Tu 17:00-22:00; We-Su 11:30-22:00",
+   "cuisine": "regional"
+  },
+  {
+   "id": "n6037749068",
+   "name": "Tres Locos",
+   "lat": 64.14815,
+   "lng": -21.94029,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": true
   },
   {
    "id": "n13791603357",
@@ -11628,6 +14422,31 @@
    "cuisine": "burger"
   },
   {
+   "id": "n11266685732",
+   "name": "Yuzu",
+   "lat": 64.14762,
+   "lng": -21.93802,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.7,
+     6
+    ],
+    [
+     0.7,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 11:00-22:00",
+   "cuisine": "burger"
+  },
+  {
    "id": "n5041990177",
    "name": "Árbæjarbakarí",
    "lat": 64.11809,
@@ -11654,28 +14473,29 @@
    "email": "reykjavikbakari@reykjavikbakari.is"
   },
   {
-   "id": "n71619236",
-   "name": "Ölstofa",
-   "lat": 64.14557,
-   "lng": -21.93097,
+   "id": "n4265274989",
+   "name": "Ísafold",
+   "lat": 64.14632,
+   "lng": -21.93459,
    "kind": "food",
-   "cat": "bar",
+   "cat": "restaurant",
    "days": [
     [
      0.7,
      6
     ],
     [
-     0.7,
+     0.8,
      7
     ],
     [
-     4.7,
+     4.9,
      0
     ]
    ],
    "town": true,
-   "address": "Vegamótastígur 4, Reykjavík"
+   "website": "https://www.isafoldrestaurant.com/",
+   "address": "Þingholtsstræti 5"
   },
   {
    "id": "n3019218395",
@@ -11695,29 +14515,6 @@
     ],
     [
      4.0,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n13714161397",
-   "name": "22",
-   "lat": 64.14563,
-   "lng": -21.92917,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.6,
      0
     ]
    ],
@@ -11747,12 +14544,12 @@
    "town": true
   },
   {
-   "id": "n9907447019",
-   "name": "Bad Mickey",
-   "lat": 64.14719,
-   "lng": -21.93866,
+   "id": "n9907446831",
+   "name": "Baboo Tea",
+   "lat": 64.14602,
+   "lng": -21.93313,
    "kind": "food",
-   "cat": "bar",
+   "cat": "cafe",
    "days": [
     [
      0.8,
@@ -11763,40 +14560,12 @@
      7
     ],
     [
-     5.1,
+     4.8,
      0
     ]
    ],
    "town": true,
-   "website": "https://www.instagram.com/badmickeybar"
-  },
-  {
-   "id": "n1229343215",
-   "name": "BakaBaka",
-   "lat": 64.14691,
-   "lng": -21.93577,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545514430",
-   "website": "https://www.bakabaka.is/",
-   "address": "Bankastræti 2, Reykjavík",
-   "hours": "Mo-Su 07:30-17:00,17:30-21:00",
-   "cuisine": "pizza"
+   "hours": "Mo-Sa 12:30-19:30"
   },
   {
    "id": "n1565489298",
@@ -11891,29 +14660,6 @@
    "hours": "Mo-Th 11:45-01:00; Fr 11:45-04:00; Sa 12:00-04:00; Su 12:00-01:00"
   },
   {
-   "id": "n1620366920",
-   "name": "Björnsbakarí",
-   "lat": 64.14395,
-   "lng": -21.95089,
-   "kind": "food",
-   "cat": "bakery",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.4,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
    "id": "n12956058942",
    "name": "Bombay Bazaar",
    "lat": 64.13824,
@@ -11936,29 +14682,6 @@
    ],
    "town": true,
    "cuisine": "indian"
-  },
-  {
-   "id": "n3005750473",
-   "name": "Borg Restaurant",
-   "lat": 64.14694,
-   "lng": -21.93879,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true
   },
   {
    "id": "n11282433090",
@@ -12012,6 +14735,34 @@
    "address": "Efstaland 26",
    "hours": "Mo-Fr 10:00-17:00",
    "wheelchair": "yes"
+  },
+  {
+   "id": "w774604662",
+   "name": "Bæjarins Beztu Pylsur",
+   "lat": 64.14816,
+   "lng": -21.93784,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545111566",
+   "website": "https://bbp.is/",
+   "hours": "Su-We 09:00-25:00; Th 09:00-26:00; Fr-Sa 09:00-30:00",
+   "wheelchair": "yes",
+   "cuisine": "regional;hot dog"
   },
   {
    "id": "n12394095970",
@@ -12116,6 +14867,33 @@
    "address": "Ingólfsstræti 8"
   },
   {
+   "id": "n11166725430",
+   "name": "Dass Reykjavík",
+   "lat": 64.14555,
+   "lng": -21.93055,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.dassreykjavik.is",
+   "address": "Vegamótastígur 7, Reykjavík",
+   "hours": "Su-Th 17:00-22:00; Fr,Sa 17:00-02:00",
+   "cuisine": "international;local;dessert;steak house;chocolate;regional"
+  },
+  {
    "id": "n491115634",
    "name": "Den Danske Kro",
    "lat": 64.14638,
@@ -12166,77 +14944,6 @@
    "hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-02:00",
    "email": "devitos@devitos.is",
    "cuisine": "pizza"
-  },
-  {
-   "id": "n71620303",
-   "name": "Dillon",
-   "lat": 64.14527,
-   "lng": -21.92747,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.5,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.dillon.is/"
-  },
-  {
-   "id": "n2964106464",
-   "name": "Dillon Kjallarinn",
-   "lat": 64.14526,
-   "lng": -21.92738,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.5,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Laugavegur 30"
-  },
-  {
-   "id": "n1229343259",
-   "name": "Domo",
-   "lat": 64.14634,
-   "lng": -21.93458,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.9,
-     0
-    ]
-   ],
-   "town": true
   },
   {
    "id": "n1847659499",
@@ -12290,12 +14997,12 @@
    "cuisine": "chinese"
   },
   {
-   "id": "n4236613092",
-   "name": "Durum",
-   "lat": 64.14483,
-   "lng": -21.92524,
+   "id": "n1229343228",
+   "name": "Drekinn",
+   "lat": 64.1439,
+   "lng": -21.92617,
    "kind": "food",
-   "cat": "restaurant",
+   "cat": "fast_food",
    "days": [
     [
      0.8,
@@ -12310,7 +15017,8 @@
      0
     ]
    ],
-   "town": true
+   "town": true,
+   "hours": "Mo-Fr 09:30-23:30; Sa,Su 11:00-23:30"
   },
   {
    "id": "n13947469001",
@@ -12585,12 +15293,12 @@
    "cuisine": "mexican"
   },
   {
-   "id": "n5012652133",
-   "name": "Geiri Smart",
-   "lat": 64.14641,
-   "lng": -21.92954,
+   "id": "n3741271921",
+   "name": "Garðurinn",
+   "lat": 64.1448,
+   "lng": -21.92974,
    "kind": "food",
-   "cat": "restaurant",
+   "cat": "cafe",
    "days": [
     [
      0.8,
@@ -12601,35 +15309,17 @@
      7
     ],
     [
-     4.7,
+     4.6,
      0
     ]
    ],
    "town": true,
-   "address": "Hverfisgata 32, Reykjavík"
-  },
-  {
-   "id": "n1470766368",
-   "name": "Grillmarkaðurinn",
-   "lat": 64.14715,
-   "lng": -21.9373,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true
+   "phone": "+3545612345",
+   "website": "https://kaffigardurinn.is/",
+   "hours": "Mo-Tu,Th-Fr 11:00-20:30; We 11:00-17:00; Sa 12:00-17:00",
+   "email": "gardurinn@islandia.is",
+   "vegetarian": true,
+   "vegan": true
   },
   {
    "id": "n6670032966",
@@ -12684,33 +15374,6 @@
    "hours": "Mo-Su 11:30-21:00",
    "email": "bullan@simnet.is",
    "cuisine": "burger"
-  },
-  {
-   "id": "n4993614622",
-   "name": "Hard Rock Cafe",
-   "lat": 64.14697,
-   "lng": -21.93717,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545600800",
-   "website": "https://hardrock.com/",
-   "hours": "Mo-Su 11:00-23:00",
-   "cuisine": "burger;american"
   },
   {
    "id": "n5012793248",
@@ -12777,12 +15440,12 @@
    "town": true
   },
   {
-   "id": "n6485838852",
-   "name": "Icelandic Street Food",
-   "lat": 64.14645,
-   "lng": -21.93804,
+   "id": "n9907653217",
+   "name": "Joe & The Juice",
+   "lat": 64.1484,
+   "lng": -21.93757,
    "kind": "food",
-   "cat": "restaurant",
+   "cat": "cafe",
    "days": [
     [
      0.8,
@@ -12793,61 +15456,13 @@
      7
     ],
     [
-     5.0,
+     5.1,
      0
     ]
    ],
    "town": true,
-   "website": "https://www.icelandicfoods.com/",
-   "cuisine": "local"
-  },
-  {
-   "id": "n5518828356",
-   "name": "Just JK Kebab",
-   "lat": 64.1465,
-   "lng": -21.93793,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n3005750475",
-   "name": "Jómfrúin",
-   "lat": 64.14686,
-   "lng": -21.93736,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 11:00-22:00",
-   "wheelchair": "yes"
+   "hours": "Mo-Fr 08:00-20:00; Sa,Su 09:00-19:00",
+   "cuisine": "coffee shop"
   },
   {
    "id": "n4652162218",
@@ -12921,10 +15536,10 @@
    "town": true
   },
   {
-   "id": "n2906198021",
-   "name": "Kaffibrennslan",
-   "lat": 64.14581,
-   "lng": -21.92939,
+   "id": "n1252953175",
+   "name": "Kaffifélagið",
+   "lat": 64.14577,
+   "lng": -21.93238,
    "kind": "food",
    "cat": "cafe",
    "days": [
@@ -12937,21 +15552,44 @@
      7
     ],
     [
-     4.6,
+     4.8,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545115888",
-   "website": "https://kaffibrennslan101.is/",
-   "address": "Laugavegur 21, Reykjavík",
-   "hours": "Mo-Th 08:00-23:00; Fr 08:00-01:00; Sa 09:00-01:00; Su 09:00-21:00"
+   "address": "Skólavörðustígur, Reykjavík",
+   "hours": "Mo-Fr 07:30-18:00; Sa 10:00-16:00",
+   "cuisine": "coffee shop"
   },
   {
-   "id": "n3741559486",
-   "name": "Kaldi Bar",
-   "lat": 64.14552,
-   "lng": -21.92953,
+   "id": "n1248859674",
+   "name": "Kitchen & Wine Restaurant",
+   "lat": 64.14709,
+   "lng": -21.93335,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.9,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Ingólfsstræti, Reykjavík"
+  },
+  {
+   "id": "n11166725432",
+   "name": "Kramber",
+   "lat": 64.14534,
+   "lng": -21.93228,
    "kind": "food",
    "cat": "bar",
    "days": [
@@ -12964,39 +15602,11 @@
      7
     ],
     [
-     4.6,
+     4.7,
      0
     ]
    ],
-   "town": true,
-   "phone": "+3545812200",
-   "website": "http://www.kaldibar.com/",
-   "address": "Klapparstígur 40, Reykjavík",
-   "hours": "Mo-Th,Su 12:00-01:00; Fr-Sa 12:00-03:00"
-  },
-  {
-   "id": "n11848715947",
-   "name": "Kantrybarinn",
-   "lat": 64.14663,
-   "lng": -21.93767,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://kantrybar.is/"
+   "town": true
   },
   {
    "id": "n2066330233",
@@ -13055,83 +15665,6 @@
    "cuisine": "international"
   },
   {
-   "id": "n2182028184",
-   "name": "KíKí Queer Bar",
-   "lat": 64.14558,
-   "lng": -21.92923,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "http://www.kiki.is/",
-   "address": "Laugavegur 22, Reykjavík",
-   "email": "kiki@kiki.is"
-  },
-  {
-   "id": "n6795799685",
-   "name": "La Barceloneta",
-   "lat": 64.14631,
-   "lng": -21.93989,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "We-Su 17:30-21:30"
-  },
-  {
-   "id": "n1731007146",
-   "name": "Lebowski Bar",
-   "lat": 64.14569,
-   "lng": -21.92966,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545522300",
-   "website": "https://www.lebowskibar.is",
-   "address": "Laugavegur 20a, Reykjavík",
-   "hours": "Su-Th 11:00-01:00; Fr-Sa 11:00-03:30"
-  },
-  {
    "id": "n2466760480",
    "name": "Loft bar",
    "lat": 64.14678,
@@ -13155,30 +15688,6 @@
    "town": true,
    "address": "Bankastræti 7",
    "wheelchair": "yes"
-  },
-  {
-   "id": "n3029816836",
-   "name": "Lookoomas",
-   "lat": 64.14522,
-   "lng": -21.92722,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.5,
-     0
-    ]
-   ],
-   "town": true,
-   "cuisine": "greek"
   },
   {
    "id": "n3761699396",
@@ -13286,87 +15795,6 @@
    "town": true
   },
   {
-   "id": "n12193438038",
-   "name": "Mama Reykjavik",
-   "lat": 64.14697,
-   "lng": -21.93567,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547666262",
-   "website": "https://mama.is/restaurant",
-   "address": "Bankastræti 2, Reykjavík",
-   "hours": "Mo-Su 11:30-21:00",
-   "cuisine": "asian;thai;indian;sandwich;chocolate;dessert",
-   "vegetarian": true,
-   "vegan": true
-  },
-  {
-   "id": "n3163126184",
-   "name": "Mama Reykjavík",
-   "lat": 64.14672,
-   "lng": -21.93573,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "http://mama.is",
-   "address": "Bankastræti 3",
-   "hours": "Mo-Su 11:30-21:00",
-   "vegan": true
-  },
-  {
-   "id": "n71617309",
-   "name": "Matbar",
-   "lat": 64.14656,
-   "lng": -21.93034,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://Matbar.is"
-  },
-  {
    "id": "n5012793246",
    "name": "Matwerk",
    "lat": 64.14329,
@@ -13404,30 +15832,6 @@
     ]
    ],
    "town": false
-  },
-  {
-   "id": "n4502580490",
-   "name": "Messinn",
-   "lat": 64.14656,
-   "lng": -21.93783,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true,
-   "cuisine": "seafood"
   },
   {
    "id": "n2298373832",
@@ -13534,55 +15938,6 @@
    "cuisine": "coffee shop"
   },
   {
-   "id": "n11166725431",
-   "name": "Monkeys",
-   "lat": 64.14598,
-   "lng": -21.92946,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://monkeys.is/",
-   "cuisine": "peruvian;japanese"
-  },
-  {
-   "id": "n9917381017",
-   "name": "Mál og Menning",
-   "lat": 64.14583,
-   "lng": -21.93027,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.7,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 16:00-06:00"
-  },
-  {
    "id": "n3658950695",
    "name": "Múlakaffi",
    "lat": 64.13901,
@@ -13635,10 +15990,10 @@
    "wikidata": "Q29052028"
   },
   {
-   "id": "n14032092901",
-   "name": "Padre Pizza",
-   "lat": 64.14528,
-   "lng": -21.92742,
+   "id": "n13930921077",
+   "name": "Neó",
+   "lat": 64.14914,
+   "lng": -21.93643,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -13651,15 +16006,16 @@
      7
     ],
     [
-     4.5,
+     5.1,
      0
     ]
    ],
    "town": true,
-   "phone": "+3547665757",
-   "website": "http://www.padrepizza.is",
-   "address": "Laugavegur 30",
-   "hours": "Mo-Su 11:00-23:00",
+   "phone": "+3545882066",
+   "website": "https://www.neopizza.is",
+   "address": "Geirsgata 17, Reykjavík",
+   "hours": "Su-Th 11:30-21:00; Fr-Sa 11:30-22:00",
+   "email": "neopizza@neopizza.is",
    "cuisine": "pizza"
   },
   {
@@ -13764,34 +16120,6 @@
    "cuisine": "asian"
   },
   {
-   "id": "n5760811323",
-   "name": "Reykjavik Fish",
-   "lat": 64.14446,
-   "lng": -21.9256,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545785656",
-   "website": "https://www.reykjavikfish.is/",
-   "hours": "Mo-Su 11:00-22:00",
-   "email": "fish@internet.is",
-   "cuisine": "regional;fish and chips"
-  },
-  {
    "id": "n2119195815",
    "name": "Reykjavik Kitchen",
    "lat": 64.14265,
@@ -13817,12 +16145,38 @@
    "address": "Rauðarárstígur 8, Reykjavík"
   },
   {
-   "id": "n8442517645",
-   "name": "Rossopomodoro",
-   "lat": 64.14489,
-   "lng": -21.92564,
+   "id": "n9907446926",
+   "name": "Reykjavík Fish",
+   "lat": 64.14587,
+   "lng": -21.93257,
    "kind": "food",
    "cat": "restaurant",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.8,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Skólavörðustígur 8",
+   "hours": "11:30-21:30",
+   "wheelchair": "limited"
+  },
+  {
+   "id": "n1248860582",
+   "name": "Reykjavík Roasters",
+   "lat": 64.14356,
+   "lng": -21.92662,
+   "kind": "food",
+   "cat": "cafe",
    "days": [
     [
      0.8,
@@ -13838,19 +16192,20 @@
     ]
    ],
    "town": true,
-   "website": "https://www.rossopomodoro.is/",
-   "address": "Laugavegur 40A, Reykjavík",
-   "hours": "Mo-Sa 12:00-22:00; Su 17:00-22:00",
-   "wheelchair": "limited",
-   "cuisine": "italian;italian pizza"
+   "phone": "+3545175535",
+   "website": "https://reykjavikroasters.is/",
+   "address": "Kárastígur 1, Reykjavík",
+   "hours": "Mo-Fr 08:30-17:00; Sa 09:00-17:00; Su 10:00-17:00",
+   "wheelchair": "yes",
+   "cuisine": "coffee shop"
   },
   {
-   "id": "n3029815630",
-   "name": "Sandholt",
-   "lat": 64.14505,
-   "lng": -21.92627,
+   "id": "n8868568017",
+   "name": "Reykjavík Street Food",
+   "lat": 64.14588,
+   "lng": -21.93265,
    "kind": "food",
-   "cat": "bakery",
+   "cat": "fast_food",
    "days": [
     [
      0.8,
@@ -13861,13 +16216,16 @@
      7
     ],
     [
-     4.5,
+     4.8,
      0
     ]
    ],
    "town": true,
-   "website": "https://sandholt.is/",
-   "hours": "Mo-Su 07:30-18:00"
+   "phone": "+3548692952",
+   "website": "https://101reykjavikstreetfood.is/",
+   "hours": "Mo-Su 11:00-22:00",
+   "email": "info@101reykjavikstreetfood.is",
+   "cuisine": "fish and chips"
   },
   {
    "id": "n12394095969",
@@ -13897,56 +16255,6 @@
    "cuisine": "pizza"
   },
   {
-   "id": "n3030668965",
-   "name": "Scandinavian Smørrebrød & brasserie",
-   "lat": 64.14558,
-   "lng": -21.9289,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545784888",
-   "website": "https://www.scandinavian.is/",
-   "address": "Laugavegur 22a, Reykjavík",
-   "hours": "Mo-Fr 11:30-23:00"
-  },
-  {
-   "id": "n9907447018",
-   "name": "Shanghai",
-   "lat": 64.14678,
-   "lng": -21.93868,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
    "id": "n13930857844",
    "name": "Shawarma & falafel",
    "lat": 64.14325,
@@ -13971,6 +16279,35 @@
    "phone": "+3547651532",
    "hours": "Su-Th 11:00-23:00; Fr-Sa 11:00-25:00",
    "cuisine": "middle eastern"
+  },
+  {
+   "id": "n4315698493",
+   "name": "Sjávargrillið",
+   "lat": 64.14522,
+   "lng": -21.93159,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545711100",
+   "website": "https://sjavargrillid.is/",
+   "address": "Skólavörðustígur 14, Reykjavík",
+   "hours": "Mo-Fr 11:30-14:30, 17:00-22:00; Sa-Su 17:00-22:00",
+   "email": "info@sjavargrillid.is",
+   "cuisine": "seafood"
   },
   {
    "id": "n5844406691",
@@ -14025,10 +16362,10 @@
    "cuisine": "international"
   },
   {
-   "id": "n3005750480",
-   "name": "Skólabrú",
-   "lat": 64.14656,
-   "lng": -21.93859,
+   "id": "n12294679501",
+   "name": "Skál!",
+   "lat": 64.14469,
+   "lng": -21.92982,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -14041,12 +16378,39 @@
      7
     ],
     [
-     5.1,
+     4.6,
      0
     ]
    ],
    "town": true,
-   "cuisine": "regional"
+   "phone": "+3545196515",
+   "website": "https://www.skalrvk.com/",
+   "hours": "Su 12:00-15:00, 17:00-23:00; Mo-We 17:00-23:00; Th-Sa 12:00-15:00, 17:00-00:00"
+  },
+  {
+   "id": "n9907446829",
+   "name": "Studio",
+   "lat": 64.14582,
+   "lng": -21.93247,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.8,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Skólavörðustígur 8",
+   "wheelchair": "limited"
   },
   {
    "id": "n7006188185",
@@ -14130,33 +16494,6 @@
    "cuisine": "sandwich"
   },
   {
-   "id": "n6171720688",
-   "name": "Sumac",
-   "lat": 64.14535,
-   "lng": -21.92774,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545379900",
-   "website": "https://www.sumac.is/",
-   "address": "Laugavegur 28, Reykjavík",
-   "hours": "Tu-Th 17:30-22:00; Fr,Sa 17:30-24:00"
-  },
-  {
    "id": "n4362720497",
    "name": "Sushi Social",
    "lat": 64.14645,
@@ -14211,10 +16548,42 @@
    "cuisine": "international"
   },
   {
-   "id": "n4734292271",
-   "name": "Te & Kaffi",
-   "lat": 64.14554,
-   "lng": -21.92808,
+   "id": "n9789265003",
+   "name": "TIDES",
+   "lat": 64.15006,
+   "lng": -21.93535,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545820002",
+   "website": "https://www.tidesrestaurant.is/",
+   "address": "Austurbakki 2, Reykjavík",
+   "hours": "Mo-Su 07:00-10:30,12:00-14:30,17:30-22:00",
+   "email": "tides.rek@editionhotels.com",
+   "wheelchair": "yes",
+   "cuisine": "fine dining",
+   "vegetarian": true,
+   "vegan": true
+  },
+  {
+   "id": "n9789265004",
+   "name": "TIDES Café",
+   "lat": 64.14983,
+   "lng": -21.93579,
    "kind": "food",
    "cat": "cafe",
    "days": [
@@ -14227,71 +16596,27 @@
      7
     ],
     [
-     4.6,
+     5.1,
      0
     ]
    ],
    "town": true,
-   "address": "Laugavegur 27, Reykjavík",
-   "hours": "Mo-Fr 08:00-18:00; Sa,Su 10:00-18:00",
-   "cuisine": "coffee shop"
+   "phone": "+3545820002",
+   "website": "https://www.tidesrestaurant.is/",
+   "address": "Austurbakki 2, Reykjavík",
+   "hours": "PH,Mo-Su 06:00-17:00",
+   "wheelchair": "yes",
+   "cuisine": "cafe",
+   "vegetarian": true,
+   "vegan": true
   },
   {
-   "id": "n613409730",
-   "name": "The Irishman Pub",
-   "lat": 64.14606,
-   "lng": -21.9288,
+   "id": "n4734353495",
+   "name": "Te & Kaffi",
+   "lat": 64.1477,
+   "lng": -21.9364,
    "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true,
-   "wheelchair": "yes"
-  },
-  {
-   "id": "n3781008370",
-   "name": "Tjarnarbarinn",
-   "lat": 64.14615,
-   "lng": -21.94358,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Reykjavík",
-   "hours": "17:00-23:00"
-  },
-  {
-   "id": "n3888419371",
-   "name": "Torfan veitingahús",
-   "lat": 64.14646,
-   "lng": -21.93629,
-   "kind": "food",
-   "cat": "restaurant",
+   "cat": "cafe",
    "days": [
     [
      0.8,
@@ -14307,17 +16632,44 @@
     ]
    ],
    "town": true,
-   "phone": "+3545466900",
-   "website": "https://www.torfan.is/",
-   "address": "Amtmannsstígur 1, Reykjavík",
-   "hours": "Mo off; Tu 17:00-22:00; We-Su 11:30-22:00",
-   "cuisine": "regional"
+   "phone": "+3545272882",
+   "website": "https://www.teogkaffi.is",
+   "address": "Hafnarstræti 20, Reykjavík",
+   "hours": "Mo-Fr 08:00-18:00; Sa-Su 10:00-18:00",
+   "email": "laekjartorg@teogkaffi.is",
+   "cuisine": "coffee shop"
   },
   {
-   "id": "n4837651430",
-   "name": "Veður",
-   "lat": 64.14551,
-   "lng": -21.92926,
+   "id": "n1239755100",
+   "name": "Te & Kaffi",
+   "lat": 64.14526,
+   "lng": -21.93096,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Skólavörðustígur 11, Reykjavík",
+   "wheelchair": "yes",
+   "cuisine": "coffee shop"
+  },
+  {
+   "id": "n11386875069",
+   "name": "The Roof",
+   "lat": 64.14985,
+   "lng": -21.93512,
    "kind": "food",
    "cat": "bar",
    "days": [
@@ -14330,15 +16682,38 @@
      7
     ],
     [
-     4.6,
+     5.1,
      0
     ]
    ],
    "town": true,
-   "website": "https://vedurbarinn.is/",
-   "address": "Klapparstígur 33",
-   "hours": "Su-Th 12:00-01:00; Fr-Sa 12:00-03:00",
-   "email": "vedurbar@gmail.com"
+   "phone": "+3545820015",
+   "website": "https://www.editionhotels.com/reykjavik/restaurants-and-bars/the-roof/",
+   "address": "Austurbakki 2"
+  },
+  {
+   "id": "n13072993001",
+   "name": "Turf House",
+   "lat": 64.14299,
+   "lng": -21.92665,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "burger;local"
   },
   {
    "id": "n11282427801",
@@ -14471,6 +16846,30 @@
    "wheelchair": "yes"
   },
   {
+   "id": "n9907446823",
+   "name": "Víkinga Pylsur",
+   "lat": 64.14297,
+   "lng": -21.92674,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true,
+   "cuisine": "hotdog"
+  },
+  {
    "id": "n1847659779",
    "name": "Wok On",
    "lat": 64.07919,
@@ -14518,53 +16917,6 @@
    "phone": "+3545882121",
    "hours": "Mo-Fr 11:30-21:00; Sa-Su 17:00-21:00",
    "cuisine": "thai"
-  },
-  {
-   "id": "n3029816838",
-   "name": "meze",
-   "lat": 64.1449,
-   "lng": -21.92542,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n3768234617",
-   "name": "punk",
-   "lat": 64.14676,
-   "lng": -21.93145,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.8,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Hverfisgata 20, Reykjavík"
   },
   {
    "id": "n346739208",
@@ -14643,31 +16995,6 @@
    "town": true
   },
   {
-   "id": "n4265274989",
-   "name": "Ísafold",
-   "lat": 64.14632,
-   "lng": -21.93459,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.8,
-     6
-    ],
-    [
-     0.8,
-     7
-    ],
-    [
-     4.9,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.isafoldrestaurant.com/",
-   "address": "Þingholtsstræti 5"
-  },
-  {
    "id": "n1238019571",
    "name": "Íslenski Barinn",
    "lat": 64.14692,
@@ -14695,12 +17022,12 @@
    "hours": "Mo-Th 11:30-01:00; Fr,Sa 12:15-03:00; Su 11:30-01:00"
   },
   {
-   "id": "n8766198972",
-   "name": "ÓX",
-   "lat": 64.14529,
-   "lng": -21.92771,
+   "id": "n71619236",
+   "name": "Ölstofa",
+   "lat": 64.14557,
+   "lng": -21.93097,
    "kind": "food",
-   "cat": "restaurant",
+   "cat": "bar",
    "days": [
     [
      0.8,
@@ -14711,13 +17038,12 @@
      7
     ],
     [
-     4.5,
+     4.7,
      0
     ]
    ],
    "town": true,
-   "website": "https://ox.restaurant/",
-   "address": "Laugavegur 28, Reykjavík"
+   "address": "Vegamótastígur 4, Reykjavík"
   },
   {
    "id": "n1246003184",
@@ -14744,38 +17070,10 @@
    "address": "Þingholtsstræti 3-5"
   },
   {
-   "id": "n2076135241",
-   "name": "101 Bistro",
-   "lat": 64.14801,
-   "lng": -21.94052,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545880015",
-   "website": "https://101bistro.is",
-   "address": "Austurstræti 3, Reykjavík",
-   "hours": "Mo-Su 11:00-23:00",
-   "cuisine": "mediterranean;turkish"
-  },
-  {
-   "id": "n74080779",
-   "name": "American Bar",
-   "lat": 64.14775,
-   "lng": -21.9401,
+   "id": "n13714161397",
+   "name": "22",
+   "lat": 64.14563,
+   "lng": -21.92917,
    "kind": "food",
    "cat": "bar",
    "days": [
@@ -14788,39 +17086,11 @@
      7
     ],
     [
-     5.2,
+     4.6,
      0
     ]
    ],
-   "town": true,
-   "address": "Austurstræti 8-10, Reykjavík",
-   "wheelchair": "limited"
-  },
-  {
-   "id": "n3767441543",
-   "name": "Apotek",
-   "lat": 64.14743,
-   "lng": -21.9385,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545510011",
-   "website": "https://www.apotek.is",
-   "address": "Austurstræti 16, Reykjavík"
+   "town": true
   },
   {
    "id": "n11848703280",
@@ -14873,61 +17143,6 @@
    "website": "https://askur.is/",
    "hours": "Mo-Tu 17:00-21:00; We-Fr 11:30-21:00; Sa-Su 17:00-21:30",
    "wheelchair": "yes"
-  },
-  {
-   "id": "n3840573090",
-   "name": "Austur Indíafélagið",
-   "lat": 64.14566,
-   "lng": -21.92565,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     4.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545521630",
-   "website": "https://www.austurindia.is/",
-   "address": "Hverfisgata 56, Reykjavík",
-   "hours": "Su-Th 18:00-22:00; Fr,Sa 18:00-23:00",
-   "cuisine": "indian"
-  },
-  {
-   "id": "n9907446922",
-   "name": "Bakken Rvk",
-   "lat": 64.1452,
-   "lng": -21.92455,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://bakkenrvk.is/",
-   "address": "Frakkastígur 7",
-   "hours": "Su-We 10:00-23:00; Th 10:00-00:00; Fr-Sa 10:00-01:00",
-   "cuisine": "sandwich"
   },
   {
    "id": "n9661113901",
@@ -15006,10 +17221,10 @@
    "vegan": true
   },
   {
-   "id": "n12702210700",
+   "id": "n4076112790",
    "name": "Brauð & Co",
-   "lat": 64.14754,
-   "lng": -21.93765,
+   "lat": 64.14399,
+   "lng": -21.92607,
    "kind": "food",
    "cat": "bakery",
    "days": [
@@ -15022,15 +17237,15 @@
      7
     ],
     [
-     5.1,
+     4.4,
      0
     ]
    ],
    "town": true,
    "phone": "+3544567777",
    "website": "https://braudogco.is/",
-   "address": "Austurstræti 17, Reykjavík",
-   "hours": "Mo-Su 07:00-17:00"
+   "address": "Frakkastígur 16",
+   "hours": "Mo-Su 06:30-17:00"
   },
   {
    "id": "n5907178185",
@@ -15045,7 +17260,7 @@
      6
     ],
     [
-     0.9,
+     1.0,
      7
     ],
     [
@@ -15061,12 +17276,12 @@
    "cuisine": "New Nordic Cuisine"
   },
   {
-   "id": "n3007770885",
-   "name": "Dirty Burger & Ribs",
-   "lat": 64.14771,
-   "lng": -21.9398,
+   "id": "n71620303",
+   "name": "Dillon",
+   "lat": 64.14527,
+   "lng": -21.92747,
    "kind": "food",
-   "cat": "restaurant",
+   "cat": "bar",
    "days": [
     [
      0.9,
@@ -15077,21 +17292,18 @@
      7
     ],
     [
-     5.2,
+     4.5,
      0
     ]
    ],
    "town": true,
-   "website": "https://dbr.is/",
-   "address": "Austurstræti 10, Reykjavík",
-   "hours": "Mo,Tu,We,Th,Fr,Sa,Su 11:00-22:00",
-   "cuisine": "burger;chicken"
+   "website": "https://www.dillon.is/"
   },
   {
-   "id": "n11266685731",
-   "name": "Djúsi Sushi",
-   "lat": 64.14765,
-   "lng": -21.93814,
+   "id": "n2964106464",
+   "name": "Dillon Kjallarinn",
+   "lat": 64.14526,
+   "lng": -21.92738,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -15104,13 +17316,12 @@
      7
     ],
     [
-     5.1,
+     4.5,
      0
     ]
    ],
    "town": true,
-   "hours": "Mo-Su 11:00-22:00",
-   "cuisine": "sushi"
+   "address": "Laugavegur 30"
   },
   {
    "id": "n1915299273",
@@ -15161,28 +17372,27 @@
    "cuisine": "pizza"
   },
   {
-   "id": "n11266685729",
-   "name": "Drykk",
-   "lat": 64.14775,
-   "lng": -21.93815,
+   "id": "n4236613092",
+   "name": "Durum",
+   "lat": 64.14483,
+   "lng": -21.92524,
    "kind": "food",
-   "cat": "bar",
+   "cat": "restaurant",
    "days": [
-    [
-     0.9,
-     6
-    ],
     [
      0.9,
      7
     ],
     [
-     5.1,
+     1.0,
+     6
+    ],
+    [
+     4.4,
      0
     ]
    ],
-   "town": true,
-   "hours": "Mo-Su 11:00-22:00"
+   "town": true
   },
   {
    "id": "n14020769580",
@@ -15252,131 +17462,6 @@
    "cuisine": "mexican"
   },
   {
-   "id": "n11266685725",
-   "name": "Enoteca",
-   "lat": 64.14766,
-   "lng": -21.938,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 11:00-22:00",
-   "cuisine": "italian"
-  },
-  {
-   "id": "n11266685733",
-   "name": "Finsen",
-   "lat": 64.14762,
-   "lng": -21.93816,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 11:00-22:00",
-   "cuisine": "french"
-  },
-  {
-   "id": "n1213739967",
-   "name": "Fiskmarkaðurinn",
-   "lat": 64.14773,
-   "lng": -21.94226,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545788877",
-   "website": "https://fiskmarkadurinn.is/",
-   "address": "Aðalstræti 12, Reykjavík",
-   "hours": "Su-Th 18:00-22:30; Fr-Sa 18:00-23:35"
-  },
-  {
-   "id": "n1264717775",
-   "name": "Fjalakötturinn",
-   "lat": 64.14749,
-   "lng": -21.94243,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Reykjavík"
-  },
-  {
-   "id": "n3028803037",
-   "name": "Forsetinn",
-   "lat": 64.14473,
-   "lng": -21.92393,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 11:00-22:00"
-  },
-  {
    "id": "n3028801916",
    "name": "Friðrik V",
    "lat": 64.14433,
@@ -15399,105 +17484,6 @@
    ],
    "town": true,
    "address": "Laugavegur 60, Reykjavík"
-  },
-  {
-   "id": "n11266685726",
-   "name": "Fuku Mama",
-   "lat": 64.14764,
-   "lng": -21.93801,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 11:00-22:00",
-   "cuisine": "korean"
-  },
-  {
-   "id": "n11266685730",
-   "name": "Funky Bhangra",
-   "lat": 64.14775,
-   "lng": -21.93832,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 11:00-22:00",
-   "cuisine": "indian"
-  },
-  {
-   "id": "n6000844397",
-   "name": "Fórréttabarinn",
-   "lat": 64.14547,
-   "lng": -21.92463,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.forrettabarinn.is/"
-  },
-  {
-   "id": "n3925337294",
-   "name": "Gamla Reykjavik",
-   "lat": 64.1475,
-   "lng": -21.93895,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.gamlareykjavik.is/",
-   "address": "Austurstræti 14, Reykjavík"
   },
   {
    "id": "n817319545",
@@ -15529,10 +17515,10 @@
    "cuisine": "local"
   },
   {
-   "id": "n9225335257",
-   "name": "Gardurinn Klappastigur",
+   "id": "n5012652133",
+   "name": "Geiri Smart",
    "lat": 64.14641,
-   "lng": -21.92844,
+   "lng": -21.92954,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -15545,37 +17531,12 @@
      7
     ],
     [
-     4.6,
+     4.7,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545612345",
-   "website": "https://kaffigardurinn.is/",
-   "hours": "Mo,Tu,Th,Fr 11:00-18:30; We 11:00-17:00; Sa 12:00-17:00; Su off"
-  },
-  {
-   "id": "n9907447417",
-   "name": "Gilligogg",
-   "lat": 64.1475,
-   "lng": -21.93917,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true
+   "address": "Hverfisgata 32, Reykjavík"
   },
   {
    "id": "n6662771030",
@@ -15667,12 +17628,12 @@
    "cuisine": "grill;fish and chips;seafood"
   },
   {
-   "id": "n815775149",
-   "name": "Hereford Steikhús",
-   "lat": 64.14472,
-   "lng": -21.92358,
+   "id": "n2906198021",
+   "name": "Kaffibrennslan",
+   "lat": 64.14581,
+   "lng": -21.92939,
    "kind": "food",
-   "cat": "restaurant",
+   "cat": "cafe",
    "days": [
     [
      0.9,
@@ -15683,90 +17644,15 @@
      7
     ],
     [
-     4.4,
+     4.6,
      0
     ]
    ],
    "town": true,
-   "hours": "17:00-23:30",
-   "wheelchair": "yes"
-  },
-  {
-   "id": "n1016031075",
-   "name": "Hornið",
-   "lat": 64.14804,
-   "lng": -21.93815,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Reykjavík",
-   "hours": "Mo-Su 11:00-22:00"
-  },
-  {
-   "id": "n5012652136",
-   "name": "Hraðlestin",
-   "lat": 64.14537,
-   "lng": -21.92411,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Hverfisgata, Reykjavík",
-   "cuisine": "indian"
-  },
-  {
-   "id": "n9291525122",
-   "name": "Hressó",
-   "lat": 64.14737,
-   "lng": -21.9378,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://hresso.com/",
-   "address": "Austurstræti 20",
-   "hours": "Mo-Su 16:00-22:00",
-   "cuisine": "regional"
+   "phone": "+3545115888",
+   "website": "https://kaffibrennslan101.is/",
+   "address": "Laugavegur 21, Reykjavík",
+   "hours": "Mo-Th 08:00-23:00; Fr 08:00-01:00; Sa 09:00-01:00; Su 09:00-21:00"
   },
   {
    "id": "n6604959557",
@@ -15796,6 +17682,33 @@
    "hours": "Mo-Fr 07:30-17:00; Sa-Su 09:00-17:00"
   },
   {
+   "id": "n3741559486",
+   "name": "Kaldi Bar",
+   "lat": 64.14552,
+   "lng": -21.92953,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545812200",
+   "website": "http://www.kaldibar.com/",
+   "address": "Klapparstígur 40, Reykjavík",
+   "hours": "Mo-Th,Su 12:00-01:00; Fr-Sa 12:00-03:00"
+  },
+  {
    "id": "n11992532228",
    "name": "Kiljan",
    "lat": 65.6602,
@@ -15816,30 +17729,6 @@
    "address": "Aðalgata 2",
    "hours": "18:00-21:00",
    "cuisine": "regional"
-  },
-  {
-   "id": "n1248859674",
-   "name": "Kitchen & Wine Restaurant",
-   "lat": 64.14709,
-   "lng": -21.93335,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     4.9,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Ingólfsstræti, Reykjavík"
   },
   {
    "id": "n3028801930",
@@ -15917,10 +17806,10 @@
    "address": "Suðurlandsbraut"
   },
   {
-   "id": "n9498523817",
-   "name": "Lemmy",
-   "lat": 64.14739,
-   "lng": -21.93785,
+   "id": "n2182028184",
+   "name": "KíKí Queer Bar",
+   "lat": 64.14558,
+   "lng": -21.92923,
    "kind": "food",
    "cat": "bar",
    "days": [
@@ -15933,11 +17822,41 @@
      7
     ],
     [
-     5.1,
+     4.6,
      0
     ]
    ],
-   "town": true
+   "town": true,
+   "website": "http://www.kiki.is/",
+   "address": "Laugavegur 22, Reykjavík",
+   "email": "kiki@kiki.is"
+  },
+  {
+   "id": "n1731007146",
+   "name": "Lebowski Bar",
+   "lat": 64.14569,
+   "lng": -21.92966,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545522300",
+   "website": "https://www.lebowskibar.is",
+   "address": "Laugavegur 20a, Reykjavík",
+   "hours": "Su-Th 11:00-01:00; Fr-Sa 11:00-03:30"
   },
   {
    "id": "n3955922354",
@@ -15989,61 +17908,10 @@
    "town": true
   },
   {
-   "id": "n6602337522",
-   "name": "Litli Dubliner",
-   "lat": 64.14511,
-   "lng": -21.92459,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Frakkastígur 9, Reykjavík"
-  },
-  {
-   "id": "n12643525951",
-   "name": "MAR Seafood",
-   "lat": 64.14518,
-   "lng": -21.92487,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     4.4,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://mar-seafood.is",
-   "address": "Frakkastígur 8b, Reykjavík",
-   "hours": "Mo-Th 11:00-21:00; Fr-Sa 11:30-22:00",
-   "cuisine": "fish"
-  },
-  {
-   "id": "n1376097185",
-   "name": "Mandi",
-   "lat": 64.14776,
-   "lng": -21.94095,
+   "id": "n3029816836",
+   "name": "Lookoomas",
+   "lat": 64.14522,
+   "lng": -21.92722,
    "kind": "food",
    "cat": "fast_food",
    "days": [
@@ -16056,23 +17924,18 @@
      7
     ],
     [
-     5.2,
+     4.5,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545711444",
-   "website": "https://www.mandi.is",
-   "address": "Veltusund 3B, Reykjavík",
-   "hours": "Mo-Fr 00:00-02:00,10:00-24:00; Sa 00:00-06:00,11:00-24:00; Su 00:00-06:00,11:00-24:00",
-   "email": "mandi@mandi.is",
-   "cuisine": "syrian;shawarma"
+   "cuisine": "greek"
   },
   {
-   "id": "n6037749067",
-   "name": "Miami",
-   "lat": 64.14658,
-   "lng": -21.92926,
+   "id": "n71617309",
+   "name": "Matbar",
+   "lat": 64.14656,
+   "lng": -21.93034,
    "kind": "food",
    "cat": "bar",
    "days": [
@@ -16090,13 +17953,13 @@
     ]
    ],
    "town": true,
-   "address": "Hverfisgata 33, Reykjavík"
+   "website": "https://Matbar.is"
   },
   {
-   "id": "n11266685727",
-   "name": "Mossley",
-   "lat": 64.1477,
-   "lng": -21.93816,
+   "id": "n11166725431",
+   "name": "Monkeys",
+   "lat": 64.14598,
+   "lng": -21.92946,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -16109,13 +17972,37 @@
      7
     ],
     [
-     5.1,
+     4.7,
      0
     ]
    ],
    "town": true,
-   "hours": "Mo-Su 11:00-22:00",
-   "cuisine": "burger"
+   "website": "https://monkeys.is/",
+   "cuisine": "peruvian;japanese"
+  },
+  {
+   "id": "n9917381017",
+   "name": "Mál og Menning",
+   "lat": 64.14583,
+   "lng": -21.93027,
+   "kind": "food",
+   "cat": "cafe",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.7,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 16:00-06:00"
   },
   {
    "id": "n282138604",
@@ -16174,30 +18061,6 @@
    "cuisine": "asian"
   },
   {
-   "id": "n4506905894",
-   "name": "Núðluhúsið",
-   "lat": 64.14462,
-   "lng": -21.92259,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     4.3,
-     0
-    ]
-   ],
-   "town": true,
-   "cuisine": "noodle"
-  },
-  {
    "id": "n12115092421",
    "name": "Olifa - La Madre Pizza",
    "lat": 64.13944,
@@ -16249,10 +18112,10 @@
    "cuisine": "sushi"
   },
   {
-   "id": "n11266685728",
-   "name": "Pizza Popolare",
-   "lat": 64.14771,
-   "lng": -21.93824,
+   "id": "n14032092901",
+   "name": "Padre Pizza",
+   "lat": 64.14528,
+   "lng": -21.92742,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -16265,12 +18128,15 @@
      7
     ],
     [
-     5.1,
+     4.5,
      0
     ]
    ],
    "town": true,
-   "hours": "Mo-Su 11:00-22:00",
+   "phone": "+3547665757",
+   "website": "http://www.padrepizza.is",
+   "address": "Laugavegur 30",
+   "hours": "Mo-Su 11:00-23:00",
    "cuisine": "pizza"
   },
   {
@@ -16326,29 +18192,6 @@
    "town": true
   },
   {
-   "id": "n4386307691",
-   "name": "Port 9",
-   "lat": 64.14644,
-   "lng": -21.927,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
    "id": "n13799784570",
    "name": "Preppbarinn",
    "lat": 64.13965,
@@ -16398,33 +18241,10 @@
    "vegan": true
   },
   {
-   "id": "n10572543837",
-   "name": "Reykjavík Sportbar",
-   "lat": 64.14615,
-   "lng": -21.92817,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     4.6,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "w114790873",
-   "name": "Ristorante Caruso",
-   "lat": 64.14727,
-   "lng": -21.93716,
+   "id": "n5760811323",
+   "name": "Reykjavik Fish",
+   "lat": 64.14446,
+   "lng": -21.9256,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -16437,17 +18257,44 @@
      7
     ],
     [
-     5.0,
+     4.4,
      0
     ]
    ],
    "town": true,
-   "website": "http://www.caruso.is",
-   "address": "Austurstræti 22, Reykjavík",
-   "hours": "Mo - Th 11:30-22:30, Fr 11:30-23:30, Sa 12:00-22:30, Su 17:00-22:30",
-   "email": "happ@happ.is",
-   "wheelchair": "yes",
-   "cuisine": "italian"
+   "phone": "+3545785656",
+   "website": "https://www.reykjavikfish.is/",
+   "hours": "Mo-Su 11:00-22:00",
+   "email": "fish@internet.is",
+   "cuisine": "regional;fish and chips"
+  },
+  {
+   "id": "n8442517645",
+   "name": "Rossopomodoro",
+   "lat": 64.14489,
+   "lng": -21.92564,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.rossopomodoro.is/",
+   "address": "Laugavegur 40A, Reykjavík",
+   "hours": "Mo-Sa 12:00-22:00; Su 17:00-22:00",
+   "wheelchair": "limited",
+   "cuisine": "italian;italian pizza"
   },
   {
    "id": "n815775145",
@@ -16498,12 +18345,12 @@
    "town": true
   },
   {
-   "id": "n12394095971",
-   "name": "Sbarro",
-   "lat": 64.14759,
-   "lng": -21.93786,
+   "id": "n3029815630",
+   "name": "Sandholt",
+   "lat": 64.14505,
+   "lng": -21.92627,
    "kind": "food",
-   "cat": "fast_food",
+   "cat": "bakery",
    "days": [
     [
      0.9,
@@ -16514,15 +18361,40 @@
      7
     ],
     [
-     5.1,
+     4.5,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545141414",
-   "website": "https://sbarro.is",
-   "hours": "Su-Th 10:00-22:00; Fr-Sa 10:00-28:00",
-   "cuisine": "pizza"
+   "website": "https://sandholt.is/",
+   "hours": "Mo-Su 07:30-18:00"
+  },
+  {
+   "id": "n3030668965",
+   "name": "Scandinavian Smørrebrød & brasserie",
+   "lat": 64.14558,
+   "lng": -21.9289,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545784888",
+   "website": "https://www.scandinavian.is/",
+   "address": "Laugavegur 22a, Reykjavík",
+   "hours": "Mo-Fr 11:30-23:00"
   },
   {
    "id": "n3950062037",
@@ -16549,10 +18421,10 @@
    "cuisine": "pizza"
   },
   {
-   "id": "n286588682",
-   "name": "Shalimar",
-   "lat": 64.14788,
-   "lng": -21.9406,
+   "id": "n3901938826",
+   "name": "Smurstöðin",
+   "lat": 64.1504,
+   "lng": -21.93336,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -16565,41 +18437,12 @@
      7
     ],
     [
-     5.2,
+     5.1,
      0
     ]
    ],
    "town": true,
-   "address": "Reykjavík",
-   "hours": "Mo-Fr 11:30-22:30; Sa-Su 16:00-23:00",
-   "wheelchair": "yes",
-   "cuisine": "pakistani"
-  },
-  {
-   "id": "n3457524580",
-   "name": "Skúli Craft",
-   "lat": 64.14753,
-   "lng": -21.94163,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.skulicraftbar.is",
-   "address": "Aðalstræti 9, Reykjavík",
-   "hours": "Su-We 12:00-23:00, Th 12:00-24:00, Sa,Su 12:00-01:00"
+   "address": "Austurbakki 2, Reykjavík"
   },
   {
    "id": "n12974717267",
@@ -16627,6 +18470,33 @@
    "address": "Laugavegur 66, Reykjavík",
    "hours": "Mo-Fr 07:30-21:00; Sa 08:30-21:00; Su 09:30-20:00",
    "cuisine": "coffee shop"
+  },
+  {
+   "id": "n6171720688",
+   "name": "Sumac",
+   "lat": 64.14535,
+   "lng": -21.92774,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545379900",
+   "website": "https://www.sumac.is/",
+   "address": "Laugavegur 28, Reykjavík",
+   "hours": "Tu-Th 17:30-22:00; Fr,Sa 17:30-24:00"
   },
   {
    "id": "n815775143",
@@ -16712,35 +18582,6 @@
    "cuisine": "coffee shop"
   },
   {
-   "id": "n4734353495",
-   "name": "Te & Kaffi",
-   "lat": 64.1477,
-   "lng": -21.9364,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.0,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545272882",
-   "website": "https://www.teogkaffi.is",
-   "address": "Hafnarstræti 20, Reykjavík",
-   "hours": "Mo-Fr 08:00-18:00; Sa-Su 10:00-18:00",
-   "email": "laekjartorg@teogkaffi.is",
-   "cuisine": "coffee shop"
-  },
-  {
    "id": "n5393225584",
    "name": "Te & Kaffi",
    "lat": 64.13973,
@@ -16770,10 +18611,10 @@
    "cuisine": "coffee shop"
   },
   {
-   "id": "n4734297618",
+   "id": "n4734292271",
    "name": "Te & Kaffi",
-   "lat": 64.1476,
-   "lng": -21.94201,
+   "lat": 64.14554,
+   "lng": -21.92808,
    "kind": "food",
    "cat": "cafe",
    "days": [
@@ -16786,21 +18627,20 @@
      7
     ],
     [
-     5.3,
+     4.6,
      0
     ]
    ],
    "town": true,
-   "website": "https://www.teogkaffi.is",
-   "address": "Aðalstræti 9, Reykjavík",
-   "wikidata": "Q29052028",
+   "address": "Laugavegur 27, Reykjavík",
+   "hours": "Mo-Fr 08:00-18:00; Sa,Su 10:00-18:00",
    "cuisine": "coffee shop"
   },
   {
-   "id": "n4652162217",
-   "name": "The Drunk Rabbit",
-   "lat": 64.14798,
-   "lng": -21.94035,
+   "id": "n613409730",
+   "name": "The Irishman Pub",
+   "lat": 64.14606,
+   "lng": -21.9288,
    "kind": "food",
    "cat": "bar",
    "days": [
@@ -16813,92 +18653,12 @@
      7
     ],
     [
-     5.2,
+     4.6,
      0
     ]
    ],
    "town": true,
-   "address": "Reykjavík"
-  },
-  {
-   "id": "n279225242",
-   "name": "The English Pub",
-   "lat": 64.14756,
-   "lng": -21.93929,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545780400",
-   "website": "https://www.enskibarinn.is",
-   "address": "Austurstræti 12, Reykjavík",
-   "hours": "Mo-Th,Su 12:00-01:00; Fr-Sa 12:00-04:00"
-  },
-  {
-   "id": "n2466760479",
-   "name": "The Jungle Cocktail Bar",
-   "lat": 64.14785,
-   "lng": -21.93963,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.facebook.com/jungle.rvk/",
-   "address": "Reykjavík"
-  },
-  {
-   "id": "n9129990626",
-   "name": "The Laundromat Cafe",
-   "lat": 64.14785,
-   "lng": -21.93955,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547719660",
-   "website": "https://www.thelaundromatcafe.is/",
-   "address": "Austurstræti 9",
-   "hours": "Mo-We 09:00-21:00; Th-Fr 09:00-22:00; Sa 10:00-22:00; Su 10:00-18:00",
-   "email": "laundromatcafe@gmail.com"
+   "wheelchair": "yes"
   },
   {
    "id": "n1840611468",
@@ -16950,10 +18710,10 @@
    "cuisine": "thai"
   },
   {
-   "id": "n11166725434",
-   "name": "Uppi",
-   "lat": 64.1477,
-   "lng": -21.94227,
+   "id": "n4837651430",
+   "name": "Veður",
+   "lat": 64.14551,
+   "lng": -21.92926,
    "kind": "food",
    "cat": "bar",
    "days": [
@@ -16966,62 +18726,15 @@
      7
     ],
     [
-     5.3,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n3676900606",
-   "name": "Uppsalir",
-   "lat": 64.14745,
-   "lng": -21.94256,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.3,
+     4.6,
      0
     ]
    ],
    "town": true,
-   "website": "http://en.hotelcentrum.is/about-us/uppsalir",
-   "address": "Reykjavík",
-   "hours": "Mo-Su 12:00-23:00"
-  },
-  {
-   "id": "n11266685732",
-   "name": "Yuzu",
-   "lat": 64.14762,
-   "lng": -21.93802,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     0.9,
-     6
-    ],
-    [
-     0.9,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 11:00-22:00",
-   "cuisine": "burger"
+   "website": "https://vedurbarinn.is/",
+   "address": "Klapparstígur 33",
+   "hours": "Su-Th 12:00-01:00; Fr-Sa 12:00-03:00",
+   "email": "vedurbar@gmail.com"
   },
   {
    "id": "n13799784569",
@@ -17046,6 +18759,78 @@
    ],
    "town": true,
    "cuisine": "middle eastern"
+  },
+  {
+   "id": "n3029816838",
+   "name": "meze",
+   "lat": 64.1449,
+   "lng": -21.92542,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.9,
+     7
+    ],
+    [
+     1.0,
+     6
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
+   "id": "n3768234617",
+   "name": "punk",
+   "lat": 64.14676,
+   "lng": -21.93145,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.8,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Hverfisgata 20, Reykjavík"
+  },
+  {
+   "id": "n8766198972",
+   "name": "ÓX",
+   "lat": 64.14529,
+   "lng": -21.92771,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.9,
+     6
+    ],
+    [
+     0.9,
+     7
+    ],
+    [
+     4.5,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://ox.restaurant/",
+   "address": "Laugavegur 28, Reykjavík"
   },
   {
    "id": "n4998727672",
@@ -17078,10 +18863,38 @@
    "cuisine": "steak house"
   },
   {
-   "id": "n75973298",
-   "name": "Bird",
-   "lat": 64.14864,
-   "lng": -21.93986,
+   "id": "n3840573090",
+   "name": "Austur Indíafélagið",
+   "lat": 64.14566,
+   "lng": -21.92565,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     4.5,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545521630",
+   "website": "https://www.austurindia.is/",
+   "address": "Hverfisgata 56, Reykjavík",
+   "hours": "Su-Th 18:00-22:00; Fr,Sa 18:00-23:00",
+   "cuisine": "indian"
+  },
+  {
+   "id": "n9907446922",
+   "name": "Bakken Rvk",
+   "lat": 64.1452,
+   "lng": -21.92455,
    "kind": "food",
    "cat": "bar",
    "days": [
@@ -17094,11 +18907,15 @@
      7
     ],
     [
-     5.2,
+     4.4,
      0
     ]
    ],
-   "town": true
+   "town": true,
+   "website": "https://bakkenrvk.is/",
+   "address": "Frakkastígur 7",
+   "hours": "Su-We 10:00-23:00; Th 10:00-00:00; Fr-Sa 10:00-01:00",
+   "cuisine": "sandwich"
   },
   {
    "id": "n4186919019",
@@ -17157,10 +18974,58 @@
    "email": "braudogco@braudogco.is"
   },
   {
-   "id": "w91593492",
-   "name": "Bryggjuhúsið",
-   "lat": 64.14869,
-   "lng": -21.94103,
+   "id": "n3028803037",
+   "name": "Forsetinn",
+   "lat": 64.14473,
+   "lng": -21.92393,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Su 11:00-22:00"
+  },
+  {
+   "id": "n6000844397",
+   "name": "Fórréttabarinn",
+   "lat": 64.14547,
+   "lng": -21.92463,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true,
+   "website": "https://www.forrettabarinn.is/"
+  },
+  {
+   "id": "n9225335257",
+   "name": "Gardurinn Klappastigur",
+   "lat": 64.14641,
+   "lng": -21.92844,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -17173,138 +19038,14 @@
      7
     ],
     [
-     5.3,
+     4.6,
      0
     ]
    ],
    "town": true,
-   "website": "https://bryggjuhusid.is/",
-   "address": "Vesturgata 2"
-  },
-  {
-   "id": "w774604662",
-   "name": "Bæjarins Beztu Pylsur",
-   "lat": 64.14816,
-   "lng": -21.93784,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545111566",
-   "website": "https://bbp.is/",
-   "hours": "Su-We 09:00-25:00; Th 09:00-26:00; Fr-Sa 09:00-30:00",
-   "wheelchair": "yes",
-   "cuisine": "regional;hot dog"
-  },
-  {
-   "id": "n75973561",
-   "name": "Crystal Champagne Bar",
-   "lat": 64.1488,
-   "lng": -21.9404,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n7242648950",
-   "name": "Djúpið",
-   "lat": 64.14815,
-   "lng": -21.93806,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n8856354025",
-   "name": "Fjallkonan",
-   "lat": 64.14842,
-   "lng": -21.94085,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545550950",
-   "website": "https://fjallkona.is",
-   "address": "Hafnarstræti 1-3, Reykjavík",
-   "hours": "Mo-Su 11:30-23:00",
-   "email": "fjallkona@fjallkona.is"
-  },
-  {
-   "id": "n1064179023",
-   "name": "Gamli Gaukurinn",
-   "lat": 64.14871,
-   "lng": -21.94013,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true
+   "phone": "+3545612345",
+   "website": "https://kaffigardurinn.is/",
+   "hours": "Mo,Tu,Th,Fr 11:00-18:30; We 11:00-17:00; Sa 12:00-17:00; Su off"
   },
   {
    "id": "n1349200351",
@@ -17365,12 +19106,12 @@
      6
     ],
     [
-     1.1,
-     0
+     1.0,
+     7
     ],
     [
      1.1,
-     7
+     0
     ]
    ],
    "town": true,
@@ -17404,12 +19145,12 @@
    "cuisine": "regional"
   },
   {
-   "id": "n1110042506",
-   "name": "Hlöllabátar",
-   "lat": 64.1483,
-   "lng": -21.9412,
+   "id": "n815775149",
+   "name": "Hereford Steikhús",
+   "lat": 64.14472,
+   "lng": -21.92358,
    "kind": "food",
-   "cat": "fast_food",
+   "cat": "restaurant",
    "days": [
     [
      1.0,
@@ -17420,14 +19161,13 @@
      7
     ],
     [
-     5.3,
+     4.4,
      0
     ]
    ],
    "town": true,
-   "address": "Reykjavík",
-   "wheelchair": "yes",
-   "cuisine": "sandwich"
+   "hours": "17:00-23:30",
+   "wheelchair": "yes"
   },
   {
    "id": "n3699712547",
@@ -17448,12 +19188,12 @@
    "address": "Reykholt"
   },
   {
-   "id": "n9907653217",
-   "name": "Joe & The Juice",
-   "lat": 64.1484,
-   "lng": -21.93757,
+   "id": "n5012652136",
+   "name": "Hraðlestin",
+   "lat": 64.14537,
+   "lng": -21.92411,
    "kind": "food",
-   "cat": "cafe",
+   "cat": "restaurant",
    "days": [
     [
      1.0,
@@ -17464,37 +19204,13 @@
      7
     ],
     [
-     5.1,
+     4.4,
      0
     ]
    ],
    "town": true,
-   "hours": "Mo-Fr 08:00-20:00; Sa,Su 09:00-19:00",
-   "cuisine": "coffee shop"
-  },
-  {
-   "id": "n11698984202",
-   "name": "Kaffi Ó-le",
-   "lat": 64.14819,
-   "lng": -21.93919,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 08:00-15:00"
+   "address": "Hverfisgata, Reykjavík",
+   "cuisine": "indian"
   },
   {
    "id": "n1739202475",
@@ -17551,30 +19267,6 @@
    "vegan": true
   },
   {
-   "id": "n3009197139",
-   "name": "Kjallarinn",
-   "lat": 64.14863,
-   "lng": -21.94193,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Vesturgata 1"
-  },
-  {
    "id": "n7778375185",
    "name": "Kökulist",
    "lat": 63.98764,
@@ -17596,10 +19288,34 @@
    "hours": "Mo-Su 07:00-18:00"
   },
   {
-   "id": "n3009197137",
-   "name": "Loving Hut",
-   "lat": 64.14863,
-   "lng": -21.94206,
+   "id": "n6602337522",
+   "name": "Litli Dubliner",
+   "lat": 64.14511,
+   "lng": -21.92459,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     4.4,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Frakkastígur 9, Reykjavík"
+  },
+  {
+   "id": "n12643525951",
+   "name": "MAR Seafood",
+   "lat": 64.14518,
+   "lng": -21.92487,
    "kind": "food",
    "cat": "restaurant",
    "days": [
@@ -17612,26 +19328,23 @@
      7
     ],
     [
-     5.3,
+     4.4,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545562200",
-   "website": "https://lovinghut.com/is/",
-   "address": "Aðalstræti 2, Reykjavík",
-   "hours": "Tu-Sa 11:00-21:00; Su 16:00-22:00",
-   "cuisine": "international",
-   "vegetarian": true,
-   "vegan": true
+   "website": "https://mar-seafood.is",
+   "address": "Frakkastígur 8b, Reykjavík",
+   "hours": "Mo-Th 11:00-21:00; Fr-Sa 11:30-22:00",
+   "cuisine": "fish"
   },
   {
-   "id": "n9907446919",
-   "name": "Maika'i",
-   "lat": 64.14876,
-   "lng": -21.93743,
+   "id": "n6037749067",
+   "name": "Miami",
+   "lat": 64.14658,
+   "lng": -21.92926,
    "kind": "food",
-   "cat": "cafe",
+   "cat": "bar",
    "days": [
     [
      1.0,
@@ -17642,64 +19355,12 @@
      7
     ],
     [
-     5.1,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n8766301149",
-   "name": "Matarkjallarinn",
-   "lat": 64.14853,
-   "lng": -21.94176,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.3,
+     4.7,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545580000",
-   "website": "https://matarkjallarinn.is/",
-   "address": "Aðalstræti 2, Reykjavík",
-   "hours": "Mo-Th 11:30-14:30,17:00-22:00; Fr 11:30-14:30,17:00-22:30; Sa 17:00-22:30; Su 17:00-22:00"
-  },
-  {
-   "id": "n9907446840",
-   "name": "Napoli",
-   "lat": 64.14861,
-   "lng": -21.93966,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545455545",
-   "hours": "Su-Th 11:30-22:00; Fr,Sa 11:30-23:00",
-   "cuisine": "pizza"
+   "address": "Hverfisgata 33, Reykjavík"
   },
   {
    "id": "n2745976874",
@@ -17728,12 +19389,12 @@
    "cuisine": "coffee shop"
   },
   {
-   "id": "n9307253375",
-   "name": "Pablo Discobar",
-   "lat": 64.14815,
-   "lng": -21.94053,
+   "id": "n4506905894",
+   "name": "Núðluhúsið",
+   "lat": 64.14462,
+   "lng": -21.92259,
    "kind": "food",
-   "cat": "bar",
+   "cat": "restaurant",
    "days": [
     [
      1.0,
@@ -17744,15 +19405,12 @@
      7
     ],
     [
-     5.2,
+     4.3,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545527333",
-   "website": "http://www.burro.is",
-   "hours": "Fr-Sa 16:00-03:00; Su-Th 16:00-01:00",
-   "cuisine": "mexican"
+   "cuisine": "noodle"
   },
   {
    "id": "n13917023207",
@@ -17772,31 +19430,6 @@
     ]
    ],
    "town": true
-  },
-  {
-   "id": "n3008778031",
-   "name": "Pho Vietnamese",
-   "lat": 64.1489,
-   "lng": -21.94081,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 10:00-22:00",
-   "cuisine": "vietnamese"
   },
   {
    "id": "n7778356986",
@@ -17821,6 +19454,29 @@
    "address": "Hólagata 20, Reykjanesbær",
    "hours": "Mo-Su 11:00-23:00",
    "cuisine": "pizza"
+  },
+  {
+   "id": "n4386307691",
+   "name": "Port 9",
+   "lat": 64.14644,
+   "lng": -21.927,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true
   },
   {
    "id": "n13653382959",
@@ -17851,30 +19507,6 @@
    "cuisine": "hot dog"
   },
   {
-   "id": "n3007770883",
-   "name": "Pítubarinn",
-   "lat": 64.14825,
-   "lng": -21.94091,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Ingólfstorg"
-  },
-  {
    "id": "n2749607852",
    "name": "Reykjadalur Café",
    "lat": 64.02153,
@@ -17895,6 +19527,29 @@
    "hours": "Mo-Su 11:00-18:00"
   },
   {
+   "id": "n10572543837",
+   "name": "Reykjavík Sportbar",
+   "lat": 64.14615,
+   "lng": -21.92817,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     4.6,
+     0
+    ]
+   ],
+   "town": true
+  },
+  {
    "id": "n13917023208",
    "name": "Rétturinn",
    "lat": 63.9956,
@@ -17913,6 +19568,30 @@
    ],
    "town": true,
    "website": "https://www.retturinn.is"
+  },
+  {
+   "id": "n6175095586",
+   "name": "SKÝ Restaurant & Bar",
+   "lat": 64.14921,
+   "lng": -21.93072,
+   "kind": "food",
+   "cat": "bar",
+   "days": [
+    [
+     1.0,
+     6
+    ],
+    [
+     1.0,
+     7
+    ],
+    [
+     4.9,
+     0
+    ]
+   ],
+   "town": true,
+   "address": "Ingólfsstræti 1, Reykjavík"
   },
   {
    "id": "n12394166538",
@@ -17940,34 +19619,6 @@
    "website": "https://sbarro.is",
    "hours": "Mo-Fr 06:00-00:00; Sa 07:00-00:00; Su 08:00-00:00",
    "cuisine": "pizza"
-  },
-  {
-   "id": "n8274384554",
-   "name": "Skor",
-   "lat": 64.14879,
-   "lng": -21.93715,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545395099",
-   "website": "https://www.glacierfire.is/ice&fries/",
-   "address": "Geirsgata 2, Reykjavík",
-   "hours": "Mo-Su 11:00-01:00",
-   "cuisine": "fries"
   },
   {
    "id": "n4346251350",
@@ -17998,189 +19649,11 @@
      6
     ],
     [
+     1.0,
+     7
+    ],
+    [
      1.1,
-     0
-    ],
-    [
-     1.1,
-     7
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n4332603026",
-   "name": "Sæta Svínið",
-   "lat": 64.14847,
-   "lng": -21.9412,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://saetasvinid.is",
-   "hours": "Mo-Su 11:30-23:30",
-   "cuisine": "regional"
-  },
-  {
-   "id": "n3008778028",
-   "name": "Taj Mahal",
-   "lat": 64.14848,
-   "lng": -21.93913,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3544540400",
-   "website": "https://tryggvagata.tajmahal.is/",
-   "address": "Tryggvagata 26, Reykjavík",
-   "hours": "Mo-Fr 11:00-22:00",
-   "cuisine": "indian"
-  },
-  {
-   "id": "n1433784491",
-   "name": "Tapas barinn",
-   "lat": 64.14865,
-   "lng": -21.94219,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545512344",
-   "website": "http://www.tapas.is",
-   "address": "Vesturgata 3b, Reykjavík",
-   "hours": "Su-Th 17:00-23:30; Fr,Sa 17:00-01:00",
-   "cuisine": "tapas"
-  },
-  {
-   "id": "n71622238",
-   "name": "The Dubliner",
-   "lat": 64.14855,
-   "lng": -21.94027,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n9291525123",
-   "name": "Tipsy",
-   "lat": 64.14837,
-   "lng": -21.94048,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.2,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Laugavegur 1, Reykjavík",
-   "wheelchair": "limited"
-  },
-  {
-   "id": "n1324164494",
-   "name": "Tivoli",
-   "lat": 64.14815,
-   "lng": -21.93838,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://tivolibistro.is/",
-   "hours": "Su-Th 11:45-22:00, Fr,Sa 11:45-23:00"
-  },
-  {
-   "id": "n6037749068",
-   "name": "Tres Locos",
-   "lat": 64.14815,
-   "lng": -21.94029,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     1.0,
-     6
-    ],
-    [
-     1.0,
-     7
-    ],
-    [
-     5.2,
      0
     ]
    ],
@@ -18251,56 +19724,6 @@
    "cuisine": "burger;ice cream;hot dog"
   },
   {
-   "id": "n7242684497",
-   "name": "Aleppo Cafe",
-   "lat": 64.14963,
-   "lng": -21.94191,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     5.4,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Tryggvagata 13, Reykjavík",
-   "hours": "Mo-Su 08:00-20:00",
-   "cuisine": "syrian;ice cream;coffee"
-  },
-  {
-   "id": "w102902640",
-   "name": "B bar Iþta",
-   "lat": 64.14913,
-   "lng": -21.94178,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "1"
-  },
-  {
    "id": "n3666482743",
    "name": "Bambus",
    "lat": 64.14513,
@@ -18353,33 +19776,6 @@
    "wheelchair": "yes"
   },
   {
-   "id": "n5784044590",
-   "name": "Biang Reykjavík",
-   "lat": 64.14966,
-   "lng": -21.94201,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     5.4,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.instagram.com/biang.reykjavik?igsh=MXN2NHJpcTZqeW1hOQ==",
-   "address": "Tryggvagata 13, Reykjavík",
-   "hours": "Mo-Su 11:30-21:30",
-   "cuisine": "chinese"
-  },
-  {
    "id": "n293536727",
    "name": "Domino's",
    "lat": 64.14551,
@@ -18407,60 +19803,6 @@
    "hours": "Mo-Th 11:00-24:00; Fr-Sa 11:00-01:00; Su 11:00-24:00",
    "wheelchair": "yes",
    "cuisine": "pizza"
-  },
-  {
-   "id": "n1760884368",
-   "name": "Domino's",
-   "lat": 64.14145,
-   "lng": -21.96213,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     5.8,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://dominos.is",
-   "address": "Hjarðarhagi 45, Reykjavík",
-   "hours": "Mo-Th 11:00-24:00; Fr-Sa 11:00-01:00; Su 11:00-24:00",
-   "cuisine": "pizza"
-  },
-  {
-   "id": "n1906835209",
-   "name": "Fiskfélagið",
-   "lat": 64.14892,
-   "lng": -21.94154,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545525300",
-   "website": "https://www.fiskfelagid.is/",
-   "address": "Vesturgata 2a",
-   "cuisine": "regional"
   },
   {
    "id": "n4334999850",
@@ -18516,33 +19858,6 @@
    "cuisine": "healthfood"
   },
   {
-   "id": "n1906835181",
-   "name": "Iða",
-   "lat": 64.14894,
-   "lng": -21.94147,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     5.3,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "http://ida.is/",
-   "address": "Vesturgata 2a",
-   "hours": "Mo-Fr 08:00-22:00; Sa-Su 10:00-22:00",
-   "cuisine": "coffee shop"
-  },
-  {
    "id": "n3740821591",
    "name": "KFC",
    "lat": 63.99466,
@@ -18563,35 +19878,6 @@
    "address": "Krossmói 2",
    "hours": "Mo-Su 11:00-22:00",
    "cuisine": "chicken"
-  },
-  {
-   "id": "n13930921077",
-   "name": "Neó",
-   "lat": 64.14914,
-   "lng": -21.93643,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545882066",
-   "website": "https://www.neopizza.is",
-   "address": "Geirsgata 17, Reykjavík",
-   "hours": "Su-Th 11:30-21:00; Fr-Sa 11:30-22:00",
-   "email": "neopizza@neopizza.is",
-   "cuisine": "pizza"
   },
   {
    "id": "n2410496950",
@@ -18675,57 +19961,6 @@
    "cuisine": "pizza"
   },
   {
-   "id": "n6175095586",
-   "name": "SKÝ Restaurant & Bar",
-   "lat": 64.14921,
-   "lng": -21.93072,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     4.9,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Ingólfsstræti 1, Reykjavík"
-  },
-  {
-   "id": "n13930969067",
-   "name": "Starbucks",
-   "lat": 64.1491,
-   "lng": -21.93695,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.starbucks.is/is",
-   "address": "Geirsgata 17, Reykjavík",
-   "hours": "Mo-Sa 08:30-20:00; Su 09:30-20:00",
-   "cuisine": "coffee shop"
-  },
-  {
    "id": "n2957952715",
    "name": "Sæmundur í Sparifötunum KEX",
    "lat": 64.14548,
@@ -18777,37 +20012,6 @@
    "cuisine": "burger;chicken"
   },
   {
-   "id": "n9789265004",
-   "name": "TIDES Café",
-   "lat": 64.14983,
-   "lng": -21.93579,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545820002",
-   "website": "https://www.tidesrestaurant.is/",
-   "address": "Austurbakki 2, Reykjavík",
-   "hours": "PH,Mo-Su 06:00-17:00",
-   "wheelchair": "yes",
-   "cuisine": "cafe",
-   "vegetarian": true,
-   "vegan": true
-  },
-  {
    "id": "n4288886289",
    "name": "Teni Reataurant",
    "lat": 64.14559,
@@ -18829,55 +20033,6 @@
     ]
    ],
    "town": true
-  },
-  {
-   "id": "n9907446928",
-   "name": "The Hungry Chef Cafe",
-   "lat": 64.14973,
-   "lng": -21.94165,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     5.4,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n11386875069",
-   "name": "The Roof",
-   "lat": 64.14985,
-   "lng": -21.93512,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     1.1,
-     6
-    ],
-    [
-     1.1,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545820015",
-   "website": "https://www.editionhotels.com/reykjavik/restaurants-and-bars/the-roof/",
-   "address": "Austurbakki 2"
   },
   {
    "id": "n2125895804",
@@ -18920,12 +20075,12 @@
    "cuisine": "italian"
   },
   {
-   "id": "n3676676455",
-   "name": "Brauð & Co",
-   "lat": 64.14415,
-   "lng": -21.96089,
+   "id": "n5068616621",
+   "name": "Arna ís og kaffibar",
+   "lat": 64.15071,
+   "lng": -21.98558,
    "kind": "food",
-   "cat": "bakery",
+   "cat": "cafe",
    "days": [
     [
      1.2,
@@ -18936,21 +20091,20 @@
      7
     ],
     [
-     5.9,
+     7.2,
      0
     ]
    ],
    "town": true,
-   "phone": "+3544567777",
-   "website": "https://braudogco.is/",
-   "address": "Melhagi 22, Reykjavík",
-   "hours": "Mo-Fr 07:00-17:00; Sa-Su 08:00-16:00"
+   "website": "https://arnacafe.is/",
+   "hours": "Mo-Fr 09:00-18:00; Sa-Su 10:00-18:00",
+   "cuisine": "ice cream"
   },
   {
-   "id": "n8614930617",
-   "name": "Deig",
-   "lat": 64.15003,
-   "lng": -21.9433,
+   "id": "n4380594492",
+   "name": "Björnsbakarí",
+   "lat": 64.15109,
+   "lng": -21.98591,
    "kind": "food",
    "cat": "bakery",
    "days": [
@@ -18963,15 +20117,12 @@
      7
     ],
     [
-     5.5,
+     7.3,
      0
     ]
    ],
    "town": true,
-   "phone": "+3545711555",
-   "website": "https://www.lekock.is",
-   "address": "Tryggvagata 14, Reykjavík",
-   "hours": "Mo-Su 07:00-16:00"
+   "hours": "Mo-Fr 07:30-17:30; Sa 08:00-16:00; Su 09:00-16:00"
   },
   {
    "id": "n5042034549",
@@ -19002,83 +20153,6 @@
    "cuisine": "pizza"
   },
   {
-   "id": "n3009373780",
-   "name": "Dragon Dim Sum",
-   "lat": 64.15043,
-   "lng": -21.94304,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.2,
-     6
-    ],
-    [
-     1.2,
-     7
-    ],
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
-   "id": "n11186232044",
-   "name": "Hagavagninn",
-   "lat": 64.14435,
-   "lng": -21.96167,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.2,
-     6
-    ],
-    [
-     1.2,
-     7
-    ],
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 11:30-21:00",
-   "cuisine": "burger"
-  },
-  {
-   "id": "n5111051125",
-   "name": "Indian Curry House",
-   "lat": 64.14968,
-   "lng": -21.94335,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.2,
-     6
-    ],
-    [
-     1.2,
-     7
-    ],
-    [
-     5.4,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545834242",
-   "website": "https://www.indiancurryhouse.is/",
-   "address": "Vesturgata 12, Reykjavík",
-   "hours": "Tu-Th, Su 17:00-21:00; Fr-Sa 17:00 - 22:00",
-   "cuisine": "indian",
-   "vegetarian": true
-  },
-  {
    "id": "n1346289788",
    "name": "Kaffi Flóran",
    "lat": 64.14016,
@@ -19103,60 +20177,6 @@
    "website": "https://www.floran.is/",
    "hours": "Mo-Su 10:00-22:00",
    "wheelchair": "yes"
-  },
-  {
-   "id": "n2982746806",
-   "name": "Kaffihús Vesturbæjar",
-   "lat": 64.14406,
-   "lng": -21.96109,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.2,
-     6
-    ],
-    [
-     1.2,
-     7
-    ],
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "http://www.kaffihusvesturbaejar.is/",
-   "address": "Melhagi 20-22, Reykjavík",
-   "hours": "Mo-Fr 08:00-21:00,21:00-23:00 open \"Kitchen closed\"; Sa-Su 09:00-21:00,21:00-23:00 open \"Kitchen closed\""
-  },
-  {
-   "id": "n6444255565",
-   "name": "Le Kock",
-   "lat": 64.15012,
-   "lng": -21.94341,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.2,
-     6
-    ],
-    [
-     1.2,
-     7
-    ],
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545711555",
-   "website": "https://www.lekock.is",
-   "address": "Tryggvagata 14, Reykjavík",
-   "hours": "Mo-Su 11:30-22:00",
-   "cuisine": "burger"
   },
   {
    "id": "n5554977908",
@@ -19188,12 +20208,12 @@
    "cuisine": "asian;coffee"
   },
   {
-   "id": "n3009373797",
-   "name": "Ramen Momo",
-   "lat": 64.14991,
-   "lng": -21.94308,
+   "id": "n5139117423",
+   "name": "Rauða Ljónið",
+   "lat": 64.15071,
+   "lng": -21.9847,
    "kind": "food",
-   "cat": "restaurant",
+   "cat": "bar",
    "days": [
     [
      1.2,
@@ -19204,41 +20224,12 @@
      7
     ],
     [
-     5.4,
+     7.2,
      0
     ]
    ],
    "town": true,
-   "phone": "+3547656540",
-   "website": "https://ramenmomo.is/",
-   "address": "Tryggvagata 16, Reykjavík",
-   "hours": "Mo-Fr 11:30-21:00; Sa-Su 12:00-21:30",
-   "cuisine": "noodle"
-  },
-  {
-   "id": "n3320141405",
-   "name": "Reykjavik Fish",
-   "lat": 64.1504,
-   "lng": -21.94385,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.2,
-     6
-    ],
-    [
-     1.2,
-     7
-    ],
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su 11:30-22:00",
-   "cuisine": "seafood"
+   "cuisine": "burger;pizza"
   },
   {
    "id": "n7415668437",
@@ -19259,85 +20250,6 @@
    ],
    "town": true,
    "cuisine": "asian"
-  },
-  {
-   "id": "n3901938826",
-   "name": "Smurstöðin",
-   "lat": 64.1504,
-   "lng": -21.93336,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.2,
-     6
-    ],
-    [
-     1.2,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Austurbakki 2, Reykjavík"
-  },
-  {
-   "id": "n9789265003",
-   "name": "TIDES",
-   "lat": 64.15006,
-   "lng": -21.93535,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.2,
-     6
-    ],
-    [
-     1.2,
-     7
-    ],
-    [
-     5.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545820002",
-   "website": "https://www.tidesrestaurant.is/",
-   "address": "Austurbakki 2, Reykjavík",
-   "hours": "Mo-Su 07:00-10:30,12:00-14:30,17:30-22:00",
-   "email": "tides.rek@editionhotels.com",
-   "wheelchair": "yes",
-   "cuisine": "fine dining",
-   "vegetarian": true,
-   "vegan": true
-  },
-  {
-   "id": "n9907446929",
-   "name": "The Sushi Train",
-   "lat": 64.14987,
-   "lng": -21.94209,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.2,
-     6
-    ],
-    [
-     1.2,
-     7
-    ],
-    [
-     5.4,
-     0
-    ]
-   ],
-   "town": true
   },
   {
    "id": "n9083028717",
@@ -19383,55 +20295,6 @@
    ],
    "town": false,
    "website": "https://www.frostogfuni.is/restaurant-varma/"
-  },
-  {
-   "id": "n3018136401",
-   "name": "lóla",
-   "lat": 64.14995,
-   "lng": -21.94265,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.2,
-     6
-    ],
-    [
-     1.2,
-     7
-    ],
-    [
-     5.4,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Tryggvagata 11, Reykjavík",
-   "hours": "Tu-Sa 17:30-00:00"
-  },
-  {
-   "id": "n3009373773",
-   "name": "Café Haiti",
-   "lat": 64.15074,
-   "lng": -21.94338,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.3,
-     6
-    ],
-    [
-     1.3,
-     7
-    ],
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "wheelchair": "limited"
   },
   {
    "id": "n2946126431",
@@ -19506,84 +20369,6 @@
    "address": "Drafnarfell 14-18"
   },
   {
-   "id": "n1722852395",
-   "name": "Forréttabarinn",
-   "lat": 64.15079,
-   "lng": -21.94626,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.3,
-     6
-    ],
-    [
-     1.3,
-     7
-    ],
-    [
-     5.6,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545171800",
-   "website": "https://www.forrettabarinn.is/",
-   "address": "Nýlendugata 14, Reykjavík",
-   "hours": "Mo-Su 16:00-23:00",
-   "cuisine": "regional"
-  },
-  {
-   "id": "n5583089022",
-   "name": "Himalayan Spice Restaurant and Bar",
-   "lat": 64.15094,
-   "lng": -21.94411,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.3,
-     6
-    ],
-    [
-     1.3,
-     7
-    ],
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545197444",
-   "website": "https://www.himalayanspice.is/",
-   "hours": "Mo-Su 16:00-22:00",
-   "cuisine": "curry;fish;international"
-  },
-  {
-   "id": "n3009373777",
-   "name": "Höfnin",
-   "lat": 64.15079,
-   "lng": -21.94323,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.3,
-     6
-    ],
-    [
-     1.3,
-     7
-    ],
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
    "id": "n13790046492",
    "name": "Kebab Sara",
    "lat": 64.10894,
@@ -19606,30 +20391,6 @@
    ],
    "town": true,
    "cuisine": "kebab"
-  },
-  {
-   "id": "n3009373779",
-   "name": "Kopar",
-   "lat": 64.1511,
-   "lng": -21.94384,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.3,
-     6
-    ],
-    [
-     1.3,
-     7
-    ],
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "cuisine": "seafood"
   },
   {
    "id": "n4315661126",
@@ -19657,59 +20418,6 @@
    "website": "https://mathus210.com",
    "address": "Garðatorg 4b, Garðabær",
    "hours": "Mo-Su 11:30-23:00"
-  },
-  {
-   "id": "n3705813858",
-   "name": "Old Harbour House",
-   "lat": 64.15115,
-   "lng": -21.94438,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.3,
-     6
-    ],
-    [
-     1.3,
-     7
-    ],
-    [
-     5.6,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "http://www.casagrande.is/",
-   "wheelchair": "limited"
-  },
-  {
-   "id": "n8856480075",
-   "name": "Pizza 107",
-   "lat": 64.14588,
-   "lng": -21.96261,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.3,
-     7
-    ],
-    [
-     1.4,
-     6
-    ],
-    [
-     6.0,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547611107",
-   "website": "https://www.pizza107.is",
-   "address": "Hagamelur 67, Reykjavík",
-   "hours": "Mo-Th 11:30-20:30; Fr-Sa 11:30-21:00; Su 11:30-20:30",
-   "cuisine": "pizza"
   },
   {
    "id": "n13790046490",
@@ -19740,30 +20448,6 @@
    "cuisine": "pizza"
   },
   {
-   "id": "n6489455817",
-   "name": "Reykjavik Röst",
-   "lat": 64.15097,
-   "lng": -21.94356,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.3,
-     6
-    ],
-    [
-     1.3,
-     7
-    ],
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "PH,Mo-Su 08:00-18:00"
-  },
-  {
    "id": "n8954205391",
    "name": "Riishús Borðeyri",
    "lat": 65.20905,
@@ -19779,89 +20463,6 @@
    "town": false,
    "hours": "Mo-Su 13:00-17:00",
    "vegetarian": true
-  },
-  {
-   "id": "n1722768723",
-   "name": "Slippbarinn",
-   "lat": 64.15102,
-   "lng": -21.94612,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     1.3,
-     6
-    ],
-    [
-     1.3,
-     7
-    ],
-    [
-     5.6,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.icelandairhotels.com/hotels/reykjavikmarina",
-   "address": "Mýrargata 2, Reykjavík",
-   "hours": "Mo-Su 15:00-24:00,07:00-10:00",
-   "wheelchair": "yes"
-  },
-  {
-   "id": "n3009373784",
-   "name": "Steikhúsið",
-   "lat": 64.15062,
-   "lng": -21.94415,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.3,
-     6
-    ],
-    [
-     1.3,
-     7
-    ],
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545611111",
-   "website": "http://www.steak.is",
-   "address": "Tryggvagata 4-6, Reykjavík",
-   "hours": "Mo-Su 17:30-24:00",
-   "cuisine": "steak house"
-  },
-  {
-   "id": "n1295178578",
-   "name": "Sægreifinn",
-   "lat": 64.15081,
-   "lng": -21.94402,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.3,
-     6
-    ],
-    [
-     1.3,
-     7
-    ],
-    [
-     5.5,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545531500",
-   "website": "http://www.saegreifinn.is",
-   "address": "Geirsgata 8, Reykjavík",
-   "hours": "Mo-Su 11:30-23:00",
-   "cuisine": "seafood"
   },
   {
    "id": "n815740255",
@@ -19891,35 +20492,6 @@
    "cuisine": "coffee shop"
   },
   {
-   "id": "n346740894",
-   "name": "Tommi's Burger Joint",
-   "lat": 64.1509,
-   "lng": -21.94501,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.3,
-     6
-    ],
-    [
-     1.3,
-     7
-    ],
-    [
-     5.6,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545110800",
-   "website": "https://tommis.is/is/",
-   "address": "Geirsgata 1, Reykjavík",
-   "hours": "Mo-Su 11:00-21:00",
-   "email": "info@tommis.is",
-   "cuisine": "burger"
-  },
-  {
    "id": "n5051718916",
    "name": "Tíminn caffe bar",
    "lat": 64.14613,
@@ -19946,32 +20518,6 @@
    "address": "Borgartún 29, Reykjavík",
    "hours": "Mo-Su 07:00-19:00",
    "email": "timinn@cafebartiminn.is"
-  },
-  {
-   "id": "n3741515708",
-   "name": "Deli",
-   "lat": 64.15125,
-   "lng": -21.94718,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.4,
-     6
-    ],
-    [
-     1.4,
-     7
-    ],
-    [
-     5.7,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.icelandairhotels.com/hotels/reykjavikmarina",
-   "address": "Mýrargata 12, Reykjavík",
-   "wheelchair": "yes"
   },
   {
    "id": "n13899397601",
@@ -20238,34 +20784,6 @@
    "cuisine": "pizza"
   },
   {
-   "id": "n3705814512",
-   "name": "Fish and Chips Vagninn",
-   "lat": 64.15247,
-   "lng": -21.94686,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.5,
-     6
-    ],
-    [
-     1.5,
-     7
-    ],
-    [
-     5.7,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3548404100",
-   "address": "Hlésgata, Reykjavík",
-   "hours": "Mo-Su 12:00-20:00",
-   "email": "info@fishandchipsvagninn.is",
-   "cuisine": "fish and chips"
-  },
-  {
    "id": "n10994737116",
    "name": "Hagabakarí",
    "lat": 64.10518,
@@ -20290,55 +20808,6 @@
    "phone": "+3545577272",
    "address": "Hraunberg 4, Reykjavík",
    "hours": "Mo-Fr 08:00-17:00"
-  },
-  {
-   "id": "n9973506421",
-   "name": "Hygge Coffee & Micro Bakery",
-   "lat": 64.15168,
-   "lng": -21.95257,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.5,
-     6
-    ],
-    [
-     1.5,
-     7
-    ],
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "08:00-17:00",
-   "vegetarian": true,
-   "vegan": true
-  },
-  {
-   "id": "n8866751347",
-   "name": "Héðinn Kitchen & Bar",
-   "lat": 64.15199,
-   "lng": -21.95157,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.5,
-     6
-    ],
-    [
-     1.5,
-     7
-    ],
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true
   },
   {
    "id": "n10914196791",
@@ -20434,30 +20903,6 @@
    "website": "https://www.minigardurinn.is",
    "address": "Skútuvogur 2, Reykjavík",
    "email": "minigardurinn@minigardurinn.is"
-  },
-  {
-   "id": "n12955041519",
-   "name": "Mýrin Brassiere",
-   "lat": 64.15173,
-   "lng": -21.95248,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.5,
-     6
-    ],
-    [
-     1.5,
-     7
-    ],
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Su,PH 08:00-17:00"
   },
   {
    "id": "n1250524111",
@@ -20564,29 +21009,6 @@
    "hours": "Mo-Fr 07:30-16:00; Sa 09:00-16:00; Su 09:00-15:00"
   },
   {
-   "id": "n9893250036",
-   "name": "Bríó Nr. 1",
-   "lat": 64.15324,
-   "lng": -21.95045,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.6,
-     6
-    ],
-    [
-     1.6,
-     7
-    ],
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true
-  },
-  {
    "id": "n12394095973",
    "name": "Bæjarins Beztu Pylsur",
    "lat": 63.99644,
@@ -20608,90 +21030,6 @@
    "website": "https://bbp.is",
    "hours": "24/7",
    "cuisine": "hot dog"
-  },
-  {
-   "id": "n3654229025",
-   "name": "Coocoo's Nest",
-   "lat": 64.15357,
-   "lng": -21.94874,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.6,
-     6
-    ],
-    [
-     1.6,
-     7
-    ],
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545525454",
-   "website": "https://www.coocoosnest.is/",
-   "address": "Grandagarður 23, Reykjavík",
-   "hours": "Mo off; Tu-Sa 11:00-22:00; Su 11:00-16:00",
-   "email": "thecoocooscafe@gmail.com"
-  },
-  {
-   "id": "n2541162152",
-   "name": "Domino's",
-   "lat": 64.15117,
-   "lng": -21.95779,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.6,
-     6
-    ],
-    [
-     1.6,
-     7
-    ],
-    [
-     6.1,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545812345",
-   "website": "https://www.dominos.is/",
-   "address": "Ánanaust 15, Reykjavík",
-   "hours": "Tu-Su 16:00-22:00",
-   "cuisine": "pizza"
-  },
-  {
-   "id": "n1295178562",
-   "name": "Flatey",
-   "lat": 64.15328,
-   "lng": -21.9501,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.6,
-     6
-    ],
-    [
-     1.6,
-     7
-    ],
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545882666",
-   "website": "https://www.flateypizza.is/",
-   "address": "Grandagarður 11, Reykjavík",
-   "hours": "Mo-Su 11:30-22:00",
-   "cuisine": "pizza"
   },
   {
    "id": "n656083365",
@@ -20768,32 +21106,6 @@
    ],
    "town": true,
    "cuisine": "coffee shop"
-  },
-  {
-   "id": "w106469203",
-   "name": "Kaffivagninn",
-   "lat": 64.15358,
-   "lng": -21.94754,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.6,
-     6
-    ],
-    [
-     1.6,
-     7
-    ],
-    [
-     5.8,
-     0
-    ]
-   ],
-   "town": true,
-   "address": "Grandagarður 10, Reykjavík",
-   "hours": "Mo-Su 08:00-20:00",
-   "cuisine": "seafood"
   },
   {
    "id": "n5022572296",
@@ -20890,33 +21202,6 @@
    "town": true
   },
   {
-   "id": "n6942846386",
-   "name": "Matur og Drykkur",
-   "lat": 64.15267,
-   "lng": -21.95132,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.6,
-     6
-    ],
-    [
-     1.6,
-     7
-    ],
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545718877",
-   "website": "https://www.maturogdrykkur.is/",
-   "hours": "Th,Fr,Sa,Su 18:00-23:00",
-   "wheelchair": "yes"
-  },
-  {
    "id": "n1280775074",
    "name": "Moe's Bar",
    "lat": 64.09741,
@@ -20959,34 +21244,6 @@
     ]
    ],
    "town": true
-  },
-  {
-   "id": "n8303107903",
-   "name": "Pizzan",
-   "lat": 64.15034,
-   "lng": -21.96025,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.6,
-     6
-    ],
-    [
-     1.6,
-     7
-    ],
-    [
-     6.2,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545788888",
-   "website": "https://www.pizzan.is",
-   "address": "Hringbraut 119, Reykjavík",
-   "hours": "Mo-Su 11:00-22:00",
-   "cuisine": "pizza"
   },
   {
    "id": "n13790172661",
@@ -21122,60 +21379,6 @@
    "hours": "Mo-Fr 07:30-16:30; Sa 09:00-15:00"
   },
   {
-   "id": "n12214212267",
-   "name": "Traditional Polish Food",
-   "lat": 64.15335,
-   "lng": -21.94979,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.6,
-     6
-    ],
-    [
-     1.6,
-     7
-    ],
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.instagram.com/polishfoodgrandi/",
-   "address": "Grandagarður 13, Reykjavík",
-   "hours": "Mo-Sa 11:00-17:00; Su 12:00-17:00",
-   "cuisine": "polish"
-  },
-  {
-   "id": "n1295178566",
-   "name": "Viet Noodles",
-   "lat": 64.15326,
-   "lng": -21.95032,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.6,
-     6
-    ],
-    [
-     1.6,
-     7
-    ],
-    [
-     5.9,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://vietnoodles.is/",
-   "address": "Grandagarður, Reykjavík",
-   "hours": "Mo-Fr 11:30-22:00; Sa,Su 12:00-22:00",
-   "cuisine": "fish"
-  },
-  {
    "id": "n13790172660",
    "name": "Yuzu",
    "lat": 64.09089,
@@ -21198,30 +21401,6 @@
    ],
    "town": true,
    "cuisine": "burger"
-  },
-  {
-   "id": "n8303107906",
-   "name": "Zorbian",
-   "lat": 64.15004,
-   "lng": -21.96001,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.6,
-     6
-    ],
-    [
-     1.6,
-     7
-    ],
-    [
-     6.1,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://www.zorbianreykjavik.com/"
   },
   {
    "id": "n13899183850",
@@ -21271,32 +21450,6 @@
    "phone": "+3545333000",
    "address": "Holtavegur 10, Reykjavík",
    "hours": "Mo-Fr 07:00-17:00; Sa 08:00-16:30; Su 08:00-16:00"
-  },
-  {
-   "id": "n4023697012",
-   "name": "Bergsson RE",
-   "lat": 64.15424,
-   "lng": -21.94512,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     1.7,
-     6
-    ],
-    [
-     1.7,
-     7
-    ],
-    [
-     5.8,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://bergsson.is/",
-   "hours": "Mo-Fr 10:00-16:00",
-   "cuisine": "seafood"
   },
   {
    "id": "n1249807008",
@@ -21569,11 +21722,11 @@
     ],
     [
      1.9,
-     6
+     7
     ],
     [
-     1.9,
-     7
+     2.0,
+     6
     ]
    ],
    "town": true,
@@ -21781,7 +21934,7 @@
      6
     ],
     [
-     3.8,
+     3.7,
      7
     ]
    ],
@@ -21884,61 +22037,6 @@
    ],
    "town": true,
    "address": "Auðbrekka 2, Kópavogur"
-  },
-  {
-   "id": "n11497725388",
-   "name": "Litla Tokyo",
-   "lat": 64.15504,
-   "lng": -21.94934,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     1.8,
-     6
-    ],
-    [
-     1.8,
-     7
-    ],
-    [
-     6.0,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://tokyo.is",
-   "address": "Fiskislóð 15-21, Reykjavík",
-   "hours": "Mo-Su 10:30-19:00",
-   "cuisine": "sushi"
-  },
-  {
-   "id": "n1295178583",
-   "name": "Makake.",
-   "lat": 64.1557,
-   "lng": -21.94177,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     1.8,
-     6
-    ],
-    [
-     1.8,
-     7
-    ],
-    [
-     5.8,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3547820210",
-   "website": "https://makake.is/",
-   "address": "Grandagarður 101, Reykjavík",
-   "hours": "Mo-Sa 11:30-14:30, Mo,We 18:00-20:00",
-   "cuisine": "japanese"
   },
   {
    "id": "n4227426301",
@@ -22155,30 +22253,6 @@
    "email": "27mathus@27mathus.is"
   },
   {
-   "id": "n10939608030",
-   "name": "FlyOver Iceland",
-   "lat": 64.15658,
-   "lng": -21.94879,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     2.0,
-     6
-    ],
-    [
-     2.0,
-     7
-    ],
-    [
-     6.1,
-     0
-    ]
-   ],
-   "town": true,
-   "wheelchair": "yes"
-  },
-  {
    "id": "n5554935802",
    "name": "Okkar bakarí",
    "lat": 64.09239,
@@ -22296,7 +22370,7 @@
      6
     ],
     [
-     2.2,
+     2.1,
      7
     ],
     [
@@ -22306,6 +22380,31 @@
    ],
    "town": true,
    "hours": "Mo-Sa 11:00-20:00; Su 12:00-18:00"
+  },
+  {
+   "id": "n3774366243",
+   "name": "Wok Dragon",
+   "lat": 64.14964,
+   "lng": -21.87164,
+   "kind": "food",
+   "cat": "fast_food",
+   "days": [
+    [
+     2.1,
+     6
+    ],
+    [
+     2.2,
+     7
+    ],
+    [
+     3.1,
+     0
+    ]
+   ],
+   "town": true,
+   "hours": "Mo-Sa 11:00-20:00",
+   "wheelchair": "limited"
   },
   {
    "id": "n5133980681",
@@ -22456,31 +22555,6 @@
    "cuisine": "pizza"
   },
   {
-   "id": "n3774366243",
-   "name": "Wok Dragon",
-   "lat": 64.14964,
-   "lng": -21.87164,
-   "kind": "food",
-   "cat": "fast_food",
-   "days": [
-    [
-     2.2,
-     6
-    ],
-    [
-     2.2,
-     7
-    ],
-    [
-     3.1,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Sa 11:00-20:00",
-   "wheelchair": "limited"
-  },
-  {
    "id": "n3622187780",
    "name": "Ara",
    "lat": 64.08744,
@@ -22535,56 +22609,6 @@
    "cuisine": "chicken"
   },
   {
-   "id": "n5068616621",
-   "name": "Arna ís og kaffibar",
-   "lat": 64.15071,
-   "lng": -21.98558,
-   "kind": "food",
-   "cat": "cafe",
-   "days": [
-    [
-     2.5,
-     7
-    ],
-    [
-     2.6,
-     6
-    ],
-    [
-     7.2,
-     0
-    ]
-   ],
-   "town": true,
-   "website": "https://arnacafe.is/",
-   "hours": "Mo-Fr 09:00-18:00; Sa-Su 10:00-18:00",
-   "cuisine": "ice cream"
-  },
-  {
-   "id": "n5139117423",
-   "name": "Rauða Ljónið",
-   "lat": 64.15071,
-   "lng": -21.9847,
-   "kind": "food",
-   "cat": "bar",
-   "days": [
-    [
-     2.5,
-     6
-    ],
-    [
-     2.5,
-     7
-    ],
-    [
-     7.2,
-     0
-    ]
-   ],
-   "town": true,
-   "cuisine": "burger;pizza"
-  },
-  {
    "id": "n2159345042",
    "name": "Þjónustumiðstöð",
    "lat": 64.03293,
@@ -22602,30 +22626,6 @@
     ]
    ],
    "town": false
-  },
-  {
-   "id": "n4380594492",
-   "name": "Björnsbakarí",
-   "lat": 64.15109,
-   "lng": -21.98591,
-   "kind": "food",
-   "cat": "bakery",
-   "days": [
-    [
-     2.6,
-     6
-    ],
-    [
-     2.6,
-     7
-    ],
-    [
-     7.3,
-     0
-    ]
-   ],
-   "town": true,
-   "hours": "Mo-Fr 07:30-17:30; Sa 08:00-16:00; Su 09:00-16:00"
   },
   {
    "id": "n13108177618",
@@ -22684,6 +22684,33 @@
    "cuisine": "sandwich"
   },
   {
+   "id": "n10068488422",
+   "name": "Ráðagerði",
+   "lat": 64.16117,
+   "lng": -22.00874,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     2.6,
+     6
+    ],
+    [
+     2.6,
+     7
+    ],
+    [
+     8.7,
+     0
+    ]
+   ],
+   "town": true,
+   "phone": "+3545461700",
+   "website": "https://www.facebook.com/Radagerdi/",
+   "hours": "Mo-Su 10:00-23:00",
+   "email": "radagerdi@radagerdi170.is"
+  },
+  {
    "id": "n4336040371",
    "name": "Veitingastaðurinn Hvönn",
    "lat": 64.12599,
@@ -22700,33 +22727,6 @@
    "phone": "+3544868870",
    "website": "https://www.hotelskalholt.is/",
    "address": "Skálholt, Selfoss"
-  },
-  {
-   "id": "n10068488422",
-   "name": "Ráðagerði",
-   "lat": 64.16117,
-   "lng": -22.00874,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     4.1,
-     6
-    ],
-    [
-     4.1,
-     7
-    ],
-    [
-     8.7,
-     0
-    ]
-   ],
-   "town": true,
-   "phone": "+3545461700",
-   "website": "https://www.facebook.com/Radagerdi/",
-   "hours": "Mo-Su 10:00-23:00",
-   "email": "radagerdi@radagerdi170.is"
   },
   {
    "id": "n13679023742",
