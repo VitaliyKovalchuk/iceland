@@ -161,6 +161,16 @@
       "bookedBy": "Kirill",
       "duration": "3 hours",
       "notes": "Fixed departure. Day now leaves Brekkur 1 at 08:30 and reaches the meeting point 08:43. Víkurfjara moved to AFTER the tour since it returns you to Vík. Still need operator name and confirmation number."
+    },
+    {
+      "name": "Sólheimajökull glacier hike",
+      "operator": "Arctic Adventures (adventures.is)",
+      "date": "2026-10-08",
+      "time": "14:30",
+      "meetingPoint": "Sólheimajökull car park, end of Road 221",
+      "bookedBy": "Kirill",
+      "duration": "~3 hours",
+      "notes": "An hour later than the route assumed. Day now starts 08:32 and reaches the car park 14:00, 30 min before departure. Off the ice ~17:30, away ~17:45, at Brekkur 1 ~18:08 against an 18:25 sunset — only 17 min of margin, and the final 23 km is Route 1 in dusk. If the tour overruns you will finish that leg in the dark. Ask Arctic Adventures for an earlier slot if one opens."
     }
   ],
   "emergency": {
@@ -201,11 +211,6 @@
     },
     {
       "what": "Night 1 — arrange late check-in; window closes 00:30 and we arrive ~01:10",
-      "owner": "Vitalii",
-      "blocking": true
-    },
-    {
-      "what": "Book Sólheimajökull glacier hike (Oct 8)",
       "owner": "Vitalii",
       "blocking": true
     },
