@@ -40,3 +40,20 @@ deliberate after-dark arrival (the Oct 10 airport run), no pre-dawn departures, 
 routing defects staying fixed. If a refactor moves those, the tests fail.
 
     npx vitest run
+
+## Deploying
+
+Deployed on Vercel from `main`. Import the repo at vercel.com/new — it is a stock
+Next.js app with no external services and no build configuration.
+
+**Set one environment variable:**
+
+    TRIP_PASSWORD = <a shared password>
+
+`src/middleware.ts` redirects every page to `/unlock` until that password is entered,
+then stores it in an httpOnly cookie for 120 days. The guide holds confirmation
+numbers, eight addresses and the exact dates our homes are empty, so it should not
+sit on an open URL.
+
+Left unset (local dev) the gate is off. The service worker, manifest and icon stay
+unauthenticated so the app still installs to a phone home screen.
