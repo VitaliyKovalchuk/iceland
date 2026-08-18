@@ -144,13 +144,19 @@
   "tours": [
     {
       "name": "Jökulsárlón zodiac boat tour",
-      "operator": "",
+      "operator": "Jökulsárlón Ferðaþjónusta",
       "date": "2026-10-07",
       "time": "09:50",
-      "meetingPoint": "Jökulsárlón glacier lagoon car park, Route 1",
+      "meetingPoint": "Jökulsárlón Glacier Lagoon Boat Tours and Cafe",
       "bookedBy": "Kirill",
-      "duration": "~60 min on the water",
-      "notes": "Fixed departure. Route now leaves Höfn 07:15 and reaches the lagoon 09:12, giving 38 min for check-in and the flotation suit. Block runs to 11:07 to cover de-suiting. Still need the operator name, confirmation number and their stated check-in time."
+      "duration": "1h15 (09:50–11:05)",
+      "notes": "Zodiac. 49,800 ISK for three, paid. Ends 11:05 — the route now holds until 11:20 so there is time to de-suit and reach the car.",
+      "price": 49800,
+      "currency": "ISK",
+      "paid": true,
+      "lat": 64.0784,
+      "lng": -16.2306,
+      "endTime": "11:05"
     },
     {
       "name": "Katla ice cave (Mýrdalsjökull)",
@@ -238,11 +244,6 @@
   "todo": [
     {
       "what": "Get the updated Hertz confirmation for MAX coverage — what it includes, whether gravel is now covered, remaining excess, and the new total",
-      "owner": "Vitalii",
-      "blocking": false
-    },
-    {
-      "what": "Get the Jökulsárlón operator name + confirmation number from Kirill",
       "owner": "Vitalii",
       "blocking": false
     },
