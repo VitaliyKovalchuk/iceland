@@ -137,7 +137,7 @@
    "day": 7,
    "date": "Oct 9",
    "title": "Ice cave and the south coast",
-   "routeKm": 198,
+   "routeKm": 199,
    "counts": {
     "attractions": 284,
     "food": 723,
@@ -149,7 +149,7 @@
     "bigSupermarkets": 61
    },
    "fuelOnRoute": 79,
-   "longestFuelGapKm": 83,
+   "longestFuelGapKm": 84,
    "longestFuelGapBetween": [
     "ÓB",
     "N1"

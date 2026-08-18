@@ -88,6 +88,30 @@
    "town": true
   },
   {
+   "id": "n9891767139",
+   "name": "Black Crust Pizzeria",
+   "lat": 63.41751,
+   "lng": -19.00285,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.0,
+     6
+    ],
+    [
+     0.1,
+     5
+    ]
+   ],
+   "town": false,
+   "phone": "+3548546611",
+   "website": "https://blackcrustpizzeria.com",
+   "address": "Austurvegur 16",
+   "hours": "Mo-Su 12:00-21:00",
+   "cuisine": "pizza"
+  },
+  {
    "id": "n2389006152",
    "name": "Byria",
    "lat": 63.93769,
@@ -249,7 +273,7 @@
      5
     ],
     [
-     0.6,
+     0.4,
      6
     ]
    ],
@@ -1334,6 +1358,30 @@
    "cuisine": "fish and chips;local"
   },
   {
+   "id": "n4303446503",
+   "name": "Ströndin",
+   "lat": 63.41756,
+   "lng": -19.00155,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.0,
+     6
+    ],
+    [
+     0.1,
+     5
+    ]
+   ],
+   "town": false,
+   "phone": "+3544871230",
+   "website": "https://www.strondin.is",
+   "address": "Þjóðvegur, Vík",
+   "hours": "Mo-Su 18:00-23:00",
+   "cuisine": "burger;regional"
+  },
+  {
    "id": "n6579740086",
    "name": "Studlagil INN",
    "lat": 65.31715,
@@ -1491,6 +1539,26 @@
    "hours": "11:30-20:30",
    "email": "vinastraeti840@gmail.com",
    "cuisine": "pizza;regional"
+  },
+  {
+   "id": "n9900840017",
+   "name": "Wok On",
+   "lat": 63.41767,
+   "lng": -19.00168,
+   "kind": "food",
+   "cat": "restaurant",
+   "days": [
+    [
+     0.0,
+     6
+    ],
+    [
+     0.1,
+     5
+    ]
+   ],
+   "town": false,
+   "hours": "Mo-Su 11:30-21:30"
   },
   {
    "id": "n8303107906",
@@ -1990,30 +2058,6 @@
    ],
    "town": true,
    "hours": "Mo-Th 11:00-01:00; Fr-Sa 11:00-03:00; Su 12:00-01:00"
-  },
-  {
-   "id": "n9891767139",
-   "name": "Black Crust Pizzeria",
-   "lat": 63.41751,
-   "lng": -19.00285,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.1,
-     5
-    ],
-    [
-     0.3,
-     6
-    ]
-   ],
-   "town": false,
-   "phone": "+3548546611",
-   "website": "https://blackcrustpizzeria.com",
-   "address": "Austurvegur 16",
-   "hours": "Mo-Su 12:00-21:00",
-   "cuisine": "pizza"
   },
   {
    "id": "n3348016111",
@@ -3093,7 +3137,7 @@
      5
     ],
     [
-     0.4,
+     0.1,
      6
     ]
    ],
@@ -3375,7 +3419,7 @@
      5
     ],
     [
-     0.5,
+     0.2,
      6
     ]
    ],
@@ -4708,30 +4752,6 @@
    "wheelchair": "yes"
   },
   {
-   "id": "n4303446503",
-   "name": "Ströndin",
-   "lat": 63.41756,
-   "lng": -19.00155,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.1,
-     5
-    ],
-    [
-     0.4,
-     6
-    ]
-   ],
-   "town": false,
-   "phone": "+3544871230",
-   "website": "https://www.strondin.is",
-   "address": "Þjóðvegur, Vík",
-   "hours": "Mo-Su 18:00-23:00",
-   "cuisine": "burger;regional"
-  },
-  {
    "id": "n448574080",
    "name": "Subway",
    "lat": 63.93752,
@@ -5227,7 +5247,7 @@
      5
     ],
     [
-     0.4,
+     0.1,
      6
     ]
    ],
@@ -5235,26 +5255,6 @@
    "address": "Austurvegur, Vík",
    "hours": "Mo-Su 08:00-22:00",
    "cuisine": "burger;regional"
-  },
-  {
-   "id": "n9900840017",
-   "name": "Wok On",
-   "lat": 63.41767,
-   "lng": -19.00168,
-   "kind": "food",
-   "cat": "restaurant",
-   "days": [
-    [
-     0.1,
-     5
-    ],
-    [
-     0.3,
-     6
-    ]
-   ],
-   "town": false,
-   "hours": "Mo-Su 11:30-21:30"
   },
   {
    "id": "n13537450270",
@@ -6811,7 +6811,7 @@
      5
     ],
     [
-     1.2,
+     1.1,
      6
     ]
    ],

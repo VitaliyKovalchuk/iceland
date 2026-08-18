@@ -154,13 +154,19 @@
     },
     {
       "name": "Katla ice cave (Mýrdalsjökull)",
-      "operator": "",
+      "operator": "Katlatrack",
       "date": "2026-10-09",
       "time": "09:00",
-      "meetingPoint": "Vík village — 11 km from Brekkur 1",
+      "meetingPoint": "Katlatrack, Austurvegur 16, Vík — free parking lot",
       "bookedBy": "Kirill",
       "duration": "3 hours",
-      "notes": "Fixed departure. Day now leaves Brekkur 1 at 08:30 and reaches the meeting point 08:43. Víkurfjara moved to AFTER the tour since it returns you to Vík. Still need operator name and confirmation number."
+      "notes": "Fixed 09:00 departure from Austurvegur 16, Vík. Free parking on site.",
+      "phone": "+3548494404",
+      "email": "info@katlatrack.is",
+      "website": "https://www.katlatrack.is",
+      "vat": "122174",
+      "lat": 63.4176097,
+      "lng": -19.0028977
     },
     {
       "name": "Sólheimajökull glacier hike",
@@ -237,11 +243,6 @@
     },
     {
       "what": "Get the Jökulsárlón operator name + confirmation number from Kirill",
-      "owner": "Vitalii",
-      "blocking": false
-    },
-    {
-      "what": "Get operator + confirmation for the Katla ice cave from Kirill",
       "owner": "Vitalii",
       "blocking": false
     },
