@@ -23,7 +23,8 @@ const MapCanvas = dynamic(() => import("./MapCanvas"), {
 /* Fuel and groceries were dropped: OSM coverage is patchy and Google does it better.
    Stays are our own bookings, drawn as a separate layer. */
 const KINDS: PlaceKind[] = ["attraction", "food"];
-const RADII = [3, 5, 10, 25, 50, 200];
+/** One fixed net: the route plus everything within 150 km — no radius to fiddle with. */
+const RADIUS = 150;
 
 function Glyph({ cat, className = "" }: { cat: string; className?: string }) {
   return (
@@ -41,7 +42,6 @@ export default function MapExplorer() {
   const [day, setDay] = useState(start.state === "during" ? start.index : -1);
   const [kinds, setKinds] = useState<Set<PlaceKind>>(new Set(["attraction"]));
   const [cats, setCats] = useState<Set<string>>(new Set());
-  const [radius, setRadius] = useState(5);
   const [showTowns, setShowTowns] = useState(false);
   const [picks, setPicks] = useState(true);
   const [showStops, setShowStops] = useState(true);
@@ -51,12 +51,12 @@ export default function MapExplorer() {
   const [sheet, setSheet] = useState(false);
 
   const filters: Filters = useMemo(
-    () => ({ day, kinds, cats, radius, showTowns, picks, query }),
-    [day, kinds, cats, radius, showTowns, picks, query]
+    () => ({ day, kinds, cats, radius: RADIUS, showTowns, picks, query }),
+    [day, kinds, cats, showTowns, picks, query]
   );
   const places = useMemo(() => filterPlaces(ALL, filters), [filters]);
 
-  /** Category chips for whichever kinds are on, with live counts at this day+radius. */
+  /** Category chips for whichever kinds are on, with live counts for this day. */
   const catChips = useMemo(() => {
     const pool = filterPlaces(ALL, { ...filters, cats: new Set() });
     const n = new Map<string, number>();
@@ -151,7 +151,7 @@ export default function MapExplorer() {
                      bg-[var(--color-surface)]/95 px-2.5 py-1.5 font-mono text-[10.5px]
                      tracking-[0.05em] uppercase shadow-sm backdrop-blur"
         >
-          {places.length} · {radius >= 200 ? "all" : `${radius} km`} · {sheet ? "close" : "list"}
+          {places.length} · {sheet ? "close" : "list"}
         </button>
 
         {sheet && (
@@ -165,16 +165,8 @@ export default function MapExplorer() {
                 className="w-full rounded-md border border-[var(--color-line)] bg-[var(--color-raised)]
                            px-2.5 py-1.5 text-[13px] outline-none focus:border-[var(--color-accent)]"
               />
-              <div className="flex flex-wrap items-center gap-1">
-                <span className="mr-0.5 font-mono text-[9.5px] tracking-[0.08em] uppercase text-[var(--color-ink-3)]">
-                  within
-                </span>
-                {RADII.map((r) => (
-                  <button key={r} onClick={() => setRadius(r)} className={chip(radius === r)}>
-                    {r >= 200 ? "All" : `${r} km`}
-                  </button>
-                ))}
-                <button onClick={() => setPicks((v) => !v)} className={`${chip(picks)} ml-auto`}>
+              <div className="flex items-center gap-1">
+                <button onClick={() => setPicks((v) => !v)} className={chip(picks)}>
                   Picks only
                 </button>
                 <button onClick={() => setShowTowns((v) => !v)} className={chip(showTowns)}>

@@ -54,7 +54,7 @@ export interface Place {
   lng: number;
   kind: PlaceKind;
   cat: string;
-  /** [[km, dayIndex], ...] for EVERY day whose road passes within 10 km (200 km for curated picks), nearest first.
+  /** [[km, dayIndex], ...] for EVERY day whose road passes within 10 km (150 km for curated picks), nearest first.
    *  A list, not a single day — 1,400+ places sit on more than one day's route. */
   days: [number, number][];
   town: boolean;

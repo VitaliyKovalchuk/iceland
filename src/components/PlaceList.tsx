@@ -46,12 +46,12 @@ export default function PlaceList({
       ))}
       {places.length > 250 && (
         <li className="px-3 py-3 font-mono text-[10px] uppercase text-[var(--color-ink-3)]">
-          showing 250 of {places.length} — narrow the day, radius or search
+          showing 250 of {places.length} — narrow the day or search
         </li>
       )}
       {!places.length && (
         <li className="px-3 py-6 text-center text-[13px] text-[var(--color-ink-3)]">
-          Nothing matches. Widen the radius or turn on town centres.
+          Nothing matches. Turn off Picks only or turn on town centres.
         </li>
       )}
     </ul>

@@ -184,7 +184,7 @@ for e in load("sights.json") + load("extra.json") + load("osm2.json"):
         continue
     r["planned"] = bool(is_planned(r["lat"], r["lng"]))
     rows.append(r)
-# Rexby: a hand-picked guide, so it gets a far wider net (200 km) than raw OSM — Stuðlagil,
+# Rexby: a hand-picked guide, so it gets a far wider net (150 km — the map's fixed limit) than raw OSM — Stuðlagil,
 # Hengifoss and Seyðisfjörður all sit 13–19 km off the road and OSM's 10 km missed them.
 # 717 of 941 are paywalled: no place name, but the title and coordinates are there.
 REXBY_CAT = {"waterfall": "waterfall", "hot_spring": "hot_spring", "spa": "baths",
@@ -235,7 +235,7 @@ def curated(id, name, la, ln, cat, pick):
             return
     if not pick and any(d < 0.5 for d, _ in near):
         return  # a vague title next to something we already have
-    r = base({"type": "curated", "id": id, "lat": la, "lon": ln}, name, "attraction", cat, 200.0)
+    r = base({"type": "curated", "id": id, "lat": la, "lon": ln}, name, "attraction", cat, 150.0)
     if r:
         r.update(id=id, planned=bool(is_planned(la, ln)), pick=pick)
         rows.append(r)
@@ -267,7 +267,7 @@ for x in json.loads((RAW / "web-top.json").read_text())["items"]:
     curated("w-" + re.sub(r"\W+", "-", x["name"].lower()).strip("-"),
             x["name"], x["lat"], x["lng"], x["category"], True)
 write("attractions.json", dedupe(rows),
-      "Sights within 10 km of the driven route (OSM) or 200 km (Rexby, iceland-dream, web research). "
+      "Sights within 10 km of the driven route (OSM) or 150 km (Rexby, iceland-dream, web research). "
       "planned=true means it is already a stop; pick=true means a curated guide lists it.")
 
 # --- food --------------------------------------------------------
