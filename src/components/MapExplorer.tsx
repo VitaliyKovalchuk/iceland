@@ -23,7 +23,7 @@ const MapCanvas = dynamic(() => import("./MapCanvas"), {
 /* Fuel and groceries were dropped: OSM coverage is patchy and Google does it better.
    Stays are our own bookings, drawn as a separate layer. */
 const KINDS: PlaceKind[] = ["attraction", "food"];
-const RADII = [3, 5, 10];
+const RADII = [3, 5, 10, 25];
 
 function Glyph({ cat, className = "" }: { cat: string; className?: string }) {
   return (
@@ -43,6 +43,7 @@ export default function MapExplorer() {
   const [cats, setCats] = useState<Set<string>>(new Set());
   const [radius, setRadius] = useState(5);
   const [showTowns, setShowTowns] = useState(false);
+  const [picks, setPicks] = useState(true);
   const [showStops, setShowStops] = useState(true);
   const [showBeds, setShowBeds] = useState(true);
   const [query, setQuery] = useState("");
@@ -50,8 +51,8 @@ export default function MapExplorer() {
   const [sheet, setSheet] = useState(false);
 
   const filters: Filters = useMemo(
-    () => ({ day, kinds, cats, radius, showTowns, query }),
-    [day, kinds, cats, radius, showTowns, query]
+    () => ({ day, kinds, cats, radius, showTowns, picks, query }),
+    [day, kinds, cats, radius, showTowns, picks, query]
   );
   const places = useMemo(() => filterPlaces(ALL, filters), [filters]);
 
@@ -173,7 +174,10 @@ export default function MapExplorer() {
                     {r} km
                   </button>
                 ))}
-                <button onClick={() => setShowTowns((v) => !v)} className={`${chip(showTowns)} ml-auto`}>
+                <button onClick={() => setPicks((v) => !v)} className={`${chip(picks)} ml-auto`}>
+                  Picks only
+                </button>
+                <button onClick={() => setShowTowns((v) => !v)} className={chip(showTowns)}>
                   Town centres
                 </button>
               </div>

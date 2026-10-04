@@ -43,6 +43,8 @@ export interface Filters {
   cats: Set<string>;
   radius: number;         // km from the driven road
   showTowns: boolean;
+  /** Curated guide picks only — OSM alone is mostly memorials and gift shops. */
+  picks: boolean;
   query: string;
 }
 
@@ -63,6 +65,7 @@ export function filterPlaces(all: Place[], f: Filters): Place[] {
     if (!f.kinds.has(p.kind)) continue;
     if (f.cats.size && !f.cats.has(p.cat)) continue;
     if (!f.showTowns && p.town) continue;
+    if (f.picks && p.kind === "attraction" && !p.pick) continue;
     const hit = p.days.find(([km, d]) => km <= f.radius && (f.day < 0 || d === f.day));
     if (!hit) continue;
     if (q && !p.name.toLowerCase().includes(q) && !labelOf(p).toLowerCase().includes(q)) continue;

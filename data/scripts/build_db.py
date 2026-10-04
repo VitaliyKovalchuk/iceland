@@ -184,8 +184,56 @@ for e in load("sights.json") + load("extra.json") + load("osm2.json"):
         continue
     r["planned"] = bool(is_planned(r["lat"], r["lng"]))
     rows.append(r)
+# Rexby: a hand-picked guide, so it gets a wider net than raw OSM — Stuðlagil,
+# Hengifoss and Seyðisfjörður all sit 13–19 km off the road and OSM's 10 km missed them.
+# 717 of 941 are paywalled: no place name, but the title and coordinates are there.
+REXBY_CAT = {"waterfall": "waterfall", "hot_spring": "hot_spring", "spa": "baths",
+             "photospot": "viewpoint", "hike": "nature", "park": "nature",
+             "wildlife": "nature", "beach": "beach", "museum": "museum",
+             "historic": "historic"}
+REXBY_NAME = {  # paywalled titles we can name from the coordinates
+    "Basalt columns & turquoise river": "Stuðlagil",
+    "Basalt waterfall with volcanic history": "Litlanesfoss",
+    "Iconic sea stack in North Iceland": "Hvítserkur",
+    "Picturesque harbour town in East Fjords": "Seyðisfjörður",
+    "Church and rainbow street": "Seyðisfjörður rainbow street",
+    "Powerful waterfall in canyon": "Hafragilsfoss",
+}
+def curated(id, name, la, ln, cat, pick):
+    """Add a curated place, or if we already have it (same spot, or same name nearby —
+    guide pins can sit kilometres off) just mark the existing row as a pick."""
+    p, low = xy(la, ln), name.lower()
+    for r in rows:
+        d = math.dist(p, xy(r["lat"], r["lng"]))
+        if d < 0.5 or (d < 15 and len(r["name"]) >= 5 and r["name"].lower() in low):
+            r["pick"] = r.get("pick") or pick
+            return
+    r = base({"type": "curated", "id": id, "lat": la, "lon": ln}, name, "attraction", cat, 25.0)
+    if r:
+        r.update(id=id, planned=bool(is_planned(la, ln)), pick=pick)
+        rows.append(r)
+
+# Paywalled entries have only a vague title ("Hidden local gem"): kept, but not picks.
+# Tour operators are adverts, not sights.
+rex = json.loads((RAW / "rexby-things-to-do.json").read_text())["data"]["thingsToDo"]
+for x in rex:
+    if x["categoryClass"]["name"] != "Experience" or x["primaryCategory"] in ("tours", "activity"):
+        continue
+    name = x.get("locationName") or REXBY_NAME.get(x["title"])
+    curated("x" + x["id"], name or x["title"],
+            float(x["location"]["lat"]), float(x["location"]["lng"]),
+            REXBY_CAT.get(x["primaryCategory"], "attraction"), bool(name))
+
+# iceland-dream.com region guides. No category in the source, so guess from the title.
+for x in json.loads((RAW / "iceland-dream.json").read_text())["items"]:
+    t = x["title"].lower()
+    cat = ("waterfall" if "foss" in t or "waterfall" in t else
+           "hot_spring" if re.search(r"hot spring|bath|lagoon|laug", t) else
+           "nature" if "hik" in t or "trail" in t else "attraction")
+    curated("d" + x["id"], x["title"], x["lat"], x["lng"], cat, True)
 write("attractions.json", dedupe(rows),
-      "Sights within 10 km of the driven route. planned=true means it is already a stop.")
+      "Sights within 10 km of the driven route (OSM) or 25 km (Rexby, iceland-dream). "
+      "planned=true means it is already a stop; pick=true means a curated guide lists it.")
 
 # --- food --------------------------------------------------------
 rows = []

@@ -54,7 +54,7 @@ export interface Place {
   lng: number;
   kind: PlaceKind;
   cat: string;
-  /** [[km, dayIndex], ...] for EVERY day whose road passes within 10 km, nearest first.
+  /** [[km, dayIndex], ...] for EVERY day whose road passes within 10 km (25 km for Rexby picks), nearest first.
    *  A list, not a single day — 1,400+ places sit on more than one day's route. */
   days: [number, number][];
   town: boolean;
@@ -66,6 +66,7 @@ export interface Place {
   wheelchair?: string;
   wikidata?: string;
   planned?: boolean;       // attractions only: already a stop in the itinerary
+  pick?: boolean;          // attractions only: listed by a curated guide (Rexby, iceland-dream)
   brand?: string;          // fuel and groceries
   cuisine?: string;
   vegetarian?: boolean;

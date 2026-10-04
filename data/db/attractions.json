@@ -1,7 +1,24 @@
 {
- "note": "Sights within 10 km of the driven route. planned=true means it is already a stop.",
- "count": 792,
+ "note": "Sights within 10 km of the driven route (OSM) or 25 km (Rexby, iceland-dream). planned=true means it is already a stop; pick=true means a curated guide lists it.",
+ "count": 950,
  "items": [
+  {
+   "id": "x0hh-bwNBSNiz2W6tEPVL0g",
+   "name": "Bird-watching house/photoshop",
+   "lat": 64.84063,
+   "lng": -13.95064,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.0,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
   {
    "id": "n2964264951",
    "name": "Bones and stones museum - gift shop",
@@ -52,6 +69,48 @@
    "website": "https://www.cavesofhella.is/",
    "email": "info@cavesofhella.is",
    "planned": false
+  },
+  {
+   "id": "xMHLhVlOsStiJgT05KAI2uA",
+   "name": "Coastal road with stunning views",
+   "lat": 64.28397,
+   "lng": -15.0354,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.0,
+     3
+    ],
+    [
+     7.7,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xUG4LMCicReCrbwFVI9496g",
+   "name": "Eerie lava field with caves",
+   "lat": 65.59539,
+   "lng": -16.92004,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     0.0,
+     1
+    ],
+    [
+     5.0,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": false
   },
   {
    "id": "n12915187301",
@@ -110,6 +169,23 @@
    "planned": false
   },
   {
+   "id": "xGhMYPvdDR3q7uvE9WFmn7A",
+   "name": "Great Akureyri town views",
+   "lat": 65.68809,
+   "lng": -18.05177,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     0.0,
+     1
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n1259103338",
    "name": "Hraunfossar",
    "lat": 64.70223,
@@ -141,7 +217,8 @@
    ],
    "town": false,
    "wheelchair": "limited",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n2012971168",
@@ -180,7 +257,25 @@
    "website": "https://www.icelandiclavashow.com/",
    "address": "Víkurbraut 5",
    "wheelchair": "yes",
-   "planned": true
+   "planned": true,
+   "pick": false
+  },
+  {
+   "id": "xq6RlxK7nTBCgysIPO6kwyA",
+   "name": "Iconic mountain with views",
+   "lat": 63.95618,
+   "lng": -17.47871,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     0.0,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n11643168235",
@@ -221,7 +316,8 @@
    "website": "https://www.kotlusetur.is/",
    "hours": "Nov 1-Apr 30: Mo-Su 12:00-16:00; May 1-Oct 31: Mo-Sa 10:00-17:00",
    "wheelchair": "yes",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "w93262550",
@@ -337,6 +433,23 @@
    ],
    "town": true,
    "planned": false
+  },
+  {
+   "id": "x_nQVhYmyTTGv2qNkOJsFOQ",
+   "name": "Scenic coastal road and views",
+   "lat": 64.79812,
+   "lng": -13.89126,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.0,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n365776234",
@@ -482,6 +595,44 @@
    "planned": true
   },
   {
+   "id": "x5IXWlLBSQbSHsCBIqITa2Q",
+   "name": "The view of iconic peak",
+   "lat": 65.58452,
+   "lng": -18.53526,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     0.0,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xV-Sgv0CxRS6m3xZLaJtOTQ",
+   "name": "Tranquil Icelandic waterfall oasis",
+   "lat": 63.85252,
+   "lng": -17.83937,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     0.0,
+     4
+    ],
+    [
+     16.5,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n11985268155",
    "name": "Ufsaklettur",
    "lat": 64.15134,
@@ -505,6 +656,23 @@
    "town": true,
    "website": "https://ferlir.is/ufsaklettur-selsvor-storasel/",
    "planned": false
+  },
+  {
+   "id": "xJoqSA5nvQ8-qOwZc-TdqEw",
+   "name": "Vast black sands",
+   "lat": 63.9484,
+   "lng": -17.41338,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.0,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "r6180675",
@@ -570,7 +738,8 @@
     ]
    ],
    "town": false,
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "w411196882",
@@ -628,7 +797,8 @@
    "town": false,
    "wheelchair": "yes",
    "wikidata": "Q1183213",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n5058302723",
@@ -668,6 +838,27 @@
    "planned": false
   },
   {
+   "id": "xRwKr6CCHS5-2gAnjRKxWUA",
+   "name": "Epic sea views next to the road",
+   "lat": 64.29054,
+   "lng": -15.10332,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.1,
+     3
+    ],
+    [
+     4.7,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n2949851910",
    "name": "Eskey",
    "lat": 64.26366,
@@ -697,7 +888,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n4904504130",
@@ -800,7 +992,8 @@
    "town": false,
    "hours": "24/7",
    "wikidata": "Q966241",
-   "planned": true
+   "planned": true,
+   "pick": false
   },
   {
    "id": "w182891222",
@@ -853,7 +1046,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "r8328494",
@@ -870,6 +1064,44 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "xJyEylYRfStucHMZKXn4x5Q",
+   "name": "Icelandic family farm adventure tours & puffins",
+   "lat": 63.87844,
+   "lng": -16.65882,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     0.1,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xEMcmSbmrSgeBz_OEYxAejQ",
+   "name": "Iconic mountain and black beach",
+   "lat": 64.25494,
+   "lng": -14.99332,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     0.1,
+     3
+    ],
+    [
+     9.9,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": false
   },
   {
    "id": "w518382497",
@@ -1022,6 +1254,52 @@
    "planned": false
   },
   {
+   "id": "xjeulSqRnRrC9Mqs646q4bQ",
+   "name": "Mud baths & Geothermal wonderland near Reykjavík",
+   "lat": 64.02019,
+   "lng": -21.39731,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     0.1,
+     6
+    ],
+    [
+     9.2,
+     7
+    ],
+    [
+     21.3,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xJBeOgPMNTI6fnZpNhlr5xg",
+   "name": "Mysterious giant red chair",
+   "lat": 64.34176,
+   "lng": -14.92731,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     0.1,
+     3
+    ],
+    [
+     14.6,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n13097977338",
    "name": "Read heart in Trafic lights",
    "lat": 65.68245,
@@ -1036,6 +1314,23 @@
    ],
    "town": true,
    "planned": false
+  },
+  {
+   "id": "x5JWCQfKETSu3oZZHf8bPbA",
+   "name": "Relaxing park with duck pond",
+   "lat": 64.47641,
+   "lng": -14.4936,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     0.1,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n580916853",
@@ -1113,6 +1408,40 @@
    "planned": false
   },
   {
+   "id": "xaom5gseIS22yZqZzOKJMIg",
+   "name": "Scenic black sand beach",
+   "lat": 64.7848,
+   "lng": -14.03713,
+   "kind": "attraction",
+   "cat": "beach",
+   "days": [
+    [
+     0.1,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xz-ZzCU_tSyeJkKWOq9JGxA",
+   "name": "Scenic orange lighthouse",
+   "lat": 64.40233,
+   "lng": -14.54014,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.1,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
    "id": "n4725831289",
    "name": "Skaftáreldahraun",
    "lat": 63.7458,
@@ -1130,7 +1459,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n3101274402",
@@ -1294,7 +1624,8 @@
    "phone": "+3545255754",
    "website": "https://tonlistarsafn.is/",
    "address": "Arngrímsgata 3, Reykjavík",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n3440728286",
@@ -1311,6 +1642,27 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "xg3muNqOWTMeHgrCVBXEEDA",
+   "name": "Viewpoint & beach",
+   "lat": 64.32101,
+   "lng": -14.94474,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.1,
+     3
+    ],
+    [
+     12.9,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n8587167815",
@@ -1386,7 +1738,8 @@
    "town": false,
    "hours": "Jan 01-May 25: Mo-Su 08:00-22:00; May 26-Jun 29: Mo-Su 07:00-23:00; Jun 30-Aug 20: Mo-Su 07:00-24:00; Aug 21-Oct 01: Mo-Su 08:00-22:00; Oct 02-Dec 31: Mo-Su 08:00-21:00",
    "wheelchair": "yes",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "w411196899",
@@ -1405,6 +1758,23 @@
    "planned": true
   },
   {
+   "id": "n458113178",
+   "name": "Dverghamrar",
+   "lat": 63.84901,
+   "lng": -17.86095,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.2,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "w411196901",
    "name": "Dverghamrar",
    "lat": 63.84942,
@@ -1419,22 +1789,6 @@
    ],
    "town": false,
    "wikidata": "Q3041840",
-   "planned": false
-  },
-  {
-   "id": "n458113178",
-   "name": "Dverghamrar",
-   "lat": 63.84901,
-   "lng": -17.86095,
-   "kind": "attraction",
-   "cat": "attraction",
-   "days": [
-    [
-     0.2,
-     4
-    ]
-   ],
-   "town": false,
    "planned": false
   },
   {
@@ -1488,7 +1842,8 @@
     ]
    ],
    "town": false,
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n13841349138",
@@ -1520,7 +1875,8 @@
     ]
    ],
    "town": false,
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n11670453169",
@@ -1537,6 +1893,31 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "x03zPQj8eRyiz2cWzgtbViQ",
+   "name": "Iceland's largest shopping center",
+   "lat": 64.10115,
+   "lng": -21.88311,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.2,
+     0
+    ],
+    [
+     3.1,
+     6
+    ],
+    [
+     3.1,
+     7
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n13834016130",
@@ -1571,7 +1952,8 @@
    "website": "https://kerid.is/",
    "hours": "Mo-Su 10:00-20:00",
    "wikidata": "Q1435393",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n12923880402",
@@ -1657,7 +2039,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n6634238995",
@@ -1690,7 +2073,8 @@
    ],
    "town": false,
    "wikidata": "Q777882",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n2668856706",
@@ -1771,7 +2155,8 @@
    "hours": "Mo-Su 10:00-24:00",
    "email": "info@forestlagoon.is",
    "wheelchair": "yes",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n451727232",
@@ -1952,7 +2337,8 @@
    "address": "Reykjavík",
    "hours": "Mo-Su 10:00-17:00",
    "wikidata": "Q7929434",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "r17808179",
@@ -2084,7 +2470,8 @@
    ],
    "town": false,
    "wheelchair": "limited",
-   "planned": true
+   "planned": true,
+   "pick": false
   },
   {
    "id": "w1229070852",
@@ -2117,7 +2504,8 @@
    ],
    "town": false,
    "wikidata": "Q42514493",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "w420580980",
@@ -2172,6 +2560,23 @@
    "planned": false
   },
   {
+   "id": "n600337361",
+   "name": "Gullfoss",
+   "lat": 64.32764,
+   "lng": -20.12154,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     0.3,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
    "id": "n2051929069",
    "name": "Gullfoss",
    "lat": 64.32661,
@@ -2204,22 +2609,6 @@
    "town": false,
    "wikidata": "Q108199889",
    "planned": false
-  },
-  {
-   "id": "n600337361",
-   "name": "Gullfoss",
-   "lat": 64.32764,
-   "lng": -20.12154,
-   "kind": "attraction",
-   "cat": "viewpoint",
-   "days": [
-    [
-     0.3,
-     7
-    ]
-   ],
-   "town": false,
-   "planned": true
   },
   {
    "id": "n2051930153",
@@ -2273,6 +2662,23 @@
    ],
    "town": false,
    "planned": true
+  },
+  {
+   "id": "xdrJ7zlyhRdyNRHSgYGu-Jw",
+   "name": "Hotspring river & waterfall",
+   "lat": 65.69388,
+   "lng": -18.05935,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     0.3,
+     1
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "r17896936",
@@ -2342,7 +2748,8 @@
    ],
    "town": false,
    "wheelchair": "yes",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n6648374664",
@@ -2363,7 +2770,8 @@
    ],
    "town": false,
    "wikidata": "Q27016698",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "w720033031",
@@ -2419,7 +2827,8 @@
    "phone": "+3544861400",
    "website": "https://www.fontana.is/",
    "hours": "Mo-Su 11:00-21:00",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n9126968467",
@@ -2573,7 +2982,8 @@
    "town": false,
    "wheelchair": "yes",
    "wikidata": "Q216846",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n302686875",
@@ -2650,7 +3060,8 @@
    "website": "https://www.minjasafnid.is/en/david-stefansson",
    "address": "Bjarkarstígur 6",
    "hours": "Jun-Aug 13:00-17:00",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "r7490898",
@@ -2778,7 +3189,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n2534116947",
@@ -2796,7 +3208,8 @@
    "town": false,
    "hours": "24/7",
    "wikidata": "Q5569999",
-   "planned": true
+   "planned": true,
+   "pick": false
   },
   {
    "id": "n5227736663",
@@ -2813,7 +3226,8 @@
    ],
    "town": false,
    "wikidata": "Q1137629",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n2051929076",
@@ -2894,7 +3308,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "w485462238",
@@ -2963,7 +3378,8 @@
    "hours": "Mo-Su 10:00-17:00",
    "wheelchair": "yes",
    "wikidata": "Q3480309",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "w420580954",
@@ -3021,6 +3437,23 @@
    "planned": false
   },
   {
+   "id": "xocKKTy56T0y_ZYKNOikJZQ",
+   "name": "Photogenic orange lighthouse by sea",
+   "lat": 64.87435,
+   "lng": -13.76583,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.4,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n2376735338",
    "name": "Rjúkandi",
    "lat": 65.33358,
@@ -3035,7 +3468,8 @@
    ],
    "town": false,
    "wikidata": "Q62578314",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n11950870780",
@@ -3055,7 +3489,8 @@
     ]
    ],
    "town": false,
-   "planned": true
+   "planned": true,
+   "pick": false
   },
   {
    "id": "n12224137803",
@@ -3117,7 +3552,8 @@
    ],
    "town": false,
    "wikidata": "Q1130718",
-   "planned": true
+   "planned": true,
+   "pick": false
   },
   {
    "id": "n375841652",
@@ -3338,7 +3774,8 @@
    ],
    "town": false,
    "wikidata": "Q307675",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n1359151552",
@@ -3511,6 +3948,23 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "xz3LAJ2oPTDa2Sp2CuJEAww",
+   "name": "Charming historic turf church in Iceland",
+   "lat": 63.90695,
+   "lng": -16.7069,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.5,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n1402824507",
@@ -3700,7 +4154,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n418320646",
@@ -3716,7 +4171,25 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "x57xVSU8oQm2v4REyf1YZkQ",
+   "name": "Hidden waterfall in deep gorge",
+   "lat": 65.44252,
+   "lng": -19.03888,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     0.5,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n10240395961",
@@ -3735,6 +4208,23 @@
    "planned": false
   },
   {
+   "id": "d79",
+   "name": "Jökulsàrgljùfur Park",
+   "lat": 65.94812,
+   "lng": -16.55104,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.5,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n2078167018",
    "name": "Jökulsárlón",
    "lat": 64.05291,
@@ -3749,7 +4239,8 @@
    ],
    "town": false,
    "wheelchair": "limited",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "w109166231",
@@ -3840,7 +4331,8 @@
    "town": false,
    "website": "https://www.east.is/is/stadur/sveinsstekksfoss",
    "wikidata": "Q2479556",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n4778114034",
@@ -3955,7 +4447,8 @@
    ],
    "town": false,
    "wikidata": "Q1546828",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "w411197270",
@@ -4003,7 +4496,8 @@
    "website": "https://vokbaths.is",
    "address": "Egilsstaðir",
    "hours": "Jun 15-Sep 15 10:00-23:00; Sep 16-Jun 14 12:00-22:00",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n13659296574",
@@ -4307,7 +4801,8 @@
    ],
    "town": false,
    "wikidata": "Q210280",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n4278017153",
@@ -4469,7 +4964,8 @@
     ]
    ],
    "town": false,
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n10901083400",
@@ -4493,7 +4989,8 @@
     ]
    ],
    "town": true,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n312467170",
@@ -4514,7 +5011,8 @@
    ],
    "town": false,
    "hours": "Mo-Fr 09:00-18:00; Sa,Su 10:00-17:00",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n1828885718",
@@ -4534,7 +5032,8 @@
     ]
    ],
    "town": false,
-   "planned": true
+   "planned": true,
+   "pick": false
   },
   {
    "id": "w523729265",
@@ -4632,7 +5131,8 @@
    "hours": "Mo-We 10:00-17:00; Th 10:00-22:00; Fr-Su 10:00-17:00",
    "wheelchair": "yes",
    "wikidata": "Q3358410",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n11670590684",
@@ -4721,7 +5221,33 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d245",
+   "name": "Reykjavik's Top Museums",
+   "lat": 64.13244,
+   "lng": -21.8569,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.6,
+     6
+    ],
+    [
+     0.6,
+     7
+    ],
+    [
+     1.1,
+     0
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w1228205522",
@@ -4829,7 +5355,8 @@
    "town": false,
    "wheelchair": "limited",
    "wikidata": "Q107370",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n1296109270",
@@ -4846,7 +5373,8 @@
    ],
    "town": false,
    "wheelchair": "yes",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n7119519062",
@@ -4954,7 +5482,8 @@
     ]
    ],
    "town": false,
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n12346076898",
@@ -5536,7 +6065,25 @@
    "town": false,
    "phone": "+3544708000",
    "website": "https://www.south.is/en/service/svavarssafn-svavar-gudnason-art-museum",
-   "planned": false
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xYc31ot_fQ9ujPLjT3uarPw",
+   "name": "Unique rock formations in Vesturdalur Valley",
+   "lat": 65.93556,
+   "lng": -16.55778,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     0.7,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n11670590671",
@@ -5729,6 +6276,27 @@
    "planned": false
   },
   {
+   "id": "xe0k-MzM_Sy-5T_yEUwDzhQ",
+   "name": ",,Fake'' Viking village in Iceland",
+   "lat": 64.26057,
+   "lng": -14.98534,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.8,
+     3
+    ],
+    [
+     10.2,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n11670283067",
    "name": "Breiðholtsfoss",
    "lat": 64.10896,
@@ -5837,7 +6405,8 @@
    "website": "https://www.south.is/en/moya/toy/index/place/dyrholaey",
    "wheelchair": "limited",
    "wikidata": "Q968999",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n4782356630",
@@ -5853,7 +6422,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n13791603351",
@@ -5945,6 +6515,23 @@
    "planned": false
   },
   {
+   "id": "x-vq27XShRoqbuPWfu4aAVg",
+   "name": "Forested canyon in North Iceland",
+   "lat": 66.01777,
+   "lng": -16.50554,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.8,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
    "id": "w165454079",
    "name": "Gelgjutangi",
    "lat": 64.13158,
@@ -5968,6 +6555,23 @@
    "town": true,
    "wikidata": "Q16425048",
    "planned": false
+  },
+  {
+   "id": "x8GZqz2QfTJypDuPr6M5imw",
+   "name": "Glacier paradise near Skaftafell",
+   "lat": 63.99999,
+   "lng": -16.89341,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.8,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n11918616737",
@@ -6048,7 +6652,8 @@
    ],
    "town": false,
    "wikidata": "Q62512197",
-   "planned": true
+   "planned": true,
+   "pick": false
   },
   {
    "id": "w415349860",
@@ -6130,7 +6735,8 @@
    ],
    "town": true,
    "hours": "24/7",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "r3288865",
@@ -6221,7 +6827,8 @@
    "town": false,
    "phone": "+3544878845",
    "website": "https://www.skogasafn.is/",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "w1228205109",
@@ -6281,7 +6888,8 @@
     ]
    ],
    "town": false,
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "w224676317",
@@ -6428,7 +7036,8 @@
     ]
    ],
    "town": false,
-   "planned": true
+   "planned": true,
+   "pick": false
   },
   {
    "id": "w1376088953",
@@ -6494,7 +7103,8 @@
    "email": "info@jardbodin.is",
    "wheelchair": "yes",
    "wikidata": "Q140586475",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n317269844",
@@ -6627,7 +7237,8 @@
     ]
    ],
    "town": true,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "w302022139",
@@ -7156,7 +7767,8 @@
    ],
    "town": false,
    "wikidata": "Q115474765",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n1817672135",
@@ -7307,7 +7919,8 @@
    "town": true,
    "website": "https://borgarsogusafn.is/sites/borgarsogusafn.is/files/atoms/files/skilti_2015_franski_spitalinn_web.pdf",
    "address": "Lindargata 51, Reykjavík",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n12718028237",
@@ -7551,6 +8164,23 @@
    "planned": true
   },
   {
+   "id": "x5a41qdZ9S-a1S-_mXpxx-g",
+   "name": "Stunning mountain ridge",
+   "lat": 64.44583,
+   "lng": -14.53389,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.1,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n2932404108",
    "name": "Systrafoss",
    "lat": 63.78749,
@@ -7569,7 +8199,8 @@
    ],
    "town": false,
    "wikidata": "Q279439",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w109660543",
@@ -7685,6 +8316,23 @@
    "planned": false
   },
   {
+   "id": "xlmlgzEGYQdWrmrfECdAEJQ",
+   "name": "Fjallsjökull view point",
+   "lat": 64.01101,
+   "lng": -16.38857,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.2,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n2478508762",
    "name": "Hlauptungufoss",
    "lat": 64.25343,
@@ -7772,7 +8420,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n600387786",
@@ -7792,7 +8441,29 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d298",
+   "name": "The Krysuvikurberg Cliffs",
+   "lat": 63.84451,
+   "lng": -22.08746,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.2,
+     7
+    ],
+    [
+     18.8,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w1101950520",
@@ -7981,7 +8652,8 @@
    ],
    "town": false,
    "wikidata": "Q2683317",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n11670453086",
@@ -8031,6 +8703,23 @@
    "town": false,
    "wikidata": "Q1145786",
    "planned": false
+  },
+  {
+   "id": "d356",
+   "name": "The Golden Circle in Iceland",
+   "lat": 64.23698,
+   "lng": -20.60574,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.3,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n9848364008",
@@ -8129,7 +8818,8 @@
    ],
    "town": false,
    "wikidata": "Q16419338",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n312467164",
@@ -8256,7 +8946,25 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "d268",
+   "name": "The Rauðholar Hiking Trail",
+   "lat": 65.95026,
+   "lng": -16.59448,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     1.4,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n601043669",
@@ -8322,6 +9030,23 @@
    ],
    "town": true,
    "planned": false
+  },
+  {
+   "id": "xR-9VzCVXSpC2_oua5lv0ZQ",
+   "name": "Beautiful ",
+   "lat": 65.79838,
+   "lng": -16.38271,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     1.5,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n4368453097",
@@ -8424,6 +9149,23 @@
    "planned": false
   },
   {
+   "id": "x8HkeJFMKQRaSEciWxggXJw",
+   "name": "Roadside waterfall near Seyðisfjörður",
+   "lat": 64.75779,
+   "lng": -14.50977,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     1.5,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n3241056478",
    "name": "Stokksnes",
    "lat": 64.24367,
@@ -8437,7 +9179,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n5391228521",
@@ -8454,7 +9197,8 @@
    ],
    "town": false,
    "wikidata": "Q14530276",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "w1101950521",
@@ -8548,7 +9292,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n6511485673",
@@ -8663,6 +9408,27 @@
    "planned": false
   },
   {
+   "id": "d293",
+   "name": "Mývatn: your ultimate guide for lakeside activities",
+   "lat": 65.60319,
+   "lng": -17.14508,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.6,
+     1
+    ],
+    [
+     11.6,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n600148687",
    "name": "Selfoss",
    "lat": 65.80476,
@@ -8680,6 +9446,23 @@
    "planned": false
   },
   {
+   "id": "xp_OjaGUIRpWca_N5DJ85MA",
+   "name": "Small public pool near Borgarnes",
+   "lat": 64.53746,
+   "lng": -21.70249,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     1.6,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n6611688983",
    "name": "Snædalsfoss",
    "lat": 64.64307,
@@ -8693,7 +9476,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "r13563181",
@@ -8775,7 +9559,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n5695085648",
@@ -8815,7 +9600,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n1893548096",
@@ -8973,6 +9759,23 @@
    "planned": false
   },
   {
+   "id": "x_aIuzwzFTXyA2hbHjLDajQ",
+   "name": "Black sand beach near Djúpivogur",
+   "lat": 64.63761,
+   "lng": -14.29359,
+   "kind": "attraction",
+   "cat": "beach",
+   "days": [
+    [
+     1.8,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n415505782",
    "name": "Brúarfoss",
    "lat": 64.26424,
@@ -8988,7 +9791,8 @@
    "town": false,
    "wheelchair": "limited",
    "wikidata": "Q2557346",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n4906583837",
@@ -9062,6 +9866,44 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "xy_ulklc8QCyOiKBFLHm80Q",
+   "name": "Scenic viewpoint",
+   "lat": 65.48886,
+   "lng": -20.35829,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.8,
+     0
+    ],
+    [
+     17.0,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d379",
+   "name": "Svínafellsjökull glacier",
+   "lat": 64.00853,
+   "lng": -16.88254,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.8,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w411197242",
@@ -9211,6 +10053,27 @@
    "planned": false
   },
   {
+   "id": "x-6HAa6RnQLSGfgyLBuV87w",
+   "name": "Lighthouse and small peninsula to explore",
+   "lat": 63.82635,
+   "lng": -22.40651,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.9,
+     7
+    ],
+    [
+     15.1,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n2329925623",
    "name": "Náttúrufræðistofa Kópavogs",
    "lat": 64.11169,
@@ -9341,7 +10204,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n11670453084",
@@ -9615,6 +10479,27 @@
    "town": false,
    "wikidata": "Q27008747",
    "planned": false
+  },
+  {
+   "id": "x34pXNZ2ZQHysiQpx60fF0Q",
+   "name": "Dramatic coastal formations",
+   "lat": 63.8346,
+   "lng": -22.09245,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     2.2,
+     7
+    ],
+    [
+     19.7,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "r6149198",
@@ -9916,7 +10801,8 @@
    "website": "https://www.skylagoon.com/",
    "hours": "Mo-Th 13:00-20:00; Fr 13:00-21:00; Sa 10:00-21:00",
    "wikidata": "Q108179001",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n270937045",
@@ -9936,7 +10822,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "w226389149",
@@ -9982,6 +10869,23 @@
    ],
    "town": true,
    "planned": false
+  },
+  {
+   "id": "d228",
+   "name": "Akureyri: guide to the northern capital",
+   "lat": 65.66818,
+   "lng": -18.13573,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     2.4,
+     1
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n5188870989",
@@ -10076,6 +10980,27 @@
    "planned": false
   },
   {
+   "id": "x8OgaktbbTKKn464VWNg0yQ",
+   "name": "Oldest Icelandic pool",
+   "lat": 63.55757,
+   "lng": -19.62388,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     2.4,
+     6
+    ],
+    [
+     12.4,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n32188627",
    "name": "Rauðárfoss",
    "lat": 63.77737,
@@ -10130,6 +11055,23 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "xZlNhF8Y9RXaxcWBvXf0u3w",
+   "name": "Skaftafell Glacier",
+   "lat": 64.0268,
+   "lng": -16.91719,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     2.4,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "r8328665",
@@ -10261,7 +11203,8 @@
    ],
    "town": false,
    "wheelchair": "yes",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n6655904189",
@@ -10346,7 +11289,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n9848374160",
@@ -10605,6 +11549,23 @@
    "planned": false
   },
   {
+   "id": "xyIp1MNceQQGPDHgF1xtVAw",
+   "name": "Mountain lake hike",
+   "lat": 65.5673,
+   "lng": -18.60353,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     2.7,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n3062562829",
    "name": "Selvaðsfoss",
    "lat": 63.54016,
@@ -10673,7 +11634,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n4388664634",
@@ -10745,7 +11707,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n312689624",
@@ -10815,6 +11778,27 @@
    "town": true,
    "wikidata": "Q27016392",
    "planned": false
+  },
+  {
+   "id": "xc9sBbI8IQKSQLHCDaDKLXw",
+   "name": "Stone 19th-century church",
+   "lat": 65.55467,
+   "lng": -20.4046,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     2.9,
+     0
+    ],
+    [
+     13.9,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n336110959",
@@ -10917,7 +11901,8 @@
    ],
    "town": false,
    "wikidata": "Q2522984",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n4016646490",
@@ -10938,7 +11923,8 @@
    ],
    "town": false,
    "wikidata": "Q24297011",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n4388664633",
@@ -10970,7 +11956,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n4313417475",
@@ -11106,7 +12093,8 @@
     ]
    ],
    "town": true,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n4313417476",
@@ -11127,6 +12115,27 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "x9JaO9DzGR3OImy7j8RRhMQ",
+   "name": "Sheep/horse roundup ring",
+   "lat": 65.72662,
+   "lng": -20.16008,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     3.2,
+     0
+    ],
+    [
+     3.2,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n12397824852",
@@ -11403,7 +12412,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n4702109263",
@@ -11424,7 +12434,8 @@
    ],
    "town": false,
    "hours": "24/7",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "r17338008",
@@ -11500,6 +12511,27 @@
    "planned": false
   },
   {
+   "id": "d407",
+   "name": "Lagarfljót : Lögurinn lake",
+   "lat": 65.17427,
+   "lng": -14.62843,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     3.6,
+     2
+    ],
+    [
+     3.6,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n4313417465",
    "name": "Mud Pot",
    "lat": 64.0532,
@@ -11534,7 +12566,8 @@
    ],
    "town": false,
    "wikidata": "Q7448515",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w306741524",
@@ -11675,7 +12708,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n11670453143",
@@ -11692,6 +12726,23 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "xu1Y_bBU7S-iRpJFpAHu6AA",
+   "name": "Hidden glacier lagoon in Iceland",
+   "lat": 64.05417,
+   "lng": -16.36639,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     3.7,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n13610741027",
@@ -12008,6 +13059,23 @@
    "planned": false
   },
   {
+   "id": "xxUfarhAyRGOkRbSDuIK4uQ",
+   "name": "Hidden local gem",
+   "lat": 65.62912,
+   "lng": -18.57818,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     3.9,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n11389849343",
    "name": "Hólkot",
    "lat": 64.24836,
@@ -12059,6 +13127,27 @@
    ],
    "town": true,
    "planned": false
+  },
+  {
+   "id": "xs_FYGMSsRtW51q4mZ9WoIw",
+   "name": "Colorful canyon trail in Iceland",
+   "lat": 64.44641,
+   "lng": -14.94538,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     4.0,
+     3
+    ],
+    [
+     22.2,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n4949148121",
@@ -12211,7 +13300,8 @@
    "website": "https://laugaraslagoon.is/is",
    "address": "Skálholtsvegur 1, Selfoss",
    "hours": "Mo-Su 10:00-21:00",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n4313417460",
@@ -12327,7 +13417,8 @@
     ]
    ],
    "town": false,
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n11389849346",
@@ -12360,6 +13451,23 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "d491",
+   "name": "The Eyvindarholt DC-3 Airplane Wreckage",
+   "lat": 63.64872,
+   "lng": -19.9362,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     4.3,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n11670590681",
@@ -12493,7 +13601,8 @@
    ],
    "town": false,
    "wikidata": "Q26208950",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "r17338017",
@@ -12583,7 +13692,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n11670590675",
@@ -12660,6 +13770,44 @@
    ],
    "town": true,
    "planned": false
+  },
+  {
+   "id": "xDKGmnbVZR96KuTFd8OX4GA",
+   "name": "Charming lighthouse with scenic views",
+   "lat": 65.7441,
+   "lng": -18.09116,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     4.7,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xckLImBARTnmw3OYHdLQ-OQ",
+   "name": "Charming stone church in Iceland",
+   "lat": 63.98991,
+   "lng": -22.73583,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     4.7,
+     7
+    ],
+    [
+     10.7,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "w411196829",
@@ -12875,7 +14023,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n6436805033",
@@ -12958,6 +14107,82 @@
    "planned": false
   },
   {
+   "id": "xRBAp-nWwQ0aXzU9060iF-g",
+   "name": "Húsafell Canyon Baths",
+   "lat": 64.69926,
+   "lng": -20.86858,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     5.2,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "x8No5PnvAQ_C4dxuwemG7gQ",
+   "name": "Quiet lighthouse",
+   "lat": 63.97094,
+   "lng": -22.75229,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     5.2,
+     7
+    ],
+    [
+     11.3,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d251",
+   "name": "The Sjonarnipa-Sjonarsker Hiking Trail",
+   "lat": 64.04774,
+   "lng": -16.88069,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     5.2,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "d313",
+   "name": "Vindbelgjarfjall Hiking Trail",
+   "lat": 65.62505,
+   "lng": -17.06793,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     5.2,
+     1
+    ],
+    [
+     7.3,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n4363604853",
    "name": "Sandfell",
    "lat": 63.87172,
@@ -12988,7 +14213,8 @@
    ],
    "town": false,
    "wikidata": "Q2279586",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n7809422777",
@@ -13020,7 +14246,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n11670362367",
@@ -13271,7 +14498,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n4748565543",
@@ -13331,7 +14559,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "w411197276",
@@ -13422,6 +14651,23 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "d81",
+   "name": "Skaftafell : hiking in the park",
+   "lat": 64.07056,
+   "lng": -16.97516,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     6.0,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n5757363345",
@@ -13590,7 +14836,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n2156045035",
@@ -13736,6 +14983,27 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "xdGFZvDjsQD-4ahZ_LZJTIw",
+   "name": "Hidden lighthouse in Keflavík",
+   "lat": 64.03045,
+   "lng": -22.55704,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     6.5,
+     7
+    ],
+    [
+     6.7,
+     0
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n2949851913",
@@ -13955,7 +15223,8 @@
    ],
    "town": false,
    "address": "Glaumbæjarkirkja",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "w431230441",
@@ -14032,7 +15301,42 @@
    "town": false,
    "website": "https://www.akranes.is/pages/thjonusta/ithrottir-og-tomstundir/ithrottamannvirki/sundlaugar/",
    "hours": "Mo-Fr 06:30-21:00; Sa-Su 09:00-18:00",
-   "planned": false
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xzxAdZ4fvSqya1QT6F9iGQA",
+   "name": "Stunning coastal landscape in Iceland",
+   "lat": 64.92428,
+   "lng": -13.68458,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     7.1,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d252",
+   "name": "The Kristinartindar Hiking Trail in Skaftafell",
+   "lat": 64.07794,
+   "lng": -16.92472,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     7.1,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n12695479965",
@@ -14065,6 +15369,27 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "d145",
+   "name": "Hallormsstaður forrest",
+   "lat": 65.13893,
+   "lng": -14.67965,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     7.2,
+     2
+    ],
+    [
+     7.2,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w411196939",
@@ -14122,6 +15447,27 @@
    "town": false,
    "wikidata": "Q1737932",
    "planned": false
+  },
+  {
+   "id": "d94",
+   "name": "The Reykjanes Peninsula",
+   "lat": 63.91966,
+   "lng": -22.15973,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     7.3,
+     7
+    ],
+    [
+     9.7,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "r8328529",
@@ -14189,7 +15535,42 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "x6IbOGJ5FTyyD3N0uwm42Yw",
+   "name": "Möðrudalur/Fjalladýrð",
+   "lat": 65.37406,
+   "lng": -15.88327,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     7.4,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xG2zS68tkT6W4h9AElqY0Dg",
+   "name": "Scenic mountain pass in Iceland",
+   "lat": 65.80668,
+   "lng": -17.97249,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     7.4,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n12513918526",
@@ -14206,6 +15587,31 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "x9K6blNKYTLe5TekZpWYTYA",
+   "name": "Hidden fissure",
+   "lat": 63.95726,
+   "lng": -22.07976,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     7.5,
+     0
+    ],
+    [
+     11.3,
+     7
+    ],
+    [
+     21.1,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "r8328389",
@@ -14237,7 +15643,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "r16568695",
@@ -14257,7 +15664,8 @@
    "website": "https://secretlagoon.is/",
    "address": "Hvammsvegur, Flúðir",
    "hours": "Oct 1-May 31 11:00-20:00; Jun 1- Sep 30 10:00-22:00",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "r9692771",
@@ -14362,6 +15770,23 @@
    "planned": false
   },
   {
+   "id": "xSpVZNrlQRhGs0zfSSSgANg",
+   "name": "Volcanic crater with stunning views",
+   "lat": 64.78167,
+   "lng": -21.56222,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     7.7,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n11670362363",
    "name": "Drangur",
    "lat": 64.59148,
@@ -14429,6 +15854,23 @@
    "planned": false
   },
   {
+   "id": "xXc35WrGbTWuzd-c8RmeBsg",
+   "name": "Stunning waterfall",
+   "lat": 64.97408,
+   "lng": -13.87947,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     8.1,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n2443293303",
    "name": "Leirhnjúkur",
    "lat": 65.72127,
@@ -14446,7 +15888,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n4313417470",
@@ -14616,6 +16059,23 @@
    "planned": false
   },
   {
+   "id": "xcqk6Faw7QCOQyNwd2QtSHA",
+   "name": "Scenic adventure drive to the glacier",
+   "lat": 64.25493,
+   "lng": -15.88018,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     8.4,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n2990889841",
    "name": "Brimketill",
    "lat": 63.81935,
@@ -14629,7 +16089,25 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d263",
+   "name": "Glaumbaer and Viðimyri",
+   "lat": 65.62369,
+   "lng": -19.52708,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     8.5,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n4313417473",
@@ -14681,6 +16159,31 @@
    "planned": false
   },
   {
+   "id": "xoDl7amg1SWiQWbrJgFi8Sg",
+   "name": "Epic hiking at Reykjanes",
+   "lat": 63.93237,
+   "lng": -22.10078,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     8.6,
+     7
+    ],
+    [
+     9.6,
+     0
+    ],
+    [
+     24.0,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n2589629902",
    "name": "Háaleitisfoss",
    "lat": 65.57307,
@@ -14726,7 +16229,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "r13007608",
@@ -14746,6 +16250,48 @@
    "planned": false
   },
   {
+   "id": "xybFFBUomRHqqJuLMkIJCPg",
+   "name": "Mysterious disappearing lake",
+   "lat": 63.93001,
+   "lng": -21.99454,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     8.7,
+     7
+    ],
+    [
+     12.0,
+     0
+    ],
+    [
+     22.0,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xuDyZAHVQSfaGqMeUZNkk3w",
+   "name": "Hidden ravine and waterfall",
+   "lat": 63.67388,
+   "lng": -19.85898,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     8.8,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n765396307",
    "name": "Ingólfshöfði",
    "lat": 63.8006,
@@ -14760,7 +16306,25 @@
    ],
    "town": false,
    "wheelchair": "limited",
-   "planned": false
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "d409",
+   "name": "Papey: The Puffin Island",
+   "lat": 64.59156,
+   "lng": -14.17691,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     8.8,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n1900845723",
@@ -14778,7 +16342,50 @@
    "town": false,
    "website": "https://insidethevolcano.com/",
    "wikidata": "Q335699",
-   "planned": false
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xS_jgAEwxQMGvUBD4ozbqpA",
+   "name": "Nature lovers' paradise in Iceland",
+   "lat": 65.12343,
+   "lng": -14.69795,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     8.9,
+     2
+    ],
+    [
+     8.9,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "x5lh3E8kXTde0vm2yHonYtQ",
+   "name": "Volcanic mountain with historic refuge",
+   "lat": 63.52278,
+   "lng": -18.77694,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     9.0,
+     5
+    ],
+    [
+     14.6,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "w38290957",
@@ -14795,7 +16402,8 @@
    ],
    "town": false,
    "wikidata": "Q64158851",
-   "planned": true
+   "planned": true,
+   "pick": false
   },
   {
    "id": "n3440728168",
@@ -14848,6 +16456,48 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "xkITSLWANR16IliCDkPRtKw",
+   "name": "Top of mountain pass",
+   "lat": 65.16376,
+   "lng": -14.14444,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     9.2,
+     3
+    ],
+    [
+     16.4,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xbNPDXQvTTDS1R3cizmgh2A",
+   "name": "One of lesser known cliffs",
+   "lat": 63.88138,
+   "lng": -22.73696,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     9.3,
+     7
+    ],
+    [
+     14.3,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   },
   {
    "id": "r6149202",
@@ -14936,6 +16586,31 @@
    "planned": false
   },
   {
+   "id": "d495",
+   "name": "The Nesjavellir Hike",
+   "lat": 64.10653,
+   "lng": -21.27199,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     9.5,
+     6
+    ],
+    [
+     11.4,
+     7
+    ],
+    [
+     20.5,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n418774351",
    "name": "Grenjaðarstaður",
    "lat": 65.82071,
@@ -14984,6 +16659,48 @@
    "planned": false
   },
   {
+   "id": "d269",
+   "name": "The Leirhnjukur Hiking Trail",
+   "lat": 65.73404,
+   "lng": -16.78841,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     9.6,
+     2
+    ],
+    [
+     11.1,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "d471",
+   "name": "The Remundargil Canyon in Þakgil",
+   "lat": 63.52329,
+   "lng": -18.85644,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     9.6,
+     5
+    ],
+    [
+     11.7,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "w1482242649",
    "name": "Tóftir fjárhúss og garðs",
    "lat": 63.74984,
@@ -15014,7 +16731,8 @@
    ],
    "town": false,
    "website": "https://www.hrunalaug.is/",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n11670453083",
@@ -15033,6 +16751,23 @@
    "planned": false
   },
   {
+   "id": "xup2oO9_GQ1C2BYVeBt1-EA",
+   "name": "Hvannadalshnúkur",
+   "lat": 64.01466,
+   "lng": -16.67489,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     9.8,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "r8082258",
    "name": "Hólmanes",
    "lat": 65.04763,
@@ -15046,7 +16781,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n11670452696",
@@ -15079,7 +16815,8 @@
    ],
    "town": false,
    "wikidata": "Q2723928",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "r13264047",
@@ -15131,6 +16868,23 @@
    "planned": false
   },
   {
+   "id": "xJH1dfUwgQKGyK_6OAZ8aPw",
+   "name": "Gateway to Westman Islands",
+   "lat": 63.53027,
+   "lng": -20.11749,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     10.0,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
    "id": "n1317885948",
    "name": "Jólagarðurinn",
    "lat": 65.58011,
@@ -15162,6 +16916,1382 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "xfvg4K6pcRO-8g-1V3OTnqQ",
+   "name": "Hidden hiking paradise",
+   "lat": 63.52922,
+   "lng": -18.88383,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     10.3,
+     5
+    ],
+    [
+     11.2,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xNCLzhF9cSsSO1bp5ua2S-w",
+   "name": "Tectonic plates meet in Sandvík",
+   "lat": 63.85686,
+   "lng": -22.69623,
+   "kind": "attraction",
+   "cat": "beach",
+   "days": [
+    [
+     10.6,
+     7
+    ],
+    [
+     15.1,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d397",
+   "name": "The Fimmvörðuháls Trek",
+   "lat": 63.62153,
+   "lng": -19.44971,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     10.6,
+     6
+    ],
+    [
+     11.0,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "x0W9QnYeeT_O9GL4-jvPW5g",
+   "name": "Old wooden ship wreck on black sand beach",
+   "lat": 63.53292,
+   "lng": -20.1452,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     10.7,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xWq2iANQqQwix_3rCEubwOQ",
+   "name": "Geothermal tubs near Höfn",
+   "lat": 64.39234,
+   "lng": -15.34303,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     11.0,
+     4
+    ],
+    [
+     14.3,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "x3oZcCqSJSvG3DEJDRb5AoA",
+   "name": "Hvammsvik Nature resort & Hot Springs",
+   "lat": 64.36911,
+   "lng": -21.57474,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     11.0,
+     0
+    ],
+    [
+     19.0,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xfc80ULBiSkiJ6KksITnQJg",
+   "name": "Remote beauty in Icelandic highlands",
+   "lat": 63.86864,
+   "lng": -18.24647,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     11.4,
+     5
+    ],
+    [
+     12.6,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xty_kM16cTPujN_ZpVCJTXw",
+   "name": "Views over the fjord",
+   "lat": 65.17935,
+   "lng": -14.09853,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     11.4,
+     3
+    ],
+    [
+     17.2,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xMmnQ0tU6RVuFxT2Ds_sp1A",
+   "name": "Cozy hot tub next to old herring factory",
+   "lat": 65.85086,
+   "lng": -18.19282,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     11.5,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xHnhFUbMhQIicbGAzVqtx7w",
+   "name": "Unique two-tiered Icelandic waterfall",
+   "lat": 63.72093,
+   "lng": -19.89258,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     11.5,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xbmaXL9QCRyaVmt4ZqbsjUg",
+   "name": "Hvammsvik Hot Springs",
+   "lat": 64.37357,
+   "lng": -21.56433,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     11.6,
+     0
+    ],
+    [
+     19.3,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xDQ1U9K6KQ-Sa1rzbd_3HMQ",
+   "name": "Geothermal area",
+   "lat": 63.81918,
+   "lng": -22.68473,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     12.0,
+     7
+    ],
+    [
+     18.4,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": false
+  },
+  {
+   "id": "xf82s2rsqTEqqjbw4hhnTzQ",
+   "name": "Scenic lighthouse near the airport",
+   "lat": 64.08295,
+   "lng": -22.69365,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     12.2,
+     7
+    ],
+    [
+     14.9,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xi9ZHZ11WSm-_pWjtTzcerA",
+   "name": "Secluded seven-tier waterfall in Iceland",
+   "lat": 65.17946,
+   "lng": -14.0813,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     12.2,
+     3
+    ],
+    [
+     17.9,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "x2U1SlVfuQOm_uHyOvoedCQ",
+   "name": "Charming Icelandic timber church",
+   "lat": 65.65661,
+   "lng": -19.56196,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     12.5,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xC34vfsg0R1qbf-NNev39vA",
+   "name": "Stuðlagil",
+   "lat": 65.18438,
+   "lng": -15.258,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     12.7,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xNx1riuP_S8GeqVmewg14lA",
+   "name": "Breathtaking panoramic hike from þakgil",
+   "lat": 63.5634,
+   "lng": -18.94892,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     12.9,
+     5
+    ],
+    [
+     12.9,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xRJLg8_UYRw67KVinNnb0Tg",
+   "name": "Valahnúkamöl",
+   "lat": 63.8125,
+   "lng": -22.71562,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     13.6,
+     7
+    ],
+    [
+     19.8,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
+   "id": "xTZZWP01BR9-iYY_8emxVZA",
+   "name": "Roadside waterfall near Egilsstaðir",
+   "lat": 65.2399,
+   "lng": -14.05758,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     13.7,
+     3
+    ],
+    [
+     16.7,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xVt3oMaz1SRSWqGDBn5qIIQ",
+   "name": "Glacial beauty in Southeast Iceland",
+   "lat": 64.41805,
+   "lng": -15.3978,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     13.9,
+     4
+    ],
+    [
+     18.1,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xXIRzDGd3RS6fga2xtcQ5Rg",
+   "name": "Spectacular waterfall in the canyon",
+   "lat": 64.39112,
+   "lng": -21.25174,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     14.5,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xGf5CLWmQSSGUBJ_BOZ7FCg",
+   "name": "Hvítserkur",
+   "lat": 65.60638,
+   "lng": -20.63524,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     14.8,
+     0
+    ],
+    [
+     18.4,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "x8X9A9jqjQQ2p9lc4Fw6HIw",
+   "name": "Mystical lava caves in Iceland",
+   "lat": 64.78151,
+   "lng": -20.72382,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     14.9,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d420",
+   "name": "Skeiðarársandur",
+   "lat": 63.80943,
+   "lng": -16.97503,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     15.3,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xYPfMRStZRz2OO_fmAupIqA",
+   "name": "A Fjord's Historic Wreck",
+   "lat": 65.19134,
+   "lng": -14.01091,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     15.5,
+     3
+    ],
+    [
+     20.3,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xcqLnalmVTu6xrjHiJIFCmQ",
+   "name": "Ash covered glacier tongue",
+   "lat": 63.68132,
+   "lng": -19.62845,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     15.5,
+     6
+    ],
+    [
+     20.9,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xmpzf8nAAT8yNZKlsIc8UkQ",
+   "name": "Mystical canyon hike with waterfall",
+   "lat": 63.67491,
+   "lng": -19.55739,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     15.5,
+     6
+    ],
+    [
+     18.5,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xBTowntd3SQqn6HQ5GqLrqA",
+   "name": "Small lighthouse with nice views",
+   "lat": 65.48551,
+   "lng": -20.9881,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     15.6,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xGQh6lIwGSK6u-mx3UloX-g",
+   "name": "Skiing area & scenic road",
+   "lat": 65.06783,
+   "lng": -13.89348,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     15.7,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xekg5L_B3R3Sx2JZ9nmBEfw",
+   "name": "Short steep hike with rewarding canyon views",
+   "lat": 63.67416,
+   "lng": -19.50958,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     15.9,
+     6
+    ],
+    [
+     17.5,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xV4UjvgcFQMSWto0HSfq3kg",
+   "name": "Unknown gem next to the road",
+   "lat": 64.35309,
+   "lng": -21.45189,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     16.0,
+     7
+    ],
+    [
+     16.7,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xqprfSEguQv6CEWHHDgmYkg",
+   "name": "Hidden waterfall by the road",
+   "lat": 65.97188,
+   "lng": -20.38112,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     16.3,
+     0
+    ],
+    [
+     16.3,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xe0LtVZ4MRwqS6zf56etiDw",
+   "name": "Seyðisfjörður",
+   "lat": 65.26412,
+   "lng": -14.00719,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     16.3,
+     3
+    ],
+    [
+     18.8,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "d449",
+   "name": "The Valahnúkur Hiking Trail",
+   "lat": 63.68529,
+   "lng": -19.55125,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     16.7,
+     6
+    ],
+    [
+     19.4,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xgxiFcFNoTQO0IUIc8rKC6g",
+   "name": "Þórsmörk",
+   "lat": 63.68072,
+   "lng": -19.48262,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     16.8,
+     6
+    ],
+    [
+     17.7,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
+   "id": "d378",
+   "name": "The Katla Volcano",
+   "lat": 63.64674,
+   "lng": -19.13904,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     17.0,
+     5
+    ],
+    [
+     20.1,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "d147",
+   "name": "Vatnsnes peninsula",
+   "lat": 65.59066,
+   "lng": -20.74977,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     17.5,
+     0
+    ],
+    [
+     24.0,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xHvp7rL3RQ_yuUKNpPOnEdA",
+   "name": "Charming turf house museum experience",
+   "lat": 65.89405,
+   "lng": -18.07167,
+   "kind": "attraction",
+   "cat": "museum",
+   "days": [
+    [
+     17.6,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xus72geNOSAm3Yg3khoRGEA",
+   "name": "Traditional turf houses in Iceland",
+   "lat": 65.55675,
+   "lng": -14.36697,
+   "kind": "attraction",
+   "cat": "museum",
+   "days": [
+    [
+     17.6,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xxJJbve60RACXtCiIIh9HrQ",
+   "name": "Tiny hot spring close to the road",
+   "lat": 64.5,
+   "lng": -21.21667,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     18.2,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d492",
+   "name": "The Tindfjöll Circle Hiking Trail",
+   "lat": 63.69251,
+   "lng": -19.43824,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     18.4,
+     6
+    ],
+    [
+     18.5,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xb7C1yCMARFaYyafOBeTE_g",
+   "name": "Hengifoss",
+   "lat": 65.16611,
+   "lng": -14.95056,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     18.5,
+     2
+    ],
+    [
+     18.8,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xnFmiOR5XQVCCAelZPXwHNQ",
+   "name": "Litlanesfoss",
+   "lat": 65.08383,
+   "lng": -14.88407,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     18.6,
+     2
+    ],
+    [
+     18.6,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "d163",
+   "name": "Skagi Peninsula",
+   "lat": 65.9948,
+   "lng": -20.18208,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     19.4,
+     0
+    ],
+    [
+     19.4,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xlRT7-uRJQzOJlxe0duYP1A",
+   "name": "A piece of farming history",
+   "lat": 65.19913,
+   "lng": -13.92765,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     19.5,
+     3
+    ],
+    [
+     23.7,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xrM7CF8ORSZGBPFwi8zSUYg",
+   "name": "Sheep gathering fold",
+   "lat": 65.52601,
+   "lng": -20.96501,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     19.6,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d113",
+   "name": "Thórsmörk: Hiking Trails and Panoramic Views",
+   "lat": 63.70282,
+   "lng": -19.42718,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     19.6,
+     5
+    ],
+    [
+     19.6,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xc-iSIZBlQB6TLU7uleTHfg",
+   "name": "Seaside geothermal hot tub relaxation",
+   "lat": 65.9225,
+   "lng": -18.30409,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     19.7,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d456",
+   "name": "The Langjökull Glacier",
+   "lat": 64.64868,
+   "lng": -20.58043,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     19.7,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xgkSBJgvHQo24zAD3u2QlWQ",
+   "name": ",,Long white skirt waterfall''",
+   "lat": 64.45811,
+   "lng": -21.17853,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     20.3,
+     7
+    ],
+    [
+     22.9,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xR_j5TzwUSw-Wykkwuq4XaQ",
+   "name": "Beluga whale sanctuary",
+   "lat": 63.45142,
+   "lng": -20.25244,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     20.8,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xPI6sygBtTCuCTX9wxFswNw",
+   "name": "Challenging hike with rewarding views",
+   "lat": 63.44903,
+   "lng": -20.26408,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     21.3,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xSdyZVs_vTgGRJL7pw4M3dA",
+   "name": "Breathtaking volcanic landscape views",
+   "lat": 63.43658,
+   "lng": -20.22771,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     21.4,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xjT2hWRCBQ-CmZ5LEO5-GQA",
+   "name": "Scenic beach",
+   "lat": 65.89574,
+   "lng": -19.85364,
+   "kind": "attraction",
+   "cat": "beach",
+   "days": [
+    [
+     21.5,
+     0
+    ],
+    [
+     21.5,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xMNDTa_aKQ3GHYeALgbnzQw",
+   "name": "Replica Norwegian stave church",
+   "lat": 63.44434,
+   "lng": -20.26135,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     21.6,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xJLDHzwc-QUCbUrbKgNpE3Q",
+   "name": "Lighthouse & unique geological formations",
+   "lat": 66.01724,
+   "lng": -20.43291,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     21.8,
+     0
+    ],
+    [
+     21.8,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xXzYGvlwJT4yBsP9LkkhNHg",
+   "name": "Old bridge next to black sand beach",
+   "lat": 65.74837,
+   "lng": -19.5529,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     22.3,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "x5n2cE6vXRZOcXNNdLcdRCg",
+   "name": "Volcanic cone hike",
+   "lat": 63.43205,
+   "lng": -20.24943,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     22.4,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xUEizA8NQShaXJ9riq8hbJQ",
+   "name": "Volcano museum tells 1973 eruption",
+   "lat": 63.43492,
+   "lng": -20.26027,
+   "kind": "attraction",
+   "cat": "museum",
+   "days": [
+    [
+     22.4,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xWyuEqdqdSh-0IcmtxrvbCg",
+   "name": "Cozy town by the sea",
+   "lat": 65.95048,
+   "lng": -18.18004,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     22.6,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d316",
+   "name": "The Bustarfell Museum",
+   "lat": 65.55334,
+   "lng": -15.07748,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     22.6,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xxW9ZLjuLQKGTyuLwTfshpQ",
+   "name": "Charming Icelandic waterfall",
+   "lat": 63.80653,
+   "lng": -18.76434,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     22.7,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "x8ixW_2E6TeaC6hQPQ6iymA",
+   "name": "Driving over the waterfall",
+   "lat": 63.75949,
+   "lng": -18.84134,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     22.8,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xvI671fHrQSOl31zLH-tTRA",
+   "name": "Hidden waterfall",
+   "lat": 65.05132,
+   "lng": -14.94057,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     22.8,
+     2
+    ],
+    [
+     22.8,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xRgDSk7f_SCaHhHiwBYKFQg",
+   "name": "Viking history in lush valley",
+   "lat": 63.44206,
+   "lng": -20.29725,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     22.9,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xLl8SnUK3SEW_PptDMbpTOA",
+   "name": "Unicorn-shaped mountain in Iceland",
+   "lat": 63.74,
+   "lng": -19.47278,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     23.4,
+     6
+    ],
+    [
+     24.0,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xp7ndvoaiRyCKQiZBAq7ltw",
+   "name": "Halldórsskora (Elephant Rock)",
+   "lat": 63.43941,
+   "lng": -20.3109,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     23.6,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xhtEQLAPWRUOThiQSUlrAdw",
+   "name": "Hidden gorge waterfall",
+   "lat": 65.8952,
+   "lng": -18.62565,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     23.6,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xk78HcTjZTqytCCQFkJjuyg",
+   "name": "Old building with nice fjord views",
+   "lat": 65.2912,
+   "lng": -13.86192,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     23.6,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "xrZvpTC61Roa9FuTpcx3ijg",
+   "name": "Beautiful valley",
+   "lat": 65.86229,
+   "lng": -18.72725,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     24.2,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
+  },
+  {
+   "id": "d362",
+   "name": "The Haifoss Waterfall",
+   "lat": 64.20789,
+   "lng": -19.68904,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     24.5,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xtqk8aZcQT12Z0LSbotCJNw",
+   "name": "Beautiful and quiet waterfall",
+   "lat": 64.11754,
+   "lng": -19.85045,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     25.0,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": false
   }
  ]
 }

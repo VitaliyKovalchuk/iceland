@@ -46,4 +46,8 @@ to see the roadside reality — it is roughly half the rows and almost all of da
   so in October when a lot of rural Iceland closes for the season.
 - Phone coverage is 35–41% for food and stays, 5% for fuel.
 - `data/raw/rexby-things-to-do.json` is a Rexby export where 717 of 941 entries are
-  paywalled and carry no name. Only the 224 named ones are usable.
+  paywalled and carry no name — but they keep coordinates and a one-line title, so all
+  Experience entries (minus tour operators) go into attractions within 25 km of the road.
+  Only named ones are `pick: true`.
+- `data/raw/iceland-dream.json` is the map data embedded in iceland-dream.com/guide/<region>
+  (all six regions). Every entry is `pick: true`; the map's "Picks only" toggle shows these.

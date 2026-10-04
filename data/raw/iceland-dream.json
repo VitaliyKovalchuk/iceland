@@ -1,0 +1,1223 @@
+{
+ "source": "https://www.iceland-dream.com/guide/<region> — embedded map JSON, scraped 2026-10-04",
+ "items": [
+  {
+   "id": "385",
+   "title": "The Aldeyjarfoss Waterfall",
+   "lat": 65.3664613,
+   "lng": -17.3391296,
+   "region": "north"
+  },
+  {
+   "id": "79",
+   "title": "Jökulsàrgljùfur Park",
+   "lat": 65.948119,
+   "lng": -16.551043,
+   "region": "north"
+  },
+  {
+   "id": "87",
+   "title": "Grímsey island",
+   "lat": 66.544395,
+   "lng": -17.995606,
+   "region": "north"
+  },
+  {
+   "id": "99",
+   "title": "Dettifoss: Iceland's Mightiest Waterfall",
+   "lat": 65.815283,
+   "lng": -16.385592,
+   "region": "north"
+  },
+  {
+   "id": "108",
+   "title": "Myvatn Nature Baths",
+   "lat": 65.631097,
+   "lng": -16.848006,
+   "region": "north"
+  },
+  {
+   "id": "142",
+   "title": "Our Full Guide to Húsavík",
+   "lat": 66.042616,
+   "lng": -17.342318,
+   "region": "north"
+  },
+  {
+   "id": "147",
+   "title": "Vatnsnes peninsula",
+   "lat": 65.59066,
+   "lng": -20.749765,
+   "region": "north"
+  },
+  {
+   "id": "154",
+   "title": "The Melrakkasletta Peninsula",
+   "lat": 66.480146,
+   "lng": -16.53098,
+   "region": "north"
+  },
+  {
+   "id": "163",
+   "title": "Skagi Peninsula",
+   "lat": 65.994799,
+   "lng": -20.182076,
+   "region": "north"
+  },
+  {
+   "id": "179",
+   "title": "Dalvik",
+   "lat": 65.9729572,
+   "lng": -18.5304583,
+   "region": "north"
+  },
+  {
+   "id": "228",
+   "title": "Akureyri: guide to the northern capital",
+   "lat": 65.6681786,
+   "lng": -18.1357303,
+   "region": "north"
+  },
+  {
+   "id": "255",
+   "title": "Asbyrgi Canyon",
+   "lat": 66.018835,
+   "lng": -16.506057,
+   "region": "north"
+  },
+  {
+   "id": "262",
+   "title": "The Rauðinupur Hiking Trail",
+   "lat": 66.5082251,
+   "lng": -16.5430928,
+   "region": "north"
+  },
+  {
+   "id": "263",
+   "title": "Glaumbaer and Viðimyri",
+   "lat": 65.623689,
+   "lng": -19.527079,
+   "region": "north"
+  },
+  {
+   "id": "268",
+   "title": "The Rauðholar Hiking Trail",
+   "lat": 65.9502556,
+   "lng": -16.5944829,
+   "region": "north"
+  },
+  {
+   "id": "269",
+   "title": "The Leirhnjukur Hiking Trail",
+   "lat": 65.734035,
+   "lng": -16.788412,
+   "region": "north"
+  },
+  {
+   "id": "270",
+   "title": "Hverir and Namafjall",
+   "lat": 65.6391752,
+   "lng": -16.8284767,
+   "region": "north"
+  },
+  {
+   "id": "293",
+   "title": "Mývatn: your ultimate guide for lakeside activities",
+   "lat": 65.6031946,
+   "lng": -17.145076,
+   "region": "north"
+  },
+  {
+   "id": "312",
+   "title": "Heimskautsgerðið: The Arctic Henge",
+   "lat": 66.4620346,
+   "lng": -15.9650016,
+   "region": "north"
+  },
+  {
+   "id": "313",
+   "title": "Vindbelgjarfjall Hiking Trail",
+   "lat": 65.625048,
+   "lng": -17.06793,
+   "region": "north"
+  },
+  {
+   "id": "318",
+   "title": "The Rauðanes Hiking Trail",
+   "lat": 66.2592207,
+   "lng": -15.7022523,
+   "region": "north"
+  },
+  {
+   "id": "358",
+   "title": "The Geo Sea Hot Springs",
+   "lat": 66.0500651,
+   "lng": -17.3506381,
+   "region": "north"
+  },
+  {
+   "id": "364",
+   "title": "Goðafoss waterfall",
+   "lat": 65.6496183,
+   "lng": -17.7804304,
+   "region": "north"
+  },
+  {
+   "id": "369",
+   "title": "The Siglufjörður Fjord and its Village",
+   "lat": 66.1406129,
+   "lng": -18.860466,
+   "region": "north"
+  },
+  {
+   "id": "386",
+   "title": "The Hverfjall Crater",
+   "lat": 65.6086104,
+   "lng": -16.8804214,
+   "region": "north"
+  },
+  {
+   "id": "396",
+   "title": "The Húsavík Whale Museum",
+   "lat": 66.046885,
+   "lng": -17.344575,
+   "region": "north"
+  },
+  {
+   "id": "400",
+   "title": "The Grettislaug Hot Springs",
+   "lat": 65.8822414,
+   "lng": -19.7387057,
+   "region": "north"
+  },
+  {
+   "id": "416",
+   "title": "Krafla Volcano",
+   "lat": 65.7171189,
+   "lng": -16.7631747,
+   "region": "north"
+  },
+  {
+   "id": "423",
+   "title": "Hvítserkur",
+   "lat": 65.6032565,
+   "lng": -20.6385316,
+   "region": "north"
+  },
+  {
+   "id": "470",
+   "title": "The Kolugljúfur Canyon",
+   "lat": 65.3333839,
+   "lng": -20.5738707,
+   "region": "north"
+  },
+  {
+   "id": "137",
+   "title": "Seyðisfjörður Village and its Fjord",
+   "lat": 65.260217,
+   "lng": -14.009585,
+   "region": "east"
+  },
+  {
+   "id": "145",
+   "title": "Hallormsstaður forrest",
+   "lat": 65.138931,
+   "lng": -14.679651,
+   "region": "east"
+  },
+  {
+   "id": "169",
+   "title": "The Borgarfjörður Eystri Fjord (Bakkagerði)",
+   "lat": 65.526461,
+   "lng": -13.813452,
+   "region": "east"
+  },
+  {
+   "id": "266",
+   "title": "The Hengifoss Waterfall Hiking Trail",
+   "lat": 65.172781,
+   "lng": -14.949182,
+   "region": "east"
+  },
+  {
+   "id": "292",
+   "title": "The Víknaslóðir Hiking Trails",
+   "lat": 65.5161133,
+   "lng": -13.9974217,
+   "region": "east"
+  },
+  {
+   "id": "316",
+   "title": "The Bustarfell Museum",
+   "lat": 65.5533394,
+   "lng": -15.0774821,
+   "region": "east"
+  },
+  {
+   "id": "355",
+   "title": "The Fuglabjagarnes Hiking Trail",
+   "lat": 65.846349,
+   "lng": -14.726544,
+   "region": "east"
+  },
+  {
+   "id": "357",
+   "title": "The Hot Springs of the Vök Baths",
+   "lat": 65.3030258,
+   "lng": -14.4478993,
+   "region": "east"
+  },
+  {
+   "id": "407",
+   "title": "Lagarfljót : Lögurinn lake",
+   "lat": 65.1742723,
+   "lng": -14.628428,
+   "region": "east"
+  },
+  {
+   "id": "409",
+   "title": "Papey: The Puffin Island",
+   "lat": 64.5915609,
+   "lng": -14.1769124,
+   "region": "east"
+  },
+  {
+   "id": "442",
+   "title": "Stuðlagil (Studlagil) canyon in Iceland",
+   "lat": 65.1634026,
+   "lng": -15.3070923,
+   "region": "east"
+  },
+  {
+   "id": "444",
+   "title": "The Stórurð (Storurd) Hiking Trails",
+   "lat": 65.5427468,
+   "lng": -14.0079643,
+   "region": "east"
+  },
+  {
+   "id": "447",
+   "title": "The Strútsfoss Hiking Trail",
+   "lat": 64.8943383,
+   "lng": -15.0308793,
+   "region": "east"
+  },
+  {
+   "id": "450",
+   "title": "Eystrahorn and Hvalnes Beach",
+   "lat": 64.4023356,
+   "lng": -14.5423298,
+   "region": "east"
+  },
+  {
+   "id": "451",
+   "title": "Ljósastapi and Skjólfjörur Beach",
+   "lat": 65.7555092,
+   "lng": -14.5790737,
+   "region": "east"
+  },
+  {
+   "id": "460",
+   "title": "The Mjóifjörður Fjord",
+   "lat": 65.207417,
+   "lng": -13.7995812,
+   "region": "east"
+  },
+  {
+   "id": "466",
+   "title": "Skálanes Nature Reserve",
+   "lat": 65.2940657,
+   "lng": -13.7081071,
+   "region": "east"
+  },
+  {
+   "id": "81",
+   "title": "Skaftafell : hiking in the park",
+   "lat": 64.070562,
+   "lng": -16.975155,
+   "region": "south"
+  },
+  {
+   "id": "100",
+   "title": "The Dyrhólaey Arch",
+   "lat": 63.39975,
+   "lng": -19.126339,
+   "region": "south"
+  },
+  {
+   "id": "146",
+   "title": "Jökulsárlón: Our Guide to the Glacier Lagoon",
+   "lat": 64.080502,
+   "lng": -16.231255,
+   "region": "south"
+  },
+  {
+   "id": "153",
+   "title": "Cape Ingólfshöfði and its Puffins",
+   "lat": 63.821875,
+   "lng": -16.634507,
+   "region": "south"
+  },
+  {
+   "id": "171",
+   "title": "Skogar and Skogafoss",
+   "lat": 63.532353,
+   "lng": -19.511075,
+   "region": "south"
+  },
+  {
+   "id": "178",
+   "title": "The Vík í Myrdal area",
+   "lat": 63.4190429,
+   "lng": -18.9977434,
+   "region": "south"
+  },
+  {
+   "id": "250",
+   "title": "The Svartifoss Waterfall Hiking Trail",
+   "lat": 64.027692,
+   "lng": -16.975476,
+   "region": "south"
+  },
+  {
+   "id": "251",
+   "title": "The Sjonarnipa-Sjonarsker Hiking Trail",
+   "lat": 64.047741,
+   "lng": -16.880695,
+   "region": "south"
+  },
+  {
+   "id": "252",
+   "title": "The Kristinartindar Hiking Trail in Skaftafell",
+   "lat": 64.077936,
+   "lng": -16.924722,
+   "region": "south"
+  },
+  {
+   "id": "256",
+   "title": "The Kirkjubæjarklaustur Region",
+   "lat": 63.785566,
+   "lng": -18.067286,
+   "region": "south"
+  },
+  {
+   "id": "282",
+   "title": "The Eldfell Volcano and Hiking Trail",
+   "lat": 63.4331873,
+   "lng": -20.2700193,
+   "region": "south"
+  },
+  {
+   "id": "284",
+   "title": "The Fjaðrárgljúfur Canyon",
+   "lat": 63.771312,
+   "lng": -18.1741137,
+   "region": "south"
+  },
+  {
+   "id": "288",
+   "title": "Seljavallalaug : the Secret Pool",
+   "lat": 63.5655971,
+   "lng": -19.6075774,
+   "region": "south"
+  },
+  {
+   "id": "289",
+   "title": "Westman Islands Travel Guide",
+   "lat": 63.434395,
+   "lng": -20.252377,
+   "region": "south"
+  },
+  {
+   "id": "291",
+   "title": "The Skogar Museum",
+   "lat": 63.5261589,
+   "lng": -19.4951962,
+   "region": "south"
+  },
+  {
+   "id": "345",
+   "title": "Iceland's Famed DC3 Plane Wreckage",
+   "lat": 63.458972,
+   "lng": -19.364305,
+   "region": "south"
+  },
+  {
+   "id": "346",
+   "title": "The Icelandic Lava Show",
+   "lat": 63.418621,
+   "lng": -19.0120157,
+   "region": "south"
+  },
+  {
+   "id": "348",
+   "title": "Vestrahorn and Stokksnes beach",
+   "lat": 64.2452493,
+   "lng": -14.9731665,
+   "region": "south"
+  },
+  {
+   "id": "351",
+   "title": "Reynisfjara : the Most Beautiful Beach in Iceland",
+   "lat": 63.4036051,
+   "lng": -19.0755124,
+   "region": "south"
+  },
+  {
+   "id": "352",
+   "title": "Seljalandsfoss waterfall",
+   "lat": 63.6155983,
+   "lng": -19.9906909,
+   "region": "south"
+  },
+  {
+   "id": "359",
+   "title": "The Fjallsárlón Glacier Lagoon",
+   "lat": 64.0185437,
+   "lng": -16.3852485,
+   "region": "south"
+  },
+  {
+   "id": "360",
+   "title": "Kvernufoss: The Hidden Waterfall",
+   "lat": 63.5288082,
+   "lng": -19.4844612,
+   "region": "south"
+  },
+  {
+   "id": "368",
+   "title": "The Skógafoss Waterfall",
+   "lat": 63.5320123,
+   "lng": -19.513565,
+   "region": "south"
+  },
+  {
+   "id": "378",
+   "title": "The Katla Volcano",
+   "lat": 63.6467387,
+   "lng": -19.1390394,
+   "region": "south"
+  },
+  {
+   "id": "379",
+   "title": "Svínafellsjökull glacier",
+   "lat": 64.008535,
+   "lng": -16.8825424,
+   "region": "south"
+  },
+  {
+   "id": "382",
+   "title": "Hjörleifshöfði and Yoda cave",
+   "lat": 63.416901,
+   "lng": -18.7676827,
+   "region": "south"
+  },
+  {
+   "id": "388",
+   "title": "The Sólheimajökull Glacier",
+   "lat": 63.5376088,
+   "lng": -19.3513041,
+   "region": "south"
+  },
+  {
+   "id": "389",
+   "title": "The Vatnajökull Glacier",
+   "lat": 64.281676,
+   "lng": -16.8018362,
+   "region": "south"
+  },
+  {
+   "id": "397",
+   "title": "The Fimmvörðuháls Trek",
+   "lat": 63.6215343,
+   "lng": -19.4497061,
+   "region": "south"
+  },
+  {
+   "id": "398",
+   "title": "The Dverghamrar Cliffs",
+   "lat": 63.8591729,
+   "lng": -17.8603316,
+   "region": "south"
+  },
+  {
+   "id": "412",
+   "title": "Höfn",
+   "lat": 64.2538396,
+   "lng": -15.2218151,
+   "region": "south"
+  },
+  {
+   "id": "413",
+   "title": "The Eyjafjallajökull Glacier and Volcano",
+   "lat": 63.6256731,
+   "lng": -19.67889,
+   "region": "south"
+  },
+  {
+   "id": "420",
+   "title": "Skeiðarársandur",
+   "lat": 63.8094349,
+   "lng": -16.9750286,
+   "region": "south"
+  },
+  {
+   "id": "457",
+   "title": "The Loftsalahellir Cave",
+   "lat": 63.4219252,
+   "lng": -19.1517751,
+   "region": "south"
+  },
+  {
+   "id": "465",
+   "title": "The Múlagljúfur Canyon",
+   "lat": 63.9895823,
+   "lng": -16.4613749,
+   "region": "south"
+  },
+  {
+   "id": "471",
+   "title": "The Remundargil Canyon in Þakgil",
+   "lat": 63.523285,
+   "lng": -18.856437,
+   "region": "south"
+  },
+  {
+   "id": "489",
+   "title": "The Nauthúsagil Canyon and Waterfall",
+   "lat": 63.6738861,
+   "lng": -19.8615552,
+   "region": "south"
+  },
+  {
+   "id": "491",
+   "title": "The Eyvindarholt DC-3 Airplane Wreckage",
+   "lat": 63.6487247,
+   "lng": -19.936195,
+   "region": "south"
+  },
+  {
+   "id": "469",
+   "title": "The Stakkholtsgjá Canyon",
+   "lat": 63.6749146,
+   "lng": -19.5599656,
+   "region": "south"
+  },
+  {
+   "id": "361",
+   "title": "Gullfoss waterfall",
+   "lat": 64.3266937,
+   "lng": -20.1247905,
+   "region": "west"
+  },
+  {
+   "id": "51",
+   "title": "Diving in the Silfra Rift",
+   "lat": 64.256511,
+   "lng": -21.118115,
+   "region": "west"
+  },
+  {
+   "id": "94",
+   "title": "The Reykjanes Peninsula",
+   "lat": 63.919657,
+   "lng": -22.159734,
+   "region": "west"
+  },
+  {
+   "id": "104",
+   "title": "Geysir: The icelandic geysers",
+   "lat": 64.314467,
+   "lng": -20.301072,
+   "region": "west"
+  },
+  {
+   "id": "109",
+   "title": "Thingvellir National Park",
+   "lat": 64.256007,
+   "lng": -21.130303,
+   "region": "west"
+  },
+  {
+   "id": "148",
+   "title": "Hraunfossar Waterfalls",
+   "lat": 64.703208,
+   "lng": -20.975201,
+   "region": "west"
+  },
+  {
+   "id": "170",
+   "title": "Reykjavik Restaurants",
+   "lat": 64.142551,
+   "lng": -21.928658,
+   "region": "west"
+  },
+  {
+   "id": "174",
+   "title": "The Glymur Waterfall",
+   "lat": 64.391022,
+   "lng": -21.251961,
+   "region": "west"
+  },
+  {
+   "id": "183",
+   "title": "Snæfellsjökull Volcano, National Park, and Hiking Trails",
+   "lat": 64.8067289,
+   "lng": -23.7769449,
+   "region": "west"
+  },
+  {
+   "id": "245",
+   "title": "Reykjavik's Top Museums",
+   "lat": 64.132442,
+   "lng": -21.8569031,
+   "region": "west"
+  },
+  {
+   "id": "246",
+   "title": "The Kerið Crater and its Lake",
+   "lat": 64.041278,
+   "lng": -20.885138,
+   "region": "west"
+  },
+  {
+   "id": "264",
+   "title": "Arnarstapi: Hiking to Hellnar",
+   "lat": 64.745913,
+   "lng": -23.675819,
+   "region": "west"
+  },
+  {
+   "id": "281",
+   "title": "The Brúarfoss Waterfall",
+   "lat": 64.2648913,
+   "lng": -20.5175742,
+   "region": "west"
+  },
+  {
+   "id": "283",
+   "title": "Iceland's Famed Secret Lagoon",
+   "lat": 64.1377783,
+   "lng": -20.3121114,
+   "region": "west"
+  },
+  {
+   "id": "285",
+   "title": "The Grabrok crater",
+   "lat": 64.7712742,
+   "lng": -21.5406704,
+   "region": "west"
+  },
+  {
+   "id": "286",
+   "title": "Rauðfeldsgjá: The Rauðfeldar Canyon",
+   "lat": 64.8013189,
+   "lng": -23.6085883,
+   "region": "west"
+  },
+  {
+   "id": "294",
+   "title": "Thrihnukagigur Volcano",
+   "lat": 63.998462,
+   "lng": -21.6989636,
+   "region": "west"
+  },
+  {
+   "id": "295",
+   "title": "The Reykjadalur Hike and Hot River",
+   "lat": 64.0035125,
+   "lng": -21.2628854,
+   "region": "west"
+  },
+  {
+   "id": "298",
+   "title": "The Krysuvikurberg Cliffs",
+   "lat": 63.8445111,
+   "lng": -22.0874623,
+   "region": "west"
+  },
+  {
+   "id": "332",
+   "title": "Krysuvik and Seltun",
+   "lat": 63.8957434,
+   "lng": -22.0539607,
+   "region": "west"
+  },
+  {
+   "id": "333",
+   "title": "Kirkjufell Travel Guide",
+   "lat": 64.9416652,
+   "lng": -23.3244539,
+   "region": "west"
+  },
+  {
+   "id": "335",
+   "title": "Snaefellsnes: Travel guide",
+   "lat": 64.8702771,
+   "lng": -23.1223659,
+   "region": "west"
+  },
+  {
+   "id": "349",
+   "title": "Dritvik Cove and Djúpalónssandur Beach",
+   "lat": 64.7502243,
+   "lng": -23.9157039,
+   "region": "west"
+  },
+  {
+   "id": "350",
+   "title": "Reykjavik: Travel guide",
+   "lat": 64.1479682,
+   "lng": -21.9337715,
+   "region": "west"
+  },
+  {
+   "id": "354",
+   "title": "The Perlan Museum",
+   "lat": 64.1292126,
+   "lng": -21.9190507,
+   "region": "west"
+  },
+  {
+   "id": "356",
+   "title": "The Golden Circle in Iceland",
+   "lat": 64.236977,
+   "lng": -20.605744,
+   "region": "west"
+  },
+  {
+   "id": "399",
+   "title": "The Eldborg Crater",
+   "lat": 64.8666932,
+   "lng": -22.23968,
+   "region": "west"
+  },
+  {
+   "id": "402",
+   "title": "Harpa: The Reykjavik Cultural Center",
+   "lat": 64.1503943,
+   "lng": -21.934649,
+   "region": "west"
+  },
+  {
+   "id": "403",
+   "title": "The Cliffs of Lóndrangar",
+   "lat": 64.732527,
+   "lng": -23.7846095,
+   "region": "west"
+  },
+  {
+   "id": "404",
+   "title": "Stykkishólmur Harbour",
+   "lat": 65.0727155,
+   "lng": -22.750218,
+   "region": "west"
+  },
+  {
+   "id": "405",
+   "title": "Hellissandur and Ingjaldshólskirkja",
+   "lat": 64.9162393,
+   "lng": -23.8851637,
+   "region": "west"
+  },
+  {
+   "id": "406",
+   "title": "Hallgrímskirkja: The Reykjavik Church",
+   "lat": 64.1420252,
+   "lng": -21.928738,
+   "region": "west"
+  },
+  {
+   "id": "415",
+   "title": "The Krauma Thermal Baths",
+   "lat": 64.6644782,
+   "lng": -21.4111857,
+   "region": "west"
+  },
+  {
+   "id": "419",
+   "title": "The Fagradalsfjall Volcanic Eruption",
+   "lat": 63.8924935,
+   "lng": -22.2760406,
+   "region": "west"
+  },
+  {
+   "id": "452",
+   "title": "The Hot Springs of the Sky Lagoon",
+   "lat": 64.1164891,
+   "lng": -21.9462908,
+   "region": "west"
+  },
+  {
+   "id": "459",
+   "title": "The Hvammsvík Hot Springs",
+   "lat": 64.3735707,
+   "lng": -21.566519,
+   "region": "west"
+  },
+  {
+   "id": "463",
+   "title": "Litli Hrútur: A New Eruption in Reykjanes",
+   "lat": 63.9163855,
+   "lng": -22.2118234,
+   "region": "west"
+  },
+  {
+   "id": "175",
+   "title": "Hveragerði Geothermal Area",
+   "lat": 63.9992222,
+   "lng": -21.189022,
+   "region": "west"
+  },
+  {
+   "id": "467",
+   "title": "Laugarvatn Fontana Hot Springs",
+   "lat": 64.2147086,
+   "lng": -20.7327469,
+   "region": "west"
+  },
+  {
+   "id": "495",
+   "title": "The Nesjavellir Hike",
+   "lat": 64.1065286,
+   "lng": -21.2719902,
+   "region": "west"
+  },
+  {
+   "id": "327",
+   "title": "Interactive map of North West Iceland",
+   "lat": 66.0,
+   "lng": -23.16428,
+   "region": "northwest"
+  },
+  {
+   "id": "111",
+   "title": "The Cliffs of Látrabjarg",
+   "lat": 65.503043,
+   "lng": -24.531612,
+   "region": "northwest"
+  },
+  {
+   "id": "123",
+   "title": "The Hornstrandir Natural Reserve",
+   "lat": 66.393842,
+   "lng": -22.572716,
+   "region": "northwest"
+  },
+  {
+   "id": "164",
+   "title": "Patreksfjörður to Arnarfjörður",
+   "lat": 65.596541,
+   "lng": -23.984755,
+   "region": "northwest"
+  },
+  {
+   "id": "165",
+   "title": "Flatey Island",
+   "lat": 65.374093,
+   "lng": -22.919143,
+   "region": "northwest"
+  },
+  {
+   "id": "166",
+   "title": "Ísafjörður",
+   "lat": 66.067962,
+   "lng": -23.16428,
+   "region": "northwest"
+  },
+  {
+   "id": "168",
+   "title": "The Strandir Coast",
+   "lat": 66.009503,
+   "lng": -21.374572,
+   "region": "northwest"
+  },
+  {
+   "id": "267",
+   "title": "The Holmavik Museum of Icelandic Sorcery and Witchcraft",
+   "lat": 65.70674,
+   "lng": -21.670275,
+   "region": "northwest"
+  },
+  {
+   "id": "363",
+   "title": "Rauðisandur (Rauðasandur) Beach",
+   "lat": 65.5139473,
+   "lng": -24.0705421,
+   "region": "northwest"
+  },
+  {
+   "id": "372",
+   "title": "The Dynjandi Waterfall (Fjallfoss)",
+   "lat": 65.7334662,
+   "lng": -23.2035917,
+   "region": "northwest"
+  },
+  {
+   "id": "410",
+   "title": "Bolungarvík",
+   "lat": 66.1502166,
+   "lng": -23.2753287,
+   "region": "northwest"
+  },
+  {
+   "id": "490",
+   "title": "The Valagil Hiking Trail",
+   "lat": 65.9666547,
+   "lng": -23.0893328,
+   "region": "northwest"
+  },
+  {
+   "id": "496",
+   "title": "The Sandafell Hike",
+   "lat": 65.8726024,
+   "lng": -23.5086312,
+   "region": "northwest"
+  },
+  {
+   "id": "112",
+   "title": "Askja: our guide to visiting the famed volcano",
+   "lat": 65.03377,
+   "lng": -16.740546,
+   "region": "highlands"
+  },
+  {
+   "id": "113",
+   "title": "Thórsmörk: Hiking Trails and Panoramic Views",
+   "lat": 63.702819,
+   "lng": -19.427181,
+   "region": "highlands"
+  },
+  {
+   "id": "149",
+   "title": "Sprengisandur: Off-road Trail F26",
+   "lat": 64.817887,
+   "lng": -18.14392,
+   "region": "highlands"
+  },
+  {
+   "id": "150",
+   "title": "The Hveravellir Hot Springs",
+   "lat": 64.867689,
+   "lng": -19.549999,
+   "region": "highlands"
+  },
+  {
+   "id": "152",
+   "title": "Kerlingarfjöll hiking guide",
+   "lat": 64.638073,
+   "lng": -19.270706,
+   "region": "highlands"
+  },
+  {
+   "id": "156",
+   "title": "Lakagígar: The Laki Craters",
+   "lat": 64.066058,
+   "lng": -18.266916,
+   "region": "highlands"
+  },
+  {
+   "id": "162",
+   "title": "The Landmannalaugar-Thórsmörk Trek",
+   "lat": 63.868031,
+   "lng": -19.258021,
+   "region": "highlands"
+  },
+  {
+   "id": "229",
+   "title": "Bárðarbunga volcanic eruption",
+   "lat": 64.6282772,
+   "lng": -17.53,
+   "region": "highlands"
+  },
+  {
+   "id": "247",
+   "title": "The Eldgjá Rift",
+   "lat": 63.968845,
+   "lng": -18.60951,
+   "region": "highlands"
+  },
+  {
+   "id": "248",
+   "title": "Stöng: the Ancient Ruins of Viking Settlement",
+   "lat": 64.151845,
+   "lng": -19.752485,
+   "region": "highlands"
+  },
+  {
+   "id": "258",
+   "title": "Kjölur : the F35 track",
+   "lat": 64.872275,
+   "lng": -19.423115,
+   "region": "highlands"
+  },
+  {
+   "id": "287",
+   "title": "The Laugahraun Hiking Trail",
+   "lat": 63.980981,
+   "lng": -19.145844,
+   "region": "highlands"
+  },
+  {
+   "id": "311",
+   "title": "The Hveradalir-Kerlingarfjöll Hiking Trail",
+   "lat": 64.689086,
+   "lng": -19.326639,
+   "region": "highlands"
+  },
+  {
+   "id": "334",
+   "title": "Landmannalaugar: Travel guide",
+   "lat": 63.9830087,
+   "lng": -19.0757547,
+   "region": "highlands"
+  },
+  {
+   "id": "362",
+   "title": "The Haifoss Waterfall",
+   "lat": 64.2078904,
+   "lng": -19.6890418,
+   "region": "highlands"
+  },
+  {
+   "id": "370",
+   "title": "Ljótipollur Lake",
+   "lat": 64.0353283,
+   "lng": -19.0018527,
+   "region": "highlands"
+  },
+  {
+   "id": "371",
+   "title": "Langisjór Lake",
+   "lat": 64.1694064,
+   "lng": -18.3784543,
+   "region": "highlands"
+  },
+  {
+   "id": "381",
+   "title": "The Hekla Volcano",
+   "lat": 63.99226,
+   "lng": -19.6745695,
+   "region": "highlands"
+  },
+  {
+   "id": "383",
+   "title": "The Lakes of Veiðivötn",
+   "lat": 64.1197309,
+   "lng": -18.8062547,
+   "region": "highlands"
+  },
+  {
+   "id": "393",
+   "title": "Frostastaðavatn Lake",
+   "lat": 64.0189024,
+   "lng": -19.0767503,
+   "region": "highlands"
+  },
+  {
+   "id": "401",
+   "title": "Kverkfjöll: the Volcano, the Glacier, and the Hiking Trails",
+   "lat": 64.6500085,
+   "lng": -16.7087547,
+   "region": "highlands"
+  },
+  {
+   "id": "414",
+   "title": "Gjáin: An Oasis in the Þjórsárdalur Valley",
+   "lat": 64.1485002,
+   "lng": -19.7356312,
+   "region": "highlands"
+  },
+  {
+   "id": "417",
+   "title": "The Herðubreið Volcano",
+   "lat": 65.1810126,
+   "lng": -16.3730197,
+   "region": "highlands"
+  },
+  {
+   "id": "443",
+   "title": "Sigöldugljúfur Canyon",
+   "lat": 64.1576493,
+   "lng": -19.1274005,
+   "region": "highlands"
+  },
+  {
+   "id": "445",
+   "title": "The Hot Waterfall of Laugarvellir",
+   "lat": 65.000235,
+   "lng": -15.7698619,
+   "region": "highlands"
+  },
+  {
+   "id": "446",
+   "title": "Maelifell: the Mælifellssandur volcano",
+   "lat": 63.7994866,
+   "lng": -18.9471245,
+   "region": "highlands"
+  },
+  {
+   "id": "448",
+   "title": "The Bláhnúkur Hiking Trail",
+   "lat": 63.9772309,
+   "lng": -19.0773658,
+   "region": "highlands"
+  },
+  {
+   "id": "449",
+   "title": "The Valahnúkur Hiking Trail",
+   "lat": 63.6852866,
+   "lng": -19.5512547,
+   "region": "highlands"
+  },
+  {
+   "id": "454",
+   "title": "Bláhylur lake (Hnausapollur)",
+   "lat": 64.0516191,
+   "lng": -19.036208,
+   "region": "highlands"
+  },
+  {
+   "id": "455",
+   "title": "The Rauðibotn Crater",
+   "lat": 63.8306613,
+   "lng": -18.8301797,
+   "region": "highlands"
+  },
+  {
+   "id": "456",
+   "title": "The Langjökull Glacier",
+   "lat": 64.6486839,
+   "lng": -20.580428,
+   "region": "highlands"
+  },
+  {
+   "id": "462",
+   "title": "The Brennisteinsalda Hiking Trail",
+   "lat": 63.9808326,
+   "lng": -19.1458331,
+   "region": "highlands"
+  },
+  {
+   "id": "492",
+   "title": "The Tindfjöll Circle Hiking Trail",
+   "lat": 63.6925113,
+   "lng": -19.4382379,
+   "region": "highlands"
+  },
+  {
+   "id": "493",
+   "title": "The Sveinstindur Hike",
+   "lat": 64.106953,
+   "lng": -18.4269664,
+   "region": "highlands"
+  },
+  {
+   "id": "494",
+   "title": "The F208 Mountain Road",
+   "lat": 63.9215322,
+   "lng": -18.6327448,
+   "region": "highlands"
+  }
+ ]
+}

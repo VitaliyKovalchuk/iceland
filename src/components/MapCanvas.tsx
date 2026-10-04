@@ -4,7 +4,7 @@ import {
   MapContainer, TileLayer, Polyline, Marker, CircleMarker, Popup, useMap, LayersControl, ZoomControl,
 } from "react-leaflet";
 import L from "leaflet";
-import { itinerary, poi, gmaps, gmapsAt, gmapsDriveTo, trip } from "@/lib/data";
+import { itinerary, poi, gmaps, gmapsAt, gmapsDetour, gmapsDriveTo, trip } from "@/lib/data";
 import { colourOf, labelOf, nearest, daysOf, type Filters } from "@/lib/places";
 import { markerHtml } from "@/lib/icons";
 import { DAY_COLOURS } from "./dayColours";
@@ -106,6 +106,8 @@ function PlaceMarkers({
             <a href={gmapsAt(p.lat, p.lng)} target="_blank" rel="noopener">Open</a>
             {" · "}
             <a href={gmapsDriveTo(p.lat, p.lng)} target="_blank" rel="noopener">Drive</a>
+            {" · "}
+            <a href={gmapsDetour(daysOf(p, filters.day)[0][1], p.lat, p.lng)} target="_blank" rel="noopener">Detour</a>
             {p.phone && <> · <a href={`tel:${p.phone}`}>Call</a></>}
             {p.website && <> · <a href={p.website} target="_blank" rel="noopener">Web</a></>}
           </Popup>

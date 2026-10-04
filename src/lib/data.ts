@@ -35,10 +35,11 @@ export const gmaps = (q: string) =>
 /** Google Maps directions for a whole day: origin, destination and the stops between.
  *  Uses place names rather than coordinates so the pin lands on the real entry, and
  *  Google's URL API caps waypoints at 9 — our longest day uses 5. */
+const q = (s: string) => encodeURIComponent(withCountry(s));
+
 export function gmapsRoute(names: string[]): string {
   const clean = names.filter(Boolean);
   if (clean.length < 2) return gmaps(clean[0] ?? "Iceland");
-  const q = (s: string) => encodeURIComponent(withCountry(s));
   const origin = q(clean[0]);
   const destination = q(clean[clean.length - 1]);
   const mid = clean.slice(1, -1).slice(0, 9).map(q).join("%7C");
@@ -56,3 +57,24 @@ export const gmapsAt = (lat: number, lng: number) =>
 /** Driving directions to a coordinate from wherever the phone currently is. */
 export const gmapsDriveTo = (lat: number, lng: number) =>
   `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=driving`;
+
+/** Directions for one leg of a day with a place slotted in, so Google shows what the
+ *  detour really costs. Picks the leg where inserting it adds the least straight-line
+ *  distance — km-off-route lies out here, where a fjord can make 10 km into 40 min. */
+export function gmapsDetour(day: number, lat: number, lng: number): string {
+  const stops = itinerary.days[day].stops.map((s) => poi(s.loc))
+    .filter((p, i, a) => i === 0 || p !== a[i - 1]);
+  const h = (a: { lat: number; lng: number }, b: { lat: number; lng: number }) =>
+    Math.hypot((a.lng - b.lng) * Math.cos((a.lat * Math.PI) / 180), a.lat - b.lat);
+  const at = { lat, lng };
+  let best = 0;
+  let cost = Infinity;
+  for (let i = 0; i + 1 < stops.length; i++) {
+    const c = h(stops[i], at) + h(at, stops[i + 1]) - h(stops[i], stops[i + 1]);
+    if (c < cost) [cost, best] = [c, i];
+  }
+  return (
+    `https://www.google.com/maps/dir/?api=1&origin=${q(stops[best].search)}` +
+    `&destination=${q(stops[best + 1].search)}&waypoints=${lat},${lng}&travelmode=driving`
+  );
+}
