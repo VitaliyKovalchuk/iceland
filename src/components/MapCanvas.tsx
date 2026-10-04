@@ -83,7 +83,9 @@ function PlaceMarkers({
 }: { places: Place[]; focus: Place | null; onSelect: (p: Place) => void; filters: Filters }) {
   return (
     <>
-      {places.slice(0, 700).map((p) => (
+      {/* ponytail: every place is a DOM marker; 1,500 is all attractions with room to
+          spare. Add clustering if food + attractions at "All" gets sluggish on a phone. */}
+      {places.slice(0, 1500).map((p) => (
         <Marker
           key={p.id}
           position={[p.lat, p.lng]}

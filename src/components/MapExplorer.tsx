@@ -151,7 +151,7 @@ export default function MapExplorer() {
                      bg-[var(--color-surface)]/95 px-2.5 py-1.5 font-mono text-[10.5px]
                      tracking-[0.05em] uppercase shadow-sm backdrop-blur"
         >
-          {places.length} · {radius} km · {sheet ? "close" : "list"}
+          {places.length} · {radius >= 200 ? "all" : `${radius} km`} · {sheet ? "close" : "list"}
         </button>
 
         {sheet && (
@@ -171,7 +171,7 @@ export default function MapExplorer() {
                 </span>
                 {RADII.map((r) => (
                   <button key={r} onClick={() => setRadius(r)} className={chip(radius === r)}>
-                    {r} km
+                    {r >= 200 ? "All" : `${r} km`}
                   </button>
                 ))}
                 <button onClick={() => setPicks((v) => !v)} className={`${chip(picks)} ml-auto`}>
