@@ -1,7 +1,9 @@
 import DayView from "@/components/DayView";
+import { connection } from "next/server";
 import { tripDay } from "@/lib/today";
 
-export default function Today() {
+export default async function Today() {
+  await connection(); // "today" is per-request; without this the page is prerendered and the countdown freezes at build time
   const { index, state, daysAway } = tripDay();
   return (
     <>
