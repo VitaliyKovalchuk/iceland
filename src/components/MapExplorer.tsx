@@ -23,7 +23,7 @@ const MapCanvas = dynamic(() => import("./MapCanvas"), {
 /* Fuel and groceries were dropped: OSM coverage is patchy and Google does it better.
    Stays are our own bookings, drawn as a separate layer. */
 const KINDS: PlaceKind[] = ["attraction", "food"];
-const RADII = [3, 5, 10, 25];
+const RADII = [3, 5, 10, 25, 50, 200];
 
 function Glyph({ cat, className = "" }: { cat: string; className?: string }) {
   return (
@@ -165,7 +165,7 @@ export default function MapExplorer() {
                 className="w-full rounded-md border border-[var(--color-line)] bg-[var(--color-raised)]
                            px-2.5 py-1.5 text-[13px] outline-none focus:border-[var(--color-accent)]"
               />
-              <div className="flex items-center gap-1">
+              <div className="flex flex-wrap items-center gap-1">
                 <span className="mr-0.5 font-mono text-[9.5px] tracking-[0.08em] uppercase text-[var(--color-ink-3)]">
                   within
                 </span>

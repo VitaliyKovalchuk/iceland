@@ -184,7 +184,7 @@ for e in load("sights.json") + load("extra.json") + load("osm2.json"):
         continue
     r["planned"] = bool(is_planned(r["lat"], r["lng"]))
     rows.append(r)
-# Rexby: a hand-picked guide, so it gets a wider net than raw OSM — Stuðlagil,
+# Rexby: a hand-picked guide, so it gets a far wider net (200 km) than raw OSM — Stuðlagil,
 # Hengifoss and Seyðisfjörður all sit 13–19 km off the road and OSM's 10 km missed them.
 # 717 of 941 are paywalled: no place name, but the title and coordinates are there.
 REXBY_CAT = {"waterfall": "waterfall", "hot_spring": "hot_spring", "spa": "baths",
@@ -199,9 +199,24 @@ REXBY_NAME = {  # paywalled titles we can name from the coordinates
     "Church and rainbow street": "Seyðisfjörður rainbow street",
     "Powerful waterfall in canyon": "Hafragilsfoss",
 }
+# Only reachable on roads the rental contract bans (any F-road, 35 Kjölur, 550, 208).
+# With a 200 km net these would otherwise read as options.
+BANNED = re.compile(
+    r"\bF\d|F-road|Off-road|Landmannalaugar|Askja|Kerlingarfj|Hveravell|Kjölur|Sprengisand|"
+    r"\bLaki\b|Lakag|Eldgj|Mælifell|Maelifell|Langisj|Hekla|Sveinstind|Strútsfoss|Kverkfj|"
+    r"Bárðarbunga|Veiðivötn|Frostastaðavatn|Ljótipoll|Bláhn|Brennisteinsalda|Laugahraun|"
+    r"Sigöldu|Hnausapoll|Rauðibotn|Herðubreið|Þórsmörk|Thórsmörk|Fimmvörðuháls|Tindfjöll|"
+    r"Laugarvell|Hólmatung|Lofthellir", re.I)
+
+GENERIC = {"waterfall", "waterfalls", "beach", "church", "lake", "canyon", "hike", "hiking",
+           "trail", "crater", "cave", "lighthouse", "museum", "springs", "spring", "island",
+           "glacier", "iceland", "icelandic", "view", "views", "viewpoint", "hidden", "the",
+           "with", "from", "scenic", "black", "sand", "lava", "field", "park", "national",
+           "geothermal", "pool", "pools", "baths", "lagoon", "valley", "town", "village"}
+
 def same_words(a, b):
     """Do two names share a word? Substring per word, so Skálholt ~ Skálholtskirkja."""
-    wa, wb = (set(w for w in re.findall(r"\w{4,}", x.lower())) for x in (a, b))
+    wa, wb = (set(re.findall(r"\w{4,}", x.lower())) - GENERIC for x in (a, b))
     return any(x in y or y in x for x in wa for y in wb)
 
 def curated(id, name, la, ln, cat, pick):
@@ -209,6 +224,8 @@ def curated(id, name, la, ln, cat, pick):
     Same place = same name (guide pins can sit kilometres off). Proximity alone is not
     enough: Eggin í Gleðivík sits 300 m from a gift shop. A pick that matches no name
     gets its own row, so Picks mode never shows a stand-in."""
+    if BANNED.search(name):
+        return
     p, low = xy(la, ln), name.lower()
     near = [(math.dist(p, xy(r["lat"], r["lng"])), r) for r in rows]
     for d, r in near:
@@ -218,7 +235,7 @@ def curated(id, name, la, ln, cat, pick):
             return
     if not pick and any(d < 0.5 for d, _ in near):
         return  # a vague title next to something we already have
-    r = base({"type": "curated", "id": id, "lat": la, "lon": ln}, name, "attraction", cat, 25.0)
+    r = base({"type": "curated", "id": id, "lat": la, "lon": ln}, name, "attraction", cat, 200.0)
     if r:
         r.update(id=id, planned=bool(is_planned(la, ln)), pick=pick)
         rows.append(r)
@@ -250,7 +267,7 @@ for x in json.loads((RAW / "web-top.json").read_text())["items"]:
     curated("w-" + re.sub(r"\W+", "-", x["name"].lower()).strip("-"),
             x["name"], x["lat"], x["lng"], x["category"], True)
 write("attractions.json", dedupe(rows),
-      "Sights within 10 km of the driven route (OSM) or 25 km (Rexby, iceland-dream, web research). "
+      "Sights within 10 km of the driven route (OSM) or 200 km (Rexby, iceland-dream, web research). "
       "planned=true means it is already a stop; pick=true means a curated guide lists it.")
 
 # --- food --------------------------------------------------------
