@@ -7,12 +7,12 @@
    "title": "North up Route 1: Borgarfjördur",
    "routeKm": 360,
    "counts": {
-    "attractions": 386,
+    "attractions": 410,
     "food": 738,
     "fuel": 113,
     "groceries": 79,
     "stays": 257,
-    "attractionsRural": 215,
+    "attractionsRural": 235,
     "foodRural": 62,
     "bigSupermarkets": 64
    },
@@ -29,12 +29,12 @@
    "title": "Akureyri, Goðafoss, the Mývatn ring",
    "routeKm": 263,
    "counts": {
-    "attractions": 100,
+    "attractions": 112,
     "food": 75,
     "fuel": 21,
     "groceries": 8,
     "stays": 108,
-    "attractionsRural": 83,
+    "attractionsRural": 93,
     "foodRural": 22,
     "bigSupermarkets": 7
    },
@@ -51,12 +51,12 @@
    "title": "Hverir, Dettifoss, Ásbyrgi",
    "routeKm": 306,
    "counts": {
-    "attractions": 79,
+    "attractions": 88,
     "food": 21,
     "fuel": 11,
     "groceries": 2,
     "stays": 50,
-    "attractionsRural": 79,
+    "attractionsRural": 88,
     "foodRural": 21,
     "bigSupermarkets": 2
    },
@@ -73,12 +73,12 @@
    "title": "East fjords the long way, Vestrahorn",
    "routeKm": 277,
    "counts": {
-    "attractions": 79,
+    "attractions": 96,
     "food": 38,
     "fuel": 17,
     "groceries": 5,
     "stays": 77,
-    "attractionsRural": 79,
+    "attractionsRural": 96,
     "foodRural": 38,
     "bigSupermarkets": 4
    },
@@ -95,12 +95,12 @@
    "title": "Lagoons, Skaftafell, westbound",
    "routeKm": 227,
    "counts": {
-    "attractions": 72,
+    "attractions": 80,
     "food": 24,
     "fuel": 8,
     "groceries": 2,
     "stays": 69,
-    "attractionsRural": 72,
+    "attractionsRural": 80,
     "foodRural": 24,
     "bigSupermarkets": 1
    },
@@ -117,12 +117,12 @@
    "title": "Canyon, south coast, glacier hike",
    "routeKm": 179,
    "counts": {
-    "attractions": 88,
+    "attractions": 94,
     "food": 25,
     "fuel": 5,
     "groceries": 2,
     "stays": 56,
-    "attractionsRural": 88,
+    "attractionsRural": 94,
     "foodRural": 25,
     "bigSupermarkets": 1
    },
@@ -139,12 +139,12 @@
    "title": "Ice cave and the south coast",
    "routeKm": 199,
    "counts": {
-    "attractions": 319,
+    "attractions": 332,
     "food": 723,
     "fuel": 93,
     "groceries": 69,
     "stays": 257,
-    "attractionsRural": 157,
+    "attractionsRural": 166,
     "foodRural": 61,
     "bigSupermarkets": 61
    },
@@ -161,12 +161,12 @@
    "title": "Golden Circle, then the lagoon and fly",
    "routeKm": 298,
    "counts": {
-    "attractions": 392,
+    "attractions": 411,
     "food": 776,
     "fuel": 111,
     "groceries": 76,
     "stays": 286,
-    "attractionsRural": 221,
+    "attractionsRural": 236,
     "foodRural": 70,
     "bigSupermarkets": 66
    },

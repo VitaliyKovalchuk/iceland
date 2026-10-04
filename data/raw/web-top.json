@@ -1,0 +1,1293 @@
+{
+ "source": "Web research 2026-10-04, one agent per region (Guide to Iceland, Lonely Planet, Wikipedia, OSM). Places needing an F-road or a contract-banned road were dropped.",
+ "items": [
+  {
+   "name": "Stuðlagil",
+   "lat": 65.1623,
+   "lng": -15.3081,
+   "category": "nature",
+   "rank": 1,
+   "region": "east"
+  },
+  {
+   "name": "Hengifoss",
+   "lat": 65.0953,
+   "lng": -14.8897,
+   "category": "waterfall",
+   "rank": 1,
+   "region": "east"
+  },
+  {
+   "name": "Litlanesfoss",
+   "lat": 65.0836,
+   "lng": -14.8831,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "east"
+  },
+  {
+   "name": "Hallormsstaðaskógur & Atlavík",
+   "lat": 65.0954,
+   "lng": -14.7207,
+   "category": "nature",
+   "rank": 2,
+   "region": "east"
+  },
+  {
+   "name": "Skriðuklaustur",
+   "lat": 65.0409,
+   "lng": -14.9527,
+   "category": "historic",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Fardagafoss",
+   "lat": 65.2688,
+   "lng": -14.3139,
+   "category": "waterfall",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Vök Baths",
+   "lat": 65.3031,
+   "lng": -14.4475,
+   "category": "baths",
+   "rank": 2,
+   "region": "east"
+  },
+  {
+   "name": "Seyðisfjörður & Blue Church",
+   "lat": 65.2613,
+   "lng": -14.0106,
+   "category": "historic",
+   "rank": 1,
+   "region": "east"
+  },
+  {
+   "name": "Gufufoss",
+   "lat": 65.24,
+   "lng": -14.0575,
+   "category": "waterfall",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Tvísöngur",
+   "lat": 65.2678,
+   "lng": -13.9819,
+   "category": "attraction",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Borgarfjörður eystri",
+   "lat": 65.5425,
+   "lng": -13.7814,
+   "category": "coast",
+   "rank": 2,
+   "region": "east"
+  },
+  {
+   "name": "Álfaborg",
+   "lat": 65.5223,
+   "lng": -13.8073,
+   "category": "nature",
+   "rank": 2,
+   "region": "east"
+  },
+  {
+   "name": "Stórurð",
+   "lat": 65.512,
+   "lng": -13.9788,
+   "category": "nature",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Dalatangi Lighthouse",
+   "lat": 65.2702,
+   "lng": -13.575,
+   "category": "coast",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Klifbrekkufossar",
+   "lat": 65.1795,
+   "lng": -14.0815,
+   "category": "waterfall",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Helgustaðanáma",
+   "lat": 65.0336,
+   "lng": -13.8527,
+   "category": "historic",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Fáskrúðsfjörður French heritage",
+   "lat": 64.9228,
+   "lng": -13.9829,
+   "category": "historic",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Kolfreyjustaðarkirkja",
+   "lat": 64.9125,
+   "lng": -13.7969,
+   "category": "historic",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Petra's Stone Collection",
+   "lat": 64.8357,
+   "lng": -13.8805,
+   "category": "museum",
+   "rank": 1,
+   "region": "east"
+  },
+  {
+   "name": "Breiðdalsvík",
+   "lat": 64.7833,
+   "lng": -14.0,
+   "category": "attraction",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Fossárdalur",
+   "lat": 64.753,
+   "lng": -14.4916,
+   "category": "waterfall",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Teigarhorn",
+   "lat": 64.6942,
+   "lng": -14.4662,
+   "category": "nature",
+   "rank": 2,
+   "region": "east"
+  },
+  {
+   "name": "Eggin í Gleðivík",
+   "lat": 64.6624,
+   "lng": -14.2942,
+   "category": "attraction",
+   "rank": 1,
+   "region": "east"
+  },
+  {
+   "name": "Djúpivogur",
+   "lat": 64.65,
+   "lng": -14.2833,
+   "category": "historic",
+   "rank": 2,
+   "region": "east"
+  },
+  {
+   "name": "Hvalnes Lighthouse",
+   "lat": 64.4022,
+   "lng": -14.5401,
+   "category": "coast",
+   "rank": 1,
+   "region": "east"
+  },
+  {
+   "name": "Eystrahorn",
+   "lat": 64.4171,
+   "lng": -14.5627,
+   "category": "viewpoint",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Stokksnes",
+   "lat": 64.244,
+   "lng": -14.9673,
+   "category": "beach",
+   "rank": 1,
+   "region": "east"
+  },
+  {
+   "name": "Almannaskarð viewpoint",
+   "lat": 64.2848,
+   "lng": -15.0359,
+   "category": "viewpoint",
+   "rank": 2,
+   "region": "east"
+  },
+  {
+   "name": "Höfn harbour",
+   "lat": 64.2539,
+   "lng": -15.212,
+   "category": "coast",
+   "rank": 2,
+   "region": "east"
+  },
+  {
+   "name": "Rjúkandi",
+   "lat": 65.3336,
+   "lng": -15.0795,
+   "category": "waterfall",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Hafrahvammagljúfur",
+   "lat": 64.9484,
+   "lng": -15.7891,
+   "category": "nature",
+   "rank": 3,
+   "region": "east"
+  },
+  {
+   "name": "Þingvellir (Almannagjá)",
+   "lat": 64.2554,
+   "lng": -21.128,
+   "category": "historic",
+   "rank": 1,
+   "region": "golden"
+  },
+  {
+   "name": "Öxarárfoss",
+   "lat": 64.26639,
+   "lng": -21.12167,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "golden"
+  },
+  {
+   "name": "Geysir",
+   "lat": 64.3137,
+   "lng": -20.2995,
+   "category": "hot_spring",
+   "rank": 1,
+   "region": "golden"
+  },
+  {
+   "name": "Strokkur",
+   "lat": 64.31306,
+   "lng": -20.30056,
+   "category": "hot_spring",
+   "rank": 1,
+   "region": "golden"
+  },
+  {
+   "name": "Gullfoss",
+   "lat": 64.32611,
+   "lng": -20.12111,
+   "category": "waterfall",
+   "rank": 1,
+   "region": "golden"
+  },
+  {
+   "name": "Brúarfoss",
+   "lat": 64.26424,
+   "lng": -20.51587,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "golden"
+  },
+  {
+   "name": "Kerið",
+   "lat": 64.04179,
+   "lng": -20.88648,
+   "category": "volcano",
+   "rank": 1,
+   "region": "golden"
+  },
+  {
+   "name": "Faxi waterfall",
+   "lat": 64.2256,
+   "lng": -20.3381,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "golden"
+  },
+  {
+   "name": "Skálholt Cathedral",
+   "lat": 64.12531,
+   "lng": -20.52414,
+   "category": "historic",
+   "rank": 3,
+   "region": "golden"
+  },
+  {
+   "name": "Fontana Laugarvatn",
+   "lat": 64.2146,
+   "lng": -20.73021,
+   "category": "baths",
+   "rank": 2,
+   "region": "golden"
+  },
+  {
+   "name": "Secret Lagoon (Gamla Laugin)",
+   "lat": 64.13719,
+   "lng": -20.30902,
+   "category": "baths",
+   "rank": 2,
+   "region": "golden"
+  },
+  {
+   "name": "Hrunalaug",
+   "lat": 64.13284,
+   "lng": -20.25495,
+   "category": "hot_spring",
+   "rank": 3,
+   "region": "golden"
+  },
+  {
+   "name": "Reykjadalur hot river",
+   "lat": 64.02116,
+   "lng": -21.21116,
+   "category": "hot_spring",
+   "rank": 2,
+   "region": "golden"
+  },
+  {
+   "name": "Reykjafoss",
+   "lat": 64.00236,
+   "lng": -21.18232,
+   "category": "waterfall",
+   "rank": 3,
+   "region": "golden"
+  },
+  {
+   "name": "Hellisheiði Geothermal Exhibition",
+   "lat": 64.03734,
+   "lng": -21.40065,
+   "category": "museum",
+   "rank": 3,
+   "region": "golden"
+  },
+  {
+   "name": "Raufarhólshellir lava tunnel",
+   "lat": 63.94024,
+   "lng": -21.39718,
+   "category": "cave",
+   "rank": 3,
+   "region": "golden"
+  },
+  {
+   "name": "Urriðafoss",
+   "lat": 63.924,
+   "lng": -20.674,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "golden"
+  },
+  {
+   "name": "Hjálparfoss",
+   "lat": 64.11611,
+   "lng": -19.85111,
+   "category": "waterfall",
+   "rank": 3,
+   "region": "golden"
+  },
+  {
+   "name": "Gjáin",
+   "lat": 64.15148,
+   "lng": -19.73835,
+   "category": "nature",
+   "rank": 3,
+   "region": "golden"
+  },
+  {
+   "name": "Háifoss",
+   "lat": 64.20792,
+   "lng": -19.68699,
+   "category": "waterfall",
+   "rank": 3,
+   "region": "golden"
+  },
+  {
+   "name": "Lava Centre Hvolsvöllur",
+   "lat": 63.75329,
+   "lng": -20.23627,
+   "category": "museum",
+   "rank": 3,
+   "region": "golden"
+  },
+  {
+   "name": "Blue Lagoon",
+   "lat": 63.87917,
+   "lng": -22.44432,
+   "category": "baths",
+   "rank": 1,
+   "region": "golden"
+  },
+  {
+   "name": "Brimketill",
+   "lat": 63.81915,
+   "lng": -22.60601,
+   "category": "coast",
+   "rank": 3,
+   "region": "golden"
+  },
+  {
+   "name": "Gunnuhver",
+   "lat": 63.81986,
+   "lng": -22.6874,
+   "category": "hot_spring",
+   "rank": 3,
+   "region": "golden"
+  },
+  {
+   "name": "Dettifoss",
+   "lat": 65.8143,
+   "lng": -16.3845,
+   "category": "waterfall",
+   "rank": 1,
+   "region": "northeast"
+  },
+  {
+   "name": "Selfoss (Jökulsá)",
+   "lat": 65.8048,
+   "lng": -16.3865,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "northeast"
+  },
+  {
+   "name": "Hafragilsfoss",
+   "lat": 65.8321,
+   "lng": -16.4,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "northeast"
+  },
+  {
+   "name": "Hverir",
+   "lat": 65.6411,
+   "lng": -16.8092,
+   "category": "hot_spring",
+   "rank": 1,
+   "region": "northeast"
+  },
+  {
+   "name": "Víti",
+   "lat": 65.7171,
+   "lng": -16.7531,
+   "category": "volcano",
+   "rank": 1,
+   "region": "northeast"
+  },
+  {
+   "name": "Leirhnjúkur",
+   "lat": 65.7213,
+   "lng": -16.7935,
+   "category": "volcano",
+   "rank": 2,
+   "region": "northeast"
+  },
+  {
+   "name": "Dimmuborgir",
+   "lat": 65.5915,
+   "lng": -16.9126,
+   "category": "nature",
+   "rank": 1,
+   "region": "northeast"
+  },
+  {
+   "name": "Hverfjall",
+   "lat": 65.6133,
+   "lng": -16.8749,
+   "category": "volcano",
+   "rank": 2,
+   "region": "northeast"
+  },
+  {
+   "name": "Grjótagjá",
+   "lat": 65.6264,
+   "lng": -16.8828,
+   "category": "cave",
+   "rank": 3,
+   "region": "northeast"
+  },
+  {
+   "name": "Mývatn Nature Baths",
+   "lat": 65.6304,
+   "lng": -16.8474,
+   "category": "baths",
+   "rank": 1,
+   "region": "northeast"
+  },
+  {
+   "name": "Stóragjá",
+   "lat": 65.6383,
+   "lng": -16.9101,
+   "category": "cave",
+   "rank": 3,
+   "region": "northeast"
+  },
+  {
+   "name": "Skútustaðagígar",
+   "lat": 65.5675,
+   "lng": -17.0351,
+   "category": "nature",
+   "rank": 2,
+   "region": "northeast"
+  },
+  {
+   "name": "Höfði & Kálfaströnd",
+   "lat": 65.5708,
+   "lng": -16.9536,
+   "category": "nature",
+   "rank": 3,
+   "region": "northeast"
+  },
+  {
+   "name": "Grænavatn",
+   "lat": 65.5458,
+   "lng": -16.9856,
+   "category": "nature",
+   "rank": 3,
+   "region": "northeast"
+  },
+  {
+   "name": "Ásbyrgi",
+   "lat": 66.0124,
+   "lng": -16.5047,
+   "category": "nature",
+   "rank": 1,
+   "region": "northeast"
+  },
+  {
+   "name": "Hljóðaklettar",
+   "lat": 65.9444,
+   "lng": -16.533,
+   "category": "nature",
+   "rank": 2,
+   "region": "northeast"
+  },
+  {
+   "name": "Húsavík",
+   "lat": 66.0458,
+   "lng": -17.3422,
+   "category": "attraction",
+   "rank": 2,
+   "region": "northeast"
+  },
+  {
+   "name": "Möðrudalur",
+   "lat": 65.3746,
+   "lng": -15.882,
+   "category": "historic",
+   "rank": 3,
+   "region": "northeast"
+  },
+  {
+   "name": "Hrossaborg",
+   "lat": 65.6158,
+   "lng": -16.2605,
+   "category": "volcano",
+   "rank": 3,
+   "region": "northeast"
+  },
+  {
+   "name": "Hvítserkur",
+   "lat": 65.6064,
+   "lng": -20.6352,
+   "category": "coast",
+   "rank": 1,
+   "region": "northwest"
+  },
+  {
+   "name": "Illugastaðir seal hide",
+   "lat": 65.6069,
+   "lng": -20.8901,
+   "category": "nature",
+   "rank": 3,
+   "region": "northwest"
+  },
+  {
+   "name": "Kolugljúfur",
+   "lat": 65.3319,
+   "lng": -20.5696,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "northwest"
+  },
+  {
+   "name": "Borgarvirki",
+   "lat": 65.4748,
+   "lng": -20.5966,
+   "category": "historic",
+   "rank": 2,
+   "region": "northwest"
+  },
+  {
+   "name": "Þingeyrar church",
+   "lat": 65.5547,
+   "lng": -20.4045,
+   "category": "historic",
+   "rank": 3,
+   "region": "northwest"
+  },
+  {
+   "name": "Vatnsdalshólar",
+   "lat": 65.5018,
+   "lng": -20.3788,
+   "category": "nature",
+   "rank": 3,
+   "region": "northwest"
+  },
+  {
+   "name": "Icelandic Seal Centre",
+   "lat": 65.3953,
+   "lng": -20.9478,
+   "category": "museum",
+   "rank": 3,
+   "region": "northwest"
+  },
+  {
+   "name": "Kálfshamarsvík",
+   "lat": 66.0117,
+   "lng": -20.4206,
+   "category": "coast",
+   "rank": 1,
+   "region": "northwest"
+  },
+  {
+   "name": "Spákonufellsborg",
+   "lat": 65.8432,
+   "lng": -20.2468,
+   "category": "viewpoint",
+   "rank": 3,
+   "region": "northwest"
+  },
+  {
+   "name": "Víðimýrarkirkja",
+   "lat": 65.5388,
+   "lng": -19.4704,
+   "category": "historic",
+   "rank": 2,
+   "region": "northwest"
+  },
+  {
+   "name": "Glaumbær turf farm",
+   "lat": 65.611,
+   "lng": -19.5047,
+   "category": "museum",
+   "rank": 1,
+   "region": "northwest"
+  },
+  {
+   "name": "Hólar í Hjaltadal",
+   "lat": 65.7334,
+   "lng": -19.1138,
+   "category": "historic",
+   "rank": 3,
+   "region": "northwest"
+  },
+  {
+   "name": "Hofsós pool",
+   "lat": 65.8959,
+   "lng": -19.4107,
+   "category": "baths",
+   "rank": 2,
+   "region": "northwest"
+  },
+  {
+   "name": "Grettislaug",
+   "lat": 65.8822,
+   "lng": -19.7365,
+   "category": "hot_spring",
+   "rank": 2,
+   "region": "northwest"
+  },
+  {
+   "name": "Hraundrangi (Öxnadalur)",
+   "lat": 65.59,
+   "lng": -18.596,
+   "category": "viewpoint",
+   "rank": 2,
+   "region": "northwest"
+  },
+  {
+   "name": "Forest Lagoon (Skógarböðin)",
+   "lat": 65.6699,
+   "lng": -18.0418,
+   "category": "baths",
+   "rank": 1,
+   "region": "northwest"
+  },
+  {
+   "name": "Akureyrarkirkja",
+   "lat": 65.6798,
+   "lng": -18.091,
+   "category": "historic",
+   "rank": 2,
+   "region": "northwest"
+  },
+  {
+   "name": "Akureyri Botanical Garden",
+   "lat": 65.6751,
+   "lng": -18.0943,
+   "category": "nature",
+   "rank": 3,
+   "region": "northwest"
+  },
+  {
+   "name": "Herring Era Museum",
+   "lat": 66.1475,
+   "lng": -18.9133,
+   "category": "museum",
+   "rank": 3,
+   "region": "northwest"
+  },
+  {
+   "name": "Goðafoss",
+   "lat": 65.6828,
+   "lng": -17.5506,
+   "category": "waterfall",
+   "rank": 1,
+   "region": "northwest"
+  },
+  {
+   "name": "Aldeyjarfoss",
+   "lat": 65.3664,
+   "lng": -17.337,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "northwest"
+  },
+  {
+   "name": "Vaglaskógur",
+   "lat": 65.7158,
+   "lng": -17.8876,
+   "category": "nature",
+   "rank": 3,
+   "region": "northwest"
+  },
+  {
+   "name": "Laufás turf farm",
+   "lat": 65.8951,
+   "lng": -18.0706,
+   "category": "historic",
+   "rank": 3,
+   "region": "northwest"
+  },
+  {
+   "name": "Blue Lagoon",
+   "lat": 63.88,
+   "lng": -22.44806,
+   "category": "baths",
+   "rank": 1,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Gunnuhver",
+   "lat": 63.819861,
+   "lng": -22.687395,
+   "category": "hot_spring",
+   "rank": 1,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Reykjanesviti",
+   "lat": 63.815673,
+   "lng": -22.704197,
+   "category": "coast",
+   "rank": 2,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Valahnúkur",
+   "lat": 63.81234,
+   "lng": -22.71688,
+   "category": "coast",
+   "rank": 3,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Brimketill",
+   "lat": 63.819304,
+   "lng": -22.605849,
+   "category": "coast",
+   "rank": 2,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Bridge Between Continents",
+   "lat": 63.86838,
+   "lng": -22.67515,
+   "category": "attraction",
+   "rank": 2,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Seltún (Krýsuvík)",
+   "lat": 63.895,
+   "lng": -22.05694,
+   "category": "hot_spring",
+   "rank": 1,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Strandarkirkja",
+   "lat": 63.83333,
+   "lng": -21.7,
+   "category": "historic",
+   "rank": 3,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Fagradalsfjall lava fields",
+   "lat": 63.905,
+   "lng": -22.2725,
+   "category": "volcano",
+   "rank": 3,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Þríhnúkagígur",
+   "lat": 63.99833,
+   "lng": -21.69888,
+   "category": "volcano",
+   "rank": 3,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Hallgrímskirkja",
+   "lat": 64.1417,
+   "lng": -21.9266,
+   "category": "historic",
+   "rank": 1,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Sun Voyager",
+   "lat": 64.14759,
+   "lng": -21.92231,
+   "category": "attraction",
+   "rank": 2,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Harpa",
+   "lat": 64.15028,
+   "lng": -21.9325,
+   "category": "attraction",
+   "rank": 2,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Perlan",
+   "lat": 64.1292,
+   "lng": -21.9189,
+   "category": "museum",
+   "rank": 2,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Settlement Exhibition",
+   "lat": 64.14729,
+   "lng": -21.94269,
+   "category": "museum",
+   "rank": 3,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Viðey",
+   "lat": 64.16667,
+   "lng": -21.86667,
+   "category": "nature",
+   "rank": 3,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Grótta lighthouse",
+   "lat": 64.1644,
+   "lng": -22.022,
+   "category": "coast",
+   "rank": 3,
+   "region": "reykjanes"
+  },
+  {
+   "name": "Jökulsárlón",
+   "lat": 64.0703,
+   "lng": -16.2117,
+   "category": "nature",
+   "rank": 1,
+   "region": "south"
+  },
+  {
+   "name": "Diamond Beach",
+   "lat": 64.0534,
+   "lng": -16.1531,
+   "category": "beach",
+   "rank": 1,
+   "region": "south"
+  },
+  {
+   "name": "Fjallsárlón",
+   "lat": 64.0186,
+   "lng": -16.385,
+   "category": "nature",
+   "rank": 1,
+   "region": "south"
+  },
+  {
+   "name": "Múlagljúfur",
+   "lat": 63.9887,
+   "lng": -16.4584,
+   "category": "nature",
+   "rank": 2,
+   "region": "south"
+  },
+  {
+   "name": "Kvíárjökull",
+   "lat": 63.9558,
+   "lng": -16.5286,
+   "category": "viewpoint",
+   "rank": 3,
+   "region": "south"
+  },
+  {
+   "name": "Svartifoss",
+   "lat": 64.016,
+   "lng": -16.972,
+   "category": "waterfall",
+   "rank": 1,
+   "region": "south"
+  },
+  {
+   "name": "Svínafellsjökull",
+   "lat": 64.02,
+   "lng": -16.824,
+   "category": "viewpoint",
+   "rank": 2,
+   "region": "south"
+  },
+  {
+   "name": "Lómagnúpur",
+   "lat": 63.9667,
+   "lng": -17.5167,
+   "category": "nature",
+   "rank": 3,
+   "region": "south"
+  },
+  {
+   "name": "Núpsstaður turf church",
+   "lat": 63.9503,
+   "lng": -17.6194,
+   "category": "historic",
+   "rank": 3,
+   "region": "south"
+  },
+  {
+   "name": "Dverghamrar",
+   "lat": 63.8493,
+   "lng": -17.8601,
+   "category": "nature",
+   "rank": 3,
+   "region": "south"
+  },
+  {
+   "name": "Foss á Síðu",
+   "lat": 63.86,
+   "lng": -17.87,
+   "category": "waterfall",
+   "rank": 3,
+   "region": "south"
+  },
+  {
+   "name": "Eldhraun lava field",
+   "lat": 63.7,
+   "lng": -18.27,
+   "category": "nature",
+   "rank": 2,
+   "region": "south"
+  },
+  {
+   "name": "Fjaðrárgljúfur",
+   "lat": 63.7713,
+   "lng": -18.1719,
+   "category": "nature",
+   "rank": 1,
+   "region": "south"
+  },
+  {
+   "name": "Kirkjugólf",
+   "lat": 63.7954,
+   "lng": -18.0464,
+   "category": "nature",
+   "rank": 3,
+   "region": "south"
+  },
+  {
+   "name": "Systrafoss",
+   "lat": 63.786,
+   "lng": -18.06,
+   "category": "waterfall",
+   "rank": 3,
+   "region": "south"
+  },
+  {
+   "name": "Hjörleifshöfði",
+   "lat": 63.4167,
+   "lng": -18.7667,
+   "category": "nature",
+   "rank": 3,
+   "region": "south"
+  },
+  {
+   "name": "Reynisfjara",
+   "lat": 63.4035,
+   "lng": -19.0474,
+   "category": "beach",
+   "rank": 1,
+   "region": "south"
+  },
+  {
+   "name": "Dyrhólaey",
+   "lat": 63.3997,
+   "lng": -19.1264,
+   "category": "viewpoint",
+   "rank": 1,
+   "region": "south"
+  },
+  {
+   "name": "Sólheimajökull",
+   "lat": 63.55,
+   "lng": -19.3,
+   "category": "viewpoint",
+   "rank": 2,
+   "region": "south"
+  },
+  {
+   "name": "Vík church viewpoint",
+   "lat": 63.4194,
+   "lng": -19.0097,
+   "category": "coast",
+   "rank": 2,
+   "region": "south"
+  },
+  {
+   "name": "Kvernufoss",
+   "lat": 63.529,
+   "lng": -19.4803,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "south"
+  },
+  {
+   "name": "Skógafoss",
+   "lat": 63.5321,
+   "lng": -19.5111,
+   "category": "waterfall",
+   "rank": 1,
+   "region": "south"
+  },
+  {
+   "name": "Seljalandsfoss",
+   "lat": 63.6158,
+   "lng": -19.9928,
+   "category": "waterfall",
+   "rank": 1,
+   "region": "south"
+  },
+  {
+   "name": "Gljúfrabúi",
+   "lat": 63.6214,
+   "lng": -19.9883,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "south"
+  },
+  {
+   "name": "Seljavallalaug",
+   "lat": 63.5662,
+   "lng": -19.6076,
+   "category": "baths",
+   "rank": 3,
+   "region": "south"
+  },
+  {
+   "name": "Vestrahorn",
+   "lat": 64.243,
+   "lng": -14.96,
+   "category": "viewpoint",
+   "rank": 2,
+   "region": "south"
+  },
+  {
+   "name": "Hraunfossar",
+   "lat": 64.7025647,
+   "lng": -20.9806014,
+   "category": "waterfall",
+   "rank": 1,
+   "region": "west"
+  },
+  {
+   "name": "Barnafossar",
+   "lat": 64.7020322,
+   "lng": -20.9742983,
+   "category": "waterfall",
+   "rank": 1,
+   "region": "west"
+  },
+  {
+   "name": "Deildartunguhver",
+   "lat": 64.663626,
+   "lng": -21.4105725,
+   "category": "hot_spring",
+   "rank": 1,
+   "region": "west"
+  },
+  {
+   "name": "Krauma",
+   "lat": 64.6645269,
+   "lng": -21.4113352,
+   "category": "baths",
+   "rank": 2,
+   "region": "west"
+  },
+  {
+   "name": "Snorralaug (Reykholt)",
+   "lat": 64.6639937,
+   "lng": -21.2912231,
+   "category": "historic",
+   "rank": 2,
+   "region": "west"
+  },
+  {
+   "name": "Víðgelmir lava cave",
+   "lat": 64.7502249,
+   "lng": -20.8018988,
+   "category": "cave",
+   "rank": 2,
+   "region": "west"
+  },
+  {
+   "name": "Surtshellir",
+   "lat": 64.7845665,
+   "lng": -20.7222651,
+   "category": "cave",
+   "rank": 3,
+   "region": "west"
+  },
+  {
+   "name": "Grábrók crater",
+   "lat": 64.7714498,
+   "lng": -21.538719,
+   "category": "volcano",
+   "rank": 1,
+   "region": "west"
+  },
+  {
+   "name": "Glanni & Paradísarlaut",
+   "lat": 64.7535914,
+   "lng": -21.545974,
+   "category": "waterfall",
+   "rank": 3,
+   "region": "west"
+  },
+  {
+   "name": "Hreðavatn",
+   "lat": 64.7554399,
+   "lng": -21.5882385,
+   "category": "nature",
+   "rank": 3,
+   "region": "west"
+  },
+  {
+   "name": "Settlement Center Borgarnes",
+   "lat": 64.5356889,
+   "lng": -21.923204,
+   "category": "museum",
+   "rank": 2,
+   "region": "west"
+  },
+  {
+   "name": "Borg á Mýrum",
+   "lat": 64.5615,
+   "lng": -21.9154,
+   "category": "historic",
+   "rank": 3,
+   "region": "west"
+  },
+  {
+   "name": "Akranesviti",
+   "lat": 64.3088241,
+   "lng": -22.0949475,
+   "category": "historic",
+   "rank": 2,
+   "region": "west"
+  },
+  {
+   "name": "Langisandur",
+   "lat": 64.3156893,
+   "lng": -22.0555351,
+   "category": "beach",
+   "rank": 3,
+   "region": "west"
+  },
+  {
+   "name": "Glymur",
+   "lat": 64.3908057,
+   "lng": -21.2514649,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "west"
+  },
+  {
+   "name": "Hvammsvík Hot Springs",
+   "lat": 64.3702092,
+   "lng": -21.5733426,
+   "category": "baths",
+   "rank": 2,
+   "region": "west"
+  },
+  {
+   "name": "Hallgrímskirkja í Saurbæ",
+   "lat": 64.405609,
+   "lng": -21.6254556,
+   "category": "historic",
+   "rank": 3,
+   "region": "west"
+  },
+  {
+   "name": "Eldborg crater",
+   "lat": 64.7963618,
+   "lng": -22.3214834,
+   "category": "volcano",
+   "rank": 3,
+   "region": "west"
+  },
+  {
+   "name": "Kolugljúfur",
+   "lat": 65.3327751,
+   "lng": -20.570097,
+   "category": "waterfall",
+   "rank": 2,
+   "region": "west"
+  },
+  {
+   "name": "Borgarvirki",
+   "lat": 65.4747784,
+   "lng": -20.5971767,
+   "category": "historic",
+   "rank": 3,
+   "region": "west"
+  },
+  {
+   "name": "Hvítserkur",
+   "lat": 65.60648,
+   "lng": -20.63563,
+   "category": "coast",
+   "rank": 3,
+   "region": "west"
+  }
+ ]
+}

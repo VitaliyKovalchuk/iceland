@@ -199,15 +199,25 @@ REXBY_NAME = {  # paywalled titles we can name from the coordinates
     "Church and rainbow street": "Seyðisfjörður rainbow street",
     "Powerful waterfall in canyon": "Hafragilsfoss",
 }
+def same_words(a, b):
+    """Do two names share a word? Substring per word, so Skálholt ~ Skálholtskirkja."""
+    wa, wb = (set(w for w in re.findall(r"\w{4,}", x.lower())) for x in (a, b))
+    return any(x in y or y in x for x in wa for y in wb)
+
 def curated(id, name, la, ln, cat, pick):
-    """Add a curated place, or if we already have it (same spot, or same name nearby —
-    guide pins can sit kilometres off) just mark the existing row as a pick."""
+    """Add a curated place, or mark the row we already have for it as a pick.
+    Same place = same name (guide pins can sit kilometres off). Proximity alone is not
+    enough: Eggin í Gleðivík sits 300 m from a gift shop. A pick that matches no name
+    gets its own row, so Picks mode never shows a stand-in."""
     p, low = xy(la, ln), name.lower()
-    for r in rows:
-        d = math.dist(p, xy(r["lat"], r["lng"]))
-        if d < 0.5 or (d < 15 and len(r["name"]) >= 5 and r["name"].lower() in low):
+    near = [(math.dist(p, xy(r["lat"], r["lng"])), r) for r in rows]
+    for d, r in near:
+        if (d < 15 and len(r["name"]) >= 5 and r["name"].lower() in low) or \
+           (d < 0.5 and same_words(r["name"], name)):
             r["pick"] = r.get("pick") or pick
             return
+    if not pick and any(d < 0.5 for d, _ in near):
+        return  # a vague title next to something we already have
     r = base({"type": "curated", "id": id, "lat": la, "lon": ln}, name, "attraction", cat, 25.0)
     if r:
         r.update(id=id, planned=bool(is_planned(la, ln)), pick=pick)
@@ -227,12 +237,20 @@ for x in rex:
 # iceland-dream.com region guides. No category in the source, so guess from the title.
 for x in json.loads((RAW / "iceland-dream.json").read_text())["items"]:
     t = x["title"].lower()
+    if re.search(r"guide|restaurant|region|\barea\b", t):
+        continue  # articles about a whole town or area, not a place to stop
     cat = ("waterfall" if "foss" in t or "waterfall" in t else
            "hot_spring" if re.search(r"hot spring|bath|lagoon|laug", t) else
            "nature" if "hik" in t or "trail" in t else "attraction")
     curated("d" + x["id"], x["title"], x["lat"], x["lng"], cat, True)
+
+# Web research, one agent per region (Guide to Iceland, Lonely Planet, Wikipedia…).
+# Coordinates were sourced, not guessed; anything needing a banned road was dropped.
+for x in json.loads((RAW / "web-top.json").read_text())["items"]:
+    curated("w-" + re.sub(r"\W+", "-", x["name"].lower()).strip("-"),
+            x["name"], x["lat"], x["lng"], x["category"], True)
 write("attractions.json", dedupe(rows),
-      "Sights within 10 km of the driven route (OSM) or 25 km (Rexby, iceland-dream). "
+      "Sights within 10 km of the driven route (OSM) or 25 km (Rexby, iceland-dream, web research). "
       "planned=true means it is already a stop; pick=true means a curated guide lists it.")
 
 # --- food --------------------------------------------------------

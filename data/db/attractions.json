@@ -1,6 +1,6 @@
 {
- "note": "Sights within 10 km of the driven route (OSM) or 25 km (Rexby, iceland-dream). planned=true means it is already a stop; pick=true means a curated guide lists it.",
- "count": 950,
+ "note": "Sights within 10 km of the driven route (OSM) or 25 km (Rexby, iceland-dream, web research). planned=true means it is already a stop; pick=true means a curated guide lists it.",
+ "count": 1017,
  "items": [
   {
    "id": "x0hh-bwNBSNiz2W6tEPVL0g",
@@ -258,7 +258,7 @@
    "address": "Víkurbraut 5",
    "wheelchair": "yes",
    "planned": true,
-   "pick": false
+   "pick": true
   },
   {
    "id": "xq6RlxK7nTBCgysIPO6kwyA",
@@ -316,8 +316,7 @@
    "website": "https://www.kotlusetur.is/",
    "hours": "Nov 1-Apr 30: Mo-Su 12:00-16:00; May 1-Oct 31: Mo-Sa 10:00-17:00",
    "wheelchair": "yes",
-   "planned": true,
-   "pick": true
+   "planned": true
   },
   {
    "id": "w93262550",
@@ -368,7 +367,8 @@
    ],
    "town": false,
    "address": "Fjarðarbraut 21",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n4394578622",
@@ -517,6 +517,27 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "w-skútustaðagígar",
+   "name": "Skútustaðagígar",
+   "lat": 65.5675,
+   "lng": -17.0351,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     0.0,
+     1
+    ],
+    [
+     10.0,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n11077690905",
@@ -675,6 +696,27 @@
    "pick": false
   },
   {
+   "id": "w-vík-church-viewpoint",
+   "name": "Vík church viewpoint",
+   "lat": 63.4194,
+   "lng": -19.0097,
+   "kind": "attraction",
+   "cat": "coast",
+   "days": [
+    [
+     0.0,
+     6
+    ],
+    [
+     0.1,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
    "id": "r6180675",
    "name": "Þjóðminjasafn Íslands",
    "lat": 64.14196,
@@ -721,6 +763,27 @@
    "planned": true
   },
   {
+   "id": "w-almannaskarð-viewpoint",
+   "name": "Almannaskarð viewpoint",
+   "lat": 64.2848,
+   "lng": -15.0359,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     0.1,
+     3
+    ],
+    [
+     7.7,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n9900839727",
    "name": "Black Beach Riding Tours",
    "lat": 63.41679,
@@ -738,8 +801,7 @@
     ]
    ],
    "town": false,
-   "planned": true,
-   "pick": true
+   "planned": true
   },
   {
    "id": "w411196882",
@@ -798,6 +860,23 @@
    "wheelchair": "yes",
    "wikidata": "Q1183213",
    "planned": true,
+   "pick": true
+  },
+  {
+   "id": "w-diamond-beach",
+   "name": "Diamond Beach",
+   "lat": 64.0534,
+   "lng": -16.1531,
+   "kind": "attraction",
+   "cat": "beach",
+   "days": [
+    [
+     0.1,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
    "pick": true
   },
   {
@@ -875,6 +954,23 @@
    "planned": false
   },
   {
+   "id": "d450",
+   "name": "Eystrahorn and Hvalnes Beach",
+   "lat": 64.40234,
+   "lng": -14.54233,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.1,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
    "id": "n60653640",
    "name": "Faxafoss/Vatnsleysufoss",
    "lat": 64.2259,
@@ -888,8 +984,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n4904504130",
@@ -993,7 +1088,7 @@
    "hours": "24/7",
    "wikidata": "Q966241",
    "planned": true,
-   "pick": false
+   "pick": true
   },
   {
    "id": "w182891222",
@@ -1046,8 +1141,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "r8328494",
@@ -1122,7 +1216,8 @@
    "hours": "Jun 14-Aug 18 11:00-23:00; Aug 20-Jun 13 11:00-21:00; PH 11:00-16:00",
    "email": "krauma@krauma.is",
    "wheelchair": "yes",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n796482084",
@@ -1195,7 +1290,8 @@
    "website": "https://lavacentre.is/",
    "hours": "Mo-Su 09:00-19:00",
    "wheelchair": "yes",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n376045669",
@@ -1459,8 +1555,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n3101274402",
@@ -1624,8 +1719,7 @@
    "phone": "+3545255754",
    "website": "https://tonlistarsafn.is/",
    "address": "Arngrímsgata 3, Reykjavík",
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n3440728286",
@@ -1702,6 +1796,23 @@
    "planned": false
   },
   {
+   "id": "w-akureyrarkirkja",
+   "name": "Akureyrarkirkja",
+   "lat": 65.6798,
+   "lng": -18.091,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     0.2,
+     1
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n308666280",
    "name": "Barnafoss",
    "lat": 64.70182,
@@ -1738,8 +1849,7 @@
    "town": false,
    "hours": "Jan 01-May 25: Mo-Su 08:00-22:00; May 26-Jun 29: Mo-Su 07:00-23:00; Jun 30-Aug 20: Mo-Su 07:00-24:00; Aug 21-Oct 01: Mo-Su 08:00-22:00; Oct 02-Dec 31: Mo-Su 08:00-21:00",
    "wheelchair": "yes",
-   "planned": true,
-   "pick": true
+   "planned": true
   },
   {
    "id": "w411196899",
@@ -1792,6 +1902,23 @@
    "planned": false
   },
   {
+   "id": "w-eggin-í-gleðivík",
+   "name": "Eggin í Gleðivík",
+   "lat": 64.6624,
+   "lng": -14.2942,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.2,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "r13660895",
    "name": "Eystri-Fellsfjara",
    "lat": 64.05393,
@@ -1822,7 +1949,8 @@
    ],
    "town": false,
    "wikidata": "Q2757091",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n1784678783",
@@ -1843,6 +1971,23 @@
    ],
    "town": false,
    "planned": true,
+   "pick": true
+  },
+  {
+   "id": "xQxB_9t6ARbGoHh97iRsmcg",
+   "name": "Forest Lagoon",
+   "lat": 65.67009,
+   "lng": -18.04207,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     0.2,
+     1
+    ]
+   ],
+   "town": true,
+   "planned": false,
    "pick": true
   },
   {
@@ -1875,8 +2020,7 @@
     ]
    ],
    "town": false,
-   "planned": true,
-   "pick": true
+   "planned": true
   },
   {
    "id": "n11670453169",
@@ -1893,6 +2037,27 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "w-höfði-kálfaströnd",
+   "name": "Höfði & Kálfaströnd",
+   "lat": 65.5708,
+   "lng": -16.9536,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     0.2,
+     1
+    ],
+    [
+     7.9,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "x03zPQj8eRyiz2cWzgtbViQ",
@@ -2077,6 +2242,23 @@
    "pick": true
   },
   {
+   "id": "w-settlement-center-borgarnes",
+   "name": "Settlement Center Borgarnes",
+   "lat": 64.53569,
+   "lng": -21.9232,
+   "kind": "attraction",
+   "cat": "museum",
+   "days": [
+    [
+     0.2,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n2668856706",
    "name": "Sionyfoss",
    "lat": 63.89771,
@@ -2174,7 +2356,8 @@
    "town": false,
    "wheelchair": "yes",
    "wikidata": "Q1489087",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n451727223",
@@ -2212,7 +2395,8 @@
    "town": false,
    "wheelchair": "yes",
    "wikidata": "Q1128186",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n546021394",
@@ -2233,7 +2417,8 @@
    ],
    "town": false,
    "wikidata": "Q1645468",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w411197238",
@@ -2337,8 +2522,7 @@
    "address": "Reykjavík",
    "hours": "Mo-Su 10:00-17:00",
    "wikidata": "Q7929434",
-   "planned": false,
-   "pick": true
+   "planned": false
   },
   {
    "id": "r17808179",
@@ -2419,6 +2603,23 @@
    "planned": true
   },
   {
+   "id": "w-akureyri-botanical-garden",
+   "name": "Akureyri Botanical Garden",
+   "lat": 65.6751,
+   "lng": -18.0943,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     0.3,
+     1
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n376045679",
    "name": "Blesi",
    "lat": 64.31345,
@@ -2433,6 +2634,27 @@
    ],
    "town": false,
    "planned": true
+  },
+  {
+   "id": "x4KSIxqYeTbaESICPs-eDmw",
+   "name": "Blue Lagoon",
+   "lat": 63.87908,
+   "lng": -22.4453,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     0.3,
+     7
+    ],
+    [
+     9.2,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
   },
   {
    "id": "r6402507",
@@ -2505,7 +2727,7 @@
    "town": false,
    "wikidata": "Q42514493",
    "planned": false,
-   "pick": false
+   "pick": true
   },
   {
    "id": "w420580980",
@@ -2770,16 +2992,15 @@
    ],
    "town": false,
    "wikidata": "Q27016698",
-   "planned": true,
-   "pick": true
+   "planned": true
   },
   {
-   "id": "w720033031",
+   "id": "w411196946",
    "name": "Kirkjugólf",
-   "lat": 63.79522,
-   "lng": -18.0461,
+   "lat": 63.79523,
+   "lng": -18.04617,
    "kind": "attraction",
-   "cat": "attraction",
+   "cat": "nature",
    "days": [
     [
      0.3,
@@ -2791,8 +3012,8 @@
     ]
    ],
    "town": false,
-   "wikidata": "Q3197399",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n376045675",
@@ -3023,7 +3244,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w1442233603",
@@ -3060,8 +3282,7 @@
    "website": "https://www.minjasafnid.is/en/david-stefansson",
    "address": "Bjarkarstígur 6",
    "hours": "Jun-Aug 13:00-17:00",
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "r7490898",
@@ -3173,7 +3394,8 @@
    "website": "https://www.flyovericeland.com",
    "hours": "Mo-Su 09:00-21:00",
    "wheelchair": "yes",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n4417585573",
@@ -3189,8 +3411,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n2534116947",
@@ -3209,7 +3430,7 @@
    "hours": "24/7",
    "wikidata": "Q5569999",
    "planned": true,
-   "pick": false
+   "pick": true
   },
   {
    "id": "n5227736663",
@@ -3308,8 +3529,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "w485462238",
@@ -3378,8 +3598,7 @@
    "hours": "Mo-Su 10:00-17:00",
    "wheelchair": "yes",
    "wikidata": "Q3480309",
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "w420580954",
@@ -3434,7 +3653,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "xocKKTy56T0y_ZYKNOikJZQ",
@@ -3469,7 +3689,7 @@
    "town": false,
    "wikidata": "Q62578314",
    "planned": false,
-   "pick": false
+   "pick": true
   },
   {
    "id": "n11950870780",
@@ -3489,8 +3709,7 @@
     ]
    ],
    "town": false,
-   "planned": true,
-   "pick": false
+   "planned": true
   },
   {
    "id": "n12224137803",
@@ -3534,6 +3753,27 @@
    "planned": false
   },
   {
+   "id": "d171",
+   "name": "Skogar and Skogafoss",
+   "lat": 63.53235,
+   "lng": -19.51108,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     0.4,
+     6
+    ],
+    [
+     6.5,
+     5
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
    "id": "n270937065",
    "name": "Skógafoss",
    "lat": 63.5321,
@@ -3553,7 +3793,7 @@
    "town": false,
    "wikidata": "Q1130718",
    "planned": true,
-   "pick": false
+   "pick": true
   },
   {
    "id": "n375841652",
@@ -3775,7 +4015,7 @@
    "town": false,
    "wikidata": "Q307675",
    "planned": false,
-   "pick": false
+   "pick": true
   },
   {
    "id": "n1359151552",
@@ -4171,8 +4411,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "x57xVSU8oQm2v4REyf1YZkQ",
@@ -4331,8 +4570,7 @@
    "town": false,
    "website": "https://www.east.is/is/stadur/sveinsstekksfoss",
    "wikidata": "Q2479556",
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n4778114034",
@@ -4417,6 +4655,52 @@
    "planned": false
   },
   {
+   "id": "xKSAaWqMYQYadzQjCZuyCCQ",
+   "name": "Reynisfjall Observation Deck",
+   "lat": 63.40219,
+   "lng": -19.03501,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     0.5,
+     5
+    ],
+    [
+     1.8,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
+   "id": "w-settlement-exhibition",
+   "name": "Settlement Exhibition",
+   "lat": 64.14729,
+   "lng": -21.94269,
+   "kind": "attraction",
+   "cat": "museum",
+   "days": [
+    [
+     0.5,
+     6
+    ],
+    [
+     0.5,
+     7
+    ],
+    [
+     5.3,
+     0
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n13147044369",
    "name": "Sigurðarsel",
    "lat": 64.25618,
@@ -4431,6 +4715,23 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "d109",
+   "name": "Thingvellir National Park",
+   "lat": 64.25601,
+   "lng": -21.1303,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.5,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n331229375",
@@ -4448,7 +4749,7 @@
    "town": false,
    "wikidata": "Q1546828",
    "planned": false,
-   "pick": false
+   "pick": true
   },
   {
    "id": "w411197270",
@@ -4564,7 +4865,8 @@
    "website": "https://www.thingvellir.is/en/things-to-do/",
    "hours": "Mo-Su 09:00-18:00",
    "wheelchair": "yes",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n11388094374",
@@ -4920,7 +5222,8 @@
    "hours": "Mo-Sa 11:00-15:00; Su 10:00-15:00",
    "wheelchair": "yes",
    "wikidata": "Q271466",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n1392638211",
@@ -4964,8 +5267,7 @@
     ]
    ],
    "town": false,
-   "planned": true,
-   "pick": true
+   "planned": true
   },
   {
    "id": "n10901083400",
@@ -4989,8 +5291,7 @@
     ]
    ],
    "town": true,
-   "planned": false,
-   "pick": true
+   "planned": false
   },
   {
    "id": "n312467170",
@@ -5011,8 +5312,7 @@
    ],
    "town": false,
    "hours": "Mo-Fr 09:00-18:00; Sa,Su 10:00-17:00",
-   "planned": false,
-   "pick": true
+   "planned": false
   },
   {
    "id": "n1828885718",
@@ -5032,8 +5332,7 @@
     ]
    ],
    "town": false,
-   "planned": true,
-   "pick": false
+   "planned": true
   },
   {
    "id": "w523729265",
@@ -5132,7 +5431,7 @@
    "wheelchair": "yes",
    "wikidata": "Q3358410",
    "planned": false,
-   "pick": true
+   "pick": false
   },
   {
    "id": "n11670590684",
@@ -5221,8 +5520,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "d245",
@@ -5323,6 +5621,23 @@
    "planned": false
   },
   {
+   "id": "w-víðimýrarkirkja",
+   "name": "Víðimýrarkirkja",
+   "lat": 65.5388,
+   "lng": -19.4704,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     0.6,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n4906669685",
    "name": "Álftaversgígar",
    "lat": 63.54312,
@@ -5373,8 +5688,7 @@
    ],
    "town": false,
    "wheelchair": "yes",
-   "planned": false,
-   "pick": true
+   "planned": false
   },
   {
    "id": "n7119519062",
@@ -5429,6 +5743,23 @@
    "planned": false
   },
   {
+   "id": "w-djúpivogur",
+   "name": "Djúpivogur",
+   "lat": 64.65,
+   "lng": -14.2833,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     0.7,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "w837980452",
    "name": "Djúpið",
    "lat": 64.112,
@@ -5467,6 +5798,23 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "w-eystrahorn",
+   "name": "Eystrahorn",
+   "lat": 64.4171,
+   "lng": -14.5627,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     0.7,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n320995594",
@@ -5643,7 +5991,8 @@
    "town": true,
    "address": "Bankastræti 2",
    "hours": "Mo-Su 10:00-18:00",
-   "planned": false
+   "planned": false,
+   "pick": false
   },
   {
    "id": "n14095643114",
@@ -5932,7 +6281,8 @@
    "hours": "09:00-21:00",
    "wheelchair": "yes",
    "wikidata": "Q1367886",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n11388094395",
@@ -6065,8 +6415,7 @@
    "town": false,
    "phone": "+3544708000",
    "website": "https://www.south.is/en/service/svavarssafn-svavar-gudnason-art-museum",
-   "planned": false,
-   "pick": true
+   "planned": false
   },
   {
    "id": "xYc31ot_fQ9ujPLjT3uarPw",
@@ -6422,8 +6771,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n13791603351",
@@ -6468,7 +6816,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n8317194117",
@@ -6594,6 +6943,31 @@
    "planned": false
   },
   {
+   "id": "d402",
+   "name": "Harpa: The Reykjavik Cultural Center",
+   "lat": 64.15039,
+   "lng": -21.93465,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     0.8,
+     7
+    ],
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n1511563888",
    "name": "Hið Íslenzka Reðasafn",
    "lat": 64.14847,
@@ -6652,8 +7026,7 @@
    ],
    "town": false,
    "wikidata": "Q62512197",
-   "planned": true,
-   "pick": false
+   "planned": true
   },
   {
    "id": "w415349860",
@@ -6697,6 +7070,27 @@
    "planned": true
   },
   {
+   "id": "d108",
+   "name": "Myvatn Nature Baths",
+   "lat": 65.6311,
+   "lng": -16.84801,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     0.8,
+     1
+    ],
+    [
+     0.9,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "w170594996",
    "name": "Peningagjá",
    "lat": 64.2584,
@@ -6736,7 +7130,7 @@
    "town": true,
    "hours": "24/7",
    "planned": false,
-   "pick": true
+   "pick": false
   },
   {
    "id": "r3288865",
@@ -6827,8 +7221,7 @@
    "town": false,
    "phone": "+3544878845",
    "website": "https://www.skogasafn.is/",
-   "planned": true,
-   "pick": true
+   "planned": true
   },
   {
    "id": "w1228205109",
@@ -6885,6 +7278,27 @@
     [
      4.5,
      6
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
+   "id": "d291",
+   "name": "The Skogar Museum",
+   "lat": 63.52616,
+   "lng": -19.4952,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     0.8,
+     6
+    ],
+    [
+     5.5,
+     5
     ]
    ],
    "town": false,
@@ -7036,8 +7450,45 @@
     ]
    ],
    "town": false,
-   "planned": true,
-   "pick": false
+   "planned": true
+  },
+  {
+   "id": "w-fossárdalur",
+   "name": "Fossárdalur",
+   "lat": 64.753,
+   "lng": -14.4916,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     0.9,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "w-grænavatn",
+   "name": "Grænavatn",
+   "lat": 65.5458,
+   "lng": -16.9856,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     0.9,
+     1
+    ],
+    [
+     11.0,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w1376088953",
@@ -7186,7 +7637,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w94560552",
@@ -7237,8 +7689,7 @@
     ]
    ],
    "town": true,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "w302022139",
@@ -7667,6 +8118,27 @@
    "planned": false
   },
   {
+   "id": "d412",
+   "name": "Höfn",
+   "lat": 64.25384,
+   "lng": -15.22182,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.0,
+     3
+    ],
+    [
+     1.0,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n13414639930",
    "name": "Iðnaðarsafn",
    "lat": 65.66163,
@@ -7785,7 +8257,8 @@
    ],
    "town": false,
    "wikidata": "Q2286006",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w302022086",
@@ -7919,8 +8392,7 @@
    "town": true,
    "website": "https://borgarsogusafn.is/sites/borgarsogusafn.is/files/atoms/files/skilti_2015_franski_spitalinn_web.pdf",
    "address": "Lindargata 51, Reykjavík",
-   "planned": false,
-   "pick": true
+   "planned": false
   },
   {
    "id": "n12718028237",
@@ -8025,6 +8497,23 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "w-lómagnúpur",
+   "name": "Lómagnúpur",
+   "lat": 63.9667,
+   "lng": -17.5167,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     1.1,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n8773296003",
@@ -8162,6 +8651,27 @@
    ],
    "town": false,
    "planned": true
+  },
+  {
+   "id": "w-strandarkirkja",
+   "name": "Strandarkirkja",
+   "lat": 63.83333,
+   "lng": -21.7,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     1.1,
+     7
+    ],
+    [
+     24.9,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "x5a41qdZ9S-a1S-_mXpxx-g",
@@ -8313,7 +8823,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "xlmlgzEGYQdWrmrfECdAEJQ",
@@ -8363,7 +8874,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n11670291606",
@@ -8441,8 +8953,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "d298",
@@ -8688,6 +9199,31 @@
    "planned": false
   },
   {
+   "id": "w-sun-voyager",
+   "name": "Sun Voyager",
+   "lat": 64.14759,
+   "lng": -21.92231,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.3,
+     6
+    ],
+    [
+     1.3,
+     7
+    ],
+    [
+     4.5,
+     0
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n1810528801",
    "name": "Svartifoss",
    "lat": 64.02772,
@@ -8702,7 +9238,8 @@
    ],
    "town": false,
    "wikidata": "Q1145786",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "d356",
@@ -8754,6 +9291,31 @@
    "planned": false
   },
   {
+   "id": "w-hellisheiði-geothermal-exhibition",
+   "name": "Hellisheiði Geothermal Exhibition",
+   "lat": 64.03734,
+   "lng": -21.40065,
+   "kind": "attraction",
+   "cat": "museum",
+   "days": [
+    [
+     1.4,
+     6
+    ],
+    [
+     10.4,
+     7
+    ],
+    [
+     19.7,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n5002318207",
    "name": "Hljóðaklettar",
    "lat": 65.94441,
@@ -8767,7 +9329,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n11388094392",
@@ -8818,8 +9381,7 @@
    ],
    "town": false,
    "wikidata": "Q16419338",
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n312467164",
@@ -8946,7 +9508,23 @@
     ]
    ],
    "town": false,
-   "planned": false,
+   "planned": false
+  },
+  {
+   "id": "d465",
+   "name": "The Múlagljúfur Canyon",
+   "lat": 63.98958,
+   "lng": -16.46137,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.4,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": true,
    "pick": true
   },
   {
@@ -8981,7 +9559,8 @@
    ],
    "town": false,
    "wheelchair": "yes",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "w194100953",
@@ -9047,6 +9626,23 @@
    "town": false,
    "planned": false,
    "pick": false
+  },
+  {
+   "id": "w-fáskrúðsfjörður-french-heritage",
+   "name": "Fáskrúðsfjörður French heritage",
+   "lat": 64.9228,
+   "lng": -13.9829,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     1.5,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n4368453097",
@@ -9197,8 +9793,7 @@
    ],
    "town": false,
    "wikidata": "Q14530276",
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "w1101950521",
@@ -9292,8 +9887,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n6511485673",
@@ -9408,27 +10002,6 @@
    "planned": false
   },
   {
-   "id": "d293",
-   "name": "Mývatn: your ultimate guide for lakeside activities",
-   "lat": 65.60319,
-   "lng": -17.14508,
-   "kind": "attraction",
-   "cat": "attraction",
-   "days": [
-    [
-     1.6,
-     1
-    ],
-    [
-     11.6,
-     2
-    ]
-   ],
-   "town": false,
-   "planned": false,
-   "pick": true
-  },
-  {
    "id": "n600148687",
    "name": "Selfoss",
    "lat": 65.80476,
@@ -9443,7 +10016,8 @@
    ],
    "town": false,
    "wikidata": "Q1429734",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "xp_OjaGUIRpWca_N5DJ85MA",
@@ -9476,8 +10050,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "r13563181",
@@ -9546,6 +10119,23 @@
    "planned": false
   },
   {
+   "id": "w-breiðdalsvík",
+   "name": "Breiðdalsvík",
+   "lat": 64.7833,
+   "lng": -14.0,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     1.7,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n376053760",
    "name": "Brúarhlöð",
    "lat": 64.26015,
@@ -9559,8 +10149,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n5695085648",
@@ -9600,8 +10189,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": true
+   "planned": false
   },
   {
    "id": "n1893548096",
@@ -9967,6 +10555,23 @@
    "planned": false
   },
   {
+   "id": "w-borg-á-mýrum",
+   "name": "Borg á Mýrum",
+   "lat": 64.5615,
+   "lng": -21.9154,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     1.9,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n8318888472",
    "name": "Fell",
    "lat": 63.48604,
@@ -10122,6 +10727,27 @@
    "planned": false
   },
   {
+   "id": "w-vestrahorn",
+   "name": "Vestrahorn",
+   "lat": 64.243,
+   "lng": -14.96,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     1.9,
+     3
+    ],
+    [
+     11.6,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "w411196884",
    "name": "Borgir",
    "lat": 64.1123,
@@ -10268,6 +10894,23 @@
    "planned": false
   },
   {
+   "id": "w-vaglaskógur",
+   "name": "Vaglaskógur",
+   "lat": 65.7158,
+   "lng": -17.8876,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     2.0,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n3696177379",
    "name": "byssustæði",
    "lat": 65.03514,
@@ -10301,7 +10944,8 @@
     ]
    ],
    "town": false,
-   "planned": true
+   "planned": true,
+   "pick": false
   },
   {
    "id": "w698797664",
@@ -10441,7 +11085,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n13736937439",
@@ -10570,7 +11215,8 @@
    "town": false,
    "hours": "09:00-17:00",
    "wikidata": "Q2133154",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n5739845526",
@@ -10822,8 +11468,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "w226389149",
@@ -10869,23 +11514,6 @@
    ],
    "town": true,
    "planned": false
-  },
-  {
-   "id": "d228",
-   "name": "Akureyri: guide to the northern capital",
-   "lat": 65.66818,
-   "lng": -18.13573,
-   "kind": "attraction",
-   "cat": "attraction",
-   "days": [
-    [
-     2.4,
-     1
-    ]
-   ],
-   "town": true,
-   "planned": false,
-   "pick": true
   },
   {
    "id": "n5188870989",
@@ -11203,6 +11831,26 @@
    ],
    "town": false,
    "wheelchair": "yes",
+   "planned": false
+  },
+  {
+   "id": "d382",
+   "name": "Hjörleifshöfði and Yoda cave",
+   "lat": 63.4169,
+   "lng": -18.76768,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     2.5,
+     5
+    ],
+    [
+     11.1,
+     6
+    ]
+   ],
+   "town": false,
    "planned": false,
    "pick": true
   },
@@ -11237,6 +11885,27 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "w-spákonufellsborg",
+   "name": "Spákonufellsborg",
+   "lat": 65.8432,
+   "lng": -20.2468,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     2.5,
+     0
+    ],
+    [
+     2.5,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n2159412765",
@@ -11289,8 +11958,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n9848374160",
@@ -11601,7 +12269,8 @@
    "town": false,
    "address": "Skálholt, Selfoss",
    "wikidata": "Q2293478",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w411196878",
@@ -11636,6 +12305,23 @@
    "town": false,
    "planned": false,
    "pick": false
+  },
+  {
+   "id": "w-hraundrangi-öxnadalur",
+   "name": "Hraundrangi (Öxnadalur)",
+   "lat": 65.59,
+   "lng": -18.596,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     2.8,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n4388664634",
@@ -11708,7 +12394,7 @@
    ],
    "town": false,
    "planned": false,
-   "pick": false
+   "pick": true
   },
   {
    "id": "n312689624",
@@ -11798,7 +12484,7 @@
    ],
    "town": false,
    "planned": false,
-   "pick": false
+   "pick": true
   },
   {
    "id": "n336110959",
@@ -11902,7 +12588,7 @@
    "town": false,
    "wikidata": "Q2522984",
    "planned": false,
-   "pick": false
+   "pick": true
   },
   {
    "id": "n4016646490",
@@ -11923,8 +12609,7 @@
    ],
    "town": false,
    "wikidata": "Q24297011",
-   "planned": false,
-   "pick": true
+   "planned": false
   },
   {
    "id": "n4388664633",
@@ -11956,8 +12641,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n4313417475",
@@ -12014,6 +12698,27 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "x-j1wgd8BRzSI33djRy4FGA",
+   "name": "Sólheimasandur : Plane Wreck",
+   "lat": 63.45936,
+   "lng": -19.36358,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     3.1,
+     5
+    ],
+    [
+     3.1,
+     6
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n445090613",
@@ -12115,6 +12820,23 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "w-kolfreyjustaðarkirkja",
+   "name": "Kolfreyjustaðarkirkja",
+   "lat": 64.9125,
+   "lng": -13.7969,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     3.2,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "x9JaO9DzGR3OImy7j8RRhMQ",
@@ -12708,8 +13430,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n11670453143",
@@ -13092,6 +13813,23 @@
    "planned": false
   },
   {
+   "id": "w-kvíárjökull",
+   "name": "Kvíárjökull",
+   "lat": 63.9558,
+   "lng": -16.5286,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     3.9,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n4565474352",
    "name": "Árbæjarfoss",
    "lat": 63.86276,
@@ -13235,6 +13973,31 @@
    "planned": false
   },
   {
+   "id": "w-viðey",
+   "name": "Viðey",
+   "lat": 64.16667,
+   "lng": -21.86667,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     4.0,
+     6
+    ],
+    [
+     4.0,
+     7
+    ],
+    [
+     4.9,
+     0
+    ]
+   ],
+   "town": true,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "w294240563",
    "name": "Þorbjarnarstaðaborg",
    "lat": 64.01735,
@@ -13300,8 +14063,7 @@
    "website": "https://laugaraslagoon.is/is",
    "address": "Skálholtsvegur 1, Selfoss",
    "hours": "Mo-Su 10:00-21:00",
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n4313417460",
@@ -13417,8 +14179,7 @@
     ]
    ],
    "town": false,
-   "planned": true,
-   "pick": true
+   "planned": true
   },
   {
    "id": "n11389849346",
@@ -13601,8 +14362,7 @@
    ],
    "town": false,
    "wikidata": "Q26208950",
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "r17338017",
@@ -13644,7 +14404,8 @@
    "town": false,
    "wheelchair": "limited",
    "wikidata": "Q16425194",
-   "planned": true
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n2939876611",
@@ -13692,8 +14453,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n11670590675",
@@ -13710,6 +14470,27 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "d332",
+   "name": "Krysuvik and Seltun",
+   "lat": 63.89574,
+   "lng": -22.05396,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     4.5,
+     7
+    ],
+    [
+     14.3,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
   },
   {
    "id": "n11389849344",
@@ -13772,6 +14553,23 @@
    "planned": false
   },
   {
+   "id": "w-svínafellsjökull",
+   "name": "Svínafellsjökull",
+   "lat": 64.02,
+   "lng": -16.824,
+   "kind": "attraction",
+   "cat": "viewpoint",
+   "days": [
+    [
+     4.6,
+     4
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "xDKGmnbVZR96KuTFd8OX4GA",
    "name": "Charming lighthouse with scenic views",
    "lat": 65.7441,
@@ -13808,6 +14606,27 @@
    "town": false,
    "planned": false,
    "pick": false
+  },
+  {
+   "id": "w-fagradalsfjall-lava-fields",
+   "name": "Fagradalsfjall lava fields",
+   "lat": 63.905,
+   "lng": -22.2725,
+   "kind": "attraction",
+   "cat": "volcano",
+   "days": [
+    [
+     4.8,
+     7
+    ],
+    [
+     8.6,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w411196829",
@@ -14023,8 +14842,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n6436805033",
@@ -14061,6 +14879,23 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "d470",
+   "name": "The Kolugljúfur Canyon",
+   "lat": 65.33338,
+   "lng": -20.57387,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     5.1,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n7209257490",
@@ -14213,8 +15048,7 @@
    ],
    "town": false,
    "wikidata": "Q2279586",
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n7809422777",
@@ -14246,8 +15080,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": true
+   "planned": false
   },
   {
    "id": "n11670362367",
@@ -14349,6 +15182,23 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "w-icelandic-seal-centre",
+   "name": "Icelandic Seal Centre",
+   "lat": 65.3953,
+   "lng": -20.9478,
+   "kind": "attraction",
+   "cat": "museum",
+   "days": [
+    [
+     5.6,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "r9679978",
@@ -14498,8 +15348,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n4748565543",
@@ -14559,8 +15408,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "w411197276",
@@ -14937,6 +15785,23 @@
    "planned": false
   },
   {
+   "id": "d285",
+   "name": "The Grabrok crater",
+   "lat": 64.77127,
+   "lng": -21.54067,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     6.4,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n1768178686",
    "name": "Glanni",
    "lat": 64.75387,
@@ -14950,7 +15815,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n1768178824",
@@ -15157,7 +16023,8 @@
     ]
    ],
    "town": false,
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "n1774510306",
@@ -15223,8 +16090,7 @@
    ],
    "town": false,
    "address": "Glaumbæjarkirkja",
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "w431230441",
@@ -15246,7 +16112,8 @@
    "hours": "Oct 21-Mar 31 \"Appointment\"; Apr 01-May 19,Sep 21-Oct 20 Mo-Fr 10:00-16:00; May 20-Sep 20 10:00-18:00; PH \"Like normal day\"",
    "email": "byggdasafn@skagafjordur.is",
    "wikidata": "Q1530105",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "w698586490",
@@ -15301,8 +16168,7 @@
    "town": false,
    "website": "https://www.akranes.is/pages/thjonusta/ithrottir-og-tomstundir/ithrottamannvirki/sundlaugar/",
    "hours": "Mo-Fr 06:30-21:00; Sa-Su 09:00-18:00",
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "xzxAdZ4fvSqya1QT6F9iGQA",
@@ -15685,6 +16551,44 @@
    "planned": false
   },
   {
+   "id": "d416",
+   "name": "Krafla Volcano",
+   "lat": 65.71712,
+   "lng": -16.76317,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     7.6,
+     2
+    ],
+    [
+     9.9,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "xeRNhUNiwRwWneCBnoz7j_A",
+   "name": "Secret Lagoon",
+   "lat": 64.13742,
+   "lng": -20.30958,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     7.6,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
    "id": "n4363605003",
    "name": "Þráinsskjöldur",
    "lat": 63.92333,
@@ -15889,7 +16793,7 @@
    ],
    "town": false,
    "planned": false,
-   "pick": false
+   "pick": true
   },
   {
    "id": "n4313417470",
@@ -16027,6 +16931,23 @@
    "planned": false
   },
   {
+   "id": "w-hreðavatn",
+   "name": "Hreðavatn",
+   "lat": 64.75544,
+   "lng": -21.58824,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     8.4,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n4313417472",
    "name": "Mud Pot",
    "lat": 64.09679,
@@ -16090,7 +17011,7 @@
    ],
    "town": false,
    "planned": false,
-   "pick": false
+   "pick": true
   },
   {
    "id": "d263",
@@ -16156,7 +17077,8 @@
    ],
    "town": false,
    "hours": "10:00-16:00",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "xoDl7amg1SWiQWbrJgFi8Sg",
@@ -16229,8 +17151,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "r13007608",
@@ -16327,6 +17248,31 @@
    "pick": true
   },
   {
+   "id": "d294",
+   "name": "Thrihnukagigur Volcano",
+   "lat": 63.99846,
+   "lng": -21.69896,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     8.8,
+     6
+    ],
+    [
+     13.2,
+     0
+    ],
+    [
+     14.6,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "n1900845723",
    "name": "Þríhnúkagígur",
    "lat": 63.99844,
@@ -16388,6 +17334,27 @@
    "pick": false
   },
   {
+   "id": "w-bridge-between-continents",
+   "name": "Bridge Between Continents",
+   "lat": 63.86838,
+   "lng": -22.67515,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     9.1,
+     7
+    ],
+    [
+     13.5,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
    "id": "w38290957",
    "name": "Brú milli Heimsálfa",
    "lat": 63.8683,
@@ -16402,8 +17369,7 @@
    ],
    "town": false,
    "wikidata": "Q64158851",
-   "planned": true,
-   "pick": false
+   "planned": true
   },
   {
    "id": "n3440728168",
@@ -16732,7 +17698,7 @@
    "town": false,
    "website": "https://www.hrunalaug.is/",
    "planned": false,
-   "pick": false
+   "pick": true
   },
   {
    "id": "n11670453083",
@@ -16781,8 +17747,7 @@
     ]
    ],
    "town": false,
-   "planned": false,
-   "pick": false
+   "planned": false
   },
   {
    "id": "n11670452696",
@@ -16865,7 +17830,8 @@
    ],
    "town": false,
    "wikidata": "Q626642",
-   "planned": false
+   "planned": false,
+   "pick": true
   },
   {
    "id": "xJH1dfUwgQKGyK_6OAZ8aPw",
@@ -16916,6 +17882,27 @@
    ],
    "town": false,
    "planned": false
+  },
+  {
+   "id": "w-hallgrímskirkja-í-saurbæ",
+   "name": "Hallgrímskirkja í Saurbæ",
+   "lat": 64.40561,
+   "lng": -21.62546,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     10.1,
+     0
+    ],
+    [
+     23.6,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "xfvg4K6pcRO-8g-1V3OTnqQ",
@@ -17137,6 +18124,27 @@
    "pick": true
   },
   {
+   "id": "w-hallormsstaðaskógur-atlavík",
+   "name": "Hallormsstaðaskógur & Atlavík",
+   "lat": 65.0954,
+   "lng": -14.7207,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     11.8,
+     2
+    ],
+    [
+     11.8,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "xDQ1U9K6KQ-Sa1rzbd_3HMQ",
    "name": "Geothermal area",
    "lat": 63.81918,
@@ -17156,6 +18164,48 @@
    "town": false,
    "planned": true,
    "pick": false
+  },
+  {
+   "id": "w-gunnuhver",
+   "name": "Gunnuhver",
+   "lat": 63.81986,
+   "lng": -22.6874,
+   "kind": "attraction",
+   "cat": "hot_spring",
+   "days": [
+    [
+     12.1,
+     7
+    ],
+    [
+     18.4,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
+   "id": "w-klifbrekkufossar",
+   "name": "Klifbrekkufossar",
+   "lat": 65.1795,
+   "lng": -14.0815,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     12.2,
+     3
+    ],
+    [
+     17.9,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "xf82s2rsqTEqqjbw4hhnTzQ",
@@ -17255,6 +18305,27 @@
    "pick": false
   },
   {
+   "id": "w-reykjanesviti",
+   "name": "Reykjanesviti",
+   "lat": 63.81567,
+   "lng": -22.7042,
+   "kind": "attraction",
+   "cat": "coast",
+   "days": [
+    [
+     13.0,
+     7
+    ],
+    [
+     19.2,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
    "id": "xRJLg8_UYRw67KVinNnb0Tg",
    "name": "Valahnúkamöl",
    "lat": 63.8125,
@@ -17273,6 +18344,27 @@
    ],
    "town": false,
    "planned": true,
+   "pick": true
+  },
+  {
+   "id": "w-gufufoss",
+   "name": "Gufufoss",
+   "lat": 65.24,
+   "lng": -14.0575,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     13.7,
+     3
+    ],
+    [
+     16.7,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
    "pick": true
   },
   {
@@ -17297,6 +18389,27 @@
    "pick": false
   },
   {
+   "id": "w-valahnúkur",
+   "name": "Valahnúkur",
+   "lat": 63.81234,
+   "lng": -22.71688,
+   "kind": "attraction",
+   "cat": "coast",
+   "days": [
+    [
+     13.7,
+     7
+    ],
+    [
+     19.8,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": true,
+   "pick": true
+  },
+  {
    "id": "xVt3oMaz1SRSWqGDBn5qIIQ",
    "name": "Glacial beauty in Southeast Iceland",
    "lat": 64.41805,
@@ -17316,6 +18429,40 @@
    "town": false,
    "planned": false,
    "pick": false
+  },
+  {
+   "id": "w-glymur",
+   "name": "Glymur",
+   "lat": 64.39081,
+   "lng": -21.25146,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     14.4,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "w-helgustaðanáma",
+   "name": "Helgustaðanáma",
+   "lat": 65.0336,
+   "lng": -13.8527,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     14.4,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "xXIRzDGd3RS6fga2xtcQ5Rg",
@@ -17371,6 +18518,23 @@
    "town": false,
    "planned": false,
    "pick": false
+  },
+  {
+   "id": "w-surtshellir",
+   "name": "Surtshellir",
+   "lat": 64.78457,
+   "lng": -20.72227,
+   "kind": "attraction",
+   "cat": "cave",
+   "days": [
+    [
+     15.2,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "d420",
@@ -17669,7 +18833,7 @@
    ],
    "town": false,
    "planned": false,
-   "pick": false
+   "pick": true
   },
   {
    "id": "xus72geNOSAm3Yg3khoRGEA",
@@ -17687,6 +18851,27 @@
    "town": false,
    "planned": false,
    "pick": false
+  },
+  {
+   "id": "w-tvísöngur",
+   "name": "Tvísöngur",
+   "lat": 65.2678,
+   "lng": -13.9819,
+   "kind": "attraction",
+   "cat": "attraction",
+   "days": [
+    [
+     17.6,
+     3
+    ],
+    [
+     20.0,
+     2
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "xxJJbve60RACXtCiIIh9HrQ",
@@ -17919,6 +19104,27 @@
    "town": false,
    "planned": false,
    "pick": false
+  },
+  {
+   "id": "w-kálfshamarsvík",
+   "name": "Kálfshamarsvík",
+   "lat": 66.0117,
+   "lng": -20.4206,
+   "kind": "attraction",
+   "cat": "coast",
+   "days": [
+    [
+     21.1,
+     0
+    ],
+    [
+     21.1,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
   },
   {
    "id": "xPI6sygBtTCuCTX9wxFswNw",
@@ -18171,6 +19377,40 @@
    "pick": false
   },
   {
+   "id": "w-hólar-í-hjaltadal",
+   "name": "Hólar í Hjaltadal",
+   "lat": 65.7334,
+   "lng": -19.1138,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     23.0,
+     1
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "w-illugastaðir-seal-hide",
+   "name": "Illugastaðir seal hide",
+   "lat": 65.6069,
+   "lng": -20.8901,
+   "kind": "attraction",
+   "cat": "nature",
+   "days": [
+    [
+     23.1,
+     0
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "xLl8SnUK3SEW_PptDMbpTOA",
    "name": "Unicorn-shaped mountain in Iceland",
    "lat": 63.74,
@@ -18243,6 +19483,27 @@
    "pick": false
   },
   {
+   "id": "w-skriðuklaustur",
+   "name": "Skriðuklaustur",
+   "lat": 65.0409,
+   "lng": -14.9527,
+   "kind": "attraction",
+   "cat": "historic",
+   "days": [
+    [
+     24.0,
+     2
+    ],
+    [
+     24.0,
+     3
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
    "id": "xrZvpTC61Roa9FuTpcx3ijg",
    "name": "Beautiful valley",
    "lat": 65.86229,
@@ -18269,6 +19530,23 @@
    "days": [
     [
      24.5,
+     7
+    ]
+   ],
+   "town": false,
+   "planned": false,
+   "pick": true
+  },
+  {
+   "id": "w-háifoss",
+   "name": "Háifoss",
+   "lat": 64.20792,
+   "lng": -19.68699,
+   "kind": "attraction",
+   "cat": "waterfall",
+   "days": [
+    [
+     24.6,
      7
     ]
    ],
